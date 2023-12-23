@@ -1,6 +1,6 @@
 ![Outlandish Revelations](https://bisecthosting.com/images/CF/Outlandish_Revelations/BH_OR_header.webp)
 
-<p style='text-align: center;'>
+<p align="center">
 A Wyther's Wonderland
 </p>
 
