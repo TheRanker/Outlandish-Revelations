@@ -1,0 +1,15 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "TheRanker",
+      "uniqueId": "7c2f5324-c21a-49f1-839e-9d0c5f592bd4"
+    },
+    "time": 1701729874304,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/i9hxLarZeD"
+    }
+  }
+]

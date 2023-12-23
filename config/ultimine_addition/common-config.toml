@@ -1,0 +1,60 @@
+
+[General]
+	#You can change the rate of paper consumption in the Skills Record.
+	#Range: 0.0 ~ 1.0
+	paper_consummation_rate = 0.35
+	#Here, You can change the time to validate the challenges in the mining skills card for fixing the corrupted data if present.
+	#It's formatted in seconds.
+	#Range: 1 ~ 600
+	challenge_validator = 2
+	#This condition is when the block is placed by any entity... It will not count as a point toward the challenges.
+	is_placed_by_entity_condition = true
+
+[Ability]
+	#This makes the ultimine max blocks value different for every tier.
+	tier_based_max_blocks = true
+	#You can change the ultimine max blocks value for each tier.
+	#Range: 1 ~ 64
+	tier_1_max_blocks = 8
+	#Range: 1 ~ 64
+	tier_2_max_blocks = 16
+	#Range: 1 ~ 64
+	tier_3_max_blocks = 32
+	#You can change the ultimine ability time per tier.
+	#It's formatted in seconds.
+	#Range: 60 ~ 3600
+	tier_1_time = 300
+	#Range: 60 ~ 3600
+	tier_2_time = 600
+	#Range: 60 ~ 3600
+	tier_3_time = 1200
+
+[Debug]
+	#Enable or disable the ChunkData logger.
+	chunk_data_logger = false
+	#Enable or disable the ChallengeManager logger.
+	challenge_manager_logger = false
+	challenge_actions_logger = false
+
+[Challenges]
+	#You can change the values on how many challenges should be given in each tier.
+	#But remember that you must have the exact number of challenges available in the Datapack.
+	#Otherwise, it will make the game crash!
+	#Range: 1 ~ 20
+	tier_0_challenges_amount = 1
+	#Range: 1 ~ 20
+	tier_1_challenges_amount = 2
+	#Range: 1 ~ 20
+	tier_2_challenges_amount = 4
+	#Range: 1 ~ 20
+	tier_3_challenges_amount = 5
+
+[Potions]
+	#You can change the values on how many potion points should be given in each tier.
+	#Range: 0 ~ 20
+	tier_1_potion_points = 3
+	#Range: 0 ~ 20
+	tier_2_potion_points = 2
+	#Range: 0 ~ 20
+	tier_3_potion_points = 1
+
