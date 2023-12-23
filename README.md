@@ -1,8 +1,8 @@
 ![Outlandish Revelations](https://bisecthosting.com/images/CF/Outlandish_Revelations/BH_OR_header.webp)
 
-<div style='text-align: center;'>
-  A Wythers's Wonderworld
-</div>
+<p style='text-align: center;'>
+A Wyther's Wonderland
+</p>
 
 Terrain
 
