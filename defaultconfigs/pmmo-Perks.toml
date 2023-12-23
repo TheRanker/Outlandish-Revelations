@@ -1,0 +1,202 @@
+
+#These settings define which perks are used and the settings which govern them.
+[Perks]
+
+	[Perks.For_Event]
+
+		[[Perks.For_Event.JUMP]]
+			skill = "agility"
+			per_level = 5.0E-4
+			perk = "pmmo:jump_boost"
+
+		[[Perks.For_Event.RECEIVE_DAMAGE]]
+			for_damage = "minecraft:fall"
+			skill = "agility"
+			per_level = 0.025
+			perk = "pmmo:damage_reduce"
+
+		[[Perks.For_Event.RECEIVE_DAMAGE]]
+			for_damage = "minecraft:mob_attack"
+			skill = "endurance"
+			per_level = 0.025
+			perk = "pmmo:damage_reduce"
+
+		[[Perks.For_Event.BREAK_SPEED]]
+			pickaxe_dig = 0.005
+			skill = "mining"
+			perk = "pmmo:break_speed"
+
+		[[Perks.For_Event.BREAK_SPEED]]
+			shovel_dig = 0.005
+			skill = "excavation"
+			perk = "pmmo:break_speed"
+
+		[[Perks.For_Event.BREAK_SPEED]]
+			skill = "woodcutting"
+			perk = "pmmo:break_speed"
+			axe_dig = 0.005
+
+		[[Perks.For_Event.BREAK_SPEED]]
+			shears_dig = 0.005
+			sword_dig = 0.005
+			skill = "farming"
+			perk = "pmmo:break_speed"
+			hoe_dig = 0.005
+
+		[[Perks.For_Event.ENTITY]]
+			skill = "charisma"
+			perk = "pmmo:villager_boost"
+
+		[[Perks.For_Event.SKILL_UP]]
+			skill = "mining"
+			perk = "pmmo:fireworks"
+
+		[[Perks.For_Event.SKILL_UP]]
+			skill = "building"
+			per_level = 0.05
+			perk = "pmmo:attribute"
+			attribute = "forge:reach_distance"
+			max_boost = 10.0
+
+		[[Perks.For_Event.SKILL_UP]]
+			skill = "building"
+			perk = "pmmo:fireworks"
+
+		[[Perks.For_Event.SKILL_UP]]
+			skill = "excavation"
+			perk = "pmmo:fireworks"
+
+		[[Perks.For_Event.SKILL_UP]]
+			skill = "woodcutting"
+			perk = "pmmo:fireworks"
+
+		[[Perks.For_Event.SKILL_UP]]
+			skill = "farming"
+			perk = "pmmo:fireworks"
+
+		[[Perks.For_Event.SKILL_UP]]
+			skill = "agility"
+			per_level = 1.5E-5
+			perk = "pmmo:attribute"
+			attribute = "minecraft:generic.movement_speed"
+			max_boost = 1.0
+
+		[[Perks.For_Event.SKILL_UP]]
+			skill = "agility"
+			perk = "pmmo:fireworks"
+
+		[[Perks.For_Event.SKILL_UP]]
+			skill = "endurance"
+			per_level = 0.05
+			perk = "pmmo:attribute"
+			attribute = "minecraft:generic.max_health"
+			max_boost = 10.0
+
+		[[Perks.For_Event.SKILL_UP]]
+			skill = "endurance"
+			perk = "pmmo:fireworks"
+
+		[[Perks.For_Event.SKILL_UP]]
+			skill = "combat"
+			per_level = 0.005
+			perk = "pmmo:attribute"
+			attribute = "minecraft:generic.attack_damage"
+			max_boost = 1.0
+
+		[[Perks.For_Event.SKILL_UP]]
+			skill = "combat"
+			perk = "pmmo:fireworks"
+
+		[[Perks.For_Event.SKILL_UP]]
+			skill = "gunslinging"
+			perk = "pmmo:fireworks"
+
+		[[Perks.For_Event.SKILL_UP]]
+			skill = "archery"
+			perk = "pmmo:fireworks"
+
+		[[Perks.For_Event.SKILL_UP]]
+			skill = "smithing"
+			perk = "pmmo:fireworks"
+
+		[[Perks.For_Event.SKILL_UP]]
+			skill = "flying"
+			perk = "pmmo:fireworks"
+
+		[[Perks.For_Event.SKILL_UP]]
+			skill = "swimming"
+			perk = "pmmo:fireworks"
+
+		[[Perks.For_Event.SKILL_UP]]
+			skill = "sailing"
+			perk = "pmmo:fireworks"
+
+		[[Perks.For_Event.SKILL_UP]]
+			skill = "fishing"
+			perk = "pmmo:fireworks"
+
+		[[Perks.For_Event.SKILL_UP]]
+			skill = "crafting"
+			perk = "pmmo:fireworks"
+
+		[[Perks.For_Event.SKILL_UP]]
+			skill = "magic"
+			perk = "pmmo:fireworks"
+
+		[[Perks.For_Event.SKILL_UP]]
+			skill = "magic"
+			per_level = 3.0
+			perk = "ars_scalaes:mana_boost"
+			max_boost = 3000.0
+
+		[[Perks.For_Event.SKILL_UP]]
+			skill = "magic"
+			per_level = 0.06
+			perk = "ars_scalaes:mana_regen"
+			max_boost = 100.0
+
+		[[Perks.For_Event.SKILL_UP]]
+			skill = "slayer"
+			perk = "pmmo:fireworks"
+
+		[[Perks.For_Event.SKILL_UP]]
+			skill = "hunter"
+			perk = "pmmo:fireworks"
+
+		[[Perks.For_Event.SKILL_UP]]
+			skill = "taming"
+			perk = "pmmo:fireworks"
+
+		[[Perks.For_Event.SKILL_UP]]
+			skill = "cooking"
+			perk = "pmmo:fireworks"
+
+		[[Perks.For_Event.SKILL_UP]]
+			skill = "alchemy"
+			perk = "pmmo:fireworks"
+
+		[[Perks.For_Event.DEAL_DAMAGE]]
+			applies_to = ["minecraft:bow", "minecraft:crossbow", "minecraft:trident"]
+			skill = "archery"
+			perk = "pmmo:damage_boost"
+
+		[[Perks.For_Event.DEAL_DAMAGE]]
+			applies_to = ["ars_nouveau:spell_bow"]
+			skill = "magic"
+			perk = "pmmo:damage_boost"
+
+		[[Perks.For_Event.DEAL_DAMAGE]]
+			applies_to = ["cgm:pistol", "cgm:shotgun", "cgm:rifle"]
+			skill = "gunslinging"
+			perk = "pmmo:damage_boost"
+
+		[[Perks.For_Event.SPRINT_JUMP]]
+			skill = "agility"
+			per_level = 0.001
+			perk = "pmmo:jump_boost"
+
+		[[Perks.For_Event.CROUCH_JUMP]]
+			skill = "agility"
+			per_level = 0.0015
+			perk = "pmmo:jump_boost"
+

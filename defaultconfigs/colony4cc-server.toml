@@ -1,0 +1,11 @@
+
+[balance]
+	#True if creative players using a Pocket Computer don't get charged item costs
+	freeCreativePocketPlayerCost = true
+	#0 = highlightWorker is always free; 1 = normal price
+	#Range: 0 ~ 2
+	highlightWorkerCostMultiplier = 1
+	#0 = highlightBuilding is always free; 1 = normal price; 2+ = cost multiplier
+	#Range: 0 ~ 8
+	highlightBuildingCostMultiplier = 1
+

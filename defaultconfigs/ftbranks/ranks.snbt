@@ -1,0 +1,88 @@
+{
+	recruit: {
+		name: "recruit"
+		power: 1
+		condition: "always_active"
+		ftbranks.name_format: "<&f{name}>"
+		ftbchunks.max_claimed: 20
+		ftbchunks.max_force_loaded: 0
+		command.spark: false
+		command.sparkc: false
+		command.sparkclient: false
+		command.nickname: false
+	}
+	member: {
+		name: "member"
+		power: 50
+		condition: {
+			type: "playtime"
+			time: 12
+			time_unit: "hours"
+		}
+		ftbranks.name_format: "<&aMember {name}&r>"
+		ftbchunks.max_claimed: 125
+		ftbchunks.max_force_loaded: 2
+	}
+	member1: {
+		name: "member1"
+		power: 51
+		condition: {
+			type: "playtime"
+			time: 62
+			time_unit: "hours"
+		}
+		ftbranks.name_format: "<&aMember {name}&r>"
+		ftbchunks.max_claimed: 170
+		ftbchunks.max_force_loaded: 4
+	}
+	member2: {
+		name: "member2"
+		power: 52
+		condition: {
+			type: "playtime"
+			time: 112
+			time_unit: "hours"
+		}
+		ftbranks.name_format: "<&2Member {name}&r>"
+		ftbchunks.max_claimed: 200
+		ftbchunks.max_force_loaded: 6
+	}
+	senior: {
+		name: "senior"
+		power: 54
+		condition: {
+			type: "playtime"
+			time: 1
+			time_unit: "weeks"
+		}
+		ftbranks.name_format: "&2Senior <{name}&r>"
+		ftbchunks.max_claimed: 300
+		ftbchunks.max_force_loaded: 10
+	}
+	vip: {
+		name: "VIP"
+		power: 75
+		ftbranks.name_format: "<&bVIP {name}&r>"
+		ftbchunks.max_claimed: 400
+		ftbchunks.max_force_loaded: 6
+	}
+	mod: {
+		name: "mod"
+		power: 100
+		ftbranks.name_format: "<&6Mod {name}&r>"
+		ftbchunks.max_claimed: 200
+		ftbchunks.max_force_loaded: 5
+		command.nickname: true
+	}
+	admin: {
+		name: "Admin"
+		power: 1000
+		condition: "op"
+		ftbranks.name_format: "<&4Admin &l{name}&r>"
+		ftbchunks.max_claimed: 500
+		ftbchunks.max_force_loaded: 6
+		command: true
+		command.spark: true
+		command.ftbchunks.admin.bypass_protection: true
+	}
+}
