@@ -1,0 +1,12 @@
+{
+  "inventory": {
+    "0:0": "{Count:1b,id:\"minecraft:wooden_sword\",tag:{Damage:0}}",
+    "0:8": "{Count:12b,id:\"minecraft:bread\"}",
+    "0:17": "{Count:1b,id:\"multibeds:bed_kit\"}",
+    "0:6": "{Count:1b,id:\"eccentrictome:tome\",tag:{\"eccentrictome:mods\":{}}}",
+    "0:3": "{Count:1b,id:\"jackseconomy:basic_wallet\",tag:{}}",
+    "0:7": "{Count:1b,id:\"comforts:sleeping_bag_black\"}",
+    "2:0": "{Count:1b,id:\"minecraft:shield\",tag:{Damage:0}}"
+  },
+  "wipeBlacklist": []
+}
