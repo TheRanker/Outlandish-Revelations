@@ -1,0 +1,23 @@
+#Visualizer number suffix 
+#By default the International System of Units (SI) is used, but you can use whatever you want.
+#Values are separated by a comma, empty values use the default (spaces are ignored, so feel free to copy an example)
+#  SI/Metric:  " K,  M,  G,   T,   P,   E,   Z,   Y,   R,   Q"
+#  Notation:   "^3, ^6, ^9, ^12, ^15, ^18, ^21, ^24, ^27, ^30"
+#  ShortScale: " k,  M,  B,   T,  Qa,  Qi,  Sx,  Sp,  Oc,  No"
+#  LongScale:  " k,  M, kM,   B,  kB,   T,  kT,  Qa, kQa,  Qi"
+#    (milliard etc. don't seem to have abbreviations; since they are a thousand of the previous the example prefixes them with 'k')
+number_suffix = ""
+
+#Select A GUI Style
+[gui_style]
+	#Allowed Values: DEFAULT, VANILLA
+	assembler = "DEFAULT"
+	#Allowed Values: DEFAULT, VANILLA
+	chameleon = "DEFAULT"
+	#Allowed Values: DEFAULT, VANILLA
+	junkbox = "DEFAULT"
+	#Allowed Values: DEFAULT, VANILLA
+	queue = "DEFAULT"
+	#Allowed Values: DEFAULT, VANILLA
+	stacking = "DEFAULT"
+

@@ -1,0 +1,156 @@
+
+#Lobby
+[Commands]
+	#Delay in seconds before a teleport command could be used again!
+	#Range: 1 ~ 300
+	generalCommandCoolDown = 30
+	#Teleports the player to the lobby for their first connect or after a server restart!
+	generalDefaultToLobby = true
+	#Only teleports the player once to the lobby with their first connect!
+	generalDefaultToLobbyOnce = false
+	#Always teleport player to the lobby!
+	generalDefaultToLobbyAlways = true
+
+[Teleport]
+	#Enables teleport delay to avoid cheating!
+	teleportDelayEnabled = false
+	#Shows/hide the teleport countdown in the user chat.
+	teleportDelayCounterVisible = true
+	#Teleport delay in seconds a player needs to stand still to teleport.
+	#Range: 0 ~ 60
+	teleportDelayCounter = 5
+
+["Default Dimension"]
+	defaultEnabled = true
+	defaultDimension = "minecraft:overworld"
+	defaultDimensionName = "Overworld"
+	#Command user could use to teleport to the dimension like /spawn
+	defaultCommandName = "overworld"
+	#Range: 0 ~ 4
+	defaultCommandPermissionLevel = 0
+	#If enabled the teleport command could not be used if the user is already in the default dimension.
+	defaultRestrictCommand = false
+	defaultUseCustomSpawnPoint = false
+	#Defines the amount of ticks how long the fall protection is enabled.
+	#Range: 0 ~ 1200
+	defaultFallProtection = 200
+	#Defines the amount of ticks how long the fire protection is enabled.
+	#Range: 0 ~ 1200
+	defaultFireProtection = 200
+	#Defines the amount of ticks how long the heal is enabled.
+	#Range: 0 ~ 1200
+	defaultHeal = 0
+	#Range: -1000 ~ 1000
+	defaultSpawnPointX = 68
+	#Range: -1000 ~ 1000
+	defaultSpawnPointY = 65
+	#Range: -1000 ~ 1000
+	defaultSpawnPointZ = -89
+
+["Lobby Dimension"]
+	lobbyEnabled = true
+	lobbyDimension = "lobby:lobby_dimension"
+	lobbyDimensionName = "Rankers Lobby"
+	#Command user could use to teleport to the dimension like /lobby
+	lobbyCommandName = "lobby"
+	#Range: 0 ~ 4
+	lobbyCommandPermissionLevel = 0
+	#If enabled the teleport command could not be used if the user is already in the lobby dimension.
+	lobbyRestrictCommand = false
+	lobbyDisableMobSpawning = true
+	lobbyUseCustomSpawnPoint = false
+	#Range: -1000 ~ 1000
+	lobbySpawnPointX = 9
+	#Range: -1000 ~ 1000
+	lobbySpawnPointY = 9
+	#Range: -1000 ~ 1000
+	lobbySpawnPointZ = 9
+	#List of builders which are automatically switched to the creative mode inside the lobby dimension.
+	lobbyBuilderList = [""]
+
+["Mining Dimension"]
+	miningEnabled = false
+	miningDimension = "lobby:mining_dimension"
+	miningDimensionName = "Rankers Mining"
+	#Command user could use to teleport to the dimension like /mining
+	miningCommandName = "mining"
+	#Range: 0 ~ 4
+	miningCommandPermissionLevel = 0
+	#If enabled the teleport command could not be used if the user is already in the mining dimension.
+	miningRestrictCommand = false
+	miningDisableMobSpawning = true
+	miningDisableBatSpawning = true
+	miningDisableMinecartChestSpawning = true
+	miningRemoveLootChest = true
+	miningRemoveSpawner = true
+	miningUseCustomSpawnPoint = false
+	#Range: -1000 ~ 1000
+	miningSpawnPointX = 200
+	#Range: -1000 ~ 1000
+	miningSpawnPointY = 11
+	#Range: -1000 ~ 1000
+	miningSpawnPointZ = 558
+
+["Fishing Dimension"]
+	fishingEnabled = true
+	fishingDimension = "lobby:fishing_dimension"
+	fishingDimensionName = "Rankers Fishery"
+	#Command user could use to teleport to the dimension like /fishing
+	fishingCommandName = "fishing"
+	#Range: 0 ~ 4
+	fishingCommandPermissionLevel = 0
+	#If enabled the teleport command could not be used if the user is already in the fishing dimension.
+	fishingRestrictCommand = false
+	fishingDisableMobSpawning = true
+	fishingUseCustomSpawnPoint = false
+	#Range: -1000 ~ 1000
+	fishingSpawnPointX = 42
+	#Range: -1000 ~ 1000
+	fishingSpawnPointY = 51
+	#Range: -1000 ~ 1000
+	fishingSpawnPointZ = 12
+	#List of builders which are automatically switched to the creative mode inside the fishing dimension.
+	fishingBuilderList = [""]
+
+["Gaming Dimension"]
+	gamingEnabled = true
+	gamingDimension = "lobby:gaming_dimension"
+	gamingDimensionName = "Rankers Gaming"
+	#Command user could use to teleport to the dimension like /gaming
+	gamingCommandName = "gaming"
+	#Range: 0 ~ 4
+	gamingCommandPermissionLevel = 0
+	#If enabled the teleport command could not be used if the user is already in the gaming dimension.
+	gamingRestrictCommand = false
+	gamingDisableMobSpawning = false
+	gamingUseCustomSpawnPoint = false
+	#Range: -1000 ~ 1000
+	gamingSpawnPointX = 9
+	#Range: -1000 ~ 1000
+	gamingSpawnPointY = 9
+	#Range: -1000 ~ 1000
+	gamingSpawnPointZ = 9
+	#List of builders which are automatically switched to the creative mode inside the gaming dimension.
+	gamingBuilderList = [""]
+
+["Void Dimension"]
+	voidEnabled = false
+	voidDimension = "lobby:void_dimension"
+	voidDimensionName = "Void"
+	#Command user could use to teleport to the dimension like /void
+	voidCommandName = "void"
+	#Range: 0 ~ 4
+	voidCommandPermissionLevel = 0
+	#If enabled the teleport command could not be used if the user is already in the void dimension.
+	voidRestrictCommand = false
+	voidDisableMobSpawning = false
+	voidUseCustomSpawnPoint = false
+	#Range: -1000 ~ 1000
+	voidSpawnPointX = 9
+	#Range: -1000 ~ 1000
+	voidSpawnPointY = 9
+	#Range: -1000 ~ 1000
+	voidSpawnPointZ = 9
+	#List of builders which are automatically switched to the creative mode inside the void dimension.
+	voidBuilderList = [""]
+

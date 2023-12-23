@@ -1,0 +1,216 @@
+#Message Inputs for Lightman's Discord Integration.
+#Type \n for a new line. Some messages will have optional inputs surrounded by {} to be filled in with various data.
+#Each message should list the optional inputs, and what they'll be replaced by.
+
+#How discord messages appear in minecraft.
+#{user} for the discord users formatted name.
+#{message} for the message sent.
+chat_minecraft=[DISCORD] <{user}> {message}
+
+#How discord bot messages appear in minecraft.
+#{bot} for the bots name.
+#{message} for the message sent. Should contain this under all circumstances.
+chat_minecraft_bot=[{bot}] {message}
+
+#Format of minecraft messages in discord.
+#{player} for player name.
+#{message} for chat message.
+chat_discord=**{player}:** {message}
+
+#Format of player join message in discord.
+#{minecraft} for default minecraft translation.
+#{player} for player name.
+chat_playerjoin={minecraft}
+
+#Format of player leave message in discord.
+#{minecraft} for default minecraft translation.
+#{player} for player name.
+chat_playerleave={minecraft}
+
+#Format of the title shown above the player list when running the !list command in the chat channel.
+#{count} for the number of players online.
+chat_playerlist_starter=There are {count} players online.
+
+#Format of the achievement announcement in discord.
+#{player} for the player.
+#{achievename} for the achievement's name.
+#{achievedesc} for the achievements description.
+chat_achievement={player} hast made the achievement **{achievename}**\n*{achievedesc}*
+
+#Format of the player death message in discord.
+#{minecraft} for default minecraft death message.
+#{player} for the player name.
+chat_playerdeath={minecraft}
+
+#Format of the named entity death message in discord.
+#{minecraft} for default minecraft death message.
+#{entity} for the entity name.
+chat_entitydeath={minecraft}
+
+#Message shown in minecraft when hovering over a discord users name from 'chat_minecraft' and 'chat_minecraft_bot' messages.
+chat_mention_hover=Mention
+
+#Message sent when the console bot is ready for commands.
+consolebot_ready=Console Bot is ready!
+
+#Message sent when the server starts booting, and the bot is loaded.
+chat_server_boot=Server is booting!
+
+#Message sent when the server is done booting.
+chat_server_ready=Server is ready for players!
+
+#Message sent when the server is done booting.
+chat_server_stop=Server has stopped.
+
+#Format of the server chats topic.
+#{playerCount} for online player count.
+#{playerLimit} for player limit.
+topic_text=There are {playerCount} players online.
+
+#Topic text while the server is booting.
+topic_booting=Server is booting.
+
+#Topic text when the server is stopped. May not always trigger before the bot is stopped.
+topic_offline=Server is offline.
+
+#Format of the bots activity text.
+#{playerCount} for online player count.
+#{playerLimit} for player limit.
+activity_text={playerCount} players online
+
+#Activity text while the server is booting.
+activity_booting=Server is booting.
+
+#Activity text when the server is stopped. May not always trigger before the bot is stopped.
+activity_offline=Server is offline.
+
+#Error message sent when a player attempts to run a command they don't have permission for.
+error_permissions=You do not have permission to run that command.
+
+#Error message sent when the player doesn't ping a user when running a command that requires it.
+error_noping=No user was pinged.
+
+#Error message sent when the bot was unable to extract the user from the ping.
+error_ping=Error extracting user from ping. Did they leave the discord server?
+
+#Error message sent when a command requiring a linked user was not linked to a minecraft account.
+#{user} for the pinged users name.
+error_notlinked={user} is not linked to a minecraft account.
+
+#Error message sent when a command requiring the executor to be linked to a minecraft account, but they aren't linked.
+error_notlinked_self=Your account is not linked to a minecraft account.
+
+#Error message sent when !linkuser is run on an already linked minecraft player.
+#{player} for the players name.
+command_linkuser_playerlinked='{player}' is already linked to a discord account.
+
+#Error message sent when !linkuser is run on an already linked discord account.
+#{user} for their discord accounts name.
+#{player} for their linked minecraft account name.
+command_linkuser_userlinked='{user}' is already linked to {player}.
+
+#Error message sent when !linkuser is run on a discord account with a pending link.
+#{user} for their discord accounts name.
+command_linkuser_userpending='{user}' already has a pending link.
+
+#Error message sent when !linkuser is run with a non-existent minecraft account.
+#{player} for the invalid minecraft name.
+command_linkuser_noaccount='{player}' is not a valid Minecraft account.
+
+#Message sent when !linkuser is run successfully.
+#{player} for the players name.
+#{user} for their discord accounts name.
+command_linkuser_success=Successfully linked {user} to '{player}'
+
+#PM sent to users linked by the !linkuser command. New lines can be defined by a \n
+command_linkuser_welcome=
+
+#Message sent when !unlinkplayer fails to find a linked account for the given player.
+#{player} for the input player name.
+command_unlinkplayer_fail='{player}' is not linked to any accounts.
+
+#Message sent when !unlinkplayer is run successfully.
+#{player} for the players name.
+#{user} for their discord accounts name.
+command_unlinkplayer_success='{player}' has been unlinked from {user}'s account.
+
+#Message sent when !link failes due to their account already being linked to an account.
+command_link_fail=Your discord account is already linked to an account.
+
+#Message sent in the public channel when !link is run successfully.
+command_link_success=Your link key has been sent to you via private message.
+
+#Message sent in a PM to the player when !link is run successfully.
+#Must contain the {linkkey} text.
+#{linkkey} for the link key.
+#{command} for the mincraft command suggestion '/link {linkkey}'
+command_link_message=Your link key is '{linkkey}'.\nLog in to the server and run '{command}' to finish linking your account.
+
+#Message sent when !unlink fails to find a linked account for the player.
+command_unlink_fail=Your discord account is not linked to a minecraft account on this server.
+
+#Message sent when !unlink successfully unlinks the player from their minecraft account.
+#{player} for their minecraft name.
+command_unlink_success=Your discord account has been successfully unlinked from '{player}'.
+
+#Message sent when !unlink successfully unlinks the player from a pending link.
+command_unlink_success_pending=You discord accounts pending link has been removed.
+
+#Message sent when !ign is run successfully.
+command_ign_success={user} is linked to {player}
+
+#Message sent when !discordname is run successfully.
+#{player} for their minecraft name.
+#{user} for their discord name.
+command_discordname_success='{player}' is linked to {member}
+
+#Message sent when !discordname could not find a linked account for the given player.
+#{player} for their minecraft name.
+command_discordname_fail='{player}' is not linked to a discord account.
+
+#Help message for !help.
+help_help=Show this help info.
+
+#Help message for !link.
+help_link=Generate a link key to start the linking process.
+
+#Help message for !unlink.
+help_unlink=Unlink your discord account from your minecraft username.
+
+#Help message for !linkuser.
+help_linkuser=Links the replied pinged users account to the given minecraft username.
+
+#Help message for !unlinkplayer.
+help_unlinkplayer=Unlinks the given minecraft user from their discord account.
+
+#Help message for !discordlist.
+help_discordlist=Lists data about every linked minecraft/discord account. **WARNING: SENSITIVE DATA, DO NOT RUN IN A PUBLIC CHANNEL!**
+
+#Help message for !discordname.
+help_discordname=Get the discord members name of the given minecraft account.
+
+#Help message for !ign.
+help_ign=Get the ign of the pinged users minecraft account.
+
+#Message displayed when the player successfully runs the /linkdiscord [linkkey] command.
+#{user} for their linked discord name.
+command_linkdiscord_complete=Your account has been successfully linked to your discord account.
+
+#Message displayed when the player runs the /linkdiscord [linkkey] command with an invalid key.
+#{linkkey} for the invalid link key.
+command_linkdiscord_badkey={linkkey} is not a valid link key.
+
+#Message displayed when the player runs the /linkdiscord [linkkey] command when their minecraft account is already linked to a discord account.
+#{user} for their linked discord name.
+command_linkdiscord_alreadylinked=Your account is already linked to a discord account.
+
+#Message displayed when the player successfully runs the /unlinkdiscord command.
+#{user} for their formerly linked discord name.
+command_unlinkdiscord_complete=You are no longer linked to {user}.
+
+#Message displayed when the player runs the /unlinkdiscord command when they're not linked.
+command_unlinkdiscord_fail=Your account is not linked to a discord account.
+
+#Message displayed when an admin runs the /telldiscord <message> command successfully!
+command_telldiscord=Message '{message}' sent!
+
