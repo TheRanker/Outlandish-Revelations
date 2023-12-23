@@ -1,4 +1,4 @@
-![Outlandish Revelations]{https://bisecthosting.com/images/CF/Outlandish_Revelations/BH_OR_header.webp}
+!{https://bisecthosting.com/images/CF/Outlandish_Revelations/BH_OR_header.webp}
 A Wythers's Wonderworld
 
 
