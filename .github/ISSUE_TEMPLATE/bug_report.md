@@ -25,7 +25,8 @@ If applicable, add screenshots to help explain your problem.
 
 **Desktop (please complete the following information):**
  - OS: [e.g. Windows or Mac]
- - Browser [e.g. 4GB, 8GB]
+ - Launcher: [e.g. CurseForge, tLauncher, etc]
+ - Memory: [e.g. 4GB, 8GB]
  - Modpack Version [e.g. 2.2 Alpha]
 
 **Additional context**
