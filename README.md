@@ -28,3 +28,6 @@ Invites YOU to explore a modern Minecraft theme where the influences of GregTech
 
 
 ![Outlandish Revelations](https://bisecthosting.com/images/CF/Outlandish_Revelations/BH_OR_promo.webp)
+
+https://discord.gg/qhM8gb7QtM
+https://curseforge.com/minecraft/modpacks/outlandish-revelations
