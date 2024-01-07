@@ -1,0 +1,14 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 370458167,
+    "separation": 100,
+    "spacing": 400
+  },
+  "structures": [
+    {
+      "structure": "evilcraft:dark_temple",
+      "weight": 1
+    }
+  ]
+}

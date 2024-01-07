@@ -1,0 +1,20 @@
+{
+  "forge:conditions": [
+    {
+      "type": "apotheosis:module",
+      "module": "adventure"
+    }
+  ],
+  "structures": [
+    {
+      "structure": "apotheosis:tower_leaf",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 150,
+    "separation": 86,
+    "salt": 11114412
+  }
+}

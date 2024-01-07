@@ -1,0 +1,8 @@
+{
+  "type": "evilcraft:dark_temple",
+  "biomes": "#evilcraft:has_structure/dark_temple",
+  "minHeight": 300,
+  "maxHeight": 301,
+  "spawn_overrides": {},
+  "step": "surface_structures"
+}
