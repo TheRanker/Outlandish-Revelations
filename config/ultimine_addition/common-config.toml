@@ -9,6 +9,11 @@
 	challenge_validator = 2
 	#This condition is when the block is placed by any entity... It will not count as a point toward the challenges.
 	is_placed_by_entity_condition = true
+	#MODERN: This is the current modern playstyle of the mod! With new features and exciting challenges.
+	#ONE_TIER_ONLY [WIP]: There will be one tier for the Mining Skill Card. If you complete all the challenges, it will turn the card to the Mastered tier immediately.
+	#LEGACY: It will revert the mod mechanics as it was on the original release. ("v0.1.0") There will be only the miner certificate with one challenge to complete.
+	#Allowed Values: MODERN, ONE_TIER_ONLY, LEGACY
+	playstyle_mode = "MODERN"
 
 [Ability]
 	#This makes the ultimine max blocks value different for every tier.
@@ -48,6 +53,12 @@
 	tier_2_challenges_amount = 4
 	#Range: 1 ~ 20
 	tier_3_challenges_amount = 5
+	#Here, you can change the value for the required amount of ores.
+	#NOTE: This values only matters if the playstyle is set on Legacy.
+	#Range: 1 ~ 999999
+	legacy_required_amount_min = 400
+	#Range: 1 ~ 999999
+	legacy_required_amount_max = 400
 
 [Potions]
 	#You can change the values on how many potion points should be given in each tier.
@@ -57,4 +68,14 @@
 	tier_2_potion_points = 2
 	#Range: 0 ~ 20
 	tier_3_potion_points = 1
+
+[Trades]
+	#Here, you can change which level the Mining Skill Card appears in villager trades.
+	#Range: 1 ~ 5
+	villager_card_trade_level = 2
+	#It will change the Mining Skill Card cost in villager trades.
+	#Range: 1 ~ 64
+	trade_low_price = 8
+	#Range: 1 ~ 64
+	trade_high_price = 24
 

@@ -17,7 +17,7 @@ I:defaultguiscale = '-1';
 ##[customization]
 
 B:advancedmode = 'false';
-B:showcustomizationbuttons = 'true';
+B:showcustomizationbuttons = 'false';
 
 
 ##[loading]
@@ -34,7 +34,7 @@ S:customgameintroskiptext = '';
 [A minecraft restart is required after changing this value.]
 S:customwindowtitle = '';
 [A minecraft restart is required after changing this value.]
-B:customwindowicon = 'false';
+B:customwindowicon = 'true';
 
 
 ##[world_loading_screen]
@@ -65,7 +65,7 @@ B:showvanillamovewarning = 'true';
 ##[ui]
 
 B:show_unicode_warning = 'true';
-F:uiscale = '1.0';
+F:uiscale = '2.0';
 
 
 ##[compatibility]

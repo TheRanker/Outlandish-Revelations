@@ -1,7 +1,4 @@
 {
-  "toms_trading_network": {
-    "vending_machine": true
-  },
   "enderchests": {
     "hud": true
   },
@@ -88,6 +85,9 @@
     "registry_name": "OFF",
     "mod_name": true
   },
+  "expatternprovider": {
+    "jade_wireless": true
+  },
   "apotheosis": {
     "adventure": true,
     "ench": true,
@@ -99,6 +99,18 @@
   "platforms": {
     "hud": true
   },
+  "ae2": {
+    "part_icon": true,
+    "charger": true,
+    "debug": true,
+    "part_tooltip": true,
+    "grid_node_state": true,
+    "pattern_provider": true,
+    "part_mod_name": true,
+    "power_storage": true,
+    "crafting_monitor": true,
+    "part_name": true
+  },
   "productivebees": {
     "solitary_nest": true,
     "jar": true,
@@ -108,6 +120,9 @@
   },
   "multistorage": {
     "hud": true
+  },
+  "ars_nouveau": {
+    "mob_jar": true
   },
   "jadeaddons": {
     "equipment_requirement": ""
