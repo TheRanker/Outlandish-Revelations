@@ -1,27 +1,16 @@
 ServerEvents.recipes(event => {
 
-
     event.remove('advancedperipherals:geo_scanner')
     event.shaped('advancedperipherals:geo_scanner', [
-    
         'DMD', 
-    
         'DCD', 
-    
         'ROR'  
-    
       ], {
-    
         D: '#forge:gems/diamond', 
-    
         C: 'advancedperipherals:peripheral_casing', 
-    
         R: 'gtceu:aluminium_single_wire',
-
         O: 'minecraft:observer',
-        
         M: 'computercraft:wired_modem_full'
-    
       })
     
     event.remove('advancedperipherals:block_reader')
