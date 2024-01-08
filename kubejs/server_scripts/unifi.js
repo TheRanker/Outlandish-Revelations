@@ -20,7 +20,7 @@ for (let i = 0; i < thermalMaterials.length; i++) {
     event.remove({ output: 'thermal:' + thermalMaterials[i] + '_gear'})
     event.remove({ output: 'thermal:' + thermalMaterials[i] + '_plate'})
     }
-})
+
 
 for (let i = 0; i < createMaterials.length; i++) {
     event.replaceInput({ input:'create:' + createMaterials[i] + '_ingot'}, 'create:' + createMaterials[i] + '_ingot' ,'#forge:ingots/' + createMaterials[i])
@@ -33,3 +33,5 @@ event.replaceInput({ input:'createadditions:brass_rod'}, 'createadditions:brass_
 event.remove({ output: 'create:brass_sheet'})
 event.remove({ output: 'create:brass_nugget'})
 event.remove({ output: 'create:brass_nugget'})
+
+})
