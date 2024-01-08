@@ -1,5 +1,5 @@
 
-//Takes list of thermal and create materials that exist in gregtech and ore-dict them, followed by removing the ability to make the themral version for any recipe
+//Takes list of thermal and create materials that exist in gregtech and ore-dict them, followed by removing the ability to make the thermal version for any recipe
 const thermalMaterials = ['tin', 'lead', 'silver', 'bronze', 'nickel', 'invar', 'electrum']
 const createMaterials = ['zinc', 'brass']
 
