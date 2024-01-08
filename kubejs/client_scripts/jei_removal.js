@@ -1,7 +1,7 @@
 //hide things in Jei
 JEIEvents.hideItems(event => {
     event.hide([
-        'minecraft:light_gray_bed',
+    'minecraft:light_gray_bed',
 	'minecraft:gray_bed',
 	'minecraft:black_bed',
 	'minecraft:brown_bed',
@@ -1055,6 +1055,14 @@ JEIEvents.hideItems(event => {
 	'minecraft:archer_pottery_sherd',
 	'minecraft:arms_up_pottery_sherd',
 	'minecraft:axolotl_bucket',
+	'minecraft:coal_ore',
+	'minecraft:deepslate_coal_ore',
+	'minecraft:iron_ore',
+	'minecraft:deepslate_iron_ore',
+	'minecraft:gold_ore',
+	'minecraft:deepslate_gold_ore',
+	'minecraft:copper_ore',
+	'minecraft:deepslate_copper_ore',
 	'minecraft:blade_pottery_sherd',
 	'minecraft:brewer_pottery_sherd',
 	'minecraft:budding_amethyst',
@@ -2224,7 +2232,6 @@ JEIEvents.hideItems(event => {
 	'pneumaticcraft:creative_upgrade',
 	'pneumaticcraft:radiation_shielding_upgrade',
 	'pneumaticcraft:thaumcraft_upgrade',
-	'powah:energy_cell_creative',
 	'productivebees:amber',
 	'productivebees:crimson_bee_nest',
 	'productivebees:invisible_redstone_block',
@@ -2390,11 +2397,6 @@ JEIEvents.hideItems(event => {
 	'twilightforest:wrought_iron_fence',
 	'twilightforest:yellow_castle_door',
 	'twilightforest:yellow_castle_rune_brick',
-	'ultimate_star:processing_ultimate_star',
-	'ultimate_star:processingultimatecoin',
-	'ultimate_star:ultimate_star',
-	'ultimate_star:ultimatecoin',
-	'ultimine_addition:pen',
 	'undergarden:amorous_bristle',
 	'undergarden:ashen_deepturf',
 	'undergarden:blisterberry',
@@ -2524,8 +2526,7 @@ JEIEvents.hideItems(event => {
 	'untamedwilds:spawn_softshell_turtle',
 	'untamedwilds:spawn_tortoise',
 	'waystones:return_scroll',
-	'waystones:warp_scroll',
-	'zerocore:debugtool'
+	'waystones:warp_scroll'
     ])
 })
 
