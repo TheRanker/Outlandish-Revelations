@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< Updated upstream
 
 .persistent/
 
@@ -43,6 +44,52 @@ screenshots/
 options.txt
 
 usercache.json
+=======
+
+.persistent/
+
+.vscode/
+
+blueprints/
+
+crash-reports/
+
+fancymenu_data/
+
+journeymap/
+
+local/
+
+logs/
+
+modernfix/
+
+mods/
+
+resources/
+
+saves/
+
+shaderpacks/
+
+.curseclient
+
+imgui.ini
+
+patchouli_data.json
+
+rhino.local.properties
+
+minecraftinstance.json
+
+usernamecache.json
+
+screenshots/
+
+options.txt
+
+usercache.json
+>>>>>>> Stashed changes
 =======
 
 .persistent/

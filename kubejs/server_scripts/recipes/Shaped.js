@@ -1,6 +1,28 @@
 ServerEvents.recipes(event => {
 
-    event.remove('advancedperipherals:geo_scanner')
+    //Minecraft
+    event.shaped('minecraft:hay_block', [
+    'AAA', 
+    'AAA', 
+    'AAA'  
+  ], {
+    A: 'minecraft:wheat'   
+  });
+
+    event.shaped('minecraft:bamboo_raft', [
+    'ABA', 
+    'ACA', 
+    'DDD'  
+  ], {
+
+    A: 'minecraft:bamboo_planks',
+    B: 'minecraft:wooden_shovel',
+    C: '#forge:tools/knives',
+    D: 'minecraft:bamboo_slab'   
+  }).id('gtceu:shaped/bamboo_raft');
+
+  //Advanced Peripherals
+  event.remove('advancedperipherals:geo_scanner')
     event.shaped('advancedperipherals:geo_scanner', [
         'DMD', 
         'DCD', 
@@ -98,4 +120,38 @@ ServerEvents.recipes(event => {
         r:'gtceu:aluminium_single_wire'
     })
 
-    })
+    //Jacks Economy
+    event.shaped('jackseconomy:advanced_wallet', [
+        'ABA', 
+        'BCB', 
+        'ABA'  
+    
+      ], {
+        A: 'jackseconomy:fifty_dollar_bill', 
+        B: 'minecraft:leather', 
+        C: 'jackseconomy:intermediate_wallet'   
+      })
+    
+
+    event.shaped('jackseconomy:intermediate_wallet', [
+        'ABA', 
+        'BCB', 
+        'ABA'  
+      ], {
+    
+        A: 'jackseconomy:ten_dollar_bill', 
+        B: 'minecraft:leather', 
+        C: 'jackseconomy:basic_wallet'   
+      })
+    
+
+    event.shaped('jackseconomy:the_phat_wallet', [
+        'ABA', 
+        'BCB', 
+        'ABA'  
+      ], {
+        A: 'jackseconomy:thousand_dollar_bill', 
+        B: 'minecraft:leather', 
+        C: 'jackseconomy:advanced_wallet'   
+      })
+})
