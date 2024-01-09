@@ -1,4 +1,6 @@
 ServerEvents.recipes(event => {
+
+    //CC Tweaked
     event.replaceInput({mod: 'computercraft'}, 'minecraft:redstone', 'gtceu:terminal')
     event.replaceInput({mod: 'computercraft'}, 'minecraft:golden_apple', 'toms_storage:ts.wireless_terminal')
     event.replaceInput({mod: 'advancedperipherals'}, 'minecraft:redstone', 'gtceu:terminal')
