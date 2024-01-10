@@ -42,6 +42,7 @@ ServerEvents.recipes(event => {
             event.recipes.gtceu.assembler(recipeName).inputFluids(Fluid.of(inputFluids, fluidAmount)).itemOutputs(itemOutputs).duration(duration).EUt(EUt).itemInputs(firstItem).itemInputs(secondItem).itemInputs(firstItem).itemInputs(fourthItem).itemInputs(fithItem).itemInputs(sixthItem).itemInputs(seventhItem).itemInputs(eighthItem).itemInputs(ninthItem)
         }
     }
+    const ULV = 7, LV = 30, MV = 120, HV = 480, EV = 1920, IV = 7680, LuV = 30720, ZPM = 122880, UV = 491520, UHV = 1966080, UEV = 7864320, UIV = 31457280, UXV = 125829120, OpV = 503316480, MAX =2013265920
 
     function maceratorRecipe(recipeName, itemOutputs, duration, EUt,  itemInputs){
         event.recipes.gtceu.macerator(recipeName).itemInputs(itemInputs).itemOutputs(itemOutputs).duration(duration).EUt(EUt)

@@ -1,23 +1,4 @@
 ServerEvents.recipes(event => {
-    const enderIoRemove = ['alloy_smelter', 'sag_mill', 'stirling_generator', 'primitive_alloy_smelter']
-    for (let i = 0; i < enderIoRemove.length; i++) {
-        event.remove({ output: 'enderio:' + enderIoRemove[i] })
-    }
-
-    event.remove({type: 'enderio:alloy_smelting'})
-    event.shaped('enderio:primitive_alloy_smelter', [
-        'AAA', 
-        'ABA', 
-        'CCC'  
-      ], {
-        A: 'minecraft:cobblestone',
-        B: '#forge:campfires',
-        C: 'minecraft:cobbled_deepslate' 
-      })      
-
-})
-
-ServerEvents.recipes(event => {
 
     const rawMaterials = ['iron', 'gold', 'copper', 'silver', 'tin', 'lead', 'zinc', 'nickel']
 
@@ -33,7 +14,7 @@ ServerEvents.recipes(event => {
         tank,
     } = event.recipes.enderio;
 
-    const enderIoRemove = ['alloy_smelter', 'sag_mill', 'stirling_generator', 'primitive_alloy_smelter']
+    const enderIoRemove = ['alloy_smelter', 'sag_mill', 'stirling_generator', 'primitive_alloy_smelter', 'powdered_coal', 'powdered_iron', 'powdered_gold', 'powdered_copper', 'powdered_tin', 'powdered_ender_pearl', 'powdered_obsidian', 'powdered_cobalt', 'powdered_lapis_lazuli', 'powdered_quartz', 'silicon']
     for (let i = 0; i < enderIoRemove.length; i++) {
         event.remove({ output: 'enderio:' + enderIoRemove[i] })
     }
@@ -84,4 +65,24 @@ ServerEvents.recipes(event => {
     alloy_smelting("minecraft:lapis_lazuli", ["#forge:raw_materials/lapis"]);
     alloy_smelting("gtceu:brass_ingot", ["#forge:dusts/brass"]);
     alloy_smelting("gtceu:bronze_ingot", ["#forge:dusts/bronze"]);
-})
+
+    event.recipes.gtceu.alloy_smelter('copperAlloy').itemOutputs('enderio:copper_alloy_ingot').itemInputs('#forge:ingots/copper').itemInputs('#forge:dusts/silicon').duration(50).EUt(42)
+    event.recipes.gtceu.alloy_smelter('redstoneAlloy').itemOutputs('enderio:redstone_alloy_ingot').itemInputs('#forge:ingots/red_alloy').itemInputs('#forge:dusts/silicon').duration(40).EUt(12)
+    event.recipes.gtceu.alloy_smelter('conductiveAlloy').itemOutputs('enderio:conductive_alloy_ingot').itemInputs('#forge:ingots/red_alloy').itemInputs('enderio:copper_alloy_ingot').duration(50).EUt(42)
+    event.recipes.gtceu.alloy_smelter('pulsatingAlloy').itemOutputs('enderio:pulsating_alloy_ingot').itemInputs('#forge:ingots/iron').itemInputs('#forge:dusts/ender_pearl').duration(120).EUt(42)
+    event.recipes.gtceu.alloy_smelter('clearGlass').itemOutputs('enderio:clear_glass').itemInputs('#forge:glass').itemInputs('#forge:sand').duration(10).EUt(4)
+    event.recipes.gtceu.alloy_smelter('clearGlassE').itemOutputs('enderio:clear_glass_e').itemInputs('enderio:clear_glass').itemInputs('2x #forge:dusts/glowstone').duration(60).EUt(12)
+    event.recipes.gtceu.alloy_smelter('clearGlassDCharcoal').itemOutputs('enderio:clear_glass_d').itemInputs('enderio:clear_glass').itemInputs('2x #forge:dusts/charcoal').duration(60).EUt(12)
+    event.recipes.gtceu.alloy_smelter('clearGlassDCoal').itemOutputs('enderio:clear_glass_d').itemInputs('enderio:clear_glass').itemInputs('2x #forge:dusts/coal').duration(60).EUt(12)
+
+    event.recipes.gtceu.electric_blast_furnace('energeticAlloy').itemOutputs('enderio:energetic_alloy_ingot').itemInputs('#forge:dusts/redstone').itemInputs('#forge:dusts/glowstone').itemInputs('minecraft:gold_ingot').blastFurnaceTemp(2500).duration(100).EUt(480)
+    event.recipes.gtceu.electric_blast_furnace('vibrantAlloy').itemOutputs('enderio:vibrant_alloy_ingot').itemInputs('enderio:energetic_alloy_ingot').itemInputs('#forge:dusts/ender_pearl').blastFurnaceTemp(2500).duration(200).EUt(480)
+    event.recipes.gtceu.electric_blast_furnace('darkSteel').itemOutputs('enderio:dark_steel_ingot').itemInputs('#forge:ingots/black_steel').itemInputs('4x #forge:dusts/obsidian').blastFurnaceTemp(2500).duration(220).EUt(480)
+    event.recipes.gtceu.electric_blast_furnace('endSteel').itemOutputs('enderio:end_steel_ingot').itemInputs('#forge:ingots/tungsten_steel').itemInputs('4x #forge:dusts/endstone').blastFurnaceTemp(2500).duration(220).EUt(480)
+    event.recipes.gtceu.electric_blast_furnace('soularium').itemOutputs('enderio:soularium_ingot').itemInputs('#forge:ingots/netherite').itemInputs('minecraft:soul_sand').blastFurnaceTemp(1700).duration(220).EUt(120)
+    event.recipes.gtceu.electric_blast_furnace('netherFusedQuartz').itemOutputs('enderio:fused_quartz').itemInputs('4x #forge:dusts/nether_quartz').itemInputs('#forge:dusts/graphite').blastFurnaceTemp(1700).duration(100).EUt(120)
+    event.recipes.gtceu.electric_blast_furnace('certusFusedQuartz').itemOutputs('enderio:fused_quartz').itemInputs('4x #forge:dusts/certus_quartz').itemInputs('#forge:dusts/graphite').blastFurnaceTemp(1700).duration(100).EUt(120)
+    event.recipes.gtceu.electric_blast_furnace('quartzFusedQuartz').itemOutputs('enderio:fused_quartz').itemInputs('4x #forge:dusts/quartzite').itemInputs('#forge:dusts/graphite').blastFurnaceTemp(1700).duration(100).EUt(120)
+    
+
+  })
