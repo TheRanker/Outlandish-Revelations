@@ -17,6 +17,12 @@ StartupEvents.registry('fluid', event => {
         .bucketColor(parseInt(color))
         .noBlock()
     })
+
+    event.create('blazing_pyrotheum')
+        .displayName("Blazing Pyrotheum")
+        .stillTexture('kubejs:block/pyrotheum_still')
+        .flowingTexture('kubejs:block/pyrotheum_flow')
+        .bucketColor(0xfe983d)
 })
 
 ItemEvents.modification(event => {
