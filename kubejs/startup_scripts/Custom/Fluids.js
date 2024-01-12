@@ -23,6 +23,16 @@ StartupEvents.registry('fluid', event => {
         .stillTexture('kubejs:block/pyrotheum_still')
         .flowingTexture('kubejs:block/pyrotheum_flow')
         .bucketColor(0xfe983d)
+    event.create('resonant_ender')
+        .displayName("Resonant Ender")
+        .stillTexture('kubejs:block/ender_still')
+        .flowingTexture('kubejs:block/ender_flow')
+        .bucketColor(0x071B3D)
+    event.create('gelid_cryotheum')
+        .displayName("Gelid Cryotheum")
+        .stillTexture('kubejs:block/ender_still')
+        .flowingTexture('kubejs:block/ender_flow')
+        .bucketColor(0x071B3D)
 })
 
 ItemEvents.modification(event => {
