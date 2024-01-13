@@ -1,39 +1,33 @@
-
-//Takes list of thermal and create materials that exist in gregtech and ore-dict them, followed by removing the ability to make the thermal version for any recipe
-const thermalMaterials = ['tin', 'lead', 'silver', 'bronze', 'nickel', 'invar', 'electrum']
 const createMaterials = ['zinc', 'brass']
-
+const createSheets = ['copper', 'gold', 'iron', 'brass']
+const createAdditionsRods = ['copper', 'gold', 'iron', 'electrum', 'brass']
 
 ServerEvents.recipes(event => {
-for (let i = 0; i < thermalMaterials.length; i++) {
-    event.replaceInput({ input:'thermal:' + thermalMaterials[i] + '_ingot'}, 'thermal:' + thermalMaterials[i] + '_ingot' ,'#forge:ingots/' + thermalMaterials[i])
-    event.replaceInput({ input:'thermal:' + thermalMaterials[i] + '_nugget'}, 'thermal:' + thermalMaterials[i] + '_nugget' ,'#forge:nuggets/' + thermalMaterials[i])
-    event.replaceInput({ input:'thermal:' + thermalMaterials[i] + '_block'}, 'thermal:' + thermalMaterials[i] + '_block' ,'#forge:storage_blocks/' + thermalMaterials[i])
-    event.replaceInput({ input:'thermal:' + thermalMaterials[i] + '_dust'}, 'thermal:' + thermalMaterials[i] + '_dust' ,'#forge:dusts/' + thermalMaterials[i])
-    event.replaceInput({ input:'thermal:' + thermalMaterials[i] + '_gear'}, 'thermal:' + thermalMaterials[i] + '_gear' ,'#forge:gears/' + thermalMaterials[i])
-    event.replaceInput({ input:'thermal:' + thermalMaterials[i] + '_plate'}, 'thermal:' + thermalMaterials[i] + '_plate' ,'#forge:plates/' + thermalMaterials[i])
-    event.replaceInput({ input:'thermal:' + thermalMaterials[i] + '_coin'}, 'thermal:' + thermalMaterials[i] + '_coin' ,'#forge:coins/' + thermalMaterials[i])
-    event.remove({ output: 'thermal:' + thermalMaterials[i] + '_ingot'})
-    event.remove({ output: 'thermal:' + thermalMaterials[i] + '_nugget'})
-    event.remove({ output: 'thermal:' + thermalMaterials[i] + '_block'})
-    event.remove({ output: 'thermal:' + thermalMaterials[i] + '_dust'})
-    event.remove({ output: 'thermal:' + thermalMaterials[i] + '_gear'})
-    event.remove({ output: 'thermal:' + thermalMaterials[i] + '_plate'})
-    }
 
+    //Replaces removedItem with either a tag (#forge:ingots) or a different item then removes that item as a crafting output so only the replacedItem can be obtained.
+    function replaceRemove(removedItem, replacedItem){
+        event.replaceInput({ input:removedItem}, removedItem, replacedItem)
+        event.remove({ output: removedItem})
+    }   
 
 for (let i = 0; i < createMaterials.length; i++) {
-    event.replaceInput({ input:'create:' + createMaterials[i] + '_ingot'}, 'create:' + createMaterials[i] + '_ingot' ,'#forge:ingots/' + createMaterials[i])
-    event.remove({ output: 'create:' + createMaterials[i] + '_ingot'})
+    replaceRemove('create:' + createMaterials[i] + '_ingot', '#forge:ingots/' + createMaterials[i])
+    replaceRemove('create:' + createMaterials[i] + '_nugget', '#forge:nuggets/' + createMaterials[i])
 }
 
-event.replaceInput({ input:'create:brass_sheet'}, 'create:brass_sheet' ,'#forge:plates/brass')
-event.replaceInput({ input:'create:brass_nugget'}, 'create:brass_nugget' ,'#forge:nuggets/brass')
-event.replaceInput({ input:'createadditions:brass_rod'}, 'createadditions:brass_rod' ,'#forge:rods/brass')
-event.remove({ output: 'create:brass_sheet'})
-event.remove({ output: 'create:brass_nugget'})
-event.remove({ output: 'create:brass_nugget'})
+for (let i = 0; i < createSheets.length; i++) {
+    replaceRemove('create:' + createSheets[i] + '_sheet', '#forge:plates/' + createSheets[i])
+}
 
+for (let i = 0; i < createAdditionsRods.length; i++) {
+    replaceRemove('createaddition:' + createAdditionsRods[i] + '_rod', '#forge:rods/' + createAdditionsRods[i])
+}
+
+replaceRemove('createadditions:electrum_ingot', '#forge:ingots/electrum')
+replaceRemove('createadditions:electrum_nugget', '#forge:nuggets/electrum')
+replaceRemove('createadditions:electrum_sheet', '#forge:plates/electrum')
+replaceRemove('createadditions:diamond_grit', '#forge:dusts/diamond')
+replaceRemove('create:powdered_obsidian', '#forge:dusts/obsidian')
 })
 
 
