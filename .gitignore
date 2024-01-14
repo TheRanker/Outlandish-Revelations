@@ -142,3 +142,23 @@ manifest.json
 
 config.json
 >>>>>>> Outlandish-Revelatoins/main
+
+config/jade/
+
+config/embeddium\+\+.toml
+
+config/embeddium\+\+mixin.toml
+
+config/oculus.properties
+
+config/jei/
+
+config/expatternprovider-common.toml
+
+config/modernfix-mixins.properties
+
+config/sidebar_buttons.json
+
+kubejs/config/probejs.json
+
+servers.dat_old

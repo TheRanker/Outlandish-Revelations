@@ -7,13 +7,13 @@
 	#Teleports the player to the lobby for their first connect or after a server restart!
 	generalDefaultToLobby = true
 	#Only teleports the player once to the lobby with their first connect!
-	generalDefaultToLobbyOnce = false
+	generalDefaultToLobbyOnce = true
 	#Always teleport player to the lobby!
-	generalDefaultToLobbyAlways = true
+	generalDefaultToLobbyAlways = false
 
 [Teleport]
 	#Enables teleport delay to avoid cheating!
-	teleportDelayEnabled = false
+	teleportDelayEnabled = true
 	#Shows/hide the teleport countdown in the user chat.
 	teleportDelayCounterVisible = true
 	#Teleport delay in seconds a player needs to stand still to teleport.
@@ -113,7 +113,7 @@
 	fishingBuilderList = [""]
 
 ["Gaming Dimension"]
-	gamingEnabled = true
+	gamingEnabled = false
 	gamingDimension = "lobby:gaming_dimension"
 	gamingDimensionName = "Rankers Gaming"
 	#Command user could use to teleport to the dimension like /gaming

@@ -1,13 +1,5 @@
 WorldgenEvents.remove(event => {
     event.removeOres(props => {
-
-        props.worldgenLayer = 'underground_ores'
-
-        props.blocks = [
-            
-            'create:zinc_ore',
-           
-        ]
-
-    });
+      props.blocks = ['k_turrets:titanium_ore', 'create:zinc_ore', 'create:deepslate_zinc_ore']
+    })
 })

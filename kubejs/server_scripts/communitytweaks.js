@@ -2,54 +2,60 @@
 
 //Server Gamerules
 ServerEvents.loaded(e => {
-    e.server.gameRules.set("keepInventory", true)
-    e.server.gameRules.set("playersSleepingPercentage", 45)
+  e.server.gameRules.set("keepInventory", true)
+  e.server.gameRules.set("playersSleepingPercentage", 45)
 })
 
 //Player Logout
 PlayerEvents.loggedOut(event => {
-    const { player, server, player: { username } } = event
-    console.log(`Outlandish Revelations: Player ${player.username} logged out(${player.level.dimension}). ${Math.floor(player.x)} ${Math.floor(player.y)} ${Math.floor(player.z)}!`)
+  const { player, server, player: { username } } = event
+  console.log(`Outlandish Revelations: Player ${player.username} logged out(${player.level.dimension}). ${Math.floor(player.x)} ${Math.floor(player.y)} ${Math.floor(player.z)}!`)
 
-    let serverannouncement = Text.of(`${username} `).green().bold()
-      .append(Text.of(`just left.`).green());
-    server.tell(serverannouncement);
+  let serverannouncement = Text.of(`${username} `).green().bold()
+    .append(Text.of(`just left.`).green());
+  server.tell(serverannouncement);
 })
 
 //Player login
 PlayerEvents.loggedIn(event => {
 
-    //First time player login
-    if (!event.player.stages.has('new_join')) {
-      event.player.stages.add('new_join');
-      
-      event.entity.setItemSlot(0, 'minecraft:wooden_sword');
-      event.entity.setItemSlot(1, 'minecraft:shield');
-      event.entity.setItemSlot(2, 'minecraft:leather_boots');
-      event.entity.setItemSlot(3, 'minecraft:leather_leggings');
-      event.entity.setItemSlot(4, 'minecraft:leather_chestplate');
-      event.entity.setItemSlot(5, 'minecraft:leather_helmet');
-      event.server.runCommandSilent('give @p minecraft:bread 16');
-      event.server.runCommandSilent('give @p eccentrictome:tome');
-      event.server.runCommandSilent('give @p comforts:sleeping_bag_black');
-      event.server.runCommandSilent('give @p multibeds:bed_kit');
-      event.server.runCommandSilent('give @p jackseconomy:basic_wallet');
-    }
-
-    //Everytime player login
-    const { player, server, player: { username } } = event
-    console.log(`Outlandish Revelations: Player ${player.username} logged in(${player.level.dimension}). ${Math.floor(player.x)} ${Math.floor(player.y)} ${Math.floor(player.z)}!`)
+  //First time player login
+  if (!event.player.stages.has('new_join')) {
+    event.player.stages.add('new_join');
     
-    let message = Text.of("Hello, ").green().bold()
-      .append(Text.of(`${username} `).yellow())
-      .append(Text.of(`and welcome to Outlandish Revelations!`).green());
-    player.tell(message);
-    let serverannouncement = Text.of(`${username} `).green().bold()
-      .append(Text.of(`just joined!`).green());
-    server.tell(serverannouncement);
+    event.entity.setItemSlot(0, 'minecraft:wooden_sword');
+    event.entity.setItemSlot(1, 'minecraft:shield');
+    event.entity.setItemSlot(2, 'minecraft:leather_boots');
+    event.entity.setItemSlot(3, 'minecraft:leather_leggings');
+    event.entity.setItemSlot(4, 'minecraft:leather_chestplate');
+    event.entity.setItemSlot(5, 'minecraft:leather_helmet');
+    event.player.give('minecraft:bread 16');
+    event.player.give('eccentrictome:tome');
+    event.player.give('comforts:sleeping_bag_black');
+    event.player.give('multibeds:bed_kit');
+    event.player.give('jackseconomy:basic_wallet');
+    event.player.give(Item.of('scannable:scanner', '{items:[{item:{Count:1b,id:"scannable:range_module"},slot:0b}, {item:{Count:1b,id:"scannable:range_module"},slot:1b}, {item:{Count:1b,id:"scannable:common_ores_module"},slot:2b}, {item:{Count:1b,id:"scannable:rare_ores_module"},slot:3b}]}'));
+  }
+
+  //Everytime player login
+  const { player, server, player: { username } } = event
+  console.log(`Outlandish Revelations: Player ${player.username} logged in(${player.level.dimension}). ${Math.floor(player.x)} ${Math.floor(player.y)} ${Math.floor(player.z)}!`)
   
-  });
-  
+  let message = Text.of("Hello, ").green().bold()
+    .append(Text.of(`${username} `).yellow())
+    .append(Text.of(`and welcome to Outlandish Revelations!`).green());
+  player.tell(message);
+  let serverannouncement = Text.of(`${username} `).green().bold()
+    .append(Text.of(`just joined!`).green());
+  server.tell(serverannouncement);
+
+});
+
+
+
+
+
+
 
 //Stuck on nether roof
 const $BlockPos = Java.loadClass('net.minecraft.core.BlockPos')
