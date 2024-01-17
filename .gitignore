@@ -143,6 +143,7 @@ manifest.json
 config.json
 >>>>>>> Outlandish-Revelatoins/main
 
+<<<<<<< Updated upstream
 config/jade/
 
 config/embeddium\+\+.toml
@@ -162,3 +163,8 @@ config/sidebar_buttons.json
 kubejs/config/probejs.json
 
 servers.dat_old
+=======
+config/oculus.properties
+
+config/embeddium\+\+mixin.toml
+>>>>>>> Stashed changes

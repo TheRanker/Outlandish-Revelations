@@ -3,10 +3,6 @@
 [common]
 	#If enabled, horses will not wander off if they are wearing a saddle.
 	enableGroundTie = true
-	#If enabled, debugging information will appear on the screen when the
-	#player is holding a stick in their left hand and looks at a horse.
-	#For most users, it is probably better to leave this as false.
-	horseDebugInfo = false
 	#If enabled, horses will be spooked by monsters and throw their rider.
 	spookyHorses = true
 	#If enabled, horses can be different sizes.
