@@ -36,7 +36,20 @@ JEIEvents.hideItems(event => {
         'industrialforegoing:iron_gear',
         'industrialforegoing:gold_gear',
         'industrialforegoing:diamond_gear',
-        'industrialforegoing:plastic'
+        'industrialforegoing:plastic',
+        
+
+'gtceu:manasteel_ingot', 
+'gtceu:manasteel_nugget',
+'gtceu:manasteel_block', 
+
+'gtceu:vibrant_alloy_ingot', 
+'gtceu:vibrant_alloy_nugget', 
+'gtceu:vibrant_alloy_block',
+
+'gtceu:energetic_alloy_ingot',
+'gtceu:energetic_alloy_nugget', 
+'gtceu:energetic_alloy_block'
       ])
 
       const industrialRemove = ['pitiful_generator', 'biofuel_generator', 'mycelial_furnace', 'mycelial_slimy', 'mycelial_culinary', 'mycelial_potion', 'mycelial_disenchantment', 'mycelial_ender', 'mycelial_explosive', 'mycelial_frosty', 'mycelial_halitosis', 'mycelial_magma', 'mycelial_pink', 'mycelial_netherstar', 'mycelial_death', 'mycelial_rocket', 'mycelial_crimed', 'mycelial_meatallurgic']
