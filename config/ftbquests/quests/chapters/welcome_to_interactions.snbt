@@ -1,0 +1,82 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "welcome_to_interactions"
+	group: ""
+	icon: "expatternprovider:io_bus_upgrade"
+	id: "125A812BF384E9CD"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Any quest with a square icon denotes the start of a questline."]
+			icon: "minecraft:crafting_table"
+			id: "239EC20EDCBDF9E7"
+			shape: "square"
+			tasks: [{
+				id: "61A43BD36AED3378"
+				title: "Primary Quest Chains"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["239EC20EDCBDF9E7"]
+			description: ["Standard circles denotes quest is part of a chain"]
+			icon: "sophisticatedbackpacks:crafting_upgrade"
+			id: "001E41CB829C0D46"
+			tasks: [{
+				id: "1F5BCCBB10DDEF0B"
+				title: "Standard Quests"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["001E41CB829C0D46"]
+			description: ["Large diamond shaped quests represent the end of a quest chain. They will often have instructions on which quest chains to focus on next."]
+			hide_text_until_complete: false
+			icon: "gtceu:assembly_line"
+			id: "6C25E0B7401587E7"
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "37F37FC9B9A6A9BD"
+				title: "Quest Chain Completion"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["001E41CB829C0D46"]
+			description: ["Exclamation marked circle quests contain important information about the pack that is relevant to each section. You should review all of these as soon as they are availible to you."]
+			icon: "botania:cosmetic_questgiver_mark"
+			id: "461800F44FF4F3CC"
+			tasks: [{
+				id: "7C471EB82625762F"
+				title: "Important Information"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["001E41CB829C0D46"]
+			description: ["Rounded square quests are optional but reccomended quests. They are not part of the primary progressions however."]
+			icon: "pneumaticcraft:display_table"
+			id: "615F09DC23A8A8ED"
+			shape: "rsquare"
+			tasks: [{
+				id: "01A476D135CC107D"
+				title: "Optional Quests"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: -4.0d
+		}
+	]
+	title: "Welcome to Outlandish Revelations!"
+}
