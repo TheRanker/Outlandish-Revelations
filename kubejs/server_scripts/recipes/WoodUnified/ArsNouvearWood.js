@@ -1,7 +1,7 @@
 ServerEvents.recipes(event => {    
 
     const ULV = 7, LV = 30, MV = 120, HV = 480, EV = 1920, IV = 7680, LuV = 30720, ZPM = 122880, UV = 491520
-    var id = 4250
+    var id = 6250
     function nextId(){
       id = id + 1
       return id
@@ -23,7 +23,6 @@ ServerEvents.recipes(event => {
       event.remove({ output: modId + ':' + woodTypes[i] + '_trapdoor' })
       event.remove({ output: modId + ':' + woodTypes[i] + '_pressure_plate' })
       event.remove({ output: modId + ':' + woodTypes[i] + '_button' })
-      event.remove({ output: modId + ':' + woodTypes[i] + '_sign' })
 
       event.shapeless('2x ' + modId + ':' + woodTypes[i] + '_planks', ['#forge:logs/archwood'])
         event.recipes.gtceu.cutter(nextId()).itemOutputs('6x ' + modId + ':' + woodTypes[i] + '_planks').duration(400).EUt(7).inputFluids(Fluid.of('minecraft:water', 5)).itemInputs('#forge:logs/archwood')
@@ -162,15 +161,6 @@ ServerEvents.recipes(event => {
         C: '#forge:springs/iron',
         D: '#forge:tools/mallets',
         E: '#forge:tools/screwdrivers',
-      })
-
-      event.shaped('3x ' + modId + ':' + woodTypes[i] + '_sign', [
-        'AAA', 
-        'AAA',
-        ' B ' 
-      ], {
-        A: modId + ':' + woodTypes[i] + '_planks',
-        B: '#forge:rods/wood'
       })
     }
 
