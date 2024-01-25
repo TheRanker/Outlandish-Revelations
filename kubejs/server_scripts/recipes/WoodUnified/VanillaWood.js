@@ -1,7 +1,7 @@
 ServerEvents.recipes(event => {    
 
     const ULV = 7, LV = 30, MV = 120, HV = 480, EV = 1920, IV = 7680, LuV = 30720, ZPM = 122880, UV = 491520
-    var id = 4000
+    var id = 6000
     function nextId(){
       id = id + 1
       return id
