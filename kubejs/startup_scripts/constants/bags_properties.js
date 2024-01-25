@@ -1,18 +1,18 @@
-// constants for startup_scripts bags, i think it can be changed to global variable
-const pouch_name = ['Magic bag', 'Early game bag', 'Mid game bag', 'Late game bag', 'End game bag', 'Food bag']    // Bag name
-const pouch_color = ['purple', 'green', 'yellow', 'orange', 'red', 'light_blue']                                   // Bag color
-const rarity = ['common', 'rare', 'epic']                                                                          // All rarity for bags
-const bag_name = ['magic', 'early', 'mid', 'late', 'end', 'food']                                                  // bag type
+
+global.pouch_name = ['Magic bag', 'Stone bag', 'Steam bag', 'Lv bag', 'End bag', 'Food bag']    // Bag name
+global.pouch_color = ['purple', 'green', 'yellow', 'orange', 'red', 'light_blue']                                   // Bag color
+global.rarity = ['common', 'rare', 'epic']                                                                          // All rarity for bags
+global.bag_name = ['magic', 'stone', 'steam', 'lv', 'end', 'food']                                                  // bag type
 
 //Color for description in bags
-const rarity_color = {
+global.rarity_color = {
     'common': 'white',
     'rare': 'aqua',
     'epic': 'lightPurple',
 }
 
 //Texture for bags
-const pouch_color_map = {
+global.pouch_color_map = {
     'red': 'kubejs:item/tool_pouch_red',
     'orange': 'kubejs:item/tool_pouch_orange',
     'yellow': 'kubejs:item/tool_pouch_yellow',

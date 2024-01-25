@@ -1,13 +1,13 @@
 ItemEvents.tooltip(tooltip => {
-	// description on bags
+	// description on bags  
     function add_color_description(itemName, rarity, color) {
         tooltip.add(itemName, Text.of(rarity)[color]())
     }
 
-    for (let i = 0; i < bag_name.length; i++) { 
-        add_color_description(`kubejs:${bag_name[i]}_bag_${rarity[0]}`, 'Common', rarity_color.common)
-        add_color_description(`kubejs:${bag_name[i]}_bag_${rarity[1]}`, 'Rare', rarity_color.rare)
-        add_color_description(`kubejs:${bag_name[i]}_bag_${rarity[2]}`, 'Epic', rarity_color.epic);
+    for (let i = 0; i < global.bag_name.length; i++) { 
+        add_color_description(`kubejs:${global.bag_name[i]}_bag_${global.rarity[0]}`, 'Common', global.rarity_color.common)
+        add_color_description(`kubejs:${global.bag_name[i]}_bag_${global.rarity[1]}`, 'Rare', global.rarity_color.rare)
+        add_color_description(`kubejs:${global.bag_name[i]}_bag_${global.rarity[2]}`, 'Epic', global.rarity_color.epic);
       }
 
     let backpackMessage = Text.yellow('You can have only one backpack in the inventory!')

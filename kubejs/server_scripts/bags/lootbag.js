@@ -13,10 +13,10 @@ ItemEvents.rightClicked(event=>{
         }
     }
     //use vanilla loot table for every type of bags
-    for (let i = 0; i < bag_name.length; i++) {
-        lootbag(`kubejs:${bag_name[i]}_bag_common`,`loot:${bag_name[i]}/${bag_name[i]}_bag_common`)
-        lootbag(`kubejs:${bag_name[i]}_bag_rare`,`loot:${bag_name[i]}/${bag_name[i]}_bag_rare`)
-        lootbag(`kubejs:${bag_name[i]}_bag_epic`,`loot:${bag_name[i]}/${bag_name[i]}_bag_epic`)
+    for (let i = 0; i < global.bag_name.length; i++) {
+        lootbag(`kubejs:${global.bag_name[i]}_bag_common`,`loot:${global.bag_name[i]}/${global.bag_name[i]}_bag_common`)
+        lootbag(`kubejs:${global.bag_name[i]}_bag_rare`,`loot:${global.bag_name[i]}/${global.bag_name[i]}_bag_rare`)
+        lootbag(`kubejs:${global.bag_name[i]}_bag_epic`,`loot:${global.bag_name[i]}/${global.bag_name[i]}_bag_epic`)
     }
 })
 
@@ -26,8 +26,8 @@ ServerEvents.recipes(event => {
         event.shapeless(itemResult, [itemName])
     }
     
-    for (let i = 0; i < bag_name.length; i++) {
-        bagBuilder(`4x kubejs:${bag_name[i]}_bag_common`, `kubejs:${bag_name[i]}_bag_rare`)
-        bagBuilder(`4x kubejs:${bag_name[i]}_bag_rare`, `kubejs:${bag_name[i]}_bag_epic`)
+    for (let i = 0; i < global.bag_name.length; i++) {
+        bagBuilder(`4x kubejs:${global.bag_name[i]}_bag_common`, `kubejs:${global.bag_name[i]}_bag_rare`)
+        bagBuilder(`4x kubejs:${global.bag_name[i]}_bag_rare`, `kubejs:${global.bag_name[i]}_bag_epic`)
     }
 })
