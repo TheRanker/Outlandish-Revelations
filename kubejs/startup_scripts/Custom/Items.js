@@ -39,4 +39,5 @@ ItemEvents.modification(event => {
 	})
 	event.modify("minecraft:potion", item => { item.setMaxStackSize(16) })
 	event.modify("minecraft:splash_potion", item => { item.setMaxStackSize(16) })
+	event.modify("nether_remastered:seal_piece_1", item => { item.setMaxStackSize(64) })
 })

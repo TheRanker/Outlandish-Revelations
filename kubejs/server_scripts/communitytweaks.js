@@ -344,7 +344,7 @@ LootJS.modifiers((event) => {
         .addEntityLootModifier(netherremastered)
         .addWeightedLoot(
             [ 
-                Item.of("nether_remastered:seal_piece_1").withChance(100)
+                Item.of("nether_remastered:seal_piece_1").withChance(5)
             ]);
 
 });
