@@ -1,8 +1,8 @@
 
-global.pouch_name = ['Magic bag', 'Stone bag', 'Steam bag', 'Lv bag', 'End bag', 'Food bag']    // Bag name
+global.pouch_name = ['Magic bag', 'Early game bag', 'Mid game bag', 'Late game bag', 'End game bag', 'Food bag']    // Bag name
 global.pouch_color = ['purple', 'green', 'yellow', 'orange', 'red', 'light_blue']                                   // Bag color
 global.rarity = ['common', 'rare', 'epic']                                                                          // All rarity for bags
-global.bag_name = ['magic', 'stone', 'steam', 'lv', 'end', 'food']                                                  // bag type
+global.bag_name = ['magic', 'early', 'mid', 'late', 'end', 'food']                                                  // bag type
 
 //Color for description in bags
 global.rarity_color = {

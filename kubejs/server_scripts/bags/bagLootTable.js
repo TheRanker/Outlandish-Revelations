@@ -48,43 +48,7 @@ let food = {
     ),
 }
 
-let steam = {
-    common: new Bag(
-        [ 
-            new ItemOfBag("minecraft:clay", 12),
-            new ItemOfBag("gtceu:raw_copper", 4),
-            new ItemOfBag("gtceu:raw_tin", 4),
-            new ItemOfBag("gtceu:iron_gear", 1),
-            new ItemOfBag("gtceu:iron_rod", 1),
-            new ItemOfBag("gtceu:soapstone_small_dust", 16),
-            new ItemOfBag("gtceu:stone_small_dust", 32),
-            new ItemOfBag("gtceu:bronze_small_fluid_pipe", 2),
-            new ItemOfBag("minecraft:furnace", 2),
-        ]
-    ),
-    rare: new Bag(
-        [ 
-            new ItemOfBag("minecraft:clay", 24),
-            new ItemOfBag("gtceu:raw_copper", 8),
-            new ItemOfBag("gtceu:raw_tin", 8),
-            new ItemOfBag("gtceu:raw_coal", 16),
-            new ItemOfBag("gtceu:raw_redstone", 32),
-            new ItemOfBag("minecraft:cooked_salmon", 32),
-            new ItemOfBag("minecraft:golden_apple", 1),
-        ]
-    ),
-    epic: new Bag(
-        [ 
-            new ItemOfBag("gtceu:bronze_small_gear", 6),
-            new ItemOfBag("gtceu:bronze_machine_casing", 2),
-            new ItemOfBag("gtceu:bronze_knife", 1),
-            new ItemOfBag("gtceu:bronze_saw", 1),
-            new ItemOfBag("gtceu:bronze_rod", 4),
-        ]
-    ),
-}
-
-let stone = {
+let early = {
     common: new Bag(
         [ 
             new ItemOfBag("gtceu:iron_ingot", 1),
@@ -120,7 +84,7 @@ let stone = {
     ),
 }
 
-let lv = {
+let mid = {
     common: new Bag(
         [ 
             new ItemOfBag("gtceu:tin_single_wire", 6),
@@ -166,7 +130,6 @@ function add_bags(event, bag_name, object) {
 
 LootJS.modifiers((event) => {
     add_bags(event, 'food', food) 
-    add_bags(event, 'stone', stone)
-    add_bags(event, 'steam', steam)
-    add_bags(event, 'lv', lv)
+    add_bags(event, 'early', early)
+    add_bags(event, 'mid', mid)
 });
