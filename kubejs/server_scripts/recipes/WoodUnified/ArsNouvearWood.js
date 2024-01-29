@@ -48,8 +48,7 @@ ServerEvents.recipes(event => {
       event.recipes.gtceu.assembler(nextId()).itemOutputs('4x ' + modId + ':' + woodTypes[i] + '_trapdoor').duration(400).EUt(4).itemInputs('4x ' + modId + ':' + woodTypes[i] + '_slab').itemInputs('#forge:rods/wood').inputFluids(Fluid.of('gtceu:iron', 16))
       event.recipes.gtceu.assembler(nextId()).itemOutputs('6x ' + modId + ':' + woodTypes[i] + '_trapdoor').duration(400).EUt(4).itemInputs('4x ' + modId + ':' + woodTypes[i] + '_slab').itemInputs('#forge:rods/wood').inputFluids(Fluid.of('gtceu:steel', 16))
       event.recipes.gtceu.assembler(nextId()).itemOutputs('2x ' + modId + ':' + woodTypes[i] + '_pressure_plate').duration(400).EUt(4).itemInputs('2x ' + modId + ':' + woodTypes[i] + '_slab').itemInputs('#forge:springs/iron')
-      event.recipes.gtceu.assembler(nextId()).itemOutputs('3x ' + modId + ':' + woodTypes[i] + '_sign').duration(100).EUt(4).itemInputs(modId + ':' + woodTypes[i] + '_planks').itemInputs('#forge:rods/wood')
-
+     
       event.shaped('2x ' + modId + ':' + woodTypes[i] + '_button', [
         'A', 
         'B' 
