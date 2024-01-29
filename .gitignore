@@ -172,3 +172,9 @@ config/embeddium\+\+mixin.toml
 resourcepacks/
 
 config/fancymenu/
+
+ops.json
+
+servers.essential.dat
+
+whitelist.json
