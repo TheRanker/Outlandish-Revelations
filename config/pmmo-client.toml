@@ -19,7 +19,7 @@
 		#Range: 0.0 ~ 1.0
 		"Vein Gauge Yoffset" = 0.95
 		#Should the vein charge data be displayed
-		"Display Vein Gauge" = true
+		"Display Vein Gauge" = false
 		#how far offset from center the gain list should be
 		#Range: 0.0 ~ 1.0
 		"Gain List Xoffset" = 0.45

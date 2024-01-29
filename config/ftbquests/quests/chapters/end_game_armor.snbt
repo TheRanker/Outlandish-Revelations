@@ -1,0 +1,129 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "end_game_armor"
+	group: "003D792941648271"
+	id: "52CB0D3E6A25027F"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "194C58E6AAF4E27E"
+			tasks: [{
+				id: "561468D6474FCB96"
+				item: {
+					Count: 1b
+					id: "bloodmagic:livingplate"
+					tag: {
+						Damage: 0
+						livingStats: {
+							maxPoints: 100
+							upgrades: [ ]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -2.5d
+		}
+		{
+			id: "3CB9A85D8C753032"
+			tasks: [{
+				id: "7E91BEB53BF48B95"
+				item: {
+					Count: 1b
+					id: "bloodmagic:livinghelmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -3.5d
+		}
+		{
+			id: "0F55BF9C86A50F95"
+			tasks: [{
+				id: "6EFF0F20B5950A2E"
+				item: {
+					Count: 1b
+					id: "bloodmagic:livingleggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.5d
+		}
+		{
+			id: "53B1A11395EBA444"
+			tasks: [{
+				id: "0AC7146B04B308F6"
+				item: {
+					Count: 1b
+					id: "bloodmagic:livingboots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -0.5d
+		}
+		{
+			id: "69A602B5FD97F92B"
+			tasks: [{
+				id: "444ACB758143C290"
+				item: {
+					Count: 1b
+					id: "bloodmagic:soulsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -3.0d
+		}
+		{
+			id: "2B7F444128E1EF1C"
+			tasks: [{
+				id: "4B8A77532007D48E"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							"forbidden_arcanus:tick_counter": {
+								value: 0
+							}
+						}
+					}
+					id: "forbidden_arcanus:obsidian_skull_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: -3.0d
+		}
+		{
+			id: "55A841DF293D51EE"
+			tasks: [{
+				id: "58F5E1D7C63D6F50"
+				title: "WIP End Game Armor.  Vanilla/Modded Stats to be Modified"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: -5.5d
+		}
+	]
+	title: "End Game Armor"
+}

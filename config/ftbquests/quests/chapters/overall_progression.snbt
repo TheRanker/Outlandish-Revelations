@@ -297,6 +297,7 @@
 				"Enter The Steam Age!"
 			]
 			id: "32FC628C217228A3"
+			min_required_dependencies: 1
 			rewards: [{
 				id: "789C7B18DF49A343"
 				item: "kubejs:early_bag_epic"
@@ -305,23 +306,11 @@
 			shape: "diamond"
 			size: 3.0d
 			subtitle: "Craft a Steam Boiler of any Type"
-			tasks: [
-				{
-					id: "152398239BF5E404"
-					item: "gtceu:lp_steam_solid_boiler"
-					type: "item"
-				}
-				{
-					id: "57171BF3A08E5E4D"
-					item: "gtceu:lp_steam_liquid_boiler"
-					type: "item"
-				}
-				{
-					id: "7862A7E196B6C0E3"
-					item: "gtceu:lp_steam_solar_boiler"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "152398239BF5E404"
+				item: "gtceu:lp_steam_solid_boiler"
+				type: "item"
+			}]
 			title: "Craft a Low Pressure Steam Boiler"
 			x: -15.0d
 			y: -1.5d

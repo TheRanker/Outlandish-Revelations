@@ -10,23 +10,16 @@
 	quests: [
 		{
 			id: "50AA01A160CDF8F0"
-			tasks: [
-				{
-					id: "5549766F577AA80E"
-					item: "gtceu:lp_steam_solar_boiler"
-					type: "item"
-				}
-				{
-					id: "67D3767BA29DBF31"
-					item: "gtceu:lp_steam_liquid_boiler"
-					type: "item"
-				}
-				{
-					id: "6D1174C5771A7A31"
-					item: "gtceu:lp_steam_solid_boiler"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "086D4F8BE3379B05"
+				item: "kubejs:early_bag_rare"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6D1174C5771A7A31"
+				item: "gtceu:lp_steam_solid_boiler"
+				type: "item"
+			}]
 			title: "Low Pressure Steam"
 			x: -24.0d
 			y: -5.0d
@@ -61,18 +54,12 @@
 				type: "item"
 			}]
 			subtitle: "Any Water Supply Source"
-			tasks: [
-				{
-					id: "00F3AFA20BBD2578"
-					item: "gtceu:primitive_pump"
-					type: "item"
-				}
-				{
-					id: "40F9AC952505AF8A"
-					item: "create:mechanical_pump"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "00F3AFA20BBD2578"
+				item: "gtceu:primitive_pump"
+				type: "item"
+				weak_nbt_match: true
+			}]
 			title: "Craft a Water Supply Source"
 			x: -27.0d
 			y: -5.0d

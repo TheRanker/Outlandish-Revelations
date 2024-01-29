@@ -9,10 +9,11 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["Any quest with a square icon denotes the start of a questline."]
+			description: ["follow the quests to get a good idea of what to do next to progress further"]
 			icon: "minecraft:crafting_table"
 			id: "239EC20EDCBDF9E7"
 			shape: "square"
+			subtitle: "Stone - Steam - LV - EV - MV - ULV"
 			tasks: [{
 				id: "61A43BD36AED3378"
 				title: "Primary Quest Chains"
@@ -52,9 +53,30 @@
 		}
 		{
 			dependencies: ["001E41CB829C0D46"]
-			description: ["Exclamation marked circle quests contain important information about the pack that is relevant to each section. You should review all of these as soon as they are availible to you."]
+			description: [
+				"These resources you will need in abundance. "
+				""
+				"Copper, Tin, Coal, Redstone, Iron, Sand, Clay and Sugarcane"
+				""
+				""
+				"Ore come in Veins, they are not spawened by Vanilla means"
+				""
+				"GregTech Veins Come in 10-1000 block ores all clustered together"
+				""
+				"use the "
+				"{image:scannable:item/scanner width:30 height:30 align:1}"
+				"to find Ore Veins. Shift Click to change Addons"
+				""
+				"Tin = Cassiterite Ore"
+				"Redstone = Redstone"
+				"Copper = Chalcopyrite, Chalcocite, Malachite, Bornite, Tetrahedrite and Copper"
+				"Diamond = Diamond"
+				"Magnetite = Yellow / Brown Limanite Ore, Banded Iron Ore, Pyrite Ore"
+				"Coal = Coal"
+			]
 			icon: "botania:cosmetic_questgiver_mark"
 			id: "461800F44FF4F3CC"
+			subtitle: "Gather These Initial Items"
 			tasks: [{
 				id: "7C471EB82625762F"
 				title: "Important Information"

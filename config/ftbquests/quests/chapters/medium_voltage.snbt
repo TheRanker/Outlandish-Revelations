@@ -526,7 +526,7 @@
 			rewards: [{
 				count: 8
 				id: "350821400A1DBB6F"
-				item: "alltheores:raw_aluminum"
+				item: "gtceu:raw_aluminium"
 				random_bonus: 4
 				type: "item"
 			}]
@@ -534,7 +534,7 @@
 			size: 1.5d
 			subtitle: "Aluminium is that you?"
 			tasks: [{
-				icon: "alltheores:aluminum_ingot"
+				icon: "gtceu:aluminium_ingot"
 				id: "7B46FA23AF26BF76"
 				item: {
 					Count: 1b

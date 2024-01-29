@@ -173,6 +173,11 @@ resourcepacks/
 
 config/fancymenu/
 
+<<<<<<< Updated upstream
+=======
+essential/
+
+>>>>>>> Stashed changes
 ops.json
 
 servers.essential.dat
