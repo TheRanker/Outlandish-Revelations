@@ -1,0 +1,24 @@
+{
+  "display": {
+    "icon": {
+      "item": "ultimate_star:ultimate_star"
+    },
+    "title": {
+      "translate":"incendium.advancement.infernal_dunes.inferno.summon.title","fallback":"Risen from Fire"
+    },
+    "description": {
+      "translate":"incendium.advancement.infernal_dunes.inferno.summon.desc","fallback":"Sacrifice a Ultimate Star at an altar to summon the Hovering Inferno Boss"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "incendium:infernal_dunes/inferno/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible",
+      "conditions": {}
+    }
+  }
+}

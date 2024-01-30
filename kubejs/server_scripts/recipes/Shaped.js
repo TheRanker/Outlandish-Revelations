@@ -21,6 +21,19 @@ ServerEvents.recipes(event => {
     D: 'minecraft:bamboo_slab'   
   }).id('gtceu:shaped/bamboo_raft');
 
+
+ //LockPick
+ event.shaped('kubejs:lockpick', [
+        '  a',
+        ' a ',
+        'b c'
+    ], {
+        a:'#forge:stone',
+        b:'#forge:gems/flint',
+        c:'#forge:tools/files',
+ })
+
+
   //Advanced Peripherals
   event.remove('advancedperipherals:geo_scanner')
     event.shaped('advancedperipherals:geo_scanner', [

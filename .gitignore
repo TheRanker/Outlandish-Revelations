@@ -183,3 +183,7 @@ ops.json
 servers.essential.dat
 
 whitelist.json
+
+config/embeddium-fingerprint.json
+
+config/embeddium-options.json

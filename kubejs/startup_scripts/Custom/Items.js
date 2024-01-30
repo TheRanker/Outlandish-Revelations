@@ -28,6 +28,9 @@ StartupEvents.registry('item', e => {
 		
     e.create('rankers_ring')
         .displayName('§6Ring of Ranker')
+e.create('lockpick')
+	.displayName('Lockpick')
+	.maxDamage(50)
 
 })
 

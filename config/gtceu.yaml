@@ -5,14 +5,14 @@ recipes:
   generateLowQualityGems: true
 
   # Whether to remove Block/Ingot compression and decompression in the Crafting Table.
-  # Default: false
+  # Default: true
   disableManualCompression: true
 
   # Change the recipe of Rods in the Lathe to 1 Rod and 2 Small Piles of Dust, instead of 2 Rods.
   # Default: false
   harderRods: true
 
-  # Whether to make crafting recipes for Bricks, Firebricks, and Coke Bricks harder.
+  # Whether to make crafting recipes for Bricks, Firebricks, Nether Bricks, and Coke Bricks harder.
   # Default: false
   harderBrickRecipes: true
 
@@ -85,7 +85,16 @@ worldgen:
   # Should Sand-like ores fall?
   # This includes gravel, sand, and red sand ores.
   # Default: false (no falling ores)
-  sandOresFall: false
+  sandOresFall: true
+
+  # Whether to increase number of rolls for dungeon chests. Increases dungeon loot drastically.
+  # Default: true
+  # WARNING: Currently unimplemented.
+  increaseDungeonLoot: false
+
+  # Allow GregTech to add additional GregTech Items as loot in various structures.
+  # Default: true
+  addLoot: true
 
   oreVeins:
     # The grid size (in chunks) for ore vein generation
@@ -136,7 +145,7 @@ machines:
 
   # Whether machines explode in rainy weather or when placed next to certain terrain, such as fire or lava
   # Default: false
-  doTerrainExplosion: false
+  doTerrainExplosion: true
 
   # Energy use multiplier for electric items.
   # Default: 100
@@ -175,6 +184,10 @@ machines:
   # Whether to enable the Maintenance Hatch, required for Multiblocks.
   # Default: true
   enableMaintenance: true
+
+  # Whether to use GT6-style pipe and cable connections, meaning they will not auto-connect unless placed directly onto another pipe or cable.
+  # Default: true
+  gt6StylePipesCables: true
 
   # Whether the machine's circuit slot need to be inserted a real circuit.
   ghostCircuit: true
@@ -232,6 +245,11 @@ client:
   # #D2DCFF is the classic blue from GT5.
   defaultPaintingColor: #FFFFFF
 
+  # The default color to overlay onto Machine (and other) UIs.
+  # 16777215 (#FFFFFF) is no coloring (like GTCE).
+  # 13819135 (#D2DCFF in decimal) is the classic blue from GT5 (default).
+  defaultUIColor: #FFFFFF
+
   # Use VBO cache for multiblock preview.
   # Disable it if you have issues with rendering multiblocks.
   # Default: true
@@ -279,6 +297,10 @@ compat:
   removeSmeltingForEBFMetals: true
 
 dev:
+  # Debug general events? (will print placed veins to server's debug.log)
+  # Default: false
+  debug: false
+
   # Debug ore vein placement? (will print placed veins to server's debug.log)
   # Default: false (no placement printout in debug.log)
   debugWorldgen: false
