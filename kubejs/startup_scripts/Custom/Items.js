@@ -12,7 +12,7 @@ StartupEvents.registry('item', e => {
         make_bag(`${global.bag_name[i]}_bag_rare`, global.pouch_name[i], global.pouch_color_map[global.pouch_color[i]], global.rarity[1], false)
         make_bag(`${global.bag_name[i]}_bag_epic`, global.pouch_name[i], global.pouch_color_map[global.pouch_color[i]], global.rarity[2], true)
     }
-	e.create('ancient_tempura').displayName('§a§lAncient Tempura').food(food => {
+e.create('ancient_tempura').displayName('§a§lAncient Tempura').food(food => {
 		food
 			.hunger(10)
 			.saturation(.6)
@@ -26,11 +26,14 @@ StartupEvents.registry('item', e => {
 			})
 		})
 		
-    e.create('rankers_ring')
+e.create('rankers_ring')
         .displayName('§6Ring of Ranker')
+
 e.create('lockpick')
 	.displayName('Lockpick')
 	.maxDamage(50)
+	.rarity("rare")
+	.maxStackSize(32)
 
 })
 
@@ -42,5 +45,4 @@ ItemEvents.modification(event => {
 	})
 	event.modify("minecraft:potion", item => { item.setMaxStackSize(16) })
 	event.modify("minecraft:splash_potion", item => { item.setMaxStackSize(16) })
-	event.modify("nether_remastered:seal_piece_1", item => { item.setMaxStackSize(64) })
 })

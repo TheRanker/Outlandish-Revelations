@@ -30,8 +30,8 @@ ServerEvents.recipes(event => {
     ], {
         a:'#forge:stone',
         b:'#forge:gems/flint',
-        c:'#forge:tools/files',
- })
+        c:'#forge:tools/files'
+ }).id('kubejs:shaped/lockpick')
 
 
   //Advanced Peripherals

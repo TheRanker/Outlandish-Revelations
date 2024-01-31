@@ -18,4 +18,13 @@ ItemEvents.tooltip(tooltip => {
 
     let tomeMessage = Text.yellow('Reset with a left click on the air!')
     tooltip.add('akashictome:tome', [tomeMessage])
+
+
+
+    let lockpick = Text.yellow('use to unlock chests in wild, has 50 uses')
+        tooltip.add('kubejs:lockpick', [lockpick])
+          
+    let rankersring = text.yellow('Creative Flight')    
+        tooltip.add('kubejs:rankers_ring', [rankersring])
+
 })
