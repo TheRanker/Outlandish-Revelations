@@ -165,7 +165,7 @@
 				{
 					count: 2
 					id: "6F4A88033B4245E2"
-					item: "alltheores:steel_ingot"
+					item: "mffs:steel_ingot"
 					type: "item"
 				}
 			]
@@ -261,7 +261,7 @@
 			id: "0F9829B0A5EEE67B"
 			rewards: [{
 				id: "5779FAD09110C8D8"
-				item: "gtceu:gallium_arsenide_small_dust"
+				item: "gtceu:small_vanadium_gallium_dust"
 				type: "item"
 			}]
 			tasks: [{
@@ -301,7 +301,7 @@
 				{
 					count: 2
 					id: "1DBCAADC256D6736"
-					item: "gtceu:copper_fine_wire"
+					item: "gtceu:copper_single_wire"
 					random_bonus: 2
 					type: "item"
 				}
@@ -366,14 +366,14 @@
 				{
 					count: 4
 					id: "44700E5D3BE7BFB9"
-					item: "alltheores:bronze_plate"
+					item: "gtceu:bronze_plate"
 					random_bonus: 4
 					type: "item"
 				}
 				{
 					count: 8
 					id: "0FBE44A202516001"
-					item: "alltheores:steel_plate"
+					item: "gtceu:steel_plate"
 					random_bonus: 8
 					type: "item"
 				}
@@ -420,7 +420,7 @@
 				{
 					count: 8
 					id: "3C0F3AFEB9EE2CD2"
-					item: "alltheores:steel_plate"
+					item: "gtceu:steel_plate"
 					random_bonus: 8
 					type: "item"
 				}
@@ -467,7 +467,7 @@
 				{
 					count: 8
 					id: "55AC853EA70BCE2A"
-					item: "alltheores:bronze_plate"
+					item: "gtceu:bronze_plate"
 					random_bonus: 4
 					type: "item"
 				}

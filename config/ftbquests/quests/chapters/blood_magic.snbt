@@ -141,8 +141,6 @@
 				"Below is an example of how you'd build a Tier 2 Altar, but you can also visualize it in the guidebook."
 				""
 				"Note: Speed Runes are the only runes available (besides Blank Runes) until you make a Tier 2 Altar, but can be replaced later on."
-				""
-				"{image:atm:textures/questpics/bloodmagic/bloodmagic_tier2.png width:150 height:140 align:1}"
 			]
 			icon: "bloodmagic:altar"
 			id: "4B51189C36B8D291"
@@ -1086,8 +1084,6 @@
 				"If you want to check if the Altar was built correctly, use a &9Divination Sigil&r to check the Tier."
 				""
 				"Note: Any non-air block can be used for the pillar, as long as the cap is Glowstone."
-				""
-				"{image:atm:textures/questpics/bloodmagic/bloodmagic_tier3.png width:200 height:150 align:1}"
 			]
 			icon: "bloodmagic:altar"
 			id: "5886C648D14180E1"

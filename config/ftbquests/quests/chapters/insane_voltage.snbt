@@ -242,35 +242,11 @@
 			]
 			hide_dependent_lines: true
 			id: "1D9194E89D14BA85"
-			rewards: [
-				{
-					id: "7454CBA7D956781A"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							Parent: {
-								Amount: 16000
-								FluidName: "gtceu:polybenzimidazole"
-								capacity: 16000
-							}
-						}
-						id: "evilcraft:dark_tank"
-						tag: {
-							Fluid: {
-								Amount: 16000
-								FluidName: "gtceu:polybenzimidazole"
-							}
-							capacity: 16000
-						}
-					}
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "765B73430C8BD292"
-					type: "loot"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "765B73430C8BD292"
+				type: "loot"
+			}]
 			shape: "gear"
 			size: 1.25d
 			subtitle: "PBI at long last"
@@ -721,7 +697,7 @@
 			rewards: [{
 				count: 6
 				id: "138DF43E45BCBD66"
-				item: "alltheores:iridium_dust"
+				item: "gtceu:iridium_dust"
 				random_bonus: 6
 				type: "item"
 			}]
@@ -984,7 +960,7 @@
 			rewards: [{
 				count: 16
 				id: "2127226B7DCD7DB7"
-				item: "gtceu:raw_fluorite"
+				item: "gcyr:raw_fluorite"
 				random_bonus: 16
 				type: "item"
 			}]
@@ -1216,24 +1192,7 @@
 			id: "4AE3A2326EA07B7A"
 			rewards: [{
 				id: "1BCFE363242C28DA"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						Parent: {
-							Amount: 16000
-							FluidName: "gtceu:phenol"
-							capacity: 16000
-						}
-					}
-					id: "evilcraft:dark_tank"
-					tag: {
-						Fluid: {
-							Amount: 16000
-							FluidName: "gtceu:phenol"
-						}
-						capacity: 16000
-					}
-				}
+				item: "pneumaticcraft:huge_tank"
 				type: "item"
 			}]
 			subtitle: "How do you pronounce this?"

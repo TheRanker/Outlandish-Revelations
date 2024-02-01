@@ -151,14 +151,14 @@
 				{
 					count: 8
 					id: "7A8C4DEF04A1497F"
-					item: "gtceu:platinum_fine_wire"
+					item: "gtceu:fine_platinum_wire"
 					random_bonus: 8
 					type: "item"
 				}
 				{
 					count: 2
 					id: "07FD547CFCD64325"
-					item: "gtceu:gallium_arsenide_small_dust"
+					item: "gtceu:small_gallium_arsenide_dust"
 					random_bonus: 2
 					type: "item"
 				}
@@ -542,7 +542,7 @@
 			rewards: [{
 				count: 3
 				id: "06CB661C0124B64B"
-				item: "alltheores:steel_dust"
+				item: "gtceu:steel_dust"
 				random_bonus: 2
 				type: "item"
 			}]
@@ -756,37 +756,13 @@
 			dependencies: ["03B5D467E76C5B8A"]
 			description: ["You'll need an &6HV Chemical Reactor&r with some Chlorine, Carbon dust, and your Rutile dust to make this"]
 			id: "7B27B87A520E38B0"
-			rewards: [
-				{
-					count: 2
-					id: "0522455DB01E3725"
-					item: "gtceu:rutile_dust"
-					random_bonus: 2
-					type: "item"
-				}
-				{
-					id: "44AA9F0AC065A628"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							Parent: {
-								Amount: 16000
-								FluidName: "gtceu:chlorine"
-								capacity: 16000
-							}
-						}
-						id: "evilcraft:dark_tank"
-						tag: {
-							Fluid: {
-								Amount: 16000
-								FluidName: "gtceu:chlorine"
-							}
-							capacity: 16000
-						}
-					}
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 2
+				id: "0522455DB01E3725"
+				item: "gtceu:rutile_dust"
+				random_bonus: 2
+				type: "item"
+			}]
 			tasks: [{
 				id: "01CFC3E97122E03C"
 				item: "gtceu:titanium_tetrachloride_bucket"

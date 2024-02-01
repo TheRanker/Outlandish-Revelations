@@ -728,13 +728,7 @@
 		}
 		{
 			dependencies: ["7B3FAF5CA4DD217C"]
-			description: [
-				"These flowers generate Mana by consuming &bWater Source Blocks&r in a 3x3 area around it. These are very slow, and will eventually decay."
-				""
-				"Below is an example of a basic setup."
-				""
-				"{image:atm:textures/questpics/botania/hydrosample.png width:150 height:125 align:1}"
-			]
+			description: ["These flowers generate Mana by consuming &bWater Source Blocks&r in a 3x3 area around it. These are very slow, and will eventually decay."]
 			hide: false
 			hide_dependency_lines: false
 			id: "5D4F9B54A54EEBD6"
@@ -742,11 +736,6 @@
 				{
 					id: "7290957F0169C06E"
 					item: "botania:hydroangeas"
-					type: "item"
-				}
-				{
-					id: "50C0DA8F19F519F4"
-					item: "cookingforblockheads:sink"
 					type: "item"
 				}
 				{
@@ -2359,8 +2348,6 @@
 				"Terrasteel needs a lot of Mana to craft, requiring the use of &9Sparks&r. Place several Sparks over your Mana Pools, then one over the T.A. Plate to direct your mana for crafting."
 				""
 				"Once you have the platform ready for crafting, toss one Manasteel Ingot, Mana Diamond, and a Mana Pearl on the plate to start crafting Terrasteel."
-				""
-				"{image:atm:textures/questpics/botania/t_a_plate_base.png width:200 height:150 align:1}"
 			]
 			icon: "botania:terrasteel_ingot"
 			id: "23A2865FBE7831AB"
@@ -2555,8 +2542,6 @@
 				"Note: Even though the Mana Pools need a large amount of Mana to activate the portal, activating the portal does not cost Mana itself. However, converting materials over will use a little each time. If there is not enough mana, the portal will close."
 				""
 				"You can also use the &aLexica Botania&r to help you build it."
-				""
-				"{image:atm:textures/questpics/botania/elven_portal.png width:200 height:175 align:1}"
 			]
 			id: "1EF7664F5D8C5FF1"
 			min_width: 500
@@ -2610,8 +2595,6 @@
 				"You will need 4 Gaia Pylons around an &aActive Beacon&r, as well as a single Terrasteel ingot. Once the structure is built, sneak-right click the Beacon with the Terrasteel ingot and prepare for the fight of your life."
 				""
 				"If you need help with building the structure, you can always use the &aLexica Botania&r to help you build it. Look for the &9Ritual of Gaia&r."
-				""
-				"{image:atm:textures/questpics/botania/gaia_ritual.png width:300 height:100 align:1}"
 			]
 			id: "04CE14D92603FC7A"
 			min_width: 300

@@ -5,7 +5,7 @@
 	group: "610F012654EDDFE3"
 	icon: "twilightforest:twilight_portal_miniature_structure"
 	id: "7732CF7AAA63DB3A"
-	order_index: 5
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{

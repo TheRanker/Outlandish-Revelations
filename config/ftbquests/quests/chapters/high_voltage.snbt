@@ -494,7 +494,7 @@
 			rewards: [{
 				count: 2
 				id: "07C9E792514A730A"
-				item: "gtceu:annealed_copper_fine_wire"
+				item: "gtceu:fine_annealed_copper_wire"
 				random_bonus: 2
 				type: "item"
 			}]
@@ -873,7 +873,7 @@
 				{
 					count: 6
 					id: "1DCAD5968AC33349"
-					item: "alltheores:steel_ingot"
+					item: "mffs:steel_ingot"
 					random_bonus: 6
 					type: "item"
 				}

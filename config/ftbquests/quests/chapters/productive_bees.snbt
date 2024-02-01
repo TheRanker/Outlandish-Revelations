@@ -2485,7 +2485,7 @@
 		{
 			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
-			icon: "tombstone:grave_dust"
+			icon: "mcwholidays:flat_gravestone"
 			id: "4351DAA8B607BCBB"
 			rewards: [{
 				id: "3E53E43ACB7E4CB8"
@@ -3452,7 +3452,7 @@
 		{
 			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
-			icon: "gtceu:ruby_exquisite_gem"
+			icon: "gtceu:exquisite_ruby_gem"
 			id: "35E8F1CC0080E45E"
 			rewards: [{
 				id: "240612DCF75988AC"
@@ -3492,7 +3492,7 @@
 		{
 			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
-			icon: "gtceu:sapphire_exquisite_gem"
+			icon: "gtceu:exquisite_sapphire_gem"
 			id: "3AF30E1EC163E2E3"
 			rewards: [{
 				id: "6DBD9CDC28903F43"
@@ -3721,7 +3721,6 @@
 				"Place the bee on top of the Bottler, and activate the piston to squish the bee into genes. The resulting squished bottle can be then placed in a Centrifuge."
 				""
 				"Note: Make sure to have bottles in the Bottler."
-				"{image:atm:textures/questpics/bees/bottler.png width:100 height:150 align:1}"
 			]
 			hide_dependency_lines: true
 			id: "6F978C4D561F35EC"

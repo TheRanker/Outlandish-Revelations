@@ -1037,8 +1037,6 @@
 				"It is also a multiblock structure that utilizes Arcane Pedestals to craft."
 				""
 				"Start by placing an Arcane Core in the ground, then place the Enchanting Apparatus on top of it. Surround the Apparatus with Arcane Pedestals."
-				""
-				"{image:atm:textures/questpics/ars/enchanting_app.png width:200 height:175 align:1}"
 			]
 			id: "3D862A3D3F83CA26"
 			rewards: [{
@@ -1619,9 +1617,6 @@
 				"The Imbuement Chamber requires Source to imbue items. It produces a small amount of Source by itself, but can also use Source Jars as a power source."
 				""
 				"Several recipes also require Arcane Pedestals to be placed around it as well."
-				""
-				""
-				"{image:atm:textures/questpics/ars/imbuement.png width:200 height:150 align:1}"
 			]
 			id: "5766C8B9E850C186"
 			rewards: [
@@ -2223,8 +2218,6 @@
 				"For starters, you have Harm and Break."
 				""
 				"Select one Form and one Effect, name your spell, and click create!"
-				""
-				"{image:atm:textures/questpics/ars/spellbook.png width:200 height:150 align:1}"
 			]
 			icon: {
 				Count: 1b

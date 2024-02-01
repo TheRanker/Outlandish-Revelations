@@ -144,43 +144,7 @@
 			rewards: [{
 				count: 2
 				id: "6D991DABAE36FE01"
-				item: {
-					Count: 1b
-					id: "mekanism:basic_fluid_tank"
-					tag: {
-						BlockEntityTag: {
-							FluidTanks: [{
-								Tank: 0b
-								stored: {
-									Amount: 14000
-									FluidName: "industrialforegoing:latex"
-								}
-							}]
-							ForgeCaps: { }
-							Items: [ ]
-							activeState: 0b
-							currentRedstone: 15
-							editMode: 0
-							id: "mekanism:basic_fluid_tank"
-							redstone: 0b
-							updateDelay: 0
-						}
-						display: {
-							Lore: ["\"(+NBT)\""]
-						}
-						mekData: {
-							FluidTanks: [{
-								Tank: 0b
-								stored: {
-									Amount: 14000
-									FluidName: "industrialforegoing:latex"
-								}
-							}]
-							Items: [ ]
-							securityMode: 0
-						}
-					}
-				}
+				item: "enderio:fluid_tank"
 				type: "item"
 			}]
 			tasks: [{
@@ -282,44 +246,12 @@
 			rewards: [
 				{
 					id: "6AD72BC1A1F77913"
-					item: {
-						Count: 1b
-						id: "mekanism:basic_fluid_tank"
-						tag: {
-							mekData: {
-								FluidTanks: [{
-									Tank: 0b
-									stored: {
-										Amount: 14000
-										FluidName: "industrialforegoing:pink_slime"
-									}
-								}]
-								Items: [ ]
-								securityMode: 0
-							}
-						}
-					}
+					item: "enderio:fluid_tank"
 					type: "item"
 				}
 				{
 					id: "0D8B60F8BD60B5CB"
-					item: {
-						Count: 1b
-						id: "mekanism:basic_fluid_tank"
-						tag: {
-							mekData: {
-								FluidTanks: [{
-									Tank: 0b
-									stored: {
-										Amount: 14000
-										FluidName: "industrialforegoing:meat"
-									}
-								}]
-								Items: [ ]
-								securityMode: 0
-							}
-						}
-					}
+					item: "pneumaticcraft:small_tank"
 					type: "item"
 				}
 			]
@@ -829,43 +761,7 @@
 			id: "7E39FB9F3E973009"
 			rewards: [{
 				id: "3F01AE70E8D45133"
-				item: {
-					Count: 1b
-					id: "mekanism:basic_fluid_tank"
-					tag: {
-						BlockEntityTag: {
-							FluidTanks: [{
-								Tank: 0b
-								stored: {
-									Amount: 14000
-									FluidName: "industrialforegoing:ether_gas"
-								}
-							}]
-							ForgeCaps: { }
-							Items: [ ]
-							activeState: 0b
-							currentRedstone: 15
-							editMode: 0
-							id: "mekanism:basic_fluid_tank"
-							redstone: 0b
-							updateDelay: 0
-						}
-						display: {
-							Lore: ["\"(+NBT)\""]
-						}
-						mekData: {
-							FluidTanks: [{
-								Tank: 0b
-								stored: {
-									Amount: 14000
-									FluidName: "industrialforegoing:ether_gas"
-								}
-							}]
-							Items: [ ]
-							securityMode: 0
-						}
-					}
-				}
+				item: "pneumaticcraft:medium_tank"
 				type: "item"
 			}]
 			tasks: [{

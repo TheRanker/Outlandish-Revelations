@@ -187,3 +187,5 @@ whitelist.json
 config/embeddium-fingerprint.json
 
 config/embeddium-options.json
+
+config/l2_configs/
