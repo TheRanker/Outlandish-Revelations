@@ -80,7 +80,7 @@ ServerEvents.recipes(event => {
         'SRS'
     ], {
         S:'minecraft:smooth_stone',
-        A:'advancedperipherals:eripheral_casing',
+        A:'advancedperipherals:peripheral_casing',
         R:'gtceu:aluminium_single_wire'
     })
 
@@ -114,7 +114,7 @@ ServerEvents.recipes(event => {
         'cac',
         'bgb'
     ], {
-        r:'minecraft:red_torch',
+        r:'minecraft:redstone_torch',
         b:'gtceu:aluminium_single_wire',
         c:'minecraft:comparator',
         a:'advancedperipherals:peripheral_casing',

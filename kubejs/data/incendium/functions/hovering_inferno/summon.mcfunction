@@ -6,15 +6,15 @@ scoreboard players set $cheater in.inferno 0
 scoreboard players set $last.timer in.inferno 0
 
 # summon the damn thing
-execute at @e[type=marker,tag=in.altar,distance=..4] run summon blaze ~ ~4 ~ {Attributes: [{Base: 700.0d, Name: "minecraft:generic.max_health"}, {Base: 20.0d, Name: "minecraft:generic.armor"}, {Base: 0.87d, Name: "minecraft:generic.knockback_resistance"}, {Base: 20.0d, Name: "minecraft:generic.attack_knockback"}, {Base: 12.0d, Name: "minecraft:generic.armor_toughness"}, {Base: 0.4d, Name: "minecraft:generic.movement_speed"}, {Base: 20.0d, Name: "minecraft:generic.attack_damage"}, {Base: 70.0d, Name: "minecraft:generic.follow_range"}], PersistenceRequired: 1b, Tags: ["in.hovering_inferno"], Health: 700.0f, Rotation: [-129.48582f, 0.0f], HandItems: [{id:"totem_of_undying",Count:1b}, {}], CustomName: '{"translate":"incendium.admin.menu.inferno","fallback":"Hovering Inferno", "color": "#ff6600"}', CanPickUpLoot: 0b, DeathLootTable:"incendium:hovering_inferno"}
+execute at @e[type=marker,tag=in.altar,distance=..4] run summon blaze ~ ~4 ~ {Attributes: [{Base: 900.0d, Name: "minecraft:generic.max_health"}, {Base: 25.0d, Name: "minecraft:generic.armor"}, {Base: 0.87d, Name: "minecraft:generic.knockback_resistance"}, {Base: 25.0d, Name: "minecraft:generic.attack_knockback"}, {Base: 15.0d, Name: "minecraft:generic.armor_toughness"}, {Base: 0.4d, Name: "minecraft:generic.movement_speed"}, {Base: 30.0d, Name: "minecraft:generic.attack_damage"}, {Base: 70.0d, Name: "minecraft:generic.follow_range"}], PersistenceRequired: 1b, Tags: ["in.hovering_inferno"], Health: 900.0f, Rotation: [-129.48582f, 0.0f], HandItems: [{id:"totem_of_undying",Count:1b}, {}], CustomName: '{"translate":"incendium.admin.menu.inferno","fallback":"Hovering Inferno", "color": "#ff6600"}', CanPickUpLoot: 0b, DeathLootTable:"incendium:hovering_inferno"}
 execute as @e[type=blaze,tag=in.hovering_inferno,tag=!in.checked,distance=..25] at @s run function incendium:hovering_inferno/inferno/init
 
 # get bossbar
 bossbar add incendium:inferno {"translate":"incendium.admin.menu.inferno","fallback":"Hovering Inferno","color":"#ff6600"}
 
 bossbar set incendium:inferno color yellow
-bossbar set incendium:inferno value 700
-bossbar set incendium:inferno max 700
+bossbar set incendium:inferno value 900
+bossbar set incendium:inferno max 900
 
 # status
 data modify storage incendium:main inferno.mode set value 'normal'

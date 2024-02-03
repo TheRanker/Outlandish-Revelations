@@ -1,0 +1,358 @@
+recipesAdditions:
+  a:
+    # Whether to harden AE2WTLib recipes.
+    # Default: true
+    harderAE2WTLibRecipes: false
+
+    # Whether to harden Applied Botanics recipes.
+    # Default: true
+    harderAppliedBotanicsRecipes: true
+
+    # Whether to harden Applied Cooking recipes.
+    # Default: true
+    harderAppliedCookingRecipes: true
+
+    # Whether to harden Applied Energistics 2 recipes.
+    # Default: true
+    harderAppliedEnergistics2Recipes: false
+
+    # Whether to harden Applied Mekanistics recipes.
+    # Default: true
+    harderAppliedMekanisticsRecipes: false
+
+    # Whether to harden Ars Nouveau recipes.
+    # Default: true
+    harderArsNouveauRecipes: true
+
+    # Whether to harden Ars …nergistique recipes.
+    # Default: true
+    harderArs…nergistiqueRecipes: true
+
+    # Whether to harden Assembly Lines recipes.
+    # Default: true
+    harderAssemblyLinesRecipes: true
+
+  b:
+    # Whether to harden Ballistix recipes.
+    # Default: true
+    harderBallistixRecipes: false
+
+    # Whether to harden Better Archeology recipes.
+    # Default: true
+    harderBetterArcheologyRecipes: false
+
+    # Whether to harden Biomes O' Plenty recipes.
+    # Default: true
+    harderBiomesOPlentyRecipes: false
+
+    # Whether to harden Blastcraft mod recipes.
+    # Default: true
+    harderBlastcraftModRecipes: false
+
+    # Whether to harden Botania recipes.
+    # Default: true
+    harderBotaniaRecipes: true
+
+  c:
+    # Whether to harden CC Tweaked recipes.
+    # Default: true
+    harderCCTweakedRecipes: true
+
+    # Whether to harden CC:C Bridge recipes.
+    # Default: true
+    harderCCCBridgeRecipes: true
+
+    # Whether to harden Chisel and Bits recipes.
+    # Default: true
+    harderChiselAndBitsRecipes: false
+
+    # Whether to harden Cooking for Blockheads recipes.
+    # Default: true
+    harderCookingForBlockheadsRecipes: true
+
+    # Whether to harden Create recipes.
+    # Default: true
+    harderCreateRecipes: false
+
+  d:
+    # Whether to harden Domum Omamentum recipes.
+    # Default: true
+    harderDomumOmamentumRecipes: false
+
+  e:
+    # Whether to harden Electrodynamics recipes.
+    # Default: true
+    harderElectrodynamicsRecipes: false
+
+  f:
+  g:
+  h:
+  i:
+  j:
+  k:
+  l:
+  m:
+    # Whether to harden ME Requester recipes.
+    # Default: true
+    harderMERequesterRecipes: false
+
+    # Whether to harden MEGA Cells recipes.
+    # Default: true
+    harderMEGACellsRecipes: false
+
+    # Whether to harden Mekanism recipes.
+    # Default: true
+    harderMekanismRecipes: false
+
+    # Whether to harden Mekanism Additions recipes.
+    # Default: true
+    harderMekanismAdditionsRecipes: false
+
+    # Whether to harden Mekanism Generators recipes.
+    # Default: true
+    harderMekanismGeneratorsRecipes: false
+
+    # Whether to harden Mekanism Tools recipes.
+    # Default: true
+    harderMekanismToolsRecipes: false
+
+    # Whether to harden Mekanism-MoreSolarPanels recipes.
+    # Default: true
+    harderMekanismMoreSolarPanelsRecipes: false
+
+    # Whether to harden Mekanism: Weapons recipes.
+    # Default: true
+    harderMekanismWeaponsRecipes: false
+
+    # Whether to harden MineColonies recipes.
+    # Default: true
+    harderMineColoniesRecipes: false
+
+    # Whether to harden MineColonies for ComputerCraft recipes.
+    # Default: true
+    harderMineColoniesForComputerCraftRecipes: true
+
+    # Whether to harden Modular Force Fields System recipes.
+    # Default: true
+    harderModularForceFieldsSystemRecipes: true
+
+    # Whether to harden More Red recipes.
+    # Default: true
+    harderMoreRedRecipes: false
+
+    # Whether to harden Multi-Piston recipes.
+    # Default: true
+    harderMultiPistonRecipes: false
+
+  n:
+    # Whether to harden Nuclear Science recipes.
+    # Default: true
+    harderNuclearScienceRecipes: false
+
+  o:
+  p:
+    # Whether to harden Productive Bees recipes.
+    # Default: true
+    harderProductiveBeesRecipes: true
+
+  q:
+  r:
+    # Whether to harden Rechiseled recipes.
+    # Default: true
+    harderRechiseledRecipes: false
+
+    # Whether to harden Rechiseled Create recipes.
+    # Default: true
+    harderRechiseledCreateRecipes: false
+
+  s:
+  t:
+    # Whether to harden The Twilight Forest recipes.
+    # Default: true
+    harderTheTwilightForestRecipes: true
+
+  u:
+  v:
+  w:
+  x:
+  y:
+  z:
+recipesRemoval:
+  a:
+    # Whether to harden AE2WTLib recipes.
+    # Default: true
+    harderAE2WTLibRecipes: false
+
+    # Whether to harden Applied Botanics recipes.
+    # Default: true
+    harderAppliedBotanicsRecipes: true
+
+    # Whether to harden Applied Cooking recipes.
+    # Default: true
+    harderAppliedCookingRecipes: false
+
+    # Whether to harden Applied Energistics 2 recipes.
+    # Default: true
+    harderAppliedEnergistics2Recipes: false
+
+    # Whether to harden Applied Mekanistics recipes.
+    # Default: true
+    harderAppliedMekanisticsRecipes: false
+
+    # Whether to harden Ars Nouveau recipes.
+    # Default: true
+    harderArsNouveauRecipes: true
+
+    # Whether to harden Ars …nergistique recipes.
+    # Default: true
+    harderArs…nergistiqueRecipes: false
+
+    # Whether to harden Assembly Lines recipes.
+    # Default: true
+    harderAssemblyLinesRecipes: false
+
+  b:
+    # Whether to harden Ballistix recipes.
+    # Default: true
+    harderBallistixRecipes: false
+
+    # Whether to harden Better Archeology recipes.
+    # Default: true
+    harderBetterArcheologyRecipes: false
+
+    # Whether to harden Biomes O' Plenty recipes.
+    # Default: true
+    harderBiomesOPlentyRecipes: false
+
+    # Whether to harden Blastcraft mod recipes.
+    # Default: true
+    harderBlastcraftModRecipes: false
+
+    # Whether to harden Botania recipes.
+    # Default: true
+    harderBotaniaRecipes: true
+
+  c:
+    # Whether to harden CC Tweaked recipes.
+    # Default: true
+    harderCCTweakedRecipes: true
+
+    # Whether to harden CC:C Bridge recipes.
+    # Default: true
+    harderCCCBridgeRecipes: true
+
+    # Whether to harden Chisel and Bits recipes.
+    # Default: true
+    harderChiselAndBitsRecipes: false
+
+    # Whether to harden Cooking for Blockheads recipes.
+    # Default: true
+    harderCookingForBlockheadsRecipes: false
+
+    # Whether to harden Create recipes.
+    # Default: true
+    harderCreateRecipes: false
+
+  d:
+    # Whether to harden Domum Omamentum recipes.
+    # Default: true
+    harderDomumOmamentumRecipes: false
+
+  e:
+    # Whether to harden Electrodynamics recipes.
+    # Default: true
+    harderElectrodynamicsRecipes: false
+
+  f:
+  g:
+  h:
+  i:
+  j:
+  k:
+  l:
+  m:
+    # Whether to harden ME Requester recipes.
+    # Default: true
+    harderMERequesterRecipes: false
+
+    # Whether to harden MEGA Cells recipes.
+    # Default: true
+    harderMEGACellsRecipes: false
+
+    # Whether to harden Mekanism recipes.
+    # Default: true
+    harderMekanismRecipes: false
+
+    # Whether to harden Mekanism Additions recipes.
+    # Default: true
+    harderMekanismAdditionsRecipes: false
+
+    # Whether to harden Mekanism Generators recipes.
+    # Default: true
+    harderMekanismGeneratorsRecipes: false
+
+    # Whether to harden Mekanism Tools recipes.
+    # Default: true
+    harderMekanismToolsRecipes: false
+
+    # Whether to harden Mekanism-MoreSolarPanels recipes.
+    # Default: true
+    harderMekanismMoreSolarPanelsRecipes: false
+
+    # Whether to harden Mekanism: Weapons recipes.
+    # Default: true
+    harderMekanismWeaponsRecipes: false
+
+    # Whether to harden MineColonies recipes.
+    # Default: true
+    harderMineColoniesRecipes: false
+
+    # Whether to harden MineColonies for ComputerCraft recipes.
+    # Default: true
+    harderMineColoniesForComputerCraftRecipes: false
+
+    # Whether to harden Modular Force Fields System recipes.
+    # Default: true
+    harderModularForceFieldsSystemRecipes: true
+
+    # Whether to harden More Red recipes.
+    # Default: true
+    harderMoreRedRecipes: false
+
+    # Whether to harden Multi-Piston recipes.
+    # Default: true
+    harderMultiPistonRecipes: false
+
+  n:
+    # Whether to harden Nuclear Science recipes.
+    # Default: true
+    harderNuclearScienceRecipes: false
+
+  o:
+  p:
+    # Whether to harden Productive Bees recipes.
+    # Default: true
+    harderProductiveBeesRecipes: true
+
+  q:
+  r:
+    # Whether to harden Rechiseled recipes.
+    # Default: true
+    harderRechiseledRecipes: false
+
+    # Whether to harden Rechiseled Create recipes.
+    # Default: true
+    harderRechiseledCreateRecipes: false
+
+  s:
+  t:
+    # Whether to harden The Twilight Forest recipes.
+    # Default: true
+    harderTheTwilightForestRecipes: true
+
+  u:
+  v:
+  w:
+  x:
+  y:
+  z:

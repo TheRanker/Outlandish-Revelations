@@ -189,3 +189,11 @@ config/embeddium-fingerprint.json
 config/embeddium-options.json
 
 config/l2_configs/
+
+config/spark/
+
+config/ftbquests/
+
+config/paxi/
+
+config/desiredservers/
