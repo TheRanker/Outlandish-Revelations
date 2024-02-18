@@ -8,7 +8,7 @@
 	#if set to true, players who are AFK will continuously grow their
 	#reduction value and will end up gaining negative xp.
 	#If this is false, they only stop gaining and never lose.
-	AFK_Can_Subtract = false
+	AFK_Can_Subtract = true
 
 	#AFK Tracking allows you to control if and when a player
 	#should not gain xp while afk.  All afk timers are configuration

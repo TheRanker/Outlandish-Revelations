@@ -43,9 +43,6 @@
 			perk = "pmmo:break_speed"
 			hoe_dig = 0.005
 
-		[[Perks.For_Event.ENTITY]]
-			skill = "charisma"
-			perk = "pmmo:villager_boost"
 
 		[[Perks.For_Event.SKILL_UP]]
 			skill = "mining"

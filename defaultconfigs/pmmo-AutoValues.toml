@@ -3,7 +3,7 @@
 #and apply when no other defined requirement or xp value is present
 [Auto_Values]
 	#set this to false to disable the auto values system.
-	"Auto Values Enabled" = true
+	"Auto Values Enabled" = false
 
 	#These settings turn auto-values on/off for the specific requirement type.  These are global settings
 	[Auto_Values.Req_Toggles]
