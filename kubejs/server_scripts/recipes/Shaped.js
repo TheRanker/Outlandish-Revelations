@@ -133,38 +133,50 @@ ServerEvents.recipes(event => {
         r:'gtceu:aluminium_single_wire'
     })
 
-    //Jacks Economy
-    event.shaped('jackseconomy:advanced_wallet', [
-        'ABA', 
-        'BCB', 
-        'ABA'  
-    
-      ], {
-        A: 'jackseconomy:fifty_dollar_bill', 
-        B: 'minecraft:leather', 
-        C: 'jackseconomy:intermediate_wallet'   
-      })
-    
+    event.shaped('aquaculture:iron_fishing_rod', [
+        '  I',
+        ' IF',
+        'SWR'
+    ], {
+        I: 'gtceu:iron_rod',
+        F: 'minecraft:string',
+        S: 'minecraft:stick',
+        W: '#forge:tools/wire_cutters',
+        R: 'gtceu:iron_ring'
+    })
 
-    event.shaped('jackseconomy:intermediate_wallet', [
-        'ABA', 
-        'BCB', 
-        'ABA'  
-      ], {
-    
-        A: 'jackseconomy:ten_dollar_bill', 
-        B: 'minecraft:leather', 
-        C: 'jackseconomy:basic_wallet'   
-      })
-    
+    event.shaped('aquaculture:gold_fishing_rod', [
+        '  I',
+        ' IF',
+        'SWR'
+    ], {
+        I: 'gtceu:gold_rod',
+        F: 'minecraft:string',
+        S: 'minecraft:stick',
+        W: '#forge:tools/wire_cutters',
+        R: 'gtceu:iron_ring'
+    })
 
-    event.shaped('jackseconomy:the_phat_wallet', [
-        'ABA', 
-        'BCB', 
-        'ABA'  
-      ], {
-        A: 'jackseconomy:thousand_dollar_bill', 
-        B: 'minecraft:leather', 
-        C: 'jackseconomy:advanced_wallet'   
-      })
+    event.shaped('aquaculture:diamond_fishing_rod', [
+        '  I',
+        ' IF',
+        'SWR'
+    ], {
+        I: 'gtceu:diamond_rod',
+        F: 'minecraft:string',
+        S: 'minecraft:stick',
+        W: '#forge:tools/wire_cutters',
+        R: 'gtceu:iron_ring'
+    })
+    event.shaped('aquaculture:neptunium_fishing_rod', [
+        '  I',
+        ' IF',
+        'SWR'
+    ], {
+        I: 'aquaculture:neptunium_ingot',
+        F: 'minecraft:string',
+        S: 'minecraft:stick',
+        W: '#forge:tools/wire_cutters',
+        R: 'gtceu:iron_ring'
+    })
 })

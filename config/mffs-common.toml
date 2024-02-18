@@ -15,7 +15,7 @@
 	#Range: > 0
 	maxCustomModeScale = 200
 	#Give players a copy of the MFFS guidebook when they first join a world
-	giveGuidebookOnFirstJoin = true
+	giveGuidebookOnFirstJoin = false
 
 [balance]
 	#The amount of generated Fortron per 1 FE

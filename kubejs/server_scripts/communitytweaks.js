@@ -158,7 +158,7 @@ EntityEvents.hurt(event => {
 ServerEvents.tags('item', event => {
     //Gives Rankers Ring Cruios Ring Tag
     event.add('curios:ring', 'kubejs:rankers_ring'),
-    //Gives Tome Cruios magic Book Tag
+    //Gives Eccentric Tome Cruios magic Book Tag
     event.add('curios:magic_book', 'eccentrictome:tome')
 })
 
@@ -337,7 +337,7 @@ function check_inv(player) {
     throw_from_inv_include_curious(player, ['sophisticatedbackpacks:backpack', 'sophisticatedbackpacks:iron_backpack', 'sophisticatedbackpacks:gold_backpack', 'sophisticatedbackpacks:diamond_backpack', 'sophisticatedbackpacks:netherite_backpack'], 1, "You can have only one backpack in your inventory! You can create a backpack of higher level or use upgrades to be able to carry more items. One of the backpacks was thrown to the ground!")
     throw_from_inv_include_curious(player, ['supplementaries:sack'], 3, "Too much sacks in inventory! One of the sacks was thrown to the ground!")
 } 
-
+//setup juice  creation
 ServerEvents.recipes(event => {
 
   juices.forEach(juice => {
