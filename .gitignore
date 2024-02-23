@@ -197,3 +197,5 @@ config/ftbquests/
 config/paxi/
 
 config/desiredservers/
+
+.mixin.out/
