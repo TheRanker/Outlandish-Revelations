@@ -14,7 +14,7 @@ ServerEvents.recipes(event => {
 
     for (let i = 0; i < woodTypes.length; i++) {
 
-        event.remove({ output: modId + ':' + woodTypes[i] + '_planks' })
+      event.remove({ output: modId + ':' + woodTypes[i] + '_planks' })
       event.remove({ output: modId + ':' + woodTypes[i] + '_slab' })
       event.remove({ output: modId + ':' + woodTypes[i] + '_stairs' })
       event.remove({ output: modId + ':' + woodTypes[i] + '_fence' })
@@ -26,7 +26,6 @@ ServerEvents.recipes(event => {
       event.remove({ output: modId + ':' + woodTypes[i] + '_sign' })
 
         if (woodTypes[i] == 'crimson' || woodTypes[i] == 'warped'){
-            event.remove({ output: modId + ':' + woodTypes[i] + '_stem' })
             event.remove({ output: modId + ':' + woodTypes[i] + '_hyphae' })
             event.shapeless(modId + ':' + woodTypes[i] + '_hyphae', [modId + ':' + woodTypes[i] + '_stem' ])
             event.shapeless('2x ' + modId + ':' + woodTypes[i] + '_planks', [modId + ':' + woodTypes[i] + '_stem'])
@@ -41,7 +40,6 @@ ServerEvents.recipes(event => {
                 B: modId + ':' + woodTypes[i] + '_stem',
             })
         }else{
-            event.remove({ output: modId + ':' + woodTypes[i] + '_log' })
             event.remove({ output: modId + ':' + woodTypes[i] + '_wood' })
             event.shapeless(modId + ':' + woodTypes[i] + '_log', [modId + ':' + woodTypes[i] + '_wood'])
             event.shapeless('2x ' + modId + ':' + woodTypes[i] + '_planks', [modId + ':' + woodTypes[i] + '_log'])
