@@ -30,10 +30,18 @@ e.create('rankers_ring')
         .displayName('§6Ring of Ranker')
 
 e.create('lockpick')
-	.displayName('Lockpick')
+	.displayName('Lock-Pick')
 	.maxDamage(50)
 	.rarity("rare")
 	.maxStackSize(32)
+
+e.create('rankers_sword', 'sword')
+	.tier('netherite')
+	.attackDamageBaseline(17.5)
+	.displayName('§6Sword of Ranker')
+	.speedBaseline(5)
+	.maxDamage(0)
+	.glow(true)
 
 })
 
@@ -45,4 +53,9 @@ ItemEvents.modification(event => {
 	})
 	event.modify("minecraft:potion", item => { item.setMaxStackSize(16) })
 	event.modify("minecraft:splash_potion", item => { item.setMaxStackSize(16) })
+	event.modify("kubejs:rankers_sword", item => { 
+		item.maxStackSize = 1 
+		item.fireResistant = true
+		item.rarity = "EPIC"
+	})
 })
