@@ -54,8 +54,8 @@ let early = {
             new ItemOfBag("gtceu:iron_ingot", 1),
             new ItemOfBag("minecraft:stone_pickaxe", 1),
             new ItemOfBag("minecraft:stone_sword", 1),
-            new ItemOfBag("gtceu:stone_gear", 1),
-            new ItemOfBag("gtceu:stone_rod", 1),
+            new ItemOfBag("gtceu:iron_gear", 1),
+            new ItemOfBag("gtceu:iron_rod", 1),
             new ItemOfBag("gtceu:soapstone_small_dust", 2),
             new ItemOfBag("gtceu:stone_small_dust", 8),
             new ItemOfBag("gtceu:raw_redstone", 16),
@@ -65,8 +65,8 @@ let early = {
     rare: new Bag(
         [ 
             new ItemOfBag("gtceu:iron_ingot", 4),
-            new ItemOfBag("gtceu:stone_gear", 4),
-            new ItemOfBag("gtceu:stone_rod", 4),
+            new ItemOfBag("gtceu:iron_gear", 4),
+            new ItemOfBag("gtceu:iron_rod", 4),
             new ItemOfBag("gtceu:raw_coal", 16),
             new ItemOfBag("gtceu:raw_redstone", 32),
             new ItemOfBag("minecraft:cooked_salmon", 32),
@@ -79,7 +79,7 @@ let early = {
             new ItemOfBag("gtceu:iron_hammer", 1),
             new ItemOfBag("gtceu:iron_knife", 1),
             new ItemOfBag("gtceu:iron_ore", 32),
-            new ItemOfBag("gtceu:iron_rod", 4),
+            new ItemOfBag("gtceu:iron_rod", 16),
         ]
     ),
 }

@@ -99,4 +99,6 @@ ServerEvents.recipes(event => {
     event.recipes.gtceu.mixer(nextId()).itemOutputs('2x gtceu:enderium_dust').inputFluids(Fluid.of('kubejs:resonant_ender', 1000)).itemInputs('3x #forge:dusts/lead').itemInputs('#forge:dusts/platinum').duration(120).EUt(30)
     event.recipes.gtceu.mixer(nextId()).itemOutputs('2x gtceu:signalum_dust').inputFluids(Fluid.of('gtceu:redstone', 576)).itemInputs('3x #forge:dusts/copper').itemInputs('#forge:dusts/sterling_silver').duration(120).EUt(30)
     
+    event.recipes.gtceu.macerator(nextId()).duration(400).EUt(2).itemOutputs('4x gtceu:obsidian_dust').itemInputs('minecraft:obsidian')
+
 })
