@@ -1,0 +1,7 @@
+#Enable auto-reloading of guns
+#Allowed Values: CREATIVE, SURVIVAL, ENABLED, DISABLED
+autoReloadEnabled = "CREATIVE"
+#Mouse sensitivity while aiming with optical scopes
+#Range: 0.01 ~ 0.9
+scopeAimingMouseSensitivity = 0.1
+

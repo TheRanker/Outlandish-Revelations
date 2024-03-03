@@ -1,0 +1,69 @@
+#Enables hardcore mode: all bosses will have x10 hp and x2 damage
+hardcore = false
+#Challenge cooldown in hours
+#Range: 0 ~ 2100000000
+cooldown = 8
+#How many % of stellar chance will you get on failure
+#Range: 0 ~ 100
+stellarChanceIncrease = 10
+#This is the number on how many challenge 1 maximum progress will be reduced
+#Range: 0 ~ 2100000000
+challengeReduce1 = 0
+#This is the number on how many challenge 2 maximum progress will be reduced
+#Range: 0 ~ 2100000000
+challengeReduce2 = 0
+#This is the number on how many challenge 3 maximum progress will be reduced
+#Range: 0 ~ 2100000000
+challengeReduce3 = 0
+#This is the number on how many challenge 4 maximum progress will be reduced
+#Range: 0 ~ 2100000000
+challengeReduce4 = 0
+#This is the number on how many challenge 5 maximum progress will be reduced
+#Range: 0 ~ 2100000000
+challengeReduce5 = 0
+#This is the number on how many challenge 6 maximum progress will be reduced
+#Range: 0 ~ 2100000000
+challengeReduce6 = 0
+#This is the number on how many challenge 7 maximum progress will be reduced
+#Range: 0 ~ 2100000000
+challengeReduce7 = 0
+#This is the number on how many challenge 8 maximum progress will be reduced
+#Range: 0 ~ 2100000000
+challengeReduce8 = 0
+#This is the number on how many challenge 9 maximum progress will be reduced
+#Range: 0 ~ 2100000000
+challengeReduce9 = 0
+#This is the number on how many challenge 10 maximum progress will be reduced
+#Range: 0 ~ 2100000000
+challengeReduce10 = 0
+#This is the number on how many challenge 11 maximum progress will be reduced
+#Range: 0 ~ 2100000000
+challengeReduce11 = 0
+#This is the number on how many challenge 12 maximum progress will be reduced
+#Range: 0 ~ 2100000000
+challengeReduce12 = 0
+#This is the number on how many challenge 13 maximum progress will be reduced
+#Range: 0 ~ 2100000000
+challengeReduce13 = 0
+#This is the number on how many challenge 14 maximum progress will be reduced
+#Range: 0 ~ 2100000000
+challengeReduce14 = 0
+#This is the number on how many challenge 15 maximum progress will be reduced
+#Range: 0 ~ 2100000000
+challengeReduce15 = 0
+#This is the number on how many challenge 16 maximum progress will be reduced
+#Range: 0 ~ 2100000000
+challengeReduce16 = 0
+#This is the number on how many challenge 17 maximum progress will be reduced
+#Range: 0 ~ 2100000000
+challengeReduce17 = 0
+#This is the number on how many challenge 18 maximum progress will be reduced
+#Range: 0 ~ 2100000000
+challengeReduce18 = 0
+#This is the number on how many challenge 19 maximum progress will be reduced
+#Range: 0 ~ 2100000000
+challengeReduce19 = 0
+#This is the number on how many challenge 20 maximum progress will be reduced
+#Range: 0 ~ 2100000000
+challengeReduce20 = 0
+

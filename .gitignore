@@ -199,3 +199,5 @@ config/paxi/
 config/desiredservers/
 
 .mixin.out/
+
+observable_announce
