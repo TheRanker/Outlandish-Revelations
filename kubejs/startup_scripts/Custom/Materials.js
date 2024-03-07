@@ -1,8 +1,4 @@
 GTCEuStartupEvents.registry('gtceu:material', event => {
-    event.create('manasteel')
-        .ingot()
-        .color(0x3D78DB).iconSet(GTMaterialIconSet.SHINY)
-        .cableProperties(32, 4, 0)
     event.create('energetic_alloy')
         .ingot()
         .color(0xecbc3c).iconSet(GTMaterialIconSet.SHINY)
@@ -28,13 +24,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .flags(GTMaterialFlags.GENERATE_BOLT_SCREW, GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_GEAR, GTMaterialFlags.GENERATE_ROD)
         .color(0xBAD4FF).iconSet(GTMaterialIconSet.SHINY)
         .cableProperties(32768, 4, 0)
-    event.create('terrasteel')
-        .ingot()
-        .flags(GTMaterialFlags.GENERATE_BOLT_SCREW, GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_GEAR, GTMaterialFlags.GENERATE_ROD)
-        .color(0x31E52B).iconSet(GTMaterialIconSet.SHINY)
-        .cableProperties(131072, 4, 0)
-
-    event.create('starmetal')
+     event.create('starmetal')
         .ingot()
         .flags(GTMaterialFlags.GENERATE_BOLT_SCREW, GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_GEAR, GTMaterialFlags.GENERATE_ROD)
         .color(0x2B5AA8).iconSet(GTMaterialIconSet.SHINY)
@@ -42,10 +32,6 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .ingot()
         .flags(GTMaterialFlags.GENERATE_BOLT_SCREW, GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_GEAR)
         .color(0xEAD489).iconSet(GTMaterialIconSet.SHINY)
-    event.create('skystone')
-        .color(0x303031).secondaryColor(0x3a4447).iconSet(GTMaterialIconSet.METALLIC)
-        .flags(GTMaterialFlags.GENERATE_LENS)
-
    
 
     event.create('mana')

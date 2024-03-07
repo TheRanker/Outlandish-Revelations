@@ -7,7 +7,7 @@ textColor = "#A0A0A0"
 #Default: %dms
 textFormatString = "%dms"
 #Whether to also draw the default Minecraft ping bars
-renderPingBars = false
+renderPingBars = true
 #Whether to color a player's ping based on their latency.
 #Example: low latency = green, high latency = red
 #If this setting is true, then the 'textColor' setting is ignored

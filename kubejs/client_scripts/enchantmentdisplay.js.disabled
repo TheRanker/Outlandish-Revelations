@@ -1,5 +1,5 @@
 const ForgeRegistries = Java.loadClass("net.minecraftforge.registries.ForgeRegistries");
-const EnchHooks = Java.loadClass("shadows.apotheosis.ench.asm.EnchHooks");
+const EnchHooks = Java.loadClass("shadowsoffire.apotheosis.ench.asm.EnchHooks");
 
 ClientEvents.highPriorityAssets(event => {
   const enchantedBooks = [];

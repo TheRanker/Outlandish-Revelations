@@ -41,8 +41,6 @@ e.create('rankers_sword', 'sword')
 	.displayName('§6Tears for Fears')
 	.speedBaseline(5)
 	.maxDamage(0)
-	.glow(true)
-
 })
 
 ItemEvents.modification(event => {

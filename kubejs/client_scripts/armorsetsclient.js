@@ -7,7 +7,7 @@ ItemEvents.tooltip((event) => {
       if (global.armorSets[armor_set] !== undefined) {
         tooltip.add(1, ["Active Armor Set: ", Text.green(global.armorSets[armor_set])]);
       } else {
-        tooltip.add(1, ["Active Armor Set: ", Text.red("Not Active")]);
+        tooltip.add(1, ["Active Armor Set: ", Text.red("No Active")]);
       }
     }
   });

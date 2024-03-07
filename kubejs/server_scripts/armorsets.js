@@ -3,7 +3,7 @@ global.armorSets = {
   iron: "Iron Armor Set",
   golden: "Golden Armor Set",
   diamond: "Diamond Armor Set",
-  leather: "Leather Armor Set",
+  leather: "Leather Armor Set"
 };
 
 PlayerEvents.inventoryChanged((event) => {

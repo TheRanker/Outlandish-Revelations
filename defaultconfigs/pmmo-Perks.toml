@@ -46,7 +46,6 @@
 
 		[[Perks.For_Event.SKILL_UP]]
 			skill = "mining"
-			perk = "pmmo:fireworks"
 
 		[[Perks.For_Event.SKILL_UP]]
 			skill = "building"
@@ -57,19 +56,15 @@
 
 		[[Perks.For_Event.SKILL_UP]]
 			skill = "building"
-			perk = "pmmo:fireworks"
 
 		[[Perks.For_Event.SKILL_UP]]
 			skill = "excavation"
-			perk = "pmmo:fireworks"
 
 		[[Perks.For_Event.SKILL_UP]]
 			skill = "woodcutting"
-			perk = "pmmo:fireworks"
 
 		[[Perks.For_Event.SKILL_UP]]
 			skill = "farming"
-			perk = "pmmo:fireworks"
 
 		[[Perks.For_Event.SKILL_UP]]
 			skill = "agility"
@@ -80,7 +75,6 @@
 
 		[[Perks.For_Event.SKILL_UP]]
 			skill = "agility"
-			perk = "pmmo:fireworks"
 
 		[[Perks.For_Event.SKILL_UP]]
 			skill = "endurance"
@@ -91,7 +85,6 @@
 
 		[[Perks.For_Event.SKILL_UP]]
 			skill = "endurance"
-			perk = "pmmo:fireworks"
 
 		[[Perks.For_Event.SKILL_UP]]
 			skill = "combat"
@@ -102,43 +95,33 @@
 
 		[[Perks.For_Event.SKILL_UP]]
 			skill = "combat"
-			perk = "pmmo:fireworks"
 
 		[[Perks.For_Event.SKILL_UP]]
 			skill = "gunslinging"
-			perk = "pmmo:fireworks"
 
 		[[Perks.For_Event.SKILL_UP]]
 			skill = "archery"
-			perk = "pmmo:fireworks"
 
 		[[Perks.For_Event.SKILL_UP]]
 			skill = "smithing"
-			perk = "pmmo:fireworks"
 
 		[[Perks.For_Event.SKILL_UP]]
 			skill = "flying"
-			perk = "pmmo:fireworks"
 
 		[[Perks.For_Event.SKILL_UP]]
 			skill = "swimming"
-			perk = "pmmo:fireworks"
 
 		[[Perks.For_Event.SKILL_UP]]
 			skill = "sailing"
-			perk = "pmmo:fireworks"
 
 		[[Perks.For_Event.SKILL_UP]]
 			skill = "fishing"
-			perk = "pmmo:fireworks"
 
 		[[Perks.For_Event.SKILL_UP]]
 			skill = "crafting"
-			perk = "pmmo:fireworks"
 
 		[[Perks.For_Event.SKILL_UP]]
 			skill = "magic"
-			perk = "pmmo:fireworks"
 
 		[[Perks.For_Event.SKILL_UP]]
 			skill = "magic"
@@ -154,23 +137,18 @@
 
 		[[Perks.For_Event.SKILL_UP]]
 			skill = "slayer"
-			perk = "pmmo:fireworks"
 
 		[[Perks.For_Event.SKILL_UP]]
 			skill = "hunter"
-			perk = "pmmo:fireworks"
 
 		[[Perks.For_Event.SKILL_UP]]
 			skill = "taming"
-			perk = "pmmo:fireworks"
 
 		[[Perks.For_Event.SKILL_UP]]
 			skill = "cooking"
-			perk = "pmmo:fireworks"
 
 		[[Perks.For_Event.SKILL_UP]]
 			skill = "alchemy"
-			perk = "pmmo:fireworks"
 
 		[[Perks.For_Event.DEAL_DAMAGE]]
 			applies_to = ["minecraft:bow", "minecraft:crossbow", "minecraft:trident"]
