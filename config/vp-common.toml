@@ -1,5 +1,5 @@
 #Enables hardcore mode: all bosses will have x10 hp and x2 damage
-hardcore = false
+hardcore = true
 #Challenge cooldown in hours
 #Range: 0 ~ 2100000000
 cooldown = 8
@@ -66,4 +66,21 @@ challengeReduce19 = 0
 #This is the number on how many challenge 20 maximum progress will be reduced
 #Range: 0 ~ 2100000000
 challengeReduce20 = 0
+#Hardcore mode Hp scale
+#Range: 1 ~ 2100000000
+bossHP = 10
+#Hardcore mode attack scale
+#Range: 1 ~ 2100000000
+bossAttack = 2
+#How many hits can cause Soul Rotting from Devourer
+#Range: 0 ~ 2100000000
+devourer = 30
+#How many ticks must pass before Black Hole hits
+#Range: 0 ~ 2100000000
+blackhole = 4
+#Should anomaly teleport only living entities
+anomaly = false
+#Minutes before Chaos Core challenge reset
+#Range: 1 ~ 2100000000
+chaostime = 15
 

@@ -11,7 +11,7 @@
 		#Range: 0.0 ~ 1.0
 		"Skill List Yoffset" = 5.0E-4
 		#Should the skill list be displayed
-		"Display Skill List" = true
+		"Display Skill List" = false
 		#how far right from the bottom left corner the vein guage sholud be
 		#Range: 0.0 ~ 1.0
 		"Vein Gauge Xoffset" = 0.01
@@ -45,7 +45,7 @@
 		#Default = -22
 		skill_button_y = -22
 		#If enabled, lists in chat all features unlocked when a skill levels up.
-		skillup_unlocks = true
+		skillup_unlocks = false
 
 	#Generic Tooltip Settings
 	[Client.ToolTip_Settings]
@@ -128,7 +128,7 @@
 	#Toggles for helpful features related to mechanics
 	[Client.Tutorial]
 		#Should blocks affected by Reuse Penalty show a red outline?
-		"Enable Reuse Penalty Highlights" = true
+		"Enable Reuse Penalty Highlights" = false
 		#Should the owner of a block show when hovering?
 		"Enable Owner Highlights" = true
 		#Should hovering over a salvage block show helpful tips?

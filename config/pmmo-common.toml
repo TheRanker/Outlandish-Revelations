@@ -21,7 +21,7 @@
 	[Common."Ms Loggy"]
 		#Which MsLoggy info logging should be enabled?  This will flood your log with data, but provides essential details
 		# when trying to find data errors and bug fixing.  
-		"Info Logging" = ["loading", "network", "api"]
+		"Info Logging" = ["loading"]
 		#Which MsLoggy debug logging should be enabled?  This will flood your log with data, but provides essential details
 		# when trying to find bugs. DEVELOPER SETTING (mostly).  
 		"Debug Logging" = ["autovalues"]

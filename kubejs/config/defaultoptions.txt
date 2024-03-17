@@ -41,7 +41,7 @@ ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"true"
-resourcePacks:["vanilla","mod_resources","file/Stay_True_1.20.zip","xali\u0027s Bushy Leaves v3.5.0.zip","xali\u0027s Enchanted Books v0.12.0.zip","Sparkles_1.20.4_v1.0.5.zip","Sparkles_ADDON_AlphaIslands_1.20.4_v1.0.0.zip"]
+resourcePacks:["vanilla","mod_resources","file/Stay_True_1.20.zip","xali\u0027s Bushy Leaves v3.5.0.zip","xali\u0027s Enchanted Books v0.12.0.zip","Sparkles_1.20.4_v1.0.5.zip","Sparkles_ADDON_AlphaIslands_1.20.4_v1.0.0.zip","Moonlight Mods Dynamic Assets","file/HavenQuestingTheme-1.20.1-1.0.0.zip"]
 incompatibleResourcePacks:["xali\u0027s Enchanted Books v0.12.0.zip"]
 lastServer:testings.modded.fun
 mipmapLevels:0

@@ -39,19 +39,19 @@
 	rangeModifierModuleRange = 0.5
 	#Relative effective range of the common ore module.
 	#Range: 0.0 ~ 1.0
-	rangeModifierModuleOreCommon = 0.25
+	rangeModifierModuleOreCommon = 0.5
 	#Relative effective range of the rare ore module.
 	#Range: 0.0 ~ 1.0
-	rangeModifierModuleOreRare = 0.25
+	rangeModifierModuleOreRare = 0.0
 	#Relative effective range of the block module.
 	#Range: 0.0 ~ 1.0
-	rangeModifierModuleBlock = 0.5
+	rangeModifierModuleBlock = 0.25
 	#Relative effective range of the fluid module.
 	#Range: 0.0 ~ 1.0
-	rangeModifierModuleFluid = 0.5
+	rangeModifierModuleFluid = 0.0
 	#Relative effective range of the chest module.
 	#Range: 0.0 ~ 1.0
-	rangeModifierModuleChest = 0.25
+	rangeModifierModuleChest = 0.0
 
 [general]
 	#The basic scan radius without range modules. Higher values mean more computational

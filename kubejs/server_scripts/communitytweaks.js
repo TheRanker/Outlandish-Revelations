@@ -44,10 +44,10 @@ PlayerEvents.loggedIn(event => {
   
   let message = Text.of("Hello, ").green().bold()
     .append(Text.of(`${username} `).yellow())
-    .append(Text.of(`and welcome to Outlandish Revelations!`).green());
+    .append(Text.of(`and welcome to Outlandish Revelations! Please Open EMI/JEI and allow it a few minutes to populate. You can continue to play as it loads`).green());
   player.tell(message);
   let serverannouncement = Text.of(`${username} `).green().bold()
-    .append(Text.of(`just joined!`).green());
+    .append(Text.of(`just joined the Party!`).green());
   server.tell(serverannouncement);
 
 });
