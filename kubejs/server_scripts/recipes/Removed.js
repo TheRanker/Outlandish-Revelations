@@ -15,8 +15,6 @@ ServerEvents.recipes(e => {
     e.remove({ output: 'minecraft:magenta_bed' })
     e.remove({ output: 'minecraft:pink_bed' })
     e.remove({ output: 'minecraft:red_bed' })
-    e.remove({ output: 'supplimentares:bed_from_feather_block' })
-    e.remove({ output: 'rats:trash_can' })
     e.remove({ output: 'minecraft:bamboo_raft' })
     e.remove({ id: 'enderio:stick' })
     e.remove({ id: 'minecraft:bone_meal' })

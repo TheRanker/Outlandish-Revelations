@@ -1,1 +1,1 @@
-Platform.mods.kubejs.name = 'Outlandish Revelations'
+Platform.mods.kubejs.name = 'Outlandishly GregTech'

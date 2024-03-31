@@ -176,7 +176,7 @@
 	/**
 	 * Which theme to use for the left sidebar
 	 */
-	left-sidebar-theme: vanilla;
+	left-sidebar-theme: transparent;
 
 	/**
 	 * The pages in the right sidebar
@@ -211,7 +211,7 @@
 	/**
 	 * Which theme to use for the right sidebar
 	 */
-	right-sidebar-theme: vanilla;
+	right-sidebar-theme: transparent;
 
 	/**
 	 * The pages in the top sidebar
@@ -282,7 +282,7 @@
 	/**
 	 * Which theme to use for the bottom sidebar
 	 */
-	bottom-sidebar-theme: modern;
+	bottom-sidebar-theme: transparent;
 }
 
 #binds {
@@ -427,7 +427,7 @@
 	 * Whether development functions should be enabled. Not recommended for general
 	 * play.
 	 */
-	dev-mode: true;
+	dev-mode: false;
 
 	/**
 	 * Whether editing the index is enabled

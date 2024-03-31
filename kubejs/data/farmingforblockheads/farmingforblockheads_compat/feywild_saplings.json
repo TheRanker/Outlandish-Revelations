@@ -1,0 +1,26 @@
+{
+  "modId": "feywild",
+  "silent": true,
+  "group": {
+    "name": "Feywild Saplings",
+    "enabledByDefault": true,
+    "defaultPayment": {
+      "item": "feywild:fey_dust"
+    },
+    "defaultCategory": "farmingforblockheads:seeds"
+  },
+  "customEntries": [
+    {
+      "output": "feywild:spring_tree_sapling"
+    },
+    {
+      "output": "feywild:summer_tree_sapling"
+    },
+    {
+      "output": "feywild:winter_tree_sapling"
+    },
+    {
+      "output": "feywild:autumn_tree_sapling"
+    }
+  ]
+}

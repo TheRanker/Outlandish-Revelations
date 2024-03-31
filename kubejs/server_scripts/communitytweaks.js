@@ -29,11 +29,10 @@ PlayerEvents.loggedIn(event => {
     event.entity.setItemSlot(3, 'minecraft:leather_leggings');
     event.entity.setItemSlot(4, 'minecraft:leather_chestplate');
     event.entity.setItemSlot(5, 'minecraft:leather_helmet');
-    event.player.give('minecraft:bread 16');
+    event.player.give(Item.of('minecraft:bread', 16));
     event.player.give('eccentrictome:tome');
     event.player.give('comforts:sleeping_bag_black');
     event.player.give('multibeds:bed_kit');
-    event.player.give('jackseconomy:basic_wallet');
     event.player.give('kubejs:lockpick');
     event.player.give(Item.of('scannable:scanner', '{items:[{item:{Count:1b,id:"scannable:range_module"},slot:0b}, {item:{Count:1b,id:"scannable:range_module"},slot:1b}, {item:{Count:1b,id:"scannable:common_ores_module"},slot:2b}, {item:{Count:1b,id:"scannable:rare_ores_module"},slot:3b}]}'));
   }
@@ -282,62 +281,10 @@ function entityDeathNotify(
     0x243a34
   );
 
-
+// pams food to juice.
 let juices = ['pamhc2foodextended:pawpawjuiceitem', 'pamhc2foodextended:soursopjuiceitem', 'pamhc2foodextended:apricotjuiceitem', 'pamhc2foodextended:bananajuiceitem', 'pamhc2foodextended:datejuiceitem', 'pamhc2foodextended:dragonfruitjuiceitem', 'pamhc2foodextended:figjuiceitem', 'pamhc2foodextended:grapefruitjuiceitem', 'pamhc2foodextended:mangojuiceitem', 'pamhc2foodcore:applejuiceitem', 'pamhc2foodcore:melonjuiceitem', 'pamhc2foodcore:sweetberryjuiceitem', 'pamhc2foodcore:glowberryjuiceitem', 'pamhc2foodcore:p8juiceitem', 'pamhc2foodextended:carrotjuiceitem', 'pamhc2foodextended:blackberryjuiceitem', 'pamhc2foodextended:blueberryjuiceitem', 'pamhc2foodextended:cactusfruitjuiceitem', 'pamhc2foodextended:candleberryjuiceitem', 'pamhc2foodextended:cranberryjuiceitem', 'pamhc2foodextended:elderberryjuiceitem', 'pamhc2foodextended:huckleberryjuiceitem', 'pamhc2foodextended:juniperberryjuiceitem', 'pamhc2foodextended:mulberryjuiceitem', 'pamhc2foodextended:raspberryjuiceitem', 'pamhc2foodextended:strawberryjuiceitem', 'pamhc2foodextended:cantaloupejuiceitem', 'pamhc2foodextended:grapejuiceitem', 'pamhc2foodextended:greengrapejuiceitem', 'pamhc2foodextended:kiwijuiceitem', 'pamhc2foodextended:pineapplejuiceitem', 'pamhc2foodextended:cherryjuiceitem', 'pamhc2foodextended:orangejuiceitem', 'pamhc2foodextended:peachjuiceitem', 'pamhc2foodextended:pearjuiceitem', 'pamhc2foodextended:plumjuiceitem', 'pamhc2foodextended:papayajuiceitem', 'pamhc2foodextended:persimmonjuiceitem', 'pamhc2foodextended:pomegranatejuiceitem', 'pamhc2foodextended:starfruitjuiceitem', 'pamhc2foodextended:breadfruitjuiceitem', 'pamhc2foodextended:jackfruitjuiceitem', 'pamhc2foodextended:guavajuiceitem', 'pamhc2foodextended:lycheejuiceitem', 'pamhc2foodextended:passionfruitjuiceitem', 'pamhc2foodextended:rambutanjuiceitem', 'pamhc2foodextended:tamarindjuiceitem', 'pamhc2foodextended:gooseberryjuiceitem', 'pamhc2foodextended:durianjuiceitem', 'pamhc2foodextended:lemonjuiceitem', 'pamhc2foodextended:limejuiceitem']
 
-//Fix Sophisticated Backpacks with Curios
-const CuriosApi = Java.loadClass('top.theillusivec4.curios.api.CuriosApi')
-
-function throw_item(player, item, msg) {
-    player.tell(msg)
-    let itemEntity = player.drop(item, false, true)
-    itemEntity.noGravity = true
-    itemEntity.setInvulnerable(true)
-    itemEntity.setGlowing(true)
-    itemEntity.setPickUpDelay(100)
-    setDeltaMovement(itemEntity, 0, -0.02, 0)
-}
-
-function throw_from_inv_include_curious(player, item_list, max_count, msg) {
-    if (!player.isAlive()) return
-    if (!player.gameMode.isSurvival()) return
-    let curious_counter = 0
-    let targets = []
-    item_list.forEach(item => {
-        targets.push(Ingredient.of(item))
-    })
-    const api = new CuriosApi();
-    const curios = api.getCuriosHelper().getEquippedCurios(player).resolve().get();
-    for (let slot = 0; slot < curios.getSlots(); slot++) {
-        var itemstack = Item.of(curios.getStackInSlot(slot))
-        targets.forEach(target => {
-            if (target.test(itemstack)) {
-                curious_counter++
-                if (curious_counter > max_count) {
-                    curios.setStackInSlot(slot, "minecraft:air")
-                    throw_item(player, itemstack, msg)
-                    curious_counter--
-                }
-                return; // exit from forEach
-            }
-        })
-    }
-    let counter = player.inventory.count(item_list)
-    while (curious_counter + counter > max_count) {
-        console.log(Ingredient.of('#forge:ores').itemIds)
-        console.log("43476rhfn8hf487")
-        let item = player.inventory.extractItem(player.inventory.find(item_list), 1, false)
-        throw_item(player, item, msg)
-        counter = player.inventory.count(item_list)
-    }
-    return curious_counter + counter
-}
-
-function check_inv(player) {
-    throw_from_inv_include_curious(player, ['sophisticatedbackpacks:backpack', 'sophisticatedbackpacks:iron_backpack', 'sophisticatedbackpacks:gold_backpack', 'sophisticatedbackpacks:diamond_backpack', 'sophisticatedbackpacks:netherite_backpack'], 1, "You can have only one backpack in your inventory! You can create a backpack of higher level or use upgrades to be able to carry more items. One of the backpacks was thrown to the ground!")
-    throw_from_inv_include_curious(player, ['supplementaries:sack'], 3, "Too much sacks in inventory! One of the sacks was thrown to the ground!")
-} 
-//setup juice  creation
+//juice  creation
 ServerEvents.recipes(event => {
 
   juices.forEach(juice => {
