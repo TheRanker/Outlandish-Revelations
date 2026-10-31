@@ -1,0 +1,12 @@
+{
+  "name": "Read Before Using Rare Items",
+  "category": "patchouli:chapter_21",
+  "icon": "minecraft:amethyst_shard",
+  "sortnum": 10,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Some Vestiges items alter equipment, apply curses or start much harder encounters. Read both the effect and obtaining information before using them. Test unfamiliar combinations on spare equipment. A rare item is worth understanding before you spend it."
+    }
+  ]
+}

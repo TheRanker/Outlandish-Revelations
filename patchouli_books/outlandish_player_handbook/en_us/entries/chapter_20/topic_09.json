@@ -1,0 +1,12 @@
+{
+  "name": "Keep a Maintenance Tool",
+  "category": "patchouli:chapter_20",
+  "icon": "minecraft:bricks",
+  "sortnum": 9,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Use the Universal Block Remover to remove reinforced blocks you own. Keep it somewhere accessible before enclosing a room. Test maintenance access while the project is still small."
+    }
+  ]
+}

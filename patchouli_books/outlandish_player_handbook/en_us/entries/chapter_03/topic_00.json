@@ -1,0 +1,12 @@
+{
+  "name": "Tip: Use Ultimine",
+  "category": "patchouli:chapter_03",
+  "icon": "minecraft:iron_pickaxe",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Hold your Ultimine key while mining to work through the highlighted selection. Find the binding in Controls. Check the selection carefully, and keep food and tool durability in reserve."
+    }
+  ]
+}

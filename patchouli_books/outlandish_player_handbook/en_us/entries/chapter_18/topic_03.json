@@ -1,0 +1,12 @@
+{
+  "name": "An Iron Backpack",
+  "category": "patchouli:chapter_18",
+  "icon": "minecraft:chest",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Prepare steel screws and a rose gold plate for the next upgrade. Inspect the result in JEI before crafting. Organize your extra space around the items you actually carry."
+    }
+  ]
+}

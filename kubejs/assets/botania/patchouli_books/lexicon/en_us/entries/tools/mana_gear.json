@@ -1,0 +1,62 @@
+{
+  "name": "botania.entry.manaGear",
+  "category": "botania:tools",
+  "icon": "botania:manasteel_pick",
+  "priority": true,
+  "advancement": "botania:main/mana_pool_pickup_lexicon",
+  "pages": [
+    {
+      "type": "text",
+      "text": "botania.page.manaGear0"
+    },
+    {
+      "type": "text",
+      "text": "botania.page.manaGear10"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "For your pickaxe, follow the Tinkers Workshop quests and use JEI to compare the materials available at your current stage. Build and improve your tools as your processing options grow."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "For your shovel, follow the Tinkers Workshop quests and use JEI to compare the materials available at your current stage. Build and improve your tools as your processing options grow."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "For your axe, follow the Tinkers Workshop quests and use JEI to compare the materials available at your current stage. Build and improve your tools as your processing options grow."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "For your hoe, follow the Tinkers Workshop quests and use JEI to compare the materials available at your current stage. Build and improve your tools as your processing options grow."
+    },
+    {
+      "type": "crafting",
+      "text": "botania.page.manaGear4",
+      "recipe": "botania:manasteel_shears"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "For your sword, follow the Tinkers Workshop quests and use JEI to compare the materials available at your current stage. Build and improve your tools as your processing options grow."
+    },
+    {
+      "type": "crafting",
+      "text": "botania.page.manaGear6",
+      "recipe": "botania:manasteel_helmet"
+    },
+    {
+      "type": "crafting",
+      "text": "botania.page.manaGear7",
+      "recipe": "botania:manasteel_chestplate"
+    },
+    {
+      "type": "crafting",
+      "text": "botania.page.manaGear8",
+      "recipe": "botania:manasteel_leggings"
+    },
+    {
+      "type": "crafting",
+      "text": "botania.page.manaGear9",
+      "recipe": "botania:manasteel_boots"
+    }
+  ]
+}

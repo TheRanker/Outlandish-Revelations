@@ -1,0 +1,12 @@
+{
+  "name": "Dank 5",
+  "category": "patchouli:chapter_18",
+  "icon": "minecraft:chest",
+  "sortnum": 14,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Follow the upgrade recipe in JEI from your previous Dank. Higher tiers provide more capacity. Keep the container’s contents intact during upgrading, then check your pickup settings and locked slots again. You do not need the highest tier for every job."
+    }
+  ]
+}

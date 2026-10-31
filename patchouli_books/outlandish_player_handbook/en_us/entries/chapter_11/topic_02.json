@@ -1,0 +1,16 @@
+{
+  "name": "End access: your team’s Wither",
+  "category": "patchouli:chapter_11",
+  "icon": "minecraft:ender_eye",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Build the Wither using the required blocks and three Wither Skeleton Skulls. The player placing the final skull records the encounter for their team.$(br2)That player or a member of the same recorded team must defeat the same Wither. The same membership and kill-credit rules apply as for the Warden."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Choose a battlefield away from valuable builds. Prepare your equipment, supplies and route back before placing the final skull."
+    }
+  ]
+}

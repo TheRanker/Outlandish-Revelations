@@ -1,0 +1,160 @@
+[
+  {
+    "type": "shaped",
+    "output": "minecraft:hay_block",
+    "pattern": [
+      "AAA",
+      "AAA",
+      "AAA"
+    ],
+    "key": {
+      "A": "minecraft:wheat"
+    },
+    "group": "hay",
+    "id": "minecraft:hay_block"
+  },
+  {
+    "type": "shaped",
+    "output": "minecraft:bamboo_raft",
+    "pattern": [
+      "ABA",
+      "ACA",
+      "DDD"
+    ],
+    "key": {
+      "A": "minecraft:bamboo_planks",
+      "B": "minecraft:wooden_shovel",
+      "C": "#forge:tools/knives",
+      "D": "minecraft:bamboo_slab"
+    },
+    "id": "gtceu:shaped/bamboo_raft",
+    "group": "raft",
+    "removeOutput": "minecraft:bamboo_raft"
+  },
+  {
+    "type": "shaped",
+    "output": "kubejs:lockpick",
+    "pattern": [
+      "  a",
+      " a ",
+      "b c"
+    ],
+    "key": {
+      "a": "#forge:stone",
+      "b": "#forge:gems/flint",
+      "c": "#forge:tools/files"
+    },
+    "id": "kubejs:shaped/lockpick",
+    "group": "lockpick"
+  },
+  {
+    "type": "shaped",
+    "output": "aquaculture:iron_fishing_rod",
+    "pattern": [
+      "  I",
+      " IF",
+      "SWR"
+    ],
+    "key": {
+      "I": "gtceu:iron_rod",
+      "F": "minecraft:string",
+      "S": "minecraft:stick",
+      "W": "#forge:tools/wire_cutters",
+      "R": "gtceu:iron_ring"
+    },
+    "group": "fishing",
+    "removeIds": [
+      "aquaculture:iron_fishing_rod"
+    ],
+    "id": "otg:restored/crafting/aquaculture/iron_fishing_rod"
+  },
+  {
+    "type": "shaped",
+    "output": "aquaculture:gold_fishing_rod",
+    "pattern": [
+      "  I",
+      " IF",
+      "SWR"
+    ],
+    "key": {
+      "I": "gtceu:gold_rod",
+      "F": "minecraft:string",
+      "S": "minecraft:stick",
+      "W": "#forge:tools/wire_cutters",
+      "R": "gtceu:iron_ring"
+    },
+    "group": "fishing",
+    "removeIds": [
+      "aquaculture:golden_fishing_rod"
+    ],
+    "id": "otg:restored/crafting/aquaculture/gold_fishing_rod"
+  },
+  {
+    "type": "shaped",
+    "output": "aquaculture:diamond_fishing_rod",
+    "pattern": [
+      "  I",
+      " IF",
+      "SWR"
+    ],
+    "key": {
+      "I": "gtceu:diamond_rod",
+      "F": "minecraft:string",
+      "S": "minecraft:stick",
+      "W": "#forge:tools/wire_cutters",
+      "R": "gtceu:iron_ring"
+    },
+    "group": "fishing",
+    "removeIds": [
+      "aquaculture:diamond_fishing_rod"
+    ],
+    "id": "otg:restored/crafting/aquaculture/diamond_fishing_rod"
+  },
+  {
+    "type": "shaped",
+    "output": "aquaculture:neptunium_fishing_rod",
+    "pattern": [
+      "  I",
+      " IF",
+      "SWR"
+    ],
+    "key": {
+      "I": "aquaculture:neptunium_ingot",
+      "F": "minecraft:string",
+      "S": "minecraft:stick",
+      "W": "#forge:tools/wire_cutters",
+      "R": "gtceu:iron_ring"
+    },
+    "group": "fishing",
+    "removeIds": [
+      "aquaculture:neptunium_fishing_rod"
+    ],
+    "id": "otg:restored/crafting/aquaculture/neptunium_fishing_rod"
+  },
+  {
+    "type": "shaped",
+    "output": "3x gtceu:compressed_coke_clay",
+    "pattern": [
+      "CCC",
+      "ScS",
+      "SSS"
+    ],
+    "key": {
+      "C": "minecraft:clay_ball",
+      "c": "gtceu:brick_wooden_form",
+      "S": "#minecraft:sand"
+    },
+    "keepIngredient": "gtceu:brick_wooden_form",
+    "group": "coke_clay",
+    "id": "otg:restored/crafting/gtceu/compressed_coke_clay"
+  },
+  {
+    "type": "shapeless",
+    "output": "9x minecraft:wheat",
+    "group": "hay",
+    "id": "minecraft:wheat",
+    "inputs": [
+      "minecraft:hay_block"
+    ]
+  }
+]

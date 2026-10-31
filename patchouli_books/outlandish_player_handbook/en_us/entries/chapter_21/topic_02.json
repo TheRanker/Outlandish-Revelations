@@ -1,0 +1,12 @@
+{
+  "name": "Set Your Ability Keys",
+  "category": "patchouli:chapter_21",
+  "icon": "minecraft:amethyst_shard",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Search Controls for Vestiges of the Present. The mod provides Special and Ultimate bindings for the first and second equipped Vestiges. Choose keys that do not conflict with Ultimine, backpacks or spell controls. Equip the item in its appropriate slot, then test abilities somewhere safe."
+    }
+  ]
+}

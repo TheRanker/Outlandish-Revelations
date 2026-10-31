@@ -1,0 +1,12 @@
+{
+  "name": "Research the Next Step",
+  "category": "patchouli:chapter_19",
+  "icon": "minecraft:bell",
+  "sortnum": 11,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A University unlocks research for colony development. Read each research requirement, supply its materials and assign a researcher. Choose upgrades that solve your current bottleneck. Colony research works alongside your factory; it does not replace the machine processes shown in JEI."
+    }
+  ]
+}

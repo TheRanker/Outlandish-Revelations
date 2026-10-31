@@ -1,0 +1,16 @@
+{
+  "name": "Choose Your Next Boss Challenge",
+  "category": "patchouli:chapter_17",
+  "icon": "minecraft:compass",
+  "sortnum": 12,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Progressive Bosses changes the fights themselves and offers stronger summon variants. In this version, the Wither has several forms selected through Corrupted Soul Sand, and the Dragon has a corrupted form summoned with Corrupted End Crystals. Prepare for the version you summon. These are additional challenges; the Hovering Inferno"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "remains the pack’s final boss."
+    }
+  ]
+}

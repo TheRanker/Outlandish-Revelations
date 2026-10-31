@@ -1,0 +1,12 @@
+{
+  "name": "Build a food supply before a food collection",
+  "category": "patchouli:chapter_04",
+  "icon": "minecraft:bread",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Begin with something dependable. A small farm that feeds you every day is more useful than an impressive meal you cannot make again.$(br2)Once your basic food is secure, expand into Pam’s HarvestCraft ingredients and recipes. The cooking collections are projects to enjoy as your farm grows; you do not need to finish them before continuing your factory."
+    }
+  ]
+}

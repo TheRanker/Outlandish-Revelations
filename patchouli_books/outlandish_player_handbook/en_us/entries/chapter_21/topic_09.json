@@ -1,0 +1,12 @@
+{
+  "name": "A Successful Defence",
+  "category": "patchouli:chapter_21",
+  "icon": "minecraft:amethyst_shard",
+  "sortnum": 9,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Obtain an Adorned Seashell from a successful Silly Seashell defence. Check its uses before spending it. Treat this as an optional ocean achievement alongside your main progression, and return with better equipment if the waves overwhelm you."
+    }
+  ]
+}

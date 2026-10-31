@@ -1,0 +1,104 @@
+
+["Attribute 1"]
+	display_name = "Vitality"
+	cmd_to_exc = ["/attribute @p generic.max_health base set (variable)"]
+	tip_to_display = "§7Represents your overall durability. §7More health means you can survive longer in battle"
+	max_level = 100.0
+	base_value_per_point = 1.0
+	lock = false
+	on_level_event = ["/effect give @p minecraft:instant_health 2 3"]
+	init_val_attribute_one = 20.0
+
+["Attribute 2"]
+	display_name = "Attack Power"
+	cmd_to_exc = ["/attribute @p generic.attack_damage base set (variable)"]
+	tip_to_display = "§7Defines the amount of harm you can inflict with each attack. "
+	max_level = 100.0
+	base_value_per_point = 1.0
+	lock = false
+	on_level_event = [" "]
+	init_val_attribute_two = 2.0
+
+["Attribute 3"]
+	display_name = "Attack Speed"
+	cmd_to_exc = ["/attribute @p generic.attack_speed base set (variable)"]
+	tip_to_display = "§7Determines how quickly you can swing your weapon. "
+	max_level = 20.0
+	base_value_per_point = 1.0
+	lock = false
+	on_level_event = [" "]
+	init_val_attribute_three = 4.0
+
+["Attribute 4"]
+	display_name = "Protection"
+	cmd_to_exc = ["/attribute @p generic.armor base set (variable)"]
+	tip_to_display = "§7Reduces the amount of damage you take from enemy attacks"
+	max_level = 200.0
+	base_value_per_point = 1.0
+	lock = false
+	on_level_event = [" "]
+	init_val_attribute_forth = 0.0
+
+["Attribute 5"]
+	display_name = "Agility"
+	cmd_to_exc = ["/attribute @p generic.movement_speed base set (variable)"]
+	tip_to_display = "§7Influences how fast you can move"
+	max_level = 50.0
+	base_value_per_point = 1.0
+	lock = false
+	on_level_event = [" "]
+	init_val_attribute_fifth = 20.0
+
+["Attribute 6"]
+	display_name = "Fortitude"
+	cmd_to_exc = ["/attribute @p generic.knockback_resistance base set (variable) "]
+	tip_to_display = "§7Reduces the distance you are pushed back when hit by an enemy or explosion"
+	max_level = 100.0
+	base_value_per_point = 1.0
+	lock = false
+	on_level_event = [" "]
+	init_val_attribute_sixth = 0.0
+
+["Attribute 7"]
+	display_name = "Exploration"
+	cmd_to_exc = ["/attribute @p generic.luck base set (variable)"]
+	tip_to_display = "§7Influences the chances of receiving better loot or triggering beneficial events"
+	max_level = 100.0
+	base_value_per_point = 1.0
+	lock = false
+	on_level_event = [" "]
+	init_val_attribute_seventh = 0.0
+
+["Attribute 8"]
+	display_name = ""
+	cmd_to_exc = []
+	tip_to_display = ""
+	max_level = 0.0
+	base_value_per_point = 0.0
+	lock = true
+	on_level_event = [" "]
+	init_val_attribute_eight = 0.0
+
+["Attribute 9"]
+	"display_name " = ""
+	cmd_to_exc = []
+	"tip_to_display " = ""
+	max_level = 0.0
+	base_value_per_point = 0.0
+	lock = true
+	on_level_event = [" "]
+	init_val_attribute_nine = 0.0
+
+["Attribute 10"]
+	"display_name " = ""
+	cmd_to_exc = []
+	"tip_to_display " = ""
+	max_level = 0.0
+	base_value_per_point = 0.0
+	lock = true
+	on_level_event = [" "]
+	init_val_attribute_ten = 0.0
+
+["General Settings"]
+	init_val_starting_level = 1.0
+

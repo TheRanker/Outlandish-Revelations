@@ -1,0 +1,12 @@
+{
+  "name": "Your First Builder",
+  "category": "patchouli:chapter_19",
+  "icon": "minecraft:bell",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Place a Builder’s Hut using the preview, assign a citizen, and request construction through its Build Options. Supply the requested blocks and suitable tools. Read the builder’s requests when work stops; a missing tool or inaccessible block can halt an otherwise well-stocked project."
+    }
+  ]
+}

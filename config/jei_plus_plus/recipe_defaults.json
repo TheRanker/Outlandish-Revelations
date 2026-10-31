@@ -1,0 +1,6 @@
+{
+  "resolutions": {
+    "minecraft:blast_furnace": "create:automatic_shaped|gtceu:shaped/blast_furnace"
+  },
+  "disabled": []
+}

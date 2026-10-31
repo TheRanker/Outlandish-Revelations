@@ -1,0 +1,16 @@
+{
+  "name": "Follow a goal, not every branch at once",
+  "category": "patchouli:chapter_01",
+  "icon": "minecraft:crafting_table",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The quest book contains both essential progression and side projects. A food collection, a new spell or a more convenient storage room can be worth doing without being your next technological milestone."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "When you feel pulled in too many directions, choose one goal: “I want my first steam machine,” “I need a renewable rubber supply,” or “I want better tool materials.” Work backwards from that goal and finish the supporting steps."
+    }
+  ]
+}

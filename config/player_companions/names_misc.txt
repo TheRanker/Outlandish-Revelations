@@ -1,0 +1,37 @@
+# Player Companions - Name List
+# One name per line. Lines starting with # are ignored.
+# Delete this file to regenerate defaults.
+
+Angel
+Buddy
+Cato
+Cheddar
+Creamy
+Curly
+Dakota
+Elisa
+Foxy
+Frana
+Inky
+Isa
+Jesse
+Jona
+Joyce
+Jule
+Kaya
+Luka
+Mika
+Morgan
+Patches
+Phantom
+Riley
+Robin
+Sam
+Sanja
+Sascha
+Sasha
+Skye
+Smokey
+Smokie
+Toni
+Yannie

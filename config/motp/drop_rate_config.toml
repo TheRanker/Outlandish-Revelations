@@ -1,0 +1,33 @@
+
+[Overworld]
+	#Choose a value between [0-100]
+	better_drop_rate = 95.0
+	#Choose a value between [0-100]
+	greater_drop_rate = 99.0
+	#Choose a value between [0-100]
+	ow_overall_rate = 100.0
+
+[Nether]
+	#Choose a value between [0-100]
+	better_drop_rate = 95.0
+	#Choose a value between [0-100]
+	greater_drop_rate = 99.0
+	#Choose a value between [0-100]
+	nether_overall_rate = 100.0
+
+[End]
+	#Choose a value between [0-100]
+	better_drop_rate = 30.0
+	#Choose a value between [0-100]
+	greater_drop_rate = 99.0
+	#Choose a value between [0-100]
+	end_overall_rate = 100.0
+
+["Bosses Drop Rates"]
+	#Max drop rate of orbs of leveling from bosses
+	max_drop_rate = 3.0
+	#Min drop rate of orbs of leveling from bosses
+	min_drop_rate = 1.0
+	#list of the mobs which will drop the leveling orbs
+	bosses_list = ["minecraft:ender_dragon", "minecraft:wither"]
+

@@ -1,0 +1,38 @@
+{
+  "level_display": "tconstruct:default",
+  "modules": [
+    {
+      "type": "tconstruct:weapon_mob_effect",
+      "effect": "minecraft:slowness",
+      "level": {
+        "per_level": 0.5
+      },
+      "time": {
+        "flat": 20.0,
+        "random": 10.0
+      },
+      "chance": {
+        "each_level": 0.25
+      }
+    },
+    {
+      "type": "tconstruct:counter_mob_effect",
+      "effect": "minecraft:slowness",
+      "level": {
+        "per_level": 0.5
+      },
+      "time": {
+        "flat": 20.0,
+        "random": 10.0
+      },
+      "chance": {
+        "each_level": 0.25
+      },
+      "durability_usage": 1,
+      "tool": {
+        "type": "mantle:tag",
+        "tag": "tconstruct:modifiable/armor"
+      }
+    }
+  ]
+}

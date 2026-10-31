@@ -1,0 +1,12 @@
+{
+  "name": "A Diamond Backpack",
+  "category": "patchouli:chapter_18",
+  "icon": "minecraft:chest",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Use stainless steel screws, PTFE plates and carbon fibres for this upgrade. More storage is useful, but filters and a tidy layout make it easier to use."
+    }
+  ]
+}

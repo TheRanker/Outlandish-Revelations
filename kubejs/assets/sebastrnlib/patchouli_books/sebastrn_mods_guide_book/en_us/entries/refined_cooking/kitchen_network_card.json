@@ -1,0 +1,21 @@
+{
+  "name": "entry.refinedcooking.kitchennetworkcard.name",
+  "icon": "minecraft:paper",
+  "category": "sebastrnlib:refined_cooking",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "entry.refinedcooking.kitchennetworkcard.page0"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "refinedcooking:kitchen_network_card",
+      "text": "entry.refinedcooking.kitchenstation.page1"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "refinedcooking:kitchen_network_card": 0
+  },
+  "sortnum": 3,
+  "flag": "mod:refinedcooking"
+}

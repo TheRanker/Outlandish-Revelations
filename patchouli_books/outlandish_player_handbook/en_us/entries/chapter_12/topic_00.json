@@ -1,0 +1,20 @@
+{
+  "name": "Incendium’s Nether",
+  "category": "patchouli:chapter_12",
+  "icon": "minecraft:compass",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The Nether is a major adventure destination and the home of the pack’s final boss. Bring blocks, food, suitable protection and a way to mark your route."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Explore Incendium’s different biomes rather than treating the dimension as a single mining area. Look for structures and follow its advancements for named encounters and discoveries. The Nether quests help organize those adventures."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Before entering a large structure, establish a safe point outside. Keep enough supplies to leave even if the expedition takes longer than expected."
+    }
+  ]
+}

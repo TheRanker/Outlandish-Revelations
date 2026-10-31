@@ -1,0 +1,12 @@
+{
+  "name": "“The dimension is still locked.”",
+  "category": "patchouli:chapter_16",
+  "icon": "minecraft:paper",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Review the encounter requirements. For the Warden and Wither, your summoner and credited killer must satisfy the recorded team rules for the same boss. For Twilight Forest, the team needs actual entry into the unlocked End.$(br2)Possessing a boss drop or visiting another player’s portal does not establish that your team completed the required encounter."
+    }
+  ]
+}

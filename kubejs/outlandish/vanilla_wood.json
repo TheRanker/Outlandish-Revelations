@@ -1,0 +1,7004 @@
+{
+  "oak": {
+    "recipes": [
+      {
+        "type": "shapeless",
+        "outputs": [
+          "minecraft:oak_log"
+        ],
+        "inputs": [
+          "minecraft:oak_wood"
+        ],
+        "group": "oak",
+        "id": "otg:restored/vanilla_wood/oak/shapeless/0"
+      },
+      {
+        "type": "shapeless",
+        "outputs": [
+          "2x minecraft:oak_planks"
+        ],
+        "inputs": [
+          "minecraft:oak_log"
+        ],
+        "group": "oak",
+        "id": "otg:restored/vanilla_wood/oak/shapeless/1"
+      },
+      {
+        "type": "cutter",
+        "legacyId": 6001,
+        "inputs": [
+          "minecraft:oak_log"
+        ],
+        "outputs": [
+          "6x minecraft:oak_planks"
+        ],
+        "fluids": [
+          {
+            "fluid": "minecraft:water",
+            "amount": 5
+          }
+        ],
+        "duration": 400,
+        "EUt": 7,
+        "group": "oak",
+        "id": "otg:restored/vanilla_wood/oak/cutter/2"
+      },
+      {
+        "type": "cutter",
+        "legacyId": 6002,
+        "inputs": [
+          "minecraft:oak_log"
+        ],
+        "outputs": [
+          "6x minecraft:oak_planks"
+        ],
+        "fluids": [
+          {
+            "fluid": "gtceu:distilled_water",
+            "amount": 3
+          }
+        ],
+        "duration": 400,
+        "EUt": 7,
+        "group": "oak",
+        "id": "otg:restored/vanilla_wood/oak/cutter/3"
+      },
+      {
+        "type": "cutter",
+        "legacyId": 6003,
+        "inputs": [
+          "minecraft:oak_log"
+        ],
+        "outputs": [
+          "6x minecraft:oak_planks"
+        ],
+        "fluids": [
+          {
+            "fluid": "gtceu:lubricant",
+            "amount": 1
+          }
+        ],
+        "duration": 200,
+        "EUt": 7,
+        "group": "oak",
+        "id": "otg:restored/vanilla_wood/oak/cutter/4"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "4x minecraft:oak_planks"
+        ],
+        "pattern": [
+          "A",
+          "B"
+        ],
+        "key": {
+          "A": "#forge:tools/saws",
+          "B": "minecraft:oak_log"
+        },
+        "group": "oak",
+        "id": "otg:restored/vanilla_wood/oak/shaped/5"
+      },
+      {
+        "type": "cutter",
+        "legacyId": 6004,
+        "inputs": [
+          "minecraft:oak_planks"
+        ],
+        "outputs": [
+          "2x minecraft:oak_slab"
+        ],
+        "fluids": [
+          {
+            "fluid": "minecraft:water",
+            "amount": 5
+          }
+        ],
+        "duration": 50,
+        "EUt": 7,
+        "group": "oak",
+        "id": "otg:restored/vanilla_wood/oak/cutter/6"
+      },
+      {
+        "type": "cutter",
+        "legacyId": 6005,
+        "inputs": [
+          "minecraft:oak_planks"
+        ],
+        "outputs": [
+          "2x minecraft:oak_slab"
+        ],
+        "fluids": [
+          {
+            "fluid": "gtceu:distilled_water",
+            "amount": 3
+          }
+        ],
+        "duration": 50,
+        "EUt": 7,
+        "group": "oak",
+        "id": "otg:restored/vanilla_wood/oak/cutter/7"
+      },
+      {
+        "type": "cutter",
+        "legacyId": 6006,
+        "inputs": [
+          "minecraft:oak_planks"
+        ],
+        "outputs": [
+          "2x minecraft:oak_slab"
+        ],
+        "fluids": [
+          {
+            "fluid": "gtceu:lubricant",
+            "amount": 1
+          }
+        ],
+        "duration": 25,
+        "EUt": 7,
+        "group": "oak",
+        "id": "otg:restored/vanilla_wood/oak/cutter/8"
+      },
+      {
+        "type": "cutter",
+        "legacyId": 6007,
+        "inputs": [
+          "minecraft:oak_pressure_plate"
+        ],
+        "outputs": [
+          "2x minecraft:oak_button"
+        ],
+        "fluids": [
+          {
+            "fluid": "minecraft:water",
+            "amount": 5
+          }
+        ],
+        "duration": 50,
+        "EUt": 7,
+        "group": "oak",
+        "id": "otg:restored/vanilla_wood/oak/cutter/9"
+      },
+      {
+        "type": "cutter",
+        "legacyId": 6008,
+        "inputs": [
+          "minecraft:oak_pressure_plate"
+        ],
+        "outputs": [
+          "2x minecraft:oak_button"
+        ],
+        "fluids": [
+          {
+            "fluid": "gtceu:distilled_water",
+            "amount": 3
+          }
+        ],
+        "duration": 50,
+        "EUt": 7,
+        "group": "oak",
+        "id": "otg:restored/vanilla_wood/oak/cutter/10"
+      },
+      {
+        "type": "cutter",
+        "legacyId": 6009,
+        "inputs": [
+          "minecraft:oak_pressure_plate"
+        ],
+        "outputs": [
+          "2x minecraft:oak_button"
+        ],
+        "fluids": [
+          {
+            "fluid": "gtceu:lubricant",
+            "amount": 1
+          }
+        ],
+        "duration": 25,
+        "EUt": 7,
+        "group": "oak",
+        "id": "otg:restored/vanilla_wood/oak/cutter/11"
+      },
+      {
+        "type": "assembler",
+        "legacyId": 6010,
+        "inputs": [
+          "2x minecraft:oak_planks",
+          "2x #forge:rods/wood"
+        ],
+        "outputs": [
+          "minecraft:oak_fence_gate"
+        ],
+        "fluids": [],
+        "duration": 300,
+        "EUt": 7,
+        "group": "oak",
+        "id": "otg:restored/vanilla_wood/oak/assembler/12",
+        "circuit": 2
+      },
+      {
+        "type": "assembler",
+        "legacyId": 6011,
+        "inputs": [
+          "3x minecraft:oak_planks",
+          "3x #forge:rods/wood"
+        ],
+        "outputs": [
+          "2x minecraft:oak_fence"
+        ],
+        "fluids": [],
+        "duration": 300,
+        "EUt": 7,
+        "circuit": 3,
+        "group": "oak",
+        "id": "otg:restored/vanilla_wood/oak/assembler/13"
+      },
+      {
+        "type": "assembler",
+        "legacyId": 6012,
+        "inputs": [
+          "4x minecraft:oak_planks",
+          "minecraft:oak_trapdoor"
+        ],
+        "outputs": [
+          "2x minecraft:oak_door"
+        ],
+        "fluids": [
+          {
+            "fluid": "gtceu:iron",
+            "amount": 16
+          }
+        ],
+        "duration": 400,
+        "EUt": 4,
+        "group": "oak",
+        "id": "otg:restored/vanilla_wood/oak/assembler/14"
+      },
+      {
+        "type": "assembler",
+        "legacyId": 6013,
+        "inputs": [
+          "4x minecraft:oak_planks",
+          "minecraft:oak_trapdoor"
+        ],
+        "outputs": [
+          "2x minecraft:oak_door"
+        ],
+        "fluids": [
+          {
+            "fluid": "gtceu:bronze",
+            "amount": 16
+          }
+        ],
+        "duration": 400,
+        "EUt": 4,
+        "group": "oak",
+        "id": "otg:restored/vanilla_wood/oak/assembler/15"
+      },
+      {
+        "type": "assembler",
+        "legacyId": 6014,
+        "inputs": [
+          "4x minecraft:oak_slab",
+          "#forge:rods/wood"
+        ],
+        "outputs": [
+          "4x minecraft:oak_trapdoor"
+        ],
+        "fluids": [
+          {
+            "fluid": "gtceu:iron",
+            "amount": 16
+          }
+        ],
+        "duration": 400,
+        "EUt": 4,
+        "group": "oak",
+        "id": "otg:restored/vanilla_wood/oak/assembler/16"
+      },
+      {
+        "type": "assembler",
+        "legacyId": 6015,
+        "inputs": [
+          "4x minecraft:oak_slab",
+          "#forge:rods/wood"
+        ],
+        "outputs": [
+          "6x minecraft:oak_trapdoor"
+        ],
+        "fluids": [
+          {
+            "fluid": "gtceu:steel",
+            "amount": 16
+          }
+        ],
+        "duration": 400,
+        "EUt": 4,
+        "group": "oak",
+        "id": "otg:restored/vanilla_wood/oak/assembler/17"
+      },
+      {
+        "type": "assembler",
+        "legacyId": 6016,
+        "inputs": [
+          "2x minecraft:oak_slab",
+          "#forge:springs/iron"
+        ],
+        "outputs": [
+          "2x minecraft:oak_pressure_plate"
+        ],
+        "fluids": [],
+        "duration": 400,
+        "EUt": 4,
+        "group": "oak",
+        "id": "otg:restored/vanilla_wood/oak/assembler/18"
+      },
+      {
+        "type": "assembler",
+        "legacyId": 6017,
+        "inputs": [
+          "minecraft:oak_planks",
+          "#forge:rods/wood"
+        ],
+        "outputs": [
+          "3x minecraft:oak_sign"
+        ],
+        "fluids": [],
+        "duration": 100,
+        "EUt": 4,
+        "group": "oak",
+        "id": "otg:restored/vanilla_wood/oak/assembler/19",
+        "circuit": 1
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "2x minecraft:oak_button"
+        ],
+        "pattern": [
+          "A",
+          "B"
+        ],
+        "key": {
+          "A": "#forge:tools/saws",
+          "B": "minecraft:oak_pressure_plate"
+        },
+        "group": "oak",
+        "id": "otg:restored/vanilla_wood/oak/shaped/20"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "minecraft:oak_planks"
+        ],
+        "pattern": [
+          "A",
+          "A"
+        ],
+        "key": {
+          "A": "minecraft:oak_slab"
+        },
+        "group": "oak",
+        "id": "otg:restored/vanilla_wood/oak/shaped/21"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "2x minecraft:oak_slab"
+        ],
+        "pattern": [
+          "AB"
+        ],
+        "key": {
+          "A": "#forge:tools/saws",
+          "B": "minecraft:oak_planks"
+        },
+        "group": "oak",
+        "id": "otg:restored/vanilla_wood/oak/shaped/22"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "minecraft:oak_fence_gate"
+        ],
+        "pattern": [
+          "A A",
+          "BCB",
+          "BCB"
+        ],
+        "key": {
+          "A": "minecraft:flint",
+          "B": "minecraft:oak_planks",
+          "C": "#forge:rods/wood"
+        },
+        "group": "oak",
+        "id": "otg:restored/vanilla_wood/oak/shaped/23"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "2x minecraft:oak_fence_gate"
+        ],
+        "pattern": [
+          "ADA",
+          "BCB",
+          "BCB"
+        ],
+        "key": {
+          "A": "#forge:screws/wood",
+          "B": "minecraft:oak_planks",
+          "C": "#forge:rods/wood",
+          "D": "#forge:tools/screwdrivers"
+        },
+        "group": "oak",
+        "id": "otg:restored/vanilla_wood/oak/shaped/24"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "minecraft:oak_fence"
+        ],
+        "pattern": [
+          "ABA",
+          "ABA",
+          "ABA"
+        ],
+        "key": {
+          "A": "#forge:rods/wood",
+          "B": "minecraft:oak_planks"
+        },
+        "group": "oak",
+        "id": "otg:restored/vanilla_wood/oak/shaped/25"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "2x minecraft:oak_fence"
+        ],
+        "pattern": [
+          "CDC",
+          "ABA",
+          "ABA"
+        ],
+        "key": {
+          "A": "#forge:rods/wood",
+          "B": "minecraft:oak_planks",
+          "C": "#forge:screws/wood",
+          "D": "#forge:tools/screwdrivers"
+        },
+        "group": "oak",
+        "id": "otg:restored/vanilla_wood/oak/shaped/26"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "4x minecraft:oak_stairs"
+        ],
+        "pattern": [
+          "A  ",
+          "AA ",
+          "AAA"
+        ],
+        "key": {
+          "A": "minecraft:oak_planks"
+        },
+        "group": "oak",
+        "id": "otg:restored/vanilla_wood/oak/shaped/27"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "2x minecraft:oak_door"
+        ],
+        "pattern": [
+          "ABC",
+          "ADE",
+          "AAF"
+        ],
+        "key": {
+          "A": "minecraft:oak_planks",
+          "B": "minecraft:oak_trapdoor",
+          "C": "#forge:tools/screwdrivers",
+          "D": "#forge:rings/iron",
+          "E": "#forge:screws/iron",
+          "F": "#forge:tools/saws"
+        },
+        "group": "oak",
+        "id": "otg:restored/vanilla_wood/oak/shaped/28"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "2x minecraft:oak_door"
+        ],
+        "pattern": [
+          "ABC",
+          "ADE",
+          "AAF"
+        ],
+        "key": {
+          "A": "minecraft:oak_planks",
+          "B": "minecraft:oak_trapdoor",
+          "C": "#forge:tools/screwdrivers",
+          "D": "#forge:rings/bronze",
+          "E": "#forge:screws/bronze",
+          "F": "#forge:tools/saws"
+        },
+        "group": "oak",
+        "id": "otg:restored/vanilla_wood/oak/shaped/29"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "2x minecraft:oak_door"
+        ],
+        "pattern": [
+          "ABC",
+          "ADE",
+          "AAF"
+        ],
+        "key": {
+          "A": "minecraft:oak_planks",
+          "B": "minecraft:oak_trapdoor",
+          "C": "#forge:tools/saws",
+          "D": "#forge:rings/iron",
+          "E": "#forge:screws/iron",
+          "F": "#forge:tools/screwdrivers"
+        },
+        "group": "oak",
+        "id": "otg:restored/vanilla_wood/oak/shaped/30"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "2x minecraft:oak_door"
+        ],
+        "pattern": [
+          "ABC",
+          "ADE",
+          "AAF"
+        ],
+        "key": {
+          "A": "minecraft:oak_planks",
+          "B": "minecraft:oak_trapdoor",
+          "C": "#forge:tools/saws",
+          "D": "#forge:rings/bronze",
+          "E": "#forge:screws/bronze",
+          "F": "#forge:tools/screwdrivers"
+        },
+        "group": "oak",
+        "id": "otg:restored/vanilla_wood/oak/shaped/31"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "minecraft:oak_trapdoor"
+        ],
+        "pattern": [
+          "ABA",
+          "BCB",
+          "ABA"
+        ],
+        "key": {
+          "A": "minecraft:oak_slab",
+          "B": "#forge:rods/wood",
+          "C": "minecraft:flint"
+        },
+        "group": "oak",
+        "id": "otg:restored/vanilla_wood/oak/shaped/32"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "2x minecraft:oak_trapdoor"
+        ],
+        "pattern": [
+          "ABA",
+          "BCB",
+          "ABA"
+        ],
+        "key": {
+          "A": "minecraft:oak_slab",
+          "B": "#forge:rods/wood",
+          "C": "#forge:screws/iron"
+        },
+        "group": "oak",
+        "id": "otg:restored/vanilla_wood/oak/shaped/33"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "3x minecraft:oak_trapdoor"
+        ],
+        "pattern": [
+          "ABA",
+          "BCB",
+          "ABA"
+        ],
+        "key": {
+          "A": "minecraft:oak_slab",
+          "B": "#forge:rods/wood",
+          "C": "#forge:screws/steel"
+        },
+        "group": "oak",
+        "id": "otg:restored/vanilla_wood/oak/shaped/34"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "2x minecraft:oak_pressure_plate"
+        ],
+        "pattern": [
+          "ADA",
+          "BCB",
+          "AEA"
+        ],
+        "key": {
+          "A": "#forge:screws/wood",
+          "B": "minecraft:oak_slab",
+          "C": "#forge:springs/iron",
+          "D": "#forge:tools/mallets",
+          "E": "#forge:tools/screwdrivers"
+        },
+        "group": "oak",
+        "id": "otg:restored/vanilla_wood/oak/shaped/35"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "3x minecraft:oak_sign"
+        ],
+        "pattern": [
+          "AAA",
+          "AAA",
+          " B "
+        ],
+        "key": {
+          "A": "minecraft:oak_planks",
+          "B": "#forge:rods/wood"
+        },
+        "group": "oak",
+        "id": "otg:restored/vanilla_wood/oak/shaped/36"
+      }
+    ],
+    "removedOutputs": [
+      "minecraft:oak_planks",
+      "minecraft:oak_slab",
+      "minecraft:oak_stairs",
+      "minecraft:oak_fence",
+      "minecraft:oak_fence_gate",
+      "minecraft:oak_door",
+      "minecraft:oak_trapdoor",
+      "minecraft:oak_pressure_plate",
+      "minecraft:oak_button",
+      "minecraft:oak_sign",
+      "minecraft:oak_wood"
+    ]
+  },
+  "spruce": {
+    "recipes": [
+      {
+        "type": "shapeless",
+        "outputs": [
+          "minecraft:spruce_log"
+        ],
+        "inputs": [
+          "minecraft:spruce_wood"
+        ],
+        "group": "spruce",
+        "id": "otg:restored/vanilla_wood/spruce/shapeless/0"
+      },
+      {
+        "type": "shapeless",
+        "outputs": [
+          "2x minecraft:spruce_planks"
+        ],
+        "inputs": [
+          "minecraft:spruce_log"
+        ],
+        "group": "spruce",
+        "id": "otg:restored/vanilla_wood/spruce/shapeless/1"
+      },
+      {
+        "type": "cutter",
+        "legacyId": 6018,
+        "inputs": [
+          "minecraft:spruce_log"
+        ],
+        "outputs": [
+          "6x minecraft:spruce_planks"
+        ],
+        "fluids": [
+          {
+            "fluid": "minecraft:water",
+            "amount": 5
+          }
+        ],
+        "duration": 400,
+        "EUt": 7,
+        "group": "spruce",
+        "id": "otg:restored/vanilla_wood/spruce/cutter/2"
+      },
+      {
+        "type": "cutter",
+        "legacyId": 6019,
+        "inputs": [
+          "minecraft:spruce_log"
+        ],
+        "outputs": [
+          "6x minecraft:spruce_planks"
+        ],
+        "fluids": [
+          {
+            "fluid": "gtceu:distilled_water",
+            "amount": 3
+          }
+        ],
+        "duration": 400,
+        "EUt": 7,
+        "group": "spruce",
+        "id": "otg:restored/vanilla_wood/spruce/cutter/3"
+      },
+      {
+        "type": "cutter",
+        "legacyId": 6020,
+        "inputs": [
+          "minecraft:spruce_log"
+        ],
+        "outputs": [
+          "6x minecraft:spruce_planks"
+        ],
+        "fluids": [
+          {
+            "fluid": "gtceu:lubricant",
+            "amount": 1
+          }
+        ],
+        "duration": 200,
+        "EUt": 7,
+        "group": "spruce",
+        "id": "otg:restored/vanilla_wood/spruce/cutter/4"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "4x minecraft:spruce_planks"
+        ],
+        "pattern": [
+          "A",
+          "B"
+        ],
+        "key": {
+          "A": "#forge:tools/saws",
+          "B": "minecraft:spruce_log"
+        },
+        "group": "spruce",
+        "id": "otg:restored/vanilla_wood/spruce/shaped/5"
+      },
+      {
+        "type": "cutter",
+        "legacyId": 6021,
+        "inputs": [
+          "minecraft:spruce_planks"
+        ],
+        "outputs": [
+          "2x minecraft:spruce_slab"
+        ],
+        "fluids": [
+          {
+            "fluid": "minecraft:water",
+            "amount": 5
+          }
+        ],
+        "duration": 50,
+        "EUt": 7,
+        "group": "spruce",
+        "id": "otg:restored/vanilla_wood/spruce/cutter/6"
+      },
+      {
+        "type": "cutter",
+        "legacyId": 6022,
+        "inputs": [
+          "minecraft:spruce_planks"
+        ],
+        "outputs": [
+          "2x minecraft:spruce_slab"
+        ],
+        "fluids": [
+          {
+            "fluid": "gtceu:distilled_water",
+            "amount": 3
+          }
+        ],
+        "duration": 50,
+        "EUt": 7,
+        "group": "spruce",
+        "id": "otg:restored/vanilla_wood/spruce/cutter/7"
+      },
+      {
+        "type": "cutter",
+        "legacyId": 6023,
+        "inputs": [
+          "minecraft:spruce_planks"
+        ],
+        "outputs": [
+          "2x minecraft:spruce_slab"
+        ],
+        "fluids": [
+          {
+            "fluid": "gtceu:lubricant",
+            "amount": 1
+          }
+        ],
+        "duration": 25,
+        "EUt": 7,
+        "group": "spruce",
+        "id": "otg:restored/vanilla_wood/spruce/cutter/8"
+      },
+      {
+        "type": "cutter",
+        "legacyId": 6024,
+        "inputs": [
+          "minecraft:spruce_pressure_plate"
+        ],
+        "outputs": [
+          "2x minecraft:spruce_button"
+        ],
+        "fluids": [
+          {
+            "fluid": "minecraft:water",
+            "amount": 5
+          }
+        ],
+        "duration": 50,
+        "EUt": 7,
+        "group": "spruce",
+        "id": "otg:restored/vanilla_wood/spruce/cutter/9"
+      },
+      {
+        "type": "cutter",
+        "legacyId": 6025,
+        "inputs": [
+          "minecraft:spruce_pressure_plate"
+        ],
+        "outputs": [
+          "2x minecraft:spruce_button"
+        ],
+        "fluids": [
+          {
+            "fluid": "gtceu:distilled_water",
+            "amount": 3
+          }
+        ],
+        "duration": 50,
+        "EUt": 7,
+        "group": "spruce",
+        "id": "otg:restored/vanilla_wood/spruce/cutter/10"
+      },
+      {
+        "type": "cutter",
+        "legacyId": 6026,
+        "inputs": [
+          "minecraft:spruce_pressure_plate"
+        ],
+        "outputs": [
+          "2x minecraft:spruce_button"
+        ],
+        "fluids": [
+          {
+            "fluid": "gtceu:lubricant",
+            "amount": 1
+          }
+        ],
+        "duration": 25,
+        "EUt": 7,
+        "group": "spruce",
+        "id": "otg:restored/vanilla_wood/spruce/cutter/11"
+      },
+      {
+        "type": "assembler",
+        "legacyId": 6027,
+        "inputs": [
+          "2x minecraft:spruce_planks",
+          "2x #forge:rods/wood"
+        ],
+        "outputs": [
+          "minecraft:spruce_fence_gate"
+        ],
+        "fluids": [],
+        "duration": 300,
+        "EUt": 7,
+        "group": "spruce",
+        "id": "otg:restored/vanilla_wood/spruce/assembler/12",
+        "circuit": 2
+      },
+      {
+        "type": "assembler",
+        "legacyId": 6028,
+        "inputs": [
+          "3x minecraft:spruce_planks",
+          "3x #forge:rods/wood"
+        ],
+        "outputs": [
+          "2x minecraft:spruce_fence"
+        ],
+        "fluids": [],
+        "duration": 300,
+        "EUt": 7,
+        "circuit": 3,
+        "group": "spruce",
+        "id": "otg:restored/vanilla_wood/spruce/assembler/13"
+      },
+      {
+        "type": "assembler",
+        "legacyId": 6029,
+        "inputs": [
+          "4x minecraft:spruce_planks",
+          "minecraft:spruce_trapdoor"
+        ],
+        "outputs": [
+          "2x minecraft:spruce_door"
+        ],
+        "fluids": [
+          {
+            "fluid": "gtceu:iron",
+            "amount": 16
+          }
+        ],
+        "duration": 400,
+        "EUt": 4,
+        "group": "spruce",
+        "id": "otg:restored/vanilla_wood/spruce/assembler/14"
+      },
+      {
+        "type": "assembler",
+        "legacyId": 6030,
+        "inputs": [
+          "4x minecraft:spruce_planks",
+          "minecraft:spruce_trapdoor"
+        ],
+        "outputs": [
+          "2x minecraft:spruce_door"
+        ],
+        "fluids": [
+          {
+            "fluid": "gtceu:bronze",
+            "amount": 16
+          }
+        ],
+        "duration": 400,
+        "EUt": 4,
+        "group": "spruce",
+        "id": "otg:restored/vanilla_wood/spruce/assembler/15"
+      },
+      {
+        "type": "assembler",
+        "legacyId": 6031,
+        "inputs": [
+          "4x minecraft:spruce_slab",
+          "#forge:rods/wood"
+        ],
+        "outputs": [
+          "4x minecraft:spruce_trapdoor"
+        ],
+        "fluids": [
+          {
+            "fluid": "gtceu:iron",
+            "amount": 16
+          }
+        ],
+        "duration": 400,
+        "EUt": 4,
+        "group": "spruce",
+        "id": "otg:restored/vanilla_wood/spruce/assembler/16"
+      },
+      {
+        "type": "assembler",
+        "legacyId": 6032,
+        "inputs": [
+          "4x minecraft:spruce_slab",
+          "#forge:rods/wood"
+        ],
+        "outputs": [
+          "6x minecraft:spruce_trapdoor"
+        ],
+        "fluids": [
+          {
+            "fluid": "gtceu:steel",
+            "amount": 16
+          }
+        ],
+        "duration": 400,
+        "EUt": 4,
+        "group": "spruce",
+        "id": "otg:restored/vanilla_wood/spruce/assembler/17"
+      },
+      {
+        "type": "assembler",
+        "legacyId": 6033,
+        "inputs": [
+          "2x minecraft:spruce_slab",
+          "#forge:springs/iron"
+        ],
+        "outputs": [
+          "2x minecraft:spruce_pressure_plate"
+        ],
+        "fluids": [],
+        "duration": 400,
+        "EUt": 4,
+        "group": "spruce",
+        "id": "otg:restored/vanilla_wood/spruce/assembler/18"
+      },
+      {
+        "type": "assembler",
+        "legacyId": 6034,
+        "inputs": [
+          "minecraft:spruce_planks",
+          "#forge:rods/wood"
+        ],
+        "outputs": [
+          "3x minecraft:spruce_sign"
+        ],
+        "fluids": [],
+        "duration": 100,
+        "EUt": 4,
+        "group": "spruce",
+        "id": "otg:restored/vanilla_wood/spruce/assembler/19",
+        "circuit": 1
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "2x minecraft:spruce_button"
+        ],
+        "pattern": [
+          "A",
+          "B"
+        ],
+        "key": {
+          "A": "#forge:tools/saws",
+          "B": "minecraft:spruce_pressure_plate"
+        },
+        "group": "spruce",
+        "id": "otg:restored/vanilla_wood/spruce/shaped/20"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "minecraft:spruce_planks"
+        ],
+        "pattern": [
+          "A",
+          "A"
+        ],
+        "key": {
+          "A": "minecraft:spruce_slab"
+        },
+        "group": "spruce",
+        "id": "otg:restored/vanilla_wood/spruce/shaped/21"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "2x minecraft:spruce_slab"
+        ],
+        "pattern": [
+          "AB"
+        ],
+        "key": {
+          "A": "#forge:tools/saws",
+          "B": "minecraft:spruce_planks"
+        },
+        "group": "spruce",
+        "id": "otg:restored/vanilla_wood/spruce/shaped/22"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "minecraft:spruce_fence_gate"
+        ],
+        "pattern": [
+          "A A",
+          "BCB",
+          "BCB"
+        ],
+        "key": {
+          "A": "minecraft:flint",
+          "B": "minecraft:spruce_planks",
+          "C": "#forge:rods/wood"
+        },
+        "group": "spruce",
+        "id": "otg:restored/vanilla_wood/spruce/shaped/23"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "2x minecraft:spruce_fence_gate"
+        ],
+        "pattern": [
+          "ADA",
+          "BCB",
+          "BCB"
+        ],
+        "key": {
+          "A": "#forge:screws/wood",
+          "B": "minecraft:spruce_planks",
+          "C": "#forge:rods/wood",
+          "D": "#forge:tools/screwdrivers"
+        },
+        "group": "spruce",
+        "id": "otg:restored/vanilla_wood/spruce/shaped/24"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "minecraft:spruce_fence"
+        ],
+        "pattern": [
+          "ABA",
+          "ABA",
+          "ABA"
+        ],
+        "key": {
+          "A": "#forge:rods/wood",
+          "B": "minecraft:spruce_planks"
+        },
+        "group": "spruce",
+        "id": "otg:restored/vanilla_wood/spruce/shaped/25"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "2x minecraft:spruce_fence"
+        ],
+        "pattern": [
+          "CDC",
+          "ABA",
+          "ABA"
+        ],
+        "key": {
+          "A": "#forge:rods/wood",
+          "B": "minecraft:spruce_planks",
+          "C": "#forge:screws/wood",
+          "D": "#forge:tools/screwdrivers"
+        },
+        "group": "spruce",
+        "id": "otg:restored/vanilla_wood/spruce/shaped/26"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "4x minecraft:spruce_stairs"
+        ],
+        "pattern": [
+          "A  ",
+          "AA ",
+          "AAA"
+        ],
+        "key": {
+          "A": "minecraft:spruce_planks"
+        },
+        "group": "spruce",
+        "id": "otg:restored/vanilla_wood/spruce/shaped/27"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "2x minecraft:spruce_door"
+        ],
+        "pattern": [
+          "ABC",
+          "ADE",
+          "AAF"
+        ],
+        "key": {
+          "A": "minecraft:spruce_planks",
+          "B": "minecraft:spruce_trapdoor",
+          "C": "#forge:tools/screwdrivers",
+          "D": "#forge:rings/iron",
+          "E": "#forge:screws/iron",
+          "F": "#forge:tools/saws"
+        },
+        "group": "spruce",
+        "id": "otg:restored/vanilla_wood/spruce/shaped/28"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "2x minecraft:spruce_door"
+        ],
+        "pattern": [
+          "ABC",
+          "ADE",
+          "AAF"
+        ],
+        "key": {
+          "A": "minecraft:spruce_planks",
+          "B": "minecraft:spruce_trapdoor",
+          "C": "#forge:tools/screwdrivers",
+          "D": "#forge:rings/bronze",
+          "E": "#forge:screws/bronze",
+          "F": "#forge:tools/saws"
+        },
+        "group": "spruce",
+        "id": "otg:restored/vanilla_wood/spruce/shaped/29"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "2x minecraft:spruce_door"
+        ],
+        "pattern": [
+          "ABC",
+          "ADE",
+          "AAF"
+        ],
+        "key": {
+          "A": "minecraft:spruce_planks",
+          "B": "minecraft:spruce_trapdoor",
+          "C": "#forge:tools/saws",
+          "D": "#forge:rings/iron",
+          "E": "#forge:screws/iron",
+          "F": "#forge:tools/screwdrivers"
+        },
+        "group": "spruce",
+        "id": "otg:restored/vanilla_wood/spruce/shaped/30"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "2x minecraft:spruce_door"
+        ],
+        "pattern": [
+          "ABC",
+          "ADE",
+          "AAF"
+        ],
+        "key": {
+          "A": "minecraft:spruce_planks",
+          "B": "minecraft:spruce_trapdoor",
+          "C": "#forge:tools/saws",
+          "D": "#forge:rings/bronze",
+          "E": "#forge:screws/bronze",
+          "F": "#forge:tools/screwdrivers"
+        },
+        "group": "spruce",
+        "id": "otg:restored/vanilla_wood/spruce/shaped/31"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "minecraft:spruce_trapdoor"
+        ],
+        "pattern": [
+          "ABA",
+          "BCB",
+          "ABA"
+        ],
+        "key": {
+          "A": "minecraft:spruce_slab",
+          "B": "#forge:rods/wood",
+          "C": "minecraft:flint"
+        },
+        "group": "spruce",
+        "id": "otg:restored/vanilla_wood/spruce/shaped/32"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "2x minecraft:spruce_trapdoor"
+        ],
+        "pattern": [
+          "ABA",
+          "BCB",
+          "ABA"
+        ],
+        "key": {
+          "A": "minecraft:spruce_slab",
+          "B": "#forge:rods/wood",
+          "C": "#forge:screws/iron"
+        },
+        "group": "spruce",
+        "id": "otg:restored/vanilla_wood/spruce/shaped/33"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "3x minecraft:spruce_trapdoor"
+        ],
+        "pattern": [
+          "ABA",
+          "BCB",
+          "ABA"
+        ],
+        "key": {
+          "A": "minecraft:spruce_slab",
+          "B": "#forge:rods/wood",
+          "C": "#forge:screws/steel"
+        },
+        "group": "spruce",
+        "id": "otg:restored/vanilla_wood/spruce/shaped/34"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "2x minecraft:spruce_pressure_plate"
+        ],
+        "pattern": [
+          "ADA",
+          "BCB",
+          "AEA"
+        ],
+        "key": {
+          "A": "#forge:screws/wood",
+          "B": "minecraft:spruce_slab",
+          "C": "#forge:springs/iron",
+          "D": "#forge:tools/mallets",
+          "E": "#forge:tools/screwdrivers"
+        },
+        "group": "spruce",
+        "id": "otg:restored/vanilla_wood/spruce/shaped/35"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "3x minecraft:spruce_sign"
+        ],
+        "pattern": [
+          "AAA",
+          "AAA",
+          " B "
+        ],
+        "key": {
+          "A": "minecraft:spruce_planks",
+          "B": "#forge:rods/wood"
+        },
+        "group": "spruce",
+        "id": "otg:restored/vanilla_wood/spruce/shaped/36"
+      }
+    ],
+    "removedOutputs": [
+      "minecraft:spruce_planks",
+      "minecraft:spruce_slab",
+      "minecraft:spruce_stairs",
+      "minecraft:spruce_fence",
+      "minecraft:spruce_fence_gate",
+      "minecraft:spruce_door",
+      "minecraft:spruce_trapdoor",
+      "minecraft:spruce_pressure_plate",
+      "minecraft:spruce_button",
+      "minecraft:spruce_sign",
+      "minecraft:spruce_wood"
+    ]
+  },
+  "birch": {
+    "recipes": [
+      {
+        "type": "shapeless",
+        "outputs": [
+          "minecraft:birch_log"
+        ],
+        "inputs": [
+          "minecraft:birch_wood"
+        ],
+        "group": "birch",
+        "id": "otg:restored/vanilla_wood/birch/shapeless/0"
+      },
+      {
+        "type": "shapeless",
+        "outputs": [
+          "2x minecraft:birch_planks"
+        ],
+        "inputs": [
+          "minecraft:birch_log"
+        ],
+        "group": "birch",
+        "id": "otg:restored/vanilla_wood/birch/shapeless/1"
+      },
+      {
+        "type": "cutter",
+        "legacyId": 6035,
+        "inputs": [
+          "minecraft:birch_log"
+        ],
+        "outputs": [
+          "6x minecraft:birch_planks"
+        ],
+        "fluids": [
+          {
+            "fluid": "minecraft:water",
+            "amount": 5
+          }
+        ],
+        "duration": 400,
+        "EUt": 7,
+        "group": "birch",
+        "id": "otg:restored/vanilla_wood/birch/cutter/2"
+      },
+      {
+        "type": "cutter",
+        "legacyId": 6036,
+        "inputs": [
+          "minecraft:birch_log"
+        ],
+        "outputs": [
+          "6x minecraft:birch_planks"
+        ],
+        "fluids": [
+          {
+            "fluid": "gtceu:distilled_water",
+            "amount": 3
+          }
+        ],
+        "duration": 400,
+        "EUt": 7,
+        "group": "birch",
+        "id": "otg:restored/vanilla_wood/birch/cutter/3"
+      },
+      {
+        "type": "cutter",
+        "legacyId": 6037,
+        "inputs": [
+          "minecraft:birch_log"
+        ],
+        "outputs": [
+          "6x minecraft:birch_planks"
+        ],
+        "fluids": [
+          {
+            "fluid": "gtceu:lubricant",
+            "amount": 1
+          }
+        ],
+        "duration": 200,
+        "EUt": 7,
+        "group": "birch",
+        "id": "otg:restored/vanilla_wood/birch/cutter/4"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "4x minecraft:birch_planks"
+        ],
+        "pattern": [
+          "A",
+          "B"
+        ],
+        "key": {
+          "A": "#forge:tools/saws",
+          "B": "minecraft:birch_log"
+        },
+        "group": "birch",
+        "id": "otg:restored/vanilla_wood/birch/shaped/5"
+      },
+      {
+        "type": "cutter",
+        "legacyId": 6038,
+        "inputs": [
+          "minecraft:birch_planks"
+        ],
+        "outputs": [
+          "2x minecraft:birch_slab"
+        ],
+        "fluids": [
+          {
+            "fluid": "minecraft:water",
+            "amount": 5
+          }
+        ],
+        "duration": 50,
+        "EUt": 7,
+        "group": "birch",
+        "id": "otg:restored/vanilla_wood/birch/cutter/6"
+      },
+      {
+        "type": "cutter",
+        "legacyId": 6039,
+        "inputs": [
+          "minecraft:birch_planks"
+        ],
+        "outputs": [
+          "2x minecraft:birch_slab"
+        ],
+        "fluids": [
+          {
+            "fluid": "gtceu:distilled_water",
+            "amount": 3
+          }
+        ],
+        "duration": 50,
+        "EUt": 7,
+        "group": "birch",
+        "id": "otg:restored/vanilla_wood/birch/cutter/7"
+      },
+      {
+        "type": "cutter",
+        "legacyId": 6040,
+        "inputs": [
+          "minecraft:birch_planks"
+        ],
+        "outputs": [
+          "2x minecraft:birch_slab"
+        ],
+        "fluids": [
+          {
+            "fluid": "gtceu:lubricant",
+            "amount": 1
+          }
+        ],
+        "duration": 25,
+        "EUt": 7,
+        "group": "birch",
+        "id": "otg:restored/vanilla_wood/birch/cutter/8"
+      },
+      {
+        "type": "cutter",
+        "legacyId": 6041,
+        "inputs": [
+          "minecraft:birch_pressure_plate"
+        ],
+        "outputs": [
+          "2x minecraft:birch_button"
+        ],
+        "fluids": [
+          {
+            "fluid": "minecraft:water",
+            "amount": 5
+          }
+        ],
+        "duration": 50,
+        "EUt": 7,
+        "group": "birch",
+        "id": "otg:restored/vanilla_wood/birch/cutter/9"
+      },
+      {
+        "type": "cutter",
+        "legacyId": 6042,
+        "inputs": [
+          "minecraft:birch_pressure_plate"
+        ],
+        "outputs": [
+          "2x minecraft:birch_button"
+        ],
+        "fluids": [
+          {
+            "fluid": "gtceu:distilled_water",
+            "amount": 3
+          }
+        ],
+        "duration": 50,
+        "EUt": 7,
+        "group": "birch",
+        "id": "otg:restored/vanilla_wood/birch/cutter/10"
+      },
+      {
+        "type": "cutter",
+        "legacyId": 6043,
+        "inputs": [
+          "minecraft:birch_pressure_plate"
+        ],
+        "outputs": [
+          "2x minecraft:birch_button"
+        ],
+        "fluids": [
+          {
+            "fluid": "gtceu:lubricant",
+            "amount": 1
+          }
+        ],
+        "duration": 25,
+        "EUt": 7,
+        "group": "birch",
+        "id": "otg:restored/vanilla_wood/birch/cutter/11"
+      },
+      {
+        "type": "assembler",
+        "legacyId": 6044,
+        "inputs": [
+          "2x minecraft:birch_planks",
+          "2x #forge:rods/wood"
+        ],
+        "outputs": [
+          "minecraft:birch_fence_gate"
+        ],
+        "fluids": [],
+        "duration": 300,
+        "EUt": 7,
+        "group": "birch",
+        "id": "otg:restored/vanilla_wood/birch/assembler/12",
+        "circuit": 2
+      },
+      {
+        "type": "assembler",
+        "legacyId": 6045,
+        "inputs": [
+          "3x minecraft:birch_planks",
+          "3x #forge:rods/wood"
+        ],
+        "outputs": [
+          "2x minecraft:birch_fence"
+        ],
+        "fluids": [],
+        "duration": 300,
+        "EUt": 7,
+        "circuit": 3,
+        "group": "birch",
+        "id": "otg:restored/vanilla_wood/birch/assembler/13"
+      },
+      {
+        "type": "assembler",
+        "legacyId": 6046,
+        "inputs": [
+          "4x minecraft:birch_planks",
+          "minecraft:birch_trapdoor"
+        ],
+        "outputs": [
+          "2x minecraft:birch_door"
+        ],
+        "fluids": [
+          {
+            "fluid": "gtceu:iron",
+            "amount": 16
+          }
+        ],
+        "duration": 400,
+        "EUt": 4,
+        "group": "birch",
+        "id": "otg:restored/vanilla_wood/birch/assembler/14"
+      },
+      {
+        "type": "assembler",
+        "legacyId": 6047,
+        "inputs": [
+          "4x minecraft:birch_planks",
+          "minecraft:birch_trapdoor"
+        ],
+        "outputs": [
+          "2x minecraft:birch_door"
+        ],
+        "fluids": [
+          {
+            "fluid": "gtceu:bronze",
+            "amount": 16
+          }
+        ],
+        "duration": 400,
+        "EUt": 4,
+        "group": "birch",
+        "id": "otg:restored/vanilla_wood/birch/assembler/15"
+      },
+      {
+        "type": "assembler",
+        "legacyId": 6048,
+        "inputs": [
+          "4x minecraft:birch_slab",
+          "#forge:rods/wood"
+        ],
+        "outputs": [
+          "4x minecraft:birch_trapdoor"
+        ],
+        "fluids": [
+          {
+            "fluid": "gtceu:iron",
+            "amount": 16
+          }
+        ],
+        "duration": 400,
+        "EUt": 4,
+        "group": "birch",
+        "id": "otg:restored/vanilla_wood/birch/assembler/16"
+      },
+      {
+        "type": "assembler",
+        "legacyId": 6049,
+        "inputs": [
+          "4x minecraft:birch_slab",
+          "#forge:rods/wood"
+        ],
+        "outputs": [
+          "6x minecraft:birch_trapdoor"
+        ],
+        "fluids": [
+          {
+            "fluid": "gtceu:steel",
+            "amount": 16
+          }
+        ],
+        "duration": 400,
+        "EUt": 4,
+        "group": "birch",
+        "id": "otg:restored/vanilla_wood/birch/assembler/17"
+      },
+      {
+        "type": "assembler",
+        "legacyId": 6050,
+        "inputs": [
+          "2x minecraft:birch_slab",
+          "#forge:springs/iron"
+        ],
+        "outputs": [
+          "2x minecraft:birch_pressure_plate"
+        ],
+        "fluids": [],
+        "duration": 400,
+        "EUt": 4,
+        "group": "birch",
+        "id": "otg:restored/vanilla_wood/birch/assembler/18"
+      },
+      {
+        "type": "assembler",
+        "legacyId": 6051,
+        "inputs": [
+          "minecraft:birch_planks",
+          "#forge:rods/wood"
+        ],
+        "outputs": [
+          "3x minecraft:birch_sign"
+        ],
+        "fluids": [],
+        "duration": 100,
+        "EUt": 4,
+        "group": "birch",
+        "id": "otg:restored/vanilla_wood/birch/assembler/19",
+        "circuit": 1
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "2x minecraft:birch_button"
+        ],
+        "pattern": [
+          "A",
+          "B"
+        ],
+        "key": {
+          "A": "#forge:tools/saws",
+          "B": "minecraft:birch_pressure_plate"
+        },
+        "group": "birch",
+        "id": "otg:restored/vanilla_wood/birch/shaped/20"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "minecraft:birch_planks"
+        ],
+        "pattern": [
+          "A",
+          "A"
+        ],
+        "key": {
+          "A": "minecraft:birch_slab"
+        },
+        "group": "birch",
+        "id": "otg:restored/vanilla_wood/birch/shaped/21"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "2x minecraft:birch_slab"
+        ],
+        "pattern": [
+          "AB"
+        ],
+        "key": {
+          "A": "#forge:tools/saws",
+          "B": "minecraft:birch_planks"
+        },
+        "group": "birch",
+        "id": "otg:restored/vanilla_wood/birch/shaped/22"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "minecraft:birch_fence_gate"
+        ],
+        "pattern": [
+          "A A",
+          "BCB",
+          "BCB"
+        ],
+        "key": {
+          "A": "minecraft:flint",
+          "B": "minecraft:birch_planks",
+          "C": "#forge:rods/wood"
+        },
+        "group": "birch",
+        "id": "otg:restored/vanilla_wood/birch/shaped/23"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "2x minecraft:birch_fence_gate"
+        ],
+        "pattern": [
+          "ADA",
+          "BCB",
+          "BCB"
+        ],
+        "key": {
+          "A": "#forge:screws/wood",
+          "B": "minecraft:birch_planks",
+          "C": "#forge:rods/wood",
+          "D": "#forge:tools/screwdrivers"
+        },
+        "group": "birch",
+        "id": "otg:restored/vanilla_wood/birch/shaped/24"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "minecraft:birch_fence"
+        ],
+        "pattern": [
+          "ABA",
+          "ABA",
+          "ABA"
+        ],
+        "key": {
+          "A": "#forge:rods/wood",
+          "B": "minecraft:birch_planks"
+        },
+        "group": "birch",
+        "id": "otg:restored/vanilla_wood/birch/shaped/25"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "2x minecraft:birch_fence"
+        ],
+        "pattern": [
+          "CDC",
+          "ABA",
+          "ABA"
+        ],
+        "key": {
+          "A": "#forge:rods/wood",
+          "B": "minecraft:birch_planks",
+          "C": "#forge:screws/wood",
+          "D": "#forge:tools/screwdrivers"
+        },
+        "group": "birch",
+        "id": "otg:restored/vanilla_wood/birch/shaped/26"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "4x minecraft:birch_stairs"
+        ],
+        "pattern": [
+          "A  ",
+          "AA ",
+          "AAA"
+        ],
+        "key": {
+          "A": "minecraft:birch_planks"
+        },
+        "group": "birch",
+        "id": "otg:restored/vanilla_wood/birch/shaped/27"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "2x minecraft:birch_door"
+        ],
+        "pattern": [
+          "ABC",
+          "ADE",
+          "AAF"
+        ],
+        "key": {
+          "A": "minecraft:birch_planks",
+          "B": "minecraft:birch_trapdoor",
+          "C": "#forge:tools/screwdrivers",
+          "D": "#forge:rings/iron",
+          "E": "#forge:screws/iron",
+          "F": "#forge:tools/saws"
+        },
+        "group": "birch",
+        "id": "otg:restored/vanilla_wood/birch/shaped/28"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "2x minecraft:birch_door"
+        ],
+        "pattern": [
+          "ABC",
+          "ADE",
+          "AAF"
+        ],
+        "key": {
+          "A": "minecraft:birch_planks",
+          "B": "minecraft:birch_trapdoor",
+          "C": "#forge:tools/screwdrivers",
+          "D": "#forge:rings/bronze",
+          "E": "#forge:screws/bronze",
+          "F": "#forge:tools/saws"
+        },
+        "group": "birch",
+        "id": "otg:restored/vanilla_wood/birch/shaped/29"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "2x minecraft:birch_door"
+        ],
+        "pattern": [
+          "ABC",
+          "ADE",
+          "AAF"
+        ],
+        "key": {
+          "A": "minecraft:birch_planks",
+          "B": "minecraft:birch_trapdoor",
+          "C": "#forge:tools/saws",
+          "D": "#forge:rings/iron",
+          "E": "#forge:screws/iron",
+          "F": "#forge:tools/screwdrivers"
+        },
+        "group": "birch",
+        "id": "otg:restored/vanilla_wood/birch/shaped/30"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "2x minecraft:birch_door"
+        ],
+        "pattern": [
+          "ABC",
+          "ADE",
+          "AAF"
+        ],
+        "key": {
+          "A": "minecraft:birch_planks",
+          "B": "minecraft:birch_trapdoor",
+          "C": "#forge:tools/saws",
+          "D": "#forge:rings/bronze",
+          "E": "#forge:screws/bronze",
+          "F": "#forge:tools/screwdrivers"
+        },
+        "group": "birch",
+        "id": "otg:restored/vanilla_wood/birch/shaped/31"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "minecraft:birch_trapdoor"
+        ],
+        "pattern": [
+          "ABA",
+          "BCB",
+          "ABA"
+        ],
+        "key": {
+          "A": "minecraft:birch_slab",
+          "B": "#forge:rods/wood",
+          "C": "minecraft:flint"
+        },
+        "group": "birch",
+        "id": "otg:restored/vanilla_wood/birch/shaped/32"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "2x minecraft:birch_trapdoor"
+        ],
+        "pattern": [
+          "ABA",
+          "BCB",
+          "ABA"
+        ],
+        "key": {
+          "A": "minecraft:birch_slab",
+          "B": "#forge:rods/wood",
+          "C": "#forge:screws/iron"
+        },
+        "group": "birch",
+        "id": "otg:restored/vanilla_wood/birch/shaped/33"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "3x minecraft:birch_trapdoor"
+        ],
+        "pattern": [
+          "ABA",
+          "BCB",
+          "ABA"
+        ],
+        "key": {
+          "A": "minecraft:birch_slab",
+          "B": "#forge:rods/wood",
+          "C": "#forge:screws/steel"
+        },
+        "group": "birch",
+        "id": "otg:restored/vanilla_wood/birch/shaped/34"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "2x minecraft:birch_pressure_plate"
+        ],
+        "pattern": [
+          "ADA",
+          "BCB",
+          "AEA"
+        ],
+        "key": {
+          "A": "#forge:screws/wood",
+          "B": "minecraft:birch_slab",
+          "C": "#forge:springs/iron",
+          "D": "#forge:tools/mallets",
+          "E": "#forge:tools/screwdrivers"
+        },
+        "group": "birch",
+        "id": "otg:restored/vanilla_wood/birch/shaped/35"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "3x minecraft:birch_sign"
+        ],
+        "pattern": [
+          "AAA",
+          "AAA",
+          " B "
+        ],
+        "key": {
+          "A": "minecraft:birch_planks",
+          "B": "#forge:rods/wood"
+        },
+        "group": "birch",
+        "id": "otg:restored/vanilla_wood/birch/shaped/36"
+      }
+    ],
+    "removedOutputs": [
+      "minecraft:birch_planks",
+      "minecraft:birch_slab",
+      "minecraft:birch_stairs",
+      "minecraft:birch_fence",
+      "minecraft:birch_fence_gate",
+      "minecraft:birch_door",
+      "minecraft:birch_trapdoor",
+      "minecraft:birch_pressure_plate",
+      "minecraft:birch_button",
+      "minecraft:birch_sign",
+      "minecraft:birch_wood"
+    ]
+  },
+  "jungle": {
+    "recipes": [
+      {
+        "type": "shapeless",
+        "outputs": [
+          "minecraft:jungle_log"
+        ],
+        "inputs": [
+          "minecraft:jungle_wood"
+        ],
+        "group": "jungle",
+        "id": "otg:restored/vanilla_wood/jungle/shapeless/0"
+      },
+      {
+        "type": "shapeless",
+        "outputs": [
+          "2x minecraft:jungle_planks"
+        ],
+        "inputs": [
+          "minecraft:jungle_log"
+        ],
+        "group": "jungle",
+        "id": "otg:restored/vanilla_wood/jungle/shapeless/1"
+      },
+      {
+        "type": "cutter",
+        "legacyId": 6052,
+        "inputs": [
+          "minecraft:jungle_log"
+        ],
+        "outputs": [
+          "6x minecraft:jungle_planks"
+        ],
+        "fluids": [
+          {
+            "fluid": "minecraft:water",
+            "amount": 5
+          }
+        ],
+        "duration": 400,
+        "EUt": 7,
+        "group": "jungle",
+        "id": "otg:restored/vanilla_wood/jungle/cutter/2"
+      },
+      {
+        "type": "cutter",
+        "legacyId": 6053,
+        "inputs": [
+          "minecraft:jungle_log"
+        ],
+        "outputs": [
+          "6x minecraft:jungle_planks"
+        ],
+        "fluids": [
+          {
+            "fluid": "gtceu:distilled_water",
+            "amount": 3
+          }
+        ],
+        "duration": 400,
+        "EUt": 7,
+        "group": "jungle",
+        "id": "otg:restored/vanilla_wood/jungle/cutter/3"
+      },
+      {
+        "type": "cutter",
+        "legacyId": 6054,
+        "inputs": [
+          "minecraft:jungle_log"
+        ],
+        "outputs": [
+          "6x minecraft:jungle_planks"
+        ],
+        "fluids": [
+          {
+            "fluid": "gtceu:lubricant",
+            "amount": 1
+          }
+        ],
+        "duration": 200,
+        "EUt": 7,
+        "group": "jungle",
+        "id": "otg:restored/vanilla_wood/jungle/cutter/4"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "4x minecraft:jungle_planks"
+        ],
+        "pattern": [
+          "A",
+          "B"
+        ],
+        "key": {
+          "A": "#forge:tools/saws",
+          "B": "minecraft:jungle_log"
+        },
+        "group": "jungle",
+        "id": "otg:restored/vanilla_wood/jungle/shaped/5"
+      },
+      {
+        "type": "cutter",
+        "legacyId": 6055,
+        "inputs": [
+          "minecraft:jungle_planks"
+        ],
+        "outputs": [
+          "2x minecraft:jungle_slab"
+        ],
+        "fluids": [
+          {
+            "fluid": "minecraft:water",
+            "amount": 5
+          }
+        ],
+        "duration": 50,
+        "EUt": 7,
+        "group": "jungle",
+        "id": "otg:restored/vanilla_wood/jungle/cutter/6"
+      },
+      {
+        "type": "cutter",
+        "legacyId": 6056,
+        "inputs": [
+          "minecraft:jungle_planks"
+        ],
+        "outputs": [
+          "2x minecraft:jungle_slab"
+        ],
+        "fluids": [
+          {
+            "fluid": "gtceu:distilled_water",
+            "amount": 3
+          }
+        ],
+        "duration": 50,
+        "EUt": 7,
+        "group": "jungle",
+        "id": "otg:restored/vanilla_wood/jungle/cutter/7"
+      },
+      {
+        "type": "cutter",
+        "legacyId": 6057,
+        "inputs": [
+          "minecraft:jungle_planks"
+        ],
+        "outputs": [
+          "2x minecraft:jungle_slab"
+        ],
+        "fluids": [
+          {
+            "fluid": "gtceu:lubricant",
+            "amount": 1
+          }
+        ],
+        "duration": 25,
+        "EUt": 7,
+        "group": "jungle",
+        "id": "otg:restored/vanilla_wood/jungle/cutter/8"
+      },
+      {
+        "type": "cutter",
+        "legacyId": 6058,
+        "inputs": [
+          "minecraft:jungle_pressure_plate"
+        ],
+        "outputs": [
+          "2x minecraft:jungle_button"
+        ],
+        "fluids": [
+          {
+            "fluid": "minecraft:water",
+            "amount": 5
+          }
+        ],
+        "duration": 50,
+        "EUt": 7,
+        "group": "jungle",
+        "id": "otg:restored/vanilla_wood/jungle/cutter/9"
+      },
+      {
+        "type": "cutter",
+        "legacyId": 6059,
+        "inputs": [
+          "minecraft:jungle_pressure_plate"
+        ],
+        "outputs": [
+          "2x minecraft:jungle_button"
+        ],
+        "fluids": [
+          {
+            "fluid": "gtceu:distilled_water",
+            "amount": 3
+          }
+        ],
+        "duration": 50,
+        "EUt": 7,
+        "group": "jungle",
+        "id": "otg:restored/vanilla_wood/jungle/cutter/10"
+      },
+      {
+        "type": "cutter",
+        "legacyId": 6060,
+        "inputs": [
+          "minecraft:jungle_pressure_plate"
+        ],
+        "outputs": [
+          "2x minecraft:jungle_button"
+        ],
+        "fluids": [
+          {
+            "fluid": "gtceu:lubricant",
+            "amount": 1
+          }
+        ],
+        "duration": 25,
+        "EUt": 7,
+        "group": "jungle",
+        "id": "otg:restored/vanilla_wood/jungle/cutter/11"
+      },
+      {
+        "type": "assembler",
+        "legacyId": 6061,
+        "inputs": [
+          "2x minecraft:jungle_planks",
+          "2x #forge:rods/wood"
+        ],
+        "outputs": [
+          "minecraft:jungle_fence_gate"
+        ],
+        "fluids": [],
+        "duration": 300,
+        "EUt": 7,
+        "group": "jungle",
+        "id": "otg:restored/vanilla_wood/jungle/assembler/12",
+        "circuit": 2
+      },
+      {
+        "type": "assembler",
+        "legacyId": 6062,
+        "inputs": [
+          "3x minecraft:jungle_planks",
+          "3x #forge:rods/wood"
+        ],
+        "outputs": [
+          "2x minecraft:jungle_fence"
+        ],
+        "fluids": [],
+        "duration": 300,
+        "EUt": 7,
+        "circuit": 3,
+        "group": "jungle",
+        "id": "otg:restored/vanilla_wood/jungle/assembler/13"
+      },
+      {
+        "type": "assembler",
+        "legacyId": 6063,
+        "inputs": [
+          "4x minecraft:jungle_planks",
+          "minecraft:jungle_trapdoor"
+        ],
+        "outputs": [
+          "2x minecraft:jungle_door"
+        ],
+        "fluids": [
+          {
+            "fluid": "gtceu:iron",
+            "amount": 16
+          }
+        ],
+        "duration": 400,
+        "EUt": 4,
+        "group": "jungle",
+        "id": "otg:restored/vanilla_wood/jungle/assembler/14"
+      },
+      {
+        "type": "assembler",
+        "legacyId": 6064,
+        "inputs": [
+          "4x minecraft:jungle_planks",
+          "minecraft:jungle_trapdoor"
+        ],
+        "outputs": [
+          "2x minecraft:jungle_door"
+        ],
+        "fluids": [
+          {
+            "fluid": "gtceu:bronze",
+            "amount": 16
+          }
+        ],
+        "duration": 400,
+        "EUt": 4,
+        "group": "jungle",
+        "id": "otg:restored/vanilla_wood/jungle/assembler/15"
+      },
+      {
+        "type": "assembler",
+        "legacyId": 6065,
+        "inputs": [
+          "4x minecraft:jungle_slab",
+          "#forge:rods/wood"
+        ],
+        "outputs": [
+          "4x minecraft:jungle_trapdoor"
+        ],
+        "fluids": [
+          {
+            "fluid": "gtceu:iron",
+            "amount": 16
+          }
+        ],
+        "duration": 400,
+        "EUt": 4,
+        "group": "jungle",
+        "id": "otg:restored/vanilla_wood/jungle/assembler/16"
+      },
+      {
+        "type": "assembler",
+        "legacyId": 6066,
+        "inputs": [
+          "4x minecraft:jungle_slab",
+          "#forge:rods/wood"
+        ],
+        "outputs": [
+          "6x minecraft:jungle_trapdoor"
+        ],
+        "fluids": [
+          {
+            "fluid": "gtceu:steel",
+            "amount": 16
+          }
+        ],
+        "duration": 400,
+        "EUt": 4,
+        "group": "jungle",
+        "id": "otg:restored/vanilla_wood/jungle/assembler/17"
+      },
+      {
+        "type": "assembler",
+        "legacyId": 6067,
+        "inputs": [
+          "2x minecraft:jungle_slab",
+          "#forge:springs/iron"
+        ],
+        "outputs": [
+          "2x minecraft:jungle_pressure_plate"
+        ],
+        "fluids": [],
+        "duration": 400,
+        "EUt": 4,
+        "group": "jungle",
+        "id": "otg:restored/vanilla_wood/jungle/assembler/18"
+      },
+      {
+        "type": "assembler",
+        "legacyId": 6068,
+        "inputs": [
+          "minecraft:jungle_planks",
+          "#forge:rods/wood"
+        ],
+        "outputs": [
+          "3x minecraft:jungle_sign"
+        ],
+        "fluids": [],
+        "duration": 100,
+        "EUt": 4,
+        "group": "jungle",
+        "id": "otg:restored/vanilla_wood/jungle/assembler/19",
+        "circuit": 1
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "2x minecraft:jungle_button"
+        ],
+        "pattern": [
+          "A",
+          "B"
+        ],
+        "key": {
+          "A": "#forge:tools/saws",
+          "B": "minecraft:jungle_pressure_plate"
+        },
+        "group": "jungle",
+        "id": "otg:restored/vanilla_wood/jungle/shaped/20"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "minecraft:jungle_planks"
+        ],
+        "pattern": [
+          "A",
+          "A"
+        ],
+        "key": {
+          "A": "minecraft:jungle_slab"
+        },
+        "group": "jungle",
+        "id": "otg:restored/vanilla_wood/jungle/shaped/21"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "2x minecraft:jungle_slab"
+        ],
+        "pattern": [
+          "AB"
+        ],
+        "key": {
+          "A": "#forge:tools/saws",
+          "B": "minecraft:jungle_planks"
+        },
+        "group": "jungle",
+        "id": "otg:restored/vanilla_wood/jungle/shaped/22"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "minecraft:jungle_fence_gate"
+        ],
+        "pattern": [
+          "A A",
+          "BCB",
+          "BCB"
+        ],
+        "key": {
+          "A": "minecraft:flint",
+          "B": "minecraft:jungle_planks",
+          "C": "#forge:rods/wood"
+        },
+        "group": "jungle",
+        "id": "otg:restored/vanilla_wood/jungle/shaped/23"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "2x minecraft:jungle_fence_gate"
+        ],
+        "pattern": [
+          "ADA",
+          "BCB",
+          "BCB"
+        ],
+        "key": {
+          "A": "#forge:screws/wood",
+          "B": "minecraft:jungle_planks",
+          "C": "#forge:rods/wood",
+          "D": "#forge:tools/screwdrivers"
+        },
+        "group": "jungle",
+        "id": "otg:restored/vanilla_wood/jungle/shaped/24"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "minecraft:jungle_fence"
+        ],
+        "pattern": [
+          "ABA",
+          "ABA",
+          "ABA"
+        ],
+        "key": {
+          "A": "#forge:rods/wood",
+          "B": "minecraft:jungle_planks"
+        },
+        "group": "jungle",
+        "id": "otg:restored/vanilla_wood/jungle/shaped/25"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "2x minecraft:jungle_fence"
+        ],
+        "pattern": [
+          "CDC",
+          "ABA",
+          "ABA"
+        ],
+        "key": {
+          "A": "#forge:rods/wood",
+          "B": "minecraft:jungle_planks",
+          "C": "#forge:screws/wood",
+          "D": "#forge:tools/screwdrivers"
+        },
+        "group": "jungle",
+        "id": "otg:restored/vanilla_wood/jungle/shaped/26"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "4x minecraft:jungle_stairs"
+        ],
+        "pattern": [
+          "A  ",
+          "AA ",
+          "AAA"
+        ],
+        "key": {
+          "A": "minecraft:jungle_planks"
+        },
+        "group": "jungle",
+        "id": "otg:restored/vanilla_wood/jungle/shaped/27"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "2x minecraft:jungle_door"
+        ],
+        "pattern": [
+          "ABC",
+          "ADE",
+          "AAF"
+        ],
+        "key": {
+          "A": "minecraft:jungle_planks",
+          "B": "minecraft:jungle_trapdoor",
+          "C": "#forge:tools/screwdrivers",
+          "D": "#forge:rings/iron",
+          "E": "#forge:screws/iron",
+          "F": "#forge:tools/saws"
+        },
+        "group": "jungle",
+        "id": "otg:restored/vanilla_wood/jungle/shaped/28"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "2x minecraft:jungle_door"
+        ],
+        "pattern": [
+          "ABC",
+          "ADE",
+          "AAF"
+        ],
+        "key": {
+          "A": "minecraft:jungle_planks",
+          "B": "minecraft:jungle_trapdoor",
+          "C": "#forge:tools/screwdrivers",
+          "D": "#forge:rings/bronze",
+          "E": "#forge:screws/bronze",
+          "F": "#forge:tools/saws"
+        },
+        "group": "jungle",
+        "id": "otg:restored/vanilla_wood/jungle/shaped/29"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "2x minecraft:jungle_door"
+        ],
+        "pattern": [
+          "ABC",
+          "ADE",
+          "AAF"
+        ],
+        "key": {
+          "A": "minecraft:jungle_planks",
+          "B": "minecraft:jungle_trapdoor",
+          "C": "#forge:tools/saws",
+          "D": "#forge:rings/iron",
+          "E": "#forge:screws/iron",
+          "F": "#forge:tools/screwdrivers"
+        },
+        "group": "jungle",
+        "id": "otg:restored/vanilla_wood/jungle/shaped/30"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "2x minecraft:jungle_door"
+        ],
+        "pattern": [
+          "ABC",
+          "ADE",
+          "AAF"
+        ],
+        "key": {
+          "A": "minecraft:jungle_planks",
+          "B": "minecraft:jungle_trapdoor",
+          "C": "#forge:tools/saws",
+          "D": "#forge:rings/bronze",
+          "E": "#forge:screws/bronze",
+          "F": "#forge:tools/screwdrivers"
+        },
+        "group": "jungle",
+        "id": "otg:restored/vanilla_wood/jungle/shaped/31"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "minecraft:jungle_trapdoor"
+        ],
+        "pattern": [
+          "ABA",
+          "BCB",
+          "ABA"
+        ],
+        "key": {
+          "A": "minecraft:jungle_slab",
+          "B": "#forge:rods/wood",
+          "C": "minecraft:flint"
+        },
+        "group": "jungle",
+        "id": "otg:restored/vanilla_wood/jungle/shaped/32"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "2x minecraft:jungle_trapdoor"
+        ],
+        "pattern": [
+          "ABA",
+          "BCB",
+          "ABA"
+        ],
+        "key": {
+          "A": "minecraft:jungle_slab",
+          "B": "#forge:rods/wood",
+          "C": "#forge:screws/iron"
+        },
+        "group": "jungle",
+        "id": "otg:restored/vanilla_wood/jungle/shaped/33"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "3x minecraft:jungle_trapdoor"
+        ],
+        "pattern": [
+          "ABA",
+          "BCB",
+          "ABA"
+        ],
+        "key": {
+          "A": "minecraft:jungle_slab",
+          "B": "#forge:rods/wood",
+          "C": "#forge:screws/steel"
+        },
+        "group": "jungle",
+        "id": "otg:restored/vanilla_wood/jungle/shaped/34"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "2x minecraft:jungle_pressure_plate"
+        ],
+        "pattern": [
+          "ADA",
+          "BCB",
+          "AEA"
+        ],
+        "key": {
+          "A": "#forge:screws/wood",
+          "B": "minecraft:jungle_slab",
+          "C": "#forge:springs/iron",
+          "D": "#forge:tools/mallets",
+          "E": "#forge:tools/screwdrivers"
+        },
+        "group": "jungle",
+        "id": "otg:restored/vanilla_wood/jungle/shaped/35"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "3x minecraft:jungle_sign"
+        ],
+        "pattern": [
+          "AAA",
+          "AAA",
+          " B "
+        ],
+        "key": {
+          "A": "minecraft:jungle_planks",
+          "B": "#forge:rods/wood"
+        },
+        "group": "jungle",
+        "id": "otg:restored/vanilla_wood/jungle/shaped/36"
+      }
+    ],
+    "removedOutputs": [
+      "minecraft:jungle_planks",
+      "minecraft:jungle_slab",
+      "minecraft:jungle_stairs",
+      "minecraft:jungle_fence",
+      "minecraft:jungle_fence_gate",
+      "minecraft:jungle_door",
+      "minecraft:jungle_trapdoor",
+      "minecraft:jungle_pressure_plate",
+      "minecraft:jungle_button",
+      "minecraft:jungle_sign",
+      "minecraft:jungle_wood"
+    ]
+  },
+  "dark_oak": {
+    "recipes": [
+      {
+        "type": "shapeless",
+        "outputs": [
+          "minecraft:dark_oak_log"
+        ],
+        "inputs": [
+          "minecraft:dark_oak_wood"
+        ],
+        "group": "dark_oak",
+        "id": "otg:restored/vanilla_wood/dark_oak/shapeless/0"
+      },
+      {
+        "type": "shapeless",
+        "outputs": [
+          "2x minecraft:dark_oak_planks"
+        ],
+        "inputs": [
+          "minecraft:dark_oak_log"
+        ],
+        "group": "dark_oak",
+        "id": "otg:restored/vanilla_wood/dark_oak/shapeless/1"
+      },
+      {
+        "type": "cutter",
+        "legacyId": 6069,
+        "inputs": [
+          "minecraft:dark_oak_log"
+        ],
+        "outputs": [
+          "6x minecraft:dark_oak_planks"
+        ],
+        "fluids": [
+          {
+            "fluid": "minecraft:water",
+            "amount": 5
+          }
+        ],
+        "duration": 400,
+        "EUt": 7,
+        "group": "dark_oak",
+        "id": "otg:restored/vanilla_wood/dark_oak/cutter/2"
+      },
+      {
+        "type": "cutter",
+        "legacyId": 6070,
+        "inputs": [
+          "minecraft:dark_oak_log"
+        ],
+        "outputs": [
+          "6x minecraft:dark_oak_planks"
+        ],
+        "fluids": [
+          {
+            "fluid": "gtceu:distilled_water",
+            "amount": 3
+          }
+        ],
+        "duration": 400,
+        "EUt": 7,
+        "group": "dark_oak",
+        "id": "otg:restored/vanilla_wood/dark_oak/cutter/3"
+      },
+      {
+        "type": "cutter",
+        "legacyId": 6071,
+        "inputs": [
+          "minecraft:dark_oak_log"
+        ],
+        "outputs": [
+          "6x minecraft:dark_oak_planks"
+        ],
+        "fluids": [
+          {
+            "fluid": "gtceu:lubricant",
+            "amount": 1
+          }
+        ],
+        "duration": 200,
+        "EUt": 7,
+        "group": "dark_oak",
+        "id": "otg:restored/vanilla_wood/dark_oak/cutter/4"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "4x minecraft:dark_oak_planks"
+        ],
+        "pattern": [
+          "A",
+          "B"
+        ],
+        "key": {
+          "A": "#forge:tools/saws",
+          "B": "minecraft:dark_oak_log"
+        },
+        "group": "dark_oak",
+        "id": "otg:restored/vanilla_wood/dark_oak/shaped/5"
+      },
+      {
+        "type": "cutter",
+        "legacyId": 6072,
+        "inputs": [
+          "minecraft:dark_oak_planks"
+        ],
+        "outputs": [
+          "2x minecraft:dark_oak_slab"
+        ],
+        "fluids": [
+          {
+            "fluid": "minecraft:water",
+            "amount": 5
+          }
+        ],
+        "duration": 50,
+        "EUt": 7,
+        "group": "dark_oak",
+        "id": "otg:restored/vanilla_wood/dark_oak/cutter/6"
+      },
+      {
+        "type": "cutter",
+        "legacyId": 6073,
+        "inputs": [
+          "minecraft:dark_oak_planks"
+        ],
+        "outputs": [
+          "2x minecraft:dark_oak_slab"
+        ],
+        "fluids": [
+          {
+            "fluid": "gtceu:distilled_water",
+            "amount": 3
+          }
+        ],
+        "duration": 50,
+        "EUt": 7,
+        "group": "dark_oak",
+        "id": "otg:restored/vanilla_wood/dark_oak/cutter/7"
+      },
+      {
+        "type": "cutter",
+        "legacyId": 6074,
+        "inputs": [
+          "minecraft:dark_oak_planks"
+        ],
+        "outputs": [
+          "2x minecraft:dark_oak_slab"
+        ],
+        "fluids": [
+          {
+            "fluid": "gtceu:lubricant",
+            "amount": 1
+          }
+        ],
+        "duration": 25,
+        "EUt": 7,
+        "group": "dark_oak",
+        "id": "otg:restored/vanilla_wood/dark_oak/cutter/8"
+      },
+      {
+        "type": "cutter",
+        "legacyId": 6075,
+        "inputs": [
+          "minecraft:dark_oak_pressure_plate"
+        ],
+        "outputs": [
+          "2x minecraft:dark_oak_button"
+        ],
+        "fluids": [
+          {
+            "fluid": "minecraft:water",
+            "amount": 5
+          }
+        ],
+        "duration": 50,
+        "EUt": 7,
+        "group": "dark_oak",
+        "id": "otg:restored/vanilla_wood/dark_oak/cutter/9"
+      },
+      {
+        "type": "cutter",
+        "legacyId": 6076,
+        "inputs": [
+          "minecraft:dark_oak_pressure_plate"
+        ],
+        "outputs": [
+          "2x minecraft:dark_oak_button"
+        ],
+        "fluids": [
+          {
+            "fluid": "gtceu:distilled_water",
+            "amount": 3
+          }
+        ],
+        "duration": 50,
+        "EUt": 7,
+        "group": "dark_oak",
+        "id": "otg:restored/vanilla_wood/dark_oak/cutter/10"
+      },
+      {
+        "type": "cutter",
+        "legacyId": 6077,
+        "inputs": [
+          "minecraft:dark_oak_pressure_plate"
+        ],
+        "outputs": [
+          "2x minecraft:dark_oak_button"
+        ],
+        "fluids": [
+          {
+            "fluid": "gtceu:lubricant",
+            "amount": 1
+          }
+        ],
+        "duration": 25,
+        "EUt": 7,
+        "group": "dark_oak",
+        "id": "otg:restored/vanilla_wood/dark_oak/cutter/11"
+      },
+      {
+        "type": "assembler",
+        "legacyId": 6078,
+        "inputs": [
+          "2x minecraft:dark_oak_planks",
+          "2x #forge:rods/wood"
+        ],
+        "outputs": [
+          "minecraft:dark_oak_fence_gate"
+        ],
+        "fluids": [],
+        "duration": 300,
+        "EUt": 7,
+        "group": "dark_oak",
+        "id": "otg:restored/vanilla_wood/dark_oak/assembler/12",
+        "circuit": 2
+      },
+      {
+        "type": "assembler",
+        "legacyId": 6079,
+        "inputs": [
+          "3x minecraft:dark_oak_planks",
+          "3x #forge:rods/wood"
+        ],
+        "outputs": [
+          "2x minecraft:dark_oak_fence"
+        ],
+        "fluids": [],
+        "duration": 300,
+        "EUt": 7,
+        "circuit": 3,
+        "group": "dark_oak",
+        "id": "otg:restored/vanilla_wood/dark_oak/assembler/13"
+      },
+      {
+        "type": "assembler",
+        "legacyId": 6080,
+        "inputs": [
+          "4x minecraft:dark_oak_planks",
+          "minecraft:dark_oak_trapdoor"
+        ],
+        "outputs": [
+          "2x minecraft:dark_oak_door"
+        ],
+        "fluids": [
+          {
+            "fluid": "gtceu:iron",
+            "amount": 16
+          }
+        ],
+        "duration": 400,
+        "EUt": 4,
+        "group": "dark_oak",
+        "id": "otg:restored/vanilla_wood/dark_oak/assembler/14"
+      },
+      {
+        "type": "assembler",
+        "legacyId": 6081,
+        "inputs": [
+          "4x minecraft:dark_oak_planks",
+          "minecraft:dark_oak_trapdoor"
+        ],
+        "outputs": [
+          "2x minecraft:dark_oak_door"
+        ],
+        "fluids": [
+          {
+            "fluid": "gtceu:bronze",
+            "amount": 16
+          }
+        ],
+        "duration": 400,
+        "EUt": 4,
+        "group": "dark_oak",
+        "id": "otg:restored/vanilla_wood/dark_oak/assembler/15"
+      },
+      {
+        "type": "assembler",
+        "legacyId": 6082,
+        "inputs": [
+          "4x minecraft:dark_oak_slab",
+          "#forge:rods/wood"
+        ],
+        "outputs": [
+          "4x minecraft:dark_oak_trapdoor"
+        ],
+        "fluids": [
+          {
+            "fluid": "gtceu:iron",
+            "amount": 16
+          }
+        ],
+        "duration": 400,
+        "EUt": 4,
+        "group": "dark_oak",
+        "id": "otg:restored/vanilla_wood/dark_oak/assembler/16"
+      },
+      {
+        "type": "assembler",
+        "legacyId": 6083,
+        "inputs": [
+          "4x minecraft:dark_oak_slab",
+          "#forge:rods/wood"
+        ],
+        "outputs": [
+          "6x minecraft:dark_oak_trapdoor"
+        ],
+        "fluids": [
+          {
+            "fluid": "gtceu:steel",
+            "amount": 16
+          }
+        ],
+        "duration": 400,
+        "EUt": 4,
+        "group": "dark_oak",
+        "id": "otg:restored/vanilla_wood/dark_oak/assembler/17"
+      },
+      {
+        "type": "assembler",
+        "legacyId": 6084,
+        "inputs": [
+          "2x minecraft:dark_oak_slab",
+          "#forge:springs/iron"
+        ],
+        "outputs": [
+          "2x minecraft:dark_oak_pressure_plate"
+        ],
+        "fluids": [],
+        "duration": 400,
+        "EUt": 4,
+        "group": "dark_oak",
+        "id": "otg:restored/vanilla_wood/dark_oak/assembler/18"
+      },
+      {
+        "type": "assembler",
+        "legacyId": 6085,
+        "inputs": [
+          "minecraft:dark_oak_planks",
+          "#forge:rods/wood"
+        ],
+        "outputs": [
+          "3x minecraft:dark_oak_sign"
+        ],
+        "fluids": [],
+        "duration": 100,
+        "EUt": 4,
+        "group": "dark_oak",
+        "id": "otg:restored/vanilla_wood/dark_oak/assembler/19",
+        "circuit": 1
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "2x minecraft:dark_oak_button"
+        ],
+        "pattern": [
+          "A",
+          "B"
+        ],
+        "key": {
+          "A": "#forge:tools/saws",
+          "B": "minecraft:dark_oak_pressure_plate"
+        },
+        "group": "dark_oak",
+        "id": "otg:restored/vanilla_wood/dark_oak/shaped/20"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "minecraft:dark_oak_planks"
+        ],
+        "pattern": [
+          "A",
+          "A"
+        ],
+        "key": {
+          "A": "minecraft:dark_oak_slab"
+        },
+        "group": "dark_oak",
+        "id": "otg:restored/vanilla_wood/dark_oak/shaped/21"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "2x minecraft:dark_oak_slab"
+        ],
+        "pattern": [
+          "AB"
+        ],
+        "key": {
+          "A": "#forge:tools/saws",
+          "B": "minecraft:dark_oak_planks"
+        },
+        "group": "dark_oak",
+        "id": "otg:restored/vanilla_wood/dark_oak/shaped/22"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "minecraft:dark_oak_fence_gate"
+        ],
+        "pattern": [
+          "A A",
+          "BCB",
+          "BCB"
+        ],
+        "key": {
+          "A": "minecraft:flint",
+          "B": "minecraft:dark_oak_planks",
+          "C": "#forge:rods/wood"
+        },
+        "group": "dark_oak",
+        "id": "otg:restored/vanilla_wood/dark_oak/shaped/23"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "2x minecraft:dark_oak_fence_gate"
+        ],
+        "pattern": [
+          "ADA",
+          "BCB",
+          "BCB"
+        ],
+        "key": {
+          "A": "#forge:screws/wood",
+          "B": "minecraft:dark_oak_planks",
+          "C": "#forge:rods/wood",
+          "D": "#forge:tools/screwdrivers"
+        },
+        "group": "dark_oak",
+        "id": "otg:restored/vanilla_wood/dark_oak/shaped/24"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "minecraft:dark_oak_fence"
+        ],
+        "pattern": [
+          "ABA",
+          "ABA",
+          "ABA"
+        ],
+        "key": {
+          "A": "#forge:rods/wood",
+          "B": "minecraft:dark_oak_planks"
+        },
+        "group": "dark_oak",
+        "id": "otg:restored/vanilla_wood/dark_oak/shaped/25"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "2x minecraft:dark_oak_fence"
+        ],
+        "pattern": [
+          "CDC",
+          "ABA",
+          "ABA"
+        ],
+        "key": {
+          "A": "#forge:rods/wood",
+          "B": "minecraft:dark_oak_planks",
+          "C": "#forge:screws/wood",
+          "D": "#forge:tools/screwdrivers"
+        },
+        "group": "dark_oak",
+        "id": "otg:restored/vanilla_wood/dark_oak/shaped/26"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "4x minecraft:dark_oak_stairs"
+        ],
+        "pattern": [
+          "A  ",
+          "AA ",
+          "AAA"
+        ],
+        "key": {
+          "A": "minecraft:dark_oak_planks"
+        },
+        "group": "dark_oak",
+        "id": "otg:restored/vanilla_wood/dark_oak/shaped/27"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "2x minecraft:dark_oak_door"
+        ],
+        "pattern": [
+          "ABC",
+          "ADE",
+          "AAF"
+        ],
+        "key": {
+          "A": "minecraft:dark_oak_planks",
+          "B": "minecraft:dark_oak_trapdoor",
+          "C": "#forge:tools/screwdrivers",
+          "D": "#forge:rings/iron",
+          "E": "#forge:screws/iron",
+          "F": "#forge:tools/saws"
+        },
+        "group": "dark_oak",
+        "id": "otg:restored/vanilla_wood/dark_oak/shaped/28"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "2x minecraft:dark_oak_door"
+        ],
+        "pattern": [
+          "ABC",
+          "ADE",
+          "AAF"
+        ],
+        "key": {
+          "A": "minecraft:dark_oak_planks",
+          "B": "minecraft:dark_oak_trapdoor",
+          "C": "#forge:tools/screwdrivers",
+          "D": "#forge:rings/bronze",
+          "E": "#forge:screws/bronze",
+          "F": "#forge:tools/saws"
+        },
+        "group": "dark_oak",
+        "id": "otg:restored/vanilla_wood/dark_oak/shaped/29"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "2x minecraft:dark_oak_door"
+        ],
+        "pattern": [
+          "ABC",
+          "ADE",
+          "AAF"
+        ],
+        "key": {
+          "A": "minecraft:dark_oak_planks",
+          "B": "minecraft:dark_oak_trapdoor",
+          "C": "#forge:tools/saws",
+          "D": "#forge:rings/iron",
+          "E": "#forge:screws/iron",
+          "F": "#forge:tools/screwdrivers"
+        },
+        "group": "dark_oak",
+        "id": "otg:restored/vanilla_wood/dark_oak/shaped/30"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "2x minecraft:dark_oak_door"
+        ],
+        "pattern": [
+          "ABC",
+          "ADE",
+          "AAF"
+        ],
+        "key": {
+          "A": "minecraft:dark_oak_planks",
+          "B": "minecraft:dark_oak_trapdoor",
+          "C": "#forge:tools/saws",
+          "D": "#forge:rings/bronze",
+          "E": "#forge:screws/bronze",
+          "F": "#forge:tools/screwdrivers"
+        },
+        "group": "dark_oak",
+        "id": "otg:restored/vanilla_wood/dark_oak/shaped/31"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "minecraft:dark_oak_trapdoor"
+        ],
+        "pattern": [
+          "ABA",
+          "BCB",
+          "ABA"
+        ],
+        "key": {
+          "A": "minecraft:dark_oak_slab",
+          "B": "#forge:rods/wood",
+          "C": "minecraft:flint"
+        },
+        "group": "dark_oak",
+        "id": "otg:restored/vanilla_wood/dark_oak/shaped/32"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "2x minecraft:dark_oak_trapdoor"
+        ],
+        "pattern": [
+          "ABA",
+          "BCB",
+          "ABA"
+        ],
+        "key": {
+          "A": "minecraft:dark_oak_slab",
+          "B": "#forge:rods/wood",
+          "C": "#forge:screws/iron"
+        },
+        "group": "dark_oak",
+        "id": "otg:restored/vanilla_wood/dark_oak/shaped/33"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "3x minecraft:dark_oak_trapdoor"
+        ],
+        "pattern": [
+          "ABA",
+          "BCB",
+          "ABA"
+        ],
+        "key": {
+          "A": "minecraft:dark_oak_slab",
+          "B": "#forge:rods/wood",
+          "C": "#forge:screws/steel"
+        },
+        "group": "dark_oak",
+        "id": "otg:restored/vanilla_wood/dark_oak/shaped/34"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "2x minecraft:dark_oak_pressure_plate"
+        ],
+        "pattern": [
+          "ADA",
+          "BCB",
+          "AEA"
+        ],
+        "key": {
+          "A": "#forge:screws/wood",
+          "B": "minecraft:dark_oak_slab",
+          "C": "#forge:springs/iron",
+          "D": "#forge:tools/mallets",
+          "E": "#forge:tools/screwdrivers"
+        },
+        "group": "dark_oak",
+        "id": "otg:restored/vanilla_wood/dark_oak/shaped/35"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "3x minecraft:dark_oak_sign"
+        ],
+        "pattern": [
+          "AAA",
+          "AAA",
+          " B "
+        ],
+        "key": {
+          "A": "minecraft:dark_oak_planks",
+          "B": "#forge:rods/wood"
+        },
+        "group": "dark_oak",
+        "id": "otg:restored/vanilla_wood/dark_oak/shaped/36"
+      }
+    ],
+    "removedOutputs": [
+      "minecraft:dark_oak_planks",
+      "minecraft:dark_oak_slab",
+      "minecraft:dark_oak_stairs",
+      "minecraft:dark_oak_fence",
+      "minecraft:dark_oak_fence_gate",
+      "minecraft:dark_oak_door",
+      "minecraft:dark_oak_trapdoor",
+      "minecraft:dark_oak_pressure_plate",
+      "minecraft:dark_oak_button",
+      "minecraft:dark_oak_sign",
+      "minecraft:dark_oak_wood"
+    ]
+  },
+  "cherry": {
+    "recipes": [
+      {
+        "type": "shapeless",
+        "outputs": [
+          "minecraft:cherry_log"
+        ],
+        "inputs": [
+          "minecraft:cherry_wood"
+        ],
+        "group": "cherry",
+        "id": "otg:restored/vanilla_wood/cherry/shapeless/0"
+      },
+      {
+        "type": "shapeless",
+        "outputs": [
+          "2x minecraft:cherry_planks"
+        ],
+        "inputs": [
+          "minecraft:cherry_log"
+        ],
+        "group": "cherry",
+        "id": "otg:restored/vanilla_wood/cherry/shapeless/1"
+      },
+      {
+        "type": "cutter",
+        "legacyId": 6086,
+        "inputs": [
+          "minecraft:cherry_log"
+        ],
+        "outputs": [
+          "6x minecraft:cherry_planks"
+        ],
+        "fluids": [
+          {
+            "fluid": "minecraft:water",
+            "amount": 5
+          }
+        ],
+        "duration": 400,
+        "EUt": 7,
+        "group": "cherry",
+        "id": "otg:restored/vanilla_wood/cherry/cutter/2"
+      },
+      {
+        "type": "cutter",
+        "legacyId": 6087,
+        "inputs": [
+          "minecraft:cherry_log"
+        ],
+        "outputs": [
+          "6x minecraft:cherry_planks"
+        ],
+        "fluids": [
+          {
+            "fluid": "gtceu:distilled_water",
+            "amount": 3
+          }
+        ],
+        "duration": 400,
+        "EUt": 7,
+        "group": "cherry",
+        "id": "otg:restored/vanilla_wood/cherry/cutter/3"
+      },
+      {
+        "type": "cutter",
+        "legacyId": 6088,
+        "inputs": [
+          "minecraft:cherry_log"
+        ],
+        "outputs": [
+          "6x minecraft:cherry_planks"
+        ],
+        "fluids": [
+          {
+            "fluid": "gtceu:lubricant",
+            "amount": 1
+          }
+        ],
+        "duration": 200,
+        "EUt": 7,
+        "group": "cherry",
+        "id": "otg:restored/vanilla_wood/cherry/cutter/4"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "4x minecraft:cherry_planks"
+        ],
+        "pattern": [
+          "A",
+          "B"
+        ],
+        "key": {
+          "A": "#forge:tools/saws",
+          "B": "minecraft:cherry_log"
+        },
+        "group": "cherry",
+        "id": "otg:restored/vanilla_wood/cherry/shaped/5"
+      },
+      {
+        "type": "cutter",
+        "legacyId": 6089,
+        "inputs": [
+          "minecraft:cherry_planks"
+        ],
+        "outputs": [
+          "2x minecraft:cherry_slab"
+        ],
+        "fluids": [
+          {
+            "fluid": "minecraft:water",
+            "amount": 5
+          }
+        ],
+        "duration": 50,
+        "EUt": 7,
+        "group": "cherry",
+        "id": "otg:restored/vanilla_wood/cherry/cutter/6"
+      },
+      {
+        "type": "cutter",
+        "legacyId": 6090,
+        "inputs": [
+          "minecraft:cherry_planks"
+        ],
+        "outputs": [
+          "2x minecraft:cherry_slab"
+        ],
+        "fluids": [
+          {
+            "fluid": "gtceu:distilled_water",
+            "amount": 3
+          }
+        ],
+        "duration": 50,
+        "EUt": 7,
+        "group": "cherry",
+        "id": "otg:restored/vanilla_wood/cherry/cutter/7"
+      },
+      {
+        "type": "cutter",
+        "legacyId": 6091,
+        "inputs": [
+          "minecraft:cherry_planks"
+        ],
+        "outputs": [
+          "2x minecraft:cherry_slab"
+        ],
+        "fluids": [
+          {
+            "fluid": "gtceu:lubricant",
+            "amount": 1
+          }
+        ],
+        "duration": 25,
+        "EUt": 7,
+        "group": "cherry",
+        "id": "otg:restored/vanilla_wood/cherry/cutter/8"
+      },
+      {
+        "type": "cutter",
+        "legacyId": 6092,
+        "inputs": [
+          "minecraft:cherry_pressure_plate"
+        ],
+        "outputs": [
+          "2x minecraft:cherry_button"
+        ],
+        "fluids": [
+          {
+            "fluid": "minecraft:water",
+            "amount": 5
+          }
+        ],
+        "duration": 50,
+        "EUt": 7,
+        "group": "cherry",
+        "id": "otg:restored/vanilla_wood/cherry/cutter/9"
+      },
+      {
+        "type": "cutter",
+        "legacyId": 6093,
+        "inputs": [
+          "minecraft:cherry_pressure_plate"
+        ],
+        "outputs": [
+          "2x minecraft:cherry_button"
+        ],
+        "fluids": [
+          {
+            "fluid": "gtceu:distilled_water",
+            "amount": 3
+          }
+        ],
+        "duration": 50,
+        "EUt": 7,
+        "group": "cherry",
+        "id": "otg:restored/vanilla_wood/cherry/cutter/10"
+      },
+      {
+        "type": "cutter",
+        "legacyId": 6094,
+        "inputs": [
+          "minecraft:cherry_pressure_plate"
+        ],
+        "outputs": [
+          "2x minecraft:cherry_button"
+        ],
+        "fluids": [
+          {
+            "fluid": "gtceu:lubricant",
+            "amount": 1
+          }
+        ],
+        "duration": 25,
+        "EUt": 7,
+        "group": "cherry",
+        "id": "otg:restored/vanilla_wood/cherry/cutter/11"
+      },
+      {
+        "type": "assembler",
+        "legacyId": 6095,
+        "inputs": [
+          "2x minecraft:cherry_planks",
+          "2x #forge:rods/wood"
+        ],
+        "outputs": [
+          "minecraft:cherry_fence_gate"
+        ],
+        "fluids": [],
+        "duration": 300,
+        "EUt": 7,
+        "group": "cherry",
+        "id": "otg:restored/vanilla_wood/cherry/assembler/12",
+        "circuit": 2
+      },
+      {
+        "type": "assembler",
+        "legacyId": 6096,
+        "inputs": [
+          "3x minecraft:cherry_planks",
+          "3x #forge:rods/wood"
+        ],
+        "outputs": [
+          "2x minecraft:cherry_fence"
+        ],
+        "fluids": [],
+        "duration": 300,
+        "EUt": 7,
+        "circuit": 3,
+        "group": "cherry",
+        "id": "otg:restored/vanilla_wood/cherry/assembler/13"
+      },
+      {
+        "type": "assembler",
+        "legacyId": 6097,
+        "inputs": [
+          "4x minecraft:cherry_planks",
+          "minecraft:cherry_trapdoor"
+        ],
+        "outputs": [
+          "2x minecraft:cherry_door"
+        ],
+        "fluids": [
+          {
+            "fluid": "gtceu:iron",
+            "amount": 16
+          }
+        ],
+        "duration": 400,
+        "EUt": 4,
+        "group": "cherry",
+        "id": "otg:restored/vanilla_wood/cherry/assembler/14"
+      },
+      {
+        "type": "assembler",
+        "legacyId": 6098,
+        "inputs": [
+          "4x minecraft:cherry_planks",
+          "minecraft:cherry_trapdoor"
+        ],
+        "outputs": [
+          "2x minecraft:cherry_door"
+        ],
+        "fluids": [
+          {
+            "fluid": "gtceu:bronze",
+            "amount": 16
+          }
+        ],
+        "duration": 400,
+        "EUt": 4,
+        "group": "cherry",
+        "id": "otg:restored/vanilla_wood/cherry/assembler/15"
+      },
+      {
+        "type": "assembler",
+        "legacyId": 6099,
+        "inputs": [
+          "4x minecraft:cherry_slab",
+          "#forge:rods/wood"
+        ],
+        "outputs": [
+          "4x minecraft:cherry_trapdoor"
+        ],
+        "fluids": [
+          {
+            "fluid": "gtceu:iron",
+            "amount": 16
+          }
+        ],
+        "duration": 400,
+        "EUt": 4,
+        "group": "cherry",
+        "id": "otg:restored/vanilla_wood/cherry/assembler/16"
+      },
+      {
+        "type": "assembler",
+        "legacyId": 6100,
+        "inputs": [
+          "4x minecraft:cherry_slab",
+          "#forge:rods/wood"
+        ],
+        "outputs": [
+          "6x minecraft:cherry_trapdoor"
+        ],
+        "fluids": [
+          {
+            "fluid": "gtceu:steel",
+            "amount": 16
+          }
+        ],
+        "duration": 400,
+        "EUt": 4,
+        "group": "cherry",
+        "id": "otg:restored/vanilla_wood/cherry/assembler/17"
+      },
+      {
+        "type": "assembler",
+        "legacyId": 6101,
+        "inputs": [
+          "2x minecraft:cherry_slab",
+          "#forge:springs/iron"
+        ],
+        "outputs": [
+          "2x minecraft:cherry_pressure_plate"
+        ],
+        "fluids": [],
+        "duration": 400,
+        "EUt": 4,
+        "group": "cherry",
+        "id": "otg:restored/vanilla_wood/cherry/assembler/18"
+      },
+      {
+        "type": "assembler",
+        "legacyId": 6102,
+        "inputs": [
+          "minecraft:cherry_planks",
+          "#forge:rods/wood"
+        ],
+        "outputs": [
+          "3x minecraft:cherry_sign"
+        ],
+        "fluids": [],
+        "duration": 100,
+        "EUt": 4,
+        "group": "cherry",
+        "id": "otg:restored/vanilla_wood/cherry/assembler/19",
+        "circuit": 1
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "2x minecraft:cherry_button"
+        ],
+        "pattern": [
+          "A",
+          "B"
+        ],
+        "key": {
+          "A": "#forge:tools/saws",
+          "B": "minecraft:cherry_pressure_plate"
+        },
+        "group": "cherry",
+        "id": "otg:restored/vanilla_wood/cherry/shaped/20"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "minecraft:cherry_planks"
+        ],
+        "pattern": [
+          "A",
+          "A"
+        ],
+        "key": {
+          "A": "minecraft:cherry_slab"
+        },
+        "group": "cherry",
+        "id": "otg:restored/vanilla_wood/cherry/shaped/21"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "2x minecraft:cherry_slab"
+        ],
+        "pattern": [
+          "AB"
+        ],
+        "key": {
+          "A": "#forge:tools/saws",
+          "B": "minecraft:cherry_planks"
+        },
+        "group": "cherry",
+        "id": "otg:restored/vanilla_wood/cherry/shaped/22"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "minecraft:cherry_fence_gate"
+        ],
+        "pattern": [
+          "A A",
+          "BCB",
+          "BCB"
+        ],
+        "key": {
+          "A": "minecraft:flint",
+          "B": "minecraft:cherry_planks",
+          "C": "#forge:rods/wood"
+        },
+        "group": "cherry",
+        "id": "otg:restored/vanilla_wood/cherry/shaped/23"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "2x minecraft:cherry_fence_gate"
+        ],
+        "pattern": [
+          "ADA",
+          "BCB",
+          "BCB"
+        ],
+        "key": {
+          "A": "#forge:screws/wood",
+          "B": "minecraft:cherry_planks",
+          "C": "#forge:rods/wood",
+          "D": "#forge:tools/screwdrivers"
+        },
+        "group": "cherry",
+        "id": "otg:restored/vanilla_wood/cherry/shaped/24"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "minecraft:cherry_fence"
+        ],
+        "pattern": [
+          "ABA",
+          "ABA",
+          "ABA"
+        ],
+        "key": {
+          "A": "#forge:rods/wood",
+          "B": "minecraft:cherry_planks"
+        },
+        "group": "cherry",
+        "id": "otg:restored/vanilla_wood/cherry/shaped/25"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "2x minecraft:cherry_fence"
+        ],
+        "pattern": [
+          "CDC",
+          "ABA",
+          "ABA"
+        ],
+        "key": {
+          "A": "#forge:rods/wood",
+          "B": "minecraft:cherry_planks",
+          "C": "#forge:screws/wood",
+          "D": "#forge:tools/screwdrivers"
+        },
+        "group": "cherry",
+        "id": "otg:restored/vanilla_wood/cherry/shaped/26"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "4x minecraft:cherry_stairs"
+        ],
+        "pattern": [
+          "A  ",
+          "AA ",
+          "AAA"
+        ],
+        "key": {
+          "A": "minecraft:cherry_planks"
+        },
+        "group": "cherry",
+        "id": "otg:restored/vanilla_wood/cherry/shaped/27"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "2x minecraft:cherry_door"
+        ],
+        "pattern": [
+          "ABC",
+          "ADE",
+          "AAF"
+        ],
+        "key": {
+          "A": "minecraft:cherry_planks",
+          "B": "minecraft:cherry_trapdoor",
+          "C": "#forge:tools/screwdrivers",
+          "D": "#forge:rings/iron",
+          "E": "#forge:screws/iron",
+          "F": "#forge:tools/saws"
+        },
+        "group": "cherry",
+        "id": "otg:restored/vanilla_wood/cherry/shaped/28"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "2x minecraft:cherry_door"
+        ],
+        "pattern": [
+          "ABC",
+          "ADE",
+          "AAF"
+        ],
+        "key": {
+          "A": "minecraft:cherry_planks",
+          "B": "minecraft:cherry_trapdoor",
+          "C": "#forge:tools/screwdrivers",
+          "D": "#forge:rings/bronze",
+          "E": "#forge:screws/bronze",
+          "F": "#forge:tools/saws"
+        },
+        "group": "cherry",
+        "id": "otg:restored/vanilla_wood/cherry/shaped/29"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "2x minecraft:cherry_door"
+        ],
+        "pattern": [
+          "ABC",
+          "ADE",
+          "AAF"
+        ],
+        "key": {
+          "A": "minecraft:cherry_planks",
+          "B": "minecraft:cherry_trapdoor",
+          "C": "#forge:tools/saws",
+          "D": "#forge:rings/iron",
+          "E": "#forge:screws/iron",
+          "F": "#forge:tools/screwdrivers"
+        },
+        "group": "cherry",
+        "id": "otg:restored/vanilla_wood/cherry/shaped/30"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "2x minecraft:cherry_door"
+        ],
+        "pattern": [
+          "ABC",
+          "ADE",
+          "AAF"
+        ],
+        "key": {
+          "A": "minecraft:cherry_planks",
+          "B": "minecraft:cherry_trapdoor",
+          "C": "#forge:tools/saws",
+          "D": "#forge:rings/bronze",
+          "E": "#forge:screws/bronze",
+          "F": "#forge:tools/screwdrivers"
+        },
+        "group": "cherry",
+        "id": "otg:restored/vanilla_wood/cherry/shaped/31"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "minecraft:cherry_trapdoor"
+        ],
+        "pattern": [
+          "ABA",
+          "BCB",
+          "ABA"
+        ],
+        "key": {
+          "A": "minecraft:cherry_slab",
+          "B": "#forge:rods/wood",
+          "C": "minecraft:flint"
+        },
+        "group": "cherry",
+        "id": "otg:restored/vanilla_wood/cherry/shaped/32"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "2x minecraft:cherry_trapdoor"
+        ],
+        "pattern": [
+          "ABA",
+          "BCB",
+          "ABA"
+        ],
+        "key": {
+          "A": "minecraft:cherry_slab",
+          "B": "#forge:rods/wood",
+          "C": "#forge:screws/iron"
+        },
+        "group": "cherry",
+        "id": "otg:restored/vanilla_wood/cherry/shaped/33"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "3x minecraft:cherry_trapdoor"
+        ],
+        "pattern": [
+          "ABA",
+          "BCB",
+          "ABA"
+        ],
+        "key": {
+          "A": "minecraft:cherry_slab",
+          "B": "#forge:rods/wood",
+          "C": "#forge:screws/steel"
+        },
+        "group": "cherry",
+        "id": "otg:restored/vanilla_wood/cherry/shaped/34"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "2x minecraft:cherry_pressure_plate"
+        ],
+        "pattern": [
+          "ADA",
+          "BCB",
+          "AEA"
+        ],
+        "key": {
+          "A": "#forge:screws/wood",
+          "B": "minecraft:cherry_slab",
+          "C": "#forge:springs/iron",
+          "D": "#forge:tools/mallets",
+          "E": "#forge:tools/screwdrivers"
+        },
+        "group": "cherry",
+        "id": "otg:restored/vanilla_wood/cherry/shaped/35"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "3x minecraft:cherry_sign"
+        ],
+        "pattern": [
+          "AAA",
+          "AAA",
+          " B "
+        ],
+        "key": {
+          "A": "minecraft:cherry_planks",
+          "B": "#forge:rods/wood"
+        },
+        "group": "cherry",
+        "id": "otg:restored/vanilla_wood/cherry/shaped/36"
+      }
+    ],
+    "removedOutputs": [
+      "minecraft:cherry_planks",
+      "minecraft:cherry_slab",
+      "minecraft:cherry_stairs",
+      "minecraft:cherry_fence",
+      "minecraft:cherry_fence_gate",
+      "minecraft:cherry_door",
+      "minecraft:cherry_trapdoor",
+      "minecraft:cherry_pressure_plate",
+      "minecraft:cherry_button",
+      "minecraft:cherry_sign",
+      "minecraft:cherry_wood"
+    ]
+  },
+  "acacia": {
+    "recipes": [
+      {
+        "type": "shapeless",
+        "outputs": [
+          "minecraft:acacia_log"
+        ],
+        "inputs": [
+          "minecraft:acacia_wood"
+        ],
+        "group": "acacia",
+        "id": "otg:restored/vanilla_wood/acacia/shapeless/0"
+      },
+      {
+        "type": "shapeless",
+        "outputs": [
+          "2x minecraft:acacia_planks"
+        ],
+        "inputs": [
+          "minecraft:acacia_log"
+        ],
+        "group": "acacia",
+        "id": "otg:restored/vanilla_wood/acacia/shapeless/1"
+      },
+      {
+        "type": "cutter",
+        "legacyId": 6103,
+        "inputs": [
+          "minecraft:acacia_log"
+        ],
+        "outputs": [
+          "6x minecraft:acacia_planks"
+        ],
+        "fluids": [
+          {
+            "fluid": "minecraft:water",
+            "amount": 5
+          }
+        ],
+        "duration": 400,
+        "EUt": 7,
+        "group": "acacia",
+        "id": "otg:restored/vanilla_wood/acacia/cutter/2"
+      },
+      {
+        "type": "cutter",
+        "legacyId": 6104,
+        "inputs": [
+          "minecraft:acacia_log"
+        ],
+        "outputs": [
+          "6x minecraft:acacia_planks"
+        ],
+        "fluids": [
+          {
+            "fluid": "gtceu:distilled_water",
+            "amount": 3
+          }
+        ],
+        "duration": 400,
+        "EUt": 7,
+        "group": "acacia",
+        "id": "otg:restored/vanilla_wood/acacia/cutter/3"
+      },
+      {
+        "type": "cutter",
+        "legacyId": 6105,
+        "inputs": [
+          "minecraft:acacia_log"
+        ],
+        "outputs": [
+          "6x minecraft:acacia_planks"
+        ],
+        "fluids": [
+          {
+            "fluid": "gtceu:lubricant",
+            "amount": 1
+          }
+        ],
+        "duration": 200,
+        "EUt": 7,
+        "group": "acacia",
+        "id": "otg:restored/vanilla_wood/acacia/cutter/4"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "4x minecraft:acacia_planks"
+        ],
+        "pattern": [
+          "A",
+          "B"
+        ],
+        "key": {
+          "A": "#forge:tools/saws",
+          "B": "minecraft:acacia_log"
+        },
+        "group": "acacia",
+        "id": "otg:restored/vanilla_wood/acacia/shaped/5"
+      },
+      {
+        "type": "cutter",
+        "legacyId": 6106,
+        "inputs": [
+          "minecraft:acacia_planks"
+        ],
+        "outputs": [
+          "2x minecraft:acacia_slab"
+        ],
+        "fluids": [
+          {
+            "fluid": "minecraft:water",
+            "amount": 5
+          }
+        ],
+        "duration": 50,
+        "EUt": 7,
+        "group": "acacia",
+        "id": "otg:restored/vanilla_wood/acacia/cutter/6"
+      },
+      {
+        "type": "cutter",
+        "legacyId": 6107,
+        "inputs": [
+          "minecraft:acacia_planks"
+        ],
+        "outputs": [
+          "2x minecraft:acacia_slab"
+        ],
+        "fluids": [
+          {
+            "fluid": "gtceu:distilled_water",
+            "amount": 3
+          }
+        ],
+        "duration": 50,
+        "EUt": 7,
+        "group": "acacia",
+        "id": "otg:restored/vanilla_wood/acacia/cutter/7"
+      },
+      {
+        "type": "cutter",
+        "legacyId": 6108,
+        "inputs": [
+          "minecraft:acacia_planks"
+        ],
+        "outputs": [
+          "2x minecraft:acacia_slab"
+        ],
+        "fluids": [
+          {
+            "fluid": "gtceu:lubricant",
+            "amount": 1
+          }
+        ],
+        "duration": 25,
+        "EUt": 7,
+        "group": "acacia",
+        "id": "otg:restored/vanilla_wood/acacia/cutter/8"
+      },
+      {
+        "type": "cutter",
+        "legacyId": 6109,
+        "inputs": [
+          "minecraft:acacia_pressure_plate"
+        ],
+        "outputs": [
+          "2x minecraft:acacia_button"
+        ],
+        "fluids": [
+          {
+            "fluid": "minecraft:water",
+            "amount": 5
+          }
+        ],
+        "duration": 50,
+        "EUt": 7,
+        "group": "acacia",
+        "id": "otg:restored/vanilla_wood/acacia/cutter/9"
+      },
+      {
+        "type": "cutter",
+        "legacyId": 6110,
+        "inputs": [
+          "minecraft:acacia_pressure_plate"
+        ],
+        "outputs": [
+          "2x minecraft:acacia_button"
+        ],
+        "fluids": [
+          {
+            "fluid": "gtceu:distilled_water",
+            "amount": 3
+          }
+        ],
+        "duration": 50,
+        "EUt": 7,
+        "group": "acacia",
+        "id": "otg:restored/vanilla_wood/acacia/cutter/10"
+      },
+      {
+        "type": "cutter",
+        "legacyId": 6111,
+        "inputs": [
+          "minecraft:acacia_pressure_plate"
+        ],
+        "outputs": [
+          "2x minecraft:acacia_button"
+        ],
+        "fluids": [
+          {
+            "fluid": "gtceu:lubricant",
+            "amount": 1
+          }
+        ],
+        "duration": 25,
+        "EUt": 7,
+        "group": "acacia",
+        "id": "otg:restored/vanilla_wood/acacia/cutter/11"
+      },
+      {
+        "type": "assembler",
+        "legacyId": 6112,
+        "inputs": [
+          "2x minecraft:acacia_planks",
+          "2x #forge:rods/wood"
+        ],
+        "outputs": [
+          "minecraft:acacia_fence_gate"
+        ],
+        "fluids": [],
+        "duration": 300,
+        "EUt": 7,
+        "group": "acacia",
+        "id": "otg:restored/vanilla_wood/acacia/assembler/12",
+        "circuit": 2
+      },
+      {
+        "type": "assembler",
+        "legacyId": 6113,
+        "inputs": [
+          "3x minecraft:acacia_planks",
+          "3x #forge:rods/wood"
+        ],
+        "outputs": [
+          "2x minecraft:acacia_fence"
+        ],
+        "fluids": [],
+        "duration": 300,
+        "EUt": 7,
+        "circuit": 3,
+        "group": "acacia",
+        "id": "otg:restored/vanilla_wood/acacia/assembler/13"
+      },
+      {
+        "type": "assembler",
+        "legacyId": 6114,
+        "inputs": [
+          "4x minecraft:acacia_planks",
+          "minecraft:acacia_trapdoor"
+        ],
+        "outputs": [
+          "2x minecraft:acacia_door"
+        ],
+        "fluids": [
+          {
+            "fluid": "gtceu:iron",
+            "amount": 16
+          }
+        ],
+        "duration": 400,
+        "EUt": 4,
+        "group": "acacia",
+        "id": "otg:restored/vanilla_wood/acacia/assembler/14"
+      },
+      {
+        "type": "assembler",
+        "legacyId": 6115,
+        "inputs": [
+          "4x minecraft:acacia_planks",
+          "minecraft:acacia_trapdoor"
+        ],
+        "outputs": [
+          "2x minecraft:acacia_door"
+        ],
+        "fluids": [
+          {
+            "fluid": "gtceu:bronze",
+            "amount": 16
+          }
+        ],
+        "duration": 400,
+        "EUt": 4,
+        "group": "acacia",
+        "id": "otg:restored/vanilla_wood/acacia/assembler/15"
+      },
+      {
+        "type": "assembler",
+        "legacyId": 6116,
+        "inputs": [
+          "4x minecraft:acacia_slab",
+          "#forge:rods/wood"
+        ],
+        "outputs": [
+          "4x minecraft:acacia_trapdoor"
+        ],
+        "fluids": [
+          {
+            "fluid": "gtceu:iron",
+            "amount": 16
+          }
+        ],
+        "duration": 400,
+        "EUt": 4,
+        "group": "acacia",
+        "id": "otg:restored/vanilla_wood/acacia/assembler/16"
+      },
+      {
+        "type": "assembler",
+        "legacyId": 6117,
+        "inputs": [
+          "4x minecraft:acacia_slab",
+          "#forge:rods/wood"
+        ],
+        "outputs": [
+          "6x minecraft:acacia_trapdoor"
+        ],
+        "fluids": [
+          {
+            "fluid": "gtceu:steel",
+            "amount": 16
+          }
+        ],
+        "duration": 400,
+        "EUt": 4,
+        "group": "acacia",
+        "id": "otg:restored/vanilla_wood/acacia/assembler/17"
+      },
+      {
+        "type": "assembler",
+        "legacyId": 6118,
+        "inputs": [
+          "2x minecraft:acacia_slab",
+          "#forge:springs/iron"
+        ],
+        "outputs": [
+          "2x minecraft:acacia_pressure_plate"
+        ],
+        "fluids": [],
+        "duration": 400,
+        "EUt": 4,
+        "group": "acacia",
+        "id": "otg:restored/vanilla_wood/acacia/assembler/18"
+      },
+      {
+        "type": "assembler",
+        "legacyId": 6119,
+        "inputs": [
+          "minecraft:acacia_planks",
+          "#forge:rods/wood"
+        ],
+        "outputs": [
+          "3x minecraft:acacia_sign"
+        ],
+        "fluids": [],
+        "duration": 100,
+        "EUt": 4,
+        "group": "acacia",
+        "id": "otg:restored/vanilla_wood/acacia/assembler/19",
+        "circuit": 1
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "2x minecraft:acacia_button"
+        ],
+        "pattern": [
+          "A",
+          "B"
+        ],
+        "key": {
+          "A": "#forge:tools/saws",
+          "B": "minecraft:acacia_pressure_plate"
+        },
+        "group": "acacia",
+        "id": "otg:restored/vanilla_wood/acacia/shaped/20"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "minecraft:acacia_planks"
+        ],
+        "pattern": [
+          "A",
+          "A"
+        ],
+        "key": {
+          "A": "minecraft:acacia_slab"
+        },
+        "group": "acacia",
+        "id": "otg:restored/vanilla_wood/acacia/shaped/21"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "2x minecraft:acacia_slab"
+        ],
+        "pattern": [
+          "AB"
+        ],
+        "key": {
+          "A": "#forge:tools/saws",
+          "B": "minecraft:acacia_planks"
+        },
+        "group": "acacia",
+        "id": "otg:restored/vanilla_wood/acacia/shaped/22"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "minecraft:acacia_fence_gate"
+        ],
+        "pattern": [
+          "A A",
+          "BCB",
+          "BCB"
+        ],
+        "key": {
+          "A": "minecraft:flint",
+          "B": "minecraft:acacia_planks",
+          "C": "#forge:rods/wood"
+        },
+        "group": "acacia",
+        "id": "otg:restored/vanilla_wood/acacia/shaped/23"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "2x minecraft:acacia_fence_gate"
+        ],
+        "pattern": [
+          "ADA",
+          "BCB",
+          "BCB"
+        ],
+        "key": {
+          "A": "#forge:screws/wood",
+          "B": "minecraft:acacia_planks",
+          "C": "#forge:rods/wood",
+          "D": "#forge:tools/screwdrivers"
+        },
+        "group": "acacia",
+        "id": "otg:restored/vanilla_wood/acacia/shaped/24"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "minecraft:acacia_fence"
+        ],
+        "pattern": [
+          "ABA",
+          "ABA",
+          "ABA"
+        ],
+        "key": {
+          "A": "#forge:rods/wood",
+          "B": "minecraft:acacia_planks"
+        },
+        "group": "acacia",
+        "id": "otg:restored/vanilla_wood/acacia/shaped/25"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "2x minecraft:acacia_fence"
+        ],
+        "pattern": [
+          "CDC",
+          "ABA",
+          "ABA"
+        ],
+        "key": {
+          "A": "#forge:rods/wood",
+          "B": "minecraft:acacia_planks",
+          "C": "#forge:screws/wood",
+          "D": "#forge:tools/screwdrivers"
+        },
+        "group": "acacia",
+        "id": "otg:restored/vanilla_wood/acacia/shaped/26"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "4x minecraft:acacia_stairs"
+        ],
+        "pattern": [
+          "A  ",
+          "AA ",
+          "AAA"
+        ],
+        "key": {
+          "A": "minecraft:acacia_planks"
+        },
+        "group": "acacia",
+        "id": "otg:restored/vanilla_wood/acacia/shaped/27"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "2x minecraft:acacia_door"
+        ],
+        "pattern": [
+          "ABC",
+          "ADE",
+          "AAF"
+        ],
+        "key": {
+          "A": "minecraft:acacia_planks",
+          "B": "minecraft:acacia_trapdoor",
+          "C": "#forge:tools/screwdrivers",
+          "D": "#forge:rings/iron",
+          "E": "#forge:screws/iron",
+          "F": "#forge:tools/saws"
+        },
+        "group": "acacia",
+        "id": "otg:restored/vanilla_wood/acacia/shaped/28"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "2x minecraft:acacia_door"
+        ],
+        "pattern": [
+          "ABC",
+          "ADE",
+          "AAF"
+        ],
+        "key": {
+          "A": "minecraft:acacia_planks",
+          "B": "minecraft:acacia_trapdoor",
+          "C": "#forge:tools/screwdrivers",
+          "D": "#forge:rings/bronze",
+          "E": "#forge:screws/bronze",
+          "F": "#forge:tools/saws"
+        },
+        "group": "acacia",
+        "id": "otg:restored/vanilla_wood/acacia/shaped/29"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "2x minecraft:acacia_door"
+        ],
+        "pattern": [
+          "ABC",
+          "ADE",
+          "AAF"
+        ],
+        "key": {
+          "A": "minecraft:acacia_planks",
+          "B": "minecraft:acacia_trapdoor",
+          "C": "#forge:tools/saws",
+          "D": "#forge:rings/iron",
+          "E": "#forge:screws/iron",
+          "F": "#forge:tools/screwdrivers"
+        },
+        "group": "acacia",
+        "id": "otg:restored/vanilla_wood/acacia/shaped/30"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "2x minecraft:acacia_door"
+        ],
+        "pattern": [
+          "ABC",
+          "ADE",
+          "AAF"
+        ],
+        "key": {
+          "A": "minecraft:acacia_planks",
+          "B": "minecraft:acacia_trapdoor",
+          "C": "#forge:tools/saws",
+          "D": "#forge:rings/bronze",
+          "E": "#forge:screws/bronze",
+          "F": "#forge:tools/screwdrivers"
+        },
+        "group": "acacia",
+        "id": "otg:restored/vanilla_wood/acacia/shaped/31"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "minecraft:acacia_trapdoor"
+        ],
+        "pattern": [
+          "ABA",
+          "BCB",
+          "ABA"
+        ],
+        "key": {
+          "A": "minecraft:acacia_slab",
+          "B": "#forge:rods/wood",
+          "C": "minecraft:flint"
+        },
+        "group": "acacia",
+        "id": "otg:restored/vanilla_wood/acacia/shaped/32"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "2x minecraft:acacia_trapdoor"
+        ],
+        "pattern": [
+          "ABA",
+          "BCB",
+          "ABA"
+        ],
+        "key": {
+          "A": "minecraft:acacia_slab",
+          "B": "#forge:rods/wood",
+          "C": "#forge:screws/iron"
+        },
+        "group": "acacia",
+        "id": "otg:restored/vanilla_wood/acacia/shaped/33"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "3x minecraft:acacia_trapdoor"
+        ],
+        "pattern": [
+          "ABA",
+          "BCB",
+          "ABA"
+        ],
+        "key": {
+          "A": "minecraft:acacia_slab",
+          "B": "#forge:rods/wood",
+          "C": "#forge:screws/steel"
+        },
+        "group": "acacia",
+        "id": "otg:restored/vanilla_wood/acacia/shaped/34"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "2x minecraft:acacia_pressure_plate"
+        ],
+        "pattern": [
+          "ADA",
+          "BCB",
+          "AEA"
+        ],
+        "key": {
+          "A": "#forge:screws/wood",
+          "B": "minecraft:acacia_slab",
+          "C": "#forge:springs/iron",
+          "D": "#forge:tools/mallets",
+          "E": "#forge:tools/screwdrivers"
+        },
+        "group": "acacia",
+        "id": "otg:restored/vanilla_wood/acacia/shaped/35"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "3x minecraft:acacia_sign"
+        ],
+        "pattern": [
+          "AAA",
+          "AAA",
+          " B "
+        ],
+        "key": {
+          "A": "minecraft:acacia_planks",
+          "B": "#forge:rods/wood"
+        },
+        "group": "acacia",
+        "id": "otg:restored/vanilla_wood/acacia/shaped/36"
+      }
+    ],
+    "removedOutputs": [
+      "minecraft:acacia_planks",
+      "minecraft:acacia_slab",
+      "minecraft:acacia_stairs",
+      "minecraft:acacia_fence",
+      "minecraft:acacia_fence_gate",
+      "minecraft:acacia_door",
+      "minecraft:acacia_trapdoor",
+      "minecraft:acacia_pressure_plate",
+      "minecraft:acacia_button",
+      "minecraft:acacia_sign",
+      "minecraft:acacia_wood"
+    ]
+  },
+  "mangrove": {
+    "recipes": [
+      {
+        "type": "shapeless",
+        "outputs": [
+          "minecraft:mangrove_log"
+        ],
+        "inputs": [
+          "minecraft:mangrove_wood"
+        ],
+        "group": "mangrove",
+        "id": "otg:restored/vanilla_wood/mangrove/shapeless/0"
+      },
+      {
+        "type": "shapeless",
+        "outputs": [
+          "2x minecraft:mangrove_planks"
+        ],
+        "inputs": [
+          "minecraft:mangrove_log"
+        ],
+        "group": "mangrove",
+        "id": "otg:restored/vanilla_wood/mangrove/shapeless/1"
+      },
+      {
+        "type": "cutter",
+        "legacyId": 6120,
+        "inputs": [
+          "minecraft:mangrove_log"
+        ],
+        "outputs": [
+          "6x minecraft:mangrove_planks"
+        ],
+        "fluids": [
+          {
+            "fluid": "minecraft:water",
+            "amount": 5
+          }
+        ],
+        "duration": 400,
+        "EUt": 7,
+        "group": "mangrove",
+        "id": "otg:restored/vanilla_wood/mangrove/cutter/2"
+      },
+      {
+        "type": "cutter",
+        "legacyId": 6121,
+        "inputs": [
+          "minecraft:mangrove_log"
+        ],
+        "outputs": [
+          "6x minecraft:mangrove_planks"
+        ],
+        "fluids": [
+          {
+            "fluid": "gtceu:distilled_water",
+            "amount": 3
+          }
+        ],
+        "duration": 400,
+        "EUt": 7,
+        "group": "mangrove",
+        "id": "otg:restored/vanilla_wood/mangrove/cutter/3"
+      },
+      {
+        "type": "cutter",
+        "legacyId": 6122,
+        "inputs": [
+          "minecraft:mangrove_log"
+        ],
+        "outputs": [
+          "6x minecraft:mangrove_planks"
+        ],
+        "fluids": [
+          {
+            "fluid": "gtceu:lubricant",
+            "amount": 1
+          }
+        ],
+        "duration": 200,
+        "EUt": 7,
+        "group": "mangrove",
+        "id": "otg:restored/vanilla_wood/mangrove/cutter/4"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "4x minecraft:mangrove_planks"
+        ],
+        "pattern": [
+          "A",
+          "B"
+        ],
+        "key": {
+          "A": "#forge:tools/saws",
+          "B": "minecraft:mangrove_log"
+        },
+        "group": "mangrove",
+        "id": "otg:restored/vanilla_wood/mangrove/shaped/5"
+      },
+      {
+        "type": "cutter",
+        "legacyId": 6123,
+        "inputs": [
+          "minecraft:mangrove_planks"
+        ],
+        "outputs": [
+          "2x minecraft:mangrove_slab"
+        ],
+        "fluids": [
+          {
+            "fluid": "minecraft:water",
+            "amount": 5
+          }
+        ],
+        "duration": 50,
+        "EUt": 7,
+        "group": "mangrove",
+        "id": "otg:restored/vanilla_wood/mangrove/cutter/6"
+      },
+      {
+        "type": "cutter",
+        "legacyId": 6124,
+        "inputs": [
+          "minecraft:mangrove_planks"
+        ],
+        "outputs": [
+          "2x minecraft:mangrove_slab"
+        ],
+        "fluids": [
+          {
+            "fluid": "gtceu:distilled_water",
+            "amount": 3
+          }
+        ],
+        "duration": 50,
+        "EUt": 7,
+        "group": "mangrove",
+        "id": "otg:restored/vanilla_wood/mangrove/cutter/7"
+      },
+      {
+        "type": "cutter",
+        "legacyId": 6125,
+        "inputs": [
+          "minecraft:mangrove_planks"
+        ],
+        "outputs": [
+          "2x minecraft:mangrove_slab"
+        ],
+        "fluids": [
+          {
+            "fluid": "gtceu:lubricant",
+            "amount": 1
+          }
+        ],
+        "duration": 25,
+        "EUt": 7,
+        "group": "mangrove",
+        "id": "otg:restored/vanilla_wood/mangrove/cutter/8"
+      },
+      {
+        "type": "cutter",
+        "legacyId": 6126,
+        "inputs": [
+          "minecraft:mangrove_pressure_plate"
+        ],
+        "outputs": [
+          "2x minecraft:mangrove_button"
+        ],
+        "fluids": [
+          {
+            "fluid": "minecraft:water",
+            "amount": 5
+          }
+        ],
+        "duration": 50,
+        "EUt": 7,
+        "group": "mangrove",
+        "id": "otg:restored/vanilla_wood/mangrove/cutter/9"
+      },
+      {
+        "type": "cutter",
+        "legacyId": 6127,
+        "inputs": [
+          "minecraft:mangrove_pressure_plate"
+        ],
+        "outputs": [
+          "2x minecraft:mangrove_button"
+        ],
+        "fluids": [
+          {
+            "fluid": "gtceu:distilled_water",
+            "amount": 3
+          }
+        ],
+        "duration": 50,
+        "EUt": 7,
+        "group": "mangrove",
+        "id": "otg:restored/vanilla_wood/mangrove/cutter/10"
+      },
+      {
+        "type": "cutter",
+        "legacyId": 6128,
+        "inputs": [
+          "minecraft:mangrove_pressure_plate"
+        ],
+        "outputs": [
+          "2x minecraft:mangrove_button"
+        ],
+        "fluids": [
+          {
+            "fluid": "gtceu:lubricant",
+            "amount": 1
+          }
+        ],
+        "duration": 25,
+        "EUt": 7,
+        "group": "mangrove",
+        "id": "otg:restored/vanilla_wood/mangrove/cutter/11"
+      },
+      {
+        "type": "assembler",
+        "legacyId": 6129,
+        "inputs": [
+          "2x minecraft:mangrove_planks",
+          "2x #forge:rods/wood"
+        ],
+        "outputs": [
+          "minecraft:mangrove_fence_gate"
+        ],
+        "fluids": [],
+        "duration": 300,
+        "EUt": 7,
+        "group": "mangrove",
+        "id": "otg:restored/vanilla_wood/mangrove/assembler/12",
+        "circuit": 2
+      },
+      {
+        "type": "assembler",
+        "legacyId": 6130,
+        "inputs": [
+          "3x minecraft:mangrove_planks",
+          "3x #forge:rods/wood"
+        ],
+        "outputs": [
+          "2x minecraft:mangrove_fence"
+        ],
+        "fluids": [],
+        "duration": 300,
+        "EUt": 7,
+        "circuit": 3,
+        "group": "mangrove",
+        "id": "otg:restored/vanilla_wood/mangrove/assembler/13"
+      },
+      {
+        "type": "assembler",
+        "legacyId": 6131,
+        "inputs": [
+          "4x minecraft:mangrove_planks",
+          "minecraft:mangrove_trapdoor"
+        ],
+        "outputs": [
+          "2x minecraft:mangrove_door"
+        ],
+        "fluids": [
+          {
+            "fluid": "gtceu:iron",
+            "amount": 16
+          }
+        ],
+        "duration": 400,
+        "EUt": 4,
+        "group": "mangrove",
+        "id": "otg:restored/vanilla_wood/mangrove/assembler/14"
+      },
+      {
+        "type": "assembler",
+        "legacyId": 6132,
+        "inputs": [
+          "4x minecraft:mangrove_planks",
+          "minecraft:mangrove_trapdoor"
+        ],
+        "outputs": [
+          "2x minecraft:mangrove_door"
+        ],
+        "fluids": [
+          {
+            "fluid": "gtceu:bronze",
+            "amount": 16
+          }
+        ],
+        "duration": 400,
+        "EUt": 4,
+        "group": "mangrove",
+        "id": "otg:restored/vanilla_wood/mangrove/assembler/15"
+      },
+      {
+        "type": "assembler",
+        "legacyId": 6133,
+        "inputs": [
+          "4x minecraft:mangrove_slab",
+          "#forge:rods/wood"
+        ],
+        "outputs": [
+          "4x minecraft:mangrove_trapdoor"
+        ],
+        "fluids": [
+          {
+            "fluid": "gtceu:iron",
+            "amount": 16
+          }
+        ],
+        "duration": 400,
+        "EUt": 4,
+        "group": "mangrove",
+        "id": "otg:restored/vanilla_wood/mangrove/assembler/16"
+      },
+      {
+        "type": "assembler",
+        "legacyId": 6134,
+        "inputs": [
+          "4x minecraft:mangrove_slab",
+          "#forge:rods/wood"
+        ],
+        "outputs": [
+          "6x minecraft:mangrove_trapdoor"
+        ],
+        "fluids": [
+          {
+            "fluid": "gtceu:steel",
+            "amount": 16
+          }
+        ],
+        "duration": 400,
+        "EUt": 4,
+        "group": "mangrove",
+        "id": "otg:restored/vanilla_wood/mangrove/assembler/17"
+      },
+      {
+        "type": "assembler",
+        "legacyId": 6135,
+        "inputs": [
+          "2x minecraft:mangrove_slab",
+          "#forge:springs/iron"
+        ],
+        "outputs": [
+          "2x minecraft:mangrove_pressure_plate"
+        ],
+        "fluids": [],
+        "duration": 400,
+        "EUt": 4,
+        "group": "mangrove",
+        "id": "otg:restored/vanilla_wood/mangrove/assembler/18"
+      },
+      {
+        "type": "assembler",
+        "legacyId": 6136,
+        "inputs": [
+          "minecraft:mangrove_planks",
+          "#forge:rods/wood"
+        ],
+        "outputs": [
+          "3x minecraft:mangrove_sign"
+        ],
+        "fluids": [],
+        "duration": 100,
+        "EUt": 4,
+        "group": "mangrove",
+        "id": "otg:restored/vanilla_wood/mangrove/assembler/19",
+        "circuit": 1
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "2x minecraft:mangrove_button"
+        ],
+        "pattern": [
+          "A",
+          "B"
+        ],
+        "key": {
+          "A": "#forge:tools/saws",
+          "B": "minecraft:mangrove_pressure_plate"
+        },
+        "group": "mangrove",
+        "id": "otg:restored/vanilla_wood/mangrove/shaped/20"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "minecraft:mangrove_planks"
+        ],
+        "pattern": [
+          "A",
+          "A"
+        ],
+        "key": {
+          "A": "minecraft:mangrove_slab"
+        },
+        "group": "mangrove",
+        "id": "otg:restored/vanilla_wood/mangrove/shaped/21"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "2x minecraft:mangrove_slab"
+        ],
+        "pattern": [
+          "AB"
+        ],
+        "key": {
+          "A": "#forge:tools/saws",
+          "B": "minecraft:mangrove_planks"
+        },
+        "group": "mangrove",
+        "id": "otg:restored/vanilla_wood/mangrove/shaped/22"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "minecraft:mangrove_fence_gate"
+        ],
+        "pattern": [
+          "A A",
+          "BCB",
+          "BCB"
+        ],
+        "key": {
+          "A": "minecraft:flint",
+          "B": "minecraft:mangrove_planks",
+          "C": "#forge:rods/wood"
+        },
+        "group": "mangrove",
+        "id": "otg:restored/vanilla_wood/mangrove/shaped/23"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "2x minecraft:mangrove_fence_gate"
+        ],
+        "pattern": [
+          "ADA",
+          "BCB",
+          "BCB"
+        ],
+        "key": {
+          "A": "#forge:screws/wood",
+          "B": "minecraft:mangrove_planks",
+          "C": "#forge:rods/wood",
+          "D": "#forge:tools/screwdrivers"
+        },
+        "group": "mangrove",
+        "id": "otg:restored/vanilla_wood/mangrove/shaped/24"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "minecraft:mangrove_fence"
+        ],
+        "pattern": [
+          "ABA",
+          "ABA",
+          "ABA"
+        ],
+        "key": {
+          "A": "#forge:rods/wood",
+          "B": "minecraft:mangrove_planks"
+        },
+        "group": "mangrove",
+        "id": "otg:restored/vanilla_wood/mangrove/shaped/25"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "2x minecraft:mangrove_fence"
+        ],
+        "pattern": [
+          "CDC",
+          "ABA",
+          "ABA"
+        ],
+        "key": {
+          "A": "#forge:rods/wood",
+          "B": "minecraft:mangrove_planks",
+          "C": "#forge:screws/wood",
+          "D": "#forge:tools/screwdrivers"
+        },
+        "group": "mangrove",
+        "id": "otg:restored/vanilla_wood/mangrove/shaped/26"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "4x minecraft:mangrove_stairs"
+        ],
+        "pattern": [
+          "A  ",
+          "AA ",
+          "AAA"
+        ],
+        "key": {
+          "A": "minecraft:mangrove_planks"
+        },
+        "group": "mangrove",
+        "id": "otg:restored/vanilla_wood/mangrove/shaped/27"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "2x minecraft:mangrove_door"
+        ],
+        "pattern": [
+          "ABC",
+          "ADE",
+          "AAF"
+        ],
+        "key": {
+          "A": "minecraft:mangrove_planks",
+          "B": "minecraft:mangrove_trapdoor",
+          "C": "#forge:tools/screwdrivers",
+          "D": "#forge:rings/iron",
+          "E": "#forge:screws/iron",
+          "F": "#forge:tools/saws"
+        },
+        "group": "mangrove",
+        "id": "otg:restored/vanilla_wood/mangrove/shaped/28"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "2x minecraft:mangrove_door"
+        ],
+        "pattern": [
+          "ABC",
+          "ADE",
+          "AAF"
+        ],
+        "key": {
+          "A": "minecraft:mangrove_planks",
+          "B": "minecraft:mangrove_trapdoor",
+          "C": "#forge:tools/screwdrivers",
+          "D": "#forge:rings/bronze",
+          "E": "#forge:screws/bronze",
+          "F": "#forge:tools/saws"
+        },
+        "group": "mangrove",
+        "id": "otg:restored/vanilla_wood/mangrove/shaped/29"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "2x minecraft:mangrove_door"
+        ],
+        "pattern": [
+          "ABC",
+          "ADE",
+          "AAF"
+        ],
+        "key": {
+          "A": "minecraft:mangrove_planks",
+          "B": "minecraft:mangrove_trapdoor",
+          "C": "#forge:tools/saws",
+          "D": "#forge:rings/iron",
+          "E": "#forge:screws/iron",
+          "F": "#forge:tools/screwdrivers"
+        },
+        "group": "mangrove",
+        "id": "otg:restored/vanilla_wood/mangrove/shaped/30"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "2x minecraft:mangrove_door"
+        ],
+        "pattern": [
+          "ABC",
+          "ADE",
+          "AAF"
+        ],
+        "key": {
+          "A": "minecraft:mangrove_planks",
+          "B": "minecraft:mangrove_trapdoor",
+          "C": "#forge:tools/saws",
+          "D": "#forge:rings/bronze",
+          "E": "#forge:screws/bronze",
+          "F": "#forge:tools/screwdrivers"
+        },
+        "group": "mangrove",
+        "id": "otg:restored/vanilla_wood/mangrove/shaped/31"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "minecraft:mangrove_trapdoor"
+        ],
+        "pattern": [
+          "ABA",
+          "BCB",
+          "ABA"
+        ],
+        "key": {
+          "A": "minecraft:mangrove_slab",
+          "B": "#forge:rods/wood",
+          "C": "minecraft:flint"
+        },
+        "group": "mangrove",
+        "id": "otg:restored/vanilla_wood/mangrove/shaped/32"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "2x minecraft:mangrove_trapdoor"
+        ],
+        "pattern": [
+          "ABA",
+          "BCB",
+          "ABA"
+        ],
+        "key": {
+          "A": "minecraft:mangrove_slab",
+          "B": "#forge:rods/wood",
+          "C": "#forge:screws/iron"
+        },
+        "group": "mangrove",
+        "id": "otg:restored/vanilla_wood/mangrove/shaped/33"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "3x minecraft:mangrove_trapdoor"
+        ],
+        "pattern": [
+          "ABA",
+          "BCB",
+          "ABA"
+        ],
+        "key": {
+          "A": "minecraft:mangrove_slab",
+          "B": "#forge:rods/wood",
+          "C": "#forge:screws/steel"
+        },
+        "group": "mangrove",
+        "id": "otg:restored/vanilla_wood/mangrove/shaped/34"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "2x minecraft:mangrove_pressure_plate"
+        ],
+        "pattern": [
+          "ADA",
+          "BCB",
+          "AEA"
+        ],
+        "key": {
+          "A": "#forge:screws/wood",
+          "B": "minecraft:mangrove_slab",
+          "C": "#forge:springs/iron",
+          "D": "#forge:tools/mallets",
+          "E": "#forge:tools/screwdrivers"
+        },
+        "group": "mangrove",
+        "id": "otg:restored/vanilla_wood/mangrove/shaped/35"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "3x minecraft:mangrove_sign"
+        ],
+        "pattern": [
+          "AAA",
+          "AAA",
+          " B "
+        ],
+        "key": {
+          "A": "minecraft:mangrove_planks",
+          "B": "#forge:rods/wood"
+        },
+        "group": "mangrove",
+        "id": "otg:restored/vanilla_wood/mangrove/shaped/36"
+      }
+    ],
+    "removedOutputs": [
+      "minecraft:mangrove_planks",
+      "minecraft:mangrove_slab",
+      "minecraft:mangrove_stairs",
+      "minecraft:mangrove_fence",
+      "minecraft:mangrove_fence_gate",
+      "minecraft:mangrove_door",
+      "minecraft:mangrove_trapdoor",
+      "minecraft:mangrove_pressure_plate",
+      "minecraft:mangrove_button",
+      "minecraft:mangrove_sign",
+      "minecraft:mangrove_wood"
+    ]
+  },
+  "crimson": {
+    "recipes": [
+      {
+        "type": "shapeless",
+        "outputs": [
+          "minecraft:crimson_hyphae"
+        ],
+        "inputs": [
+          "minecraft:crimson_stem"
+        ],
+        "group": "crimson",
+        "id": "otg:restored/vanilla_wood/crimson/shapeless/0"
+      },
+      {
+        "type": "shapeless",
+        "outputs": [
+          "2x minecraft:crimson_planks"
+        ],
+        "inputs": [
+          "minecraft:crimson_stem"
+        ],
+        "group": "crimson",
+        "id": "otg:restored/vanilla_wood/crimson/shapeless/1"
+      },
+      {
+        "type": "cutter",
+        "legacyId": 6137,
+        "inputs": [
+          "minecraft:crimson_stem"
+        ],
+        "outputs": [
+          "6x minecraft:crimson_planks"
+        ],
+        "fluids": [
+          {
+            "fluid": "minecraft:water",
+            "amount": 5
+          }
+        ],
+        "duration": 400,
+        "EUt": 7,
+        "group": "crimson",
+        "id": "otg:restored/vanilla_wood/crimson/cutter/2"
+      },
+      {
+        "type": "cutter",
+        "legacyId": 6138,
+        "inputs": [
+          "minecraft:crimson_stem"
+        ],
+        "outputs": [
+          "6x minecraft:crimson_planks"
+        ],
+        "fluids": [
+          {
+            "fluid": "gtceu:distilled_water",
+            "amount": 3
+          }
+        ],
+        "duration": 400,
+        "EUt": 7,
+        "group": "crimson",
+        "id": "otg:restored/vanilla_wood/crimson/cutter/3"
+      },
+      {
+        "type": "cutter",
+        "legacyId": 6139,
+        "inputs": [
+          "minecraft:crimson_stem"
+        ],
+        "outputs": [
+          "6x minecraft:crimson_planks"
+        ],
+        "fluids": [
+          {
+            "fluid": "gtceu:lubricant",
+            "amount": 1
+          }
+        ],
+        "duration": 200,
+        "EUt": 7,
+        "group": "crimson",
+        "id": "otg:restored/vanilla_wood/crimson/cutter/4"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "4x minecraft:crimson_planks"
+        ],
+        "pattern": [
+          "A",
+          "B"
+        ],
+        "key": {
+          "A": "#forge:tools/saws",
+          "B": "minecraft:crimson_stem"
+        },
+        "group": "crimson",
+        "id": "otg:restored/vanilla_wood/crimson/shaped/5"
+      },
+      {
+        "type": "cutter",
+        "legacyId": 6140,
+        "inputs": [
+          "minecraft:crimson_planks"
+        ],
+        "outputs": [
+          "2x minecraft:crimson_slab"
+        ],
+        "fluids": [
+          {
+            "fluid": "minecraft:water",
+            "amount": 5
+          }
+        ],
+        "duration": 50,
+        "EUt": 7,
+        "group": "crimson",
+        "id": "otg:restored/vanilla_wood/crimson/cutter/6"
+      },
+      {
+        "type": "cutter",
+        "legacyId": 6141,
+        "inputs": [
+          "minecraft:crimson_planks"
+        ],
+        "outputs": [
+          "2x minecraft:crimson_slab"
+        ],
+        "fluids": [
+          {
+            "fluid": "gtceu:distilled_water",
+            "amount": 3
+          }
+        ],
+        "duration": 50,
+        "EUt": 7,
+        "group": "crimson",
+        "id": "otg:restored/vanilla_wood/crimson/cutter/7"
+      },
+      {
+        "type": "cutter",
+        "legacyId": 6142,
+        "inputs": [
+          "minecraft:crimson_planks"
+        ],
+        "outputs": [
+          "2x minecraft:crimson_slab"
+        ],
+        "fluids": [
+          {
+            "fluid": "gtceu:lubricant",
+            "amount": 1
+          }
+        ],
+        "duration": 25,
+        "EUt": 7,
+        "group": "crimson",
+        "id": "otg:restored/vanilla_wood/crimson/cutter/8"
+      },
+      {
+        "type": "cutter",
+        "legacyId": 6143,
+        "inputs": [
+          "minecraft:crimson_pressure_plate"
+        ],
+        "outputs": [
+          "2x minecraft:crimson_button"
+        ],
+        "fluids": [
+          {
+            "fluid": "minecraft:water",
+            "amount": 5
+          }
+        ],
+        "duration": 50,
+        "EUt": 7,
+        "group": "crimson",
+        "id": "otg:restored/vanilla_wood/crimson/cutter/9"
+      },
+      {
+        "type": "cutter",
+        "legacyId": 6144,
+        "inputs": [
+          "minecraft:crimson_pressure_plate"
+        ],
+        "outputs": [
+          "2x minecraft:crimson_button"
+        ],
+        "fluids": [
+          {
+            "fluid": "gtceu:distilled_water",
+            "amount": 3
+          }
+        ],
+        "duration": 50,
+        "EUt": 7,
+        "group": "crimson",
+        "id": "otg:restored/vanilla_wood/crimson/cutter/10"
+      },
+      {
+        "type": "cutter",
+        "legacyId": 6145,
+        "inputs": [
+          "minecraft:crimson_pressure_plate"
+        ],
+        "outputs": [
+          "2x minecraft:crimson_button"
+        ],
+        "fluids": [
+          {
+            "fluid": "gtceu:lubricant",
+            "amount": 1
+          }
+        ],
+        "duration": 25,
+        "EUt": 7,
+        "group": "crimson",
+        "id": "otg:restored/vanilla_wood/crimson/cutter/11"
+      },
+      {
+        "type": "assembler",
+        "legacyId": 6146,
+        "inputs": [
+          "2x minecraft:crimson_planks",
+          "2x #forge:rods/wood"
+        ],
+        "outputs": [
+          "minecraft:crimson_fence_gate"
+        ],
+        "fluids": [],
+        "duration": 300,
+        "EUt": 7,
+        "group": "crimson",
+        "id": "otg:restored/vanilla_wood/crimson/assembler/12",
+        "circuit": 2
+      },
+      {
+        "type": "assembler",
+        "legacyId": 6147,
+        "inputs": [
+          "3x minecraft:crimson_planks",
+          "3x #forge:rods/wood"
+        ],
+        "outputs": [
+          "2x minecraft:crimson_fence"
+        ],
+        "fluids": [],
+        "duration": 300,
+        "EUt": 7,
+        "circuit": 3,
+        "group": "crimson",
+        "id": "otg:restored/vanilla_wood/crimson/assembler/13"
+      },
+      {
+        "type": "assembler",
+        "legacyId": 6148,
+        "inputs": [
+          "4x minecraft:crimson_planks",
+          "minecraft:crimson_trapdoor"
+        ],
+        "outputs": [
+          "2x minecraft:crimson_door"
+        ],
+        "fluids": [
+          {
+            "fluid": "gtceu:iron",
+            "amount": 16
+          }
+        ],
+        "duration": 400,
+        "EUt": 4,
+        "group": "crimson",
+        "id": "otg:restored/vanilla_wood/crimson/assembler/14"
+      },
+      {
+        "type": "assembler",
+        "legacyId": 6149,
+        "inputs": [
+          "4x minecraft:crimson_planks",
+          "minecraft:crimson_trapdoor"
+        ],
+        "outputs": [
+          "2x minecraft:crimson_door"
+        ],
+        "fluids": [
+          {
+            "fluid": "gtceu:bronze",
+            "amount": 16
+          }
+        ],
+        "duration": 400,
+        "EUt": 4,
+        "group": "crimson",
+        "id": "otg:restored/vanilla_wood/crimson/assembler/15"
+      },
+      {
+        "type": "assembler",
+        "legacyId": 6150,
+        "inputs": [
+          "4x minecraft:crimson_slab",
+          "#forge:rods/wood"
+        ],
+        "outputs": [
+          "4x minecraft:crimson_trapdoor"
+        ],
+        "fluids": [
+          {
+            "fluid": "gtceu:iron",
+            "amount": 16
+          }
+        ],
+        "duration": 400,
+        "EUt": 4,
+        "group": "crimson",
+        "id": "otg:restored/vanilla_wood/crimson/assembler/16"
+      },
+      {
+        "type": "assembler",
+        "legacyId": 6151,
+        "inputs": [
+          "4x minecraft:crimson_slab",
+          "#forge:rods/wood"
+        ],
+        "outputs": [
+          "6x minecraft:crimson_trapdoor"
+        ],
+        "fluids": [
+          {
+            "fluid": "gtceu:steel",
+            "amount": 16
+          }
+        ],
+        "duration": 400,
+        "EUt": 4,
+        "group": "crimson",
+        "id": "otg:restored/vanilla_wood/crimson/assembler/17"
+      },
+      {
+        "type": "assembler",
+        "legacyId": 6152,
+        "inputs": [
+          "2x minecraft:crimson_slab",
+          "#forge:springs/iron"
+        ],
+        "outputs": [
+          "2x minecraft:crimson_pressure_plate"
+        ],
+        "fluids": [],
+        "duration": 400,
+        "EUt": 4,
+        "group": "crimson",
+        "id": "otg:restored/vanilla_wood/crimson/assembler/18"
+      },
+      {
+        "type": "assembler",
+        "legacyId": 6153,
+        "inputs": [
+          "minecraft:crimson_planks",
+          "#forge:rods/wood"
+        ],
+        "outputs": [
+          "3x minecraft:crimson_sign"
+        ],
+        "fluids": [],
+        "duration": 100,
+        "EUt": 4,
+        "group": "crimson",
+        "id": "otg:restored/vanilla_wood/crimson/assembler/19",
+        "circuit": 1
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "2x minecraft:crimson_button"
+        ],
+        "pattern": [
+          "A",
+          "B"
+        ],
+        "key": {
+          "A": "#forge:tools/saws",
+          "B": "minecraft:crimson_pressure_plate"
+        },
+        "group": "crimson",
+        "id": "otg:restored/vanilla_wood/crimson/shaped/20"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "minecraft:crimson_planks"
+        ],
+        "pattern": [
+          "A",
+          "A"
+        ],
+        "key": {
+          "A": "minecraft:crimson_slab"
+        },
+        "group": "crimson",
+        "id": "otg:restored/vanilla_wood/crimson/shaped/21"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "2x minecraft:crimson_slab"
+        ],
+        "pattern": [
+          "AB"
+        ],
+        "key": {
+          "A": "#forge:tools/saws",
+          "B": "minecraft:crimson_planks"
+        },
+        "group": "crimson",
+        "id": "otg:restored/vanilla_wood/crimson/shaped/22"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "minecraft:crimson_fence_gate"
+        ],
+        "pattern": [
+          "A A",
+          "BCB",
+          "BCB"
+        ],
+        "key": {
+          "A": "minecraft:flint",
+          "B": "minecraft:crimson_planks",
+          "C": "#forge:rods/wood"
+        },
+        "group": "crimson",
+        "id": "otg:restored/vanilla_wood/crimson/shaped/23"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "2x minecraft:crimson_fence_gate"
+        ],
+        "pattern": [
+          "ADA",
+          "BCB",
+          "BCB"
+        ],
+        "key": {
+          "A": "#forge:screws/wood",
+          "B": "minecraft:crimson_planks",
+          "C": "#forge:rods/wood",
+          "D": "#forge:tools/screwdrivers"
+        },
+        "group": "crimson",
+        "id": "otg:restored/vanilla_wood/crimson/shaped/24"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "minecraft:crimson_fence"
+        ],
+        "pattern": [
+          "ABA",
+          "ABA",
+          "ABA"
+        ],
+        "key": {
+          "A": "#forge:rods/wood",
+          "B": "minecraft:crimson_planks"
+        },
+        "group": "crimson",
+        "id": "otg:restored/vanilla_wood/crimson/shaped/25"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "2x minecraft:crimson_fence"
+        ],
+        "pattern": [
+          "CDC",
+          "ABA",
+          "ABA"
+        ],
+        "key": {
+          "A": "#forge:rods/wood",
+          "B": "minecraft:crimson_planks",
+          "C": "#forge:screws/wood",
+          "D": "#forge:tools/screwdrivers"
+        },
+        "group": "crimson",
+        "id": "otg:restored/vanilla_wood/crimson/shaped/26"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "4x minecraft:crimson_stairs"
+        ],
+        "pattern": [
+          "A  ",
+          "AA ",
+          "AAA"
+        ],
+        "key": {
+          "A": "minecraft:crimson_planks"
+        },
+        "group": "crimson",
+        "id": "otg:restored/vanilla_wood/crimson/shaped/27"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "2x minecraft:crimson_door"
+        ],
+        "pattern": [
+          "ABC",
+          "ADE",
+          "AAF"
+        ],
+        "key": {
+          "A": "minecraft:crimson_planks",
+          "B": "minecraft:crimson_trapdoor",
+          "C": "#forge:tools/screwdrivers",
+          "D": "#forge:rings/iron",
+          "E": "#forge:screws/iron",
+          "F": "#forge:tools/saws"
+        },
+        "group": "crimson",
+        "id": "otg:restored/vanilla_wood/crimson/shaped/28"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "2x minecraft:crimson_door"
+        ],
+        "pattern": [
+          "ABC",
+          "ADE",
+          "AAF"
+        ],
+        "key": {
+          "A": "minecraft:crimson_planks",
+          "B": "minecraft:crimson_trapdoor",
+          "C": "#forge:tools/screwdrivers",
+          "D": "#forge:rings/bronze",
+          "E": "#forge:screws/bronze",
+          "F": "#forge:tools/saws"
+        },
+        "group": "crimson",
+        "id": "otg:restored/vanilla_wood/crimson/shaped/29"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "2x minecraft:crimson_door"
+        ],
+        "pattern": [
+          "ABC",
+          "ADE",
+          "AAF"
+        ],
+        "key": {
+          "A": "minecraft:crimson_planks",
+          "B": "minecraft:crimson_trapdoor",
+          "C": "#forge:tools/saws",
+          "D": "#forge:rings/iron",
+          "E": "#forge:screws/iron",
+          "F": "#forge:tools/screwdrivers"
+        },
+        "group": "crimson",
+        "id": "otg:restored/vanilla_wood/crimson/shaped/30"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "2x minecraft:crimson_door"
+        ],
+        "pattern": [
+          "ABC",
+          "ADE",
+          "AAF"
+        ],
+        "key": {
+          "A": "minecraft:crimson_planks",
+          "B": "minecraft:crimson_trapdoor",
+          "C": "#forge:tools/saws",
+          "D": "#forge:rings/bronze",
+          "E": "#forge:screws/bronze",
+          "F": "#forge:tools/screwdrivers"
+        },
+        "group": "crimson",
+        "id": "otg:restored/vanilla_wood/crimson/shaped/31"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "minecraft:crimson_trapdoor"
+        ],
+        "pattern": [
+          "ABA",
+          "BCB",
+          "ABA"
+        ],
+        "key": {
+          "A": "minecraft:crimson_slab",
+          "B": "#forge:rods/wood",
+          "C": "minecraft:flint"
+        },
+        "group": "crimson",
+        "id": "otg:restored/vanilla_wood/crimson/shaped/32"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "2x minecraft:crimson_trapdoor"
+        ],
+        "pattern": [
+          "ABA",
+          "BCB",
+          "ABA"
+        ],
+        "key": {
+          "A": "minecraft:crimson_slab",
+          "B": "#forge:rods/wood",
+          "C": "#forge:screws/iron"
+        },
+        "group": "crimson",
+        "id": "otg:restored/vanilla_wood/crimson/shaped/33"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "3x minecraft:crimson_trapdoor"
+        ],
+        "pattern": [
+          "ABA",
+          "BCB",
+          "ABA"
+        ],
+        "key": {
+          "A": "minecraft:crimson_slab",
+          "B": "#forge:rods/wood",
+          "C": "#forge:screws/steel"
+        },
+        "group": "crimson",
+        "id": "otg:restored/vanilla_wood/crimson/shaped/34"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "2x minecraft:crimson_pressure_plate"
+        ],
+        "pattern": [
+          "ADA",
+          "BCB",
+          "AEA"
+        ],
+        "key": {
+          "A": "#forge:screws/wood",
+          "B": "minecraft:crimson_slab",
+          "C": "#forge:springs/iron",
+          "D": "#forge:tools/mallets",
+          "E": "#forge:tools/screwdrivers"
+        },
+        "group": "crimson",
+        "id": "otg:restored/vanilla_wood/crimson/shaped/35"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "3x minecraft:crimson_sign"
+        ],
+        "pattern": [
+          "AAA",
+          "AAA",
+          " B "
+        ],
+        "key": {
+          "A": "minecraft:crimson_planks",
+          "B": "#forge:rods/wood"
+        },
+        "group": "crimson",
+        "id": "otg:restored/vanilla_wood/crimson/shaped/36"
+      }
+    ],
+    "removedOutputs": [
+      "minecraft:crimson_planks",
+      "minecraft:crimson_slab",
+      "minecraft:crimson_stairs",
+      "minecraft:crimson_fence",
+      "minecraft:crimson_fence_gate",
+      "minecraft:crimson_door",
+      "minecraft:crimson_trapdoor",
+      "minecraft:crimson_pressure_plate",
+      "minecraft:crimson_button",
+      "minecraft:crimson_sign",
+      "minecraft:crimson_hyphae"
+    ]
+  },
+  "warped": {
+    "recipes": [
+      {
+        "type": "shapeless",
+        "outputs": [
+          "minecraft:warped_hyphae"
+        ],
+        "inputs": [
+          "minecraft:warped_stem"
+        ],
+        "group": "warped",
+        "id": "otg:restored/vanilla_wood/warped/shapeless/0"
+      },
+      {
+        "type": "shapeless",
+        "outputs": [
+          "2x minecraft:warped_planks"
+        ],
+        "inputs": [
+          "minecraft:warped_stem"
+        ],
+        "group": "warped",
+        "id": "otg:restored/vanilla_wood/warped/shapeless/1"
+      },
+      {
+        "type": "cutter",
+        "legacyId": 6154,
+        "inputs": [
+          "minecraft:warped_stem"
+        ],
+        "outputs": [
+          "6x minecraft:warped_planks"
+        ],
+        "fluids": [
+          {
+            "fluid": "minecraft:water",
+            "amount": 5
+          }
+        ],
+        "duration": 400,
+        "EUt": 7,
+        "group": "warped",
+        "id": "otg:restored/vanilla_wood/warped/cutter/2"
+      },
+      {
+        "type": "cutter",
+        "legacyId": 6155,
+        "inputs": [
+          "minecraft:warped_stem"
+        ],
+        "outputs": [
+          "6x minecraft:warped_planks"
+        ],
+        "fluids": [
+          {
+            "fluid": "gtceu:distilled_water",
+            "amount": 3
+          }
+        ],
+        "duration": 400,
+        "EUt": 7,
+        "group": "warped",
+        "id": "otg:restored/vanilla_wood/warped/cutter/3"
+      },
+      {
+        "type": "cutter",
+        "legacyId": 6156,
+        "inputs": [
+          "minecraft:warped_stem"
+        ],
+        "outputs": [
+          "6x minecraft:warped_planks"
+        ],
+        "fluids": [
+          {
+            "fluid": "gtceu:lubricant",
+            "amount": 1
+          }
+        ],
+        "duration": 200,
+        "EUt": 7,
+        "group": "warped",
+        "id": "otg:restored/vanilla_wood/warped/cutter/4"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "4x minecraft:warped_planks"
+        ],
+        "pattern": [
+          "A",
+          "B"
+        ],
+        "key": {
+          "A": "#forge:tools/saws",
+          "B": "minecraft:warped_stem"
+        },
+        "group": "warped",
+        "id": "otg:restored/vanilla_wood/warped/shaped/5"
+      },
+      {
+        "type": "cutter",
+        "legacyId": 6157,
+        "inputs": [
+          "minecraft:warped_planks"
+        ],
+        "outputs": [
+          "2x minecraft:warped_slab"
+        ],
+        "fluids": [
+          {
+            "fluid": "minecraft:water",
+            "amount": 5
+          }
+        ],
+        "duration": 50,
+        "EUt": 7,
+        "group": "warped",
+        "id": "otg:restored/vanilla_wood/warped/cutter/6"
+      },
+      {
+        "type": "cutter",
+        "legacyId": 6158,
+        "inputs": [
+          "minecraft:warped_planks"
+        ],
+        "outputs": [
+          "2x minecraft:warped_slab"
+        ],
+        "fluids": [
+          {
+            "fluid": "gtceu:distilled_water",
+            "amount": 3
+          }
+        ],
+        "duration": 50,
+        "EUt": 7,
+        "group": "warped",
+        "id": "otg:restored/vanilla_wood/warped/cutter/7"
+      },
+      {
+        "type": "cutter",
+        "legacyId": 6159,
+        "inputs": [
+          "minecraft:warped_planks"
+        ],
+        "outputs": [
+          "2x minecraft:warped_slab"
+        ],
+        "fluids": [
+          {
+            "fluid": "gtceu:lubricant",
+            "amount": 1
+          }
+        ],
+        "duration": 25,
+        "EUt": 7,
+        "group": "warped",
+        "id": "otg:restored/vanilla_wood/warped/cutter/8"
+      },
+      {
+        "type": "cutter",
+        "legacyId": 6160,
+        "inputs": [
+          "minecraft:warped_pressure_plate"
+        ],
+        "outputs": [
+          "2x minecraft:warped_button"
+        ],
+        "fluids": [
+          {
+            "fluid": "minecraft:water",
+            "amount": 5
+          }
+        ],
+        "duration": 50,
+        "EUt": 7,
+        "group": "warped",
+        "id": "otg:restored/vanilla_wood/warped/cutter/9"
+      },
+      {
+        "type": "cutter",
+        "legacyId": 6161,
+        "inputs": [
+          "minecraft:warped_pressure_plate"
+        ],
+        "outputs": [
+          "2x minecraft:warped_button"
+        ],
+        "fluids": [
+          {
+            "fluid": "gtceu:distilled_water",
+            "amount": 3
+          }
+        ],
+        "duration": 50,
+        "EUt": 7,
+        "group": "warped",
+        "id": "otg:restored/vanilla_wood/warped/cutter/10"
+      },
+      {
+        "type": "cutter",
+        "legacyId": 6162,
+        "inputs": [
+          "minecraft:warped_pressure_plate"
+        ],
+        "outputs": [
+          "2x minecraft:warped_button"
+        ],
+        "fluids": [
+          {
+            "fluid": "gtceu:lubricant",
+            "amount": 1
+          }
+        ],
+        "duration": 25,
+        "EUt": 7,
+        "group": "warped",
+        "id": "otg:restored/vanilla_wood/warped/cutter/11"
+      },
+      {
+        "type": "assembler",
+        "legacyId": 6163,
+        "inputs": [
+          "2x minecraft:warped_planks",
+          "2x #forge:rods/wood"
+        ],
+        "outputs": [
+          "minecraft:warped_fence_gate"
+        ],
+        "fluids": [],
+        "duration": 300,
+        "EUt": 7,
+        "group": "warped",
+        "id": "otg:restored/vanilla_wood/warped/assembler/12",
+        "circuit": 2
+      },
+      {
+        "type": "assembler",
+        "legacyId": 6164,
+        "inputs": [
+          "3x minecraft:warped_planks",
+          "3x #forge:rods/wood"
+        ],
+        "outputs": [
+          "2x minecraft:warped_fence"
+        ],
+        "fluids": [],
+        "duration": 300,
+        "EUt": 7,
+        "circuit": 3,
+        "group": "warped",
+        "id": "otg:restored/vanilla_wood/warped/assembler/13"
+      },
+      {
+        "type": "assembler",
+        "legacyId": 6165,
+        "inputs": [
+          "4x minecraft:warped_planks",
+          "minecraft:warped_trapdoor"
+        ],
+        "outputs": [
+          "2x minecraft:warped_door"
+        ],
+        "fluids": [
+          {
+            "fluid": "gtceu:iron",
+            "amount": 16
+          }
+        ],
+        "duration": 400,
+        "EUt": 4,
+        "group": "warped",
+        "id": "otg:restored/vanilla_wood/warped/assembler/14"
+      },
+      {
+        "type": "assembler",
+        "legacyId": 6166,
+        "inputs": [
+          "4x minecraft:warped_planks",
+          "minecraft:warped_trapdoor"
+        ],
+        "outputs": [
+          "2x minecraft:warped_door"
+        ],
+        "fluids": [
+          {
+            "fluid": "gtceu:bronze",
+            "amount": 16
+          }
+        ],
+        "duration": 400,
+        "EUt": 4,
+        "group": "warped",
+        "id": "otg:restored/vanilla_wood/warped/assembler/15"
+      },
+      {
+        "type": "assembler",
+        "legacyId": 6167,
+        "inputs": [
+          "4x minecraft:warped_slab",
+          "#forge:rods/wood"
+        ],
+        "outputs": [
+          "4x minecraft:warped_trapdoor"
+        ],
+        "fluids": [
+          {
+            "fluid": "gtceu:iron",
+            "amount": 16
+          }
+        ],
+        "duration": 400,
+        "EUt": 4,
+        "group": "warped",
+        "id": "otg:restored/vanilla_wood/warped/assembler/16"
+      },
+      {
+        "type": "assembler",
+        "legacyId": 6168,
+        "inputs": [
+          "4x minecraft:warped_slab",
+          "#forge:rods/wood"
+        ],
+        "outputs": [
+          "6x minecraft:warped_trapdoor"
+        ],
+        "fluids": [
+          {
+            "fluid": "gtceu:steel",
+            "amount": 16
+          }
+        ],
+        "duration": 400,
+        "EUt": 4,
+        "group": "warped",
+        "id": "otg:restored/vanilla_wood/warped/assembler/17"
+      },
+      {
+        "type": "assembler",
+        "legacyId": 6169,
+        "inputs": [
+          "2x minecraft:warped_slab",
+          "#forge:springs/iron"
+        ],
+        "outputs": [
+          "2x minecraft:warped_pressure_plate"
+        ],
+        "fluids": [],
+        "duration": 400,
+        "EUt": 4,
+        "group": "warped",
+        "id": "otg:restored/vanilla_wood/warped/assembler/18"
+      },
+      {
+        "type": "assembler",
+        "legacyId": 6170,
+        "inputs": [
+          "minecraft:warped_planks",
+          "#forge:rods/wood"
+        ],
+        "outputs": [
+          "3x minecraft:warped_sign"
+        ],
+        "fluids": [],
+        "duration": 100,
+        "EUt": 4,
+        "group": "warped",
+        "id": "otg:restored/vanilla_wood/warped/assembler/19",
+        "circuit": 1
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "2x minecraft:warped_button"
+        ],
+        "pattern": [
+          "A",
+          "B"
+        ],
+        "key": {
+          "A": "#forge:tools/saws",
+          "B": "minecraft:warped_pressure_plate"
+        },
+        "group": "warped",
+        "id": "otg:restored/vanilla_wood/warped/shaped/20"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "minecraft:warped_planks"
+        ],
+        "pattern": [
+          "A",
+          "A"
+        ],
+        "key": {
+          "A": "minecraft:warped_slab"
+        },
+        "group": "warped",
+        "id": "otg:restored/vanilla_wood/warped/shaped/21"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "2x minecraft:warped_slab"
+        ],
+        "pattern": [
+          "AB"
+        ],
+        "key": {
+          "A": "#forge:tools/saws",
+          "B": "minecraft:warped_planks"
+        },
+        "group": "warped",
+        "id": "otg:restored/vanilla_wood/warped/shaped/22"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "minecraft:warped_fence_gate"
+        ],
+        "pattern": [
+          "A A",
+          "BCB",
+          "BCB"
+        ],
+        "key": {
+          "A": "minecraft:flint",
+          "B": "minecraft:warped_planks",
+          "C": "#forge:rods/wood"
+        },
+        "group": "warped",
+        "id": "otg:restored/vanilla_wood/warped/shaped/23"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "2x minecraft:warped_fence_gate"
+        ],
+        "pattern": [
+          "ADA",
+          "BCB",
+          "BCB"
+        ],
+        "key": {
+          "A": "#forge:screws/wood",
+          "B": "minecraft:warped_planks",
+          "C": "#forge:rods/wood",
+          "D": "#forge:tools/screwdrivers"
+        },
+        "group": "warped",
+        "id": "otg:restored/vanilla_wood/warped/shaped/24"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "minecraft:warped_fence"
+        ],
+        "pattern": [
+          "ABA",
+          "ABA",
+          "ABA"
+        ],
+        "key": {
+          "A": "#forge:rods/wood",
+          "B": "minecraft:warped_planks"
+        },
+        "group": "warped",
+        "id": "otg:restored/vanilla_wood/warped/shaped/25"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "2x minecraft:warped_fence"
+        ],
+        "pattern": [
+          "CDC",
+          "ABA",
+          "ABA"
+        ],
+        "key": {
+          "A": "#forge:rods/wood",
+          "B": "minecraft:warped_planks",
+          "C": "#forge:screws/wood",
+          "D": "#forge:tools/screwdrivers"
+        },
+        "group": "warped",
+        "id": "otg:restored/vanilla_wood/warped/shaped/26"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "4x minecraft:warped_stairs"
+        ],
+        "pattern": [
+          "A  ",
+          "AA ",
+          "AAA"
+        ],
+        "key": {
+          "A": "minecraft:warped_planks"
+        },
+        "group": "warped",
+        "id": "otg:restored/vanilla_wood/warped/shaped/27"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "2x minecraft:warped_door"
+        ],
+        "pattern": [
+          "ABC",
+          "ADE",
+          "AAF"
+        ],
+        "key": {
+          "A": "minecraft:warped_planks",
+          "B": "minecraft:warped_trapdoor",
+          "C": "#forge:tools/screwdrivers",
+          "D": "#forge:rings/iron",
+          "E": "#forge:screws/iron",
+          "F": "#forge:tools/saws"
+        },
+        "group": "warped",
+        "id": "otg:restored/vanilla_wood/warped/shaped/28"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "2x minecraft:warped_door"
+        ],
+        "pattern": [
+          "ABC",
+          "ADE",
+          "AAF"
+        ],
+        "key": {
+          "A": "minecraft:warped_planks",
+          "B": "minecraft:warped_trapdoor",
+          "C": "#forge:tools/screwdrivers",
+          "D": "#forge:rings/bronze",
+          "E": "#forge:screws/bronze",
+          "F": "#forge:tools/saws"
+        },
+        "group": "warped",
+        "id": "otg:restored/vanilla_wood/warped/shaped/29"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "2x minecraft:warped_door"
+        ],
+        "pattern": [
+          "ABC",
+          "ADE",
+          "AAF"
+        ],
+        "key": {
+          "A": "minecraft:warped_planks",
+          "B": "minecraft:warped_trapdoor",
+          "C": "#forge:tools/saws",
+          "D": "#forge:rings/iron",
+          "E": "#forge:screws/iron",
+          "F": "#forge:tools/screwdrivers"
+        },
+        "group": "warped",
+        "id": "otg:restored/vanilla_wood/warped/shaped/30"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "2x minecraft:warped_door"
+        ],
+        "pattern": [
+          "ABC",
+          "ADE",
+          "AAF"
+        ],
+        "key": {
+          "A": "minecraft:warped_planks",
+          "B": "minecraft:warped_trapdoor",
+          "C": "#forge:tools/saws",
+          "D": "#forge:rings/bronze",
+          "E": "#forge:screws/bronze",
+          "F": "#forge:tools/screwdrivers"
+        },
+        "group": "warped",
+        "id": "otg:restored/vanilla_wood/warped/shaped/31"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "minecraft:warped_trapdoor"
+        ],
+        "pattern": [
+          "ABA",
+          "BCB",
+          "ABA"
+        ],
+        "key": {
+          "A": "minecraft:warped_slab",
+          "B": "#forge:rods/wood",
+          "C": "minecraft:flint"
+        },
+        "group": "warped",
+        "id": "otg:restored/vanilla_wood/warped/shaped/32"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "2x minecraft:warped_trapdoor"
+        ],
+        "pattern": [
+          "ABA",
+          "BCB",
+          "ABA"
+        ],
+        "key": {
+          "A": "minecraft:warped_slab",
+          "B": "#forge:rods/wood",
+          "C": "#forge:screws/iron"
+        },
+        "group": "warped",
+        "id": "otg:restored/vanilla_wood/warped/shaped/33"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "3x minecraft:warped_trapdoor"
+        ],
+        "pattern": [
+          "ABA",
+          "BCB",
+          "ABA"
+        ],
+        "key": {
+          "A": "minecraft:warped_slab",
+          "B": "#forge:rods/wood",
+          "C": "#forge:screws/steel"
+        },
+        "group": "warped",
+        "id": "otg:restored/vanilla_wood/warped/shaped/34"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "2x minecraft:warped_pressure_plate"
+        ],
+        "pattern": [
+          "ADA",
+          "BCB",
+          "AEA"
+        ],
+        "key": {
+          "A": "#forge:screws/wood",
+          "B": "minecraft:warped_slab",
+          "C": "#forge:springs/iron",
+          "D": "#forge:tools/mallets",
+          "E": "#forge:tools/screwdrivers"
+        },
+        "group": "warped",
+        "id": "otg:restored/vanilla_wood/warped/shaped/35"
+      },
+      {
+        "type": "shaped",
+        "outputs": [
+          "3x minecraft:warped_sign"
+        ],
+        "pattern": [
+          "AAA",
+          "AAA",
+          " B "
+        ],
+        "key": {
+          "A": "minecraft:warped_planks",
+          "B": "#forge:rods/wood"
+        },
+        "group": "warped",
+        "id": "otg:restored/vanilla_wood/warped/shaped/36"
+      }
+    ],
+    "removedOutputs": [
+      "minecraft:warped_planks",
+      "minecraft:warped_slab",
+      "minecraft:warped_stairs",
+      "minecraft:warped_fence",
+      "minecraft:warped_fence_gate",
+      "minecraft:warped_door",
+      "minecraft:warped_trapdoor",
+      "minecraft:warped_pressure_plate",
+      "minecraft:warped_button",
+      "minecraft:warped_sign",
+      "minecraft:warped_hyphae"
+    ]
+  },
+  "chest": {
+    "recipes": [
+      {
+        "type": "shaped",
+        "outputs": [
+          "minecraft:chest"
+        ],
+        "pattern": [
+          "ABA",
+          "BCB",
+          "ABA"
+        ],
+        "key": {
+          "A": "#minecraft:logs",
+          "B": "#minecraft:planks",
+          "C": "minecraft:flint"
+        },
+        "group": "chest",
+        "id": "otg:restored/vanilla_wood/chest/shaped/0"
+      },
+      {
+        "type": "assembler",
+        "legacyId": 6171,
+        "inputs": [
+          "4x #minecraft:logs",
+          "4x #minecraft:planks"
+        ],
+        "outputs": [
+          "minecraft:chest"
+        ],
+        "fluids": [],
+        "circuit": 8,
+        "duration": 100,
+        "EUt": 4,
+        "group": "chest",
+        "id": "otg:restored/vanilla_wood/chest/assembler/1"
+      }
+    ],
+    "removedOutputs": [
+      "minecraft:chest"
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Keep Your Favourite Templates",
+  "category": "patchouli:chapter_20",
+  "icon": "minecraft:bricks",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The Template Manager uses an LV machine hull and circuits. Use it to organize the building templates you want to reuse. Give designs descriptive names and test a template before making it the foundation of a large build."
+    }
+  ]
+}

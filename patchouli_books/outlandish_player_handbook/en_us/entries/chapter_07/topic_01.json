@@ -1,0 +1,16 @@
+{
+  "name": "LV: build repeatable production",
+  "category": "patchouli:chapter_07",
+  "icon": "minecraft:redstone",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "LV is where your factory begins turning recurring chores into dedicated processes. Establish component production, electrical processing and the first chemical supplies.$(br2)Prepared Tinkers materials, early botanical manufacturing and Blood Magic’s next altar tier also give you reasons to make LV production dependable."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Before moving on, make sure you can replace the circuits, cables and components your LV machines consume in new projects."
+    }
+  ]
+}

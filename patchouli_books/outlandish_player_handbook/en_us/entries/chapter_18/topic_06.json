@@ -1,0 +1,12 @@
+{
+  "name": "A Netherite Backpack",
+  "category": "patchouli:chapter_18",
+  "icon": "minecraft:chest",
+  "sortnum": 6,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Prepare titanium screws, epoxy plates and carbon fibres for the final backpack upgrade. Keep the upgraded pack maintained and review its installed upgrades before your next long expedition."
+    }
+  ]
+}

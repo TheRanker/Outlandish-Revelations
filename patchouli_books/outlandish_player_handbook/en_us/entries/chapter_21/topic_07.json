@@ -1,0 +1,12 @@
+{
+  "name": "Earn a Hearty Pearl",
+  "category": "patchouli:chapter_21",
+  "icon": "minecraft:amethyst_shard",
+  "sortnum": 7,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Complete the Hungry Oyster activity to obtain a Hearty Pearl. Keep it for the ocean-related uses shown in the guide and JEI. Before starting the next encounter, make sure you have food, breathing support and equipment you can rely on underwater."
+    }
+  ]
+}

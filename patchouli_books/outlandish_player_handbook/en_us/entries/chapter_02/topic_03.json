@@ -1,0 +1,12 @@
+{
+  "name": "Keep the reusable pieces",
+  "category": "patchouli:chapter_02",
+  "icon": "minecraft:book",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Tooling dies, casts, molds and other reusable ingredients deserve dedicated storage. A component that stays in the machine is part of the production setup, not something to replenish after every recipe.$(br2)Read the recipe carefully before assuming an ingredient is reusable. Similar-looking ingredients can behave differently."
+    }
+  ]
+}

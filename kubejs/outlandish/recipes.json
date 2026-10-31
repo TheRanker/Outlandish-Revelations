@@ -1,0 +1,7089 @@
+[
+  {
+    "group": "core",
+    "type": "mixer",
+    "id": "gtceu:mixer/signalum_dust",
+    "inputs": [
+      {
+        "prefix": "dust",
+        "material": "copper",
+        "count": 3
+      },
+      {
+        "prefix": "dust",
+        "material": "silver",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "prefix": "dust",
+        "material": "signalum",
+        "count": 4
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "redstone",
+        "amount": 576
+      }
+    ],
+    "catalysts": [],
+    "duration": 200,
+    "EUt": 128
+  },
+  {
+    "group": "core",
+    "type": "mixer",
+    "id": "gtceu:mixer/enderium_dust",
+    "inputs": [
+      {
+        "prefix": "dust",
+        "material": "lead",
+        "count": 3
+      },
+      {
+        "prefix": "dust",
+        "material": "platinum",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "prefix": "dust",
+        "material": "enderium",
+        "count": 4
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "ender_pearl",
+        "amount": 576
+      }
+    ],
+    "catalysts": [],
+    "duration": 200,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "assembler",
+    "id": "gtceu:ae2/decorative/certus_quartz_glass",
+    "inputs": [
+      {
+        "prefix": "dust",
+        "material": "certus_quartz",
+        "count": 4
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:quartz_glass",
+        "count": 2
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "glass",
+        "amount": 576
+      }
+    ],
+    "catalysts": [],
+    "duration": 20,
+    "EUt": 32
+  },
+  {
+    "group": "ae2",
+    "type": "assembler",
+    "id": "gtceu:ae2/decorative/light_detector",
+    "inputs": [
+      {
+        "prefix": "rod",
+        "material": "aluminium",
+        "count": 1
+      },
+      {
+        "prefix": "plate",
+        "material": "nether_quartz",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:light_detector",
+        "count": 2
+      }
+    ],
+    "fluids": [],
+    "catalysts": [],
+    "duration": 200,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "assembler",
+    "id": "gtceu:ae2/decorative/nether_quartz_glass",
+    "inputs": [
+      {
+        "prefix": "dust",
+        "material": "nether_quartz",
+        "count": 4
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:quartz_glass",
+        "count": 2
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "glass",
+        "amount": 576
+      }
+    ],
+    "catalysts": [],
+    "duration": 20,
+    "EUt": 32
+  },
+  {
+    "group": "ae2",
+    "type": "assembler",
+    "id": "gtceu:ae2/decorative/quartz_fixture",
+    "inputs": [
+      {
+        "prefix": "rod",
+        "material": "aluminium",
+        "count": 1
+      },
+      {
+        "prefix": "plate",
+        "material": "certus_quartz",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:quartz_fixture",
+        "count": 2
+      }
+    ],
+    "fluids": [],
+    "catalysts": [],
+    "duration": 200,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "assembler",
+    "id": "gtceu:ae2/network/blocks/controller",
+    "inputs": [
+      {
+        "item": "ae2:smooth_sky_stone_block",
+        "count": 8
+      },
+      {
+        "item": "#ae2:smart_cable",
+        "count": 16
+      },
+      {
+        "item": "ae2:engineering_processor",
+        "count": 1
+      },
+      {
+        "item": "ae2:energy_acceptor",
+        "count": 1
+      },
+      {
+        "item": "ae2:energy_cell",
+        "count": 2
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:controller",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "polyethylene",
+        "amount": 1296
+      }
+    ],
+    "catalysts": [],
+    "duration": 600,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "assembler",
+    "id": "gtceu:ae2/network/blocks/crafting_accelerator",
+    "inputs": [
+      {
+        "item": "ae2:crafting_unit",
+        "count": 1
+      },
+      {
+        "item": "ae2:engineering_processor",
+        "count": 2
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:crafting_accelerator",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "polyethylene",
+        "amount": 288
+      }
+    ],
+    "catalysts": [],
+    "duration": 200,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "assembler",
+    "id": "gtceu:ae2/network/blocks/crafting_monitor",
+    "inputs": [
+      {
+        "item": "ae2:crafting_unit",
+        "count": 1
+      },
+      {
+        "item": "ae2:storage_monitor",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:crafting_monitor",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "polyethylene",
+        "amount": 288
+      }
+    ],
+    "catalysts": [],
+    "duration": 200,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "assembler",
+    "id": "gtceu:ae2/network/blocks/crafting_unit",
+    "inputs": [
+      {
+        "prefix": "plate",
+        "material": "aluminium",
+        "count": 4
+      },
+      {
+        "item": "ae2:calculation_processor",
+        "count": 2
+      },
+      {
+        "item": "#gtceu:circuits/mv",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:crafting_unit",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "redstone",
+        "amount": 576
+      }
+    ],
+    "catalysts": [],
+    "duration": 350,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "assembler",
+    "id": "gtceu:ae2/network/blocks/crafting_unit_16k",
+    "inputs": [
+      {
+        "item": "ae2:crafting_unit",
+        "count": 1
+      },
+      {
+        "item": "ae2:cell_component_16k",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:16k_crafting_storage",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "polyethylene",
+        "amount": 288
+      }
+    ],
+    "catalysts": [],
+    "duration": 350,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "assembler",
+    "id": "gtceu:ae2/network/blocks/crafting_unit_1k",
+    "inputs": [
+      {
+        "item": "ae2:crafting_unit",
+        "count": 1
+      },
+      {
+        "item": "ae2:cell_component_1k",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:1k_crafting_storage",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "polyethylene",
+        "amount": 288
+      }
+    ],
+    "catalysts": [],
+    "duration": 350,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "assembler",
+    "id": "gtceu:ae2/network/blocks/crafting_unit_256k",
+    "inputs": [
+      {
+        "item": "ae2:crafting_unit",
+        "count": 1
+      },
+      {
+        "item": "ae2:cell_component_256k",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:256k_crafting_storage",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "polyethylene",
+        "amount": 288
+      }
+    ],
+    "catalysts": [],
+    "duration": 350,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "assembler",
+    "id": "gtceu:ae2/network/blocks/crafting_unit_4k",
+    "inputs": [
+      {
+        "item": "ae2:crafting_unit",
+        "count": 1
+      },
+      {
+        "item": "ae2:cell_component_4k",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:4k_crafting_storage",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "polyethylene",
+        "amount": 288
+      }
+    ],
+    "catalysts": [],
+    "duration": 350,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "assembler",
+    "id": "gtceu:ae2/network/blocks/crafting_unit_64k",
+    "inputs": [
+      {
+        "item": "ae2:crafting_unit",
+        "count": 1
+      },
+      {
+        "item": "ae2:cell_component_64k",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:64k_crafting_storage",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "polyethylene",
+        "amount": 288
+      }
+    ],
+    "catalysts": [],
+    "duration": 350,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "assembler",
+    "id": "gtceu:ae2/network/blocks/dense_energy_energy_cell",
+    "inputs": [
+      {
+        "item": "ae2:energy_cell",
+        "count": 8
+      },
+      {
+        "item": "ae2:calculation_processor",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:dense_energy_cell",
+        "count": 1
+      }
+    ],
+    "fluids": [],
+    "catalysts": [],
+    "duration": 400,
+    "EUt": 128,
+    "circuitMeta": 8
+  },
+  {
+    "group": "ae2",
+    "type": "assembler",
+    "id": "gtceu:ae2/network/blocks/energy_energy_cell",
+    "inputs": [
+      {
+        "prefix": "plate",
+        "material": "certus_quartz",
+        "count": 4
+      },
+      {
+        "item": "gtceu:mv_battery_hull",
+        "count": 1
+      },
+      {
+        "prefix": "dust",
+        "material": "fluix",
+        "count": 4
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:energy_cell",
+        "count": 1
+      }
+    ],
+    "fluids": [],
+    "catalysts": [],
+    "duration": 200,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "assembler",
+    "id": "gtceu:ae2/network/blocks/quantum_link",
+    "inputs": [
+      {
+        "item": "ae2:quartz_glass",
+        "count": 2
+      },
+      {
+        "item": "#gtceu:circuits/hv",
+        "count": 1
+      },
+      {
+        "item": "ae2:fluix_pearl",
+        "count": 4
+      },
+      {
+        "item": "ae2:engineering_processor",
+        "count": 2
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:quantum_link",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "polytetrafluoroethylene",
+        "amount": 576
+      }
+    ],
+    "catalysts": [],
+    "duration": 225,
+    "EUt": 512
+  },
+  {
+    "group": "ae2",
+    "type": "assembler",
+    "id": "gtceu:ae2/network/blocks/quantum_ring",
+    "inputs": [
+      {
+        "prefix": "plate",
+        "material": "aluminium",
+        "count": 4
+      },
+      {
+        "item": "ae2:engineering_processor",
+        "count": 1
+      },
+      {
+        "item": "ae2:calculation_processor",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:quantum_ring",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "polytetrafluoroethylene",
+        "amount": 576
+      }
+    ],
+    "catalysts": [],
+    "duration": 225,
+    "EUt": 512
+  },
+  {
+    "group": "ae2",
+    "type": "assembler",
+    "id": "gtceu:ae2/network/blocks/storage_drive",
+    "inputs": [
+      {
+        "prefix": "plate",
+        "material": "aluminium",
+        "count": 4
+      },
+      {
+        "item": "#ae2:glass_cable",
+        "count": 2
+      },
+      {
+        "item": "ae2:engineering_processor",
+        "count": 2
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:drive",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "redstone",
+        "amount": 1296
+      }
+    ],
+    "catalysts": [],
+    "duration": 200,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "assembler",
+    "id": "gtceu:ae2/network/cable/fluix_glass_cable",
+    "inputs": [
+      {
+        "prefix": "dust",
+        "material": "fluix",
+        "count": 1
+      },
+      {
+        "item": "ae2:quartz_fiber",
+        "count": 2
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:fluix_glass_cable",
+        "count": 4
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "polyethylene",
+        "amount": 4
+      }
+    ],
+    "catalysts": [],
+    "duration": 60,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "assembler",
+    "id": "gtceu:ae2/network/cells/component_16k",
+    "inputs": [
+      {
+        "prefix": "plate",
+        "material": "aluminium",
+        "count": 2
+      },
+      {
+        "item": "ae2:quartz_glass",
+        "count": 1
+      },
+      {
+        "item": "ae2:cell_component_4k",
+        "count": 2
+      },
+      {
+        "item": "#gtceu:circuits/mv",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:cell_component_16k",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "redstone",
+        "amount": 288
+      }
+    ],
+    "catalysts": [],
+    "duration": 600,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "assembler",
+    "id": "gtceu:ae2/network/cells/component_1k",
+    "inputs": [
+      {
+        "prefix": "plate",
+        "material": "steel",
+        "count": 2
+      },
+      {
+        "item": "ae2:quartz_glass",
+        "count": 1
+      },
+      {
+        "item": "ae2:logic_processor",
+        "count": 1
+      },
+      {
+        "prefix": "wireFine",
+        "material": "annealed_copper",
+        "count": 2
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:cell_component_1k",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "redstone",
+        "amount": 288
+      }
+    ],
+    "catalysts": [],
+    "duration": 600,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "assembler",
+    "id": "gtceu:ae2/network/cells/component_256k",
+    "inputs": [
+      {
+        "prefix": "plate",
+        "material": "titanium",
+        "count": 2
+      },
+      {
+        "item": "ae2:quartz_glass",
+        "count": 1
+      },
+      {
+        "item": "ae2:cell_component_64k",
+        "count": 2
+      },
+      {
+        "item": "#gtceu:circuits/ev",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:cell_component_256k",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "redstone",
+        "amount": 288
+      }
+    ],
+    "catalysts": [],
+    "duration": 600,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "assembler",
+    "id": "gtceu:ae2/network/cells/component_4k",
+    "inputs": [
+      {
+        "prefix": "plate",
+        "material": "aluminium",
+        "count": 2
+      },
+      {
+        "item": "ae2:quartz_glass",
+        "count": 1
+      },
+      {
+        "item": "ae2:cell_component_1k",
+        "count": 2
+      },
+      {
+        "item": "#gtceu:circuits/mv",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:cell_component_4k",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "redstone",
+        "amount": 288
+      }
+    ],
+    "catalysts": [],
+    "duration": 600,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "assembler",
+    "id": "gtceu:ae2/network/cells/component_64k",
+    "inputs": [
+      {
+        "prefix": "plate",
+        "material": "stainless_steel",
+        "count": 2
+      },
+      {
+        "item": "ae2:quartz_glass",
+        "count": 1
+      },
+      {
+        "item": "ae2:cell_component_16k",
+        "count": 2
+      },
+      {
+        "item": "#gtceu:circuits/hv",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:cell_component_64k",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "redstone",
+        "amount": 288
+      }
+    ],
+    "catalysts": [],
+    "duration": 600,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "assembler",
+    "id": "gtceu:ae2/network/cells/spatial_128",
+    "inputs": [
+      {
+        "prefix": "plate",
+        "material": "stainless_steel",
+        "count": 1
+      },
+      {
+        "item": "ae2:quartz_glass",
+        "count": 1
+      },
+      {
+        "item": "ae2:spatial_cell_component_16",
+        "count": 2
+      },
+      {
+        "item": "#gtceu:circuits/hv",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:spatial_cell_component_128",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "glowstone",
+        "amount": 576
+      }
+    ],
+    "catalysts": [],
+    "duration": 600,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "assembler",
+    "id": "gtceu:ae2/network/cells/spatial_16",
+    "inputs": [
+      {
+        "prefix": "plate",
+        "material": "aluminium",
+        "count": 1
+      },
+      {
+        "item": "ae2:quartz_glass",
+        "count": 1
+      },
+      {
+        "item": "ae2:spatial_cell_component_2",
+        "count": 2
+      },
+      {
+        "item": "#gtceu:circuits/mv",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:spatial_cell_component_16",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "glowstone",
+        "amount": 576
+      }
+    ],
+    "catalysts": [],
+    "duration": 600,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "assembler",
+    "id": "gtceu:ae2/network/cells/spatial_2",
+    "inputs": [
+      {
+        "item": "ae2:fluix_pearl",
+        "count": 2
+      },
+      {
+        "item": "ae2:quartz_glass",
+        "count": 1
+      },
+      {
+        "item": "ae2:engineering_processor",
+        "count": 1
+      },
+      {
+        "prefix": "wireFine",
+        "material": "annealed_copper",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:spatial_cell_component_2",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "glowstone",
+        "amount": 576
+      }
+    ],
+    "catalysts": [],
+    "duration": 600,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "assembler",
+    "id": "gtceu:ae2/network/certus_quartz_fiber",
+    "inputs": [
+      {
+        "prefix": "plate",
+        "material": "certus_quartz",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:quartz_fiber",
+        "count": 8
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "glass",
+        "amount": 576
+      }
+    ],
+    "catalysts": [],
+    "duration": 200,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "assembler",
+    "id": "gtceu:ae2/network/interface",
+    "inputs": [
+      {
+        "prefix": "plate",
+        "material": "skystone",
+        "count": 6
+      },
+      {
+        "prefix": "gem",
+        "material": "fluix",
+        "count": 1
+      },
+      {
+        "item": "ae2:conversion_monitor",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:interface",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "glass",
+        "amount": 576
+      }
+    ],
+    "catalysts": [],
+    "duration": 200,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "assembler",
+    "id": "gtceu:ae2/network/me_p2p_tunnel",
+    "inputs": [
+      {
+        "prefix": "plate",
+        "material": "polyethylene",
+        "count": 2
+      },
+      {
+        "item": "ae2:engineering_processor",
+        "count": 1
+      },
+      {
+        "item": "#ae2:smart_dense_cable",
+        "count": 4
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:me_p2p_tunnel",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "redstone",
+        "amount": 288
+      }
+    ],
+    "catalysts": [],
+    "duration": 400,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "assembler",
+    "id": "gtceu:ae2/network/nether_quartz_fiber",
+    "inputs": [
+      {
+        "prefix": "plate",
+        "material": "nether_quartz",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:quartz_fiber",
+        "count": 8
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "glass",
+        "amount": 576
+      }
+    ],
+    "catalysts": [],
+    "duration": 200,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "assembler",
+    "id": "gtceu:ae2/network/pattern_encoding_terminal",
+    "inputs": [
+      {
+        "prefix": "screw",
+        "material": "aluminium",
+        "count": 2
+      },
+      {
+        "prefix": "plate",
+        "material": "nether_quartz",
+        "count": 2
+      },
+      {
+        "item": "ae2:crafting_monitor",
+        "count": 1
+      },
+      {
+        "item": "ae2:engineering_processor",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:pattern_encoding_terminal",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "glass",
+        "amount": 576
+      }
+    ],
+    "catalysts": [],
+    "duration": 200,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "assembler",
+    "id": "gtceu:ae2/network/semi_dark_monitor",
+    "inputs": [
+      {
+        "prefix": "plate",
+        "material": "red_alloy",
+        "count": 1
+      },
+      {
+        "prefix": "foil",
+        "material": "aluminium",
+        "count": 2
+      },
+      {
+        "item": "ae2:quartz_glass",
+        "count": 2
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:semi_dark_monitor",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "glowstone",
+        "amount": 288
+      }
+    ],
+    "catalysts": [],
+    "duration": 200,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "assembler",
+    "id": "gtceu:ae2/network/terminal",
+    "inputs": [
+      {
+        "prefix": "screw",
+        "material": "aluminium",
+        "count": 4
+      },
+      {
+        "item": "#gtceu:circuits/mv",
+        "count": 1
+      },
+      {
+        "item": "ae2:semi_dark_monitor",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:terminal",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "redstone",
+        "amount": 576
+      }
+    ],
+    "catalysts": [],
+    "duration": 200,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "assembler",
+    "id": "gtceu:ae2/network/toggle_bus",
+    "inputs": [
+      {
+        "item": "ae2:level_emitter",
+        "count": 1
+      },
+      {
+        "item": "#ae2:glass_cable",
+        "count": 2
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:toggle_bus",
+        "count": 1
+      }
+    ],
+    "fluids": [],
+    "catalysts": [],
+    "duration": 200,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "chemical_bath",
+    "id": "gtceu:ae2/decorative/quartz_vibrant_glass",
+    "inputs": [
+      {
+        "item": "ae2:quartz_glass",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:quartz_vibrant_glass",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "glowstone",
+        "amount": 288
+      }
+    ],
+    "catalysts": [],
+    "duration": 40,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "chemical_bath",
+    "id": "gtceu:ae2/network/black_paint_ball",
+    "inputs": [
+      {
+        "item": "ae2:matter_ball",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:black_paint_ball",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "black_dye",
+        "amount": 36
+      }
+    ],
+    "catalysts": [],
+    "duration": 60,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "chemical_bath",
+    "id": "gtceu:ae2/network/blue_paint_ball",
+    "inputs": [
+      {
+        "item": "ae2:matter_ball",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:blue_paint_ball",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "blue_dye",
+        "amount": 36
+      }
+    ],
+    "catalysts": [],
+    "duration": 60,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "chemical_bath",
+    "id": "gtceu:ae2/network/brown_paint_ball",
+    "inputs": [
+      {
+        "item": "ae2:matter_ball",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:brown_paint_ball",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "brown_dye",
+        "amount": 36
+      }
+    ],
+    "catalysts": [],
+    "duration": 60,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "chemical_bath",
+    "id": "gtceu:ae2/network/cable/black_covered_cable",
+    "inputs": [
+      {
+        "item": "ae2:fluix_covered_cable",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:black_covered_cable",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "black_dye",
+        "amount": 18
+      }
+    ],
+    "catalysts": [],
+    "duration": 60,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "chemical_bath",
+    "id": "gtceu:ae2/network/cable/black_dense_covered_cable",
+    "inputs": [
+      {
+        "item": "ae2:fluix_covered_dense_cable",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:black_covered_dense_cable",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "black_dye",
+        "amount": 18
+      }
+    ],
+    "catalysts": [],
+    "duration": 60,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "chemical_bath",
+    "id": "gtceu:ae2/network/cable/black_dense_smart_cable",
+    "inputs": [
+      {
+        "item": "ae2:fluix_smart_dense_cable",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:black_smart_dense_cable",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "black_dye",
+        "amount": 18
+      }
+    ],
+    "catalysts": [],
+    "duration": 60,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "chemical_bath",
+    "id": "gtceu:ae2/network/cable/black_glass_cable",
+    "inputs": [
+      {
+        "item": "ae2:fluix_glass_cable",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:black_glass_cable",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "black_dye",
+        "amount": 18
+      }
+    ],
+    "catalysts": [],
+    "duration": 60,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "chemical_bath",
+    "id": "gtceu:ae2/network/cable/black_smart_cable",
+    "inputs": [
+      {
+        "item": "ae2:fluix_smart_cable",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:black_smart_cable",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "black_dye",
+        "amount": 18
+      }
+    ],
+    "catalysts": [],
+    "duration": 60,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "chemical_bath",
+    "id": "gtceu:ae2/network/cable/blue_covered_cable",
+    "inputs": [
+      {
+        "item": "ae2:fluix_covered_cable",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:blue_covered_cable",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "blue_dye",
+        "amount": 18
+      }
+    ],
+    "catalysts": [],
+    "duration": 60,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "chemical_bath",
+    "id": "gtceu:ae2/network/cable/blue_dense_covered_cable",
+    "inputs": [
+      {
+        "item": "ae2:fluix_covered_dense_cable",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:blue_covered_dense_cable",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "blue_dye",
+        "amount": 18
+      }
+    ],
+    "catalysts": [],
+    "duration": 60,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "chemical_bath",
+    "id": "gtceu:ae2/network/cable/blue_dense_smart_cable",
+    "inputs": [
+      {
+        "item": "ae2:fluix_smart_dense_cable",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:blue_smart_dense_cable",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "blue_dye",
+        "amount": 18
+      }
+    ],
+    "catalysts": [],
+    "duration": 60,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "chemical_bath",
+    "id": "gtceu:ae2/network/cable/blue_glass_cable",
+    "inputs": [
+      {
+        "item": "ae2:fluix_glass_cable",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:blue_glass_cable",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "blue_dye",
+        "amount": 18
+      }
+    ],
+    "catalysts": [],
+    "duration": 60,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "chemical_bath",
+    "id": "gtceu:ae2/network/cable/blue_smart_cable",
+    "inputs": [
+      {
+        "item": "ae2:fluix_smart_cable",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:blue_smart_cable",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "blue_dye",
+        "amount": 18
+      }
+    ],
+    "catalysts": [],
+    "duration": 60,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "chemical_bath",
+    "id": "gtceu:ae2/network/cable/brown_covered_cable",
+    "inputs": [
+      {
+        "item": "ae2:fluix_covered_cable",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:brown_covered_cable",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "brown_dye",
+        "amount": 18
+      }
+    ],
+    "catalysts": [],
+    "duration": 60,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "chemical_bath",
+    "id": "gtceu:ae2/network/cable/brown_dense_covered_cable",
+    "inputs": [
+      {
+        "item": "ae2:fluix_covered_dense_cable",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:brown_covered_dense_cable",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "brown_dye",
+        "amount": 18
+      }
+    ],
+    "catalysts": [],
+    "duration": 60,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "chemical_bath",
+    "id": "gtceu:ae2/network/cable/brown_dense_smart_cable",
+    "inputs": [
+      {
+        "item": "ae2:fluix_smart_dense_cable",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:brown_smart_dense_cable",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "brown_dye",
+        "amount": 18
+      }
+    ],
+    "catalysts": [],
+    "duration": 60,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "chemical_bath",
+    "id": "gtceu:ae2/network/cable/brown_glass_cable",
+    "inputs": [
+      {
+        "item": "ae2:fluix_glass_cable",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:brown_glass_cable",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "brown_dye",
+        "amount": 18
+      }
+    ],
+    "catalysts": [],
+    "duration": 60,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "chemical_bath",
+    "id": "gtceu:ae2/network/cable/brown_smart_cable",
+    "inputs": [
+      {
+        "item": "ae2:fluix_smart_cable",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:brown_smart_cable",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "brown_dye",
+        "amount": 18
+      }
+    ],
+    "catalysts": [],
+    "duration": 60,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "chemical_bath",
+    "id": "gtceu:ae2/network/cable/cyan_covered_cable",
+    "inputs": [
+      {
+        "item": "ae2:fluix_covered_cable",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:cyan_covered_cable",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "cyan_dye",
+        "amount": 18
+      }
+    ],
+    "catalysts": [],
+    "duration": 60,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "chemical_bath",
+    "id": "gtceu:ae2/network/cable/cyan_dense_covered_cable",
+    "inputs": [
+      {
+        "item": "ae2:fluix_covered_dense_cable",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:cyan_covered_dense_cable",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "cyan_dye",
+        "amount": 18
+      }
+    ],
+    "catalysts": [],
+    "duration": 60,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "chemical_bath",
+    "id": "gtceu:ae2/network/cable/cyan_dense_smart_cable",
+    "inputs": [
+      {
+        "item": "ae2:fluix_smart_dense_cable",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:cyan_smart_dense_cable",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "cyan_dye",
+        "amount": 18
+      }
+    ],
+    "catalysts": [],
+    "duration": 60,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "chemical_bath",
+    "id": "gtceu:ae2/network/cable/cyan_glass_cable",
+    "inputs": [
+      {
+        "item": "ae2:fluix_glass_cable",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:cyan_glass_cable",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "cyan_dye",
+        "amount": 18
+      }
+    ],
+    "catalysts": [],
+    "duration": 60,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "chemical_bath",
+    "id": "gtceu:ae2/network/cable/cyan_smart_cable",
+    "inputs": [
+      {
+        "item": "ae2:fluix_smart_cable",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:cyan_smart_cable",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "cyan_dye",
+        "amount": 18
+      }
+    ],
+    "catalysts": [],
+    "duration": 60,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "chemical_bath",
+    "id": "otg:port/chemical_bath/ae2/network/cable/fluix_glass_cable",
+    "inputs": [
+      {
+        "item": "ae2:fluix_glass_cable",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:fluix_covered_cable",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "polyethylene",
+        "amount": 4
+      }
+    ],
+    "catalysts": [],
+    "duration": 60,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "chemical_bath",
+    "id": "gtceu:ae2/network/cable/gray_covered_cable",
+    "inputs": [
+      {
+        "item": "ae2:fluix_covered_cable",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:gray_covered_cable",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "gray_dye",
+        "amount": 18
+      }
+    ],
+    "catalysts": [],
+    "duration": 60,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "chemical_bath",
+    "id": "gtceu:ae2/network/cable/gray_dense_covered_cable",
+    "inputs": [
+      {
+        "item": "ae2:fluix_covered_dense_cable",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:gray_covered_dense_cable",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "gray_dye",
+        "amount": 18
+      }
+    ],
+    "catalysts": [],
+    "duration": 60,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "chemical_bath",
+    "id": "gtceu:ae2/network/cable/gray_dense_smart_cable",
+    "inputs": [
+      {
+        "item": "ae2:fluix_smart_dense_cable",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:gray_smart_dense_cable",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "gray_dye",
+        "amount": 18
+      }
+    ],
+    "catalysts": [],
+    "duration": 60,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "chemical_bath",
+    "id": "gtceu:ae2/network/cable/gray_glass_cable",
+    "inputs": [
+      {
+        "item": "ae2:fluix_glass_cable",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:gray_glass_cable",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "gray_dye",
+        "amount": 18
+      }
+    ],
+    "catalysts": [],
+    "duration": 60,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "chemical_bath",
+    "id": "gtceu:ae2/network/cable/gray_smart_cable",
+    "inputs": [
+      {
+        "item": "ae2:fluix_smart_cable",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:gray_smart_cable",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "gray_dye",
+        "amount": 18
+      }
+    ],
+    "catalysts": [],
+    "duration": 60,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "chemical_bath",
+    "id": "gtceu:ae2/network/cable/green_covered_cable",
+    "inputs": [
+      {
+        "item": "ae2:fluix_covered_cable",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:green_covered_cable",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "green_dye",
+        "amount": 18
+      }
+    ],
+    "catalysts": [],
+    "duration": 60,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "chemical_bath",
+    "id": "gtceu:ae2/network/cable/green_dense_covered_cable",
+    "inputs": [
+      {
+        "item": "ae2:fluix_covered_dense_cable",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:green_covered_dense_cable",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "green_dye",
+        "amount": 18
+      }
+    ],
+    "catalysts": [],
+    "duration": 60,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "chemical_bath",
+    "id": "gtceu:ae2/network/cable/green_dense_smart_cable",
+    "inputs": [
+      {
+        "item": "ae2:fluix_smart_dense_cable",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:green_smart_dense_cable",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "green_dye",
+        "amount": 18
+      }
+    ],
+    "catalysts": [],
+    "duration": 60,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "chemical_bath",
+    "id": "gtceu:ae2/network/cable/green_glass_cable",
+    "inputs": [
+      {
+        "item": "ae2:fluix_glass_cable",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:green_glass_cable",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "green_dye",
+        "amount": 18
+      }
+    ],
+    "catalysts": [],
+    "duration": 60,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "chemical_bath",
+    "id": "gtceu:ae2/network/cable/green_smart_cable",
+    "inputs": [
+      {
+        "item": "ae2:fluix_smart_cable",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:green_smart_cable",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "green_dye",
+        "amount": 18
+      }
+    ],
+    "catalysts": [],
+    "duration": 60,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "chemical_bath",
+    "id": "gtceu:ae2/network/cable/light_blue_covered_cable",
+    "inputs": [
+      {
+        "item": "ae2:fluix_covered_cable",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:light_blue_covered_cable",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "light_blue_dye",
+        "amount": 18
+      }
+    ],
+    "catalysts": [],
+    "duration": 60,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "chemical_bath",
+    "id": "gtceu:ae2/network/cable/light_blue_dense_covered_cable",
+    "inputs": [
+      {
+        "item": "ae2:fluix_covered_dense_cable",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:light_blue_covered_dense_cable",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "light_blue_dye",
+        "amount": 18
+      }
+    ],
+    "catalysts": [],
+    "duration": 60,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "chemical_bath",
+    "id": "gtceu:ae2/network/cable/light_blue_dense_smart_cable",
+    "inputs": [
+      {
+        "item": "ae2:fluix_smart_dense_cable",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:light_blue_smart_dense_cable",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "light_blue_dye",
+        "amount": 18
+      }
+    ],
+    "catalysts": [],
+    "duration": 60,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "chemical_bath",
+    "id": "gtceu:ae2/network/cable/light_blue_glass_cable",
+    "inputs": [
+      {
+        "item": "ae2:fluix_glass_cable",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:light_blue_glass_cable",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "light_blue_dye",
+        "amount": 18
+      }
+    ],
+    "catalysts": [],
+    "duration": 60,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "chemical_bath",
+    "id": "gtceu:ae2/network/cable/light_blue_smart_cable",
+    "inputs": [
+      {
+        "item": "ae2:fluix_smart_cable",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:light_blue_smart_cable",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "light_blue_dye",
+        "amount": 18
+      }
+    ],
+    "catalysts": [],
+    "duration": 60,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "chemical_bath",
+    "id": "gtceu:ae2/network/cable/light_gray_covered_cable",
+    "inputs": [
+      {
+        "item": "ae2:fluix_covered_cable",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:light_gray_covered_cable",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "light_gray_dye",
+        "amount": 18
+      }
+    ],
+    "catalysts": [],
+    "duration": 60,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "chemical_bath",
+    "id": "gtceu:ae2/network/cable/light_gray_dense_covered_cable",
+    "inputs": [
+      {
+        "item": "ae2:fluix_covered_dense_cable",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:light_gray_covered_dense_cable",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "light_gray_dye",
+        "amount": 18
+      }
+    ],
+    "catalysts": [],
+    "duration": 60,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "chemical_bath",
+    "id": "gtceu:ae2/network/cable/light_gray_dense_smart_cable",
+    "inputs": [
+      {
+        "item": "ae2:fluix_smart_dense_cable",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:light_gray_smart_dense_cable",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "light_gray_dye",
+        "amount": 18
+      }
+    ],
+    "catalysts": [],
+    "duration": 60,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "chemical_bath",
+    "id": "gtceu:ae2/network/cable/light_gray_glass_cable",
+    "inputs": [
+      {
+        "item": "ae2:fluix_glass_cable",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:light_gray_glass_cable",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "light_gray_dye",
+        "amount": 18
+      }
+    ],
+    "catalysts": [],
+    "duration": 60,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "chemical_bath",
+    "id": "gtceu:ae2/network/cable/light_gray_smart_cable",
+    "inputs": [
+      {
+        "item": "ae2:fluix_smart_cable",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:light_gray_smart_cable",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "light_gray_dye",
+        "amount": 18
+      }
+    ],
+    "catalysts": [],
+    "duration": 60,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "chemical_bath",
+    "id": "gtceu:ae2/network/cable/lime_covered_cable",
+    "inputs": [
+      {
+        "item": "ae2:fluix_covered_cable",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:lime_covered_cable",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "lime_dye",
+        "amount": 18
+      }
+    ],
+    "catalysts": [],
+    "duration": 60,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "chemical_bath",
+    "id": "gtceu:ae2/network/cable/lime_dense_covered_cable",
+    "inputs": [
+      {
+        "item": "ae2:fluix_covered_dense_cable",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:lime_covered_dense_cable",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "lime_dye",
+        "amount": 18
+      }
+    ],
+    "catalysts": [],
+    "duration": 60,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "chemical_bath",
+    "id": "gtceu:ae2/network/cable/lime_dense_smart_cable",
+    "inputs": [
+      {
+        "item": "ae2:fluix_smart_dense_cable",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:lime_smart_dense_cable",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "lime_dye",
+        "amount": 18
+      }
+    ],
+    "catalysts": [],
+    "duration": 60,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "chemical_bath",
+    "id": "gtceu:ae2/network/cable/lime_glass_cable",
+    "inputs": [
+      {
+        "item": "ae2:fluix_glass_cable",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:lime_glass_cable",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "lime_dye",
+        "amount": 18
+      }
+    ],
+    "catalysts": [],
+    "duration": 60,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "chemical_bath",
+    "id": "gtceu:ae2/network/cable/lime_smart_cable",
+    "inputs": [
+      {
+        "item": "ae2:fluix_smart_cable",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:lime_smart_cable",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "lime_dye",
+        "amount": 18
+      }
+    ],
+    "catalysts": [],
+    "duration": 60,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "chemical_bath",
+    "id": "gtceu:ae2/network/cable/magenta_covered_cable",
+    "inputs": [
+      {
+        "item": "ae2:fluix_covered_cable",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:magenta_covered_cable",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "magenta_dye",
+        "amount": 18
+      }
+    ],
+    "catalysts": [],
+    "duration": 60,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "chemical_bath",
+    "id": "gtceu:ae2/network/cable/magenta_dense_covered_cable",
+    "inputs": [
+      {
+        "item": "ae2:fluix_covered_dense_cable",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:magenta_covered_dense_cable",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "magenta_dye",
+        "amount": 18
+      }
+    ],
+    "catalysts": [],
+    "duration": 60,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "chemical_bath",
+    "id": "gtceu:ae2/network/cable/magenta_dense_smart_cable",
+    "inputs": [
+      {
+        "item": "ae2:fluix_smart_dense_cable",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:magenta_smart_dense_cable",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "magenta_dye",
+        "amount": 18
+      }
+    ],
+    "catalysts": [],
+    "duration": 60,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "chemical_bath",
+    "id": "gtceu:ae2/network/cable/magenta_glass_cable",
+    "inputs": [
+      {
+        "item": "ae2:fluix_glass_cable",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:magenta_glass_cable",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "magenta_dye",
+        "amount": 18
+      }
+    ],
+    "catalysts": [],
+    "duration": 60,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "chemical_bath",
+    "id": "gtceu:ae2/network/cable/magenta_smart_cable",
+    "inputs": [
+      {
+        "item": "ae2:fluix_smart_cable",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:magenta_smart_cable",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "magenta_dye",
+        "amount": 18
+      }
+    ],
+    "catalysts": [],
+    "duration": 60,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "chemical_bath",
+    "id": "gtceu:ae2/network/cable/orange_covered_cable",
+    "inputs": [
+      {
+        "item": "ae2:fluix_covered_cable",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:orange_covered_cable",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "orange_dye",
+        "amount": 18
+      }
+    ],
+    "catalysts": [],
+    "duration": 60,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "chemical_bath",
+    "id": "gtceu:ae2/network/cable/orange_dense_covered_cable",
+    "inputs": [
+      {
+        "item": "ae2:fluix_covered_dense_cable",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:orange_covered_dense_cable",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "orange_dye",
+        "amount": 18
+      }
+    ],
+    "catalysts": [],
+    "duration": 60,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "chemical_bath",
+    "id": "gtceu:ae2/network/cable/orange_dense_smart_cable",
+    "inputs": [
+      {
+        "item": "ae2:fluix_smart_dense_cable",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:orange_smart_dense_cable",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "orange_dye",
+        "amount": 18
+      }
+    ],
+    "catalysts": [],
+    "duration": 60,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "chemical_bath",
+    "id": "gtceu:ae2/network/cable/orange_glass_cable",
+    "inputs": [
+      {
+        "item": "ae2:fluix_glass_cable",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:orange_glass_cable",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "orange_dye",
+        "amount": 18
+      }
+    ],
+    "catalysts": [],
+    "duration": 60,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "chemical_bath",
+    "id": "gtceu:ae2/network/cable/orange_smart_cable",
+    "inputs": [
+      {
+        "item": "ae2:fluix_smart_cable",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:orange_smart_cable",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "orange_dye",
+        "amount": 18
+      }
+    ],
+    "catalysts": [],
+    "duration": 60,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "chemical_bath",
+    "id": "gtceu:ae2/network/cable/pink_covered_cable",
+    "inputs": [
+      {
+        "item": "ae2:fluix_covered_cable",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:pink_covered_cable",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "pink_dye",
+        "amount": 18
+      }
+    ],
+    "catalysts": [],
+    "duration": 60,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "chemical_bath",
+    "id": "gtceu:ae2/network/cable/pink_dense_covered_cable",
+    "inputs": [
+      {
+        "item": "ae2:fluix_covered_dense_cable",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:pink_covered_dense_cable",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "pink_dye",
+        "amount": 18
+      }
+    ],
+    "catalysts": [],
+    "duration": 60,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "chemical_bath",
+    "id": "gtceu:ae2/network/cable/pink_dense_smart_cable",
+    "inputs": [
+      {
+        "item": "ae2:fluix_smart_dense_cable",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:pink_smart_dense_cable",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "pink_dye",
+        "amount": 18
+      }
+    ],
+    "catalysts": [],
+    "duration": 60,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "chemical_bath",
+    "id": "gtceu:ae2/network/cable/pink_glass_cable",
+    "inputs": [
+      {
+        "item": "ae2:fluix_glass_cable",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:pink_glass_cable",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "pink_dye",
+        "amount": 18
+      }
+    ],
+    "catalysts": [],
+    "duration": 60,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "chemical_bath",
+    "id": "gtceu:ae2/network/cable/pink_smart_cable",
+    "inputs": [
+      {
+        "item": "ae2:fluix_smart_cable",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:pink_smart_cable",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "pink_dye",
+        "amount": 18
+      }
+    ],
+    "catalysts": [],
+    "duration": 60,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "chemical_bath",
+    "id": "gtceu:ae2/network/cable/purple_covered_cable",
+    "inputs": [
+      {
+        "item": "ae2:fluix_covered_cable",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:purple_covered_cable",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "purple_dye",
+        "amount": 18
+      }
+    ],
+    "catalysts": [],
+    "duration": 60,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "chemical_bath",
+    "id": "gtceu:ae2/network/cable/purple_dense_covered_cable",
+    "inputs": [
+      {
+        "item": "ae2:fluix_covered_dense_cable",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:purple_covered_dense_cable",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "purple_dye",
+        "amount": 18
+      }
+    ],
+    "catalysts": [],
+    "duration": 60,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "chemical_bath",
+    "id": "gtceu:ae2/network/cable/purple_dense_smart_cable",
+    "inputs": [
+      {
+        "item": "ae2:fluix_smart_dense_cable",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:purple_smart_dense_cable",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "purple_dye",
+        "amount": 18
+      }
+    ],
+    "catalysts": [],
+    "duration": 60,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "chemical_bath",
+    "id": "gtceu:ae2/network/cable/purple_glass_cable",
+    "inputs": [
+      {
+        "item": "ae2:fluix_glass_cable",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:purple_glass_cable",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "purple_dye",
+        "amount": 18
+      }
+    ],
+    "catalysts": [],
+    "duration": 60,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "chemical_bath",
+    "id": "gtceu:ae2/network/cable/purple_smart_cable",
+    "inputs": [
+      {
+        "item": "ae2:fluix_smart_cable",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:purple_smart_cable",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "purple_dye",
+        "amount": 18
+      }
+    ],
+    "catalysts": [],
+    "duration": 60,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "chemical_bath",
+    "id": "gtceu:ae2/network/cable/red_covered_cable",
+    "inputs": [
+      {
+        "item": "ae2:fluix_covered_cable",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:red_covered_cable",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "red_dye",
+        "amount": 18
+      }
+    ],
+    "catalysts": [],
+    "duration": 60,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "chemical_bath",
+    "id": "gtceu:ae2/network/cable/red_dense_covered_cable",
+    "inputs": [
+      {
+        "item": "ae2:fluix_covered_dense_cable",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:red_covered_dense_cable",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "red_dye",
+        "amount": 18
+      }
+    ],
+    "catalysts": [],
+    "duration": 60,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "chemical_bath",
+    "id": "gtceu:ae2/network/cable/red_dense_smart_cable",
+    "inputs": [
+      {
+        "item": "ae2:fluix_smart_dense_cable",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:red_smart_dense_cable",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "red_dye",
+        "amount": 18
+      }
+    ],
+    "catalysts": [],
+    "duration": 60,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "chemical_bath",
+    "id": "gtceu:ae2/network/cable/red_glass_cable",
+    "inputs": [
+      {
+        "item": "ae2:fluix_glass_cable",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:red_glass_cable",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "red_dye",
+        "amount": 18
+      }
+    ],
+    "catalysts": [],
+    "duration": 60,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "chemical_bath",
+    "id": "gtceu:ae2/network/cable/red_smart_cable",
+    "inputs": [
+      {
+        "item": "ae2:fluix_smart_cable",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:red_smart_cable",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "red_dye",
+        "amount": 18
+      }
+    ],
+    "catalysts": [],
+    "duration": 60,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "chemical_bath",
+    "id": "gtceu:ae2/network/cable/white_covered_cable",
+    "inputs": [
+      {
+        "item": "ae2:fluix_covered_cable",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:white_covered_cable",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "white_dye",
+        "amount": 18
+      }
+    ],
+    "catalysts": [],
+    "duration": 60,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "chemical_bath",
+    "id": "gtceu:ae2/network/cable/white_dense_covered_cable",
+    "inputs": [
+      {
+        "item": "ae2:fluix_covered_dense_cable",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:white_covered_dense_cable",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "white_dye",
+        "amount": 18
+      }
+    ],
+    "catalysts": [],
+    "duration": 60,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "chemical_bath",
+    "id": "gtceu:ae2/network/cable/white_dense_smart_cable",
+    "inputs": [
+      {
+        "item": "ae2:fluix_smart_dense_cable",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:white_smart_dense_cable",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "white_dye",
+        "amount": 18
+      }
+    ],
+    "catalysts": [],
+    "duration": 60,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "chemical_bath",
+    "id": "gtceu:ae2/network/cable/white_glass_cable",
+    "inputs": [
+      {
+        "item": "ae2:fluix_glass_cable",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:white_glass_cable",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "white_dye",
+        "amount": 18
+      }
+    ],
+    "catalysts": [],
+    "duration": 60,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "chemical_bath",
+    "id": "gtceu:ae2/network/cable/white_smart_cable",
+    "inputs": [
+      {
+        "item": "ae2:fluix_smart_cable",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:white_smart_cable",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "white_dye",
+        "amount": 18
+      }
+    ],
+    "catalysts": [],
+    "duration": 60,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "chemical_bath",
+    "id": "gtceu:ae2/network/cable/yellow_covered_cable",
+    "inputs": [
+      {
+        "item": "ae2:fluix_covered_cable",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:yellow_covered_cable",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "yellow_dye",
+        "amount": 18
+      }
+    ],
+    "catalysts": [],
+    "duration": 60,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "chemical_bath",
+    "id": "gtceu:ae2/network/cable/yellow_dense_covered_cable",
+    "inputs": [
+      {
+        "item": "ae2:fluix_covered_dense_cable",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:yellow_covered_dense_cable",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "yellow_dye",
+        "amount": 18
+      }
+    ],
+    "catalysts": [],
+    "duration": 60,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "chemical_bath",
+    "id": "gtceu:ae2/network/cable/yellow_dense_smart_cable",
+    "inputs": [
+      {
+        "item": "ae2:fluix_smart_dense_cable",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:yellow_smart_dense_cable",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "yellow_dye",
+        "amount": 18
+      }
+    ],
+    "catalysts": [],
+    "duration": 60,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "chemical_bath",
+    "id": "gtceu:ae2/network/cable/yellow_glass_cable",
+    "inputs": [
+      {
+        "item": "ae2:fluix_glass_cable",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:yellow_glass_cable",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "yellow_dye",
+        "amount": 18
+      }
+    ],
+    "catalysts": [],
+    "duration": 60,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "chemical_bath",
+    "id": "gtceu:ae2/network/cable/yellow_smart_cable",
+    "inputs": [
+      {
+        "item": "ae2:fluix_smart_cable",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:yellow_smart_cable",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "yellow_dye",
+        "amount": 18
+      }
+    ],
+    "catalysts": [],
+    "duration": 60,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "chemical_bath",
+    "id": "gtceu:ae2/network/cyan_paint_ball",
+    "inputs": [
+      {
+        "item": "ae2:matter_ball",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:cyan_paint_ball",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "cyan_dye",
+        "amount": 36
+      }
+    ],
+    "catalysts": [],
+    "duration": 60,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "chemical_bath",
+    "id": "gtceu:ae2/network/gray_paint_ball",
+    "inputs": [
+      {
+        "item": "ae2:matter_ball",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:gray_paint_ball",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "gray_dye",
+        "amount": 36
+      }
+    ],
+    "catalysts": [],
+    "duration": 60,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "chemical_bath",
+    "id": "gtceu:ae2/network/green_paint_ball",
+    "inputs": [
+      {
+        "item": "ae2:matter_ball",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:green_paint_ball",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "green_dye",
+        "amount": 36
+      }
+    ],
+    "catalysts": [],
+    "duration": 60,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "chemical_bath",
+    "id": "gtceu:ae2/network/light_blue_paint_ball",
+    "inputs": [
+      {
+        "item": "ae2:matter_ball",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:light_blue_paint_ball",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "light_blue_dye",
+        "amount": 36
+      }
+    ],
+    "catalysts": [],
+    "duration": 60,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "chemical_bath",
+    "id": "gtceu:ae2/network/light_gray_paint_ball",
+    "inputs": [
+      {
+        "item": "ae2:matter_ball",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:light_gray_paint_ball",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "light_gray_dye",
+        "amount": 36
+      }
+    ],
+    "catalysts": [],
+    "duration": 60,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "chemical_bath",
+    "id": "gtceu:ae2/network/lime_paint_ball",
+    "inputs": [
+      {
+        "item": "ae2:matter_ball",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:lime_paint_ball",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "lime_dye",
+        "amount": 36
+      }
+    ],
+    "catalysts": [],
+    "duration": 60,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "chemical_bath",
+    "id": "gtceu:ae2/network/magenta_paint_ball",
+    "inputs": [
+      {
+        "item": "ae2:matter_ball",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:magenta_paint_ball",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "magenta_dye",
+        "amount": 36
+      }
+    ],
+    "catalysts": [],
+    "duration": 60,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "chemical_bath",
+    "id": "gtceu:ae2/network/orange_paint_ball",
+    "inputs": [
+      {
+        "item": "ae2:matter_ball",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:orange_paint_ball",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "orange_dye",
+        "amount": 36
+      }
+    ],
+    "catalysts": [],
+    "duration": 60,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "chemical_bath",
+    "id": "gtceu:ae2/network/pink_paint_ball",
+    "inputs": [
+      {
+        "item": "ae2:matter_ball",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:pink_paint_ball",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "pink_dye",
+        "amount": 36
+      }
+    ],
+    "catalysts": [],
+    "duration": 60,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "chemical_bath",
+    "id": "gtceu:ae2/network/purple_paint_ball",
+    "inputs": [
+      {
+        "item": "ae2:matter_ball",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:purple_paint_ball",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "purple_dye",
+        "amount": 36
+      }
+    ],
+    "catalysts": [],
+    "duration": 60,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "chemical_bath",
+    "id": "gtceu:ae2/network/red_paint_ball",
+    "inputs": [
+      {
+        "item": "ae2:matter_ball",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:red_paint_ball",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "red_dye",
+        "amount": 36
+      }
+    ],
+    "catalysts": [],
+    "duration": 60,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "chemical_bath",
+    "id": "gtceu:ae2/network/white_paint_ball",
+    "inputs": [
+      {
+        "item": "ae2:matter_ball",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:white_paint_ball",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "white_dye",
+        "amount": 36
+      }
+    ],
+    "catalysts": [],
+    "duration": 60,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "chemical_bath",
+    "id": "gtceu:ae2/network/yellow_paint_ball",
+    "inputs": [
+      {
+        "item": "ae2:matter_ball",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:yellow_paint_ball",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "yellow_dye",
+        "amount": 36
+      }
+    ],
+    "catalysts": [],
+    "duration": 60,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "circuit_assembler",
+    "id": "gtceu:ae2/inscriber/calculation_processor",
+    "inputs": [
+      {
+        "item": "ae2:printed_silicon",
+        "count": 1
+      },
+      {
+        "item": "ae2:printed_calculation_processor",
+        "count": 1
+      },
+      {
+        "prefix": "dust",
+        "material": "redstone",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:calculation_processor",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "hydrochloric_acid",
+        "amount": 144
+      }
+    ],
+    "catalysts": [],
+    "duration": 200,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "circuit_assembler",
+    "id": "gtceu:ae2/inscriber/engineering_processor",
+    "inputs": [
+      {
+        "item": "ae2:printed_silicon",
+        "count": 1
+      },
+      {
+        "item": "ae2:printed_engineering_processor",
+        "count": 1
+      },
+      {
+        "prefix": "dust",
+        "material": "redstone",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:engineering_processor",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "hydrochloric_acid",
+        "amount": 144
+      }
+    ],
+    "catalysts": [],
+    "duration": 200,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "circuit_assembler",
+    "id": "gtceu:ae2/inscriber/logic_processor",
+    "inputs": [
+      {
+        "item": "ae2:printed_silicon",
+        "count": 1
+      },
+      {
+        "item": "ae2:printed_logic_processor",
+        "count": 1
+      },
+      {
+        "prefix": "dust",
+        "material": "redstone",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:logic_processor",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "hydrochloric_acid",
+        "amount": 144
+      }
+    ],
+    "catalysts": [],
+    "duration": 200,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "circuit_assembler",
+    "id": "gtceu:ae2/material/annihilationcore",
+    "inputs": [
+      {
+        "item": "ae2:logic_processor",
+        "count": 1
+      },
+      {
+        "item": "ae2:fluix_dust",
+        "count": 1
+      },
+      {
+        "prefix": "plate",
+        "material": "certus_quartz",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:annihilation_core",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "hydrochloric_acid",
+        "amount": 144
+      }
+    ],
+    "catalysts": [],
+    "duration": 100,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "circuit_assembler",
+    "id": "gtceu:ae2/material/formationcore",
+    "inputs": [
+      {
+        "item": "ae2:logic_processor",
+        "count": 1
+      },
+      {
+        "item": "ae2:fluix_dust",
+        "count": 1
+      },
+      {
+        "prefix": "plate",
+        "material": "nether_quartz",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:formation_core",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "hydrochloric_acid",
+        "amount": 144
+      }
+    ],
+    "catalysts": [],
+    "duration": 100,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "compressor",
+    "id": "gtceu:ae2/material/fluix_block",
+    "inputs": [
+      {
+        "prefix": "gem",
+        "material": "fluix",
+        "count": 4
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:fluix_block",
+        "count": 1
+      }
+    ],
+    "fluids": [],
+    "catalysts": [],
+    "duration": 40,
+    "EUt": 8
+  },
+  {
+    "group": "ae2",
+    "type": "cutter",
+    "id": "gtceu:ae2/network/parts/cable_anchor/aluminiumd",
+    "inputs": [
+      {
+        "prefix": "ingot",
+        "material": "aluminium",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:cable_anchor",
+        "count": 6
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "distilled_water",
+        "amount": 11
+      }
+    ],
+    "catalysts": [],
+    "duration": 240,
+    "EUt": 32
+  },
+  {
+    "group": "ae2",
+    "type": "cutter",
+    "id": "gtceu:ae2/network/parts/cable_anchor/aluminiuml",
+    "inputs": [
+      {
+        "prefix": "ingot",
+        "material": "aluminium",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:cable_anchor",
+        "count": 6
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "lubricant",
+        "amount": 3
+      }
+    ],
+    "catalysts": [],
+    "duration": 160,
+    "EUt": 32
+  },
+  {
+    "group": "ae2",
+    "type": "cutter",
+    "id": "gtceu:ae2/network/parts/cable_anchor/aluminiumw",
+    "inputs": [
+      {
+        "prefix": "ingot",
+        "material": "aluminium",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:cable_anchor",
+        "count": 6
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "water",
+        "amount": 15
+      }
+    ],
+    "catalysts": [],
+    "duration": 320,
+    "EUt": 32
+  },
+  {
+    "group": "ae2",
+    "type": "cutter",
+    "id": "gtceu:ae2/network/parts/cable_anchor/irond",
+    "inputs": [
+      {
+        "prefix": "ingot",
+        "material": "iron",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:cable_anchor",
+        "count": 2
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "distilled_water",
+        "amount": 11
+      }
+    ],
+    "catalysts": [],
+    "duration": 240,
+    "EUt": 32
+  },
+  {
+    "group": "ae2",
+    "type": "cutter",
+    "id": "gtceu:ae2/network/parts/cable_anchor/ironl",
+    "inputs": [
+      {
+        "prefix": "ingot",
+        "material": "iron",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:cable_anchor",
+        "count": 2
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "lubricant",
+        "amount": 3
+      }
+    ],
+    "catalysts": [],
+    "duration": 160,
+    "EUt": 32
+  },
+  {
+    "group": "ae2",
+    "type": "cutter",
+    "id": "gtceu:ae2/network/parts/cable_anchor/ironw",
+    "inputs": [
+      {
+        "prefix": "ingot",
+        "material": "iron",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:cable_anchor",
+        "count": 2
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "water",
+        "amount": 15
+      }
+    ],
+    "catalysts": [],
+    "duration": 320,
+    "EUt": 32
+  },
+  {
+    "group": "ae2",
+    "type": "cutter",
+    "id": "gtceu:ae2/network/parts/cable_anchor/steeld",
+    "inputs": [
+      {
+        "prefix": "ingot",
+        "material": "steel",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:cable_anchor",
+        "count": 4
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "distilled_water",
+        "amount": 11
+      }
+    ],
+    "catalysts": [],
+    "duration": 240,
+    "EUt": 32
+  },
+  {
+    "group": "ae2",
+    "type": "cutter",
+    "id": "gtceu:ae2/network/parts/cable_anchor/steell",
+    "inputs": [
+      {
+        "prefix": "ingot",
+        "material": "steel",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:cable_anchor",
+        "count": 4
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "lubricant",
+        "amount": 3
+      }
+    ],
+    "catalysts": [],
+    "duration": 160,
+    "EUt": 32
+  },
+  {
+    "group": "ae2",
+    "type": "cutter",
+    "id": "gtceu:ae2/network/parts/cable_anchor/steelw",
+    "inputs": [
+      {
+        "prefix": "ingot",
+        "material": "steel",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:cable_anchor",
+        "count": 4
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "water",
+        "amount": 15
+      }
+    ],
+    "catalysts": [],
+    "duration": 320,
+    "EUt": 32
+  },
+  {
+    "group": "ae2",
+    "type": "cutter",
+    "id": "gtceu:ae2/network/parts/cable_anchor/StainlessSteeld",
+    "inputs": [
+      {
+        "prefix": "ingot",
+        "material": "stainless_steel",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:cable_anchor",
+        "count": 10
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "distilled_water",
+        "amount": 11
+      }
+    ],
+    "catalysts": [],
+    "duration": 240,
+    "EUt": 32
+  },
+  {
+    "group": "ae2",
+    "type": "cutter",
+    "id": "gtceu:ae2/network/parts/cable_anchor/StainlessSteell",
+    "inputs": [
+      {
+        "prefix": "ingot",
+        "material": "stainless_steel",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:cable_anchor",
+        "count": 10
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "lubricant",
+        "amount": 3
+      }
+    ],
+    "catalysts": [],
+    "duration": 160,
+    "EUt": 32
+  },
+  {
+    "group": "ae2",
+    "type": "cutter",
+    "id": "gtceu:ae2/network/parts/cable_anchor/StainlessSteelw",
+    "inputs": [
+      {
+        "prefix": "ingot",
+        "material": "stainless_steel",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:cable_anchor",
+        "count": 10
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "water",
+        "amount": 15
+      }
+    ],
+    "catalysts": [],
+    "duration": 320,
+    "EUt": 32
+  },
+  {
+    "group": "ae2",
+    "type": "implosion_compressor",
+    "id": "gtceu:ae2/material/quantum_entangled_singularity",
+    "inputs": [
+      {
+        "item": "ae2:singularity",
+        "count": 1
+      },
+      {
+        "prefix": "dust",
+        "material": "ender_pearl",
+        "count": 4
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:quantum_entangled_singularity",
+        "count": 2
+      }
+    ],
+    "fluids": [],
+    "catalysts": [],
+    "duration": 4000,
+    "EUt": 512
+  },
+  {
+    "group": "ae2",
+    "type": "laser_engraver",
+    "id": "gtceu:ae2/inscriber/calculation_processor_print",
+    "inputs": [
+      {
+        "prefix": "plate",
+        "material": "certus_quartz",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:printed_calculation_processor",
+        "count": 1
+      }
+    ],
+    "fluids": [],
+    "catalysts": [
+      {
+        "prefix": "lens",
+        "material": "skystone",
+        "count": 1
+      }
+    ],
+    "duration": 200,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "laser_engraver",
+    "id": "gtceu:ae2/inscriber/engineering_processor_print",
+    "inputs": [
+      {
+        "prefix": "plate",
+        "material": "diamond",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:printed_engineering_processor",
+        "count": 1
+      }
+    ],
+    "fluids": [],
+    "catalysts": [
+      {
+        "prefix": "lens",
+        "material": "skystone",
+        "count": 1
+      }
+    ],
+    "duration": 200,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "laser_engraver",
+    "id": "gtceu:ae2/inscriber/logic_processor_print",
+    "inputs": [
+      {
+        "prefix": "plate",
+        "material": "gold",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:printed_logic_processor",
+        "count": 1
+      }
+    ],
+    "fluids": [],
+    "catalysts": [
+      {
+        "prefix": "lens",
+        "material": "skystone",
+        "count": 1
+      }
+    ],
+    "duration": 200,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "laser_engraver",
+    "id": "gtceu:ae2/inscriber/silicon_print",
+    "inputs": [
+      {
+        "item": "gtceu:silicon_wafer",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:printed_silicon",
+        "count": 4
+      }
+    ],
+    "fluids": [],
+    "catalysts": [
+      {
+        "prefix": "lens",
+        "material": "skystone",
+        "count": 1
+      }
+    ],
+    "duration": 200,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "laser_engraver",
+    "id": "gtceu:ae2/inscriber/silicon_print_nq",
+    "inputs": [
+      {
+        "item": "gtceu:naquadah_wafer",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:printed_silicon",
+        "count": 16
+      }
+    ],
+    "fluids": [],
+    "catalysts": [
+      {
+        "prefix": "lens",
+        "material": "skystone",
+        "count": 1
+      }
+    ],
+    "duration": 200,
+    "EUt": 512
+  },
+  {
+    "group": "ae2",
+    "type": "laser_engraver",
+    "id": "gtceu:ae2/inscriber/silicon_print_nu",
+    "inputs": [
+      {
+        "item": "gtceu:neutronium_wafer",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:printed_silicon",
+        "count": 32
+      }
+    ],
+    "fluids": [],
+    "catalysts": [
+      {
+        "prefix": "lens",
+        "material": "skystone",
+        "count": 1
+      }
+    ],
+    "duration": 200,
+    "EUt": 8192
+  },
+  {
+    "group": "ae2",
+    "type": "laser_engraver",
+    "id": "gtceu:ae2/inscriber/silicon_print_ph",
+    "inputs": [
+      {
+        "item": "gtceu:phosphorus_wafer",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:printed_silicon",
+        "count": 8
+      }
+    ],
+    "fluids": [],
+    "catalysts": [
+      {
+        "prefix": "lens",
+        "material": "skystone",
+        "count": 1
+      }
+    ],
+    "duration": 200,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "lathe",
+    "id": "gtceu:ae2/material/skystone_lens",
+    "inputs": [
+      {
+        "prefix": "plate",
+        "material": "skystone",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "prefix": "lens",
+        "material": "skystone",
+        "count": 1
+      },
+      {
+        "prefix": "dustTiny",
+        "material": "skystone",
+        "count": 1
+      }
+    ],
+    "fluids": [],
+    "catalysts": [],
+    "duration": 400,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "macerator",
+    "id": "gtceu:ae2/material/skystone_dust_block",
+    "inputs": [
+      {
+        "item": "ae2:sky_stone_block",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "prefix": "dust",
+        "material": "skystone",
+        "count": 1
+      }
+    ],
+    "fluids": [],
+    "catalysts": [],
+    "duration": 40,
+    "EUt": 8
+  },
+  {
+    "group": "ae2",
+    "type": "macerator",
+    "id": "gtceu:ae2/material/skystone_dust_block_smooth",
+    "inputs": [
+      {
+        "item": "ae2:smooth_sky_stone_block",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "prefix": "dust",
+        "material": "skystone",
+        "count": 1
+      }
+    ],
+    "fluids": [],
+    "catalysts": [],
+    "duration": 40,
+    "EUt": 8
+  },
+  {
+    "group": "ae2",
+    "type": "mixer",
+    "id": "gtceu:ae2/material/fluix_crystal",
+    "inputs": [
+      {
+        "prefix": "dust",
+        "material": "nether_quartz",
+        "count": 1
+      },
+      {
+        "prefix": "dust",
+        "material": "certus_quartz",
+        "count": 1
+      },
+      {
+        "prefix": "dust",
+        "material": "redstone",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:fluix_crystal",
+        "count": 2
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "water",
+        "amount": 200
+      }
+    ],
+    "catalysts": [],
+    "duration": 120,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "mixer",
+    "id": "gtceu:ae2/material/fluix_pearl",
+    "inputs": [
+      {
+        "prefix": "gem",
+        "material": "ender_pearl",
+        "count": 1
+      },
+      {
+        "prefix": "dust",
+        "material": "fluix",
+        "count": 2
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:fluix_pearl",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "helium",
+        "amount": 30
+      }
+    ],
+    "catalysts": [],
+    "duration": 120,
+    "EUt": 128
+  },
+  {
+    "group": "ae2",
+    "type": "mixer",
+    "id": "gtceu:ae2/network/cables/covered_fluix_clean",
+    "inputs": [
+      {
+        "item": "#ae2:covered_cable",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:fluix_covered_cable",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "water",
+        "amount": 100
+      }
+    ],
+    "catalysts": [],
+    "duration": 60,
+    "EUt": 32
+  },
+  {
+    "group": "ae2",
+    "type": "mixer",
+    "id": "gtceu:ae2/network/cables/dence_smart_fluix_clean",
+    "inputs": [
+      {
+        "item": "#ae2:smart_dense_cable",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:fluix_smart_dense_cable",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "water",
+        "amount": 100
+      }
+    ],
+    "catalysts": [],
+    "duration": 60,
+    "EUt": 32
+  },
+  {
+    "group": "ae2",
+    "type": "mixer",
+    "id": "gtceu:ae2/network/cables/dense_covered_fluix_clean",
+    "inputs": [
+      {
+        "item": "#ae2:covered_dense_cable",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:fluix_covered_dense_cable",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "water",
+        "amount": 100
+      }
+    ],
+    "catalysts": [],
+    "duration": 60,
+    "EUt": 32
+  },
+  {
+    "group": "ae2",
+    "type": "mixer",
+    "id": "gtceu:ae2/network/cables/glass_fluix_clean",
+    "inputs": [
+      {
+        "item": "#ae2:glass_cable",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:fluix_glass_cable",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "water",
+        "amount": 100
+      }
+    ],
+    "catalysts": [],
+    "duration": 60,
+    "EUt": 32
+  },
+  {
+    "group": "ae2",
+    "type": "mixer",
+    "id": "gtceu:ae2/network/cables/smart_fluix_clean",
+    "inputs": [
+      {
+        "item": "#ae2:smart_cable",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "ae2:fluix_smart_cable",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluidMaterial": "water",
+        "amount": 100
+      }
+    ],
+    "catalysts": [],
+    "duration": 60,
+    "EUt": 32
+  },
+  {
+    "group": "ae2",
+    "type": "shaped",
+    "id": "otg:ae2/decorative/cut_quartz_block",
+    "output": {
+      "item": "ae2:cut_quartz_block",
+      "count": 4
+    },
+    "pattern": [
+      "AA",
+      "AA"
+    ],
+    "key": {
+      "A": {
+        "prefix": "block",
+        "material": "certus_quartz",
+        "count": 1
+      }
+    }
+  },
+  {
+    "group": "ae2",
+    "type": "shaped",
+    "id": "otg:ae2/network/advanced_card",
+    "output": {
+      "item": "ae2:advanced_card",
+      "count": 2
+    },
+    "pattern": [
+      "AB ",
+      "CDB",
+      "AB "
+    ],
+    "key": {
+      "A": {
+        "prefix": "plate",
+        "material": "diamond",
+        "count": 1
+      },
+      "B": {
+        "prefix": "plate",
+        "material": "aluminium",
+        "count": 1
+      },
+      "C": {
+        "prefix": "dust",
+        "material": "redstone",
+        "count": 1
+      },
+      "D": {
+        "item": "ae2:calculation_processor",
+        "count": 1
+      }
+    }
+  },
+  {
+    "group": "ae2",
+    "type": "shaped",
+    "id": "otg:ae2/network/annihilation_plane",
+    "output": {
+      "item": "ae2:annihilation_plane",
+      "count": 1
+    },
+    "pattern": [
+      "AB",
+      "CB",
+      "AB"
+    ],
+    "key": {
+      "A": {
+        "prefix": "plate",
+        "material": "aluminium",
+        "count": 1
+      },
+      "B": {
+        "prefix": "gem",
+        "material": "fluix",
+        "count": 1
+      },
+      "C": {
+        "item": "ae2:annihilation_core",
+        "count": 1
+      }
+    }
+  },
+  {
+    "group": "ae2",
+    "type": "shaped",
+    "id": "otg:ae2/network/basic_card",
+    "output": {
+      "item": "ae2:basic_card",
+      "count": 2
+    },
+    "pattern": [
+      "AB ",
+      "CDB",
+      "AB "
+    ],
+    "key": {
+      "A": {
+        "prefix": "plate",
+        "material": "gold",
+        "count": 1
+      },
+      "B": {
+        "prefix": "plate",
+        "material": "aluminium",
+        "count": 1
+      },
+      "C": {
+        "prefix": "dust",
+        "material": "redstone",
+        "count": 1
+      },
+      "D": {
+        "item": "ae2:calculation_processor",
+        "count": 1
+      }
+    }
+  },
+  {
+    "group": "ae2",
+    "type": "shaped",
+    "id": "otg:ae2/network/blank_pattern",
+    "output": {
+      "item": "ae2:blank_pattern",
+      "count": 8
+    },
+    "pattern": [
+      "AAA",
+      "BCB",
+      "BBB"
+    ],
+    "key": {
+      "A": {
+        "prefix": "wireFine",
+        "material": "silver",
+        "count": 1
+      },
+      "B": {
+        "prefix": "plate",
+        "material": "polyethylene",
+        "count": 1
+      },
+      "C": {
+        "item": "#gtceu:circuits/mv",
+        "count": 1
+      }
+    }
+  },
+  {
+    "group": "ae2",
+    "type": "shaped",
+    "id": "otg:ae2/network/cell_workbench",
+    "output": {
+      "item": "ae2:cell_workbench",
+      "count": 1
+    },
+    "pattern": [
+      "ABE",
+      "CDC",
+      "CCC"
+    ],
+    "key": {
+      "A": {
+        "item": "ae2:formation_core",
+        "count": 1
+      },
+      "B": {
+        "item": "ae2:calculation_processor",
+        "count": 1
+      },
+      "C": {
+        "prefix": "plate",
+        "material": "aluminium",
+        "count": 1
+      },
+      "D": {
+        "item": "#forge:chests/wooden",
+        "count": 1
+      },
+      "E": {
+        "item": "ae2:annihilation_core",
+        "count": 1
+      }
+    }
+  },
+  {
+    "group": "ae2",
+    "type": "shaped",
+    "id": "otg:ae2/network/chest",
+    "output": {
+      "item": "ae2:chest",
+      "count": 1
+    },
+    "pattern": [
+      "ABA",
+      "C C",
+      "DED"
+    ],
+    "key": {
+      "A": {
+        "item": "ae2:quartz_glass",
+        "count": 1
+      },
+      "B": {
+        "item": "ae2:terminal",
+        "count": 1
+      },
+      "C": {
+        "item": "#ae2:glass_cable",
+        "count": 1
+      },
+      "D": {
+        "prefix": "plate",
+        "material": "aluminium",
+        "count": 1
+      },
+      "E": {
+        "prefix": "wireFine",
+        "material": "annealed_copper",
+        "count": 1
+      }
+    }
+  },
+  {
+    "group": "ae2",
+    "type": "shaped",
+    "id": "otg:ae2/network/condenser",
+    "output": {
+      "item": "ae2:condenser",
+      "count": 1
+    },
+    "pattern": [
+      "ABA",
+      "BCB",
+      "ABA"
+    ],
+    "key": {
+      "A": {
+        "prefix": "plate",
+        "material": "stainless_steel",
+        "count": 1
+      },
+      "B": {
+        "item": "gtceu:hv_electric_piston",
+        "count": 1
+      },
+      "C": {
+        "prefix": "block",
+        "material": "aluminium",
+        "count": 1
+      }
+    }
+  },
+  {
+    "group": "ae2",
+    "type": "shaped",
+    "id": "otg:ae2/network/crafting_terminal",
+    "output": {
+      "item": "ae2:crafting_terminal",
+      "count": 1
+    },
+    "pattern": [
+      "ADA",
+      "BCB",
+      "ABA"
+    ],
+    "key": {
+      "A": {
+        "prefix": "screw",
+        "material": "aluminium",
+        "count": 1
+      },
+      "B": {
+        "prefix": "plate",
+        "material": "aluminium",
+        "count": 1
+      },
+      "C": {
+        "item": "minecraft:crafting_table",
+        "count": 1
+      },
+      "D": {
+        "item": "ae2:terminal",
+        "count": 1
+      }
+    }
+  },
+  {
+    "group": "ae2",
+    "type": "shaped",
+    "id": "otg:ae2/network/energy_acceptor",
+    "output": {
+      "item": "ae2:energy_acceptor",
+      "count": 1
+    },
+    "pattern": [
+      "ABA",
+      "BCB",
+      "ABA"
+    ],
+    "key": {
+      "A": {
+        "prefix": "plate",
+        "material": "aluminium",
+        "count": 1
+      },
+      "B": {
+        "item": "ae2:quartz_glass",
+        "count": 1
+      },
+      "C": {
+        "item": "#gtceu:circuits/mv",
+        "count": 1
+      }
+    }
+  },
+  {
+    "group": "ae2",
+    "type": "shaped",
+    "id": "otg:ae2/network/energy_level_emitter",
+    "output": {
+      "item": "ae2:energy_level_emitter",
+      "count": 1
+    },
+    "pattern": [
+      "AB",
+      "CD"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:redstone_torch",
+        "count": 1
+      },
+      "B": {
+        "prefix": "plate",
+        "material": "certus_quartz",
+        "count": 1
+      },
+      "C": {
+        "item": "ae2:calculation_processor",
+        "count": 1
+      },
+      "D": {
+        "prefix": "rod",
+        "material": "aluminium",
+        "count": 1
+      }
+    }
+  },
+  {
+    "group": "ae2",
+    "type": "shaped",
+    "id": "otg:ae2/network/export_bus",
+    "output": {
+      "item": "ae2:export_bus",
+      "count": 1
+    },
+    "pattern": [
+      "   ",
+      "BAB",
+      " C "
+    ],
+    "key": {
+      "A": {
+        "item": "ae2:formation_core",
+        "count": 1
+      },
+      "B": {
+        "prefix": "plate",
+        "material": "aluminium",
+        "count": 1
+      },
+      "C": {
+        "item": "gtceu:mv_electric_piston",
+        "count": 1
+      }
+    }
+  },
+  {
+    "group": "ae2",
+    "type": "shaped",
+    "id": "otg:ae2/network/fluid_cell_housing",
+    "output": {
+      "item": "ae2:fluid_cell_housing",
+      "count": 1
+    },
+    "pattern": [
+      "ABA",
+      "BDB",
+      "CCC"
+    ],
+    "key": {
+      "A": {
+        "item": "ae2:quartz_glass",
+        "count": 1
+      },
+      "B": {
+        "prefix": "dust",
+        "material": "redstone",
+        "count": 1
+      },
+      "C": {
+        "prefix": "plate",
+        "material": "aluminium",
+        "count": 1
+      },
+      "D": {
+        "item": "gtceu:fluid_cell",
+        "count": 1
+      }
+    }
+  },
+  {
+    "group": "ae2",
+    "type": "shaped",
+    "id": "otg:ae2/network/formation_plane",
+    "output": {
+      "item": "ae2:formation_plane",
+      "count": 1
+    },
+    "pattern": [
+      "AB",
+      "CB",
+      "AB"
+    ],
+    "key": {
+      "A": {
+        "prefix": "plate",
+        "material": "aluminium",
+        "count": 1
+      },
+      "B": {
+        "prefix": "gem",
+        "material": "fluix",
+        "count": 1
+      },
+      "C": {
+        "item": "ae2:formation_core",
+        "count": 1
+      }
+    }
+  },
+  {
+    "group": "ae2",
+    "type": "shaped",
+    "id": "otg:ae2/network/import_bus",
+    "output": {
+      "item": "ae2:import_bus",
+      "count": 1
+    },
+    "pattern": [
+      "   ",
+      " A ",
+      "BCB"
+    ],
+    "key": {
+      "A": {
+        "item": "ae2:annihilation_core",
+        "count": 1
+      },
+      "B": {
+        "prefix": "plate",
+        "material": "aluminium",
+        "count": 1
+      },
+      "C": {
+        "item": "gtceu:mv_electric_piston",
+        "count": 1
+      }
+    }
+  },
+  {
+    "group": "ae2",
+    "type": "shaped",
+    "id": "otg:ae2/network/io_port",
+    "output": {
+      "item": "ae2:io_port",
+      "count": 1
+    },
+    "pattern": [
+      "AAA",
+      "BCB",
+      "DED"
+    ],
+    "key": {
+      "A": {
+        "item": "ae2:quartz_glass",
+        "count": 1
+      },
+      "B": {
+        "item": "ae2:drive",
+        "count": 1
+      },
+      "C": {
+        "item": "#ae2:glass_cable",
+        "count": 1
+      },
+      "D": {
+        "prefix": "plate",
+        "material": "aluminium",
+        "count": 1
+      },
+      "E": {
+        "item": "ae2:logic_processor",
+        "count": 1
+      }
+    }
+  },
+  {
+    "group": "ae2",
+    "type": "shaped",
+    "id": "otg:ae2/network/item_cell_housing",
+    "output": {
+      "item": "ae2:item_cell_housing",
+      "count": 1
+    },
+    "pattern": [
+      "ABA",
+      "B B",
+      "CCC"
+    ],
+    "key": {
+      "A": {
+        "item": "ae2:quartz_glass",
+        "count": 1
+      },
+      "B": {
+        "prefix": "dust",
+        "material": "redstone",
+        "count": 1
+      },
+      "C": {
+        "prefix": "plate",
+        "material": "aluminium",
+        "count": 1
+      }
+    }
+  },
+  {
+    "group": "ae2",
+    "type": "shaped",
+    "id": "otg:ae2/network/level_emitter",
+    "output": {
+      "item": "ae2:level_emitter",
+      "count": 1
+    },
+    "pattern": [
+      "AB",
+      "CD"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:redstone_torch",
+        "count": 1
+      },
+      "B": {
+        "prefix": "plate",
+        "material": "nether_quartz",
+        "count": 1
+      },
+      "C": {
+        "item": "ae2:calculation_processor",
+        "count": 1
+      },
+      "D": {
+        "prefix": "rod",
+        "material": "aluminium",
+        "count": 1
+      }
+    }
+  },
+  {
+    "group": "ae2",
+    "type": "shaped",
+    "id": "otg:ae2/network/molecular_assembler",
+    "output": {
+      "item": "ae2:molecular_assembler",
+      "count": 1
+    },
+    "pattern": [
+      "ACA",
+      "B B",
+      "ADA"
+    ],
+    "key": {
+      "A": {
+        "prefix": "plate",
+        "material": "aluminium",
+        "count": 1
+      },
+      "B": {
+        "item": "ae2:quartz_glass",
+        "count": 1
+      },
+      "C": {
+        "item": "ae2:annihilation_core",
+        "count": 1
+      },
+      "D": {
+        "item": "ae2:formation_core",
+        "count": 1
+      }
+    }
+  },
+  {
+    "group": "ae2",
+    "type": "shaped",
+    "id": "otg:ae2/network/pattern_provider",
+    "output": {
+      "item": "ae2:pattern_provider",
+      "count": 1
+    },
+    "pattern": [
+      "ACA",
+      "B B",
+      "ADA"
+    ],
+    "key": {
+      "A": {
+        "prefix": "plate",
+        "material": "aluminium",
+        "count": 1
+      },
+      "B": {
+        "item": "minecraft:crafting_table",
+        "count": 1
+      },
+      "C": {
+        "item": "ae2:annihilation_core",
+        "count": 1
+      },
+      "D": {
+        "item": "ae2:formation_core",
+        "count": 1
+      }
+    }
+  },
+  {
+    "group": "ae2",
+    "type": "shaped",
+    "id": "otg:ae2/network/spatial_anchor",
+    "output": {
+      "item": "ae2:spatial_anchor",
+      "count": 1
+    },
+    "pattern": [
+      "AAA",
+      "BCB",
+      "DED"
+    ],
+    "key": {
+      "A": {
+        "item": "ae2:spatial_pylon",
+        "count": 1
+      },
+      "B": {
+        "item": "#ae2:glass_cable",
+        "count": 1
+      },
+      "C": {
+        "item": "ae2:spatial_cell_component_128",
+        "count": 1
+      },
+      "D": {
+        "prefix": "plate",
+        "material": "stainless_steel",
+        "count": 1
+      },
+      "E": {
+        "item": "ae2:engineering_processor",
+        "count": 1
+      }
+    }
+  },
+  {
+    "group": "ae2",
+    "type": "shaped",
+    "id": "otg:ae2/network/spatial_io_port",
+    "output": {
+      "item": "ae2:spatial_io_port",
+      "count": 1
+    },
+    "pattern": [
+      "AAA",
+      "BCB",
+      "DED"
+    ],
+    "key": {
+      "A": {
+        "item": "ae2:quartz_glass",
+        "count": 1
+      },
+      "B": {
+        "item": "#ae2:glass_cable",
+        "count": 1
+      },
+      "C": {
+        "item": "ae2:io_port",
+        "count": 1
+      },
+      "D": {
+        "prefix": "plate",
+        "material": "aluminium",
+        "count": 1
+      },
+      "E": {
+        "item": "ae2:logic_processor",
+        "count": 1
+      }
+    }
+  },
+  {
+    "group": "ae2",
+    "type": "shaped",
+    "id": "otg:ae2/network/spatial_pylon",
+    "output": {
+      "item": "ae2:spatial_pylon",
+      "count": 1
+    },
+    "pattern": [
+      "ABA",
+      "CDC",
+      "ABA"
+    ],
+    "key": {
+      "A": {
+        "prefix": "plate",
+        "material": "stainless_steel",
+        "count": 1
+      },
+      "B": {
+        "item": "#ae2:glass_cable",
+        "count": 1
+      },
+      "C": {
+        "prefix": "dust",
+        "material": "fluix",
+        "count": 1
+      },
+      "D": {
+        "prefix": "gem",
+        "material": "fluix",
+        "count": 1
+      }
+    }
+  },
+  {
+    "group": "ae2",
+    "type": "shaped",
+    "id": "otg:ae2/network/storage_bus",
+    "output": {
+      "item": "ae2:storage_bus",
+      "count": 1
+    },
+    "pattern": [
+      " A ",
+      "BCB",
+      " D "
+    ],
+    "key": {
+      "A": {
+        "item": "gtceu:mv_conveyor_module",
+        "count": 1
+      },
+      "B": {
+        "prefix": "plate",
+        "material": "certus_quartz",
+        "count": 1
+      },
+      "C": {
+        "item": "#ae2:interface",
+        "count": 1
+      },
+      "D": {
+        "item": "gtceu:mv_electric_piston",
+        "count": 1
+      }
+    }
+  },
+  {
+    "group": "ae2",
+    "type": "shaped",
+    "id": "otg:ae2/network/view_cell",
+    "output": {
+      "item": "ae2:view_cell",
+      "count": 1
+    },
+    "pattern": [
+      "ABA",
+      "BDB",
+      "CCC"
+    ],
+    "key": {
+      "A": {
+        "item": "ae2:quartz_glass",
+        "count": 1
+      },
+      "B": {
+        "prefix": "dust",
+        "material": "redstone",
+        "count": 1
+      },
+      "C": {
+        "prefix": "plate",
+        "material": "aluminium",
+        "count": 1
+      },
+      "D": {
+        "item": "#gtceu:circuits/mv",
+        "count": 1
+      }
+    }
+  },
+  {
+    "group": "ae2",
+    "type": "shaped",
+    "id": "otg:ae2/network/wireless_access_point",
+    "output": {
+      "item": "ae2:wireless_access_point",
+      "count": 1
+    },
+    "pattern": [
+      " A ",
+      "BCB",
+      " D "
+    ],
+    "key": {
+      "A": {
+        "item": "ae2:wireless_receiver",
+        "count": 1
+      },
+      "B": {
+        "prefix": "screw",
+        "material": "stainless_steel",
+        "count": 1
+      },
+      "C": {
+        "item": "ae2:calculation_processor",
+        "count": 1
+      },
+      "D": {
+        "item": "#ae2:glass_cable",
+        "count": 1
+      }
+    }
+  },
+  {
+    "group": "ae2",
+    "type": "shaped",
+    "id": "otg:ae2/network/wireless_booster",
+    "output": {
+      "item": "ae2:wireless_booster",
+      "count": 1
+    },
+    "pattern": [
+      "ADA",
+      "BCB",
+      "ABA"
+    ],
+    "key": {
+      "A": {
+        "prefix": "plate",
+        "material": "stainless_steel",
+        "count": 1
+      },
+      "B": {
+        "prefix": "wireFine",
+        "material": "red_alloy",
+        "count": 1
+      },
+      "C": {
+        "item": "ae2:fluix_pearl",
+        "count": 1
+      },
+      "D": {
+        "item": "#gtceu:circuits/hv",
+        "count": 1
+      }
+    }
+  },
+  {
+    "group": "ae2",
+    "type": "shaped",
+    "id": "otg:ae2/network/wireless_receiver",
+    "output": {
+      "item": "ae2:wireless_receiver",
+      "count": 1
+    },
+    "pattern": [
+      " C ",
+      "BAB",
+      " B "
+    ],
+    "key": {
+      "A": {
+        "item": "ae2:fluix_pearl",
+        "count": 1
+      },
+      "B": {
+        "prefix": "plate",
+        "material": "stainless_steel",
+        "count": 1
+      },
+      "C": {
+        "item": "gtceu:hv_emitter",
+        "count": 1
+      }
+    }
+  },
+  {
+    "group": "ae2",
+    "type": "shaped",
+    "id": "otg:ae2/tools/color_applicator",
+    "output": {
+      "item": "ae2:color_applicator",
+      "count": 1
+    },
+    "pattern": [
+      "AB ",
+      "BC ",
+      "  D"
+    ],
+    "key": {
+      "A": {
+        "item": "ae2:formation_core",
+        "count": 1
+      },
+      "B": {
+        "prefix": "rod",
+        "material": "aluminium",
+        "count": 1
+      },
+      "C": {
+        "item": "ae2:cell_component_4k",
+        "count": 1
+      },
+      "D": {
+        "item": "ae2:energy_cell",
+        "count": 1
+      }
+    }
+  },
+  {
+    "group": "ae2",
+    "type": "shaped",
+    "id": "otg:ae2/tools/matter_cannon",
+    "output": {
+      "item": "ae2:matter_cannon",
+      "count": 1
+    },
+    "pattern": [
+      "AAB",
+      "CD ",
+      "A  "
+    ],
+    "key": {
+      "A": {
+        "prefix": "plate",
+        "material": "aluminium",
+        "count": 1
+      },
+      "B": {
+        "item": "ae2:formation_core",
+        "count": 1
+      },
+      "C": {
+        "item": "ae2:cell_component_4k",
+        "count": 1
+      },
+      "D": {
+        "item": "ae2:energy_cell",
+        "count": 1
+      }
+    }
+  },
+  {
+    "group": "ae2",
+    "type": "shaped",
+    "id": "otg:ae2/tools/memory_card",
+    "output": {
+      "item": "ae2:memory_card",
+      "count": 1
+    },
+    "pattern": [
+      "ABB",
+      "CDC"
+    ],
+    "key": {
+      "A": {
+        "item": "ae2:calculation_processor",
+        "count": 1
+      },
+      "B": {
+        "prefix": "plate",
+        "material": "aluminium",
+        "count": 1
+      },
+      "C": {
+        "prefix": "plate",
+        "material": "gold",
+        "count": 1
+      },
+      "D": {
+        "item": "#gtceu:circuits/mv",
+        "count": 1
+      }
+    }
+  },
+  {
+    "group": "ae2",
+    "type": "shaped",
+    "id": "otg:ae2/network/covered_dense_cable",
+    "output": {
+      "item": "ae2:fluix_covered_dense_cable",
+      "count": 1
+    },
+    "pattern": [
+      "AA",
+      "AA"
+    ],
+    "key": {
+      "A": {
+        "item": "ae2:fluix_covered_cable",
+        "count": 1
+      }
+    }
+  },
+  {
+    "group": "ae2",
+    "type": "shapeless",
+    "id": "otg:ae2/network/cable/fluix_smart_cable",
+    "output": {
+      "item": "ae2:fluix_smart_cable",
+      "count": 1
+    },
+    "inputs": [
+      {
+        "item": "ae2:fluix_covered_cable",
+        "count": 1
+      },
+      {
+        "prefix": "dust",
+        "material": "redstone",
+        "count": 1
+      },
+      {
+        "prefix": "dust",
+        "material": "glowstone",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "group": "ae2",
+    "type": "shapeless",
+    "id": "otg:ae2/network/cable/fluix_dense_smart_cable",
+    "output": {
+      "item": "ae2:fluix_smart_dense_cable",
+      "count": 1
+    },
+    "inputs": [
+      {
+        "item": "ae2:fluix_covered_dense_cable",
+        "count": 1
+      },
+      {
+        "prefix": "dust",
+        "material": "redstone",
+        "count": 1
+      },
+      {
+        "prefix": "dust",
+        "material": "glowstone",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "group": "ae2",
+    "type": "shapeless",
+    "id": "otg:ae2/network/card/capacity_card",
+    "output": {
+      "item": "ae2:capacity_card",
+      "count": 1
+    },
+    "inputs": [
+      {
+        "item": "ae2:basic_card",
+        "count": 1
+      },
+      {
+        "prefix": "plate",
+        "material": "certus_quartz",
+        "count": 1
+      },
+      {
+        "item": "ae2:cell_component_1k",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "group": "ae2",
+    "type": "shapeless",
+    "id": "otg:ae2/network/card/crafting_card",
+    "output": {
+      "item": "ae2:crafting_card",
+      "count": 1
+    },
+    "inputs": [
+      {
+        "item": "ae2:basic_card",
+        "count": 1
+      },
+      {
+        "item": "minecraft:crafting_table",
+        "count": 1
+      },
+      {
+        "item": "ae2:cell_component_1k",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "group": "ae2",
+    "type": "shapeless",
+    "id": "otg:ae2/network/card/equal_distribution_card",
+    "output": {
+      "item": "ae2:equal_distribution_card",
+      "count": 1
+    },
+    "inputs": [
+      {
+        "item": "ae2:advanced_card",
+        "count": 1
+      },
+      {
+        "item": "#gtceu:circuits/mv",
+        "count": 1
+      },
+      {
+        "item": "ae2:calculation_processor",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "group": "ae2",
+    "type": "shapeless",
+    "id": "otg:ae2/network/card/fuzzy_card",
+    "output": {
+      "item": "ae2:fuzzy_card",
+      "count": 1
+    },
+    "inputs": [
+      {
+        "item": "ae2:advanced_card",
+        "count": 1
+      },
+      {
+        "item": "ae2:logic_processor",
+        "count": 1
+      },
+      {
+        "item": "ae2:engineering_processor",
+        "count": 1
+      },
+      {
+        "item": "ae2:calculation_processor",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "group": "ae2",
+    "type": "shapeless",
+    "id": "otg:ae2/network/card/inverter_card",
+    "output": {
+      "item": "ae2:inverter_card",
+      "count": 1
+    },
+    "inputs": [
+      {
+        "item": "ae2:advanced_card",
+        "count": 1
+      },
+      {
+        "item": "ae2:calculation_processor",
+        "count": 1
+      },
+      {
+        "item": "minecraft:redstone_torch",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "group": "ae2",
+    "type": "shapeless",
+    "id": "otg:ae2/network/card/redstone_card",
+    "output": {
+      "item": "ae2:redstone_card",
+      "count": 1
+    },
+    "inputs": [
+      {
+        "item": "ae2:basic_card",
+        "count": 1
+      },
+      {
+        "item": "ae2:calculation_processor",
+        "count": 1
+      },
+      {
+        "item": "minecraft:redstone_torch",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "group": "ae2",
+    "type": "shapeless",
+    "id": "otg:ae2/network/card/speed_card",
+    "output": {
+      "item": "ae2:speed_card",
+      "count": 1
+    },
+    "inputs": [
+      {
+        "item": "ae2:advanced_card",
+        "count": 1
+      },
+      {
+        "item": "ae2:logic_processor",
+        "count": 1
+      },
+      {
+        "item": "ae2:engineering_processor",
+        "count": 1
+      },
+      {
+        "prefix": "gem",
+        "material": "fluix",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "group": "ae2",
+    "type": "shapeless",
+    "id": "otg:ae2/network/card/void_card",
+    "output": {
+      "item": "ae2:void_card",
+      "count": 1
+    },
+    "inputs": [
+      {
+        "item": "ae2:basic_card",
+        "count": 1
+      },
+      {
+        "item": "#gtceu:circuits/mv",
+        "count": 1
+      },
+      {
+        "item": "ae2:calculation_processor",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "group": "ae2",
+    "type": "shapeless",
+    "id": "otg:ae2/network/fluid_cell_16k",
+    "output": {
+      "item": "ae2:fluid_storage_cell_16k",
+      "count": 1
+    },
+    "inputs": [
+      {
+        "item": "ae2:cell_component_16k",
+        "count": 1
+      },
+      {
+        "item": "ae2:fluid_cell_housing",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "group": "ae2",
+    "type": "shapeless",
+    "id": "otg:ae2/network/fluid_cell_1k",
+    "output": {
+      "item": "ae2:fluid_storage_cell_1k",
+      "count": 1
+    },
+    "inputs": [
+      {
+        "item": "ae2:cell_component_1k",
+        "count": 1
+      },
+      {
+        "item": "ae2:fluid_cell_housing",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "group": "ae2",
+    "type": "shapeless",
+    "id": "otg:ae2/network/fluid_cell_256k",
+    "output": {
+      "item": "ae2:fluid_storage_cell_256k",
+      "count": 1
+    },
+    "inputs": [
+      {
+        "item": "ae2:cell_component_256k",
+        "count": 1
+      },
+      {
+        "item": "ae2:fluid_cell_housing",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "group": "ae2",
+    "type": "shapeless",
+    "id": "otg:ae2/network/fluid_cell_4k",
+    "output": {
+      "item": "ae2:fluid_storage_cell_4k",
+      "count": 1
+    },
+    "inputs": [
+      {
+        "item": "ae2:cell_component_4k",
+        "count": 1
+      },
+      {
+        "item": "ae2:fluid_cell_housing",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "group": "ae2",
+    "type": "shapeless",
+    "id": "otg:ae2/network/fluid_cell_64k",
+    "output": {
+      "item": "ae2:fluid_storage_cell_64k",
+      "count": 1
+    },
+    "inputs": [
+      {
+        "item": "ae2:cell_component_64k",
+        "count": 1
+      },
+      {
+        "item": "ae2:fluid_cell_housing",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "group": "ae2",
+    "type": "shapeless",
+    "id": "otg:ae2/network/interface_block_from_part",
+    "output": {
+      "item": "ae2:interface",
+      "count": 1
+    },
+    "inputs": [
+      {
+        "item": "ae2:cable_interface",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "group": "ae2",
+    "type": "shapeless",
+    "id": "otg:ae2/network/interface_part_from_block",
+    "output": {
+      "item": "ae2:cable_interface",
+      "count": 1
+    },
+    "inputs": [
+      {
+        "item": "ae2:interface",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "group": "ae2",
+    "type": "shapeless",
+    "id": "otg:ae2/network/inverted_from_toggle_bus",
+    "output": {
+      "item": "ae2:inverted_toggle_bus",
+      "count": 1
+    },
+    "inputs": [
+      {
+        "item": "ae2:toggle_bus",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "group": "ae2",
+    "type": "shapeless",
+    "id": "otg:ae2/network/pattern_provider_block_from_part",
+    "output": {
+      "item": "ae2:pattern_provider",
+      "count": 1
+    },
+    "inputs": [
+      {
+        "item": "ae2:cable_pattern_provider",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "group": "ae2",
+    "type": "shapeless",
+    "id": "otg:ae2/network/pattern_provider_part_from_block",
+    "output": {
+      "item": "ae2:cable_pattern_provider",
+      "count": 1
+    },
+    "inputs": [
+      {
+        "item": "ae2:pattern_provider",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "group": "ae2",
+    "type": "shapeless",
+    "id": "otg:ae2/network/spatial_cell_128",
+    "output": {
+      "item": "ae2:spatial_storage_cell_128",
+      "count": 1
+    },
+    "inputs": [
+      {
+        "item": "ae2:spatial_cell_component_128",
+        "count": 1
+      },
+      {
+        "item": "ae2:item_cell_housing",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "group": "ae2",
+    "type": "shapeless",
+    "id": "otg:ae2/network/spatial_cell_16",
+    "output": {
+      "item": "ae2:spatial_storage_cell_16",
+      "count": 1
+    },
+    "inputs": [
+      {
+        "item": "ae2:spatial_cell_component_16",
+        "count": 1
+      },
+      {
+        "item": "ae2:item_cell_housing",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "group": "ae2",
+    "type": "shapeless",
+    "id": "otg:ae2/network/spatial_cell_2",
+    "output": {
+      "item": "ae2:spatial_storage_cell_2",
+      "count": 1
+    },
+    "inputs": [
+      {
+        "item": "ae2:spatial_cell_component_2",
+        "count": 1
+      },
+      {
+        "item": "ae2:item_cell_housing",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "group": "ae2",
+    "type": "shapeless",
+    "id": "otg:ae2/network/storage_cell_16k",
+    "output": {
+      "item": "ae2:item_storage_cell_16k",
+      "count": 1
+    },
+    "inputs": [
+      {
+        "item": "ae2:cell_component_16k",
+        "count": 1
+      },
+      {
+        "item": "ae2:item_cell_housing",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "group": "ae2",
+    "type": "shapeless",
+    "id": "otg:ae2/network/storage_cell_1k",
+    "output": {
+      "item": "ae2:item_storage_cell_1k",
+      "count": 1
+    },
+    "inputs": [
+      {
+        "item": "ae2:cell_component_1k",
+        "count": 1
+      },
+      {
+        "item": "ae2:item_cell_housing",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "group": "ae2",
+    "type": "shapeless",
+    "id": "otg:ae2/network/storage_cell_256k",
+    "output": {
+      "item": "ae2:item_storage_cell_256k",
+      "count": 1
+    },
+    "inputs": [
+      {
+        "item": "ae2:cell_component_256k",
+        "count": 1
+      },
+      {
+        "item": "ae2:item_cell_housing",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "group": "ae2",
+    "type": "shapeless",
+    "id": "otg:ae2/network/storage_cell_4k",
+    "output": {
+      "item": "ae2:item_storage_cell_4k",
+      "count": 1
+    },
+    "inputs": [
+      {
+        "item": "ae2:cell_component_4k",
+        "count": 1
+      },
+      {
+        "item": "ae2:item_cell_housing",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "group": "ae2",
+    "type": "shapeless",
+    "id": "otg:ae2/network/storage_cell_64k",
+    "output": {
+      "item": "ae2:item_storage_cell_64k",
+      "count": 1
+    },
+    "inputs": [
+      {
+        "item": "ae2:cell_component_64k",
+        "count": 1
+      },
+      {
+        "item": "ae2:item_cell_housing",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "group": "ae2",
+    "type": "shapeless",
+    "id": "otg:ae2/network/toggle_bus_from_inverted",
+    "output": {
+      "item": "ae2:toggle_bus",
+      "count": 1
+    },
+    "inputs": [
+      {
+        "item": "ae2:inverted_toggle_bus",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "group": "ae2",
+    "type": "shapeless",
+    "id": "otg:ae2/network/conversion_monitor",
+    "output": {
+      "item": "ae2:conversion_monitor",
+      "count": 1
+    },
+    "inputs": [
+      {
+        "item": "ae2:annihilation_core",
+        "count": 1
+      },
+      {
+        "item": "ae2:formation_core",
+        "count": 1
+      },
+      {
+        "item": "ae2:storage_monitor",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "group": "ae2",
+    "type": "shapeless",
+    "id": "otg:ae2/network/storage_monitor",
+    "output": {
+      "item": "ae2:storage_monitor",
+      "count": 1
+    },
+    "inputs": [
+      {
+        "item": "ae2:semi_dark_monitor",
+        "count": 1
+      },
+      {
+        "item": "ae2:toggle_bus",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "group": "industrialforegoing",
+    "type": "assembler",
+    "id": "gtceu:industrialforegoing/machine_frame_simple",
+    "inputs": [
+      {
+        "item": "industrialforegoing:machine_frame_pity",
+        "count": 1
+      },
+      {
+        "prefix": "plate",
+        "material": "polyethylene",
+        "count": 4
+      },
+      {
+        "prefix": "plate",
+        "material": "steel",
+        "count": 2
+      },
+      {
+        "prefix": "gear",
+        "material": "steel",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "industrialforegoing:machine_frame_simple",
+        "count": 1
+      }
+    ],
+    "fluids": [],
+    "catalysts": [],
+    "duration": 200,
+    "EUt": 32
+  },
+  {
+    "group": "industrialforegoing",
+    "type": "assembler",
+    "id": "gtceu:industrialforegoing/machine_frame_advanced",
+    "inputs": [
+      {
+        "item": "industrialforegoing:machine_frame_simple",
+        "count": 1
+      },
+      {
+        "prefix": "plate",
+        "material": "polyethylene",
+        "count": 4
+      },
+      {
+        "prefix": "plate",
+        "material": "aluminium",
+        "count": 2
+      },
+      {
+        "prefix": "gear",
+        "material": "gold",
+        "count": 1
+      },
+      {
+        "item": "minecraft:netherite_scrap",
+        "count": 2
+      }
+    ],
+    "outputs": [
+      {
+        "item": "industrialforegoing:machine_frame_advanced",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluid": "industrialforegoing:pink_slime",
+        "amount": 500
+      }
+    ],
+    "catalysts": [],
+    "duration": 200,
+    "EUt": 32
+  },
+  {
+    "group": "industrialforegoing",
+    "type": "assembler",
+    "id": "gtceu:industrialforegoing/machine_frame_supreme",
+    "inputs": [
+      {
+        "item": "industrialforegoing:machine_frame_advanced",
+        "count": 1
+      },
+      {
+        "prefix": "plate",
+        "material": "polyethylene",
+        "count": 2
+      },
+      {
+        "prefix": "plate",
+        "material": "stainless_steel",
+        "count": 2
+      },
+      {
+        "prefix": "gear",
+        "material": "diamond",
+        "count": 1
+      },
+      {
+        "item": "minecraft:netherite_ingot",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "industrialforegoing:machine_frame_supreme",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluid": "industrialforegoing:ether_gas",
+        "amount": 135
+      }
+    ],
+    "catalysts": [],
+    "duration": 200,
+    "EUt": 32
+  },
+  {
+    "group": "industrialforegoing",
+    "type": "fluid_solidifier",
+    "id": "gtceu:industrialforegoing/pink_slime_ball",
+    "inputs": [],
+    "outputs": [
+      {
+        "item": "industrialforegoing:pink_slime",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluid": "industrialforegoing:pink_slime",
+        "amount": 300
+      }
+    ],
+    "catalysts": [
+      {
+        "item": "gtceu:ball_casting_mold",
+        "count": 1
+      }
+    ],
+    "duration": 300,
+    "EUt": 32
+  },
+  {
+    "group": "industrialforegoing",
+    "type": "electric_blast_furnace",
+    "id": "gtceu:industrialforegoing/pink_slime_ingot",
+    "inputs": [
+      {
+        "prefix": "dust",
+        "material": "invar",
+        "count": 2
+      }
+    ],
+    "outputs": [
+      {
+        "item": "industrialforegoing:pink_slime_ingot",
+        "count": 1
+      }
+    ],
+    "fluids": [
+      {
+        "fluid": "industrialforegoing:pink_slime",
+        "amount": 1000
+      }
+    ],
+    "catalysts": [],
+    "duration": 1000,
+    "EUt": 128,
+    "blastFurnaceTemp": 2100
+  },
+  {
+    "group": "industrialforegoing",
+    "type": "shaped",
+    "id": "otg:industrialforegoing/pity_machine_frame",
+    "output": {
+      "item": "industrialforegoing:machine_frame_pity",
+      "count": 1
+    },
+    "pattern": [
+      "ABA",
+      "BCB",
+      "ABA"
+    ],
+    "key": {
+      "A": {
+        "item": "#minecraft:logs",
+        "count": 1
+      },
+      "B": {
+        "prefix": "plate",
+        "material": "stone",
+        "count": 1
+      },
+      "C": {
+        "item": "gtceu:ulv_machine_casing",
+        "count": 1
+      }
+    }
+  },
+  {
+    "group": "industrialforegoing",
+    "type": "shaped",
+    "id": "otg:industrialforegoing/plant_gatherer",
+    "output": {
+      "item": "industrialforegoing:plant_gatherer",
+      "count": 1
+    },
+    "pattern": [
+      "ABA",
+      "CDC",
+      "EFE"
+    ],
+    "key": {
+      "A": {
+        "prefix": "plate",
+        "material": "polyethylene",
+        "count": 1
+      },
+      "B": {
+        "item": "minecraft:iron_hoe",
+        "count": 1
+      },
+      "C": {
+        "item": "minecraft:iron_axe",
+        "count": 1
+      },
+      "D": {
+        "item": "industrialforegoing:machine_frame_pity",
+        "count": 1
+      },
+      "E": {
+        "prefix": "gear",
+        "material": "gold",
+        "count": 1
+      },
+      "F": {
+        "prefix": "dust",
+        "material": "redstone",
+        "count": 1
+      }
+    }
+  },
+  {
+    "group": "industrialforegoing",
+    "type": "shaped",
+    "id": "otg:industrialforegoing/wither_builder",
+    "output": {
+      "item": "industrialforegoing:wither_builder",
+      "count": 1
+    },
+    "pattern": [
+      "ABA",
+      "CDC",
+      "EEE"
+    ],
+    "key": {
+      "A": {
+        "prefix": "plate",
+        "material": "polyethylene",
+        "count": 1
+      },
+      "B": {
+        "prefix": "plate",
+        "material": "nether_star",
+        "count": 1
+      },
+      "C": {
+        "item": "minecraft:wither_skeleton_skull",
+        "count": 1
+      },
+      "D": {
+        "item": "industrialforegoing:machine_frame_supreme",
+        "count": 1
+      },
+      "E": {
+        "item": "minecraft:soul_sand",
+        "count": 1
+      }
+    }
+  },
+  {
+    "group": "enderio",
+    "type": "alloy_smelter",
+    "id": "otg:enderio/copper_alloy_ingot",
+    "inputs": [
+      {
+        "prefix": "ingot",
+        "material": "copper",
+        "count": 1
+      },
+      {
+        "prefix": "dust",
+        "material": "silicon",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "prefix": "ingot",
+        "material": "copper_alloy",
+        "count": 1
+      }
+    ],
+    "fluids": [],
+    "catalysts": [],
+    "duration": 200,
+    "EUt": 32
+  },
+  {
+    "group": "enderio",
+    "type": "alloy_smelter",
+    "id": "gtceu:enderio/pulsating_alloy_ingot",
+    "inputs": [
+      {
+        "prefix": "ingot",
+        "material": "iron",
+        "count": 1
+      },
+      {
+        "prefix": "dust",
+        "material": "ender_pearl",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "prefix": "ingot",
+        "material": "pulsating_alloy",
+        "count": 1
+      }
+    ],
+    "fluids": [],
+    "catalysts": [],
+    "duration": 200,
+    "EUt": 32
+  },
+  {
+    "group": "enderio",
+    "type": "alloy_smelter",
+    "id": "gtceu:enderio/soularium_ingot",
+    "inputs": [
+      {
+        "prefix": "ingot",
+        "material": "gold",
+        "count": 1
+      },
+      {
+        "item": "minecraft:soul_sand",
+        "count": 2
+      }
+    ],
+    "outputs": [
+      {
+        "prefix": "ingot",
+        "material": "soularium",
+        "count": 1
+      }
+    ],
+    "fluids": [],
+    "catalysts": [],
+    "duration": 200,
+    "EUt": 32
+  },
+  {
+    "group": "enderio",
+    "type": "alloy_smelter",
+    "id": "gtceu:enderio/redstone_alloy_ingot",
+    "inputs": [
+      {
+        "prefix": "ingot",
+        "material": "iron",
+        "count": 1
+      },
+      {
+        "prefix": "dust",
+        "material": "redstone",
+        "count": 2
+      }
+    ],
+    "outputs": [
+      {
+        "prefix": "ingot",
+        "material": "redstone_alloy",
+        "count": 1
+      }
+    ],
+    "fluids": [],
+    "catalysts": [],
+    "duration": 200,
+    "EUt": 32
+  },
+  {
+    "group": "enderio",
+    "type": "electric_blast_furnace",
+    "id": "gtceu:enderio/energetic_alloy_ingot",
+    "inputs": [
+      {
+        "prefix": "ingot",
+        "material": "gold",
+        "count": 1
+      },
+      {
+        "prefix": "dust",
+        "material": "redstone",
+        "count": 1
+      },
+      {
+        "prefix": "dust",
+        "material": "glowstone",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "prefix": "ingot",
+        "material": "energetic_alloy",
+        "count": 1
+      }
+    ],
+    "fluids": [],
+    "catalysts": [],
+    "duration": 1000,
+    "EUt": 128,
+    "blastFurnaceTemp": 1800
+  },
+  {
+    "group": "enderio",
+    "type": "mixer",
+    "id": "gtceu:enderio/conductive_alloy_dust",
+    "inputs": [
+      {
+        "prefix": "dust",
+        "material": "copper_alloy",
+        "count": 1
+      },
+      {
+        "prefix": "dust",
+        "material": "iron",
+        "count": 1
+      },
+      {
+        "prefix": "dust",
+        "material": "redstone",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "prefix": "dust",
+        "material": "conductive_alloy",
+        "count": 1
+      }
+    ],
+    "fluids": [],
+    "catalysts": [],
+    "duration": 200,
+    "EUt": 32
+  },
+  {
+    "group": "enderio",
+    "type": "mixer",
+    "id": "gtceu:enderio/vibrant_alloy_dust",
+    "inputs": [
+      {
+        "prefix": "dust",
+        "material": "energetic_alloy",
+        "count": 1
+      },
+      {
+        "prefix": "dust",
+        "material": "ender_pearl",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "prefix": "dust",
+        "material": "vibrant_alloy",
+        "count": 1
+      }
+    ],
+    "fluids": [],
+    "catalysts": [],
+    "duration": 200,
+    "EUt": 128
+  },
+  {
+    "group": "enderio",
+    "type": "mixer",
+    "id": "gtceu:enderio/dark_steel_dust",
+    "inputs": [
+      {
+        "prefix": "dust",
+        "material": "obsidian",
+        "count": 4
+      },
+      {
+        "prefix": "dust",
+        "material": "carbon",
+        "count": 2
+      },
+      {
+        "prefix": "dust",
+        "material": "steel",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "prefix": "dust",
+        "material": "dark_steel",
+        "count": 1
+      }
+    ],
+    "fluids": [],
+    "catalysts": [],
+    "duration": 200,
+    "EUt": 128
+  },
+  {
+    "group": "enderio",
+    "type": "mixer",
+    "id": "gtceu:enderio/end_steel_dust",
+    "inputs": [
+      {
+        "prefix": "dust",
+        "material": "dark_steel",
+        "count": 1
+      },
+      {
+        "prefix": "dust",
+        "material": "endstone",
+        "count": 4
+      },
+      {
+        "prefix": "dust",
+        "material": "obsidian",
+        "count": 4
+      }
+    ],
+    "outputs": [
+      {
+        "prefix": "dust",
+        "material": "end_steel",
+        "count": 1
+      }
+    ],
+    "fluids": [],
+    "catalysts": [],
+    "duration": 200,
+    "EUt": 512
+  },
+  {
+    "group": "enderio",
+    "type": "macerator",
+    "id": "gtceu:enderio/grains_of_prescience",
+    "inputs": [
+      {
+        "item": "enderio:prescient_crystal",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "enderio:prescient_powder",
+        "count": 1
+      }
+    ],
+    "fluids": [],
+    "catalysts": [],
+    "duration": 100,
+    "EUt": 8
+  },
+  {
+    "group": "enderio",
+    "type": "macerator",
+    "id": "gtceu:enderio/grains_of_vibrancy",
+    "inputs": [
+      {
+        "item": "enderio:vibrant_crystal",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "enderio:vibrant_powder",
+        "count": 1
+      }
+    ],
+    "fluids": [],
+    "catalysts": [],
+    "duration": 100,
+    "EUt": 8
+  },
+  {
+    "group": "enderio",
+    "type": "macerator",
+    "id": "gtceu:enderio/grains_of_piezallity",
+    "inputs": [
+      {
+        "item": "enderio:pulsating_crystal",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "enderio:pulsating_powder",
+        "count": 1
+      }
+    ],
+    "fluids": [],
+    "catalysts": [],
+    "duration": 100,
+    "EUt": 8
+  },
+  {
+    "group": "enderio",
+    "type": "macerator",
+    "id": "gtceu:enderio/grains_of_ender",
+    "inputs": [
+      {
+        "item": "enderio:ender_crystal",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "enderio:ender_crystal_powder",
+        "count": 1
+      }
+    ],
+    "fluids": [],
+    "catalysts": [],
+    "duration": 100,
+    "EUt": 8
+  }
+]

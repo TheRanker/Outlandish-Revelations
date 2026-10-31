@@ -1,0 +1,16 @@
+{
+  "name": "Stock the parts you use repeatedly",
+  "category": "patchouli:chapter_03",
+  "icon": "minecraft:iron_pickaxe",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Once you can reliably make common components, keep a modest reserve. Plates, rods, wires and frequently used circuits appear in many projects.$(br2)Avoid processing every ingot into one shape just because a machine is free. Keep some material unprocessed so you can respond to a new recipe without reversing your work."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Ready to expand: you can find essential resources, identify your storage and repeat the basic processes without rebuilding them each time."
+    }
+  ]
+}

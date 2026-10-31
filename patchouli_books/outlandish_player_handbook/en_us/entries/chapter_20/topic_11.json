@@ -1,0 +1,12 @@
+{
+  "name": "A Door with a Code",
+  "category": "patchouli:chapter_20",
+  "icon": "minecraft:bricks",
+  "sortnum": 11,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Fit a Keypad Door where controlled access is useful. Set the code and test opening and closing it from both sides. Make sure your own movement and planned colony routes still work."
+    }
+  ]
+}

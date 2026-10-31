@@ -1,0 +1,12 @@
+{
+  "name": "The route through the pack",
+  "category": "patchouli:chapter_11",
+  "icon": "minecraft:ender_eye",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Your team’s Warden victory opens the Nether. Your team’s Wither victory opens the End. Entering the End opens Twilight Forest.$(br2)The Ender Dragon is an important encounter, but defeating it is not the requirement for Twilight access. Actual entry into the unlocked End is the step that matters."
+    }
+  ]
+}

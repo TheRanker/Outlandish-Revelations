@@ -1,0 +1,12 @@
+{
+  "name": "Establish a Supply Camp",
+  "category": "patchouli:chapter_19",
+  "icon": "minecraft:bell",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Prepare a Supply Camp and use its placement preview to choose a clear site. Check the footprint and access before confirming. The camp supplies a starting point for your colony. Keep your industrial workshop close enough to help, but outside the footprints of future colony buildings."
+    }
+  ]
+}

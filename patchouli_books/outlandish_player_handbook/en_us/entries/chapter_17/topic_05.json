@@ -1,0 +1,12 @@
+{
+  "name": "Choose Your View",
+  "category": "patchouli:chapter_17",
+  "icon": "minecraft:compass",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "This Forge pack uses Oculus for shader support. Open the shader-pack screen from Video Settings and choose an available compatible shader pack. Shaders are optional. Start with modest settings, then adjust shadows and effects until movement feels comfortable. You do not need to install Iris alongside Oculus."
+    }
+  ]
+}

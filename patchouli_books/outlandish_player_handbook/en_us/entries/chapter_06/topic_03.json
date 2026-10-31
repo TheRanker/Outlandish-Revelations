@@ -1,0 +1,12 @@
+{
+  "name": "Tip: An unlimited water source",
+  "category": "patchouli:chapter_06",
+  "icon": "minecraft:furnace",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The Cooking for Blockheads Sink provides unlimited water in this pack. Prepare its magnetic iron plates and Primitive Pump, then connect suitable fluid transport. Check that extraction works and that the pipes can keep up before heating your boilers."
+    }
+  ]
+}

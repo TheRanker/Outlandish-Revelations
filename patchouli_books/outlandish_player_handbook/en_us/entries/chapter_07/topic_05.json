@@ -1,0 +1,12 @@
+{
+  "name": "IV and beyond",
+  "category": "patchouli:chapter_07",
+  "icon": "minecraft:redstone",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "IV supports Wyvern equipment and further advanced manufacturing. Later Draconic projects lead through LuV, ZPM and UV, bringing increasingly demanding materials, equipment and processing.$(br2)At this point, a new tier should be a working section of your factory. Build the ability to repeat important recipes, replenish its inputs and handle its outputs."
+    }
+  ]
+}

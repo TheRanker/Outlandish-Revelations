@@ -1,0 +1,12 @@
+{
+  "name": "Food Within Reach",
+  "category": "patchouli:chapter_18",
+  "icon": "minecraft:chest",
+  "sortnum": 8,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A Feeding Upgrade uses food stored in the backpack. Keep suitable meals inside and check its settings. A full backpack of stone will not help when you are hungry."
+    }
+  ]
+}

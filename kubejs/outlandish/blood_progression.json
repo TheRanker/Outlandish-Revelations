@@ -1,0 +1,795 @@
+{
+  "items": [
+    {
+      "id": "stabilised_blood_reagent",
+      "name": "Stabilised Blood Reagent",
+      "texture": "bloodmagic:item/reagentbloodlight"
+    },
+    {
+      "id": "lv_blood_circuit_substrate",
+      "name": "LV Blood Circuit Substrate",
+      "texture": "bloodmagic:item/blankslate"
+    },
+    {
+      "id": "lv_infused_circuit_substrate",
+      "name": "LV Infused Circuit Substrate",
+      "texture": "bloodmagic:item/reinforcedslate"
+    },
+    {
+      "id": "lv_blood_infused_circuit",
+      "name": "LV Blood-Infused Circuit",
+      "texture": "minecraft:item/comparator"
+    },
+    {
+      "id": "lv_prepared_slate",
+      "name": "LV Prepared Slate",
+      "texture": "bloodmagic:item/blankslate"
+    },
+    {
+      "id": "lv_blood_orb_core",
+      "name": "LV Blood Orb Core",
+      "texture": "bloodmagic:item/apprenticebloodorb"
+    },
+    {
+      "id": "mv_blood_circuit_substrate",
+      "name": "MV Blood Circuit Substrate",
+      "texture": "bloodmagic:item/reinforcedslate"
+    },
+    {
+      "id": "mv_infused_circuit_substrate",
+      "name": "MV Infused Circuit Substrate",
+      "texture": "bloodmagic:item/infusedslate"
+    },
+    {
+      "id": "mv_blood_infused_circuit",
+      "name": "MV Blood-Infused Circuit",
+      "texture": "minecraft:item/comparator"
+    },
+    {
+      "id": "mv_prepared_slate",
+      "name": "MV Prepared Slate",
+      "texture": "bloodmagic:item/reinforcedslate"
+    },
+    {
+      "id": "mv_blood_orb_core",
+      "name": "MV Blood Orb Core",
+      "texture": "bloodmagic:item/magicianbloodorb"
+    },
+    {
+      "id": "hv_blood_circuit_substrate",
+      "name": "HV Blood Circuit Substrate",
+      "texture": "bloodmagic:item/infusedslate"
+    },
+    {
+      "id": "hv_infused_circuit_substrate",
+      "name": "HV Infused Circuit Substrate",
+      "texture": "bloodmagic:item/demonslate"
+    },
+    {
+      "id": "hv_blood_infused_circuit",
+      "name": "HV Blood-Infused Circuit",
+      "texture": "minecraft:item/comparator"
+    },
+    {
+      "id": "hv_prepared_slate",
+      "name": "HV Prepared Slate",
+      "texture": "bloodmagic:item/infusedslate"
+    },
+    {
+      "id": "hv_blood_orb_core",
+      "name": "HV Blood Orb Core",
+      "texture": "bloodmagic:item/masterbloodorb"
+    },
+    {
+      "id": "ev_blood_circuit_substrate",
+      "name": "EV Blood Circuit Substrate",
+      "texture": "bloodmagic:item/demonslate"
+    },
+    {
+      "id": "ev_infused_circuit_substrate",
+      "name": "EV Infused Circuit Substrate",
+      "texture": "bloodmagic:item/etherealslate"
+    },
+    {
+      "id": "ev_blood_infused_circuit",
+      "name": "EV Blood-Infused Circuit",
+      "texture": "minecraft:item/comparator"
+    },
+    {
+      "id": "ev_prepared_slate",
+      "name": "EV Prepared Slate",
+      "texture": "bloodmagic:item/demonslate"
+    },
+    {
+      "id": "ev_blood_orb_core",
+      "name": "EV Blood Orb Core",
+      "texture": "bloodmagic:item/archmagebloodorb"
+    },
+    {
+      "id": "ritual_control_core",
+      "name": "Ritual Control Core (MV)",
+      "texture": "bloodmagic:item/reagentaffinity"
+    },
+    {
+      "id": "dusk_ritual_control_core",
+      "name": "Dusk Ritual Control Core (HV)",
+      "texture": "bloodmagic:item/reagentvoid"
+    },
+    {
+      "id": "blood_chemical_catalyst",
+      "name": "Blood Chemical Catalyst (HV)",
+      "texture": "bloodmagic:item/reagentseverance"
+    }
+  ],
+  "gt": [
+    {
+      "id": "otg:blood/lv/substrate",
+      "machine": "assembler",
+      "inputs": [
+        "bloodmagic:blankslate",
+        "2x gtceu:steel_plate"
+      ],
+      "outputs": [
+        "4x kubejs:lv_blood_circuit_substrate"
+      ],
+      "EUt": 16,
+      "duration": 100,
+      "fluidInputs": [],
+      "circuit": 1
+    },
+    {
+      "id": "otg:blood/lv/circuit",
+      "machine": "assembler",
+      "inputs": [
+        "kubejs:lv_infused_circuit_substrate",
+        "#gtceu:circuits/lv",
+        "kubejs:stabilised_blood_reagent"
+      ],
+      "outputs": [
+        "kubejs:lv_blood_infused_circuit"
+      ],
+      "EUt": 16,
+      "duration": 100,
+      "fluidInputs": []
+    },
+    {
+      "id": "otg:blood/lv/prepare_slates",
+      "machine": "assembler",
+      "inputs": [
+        "8x bloodmagic:blankslate",
+        "gtceu:steel_plate"
+      ],
+      "outputs": [
+        "8x kubejs:lv_prepared_slate"
+      ],
+      "EUt": 16,
+      "duration": 100,
+      "fluidInputs": [],
+      "circuit": 2
+    },
+    {
+      "id": "otg:blood/lv/orb_core",
+      "machine": "assembler",
+      "inputs": [
+        "#forge:storage_blocks/redstone",
+        "kubejs:lv_blood_infused_circuit",
+        "bloodmagic:blankslate"
+      ],
+      "outputs": [
+        "kubejs:lv_blood_orb_core"
+      ],
+      "EUt": 16,
+      "duration": 200,
+      "fluidInputs": []
+    },
+    {
+      "id": "otg:blood/mv/substrate",
+      "machine": "assembler",
+      "inputs": [
+        "bloodmagic:reinforcedslate",
+        "2x gtceu:aluminium_plate"
+      ],
+      "outputs": [
+        "4x kubejs:mv_blood_circuit_substrate"
+      ],
+      "EUt": 64,
+      "duration": 100,
+      "fluidInputs": [],
+      "circuit": 1
+    },
+    {
+      "id": "otg:blood/mv/circuit",
+      "machine": "assembler",
+      "inputs": [
+        "kubejs:mv_infused_circuit_substrate",
+        "#gtceu:circuits/mv",
+        "kubejs:stabilised_blood_reagent"
+      ],
+      "outputs": [
+        "kubejs:mv_blood_infused_circuit"
+      ],
+      "EUt": 64,
+      "duration": 100,
+      "fluidInputs": []
+    },
+    {
+      "id": "otg:blood/mv/prepare_slates",
+      "machine": "assembler",
+      "inputs": [
+        "8x bloodmagic:reinforcedslate",
+        "gtceu:aluminium_plate"
+      ],
+      "outputs": [
+        "8x kubejs:mv_prepared_slate"
+      ],
+      "EUt": 64,
+      "duration": 100,
+      "fluidInputs": [],
+      "circuit": 2
+    },
+    {
+      "id": "otg:blood/mv/orb_core",
+      "machine": "assembler",
+      "inputs": [
+        "#forge:storage_blocks/gold",
+        "kubejs:mv_blood_infused_circuit",
+        "bloodmagic:reinforcedslate"
+      ],
+      "outputs": [
+        "kubejs:mv_blood_orb_core"
+      ],
+      "EUt": 64,
+      "duration": 200,
+      "fluidInputs": []
+    },
+    {
+      "id": "otg:blood/hv/substrate",
+      "machine": "assembler",
+      "inputs": [
+        "bloodmagic:infusedslate",
+        "2x gtceu:stainless_steel_plate"
+      ],
+      "outputs": [
+        "4x kubejs:hv_blood_circuit_substrate"
+      ],
+      "EUt": 256,
+      "duration": 100,
+      "fluidInputs": [],
+      "circuit": 1
+    },
+    {
+      "id": "otg:blood/hv/circuit",
+      "machine": "assembler",
+      "inputs": [
+        "kubejs:hv_infused_circuit_substrate",
+        "#gtceu:circuits/hv",
+        "kubejs:stabilised_blood_reagent"
+      ],
+      "outputs": [
+        "kubejs:hv_blood_infused_circuit"
+      ],
+      "EUt": 256,
+      "duration": 100,
+      "fluidInputs": []
+    },
+    {
+      "id": "otg:blood/hv/prepare_slates",
+      "machine": "assembler",
+      "inputs": [
+        "8x bloodmagic:infusedslate",
+        "gtceu:stainless_steel_plate"
+      ],
+      "outputs": [
+        "8x kubejs:hv_prepared_slate"
+      ],
+      "EUt": 256,
+      "duration": 100,
+      "fluidInputs": [],
+      "circuit": 2
+    },
+    {
+      "id": "otg:blood/hv/orb_core",
+      "machine": "assembler",
+      "inputs": [
+        "bloodmagic:weakbloodshard",
+        "kubejs:hv_blood_infused_circuit",
+        "bloodmagic:infusedslate"
+      ],
+      "outputs": [
+        "kubejs:hv_blood_orb_core"
+      ],
+      "EUt": 256,
+      "duration": 200,
+      "fluidInputs": []
+    },
+    {
+      "id": "otg:blood/ev/substrate",
+      "machine": "assembler",
+      "inputs": [
+        "bloodmagic:demonslate",
+        "2x gtceu:titanium_plate"
+      ],
+      "outputs": [
+        "4x kubejs:ev_blood_circuit_substrate"
+      ],
+      "EUt": 1024,
+      "duration": 100,
+      "fluidInputs": [],
+      "circuit": 1
+    },
+    {
+      "id": "otg:blood/ev/circuit",
+      "machine": "assembler",
+      "inputs": [
+        "kubejs:ev_infused_circuit_substrate",
+        "#gtceu:circuits/ev",
+        "kubejs:stabilised_blood_reagent"
+      ],
+      "outputs": [
+        "kubejs:ev_blood_infused_circuit"
+      ],
+      "EUt": 1024,
+      "duration": 100,
+      "fluidInputs": []
+    },
+    {
+      "id": "otg:blood/ev/prepare_slates",
+      "machine": "assembler",
+      "inputs": [
+        "8x bloodmagic:demonslate",
+        "gtceu:titanium_plate"
+      ],
+      "outputs": [
+        "8x kubejs:ev_prepared_slate"
+      ],
+      "EUt": 1024,
+      "duration": 100,
+      "fluidInputs": [],
+      "circuit": 2
+    },
+    {
+      "id": "otg:blood/ev/orb_core",
+      "machine": "assembler",
+      "inputs": [
+        "bloodmagic:dungeon_metal",
+        "kubejs:ev_blood_infused_circuit",
+        "bloodmagic:demonslate"
+      ],
+      "outputs": [
+        "kubejs:ev_blood_orb_core"
+      ],
+      "EUt": 1024,
+      "duration": 200,
+      "fluidInputs": []
+    },
+    {
+      "id": "otg:blood/ritual_control",
+      "machine": "assembler",
+      "inputs": [
+        "kubejs:mv_blood_infused_circuit",
+        "2x gtceu:aluminium_plate",
+        "2x bloodmagic:reinforcedslate",
+        "bloodmagic:ritualstone"
+      ],
+      "outputs": [
+        "kubejs:ritual_control_core"
+      ],
+      "EUt": 64,
+      "duration": 200,
+      "fluidInputs": []
+    },
+    {
+      "id": "otg:blood/dusk_control",
+      "machine": "assembler",
+      "inputs": [
+        "kubejs:hv_blood_infused_circuit",
+        "2x gtceu:stainless_steel_plate",
+        "2x bloodmagic:infusedslate"
+      ],
+      "outputs": [
+        "kubejs:dusk_ritual_control_core"
+      ],
+      "EUt": 256,
+      "duration": 200,
+      "fluidInputs": []
+    },
+    {
+      "id": "otg:blood/chemical_catalyst",
+      "machine": "chemical_reactor",
+      "inputs": [
+        "4x kubejs:stabilised_blood_reagent",
+        "bloodmagic:demonslate"
+      ],
+      "outputs": [
+        "16x kubejs:blood_chemical_catalyst"
+      ],
+      "EUt": 256,
+      "duration": 200,
+      "fluidInputs": [
+        {
+          "fluid": "bloodmagic:life_essence_fluid",
+          "amount": 1000
+        }
+      ]
+    },
+    {
+      "id": "otg:blood/iron/blood_crystallisation",
+      "machine": "chemical_reactor",
+      "inputs": [
+        "kubejs:iron_ore_shard",
+        "kubejs:blood_chemical_catalyst"
+      ],
+      "outputs": [
+        "kubejs:iron_ore_crystal"
+      ],
+      "EUt": 480,
+      "duration": 160,
+      "fluidInputs": [
+        {
+          "fluid": "minecraft:water",
+          "amount": 1000
+        }
+      ]
+    },
+    {
+      "id": "otg:blood/copper/blood_crystallisation",
+      "machine": "chemical_reactor",
+      "inputs": [
+        "kubejs:copper_ore_shard",
+        "kubejs:blood_chemical_catalyst"
+      ],
+      "outputs": [
+        "kubejs:copper_ore_crystal"
+      ],
+      "EUt": 480,
+      "duration": 160,
+      "fluidInputs": [
+        {
+          "fluid": "minecraft:water",
+          "amount": 1000
+        }
+      ]
+    },
+    {
+      "id": "otg:blood/gold/blood_crystallisation",
+      "machine": "chemical_reactor",
+      "inputs": [
+        "kubejs:gold_ore_shard",
+        "kubejs:blood_chemical_catalyst"
+      ],
+      "outputs": [
+        "kubejs:gold_ore_crystal"
+      ],
+      "EUt": 480,
+      "duration": 160,
+      "fluidInputs": [
+        {
+          "fluid": "minecraft:water",
+          "amount": 1000
+        }
+      ]
+    }
+  ],
+  "altar": [
+    {
+      "id": "otg:blood/stabilised_reagent",
+      "input": "minecraft:redstone",
+      "output": "4x kubejs:stabilised_blood_reagent",
+      "upgradeLevel": 0,
+      "altarSyphon": 1000,
+      "consumptionRate": 5,
+      "drainRate": 5
+    },
+    {
+      "id": "otg:blood/lv/infuse_substrate",
+      "input": "kubejs:lv_blood_circuit_substrate",
+      "output": "kubejs:lv_infused_circuit_substrate",
+      "upgradeLevel": 0,
+      "altarSyphon": 500,
+      "consumptionRate": 5,
+      "drainRate": 5
+    },
+    {
+      "id": "otg:blood/lv/slate",
+      "input": "kubejs:lv_prepared_slate",
+      "output": "bloodmagic:reinforcedslate",
+      "upgradeLevel": 1,
+      "altarSyphon": 2000,
+      "consumptionRate": 5,
+      "drainRate": 5
+    },
+    {
+      "id": "otg:blood/lv/orb",
+      "input": "kubejs:lv_blood_orb_core",
+      "output": "bloodmagic:apprenticebloodorb",
+      "upgradeLevel": 1,
+      "altarSyphon": 5000,
+      "consumptionRate": 5,
+      "drainRate": 5
+    },
+    {
+      "id": "otg:blood/mv/infuse_substrate",
+      "input": "kubejs:mv_blood_circuit_substrate",
+      "output": "kubejs:mv_infused_circuit_substrate",
+      "upgradeLevel": 1,
+      "altarSyphon": 1000,
+      "consumptionRate": 10,
+      "drainRate": 5
+    },
+    {
+      "id": "otg:blood/mv/slate",
+      "input": "kubejs:mv_prepared_slate",
+      "output": "bloodmagic:infusedslate",
+      "upgradeLevel": 2,
+      "altarSyphon": 5000,
+      "consumptionRate": 15,
+      "drainRate": 10
+    },
+    {
+      "id": "otg:blood/mv/orb",
+      "input": "kubejs:mv_blood_orb_core",
+      "output": "bloodmagic:magicianbloodorb",
+      "upgradeLevel": 2,
+      "altarSyphon": 25000,
+      "consumptionRate": 20,
+      "drainRate": 20
+    },
+    {
+      "id": "otg:blood/hv/infuse_substrate",
+      "input": "kubejs:hv_blood_circuit_substrate",
+      "output": "kubejs:hv_infused_circuit_substrate",
+      "upgradeLevel": 2,
+      "altarSyphon": 2000,
+      "consumptionRate": 15,
+      "drainRate": 5
+    },
+    {
+      "id": "otg:blood/hv/slate",
+      "input": "kubejs:hv_prepared_slate",
+      "output": "bloodmagic:demonslate",
+      "upgradeLevel": 3,
+      "altarSyphon": 15000,
+      "consumptionRate": 20,
+      "drainRate": 20
+    },
+    {
+      "id": "otg:blood/hv/orb",
+      "input": "kubejs:hv_blood_orb_core",
+      "output": "bloodmagic:masterbloodorb",
+      "upgradeLevel": 3,
+      "altarSyphon": 40000,
+      "consumptionRate": 30,
+      "drainRate": 50
+    },
+    {
+      "id": "otg:blood/ev/infuse_substrate",
+      "input": "kubejs:ev_blood_circuit_substrate",
+      "output": "kubejs:ev_infused_circuit_substrate",
+      "upgradeLevel": 3,
+      "altarSyphon": 4000,
+      "consumptionRate": 20,
+      "drainRate": 5
+    },
+    {
+      "id": "otg:blood/ev/slate",
+      "input": "kubejs:ev_prepared_slate",
+      "output": "bloodmagic:etherealslate",
+      "upgradeLevel": 4,
+      "altarSyphon": 30000,
+      "consumptionRate": 40,
+      "drainRate": 100
+    },
+    {
+      "id": "otg:blood/ev/orb",
+      "input": "kubejs:ev_blood_orb_core",
+      "output": "bloodmagic:archmagebloodorb",
+      "upgradeLevel": 4,
+      "altarSyphon": 80000,
+      "consumptionRate": 50,
+      "drainRate": 100
+    },
+    {
+      "id": "otg:blood/slate_ampoule",
+      "input": "bloodmagic:blankslate",
+      "output": "bloodmagic:slate_ampoule",
+      "upgradeLevel": 0,
+      "altarSyphon": 500,
+      "consumptionRate": 5,
+      "drainRate": 5
+    }
+  ],
+  "crafting": [
+    {
+      "id": "otg:blood/steam_altar",
+      "recipe": {
+        "type": "create:mechanical_crafting",
+        "pattern": [
+          "SPS",
+          "SFS",
+          "GEG"
+        ],
+        "key": {
+          "S": {
+            "tag": "forge:stone"
+          },
+          "P": {
+            "item": "create:precision_mechanism"
+          },
+          "F": {
+            "item": "minecraft:furnace"
+          },
+          "G": {
+            "tag": "forge:ingots/gold"
+          },
+          "E": {
+            "item": "create:steam_engine"
+          }
+        },
+        "result": {
+          "item": "bloodmagic:altar"
+        },
+        "acceptMirrored": true
+      }
+    },
+    {
+      "id": "otg:blood/master_ritual_stone",
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "category": "misc",
+        "key": {
+          "a": {
+            "tag": "forge:obsidian"
+          },
+          "b": {
+            "item": "bloodmagic:ritualstone"
+          },
+          "c": {
+            "type": "bloodmagic:bloodorb",
+            "orb_tier": 3
+          },
+          "k": {
+            "item": "kubejs:ritual_control_core"
+          }
+        },
+        "pattern": [
+          "aka",
+          "bcb",
+          "aba"
+        ],
+        "result": {
+          "item": "bloodmagic:masterritualstone"
+        },
+        "show_notification": true
+      }
+    },
+    {
+      "id": "otg:blood/dusk_diviner",
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "category": "misc",
+        "key": {
+          "S": {
+            "item": "bloodmagic:demonslate"
+          },
+          "d": {
+            "item": "bloodmagic:ritualdiviner"
+          },
+          "t": {
+            "item": "bloodmagic:duskscribetool"
+          },
+          "k": {
+            "item": "kubejs:dusk_ritual_control_core"
+          }
+        },
+        "pattern": [
+          "kS ",
+          "tdt",
+          " S "
+        ],
+        "result": {
+          "item": "bloodmagic:ritualdivinerdusk"
+        },
+        "show_notification": true
+      }
+    }
+  ],
+  "removeOutputs": [
+    "bloodmagic:reinforcedslate",
+    "bloodmagic:apprenticebloodorb",
+    "bloodmagic:infusedslate",
+    "bloodmagic:magicianbloodorb",
+    "bloodmagic:demonslate",
+    "bloodmagic:masterbloodorb",
+    "bloodmagic:etherealslate",
+    "bloodmagic:archmagebloodorb",
+    "bloodmagic:altar",
+    "bloodmagic:masterritualstone",
+    "bloodmagic:ritualdivinerdusk"
+  ],
+  "removedRecipes": [
+    "bloodmagic:altar/reinforcedslate",
+    "bloodmagic:altar/apprenticebloodorb",
+    "bloodmagic:altar/imbuedslate",
+    "bloodmagic:altar/magicianbloodorb",
+    "bloodmagic:altar/demonicslate",
+    "bloodmagic:altar/masterbloodorb",
+    "bloodmagic:altar/etherealslate",
+    "bloodmagic:altar/archmagebloodorb",
+    "bloodmagic:blood_altar",
+    "bloodmagic:ritual_stone_master",
+    "bloodmagic:ritual_diviner_1"
+  ],
+  "requiredItems": [
+    "bloodmagic:altar",
+    "bloodmagic:apprenticebloodorb",
+    "bloodmagic:archmagebloodorb",
+    "bloodmagic:blankslate",
+    "bloodmagic:demonslate",
+    "bloodmagic:dungeon_metal",
+    "bloodmagic:duskscribetool",
+    "bloodmagic:etherealslate",
+    "bloodmagic:infusedslate",
+    "bloodmagic:magicianbloodorb",
+    "bloodmagic:masterbloodorb",
+    "bloodmagic:masterritualstone",
+    "bloodmagic:reinforcedslate",
+    "bloodmagic:ritualdiviner",
+    "bloodmagic:ritualdivinerdusk",
+    "bloodmagic:ritualstone",
+    "bloodmagic:slate_ampoule",
+    "bloodmagic:weakbloodshard",
+    "create:precision_mechanism",
+    "create:steam_engine",
+    "gtceu:aluminium_plate",
+    "gtceu:stainless_steel_plate",
+    "gtceu:steel_plate",
+    "gtceu:titanium_plate",
+    "kubejs:blood_chemical_catalyst",
+    "kubejs:copper_ore_crystal",
+    "kubejs:copper_ore_shard",
+    "kubejs:dusk_ritual_control_core",
+    "kubejs:ev_blood_circuit_substrate",
+    "kubejs:ev_blood_infused_circuit",
+    "kubejs:ev_blood_orb_core",
+    "kubejs:ev_infused_circuit_substrate",
+    "kubejs:ev_prepared_slate",
+    "kubejs:gold_ore_crystal",
+    "kubejs:gold_ore_shard",
+    "kubejs:hv_blood_circuit_substrate",
+    "kubejs:hv_blood_infused_circuit",
+    "kubejs:hv_blood_orb_core",
+    "kubejs:hv_infused_circuit_substrate",
+    "kubejs:hv_prepared_slate",
+    "kubejs:iron_ore_crystal",
+    "kubejs:iron_ore_shard",
+    "kubejs:lv_blood_circuit_substrate",
+    "kubejs:lv_blood_infused_circuit",
+    "kubejs:lv_blood_orb_core",
+    "kubejs:lv_infused_circuit_substrate",
+    "kubejs:lv_prepared_slate",
+    "kubejs:mv_blood_circuit_substrate",
+    "kubejs:mv_blood_infused_circuit",
+    "kubejs:mv_blood_orb_core",
+    "kubejs:mv_infused_circuit_substrate",
+    "kubejs:mv_prepared_slate",
+    "kubejs:ritual_control_core",
+    "kubejs:stabilised_blood_reagent",
+    "minecraft:furnace",
+    "minecraft:redstone"
+  ],
+  "requiredTags": [
+    "forge:ingots/gold",
+    "forge:obsidian",
+    "forge:stone",
+    "forge:storage_blocks/gold",
+    "forge:storage_blocks/redstone",
+    "gtceu:circuits/ev",
+    "gtceu:circuits/hv",
+    "gtceu:circuits/lv",
+    "gtceu:circuits/mv"
+  ],
+  "requiredFluids": [
+    "bloodmagic:life_essence_fluid",
+    "minecraft:water"
+  ]
+}

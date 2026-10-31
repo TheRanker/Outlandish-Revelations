@@ -1,0 +1,20 @@
+{
+  "replace": false,
+  "values": [
+    "enderio:painted_fence",
+    "mcwfences:andesite_grass_topped_wall",
+    "mcwfences:blackstone_grass_topped_wall",
+    "mcwfences:deepslate_brick_grass_topped_wall",
+    "mcwfences:deepslate_grass_topped_wall",
+    "mcwfences:diorite_grass_topped_wall",
+    "mcwfences:end_brick_grass_topped_wall",
+    "mcwfences:granite_grass_topped_wall",
+    "mcwfences:mud_brick_grass_topped_wall",
+    "mcwfences:nether_brick_grass_topped_wall",
+    "mcwfences:prismarine_grass_topped_wall",
+    "mcwfences:quartz_grass_topped_wall",
+    "mcwfences:red_sandstone_grass_topped_wall",
+    "mcwfences:sandstone_grass_topped_wall",
+    "mcwfences:stone_grass_topped_wall"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Powering Your Machines",
+  "icon": "industrialforegoing:machine_frame_pity",
+  "category": "industrialforegoing:generators",
+  "sortnum": 3,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Industrial Foregoing machines use FE. Check the machine's energy display, then connect an available FE supply and suitable cables. Follow JEI to build the generators and connections available at your current stage."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Keep your GregTech EU network and your side-mod FE equipment in mind when planning your base. Match the power supply to the machine, and leave enough capacity for automation to run reliably."
+    }
+  ]
+}

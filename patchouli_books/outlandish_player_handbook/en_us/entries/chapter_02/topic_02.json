@@ -1,0 +1,16 @@
+{
+  "name": "Make a small project list",
+  "category": "patchouli:chapter_02",
+  "icon": "minecraft:book",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Divide a large craft into three groups:$(br2)Already available: parts you can take from storage.$(br2)Ready to produce: parts your existing workshop can make.$(br2)Needs a new process: parts that require another machine, material or expedition."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Start with the third group. Making stacks of easy components will not finish a project if one essential process is still missing."
+    }
+  ]
+}

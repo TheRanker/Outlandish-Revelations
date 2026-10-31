@@ -1,0 +1,16 @@
+{
+  "name": "Voltage, supply and demand",
+  "category": "patchouli:chapter_07",
+  "icon": "minecraft:redstone",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "GregTech uses EU for electrical energy. A machine’s voltage tier determines the recipes and power it can handle; a recipe’s EU/t describes its demand while running."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Check the generator, cables and receiving machine together. A suitable machine still needs enough power delivered through suitable connections. Higher voltage requires equipment designed to accept it.$(br2)When planning a network, consider the machines you will run at the same time. A setup that works for one machine may struggle when several start together."
+    }
+  ]
+}

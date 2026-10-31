@@ -1,0 +1,12 @@
+{
+  "name": "Put Your Dank to Work",
+  "category": "patchouli:chapter_18",
+  "icon": "minecraft:chest",
+  "sortnum": 18,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A Dock lets a Dank become part of a stationary storage setup. Place the Dank in the dock and test item insertion and extraction with your chosen transport. Keep a portable Dank for travel and a separate docked one for a busy production line."
+    }
+  ]
+}

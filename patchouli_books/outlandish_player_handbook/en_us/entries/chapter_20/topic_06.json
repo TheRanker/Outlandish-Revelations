@@ -1,0 +1,12 @@
+{
+  "name": "Move a Building Section",
+  "category": "patchouli:chapter_20",
+  "icon": "minecraft:bricks",
+  "sortnum": 6,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The Cut-Paste Gadget needs MV components, aluminium plates and an iron buzz saw blade. Plan both the source and destination before cutting. Start with a small empty structure and make sure the destination has enough room."
+    }
+  ]
+}

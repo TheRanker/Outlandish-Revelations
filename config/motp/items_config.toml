@@ -1,0 +1,4 @@
+
+["Items Settings"]
+	Items_list = ["[item]minecraft:diamond_sword[itemEnd][attribute]2[attributeEnd][level]10[levelEnd]  ", "[item]minecraft:diamond_pickaxe[itemEnd][attribute]2[attributeEnd][level]10[levelEnd]  ", "[item]minecraft:diamond_axe[itemEnd][attribute]2[attributeEnd][level]10[levelEnd]  ", "[item]minecraft:diamond_shovel[itemEnd][attribute]2[attributeEnd][level]10[levelEnd]  ", "[item]minecraft:diamond_hoe[itemEnd][attribute]2[attributeEnd][level]10[levelEnd]  ", "[item]minecraft:netherite_sword[itemEnd][attribute]2[attributeEnd][level]20[levelEnd]  ", "[item]minecraft:netherite_pickaxe[itemEnd][attribute]2[attributeEnd][level]20[levelEnd]  ", "[item]minecraft:netherite_axe[itemEnd][attribute]2[attributeEnd][level]20[levelEnd]  ", "[item]minecraft:netherite_shovel[itemEnd][attribute]2[attributeEnd][level]20[levelEnd]  ", "[item]minecraft:netherite_hoe[itemEnd][attribute]2[attributeEnd][level]20[levelEnd]  "]
+

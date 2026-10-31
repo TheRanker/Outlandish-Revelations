@@ -1,0 +1,19 @@
+{
+  "name": "Plastic Materials",
+  "icon": "gtceu:polyethylene_plate",
+  "category": "industrialforegoing:basics",
+  "sortnum": 4,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "gtceu:polyethylene_plate",
+      "link_recipe": false,
+      "text": "Prepare Polyethylene Plates through your GregTech chemical and material-processing chain. These plates are used in the pack's Industrial Foregoing machine frames and Plant Gatherer."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Start with the item you want in JEI and follow its recipe tree back through the materials. Check the required machine, fluid and voltage at each step before setting up production."
+    }
+  ]
+}

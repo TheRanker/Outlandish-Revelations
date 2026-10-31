@@ -1,0 +1,16 @@
+{
+  "name": "Mana and Machine Power",
+  "category": "botania:mana",
+  "icon": "botania:mana_pool",
+  "advancement": "botania:main/mana_pool_pickup_lexicon",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Use mana to power your Botania flowers, devices and rituals. Supply your GregTech machines through your steam and electrical power progression."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Plan space for both systems in your base. Mana Spreaders and Pools distribute mana; GregTech cables carry EU. Use JEI to check the power and materials needed by each machine."
+    }
+  ]
+}

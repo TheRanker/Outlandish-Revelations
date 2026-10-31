@@ -1,0 +1,12 @@
+{
+  "name": "Watch the Entrance",
+  "category": "patchouli:chapter_20",
+  "icon": "minecraft:bricks",
+  "sortnum": 12,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Place a Security Camera with a useful view of your entrance or workshop. Check its ownership and position before building a decorative surround. Cameras help you observe the area; they do not replace lighting or a secure entrance."
+    }
+  ]
+}

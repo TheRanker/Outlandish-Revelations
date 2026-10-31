@@ -1,0 +1,16 @@
+{
+  "name": "Reporting a problem clearly",
+  "category": "patchouli:chapter_16",
+  "icon": "minecraft:paper",
+  "sortnum": 6,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Record what you tried, what you expected and what happened. Include the item or machine name, the recipe you were using and the steps needed to repeat the issue."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Screenshots help with recipes, structures and visual problems. Logs help with errors and failed loading. A clear report makes it much easier to distinguish a broken interaction from a missed requirement.$(br2)Build something useful. Learn how it works. Give yourself room for the next project."
+    }
+  ]
+}

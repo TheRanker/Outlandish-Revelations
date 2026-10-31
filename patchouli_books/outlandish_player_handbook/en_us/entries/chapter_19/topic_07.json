@@ -1,0 +1,12 @@
+{
+  "name": "Grow a Reliable Supply",
+  "category": "patchouli:chapter_19",
+  "icon": "minecraft:bell",
+  "sortnum": 7,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Give your Farmer suitable fields, seeds and tools. Confirm that the worker can reach the fields and that harvested items have somewhere to go. Begin with crops you need frequently, then diversify as food production expands."
+    }
+  ]
+}

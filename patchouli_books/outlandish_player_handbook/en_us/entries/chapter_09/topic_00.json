@@ -1,0 +1,12 @@
+{
+  "name": "Give materials a home",
+  "category": "patchouli:chapter_09",
+  "icon": "minecraft:chest",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Early storage can be simple, provided it is understandable. Separate raw resources, processed materials, machine parts, tools and expedition supplies.$(br2)Keep current-project materials together. Reserve some common components for repairs and replacements instead of spending every piece on the next machine."
+    }
+  ]
+}

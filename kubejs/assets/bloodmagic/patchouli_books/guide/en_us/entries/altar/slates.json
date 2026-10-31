@@ -1,0 +1,36 @@
+{
+  "name": "Tiers of Slates",
+  "icon": "bloodmagic:blankslate",
+  "category": "bloodmagic:altar",
+  "extra_recipe_mappings": {
+    "bloodmagic:blankslate": 1,
+    "bloodmagic:reinforcedslate": 1,
+    "bloodmagic:infusedslate": 2,
+    "bloodmagic:demonslate": 2
+  },
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Start with Blank Slates in your Blood Altar. For higher tiers, prepare slates in a GregTech assembler, then infuse them in the altar. Reinforced uses LV preparation, Imbued uses MV, Demonic uses HV and Ethereal uses EV. Upgrade your altar alongside your machines."
+    },
+    {
+      "type": "bloodmagic:2x_crafting_altar",
+      "a.heading": "Blank Slate",
+      "a.recipe": "bloodmagic:altar/slate",
+      "b.heading": "Reinforced Slate",
+      "b.recipe": "otg:blood/lv/slate"
+    },
+    {
+      "type": "bloodmagic:2x_crafting_altar",
+      "a.heading": "Imbued Slate",
+      "a.recipe": "otg:blood/mv/slate",
+      "b.heading": "Demonic Slate",
+      "b.recipe": "otg:blood/hv/slate"
+    },
+    {
+      "type": "bloodmagic:crafting_altar",
+      "heading": "Ethereal Slate",
+      "recipe": "otg:blood/ev/slate"
+    }
+  ]
+}

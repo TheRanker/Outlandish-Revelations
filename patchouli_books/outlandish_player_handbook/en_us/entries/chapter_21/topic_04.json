@@ -1,0 +1,12 @@
+{
+  "name": "Understand Stellar Equipment",
+  "category": "patchouli:chapter_21",
+  "icon": "minecraft:amethyst_shard",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Some Vestiges have Stellar forms with extra effects. Compare the actual tooltip before building your equipment around one. Check charges, cooldowns and Radiance requirements, and keep a practical way to fight while a powerful ability is unavailable."
+    }
+  ]
+}

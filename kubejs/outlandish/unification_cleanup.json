@@ -1,0 +1,276 @@
+{
+  "recipes": {
+    "substitutions": [
+      {
+        "from": "create:zinc_ingot",
+        "to": "#forge:ingots/zinc"
+      },
+      {
+        "from": "create:zinc_nugget",
+        "to": "#forge:nuggets/zinc"
+      },
+      {
+        "from": "create:brass_ingot",
+        "to": "#forge:ingots/brass"
+      },
+      {
+        "from": "create:brass_nugget",
+        "to": "#forge:nuggets/brass"
+      },
+      {
+        "from": "create:copper_sheet",
+        "to": "#forge:plates/copper"
+      },
+      {
+        "from": "create:iron_sheet",
+        "to": "#forge:plates/iron"
+      },
+      {
+        "from": "create:brass_sheet",
+        "to": "#forge:plates/brass"
+      },
+      {
+        "from": "create:golden_sheet",
+        "to": "#forge:plates/gold"
+      },
+      {
+        "from": "createaddition:copper_rod",
+        "to": "#forge:rods/copper"
+      },
+      {
+        "from": "createaddition:gold_rod",
+        "to": "#forge:rods/gold"
+      },
+      {
+        "from": "createaddition:iron_rod",
+        "to": "#forge:rods/iron"
+      },
+      {
+        "from": "createaddition:electrum_rod",
+        "to": "#forge:rods/electrum"
+      },
+      {
+        "from": "createaddition:brass_rod",
+        "to": "#forge:rods/brass"
+      },
+      {
+        "from": "createaddition:electrum_ingot",
+        "to": "#forge:ingots/electrum"
+      },
+      {
+        "from": "createaddition:electrum_nugget",
+        "to": "#forge:nuggets/electrum"
+      },
+      {
+        "from": "createaddition:electrum_sheet",
+        "to": "#forge:plates/electrum"
+      },
+      {
+        "from": "createaddition:diamond_grit",
+        "to": "#forge:dusts/diamond"
+      },
+      {
+        "from": "create:powdered_obsidian",
+        "to": "#forge:dusts/obsidian"
+      },
+      {
+        "from": "industrialforegoing:iron_gear",
+        "to": "#forge:gears/iron"
+      },
+      {
+        "from": "industrialforegoing:gold_gear",
+        "to": "#forge:gears/bronze"
+      },
+      {
+        "from": "industrialforegoing:diamond_gear",
+        "to": "#forge:gears/diamond"
+      },
+      {
+        "from": "industrialforegoing:plastic",
+        "to": "#forge:plates/polyethylene"
+      },
+      {
+        "from": "gtceu:manasteel_ingot",
+        "to": "#forge:ingots/manasteel"
+      },
+      {
+        "from": "gtceu:manasteel_nugget",
+        "to": "#forge:nuggets/manasteel"
+      },
+      {
+        "from": "gtceu:manasteel_block",
+        "to": "#forge:storage_blocks/manasteel"
+      },
+      {
+        "from": "gtceu:vibrant_alloy_ingot",
+        "to": "#forge:ingots/vibrant_alloy"
+      },
+      {
+        "from": "gtceu:vibrant_alloy_nugget",
+        "to": "#forge:nuggets/vibrant_alloy"
+      },
+      {
+        "from": "gtceu:vibrant_alloy_block",
+        "to": "#forge:storage_blocks/vibrant_alloy"
+      },
+      {
+        "from": "gtceu:energetic_alloy_ingot",
+        "to": "#forge:ingots/energetic_alloy"
+      },
+      {
+        "from": "gtceu:energetic_alloy_nugget",
+        "to": "#forge:nuggets/energetic_alloy"
+      },
+      {
+        "from": "gtceu:energetic_alloy_block",
+        "to": "#forge:storage_blocks/energetic_alloy"
+      },
+      {
+        "from": "ae2:ender_dust",
+        "to": "#forge:dusts/ender_pearl"
+      },
+      {
+        "from": "ae2:silicon",
+        "to": "#forge:silicon"
+      },
+      {
+        "from": "ae2:charged_certus_quartz_crystal",
+        "to": "#forge:gems/certus_quartz"
+      },
+      {
+        "from": "ae2:quartz_block",
+        "to": "#forge:storage_blocks/certus_quartz"
+      }
+    ],
+    "standaloneRemovals": [
+      "ae2:flawless_budding_quartz",
+      "ae2:flawed_budding_quartz",
+      "ae2:chipped_budding_quartz",
+      "ae2:damaged_budding_quartz",
+      "ae2:small_quartz_bud",
+      "ae2:medium_quartz_bud",
+      "ae2:large_quartz_bud",
+      "ae2:quartz_cluster",
+      "ae2:calculation_processor_press",
+      "ae2:logic_processor_press",
+      "ae2:engineering_processor_press",
+      "ae2:silicon_press",
+      "ae2:meteorite_compass",
+      "ae2:mysterious_cube",
+      "ae2:not_so_mysterious_cube",
+      "ae2:inscriber",
+      "ae2:crank",
+      "ae2:charger",
+      "ae2:name_press",
+      "ae2:guide",
+      "ae2:growth_accelerator",
+      "ae2:sky_stone_tank",
+      "ae2:certus_quartz_cutting_knife",
+      "ae2:nether_quartz_cutting_knife",
+      "ae2:vibration_chamber",
+      "ae2:charged_staff",
+      "ae2:entropy_manipulator"
+    ],
+    "supersededSubstitutions": [
+      {
+        "from": "ae2:certus_quartz_crystal",
+        "to": "#forge:gems/certus_quartz",
+        "reason": "Superseded by authoritative OTG0.1.5a AE2Materials.modifyMaterials: this AE2 item is the canonical GT form. Preserve its production."
+      },
+      {
+        "from": "ae2:certus_quartz_dust",
+        "to": "#forge:dusts/certus_quartz",
+        "reason": "Superseded by authoritative OTG0.1.5a AE2Materials.modifyMaterials: this AE2 item is the canonical GT form. Preserve its production."
+      }
+    ]
+  },
+  "tags": {
+    "removals": [
+      {
+        "tag": "forge:gears/gold",
+        "item": "industrialforegoing:gold_gear"
+      },
+      {
+        "tag": "forge:gears/iron",
+        "item": "industrialforegoing:iron_gear"
+      },
+      {
+        "tag": "forge:gears/diamond",
+        "item": "industrialforegoing:diamond_gear"
+      },
+      {
+        "tag": "forge:gears/wood",
+        "item": "enderio:wood_gear"
+      },
+      {
+        "tag": "forge:gears/stone",
+        "item": "enderio:stone_gear"
+      },
+      {
+        "tag": "forge:gears/iron",
+        "item": "enderio:iron_gear"
+      },
+      {
+        "tag": "forge:dusts/ender_pearl",
+        "item": "ae2:ender_dust"
+      },
+      {
+        "tag": "forge:tools/wrench",
+        "item": "ae2:certus_quartz_wrench"
+      },
+      {
+        "tag": "forge:tools/wrench",
+        "item": "ae2:nether_quartz_wrench"
+      },
+      {
+        "tag": "forge:dusts/coal",
+        "item": "enderio:powdered_coal"
+      },
+      {
+        "tag": "forge:dusts/iron",
+        "item": "enderio:powdered_iron"
+      },
+      {
+        "tag": "forge:dusts/gold",
+        "item": "enderio:powdered_gold"
+      },
+      {
+        "tag": "forge:dusts/tin",
+        "item": "enderio:powdered_tin"
+      },
+      {
+        "tag": "forge:dusts/obsidian",
+        "item": "enderio:powdered_obsidian"
+      },
+      {
+        "tag": "forge:dusts/cobalt",
+        "item": "enderio:powdered_cobalt"
+      },
+      {
+        "tag": "forge:dusts/lapis",
+        "item": "enderio:powdered_lapis"
+      },
+      {
+        "tag": "forge:gems/certus_quartz",
+        "item": "ae2:charged_certus_quartz_crystal"
+      }
+    ],
+    "clears": [
+      "ae2:quartz_wrench",
+      "ae2:quartz_sword",
+      "ae2:quartz_shovel",
+      "ae2:quartz_pickaxe",
+      "ae2:quartz_hoe",
+      "ae2:quartz_axe",
+      "ae2:inscriber_presses",
+      "forge:buds",
+      "forge:budding"
+    ],
+    "additions": [
+      {
+        "tag": "farmersdelight:straw_harvesters",
+        "item": "#forge:tools/knives"
+      }
+    ]
+  }
+}

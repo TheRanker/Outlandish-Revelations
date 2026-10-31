@@ -1,0 +1,20 @@
+{
+  "name": "Circuit settings and batch sizes matter",
+  "category": "patchouli:chapter_08",
+  "icon": "minecraft:glass_bottle",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A programmed circuit can select a particular recipe. Check the setting alongside the ingredients; the machine may have everything else it needs and still be waiting for the right selection."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Compare recipe quantities before connecting two machines. One batch may produce enough fluid for several batches of the next process, or the next process may need several batches of the first.$(br2)Add small buffers between steps. They make the flow easier to understand and give you somewhere to inspect what is being produced."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "When a line stops: start at the stopped machine and check power, selected recipe, inputs and all outputs in that order."
+    }
+  ]
+}

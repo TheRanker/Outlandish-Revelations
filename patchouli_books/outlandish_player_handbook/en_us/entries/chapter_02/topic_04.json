@@ -1,0 +1,16 @@
+{
+  "name": "What quest completion means",
+  "category": "patchouli:chapter_02",
+  "icon": "minecraft:book",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Ordinary item tasks recognize the required item in your inventory. They do not necessarily require you to craft it personally, and most do not take the item away.$(br2)Fluid sample tasks are different: they ask you to submit the stated amount. Produce extra so completing the task does not empty the supply your factory needs."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "A completed quest is a useful milestone. Before beginning another large project, make sure you can repeat the process that earned it."
+    }
+  ]
+}

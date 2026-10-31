@@ -1,0 +1,16 @@
+{
+  "name": "Prepare the industrial foundation",
+  "category": "patchouli:chapter_14",
+  "icon": "minecraft:netherite_chestplate",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Begin industrial Draconium work with HV Control Matrices and the relevant GregTech processing. Build a reserve of the basic materials before attempting a large fusion setup.$(br2)At EV, prepare the Fusion Crafting Core and Basic Crafting Injectors. Arrange the workshop, connect suitable FE power and check the entire recipe before starting."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Fusion recipes can require substantial stored energy. Confirm the injector tier, ingredient arrangement, catalyst and total energy together."
+    }
+  ]
+}

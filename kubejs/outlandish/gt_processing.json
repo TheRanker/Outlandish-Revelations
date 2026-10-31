@@ -1,0 +1,171 @@
+[
+  {
+    "type": "extractor",
+    "legacyId": 3001,
+    "inputs": [
+      "#forge:gems/ender_pearl"
+    ],
+    "outputs": [],
+    "inputFluids": [],
+    "outputFluids": [
+      {
+        "fluid": "kubejs:resonant_ender",
+        "amount": 250
+      }
+    ],
+    "duration": 160,
+    "EUt": 18,
+    "id": "otg:restored/gt_processing/resonant_ender",
+    "group": "resonant_ender"
+  },
+  {
+    "type": "chemical_reactor",
+    "legacyId": 3002,
+    "inputs": [
+      "#forge:dusts/glowstone"
+    ],
+    "outputs": [],
+    "inputFluids": [
+      {
+        "fluid": "gtceu:ethenone",
+        "amount": 1000
+      }
+    ],
+    "outputFluids": [
+      {
+        "fluid": "gtceu:tetranitromethane",
+        "amount": 200
+      }
+    ],
+    "duration": 200,
+    "EUt": 192,
+    "id": "otg:restored/gt_processing/tetranitromethane",
+    "group": "chemistry"
+  },
+  {
+    "type": "chemical_reactor",
+    "legacyId": 3003,
+    "inputs": [
+      "#forge:dusts/lithium"
+    ],
+    "outputs": [],
+    "inputFluids": [
+      {
+        "fluid": "gtceu:cetane_boosted_diesel",
+        "amount": 10000
+      }
+    ],
+    "outputFluids": [
+      {
+        "fluid": "gtceu:infused_nitro_fuel",
+        "amount": 10000
+      }
+    ],
+    "duration": 200,
+    "EUt": 192,
+    "id": "otg:restored/gt_processing/infused_nitro_fuel",
+    "group": "custom_fuels"
+  },
+  {
+    "type": "chemical_reactor",
+    "legacyId": 3004,
+    "inputs": [],
+    "outputs": [],
+    "inputFluids": [
+      {
+        "fluid": "gtceu:infused_nitro_fuel",
+        "amount": 3000
+      },
+      {
+        "fluid": "gtceu:enriched_naquadah_solution",
+        "amount": 1000
+      }
+    ],
+    "outputFluids": [
+      {
+        "fluid": "gtceu:naquadriatic_fuel",
+        "amount": 3000
+      }
+    ],
+    "duration": 200,
+    "EUt": 192,
+    "id": "otg:restored/gt_processing/naquadriatic_fuel",
+    "group": "custom_fuels"
+  },
+  {
+    "type": "chemical_reactor",
+    "legacyId": 3005,
+    "inputs": [
+      "#forge:dusts/carbon"
+    ],
+    "outputs": [],
+    "inputFluids": [
+      {
+        "fluid": "gtceu:hydrochloric_acid",
+        "amount": 1000
+      }
+    ],
+    "outputFluids": [
+      {
+        "fluid": "gtceu:chloroform",
+        "amount": 1000
+      }
+    ],
+    "duration": 120,
+    "EUt": 30,
+    "id": "otg:restored/gt_processing/chloroform",
+    "group": "chemistry"
+  },
+  {
+    "type": "combustion_generator",
+    "legacyId": 3006,
+    "inputs": [],
+    "outputs": [],
+    "inputFluids": [
+      {
+        "fluid": "gtceu:infused_nitro_fuel",
+        "amount": 2
+      }
+    ],
+    "outputFluids": [],
+    "duration": 15,
+    "EUt": -128,
+    "id": "otg:restored/gt_processing/burn_infused_nitro_fuel",
+    "group": "custom_fuels",
+    "legacyEUt": 128
+  },
+  {
+    "type": "combustion_generator",
+    "legacyId": 3007,
+    "inputs": [],
+    "outputs": [],
+    "inputFluids": [
+      {
+        "fluid": "gtceu:naquadriatic_fuel",
+        "amount": 1
+      }
+    ],
+    "outputFluids": [],
+    "duration": 175,
+    "EUt": -128,
+    "id": "otg:restored/gt_processing/burn_naquadriatic_fuel",
+    "group": "custom_fuels",
+    "legacyEUt": 128
+  },
+  {
+    "type": "extractor",
+    "legacyId": 3008,
+    "inputs": [
+      "integrateddynamics:menril_log"
+    ],
+    "outputs": [
+      "4x integrateddynamics:crystalized_menril_chunk"
+    ],
+    "inputFluids": [],
+    "outputFluids": [],
+    "duration": 20,
+    "EUt": 8,
+    "id": "otg:restored/gt_processing/menril_chunks",
+    "group": "menril"
+  }
+]

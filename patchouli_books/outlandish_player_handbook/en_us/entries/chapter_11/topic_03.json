@@ -1,0 +1,12 @@
+{
+  "name": "Twilight access: take the first trip",
+  "category": "patchouli:chapter_11",
+  "icon": "minecraft:ender_eye",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "After earning End access, locate a stronghold and enter the End. An eligible team member’s successful entry opens Twilight Forest for the team.$(br2)Then prepare the Twilight portal and follow its adventure progression. Treat the first visit as a new expedition, with supplies and a way home."
+    }
+  ]
+}

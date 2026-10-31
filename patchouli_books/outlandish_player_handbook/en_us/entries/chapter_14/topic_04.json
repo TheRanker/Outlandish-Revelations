@@ -1,0 +1,16 @@
+{
+  "name": "Awakened Draconium and Chaos",
+  "category": "patchouli:chapter_14",
+  "icon": "minecraft:netherite_chestplate",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Awakening Draconium needs the required industrial materials, a Sanguine Draconic Stabilizer and the adventure ingredients shown in JEI, including a Dragon Heart."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Chaos progression calls for a much more demanding expedition. Prepare your equipment and return plan carefully before facing a Chaos Guardian. Keep some of the materials you earn in reserve so the next industrial project does not consume everything at once."
+    }
+  ]
+}

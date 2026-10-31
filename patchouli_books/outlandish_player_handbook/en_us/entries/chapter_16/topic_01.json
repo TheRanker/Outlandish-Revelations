@@ -1,0 +1,12 @@
+{
+  "name": "“My factory stops whenever several machines run.”",
+  "category": "patchouli:chapter_16",
+  "icon": "minecraft:paper",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Inspect the shared supply. Look at generation, fuel or steam input, cable or pipe capacity and the demand from machines running together.$(br2)Test a smaller load to find where the supply becomes insufficient, then improve that part of the system."
+    }
+  ]
+}

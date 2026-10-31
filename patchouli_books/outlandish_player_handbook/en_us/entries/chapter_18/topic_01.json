@@ -1,0 +1,12 @@
+{
+  "name": "Your First Backpack",
+  "category": "patchouli:chapter_18",
+  "icon": "minecraft:chest",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Prepare wrought iron screws, a red alloy plate, leather, string and a GregTech Wood Crate. Your first backpack gives tools and supplies a home away from home. Set its opening key in Controls and test access before leaving."
+    }
+  ]
+}

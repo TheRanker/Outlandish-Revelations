@@ -1,0 +1,12 @@
+{
+  "name": "Build a landing routine",
+  "category": "patchouli:chapter_13",
+  "icon": "minecraft:firework_rocket",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "On arrival, identify a safe place to stand and organize your return supplies. Check oxygen and other equipment readouts before exploring.$(br2)Start with a modest objective: gather a resource, inspect the terrain or establish a small base. Expand once the route and equipment have proved reliable."
+    }
+  ]
+}

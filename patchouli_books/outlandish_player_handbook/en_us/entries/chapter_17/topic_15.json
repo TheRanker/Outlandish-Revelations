@@ -1,0 +1,12 @@
+{
+  "name": "Water for the Workshop",
+  "category": "patchouli:chapter_17",
+  "icon": "minecraft:compass",
+  "sortnum": 15,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The Cooking for Blockheads Sink provides unlimited water in this pack. Its recipe needs magnetic iron plates and a GregTech Primitive Pump, so prepare those first. Connect the sink to your boilers with fluid transport that can extract from it. One source can feed several boilers, but the pipes must move enough water to keep up."
+    }
+  ]
+}

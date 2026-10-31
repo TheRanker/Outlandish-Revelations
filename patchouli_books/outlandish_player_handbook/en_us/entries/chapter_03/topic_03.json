@@ -1,0 +1,16 @@
+{
+  "name": "Build around the work",
+  "category": "patchouli:chapter_03",
+  "icon": "minecraft:iron_pickaxe",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Keep equipment that shares a process close together. Your toolmaking area should have easy access to parts, casts and repair materials. Your chemical area needs identifiable fluid storage. Your machine-building area needs common plates, wires and circuits."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Leave walking space and access to machine faces. You will need to inspect connections, change settings and clear mistakes. A compact factory is useful only if you can still understand it."
+    }
+  ]
+}

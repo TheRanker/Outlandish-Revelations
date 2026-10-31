@@ -80,7 +80,7 @@ cloudBlockPrecipitationDistance = 32
 #Settings for all things related to the magic trees.
 ["Magic Trees"]
 	#If true, prevents the Timewood Core from functioning.
-	disableTimeCore = false
+	disableTimeCore = true
 	#Defines the radius at which the Timewood Core works. Can be a number anywhere between 1 and 128.
 	#Range: 1 ~ 128
 	timeCoreRange = 16

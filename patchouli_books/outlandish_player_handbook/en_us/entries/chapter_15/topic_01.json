@@ -1,0 +1,16 @@
+{
+  "name": "Find the altar and prepare the area",
+  "category": "patchouli:chapter_15",
+  "icon": "minecraft:blaze_powder",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Find an Infernal Altar in Incendium’s Infernal Dunes. Look over the surroundings and establish a route back before beginning."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Drop a Nether Star at the altar’s center to summon the Hovering Inferno. There is no additional summoning requirement forcing you to wait until your factory is complete. Your preparation determines whether attempting the fight is a good idea."
+    }
+  ]
+}

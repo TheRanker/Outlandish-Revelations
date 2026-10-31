@@ -1,0 +1,2703 @@
+[
+  {
+    "group": "buildinggadgets2",
+    "type": "shaped",
+    "id": "otg:restored/buildinggadgets2/gadget_building",
+    "output": {
+      "item": "buildinggadgets2:gadget_building",
+      "count": 1
+    },
+    "pattern": [
+      "PLP",
+      "DCD",
+      "PKP"
+    ],
+    "key": {
+      "P": {
+        "item": "#forge:plates/steel",
+        "count": 1
+      },
+      "L": {
+        "item": "#forge:plates/lapis",
+        "count": 1
+      },
+      "D": {
+        "item": "#forge:plates/diamond",
+        "count": 1
+      },
+      "C": {
+        "item": "#gtceu:circuits/lv",
+        "count": 1
+      },
+      "K": {
+        "item": "gtceu:tin_single_cable",
+        "count": 1
+      }
+    }
+  },
+  {
+    "group": "buildinggadgets2",
+    "type": "shaped",
+    "id": "otg:restored/buildinggadgets2/gadget_exchanging",
+    "output": {
+      "item": "buildinggadgets2:gadget_exchanging",
+      "count": 1
+    },
+    "pattern": [
+      "PLP",
+      "DCD",
+      "PKP"
+    ],
+    "key": {
+      "P": {
+        "item": "#forge:plates/steel",
+        "count": 1
+      },
+      "L": {
+        "item": "#forge:plates/gold",
+        "count": 1
+      },
+      "D": {
+        "item": "#forge:plates/diamond",
+        "count": 1
+      },
+      "C": {
+        "item": "#gtceu:circuits/lv",
+        "count": 1
+      },
+      "K": {
+        "item": "gtceu:tin_single_cable",
+        "count": 1
+      }
+    }
+  },
+  {
+    "group": "buildinggadgets2",
+    "type": "shaped",
+    "id": "otg:restored/buildinggadgets2/gadget_copy_paste",
+    "output": {
+      "item": "buildinggadgets2:gadget_copy_paste",
+      "count": 1
+    },
+    "pattern": [
+      "PLP",
+      "DCD",
+      "PKP"
+    ],
+    "key": {
+      "P": {
+        "item": "#forge:plates/steel",
+        "count": 1
+      },
+      "L": {
+        "item": "#forge:plates/redstone",
+        "count": 1
+      },
+      "D": {
+        "item": "#forge:plates/emerald",
+        "count": 1
+      },
+      "C": {
+        "item": "#gtceu:circuits/lv",
+        "count": 1
+      },
+      "K": {
+        "item": "gtceu:tin_single_cable",
+        "count": 1
+      }
+    }
+  },
+  {
+    "group": "buildinggadgets2",
+    "type": "shaped",
+    "id": "otg:restored/buildinggadgets2/template_manager",
+    "output": {
+      "item": "buildinggadgets2:template_manager",
+      "count": 1
+    },
+    "pattern": [
+      "KCK",
+      "CHC",
+      "KCK"
+    ],
+    "key": {
+      "K": {
+        "item": "gtceu:tin_single_cable",
+        "count": 1
+      },
+      "C": {
+        "item": "#gtceu:circuits/lv",
+        "count": 1
+      },
+      "H": {
+        "item": "gtceu:lv_machine_hull",
+        "count": 1
+      }
+    }
+  },
+  {
+    "group": "buildinggadgets2",
+    "type": "shaped",
+    "id": "otg:restored/buildinggadgets2/gadget_destruction",
+    "output": {
+      "item": "buildinggadgets2:gadget_destruction",
+      "count": 1
+    },
+    "pattern": [
+      "PLP",
+      "DCD",
+      "PKP"
+    ],
+    "key": {
+      "P": {
+        "item": "#forge:plates/aluminium",
+        "count": 1
+      },
+      "L": {
+        "item": "#forge:plates/nether_quartz",
+        "count": 1
+      },
+      "D": {
+        "item": "#forge:plates/ender_pearl",
+        "count": 1
+      },
+      "C": {
+        "item": "#gtceu:circuits/mv",
+        "count": 1
+      },
+      "K": {
+        "item": "gtceu:copper_single_cable",
+        "count": 1
+      }
+    }
+  },
+  {
+    "group": "buildinggadgets2",
+    "type": "shaped",
+    "id": "otg:restored/buildinggadgets2/gadget_cut_paste",
+    "output": {
+      "item": "buildinggadgets2:gadget_cut_paste",
+      "count": 1
+    },
+    "pattern": [
+      "PLP",
+      "DCD",
+      "PKP"
+    ],
+    "key": {
+      "P": {
+        "item": "#forge:plates/aluminium",
+        "count": 1
+      },
+      "L": {
+        "item": "#forge:plates/lapis",
+        "count": 1
+      },
+      "D": {
+        "item": "gtceu:iron_buzz_saw_blade",
+        "count": 1
+      },
+      "C": {
+        "item": "#gtceu:circuits/mv",
+        "count": 1
+      },
+      "K": {
+        "item": "gtceu:copper_single_cable",
+        "count": 1
+      }
+    }
+  },
+  {
+    "group": "cookingforblockheads",
+    "type": "shaped",
+    "id": "otg:restored/cookingforblockheads/oven",
+    "output": {
+      "item": "cookingforblockheads:oven",
+      "count": 1
+    },
+    "pattern": [
+      "ggg",
+      "ifi",
+      "iii"
+    ],
+    "key": {
+      "g": {
+        "item": "#forge:glass/colorless",
+        "count": 1
+      },
+      "i": {
+        "item": "gtceu:magnetic_iron_plate",
+        "count": 1
+      },
+      "f": {
+        "item": "farmersdelight:stove",
+        "count": 1
+      }
+    }
+  },
+  {
+    "group": "cookingforblockheads",
+    "type": "shaped",
+    "id": "otg:restored/cookingforblockheads/toaster",
+    "output": {
+      "item": "cookingforblockheads:toaster",
+      "count": 1
+    },
+    "pattern": [
+      "  b",
+      "iti",
+      "iii"
+    ],
+    "key": {
+      "i": {
+        "item": "gtceu:magnetic_iron_plate",
+        "count": 1
+      },
+      "b": {
+        "item": "minecraft:iron_trapdoor",
+        "count": 1
+      },
+      "t": {
+        "item": "cookingforblockheads:heating_unit",
+        "count": 1
+      }
+    }
+  },
+  {
+    "group": "cookingforblockheads",
+    "type": "shaped",
+    "id": "otg:restored/cookingforblockheads/fridge",
+    "output": {
+      "item": "cookingforblockheads:fridge",
+      "count": 1
+    },
+    "pattern": [
+      "pxp",
+      "pcp",
+      "pxp"
+    ],
+    "key": {
+      "p": {
+        "item": "gtceu:magnetic_iron_plate",
+        "count": 1
+      },
+      "x": {
+        "item": "minecraft:iron_door",
+        "count": 1
+      },
+      "c": {
+        "item": "#forge:chests",
+        "count": 1
+      }
+    }
+  },
+  {
+    "group": "cookingforblockheads",
+    "type": "shaped",
+    "id": "otg:restored/cookingforblockheads/sink",
+    "output": {
+      "item": "cookingforblockheads:sink",
+      "count": 1
+    },
+    "pattern": [
+      "iii",
+      "tbt",
+      "ttt"
+    ],
+    "key": {
+      "i": {
+        "item": "gtceu:magnetic_iron_plate",
+        "count": 1
+      },
+      "t": {
+        "item": "#minecraft:terracotta",
+        "count": 1
+      },
+      "b": {
+        "item": "gtceu:primitive_pump",
+        "count": 1
+      }
+    }
+  },
+  {
+    "group": "cookingforblockheads",
+    "type": "shaped",
+    "id": "otg:restored/cookingforblockheads/ice_unit",
+    "output": {
+      "item": "cookingforblockheads:ice_unit",
+      "count": 1
+    },
+    "pattern": [
+      "   ",
+      "sss",
+      "iri"
+    ],
+    "key": {
+      "s": {
+        "item": "minecraft:packed_ice",
+        "count": 1
+      },
+      "i": {
+        "item": "gtceu:magnetic_iron_plate",
+        "count": 1
+      },
+      "r": {
+        "item": "minecraft:comparator",
+        "count": 1
+      }
+    }
+  },
+  {
+    "group": "cookingforblockheads",
+    "type": "shaped",
+    "id": "otg:restored/cookingforblockheads/preservation_chamber",
+    "output": {
+      "item": "cookingforblockheads:preservation_chamber",
+      "count": 1
+    },
+    "pattern": [
+      "   ",
+      "sss",
+      "iri"
+    ],
+    "key": {
+      "s": {
+        "item": "gtceu:impure_redstone_dust",
+        "count": 1
+      },
+      "i": {
+        "item": "gtceu:magnetic_iron_plate",
+        "count": 1
+      },
+      "r": {
+        "item": "minecraft:comparator",
+        "count": 1
+      }
+    }
+  },
+  {
+    "group": "cookingforblockheads",
+    "type": "shaped",
+    "id": "otg:restored/cookingforblockheads/heating_unit",
+    "output": {
+      "item": "cookingforblockheads:heating_unit",
+      "count": 1
+    },
+    "pattern": [
+      "   ",
+      "sss",
+      "iri"
+    ],
+    "key": {
+      "s": {
+        "item": "gtceu:magnetic_iron_nugget",
+        "count": 1
+      },
+      "i": {
+        "item": "gtceu:magnetic_iron_plate",
+        "count": 1
+      },
+      "r": {
+        "item": "minecraft:comparator",
+        "count": 1
+      }
+    }
+  },
+  {
+    "group": "waystones",
+    "type": "shaped",
+    "id": "otg:restored/waystones/warp_stone",
+    "output": {
+      "item": "waystones:warp_stone",
+      "count": 1
+    },
+    "pattern": [
+      "DED",
+      "EGE",
+      "DED"
+    ],
+    "key": {
+      "G": {
+        "item": "bloodmagic:reagentteleposition",
+        "count": 1
+      },
+      "E": {
+        "item": "waystones:warp_dust",
+        "count": 1
+      },
+      "D": {
+        "item": "waystones:warp_dust",
+        "count": 1
+      }
+    }
+  },
+  {
+    "group": "waystones",
+    "type": "shaped",
+    "id": "otg:restored/waystones/warp_plate",
+    "output": {
+      "item": "waystones:warp_plate",
+      "count": 1
+    },
+    "pattern": [
+      "SWS",
+      "WFW",
+      "SWS"
+    ],
+    "key": {
+      "W": {
+        "item": "minecraft:flint",
+        "count": 1
+      },
+      "F": {
+        "item": "waystones:warp_stone",
+        "count": 1
+      },
+      "S": {
+        "item": "minecraft:stone_bricks",
+        "count": 1
+      }
+    }
+  },
+  {
+    "group": "waystones",
+    "type": "shaped",
+    "id": "otg:restored/waystones/bound_scroll",
+    "output": {
+      "item": "waystones:bound_scroll",
+      "count": 1
+    },
+    "pattern": [
+      "GEG",
+      "PPP"
+    ],
+    "key": {
+      "G": {
+        "item": "#balm:gold_nuggets",
+        "count": 1
+      },
+      "E": {
+        "item": "waystones:warp_dust",
+        "count": 1
+      },
+      "P": {
+        "item": "minecraft:paper",
+        "count": 1
+      }
+    }
+  },
+  {
+    "group": "waystones",
+    "type": "shaped",
+    "id": "otg:restored/waystones/warp_dust",
+    "output": {
+      "item": "waystones:warp_dust",
+      "count": 1
+    },
+    "pattern": [
+      "SWS",
+      "WFW",
+      "SWS"
+    ],
+    "key": {
+      "W": {
+        "item": "minecraft:blaze_powder",
+        "count": 1
+      },
+      "F": {
+        "item": "gtceu:ender_eye_dust",
+        "count": 1
+      },
+      "S": {
+        "item": "minecraft:amethyst_shard",
+        "count": 1
+      }
+    }
+  },
+  {
+    "group": "sophisticatedbackpacks",
+    "type": "shaped",
+    "id": "otg:restored/sophisticatedbackpacks/backpack/0",
+    "output": {
+      "item": "sophisticatedbackpacks:backpack",
+      "count": 1
+    },
+    "pattern": [
+      "SLS",
+      "LBL",
+      "FPF"
+    ],
+    "key": {
+      "S": {
+        "item": "#forge:screws/wrought_iron",
+        "count": 1
+      },
+      "L": {
+        "item": "minecraft:leather",
+        "count": 1
+      },
+      "B": {
+        "item": "gtceu:wood_crate",
+        "count": 1
+      },
+      "F": {
+        "item": "minecraft:string",
+        "count": 1
+      },
+      "P": {
+        "item": "#forge:plates/red_alloy",
+        "count": 1
+      }
+    }
+  },
+  {
+    "group": "sophisticatedbackpacks",
+    "type": "shaped",
+    "id": "otg:restored/sophisticatedbackpacks/copper_backpack/1",
+    "output": {
+      "item": "sophisticatedbackpacks:copper_backpack",
+      "count": 1
+    },
+    "pattern": [
+      "SLS",
+      "LBL",
+      "FPF"
+    ],
+    "key": {
+      "S": {
+        "item": "#forge:screws/bronze",
+        "count": 1
+      },
+      "L": {
+        "item": "minecraft:leather",
+        "count": 1
+      },
+      "B": {
+        "item": "sophisticatedbackpacks:backpack",
+        "count": 1
+      },
+      "F": {
+        "item": "minecraft:string",
+        "count": 1
+      },
+      "P": {
+        "item": "#forge:plates/invar",
+        "count": 1
+      }
+    },
+    "nativeJson": {
+      "type": "sophisticatedbackpacks:backpack_upgrade",
+      "conditions": [
+        {
+          "itemRegistryName": "sophisticatedbackpacks:iron_backpack",
+          "type": "sophisticatedcore:item_enabled"
+        }
+      ],
+      "pattern": [
+        "SLS",
+        "LBL",
+        "FPF"
+      ],
+      "key": {
+        "S": {
+          "tag": "forge:screws/bronze"
+        },
+        "L": {
+          "item": "minecraft:leather"
+        },
+        "B": {
+          "item": "sophisticatedbackpacks:backpack"
+        },
+        "F": {
+          "item": "minecraft:string"
+        },
+        "P": {
+          "tag": "forge:plates/invar"
+        }
+      },
+      "result": {
+        "item": "sophisticatedbackpacks:copper_backpack"
+      }
+    }
+  },
+  {
+    "group": "sophisticatedbackpacks",
+    "type": "shaped",
+    "id": "otg:restored/sophisticatedbackpacks/iron_backpack/2",
+    "output": {
+      "item": "sophisticatedbackpacks:iron_backpack",
+      "count": 1
+    },
+    "pattern": [
+      "SLS",
+      "LBL",
+      "FPF"
+    ],
+    "key": {
+      "S": {
+        "item": "#forge:screws/steel",
+        "count": 1
+      },
+      "L": {
+        "item": "minecraft:leather",
+        "count": 1
+      },
+      "B": {
+        "item": "sophisticatedbackpacks:copper_backpack",
+        "count": 1
+      },
+      "F": {
+        "item": "minecraft:string",
+        "count": 1
+      },
+      "P": {
+        "item": "#forge:plates/rose_gold",
+        "count": 1
+      }
+    },
+    "nativeJson": {
+      "type": "sophisticatedbackpacks:backpack_upgrade",
+      "conditions": [
+        {
+          "itemRegistryName": "sophisticatedbackpacks:iron_backpack",
+          "type": "sophisticatedcore:item_enabled"
+        }
+      ],
+      "pattern": [
+        "SLS",
+        "LBL",
+        "FPF"
+      ],
+      "key": {
+        "S": {
+          "tag": "forge:screws/steel"
+        },
+        "L": {
+          "item": "minecraft:leather"
+        },
+        "B": {
+          "item": "sophisticatedbackpacks:copper_backpack"
+        },
+        "F": {
+          "item": "minecraft:string"
+        },
+        "P": {
+          "tag": "forge:plates/rose_gold"
+        }
+      },
+      "result": {
+        "item": "sophisticatedbackpacks:iron_backpack"
+      }
+    }
+  },
+  {
+    "group": "sophisticatedbackpacks",
+    "type": "shaped",
+    "id": "otg:restored/sophisticatedbackpacks/gold_backpack/3",
+    "output": {
+      "item": "sophisticatedbackpacks:gold_backpack",
+      "count": 1
+    },
+    "pattern": [
+      "SLS",
+      "LBL",
+      "FPF"
+    ],
+    "key": {
+      "S": {
+        "item": "#forge:screws/aluminium",
+        "count": 1
+      },
+      "L": {
+        "item": "minecraft:leather",
+        "count": 1
+      },
+      "B": {
+        "item": "sophisticatedbackpacks:iron_backpack",
+        "count": 1
+      },
+      "F": {
+        "item": "gtceu:carbon_fibers",
+        "count": 1
+      },
+      "P": {
+        "item": "#forge:plates/blue_alloy",
+        "count": 1
+      }
+    },
+    "nativeJson": {
+      "type": "sophisticatedbackpacks:backpack_upgrade",
+      "conditions": [
+        {
+          "itemRegistryName": "sophisticatedbackpacks:gold_backpack",
+          "type": "sophisticatedcore:item_enabled"
+        }
+      ],
+      "pattern": [
+        "SLS",
+        "LBL",
+        "FPF"
+      ],
+      "key": {
+        "S": {
+          "tag": "forge:screws/aluminium"
+        },
+        "L": {
+          "item": "minecraft:leather"
+        },
+        "B": {
+          "item": "sophisticatedbackpacks:iron_backpack"
+        },
+        "F": {
+          "item": "gtceu:carbon_fibers"
+        },
+        "P": {
+          "tag": "forge:plates/blue_alloy"
+        }
+      },
+      "result": {
+        "item": "sophisticatedbackpacks:gold_backpack"
+      }
+    }
+  },
+  {
+    "group": "sophisticatedbackpacks",
+    "type": "shaped",
+    "id": "otg:restored/sophisticatedbackpacks/diamond_backpack/4",
+    "output": {
+      "item": "sophisticatedbackpacks:diamond_backpack",
+      "count": 1
+    },
+    "pattern": [
+      "SLS",
+      "LBL",
+      "FPF"
+    ],
+    "key": {
+      "S": {
+        "item": "#forge:screws/stainless_steel",
+        "count": 1
+      },
+      "L": {
+        "item": "minecraft:leather",
+        "count": 1
+      },
+      "B": {
+        "item": "sophisticatedbackpacks:gold_backpack",
+        "count": 1
+      },
+      "F": {
+        "item": "gtceu:carbon_fibers",
+        "count": 1
+      },
+      "P": {
+        "item": "#forge:plates/polytetrafluoroethylene",
+        "count": 1
+      }
+    },
+    "nativeJson": {
+      "type": "sophisticatedbackpacks:backpack_upgrade",
+      "conditions": [
+        {
+          "itemRegistryName": "sophisticatedbackpacks:diamond_backpack",
+          "type": "sophisticatedcore:item_enabled"
+        }
+      ],
+      "pattern": [
+        "SLS",
+        "LBL",
+        "FPF"
+      ],
+      "key": {
+        "S": {
+          "tag": "forge:screws/stainless_steel"
+        },
+        "L": {
+          "item": "minecraft:leather"
+        },
+        "B": {
+          "item": "sophisticatedbackpacks:gold_backpack"
+        },
+        "F": {
+          "item": "gtceu:carbon_fibers"
+        },
+        "P": {
+          "tag": "forge:plates/polytetrafluoroethylene"
+        }
+      },
+      "result": {
+        "item": "sophisticatedbackpacks:diamond_backpack"
+      }
+    }
+  },
+  {
+    "group": "sophisticatedbackpacks",
+    "type": "shaped",
+    "id": "otg:restored/sophisticatedbackpacks/netherite_backpack/5",
+    "output": {
+      "item": "sophisticatedbackpacks:netherite_backpack",
+      "count": 1
+    },
+    "pattern": [
+      "SLS",
+      "LBL",
+      "FPF"
+    ],
+    "key": {
+      "S": {
+        "item": "#forge:screws/titanium",
+        "count": 1
+      },
+      "L": {
+        "item": "minecraft:leather",
+        "count": 1
+      },
+      "B": {
+        "item": "sophisticatedbackpacks:diamond_backpack",
+        "count": 1
+      },
+      "F": {
+        "item": "gtceu:carbon_fibers",
+        "count": 1
+      },
+      "P": {
+        "item": "#forge:plates/epoxy",
+        "count": 1
+      }
+    },
+    "nativeJson": {
+      "type": "sophisticatedbackpacks:backpack_upgrade",
+      "conditions": [
+        {
+          "itemRegistryName": "sophisticatedbackpacks:netherite_backpack",
+          "type": "sophisticatedcore:item_enabled"
+        }
+      ],
+      "pattern": [
+        "SLS",
+        "LBL",
+        "FPF"
+      ],
+      "key": {
+        "S": {
+          "tag": "forge:screws/titanium"
+        },
+        "L": {
+          "item": "minecraft:leather"
+        },
+        "B": {
+          "item": "sophisticatedbackpacks:diamond_backpack"
+        },
+        "F": {
+          "item": "gtceu:carbon_fibers"
+        },
+        "P": {
+          "tag": "forge:plates/epoxy"
+        }
+      },
+      "result": {
+        "item": "sophisticatedbackpacks:netherite_backpack"
+      }
+    }
+  },
+  {
+    "group": "sophisticatedbackpacks",
+    "type": "shaped",
+    "id": "otg:restored/sophisticatedbackpacks/upgrade_base/6",
+    "output": {
+      "item": "sophisticatedbackpacks:upgrade_base",
+      "count": 1
+    },
+    "pattern": [
+      "BSB",
+      "LWL",
+      "BSB"
+    ],
+    "key": {
+      "B": {
+        "item": "#forge:bolts/iron",
+        "count": 1
+      },
+      "S": {
+        "item": "minecraft:string",
+        "count": 1
+      },
+      "L": {
+        "item": "minecraft:leather",
+        "count": 1
+      },
+      "W": {
+        "item": "#forge:plates/wood",
+        "count": 1
+      }
+    }
+  },
+  {
+    "group": "sophisticatedbackpacks",
+    "type": "assembler",
+    "id": "otg:restored/backpacks/assembler/upgrade_base",
+    "inputs": [
+      {
+        "item": "#forge:plates/wood",
+        "count": 1
+      },
+      {
+        "item": "minecraft:leather",
+        "count": 2
+      },
+      {
+        "item": "#forge:bolts/iron",
+        "count": 2
+      },
+      {
+        "item": "minecraft:string",
+        "count": 2
+      }
+    ],
+    "outputs": [
+      {
+        "item": "sophisticatedbackpacks:upgrade_base",
+        "count": 1
+      }
+    ],
+    "fluids": [],
+    "catalysts": [],
+    "duration": 100,
+    "EUt": 16
+  },
+  {
+    "group": "sophisticatedbackpacks",
+    "type": "assembler",
+    "id": "otg:restored/backpacks/assembler/pickup_upgrade",
+    "inputs": [
+      {
+        "item": "sophisticatedbackpacks:upgrade_base",
+        "count": 1
+      },
+      {
+        "item": "minecraft:hopper",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "sophisticatedbackpacks:pickup_upgrade",
+        "count": 1
+      }
+    ],
+    "fluids": [],
+    "catalysts": [],
+    "duration": 50,
+    "EUt": 16
+  },
+  {
+    "group": "sophisticatedbackpacks",
+    "type": "shapeless",
+    "id": "otg:restored/sophisticatedbackpacks/pickup_upgrade/shapeless",
+    "output": {
+      "item": "sophisticatedbackpacks:pickup_upgrade",
+      "count": 1
+    },
+    "inputs": [
+      {
+        "item": "sophisticatedbackpacks:upgrade_base",
+        "count": 1
+      },
+      {
+        "item": "minecraft:hopper",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "group": "sophisticatedbackpacks",
+    "type": "assembler",
+    "id": "otg:restored/backpacks/assembler/advanced_pickup_upgrade",
+    "inputs": [
+      {
+        "item": "sophisticatedbackpacks:pickup_upgrade",
+        "count": 1
+      },
+      {
+        "item": "gtceu:item_filter",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "sophisticatedbackpacks:advanced_pickup_upgrade",
+        "count": 1
+      }
+    ],
+    "fluids": [],
+    "catalysts": [],
+    "duration": 50,
+    "EUt": 16
+  },
+  {
+    "group": "sophisticatedbackpacks",
+    "type": "assembler",
+    "id": "otg:restored/backpacks/assembler/filter_upgrade",
+    "inputs": [
+      {
+        "item": "sophisticatedbackpacks:upgrade_base",
+        "count": 1
+      },
+      {
+        "item": "gtceu:item_filter",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "sophisticatedbackpacks:filter_upgrade",
+        "count": 1
+      }
+    ],
+    "fluids": [],
+    "catalysts": [],
+    "duration": 50,
+    "EUt": 16
+  },
+  {
+    "group": "sophisticatedbackpacks",
+    "type": "assembler",
+    "id": "otg:restored/backpacks/assembler/advanced_filter_upgrade",
+    "inputs": [
+      {
+        "item": "sophisticatedbackpacks:filter_upgrade",
+        "count": 1
+      },
+      {
+        "item": "gtceu:item_tag_filter",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "sophisticatedbackpacks:advanced_filter_upgrade",
+        "count": 1
+      }
+    ],
+    "fluids": [],
+    "catalysts": [],
+    "duration": 50,
+    "EUt": 16
+  },
+  {
+    "group": "sophisticatedbackpacks",
+    "type": "assembler",
+    "id": "otg:restored/backpacks/assembler/magnet_upgrade",
+    "inputs": [
+      {
+        "item": "sophisticatedbackpacks:upgrade_base",
+        "count": 1
+      },
+      {
+        "item": "gtceu:lv_item_magnet",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "sophisticatedbackpacks:magnet_upgrade",
+        "count": 1
+      }
+    ],
+    "fluids": [],
+    "catalysts": [],
+    "duration": 50,
+    "EUt": 16
+  },
+  {
+    "group": "sophisticatedbackpacks",
+    "type": "assembler",
+    "id": "otg:restored/backpacks/assembler/advanced_magnet_upgrade",
+    "inputs": [
+      {
+        "item": "sophisticatedbackpacks:magnet_upgrade",
+        "count": 1
+      },
+      {
+        "item": "gtceu:hv_item_magnet",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "sophisticatedbackpacks:advanced_magnet_upgrade",
+        "count": 1
+      }
+    ],
+    "fluids": [],
+    "catalysts": [],
+    "duration": 50,
+    "EUt": 16
+  },
+  {
+    "group": "sophisticatedbackpacks",
+    "type": "assembler",
+    "id": "otg:restored/backpacks/assembler/feeding_upgrade",
+    "inputs": [
+      {
+        "item": "sophisticatedbackpacks:upgrade_base",
+        "count": 1
+      },
+      {
+        "item": "#forge:meat",
+        "count": 1
+      },
+      {
+        "item": "#forge:crops",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "sophisticatedbackpacks:feeding_upgrade",
+        "count": 1
+      }
+    ],
+    "fluids": [],
+    "catalysts": [],
+    "duration": 50,
+    "EUt": 16
+  },
+  {
+    "group": "sophisticatedbackpacks",
+    "type": "assembler",
+    "id": "otg:restored/backpacks/assembler/advanced_feeding_upgrade",
+    "inputs": [
+      {
+        "item": "sophisticatedbackpacks:feeding_upgrade",
+        "count": 1
+      },
+      {
+        "item": "minecraft:enchanted_golden_apple",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "sophisticatedbackpacks:advanced_feeding_upgrade",
+        "count": 1
+      }
+    ],
+    "fluids": [],
+    "catalysts": [],
+    "duration": 50,
+    "EUt": 16
+  },
+  {
+    "group": "sophisticatedbackpacks",
+    "type": "assembler",
+    "id": "otg:restored/backpacks/assembler/compacting_upgrade",
+    "inputs": [
+      {
+        "item": "sophisticatedbackpacks:upgrade_base",
+        "count": 1
+      },
+      {
+        "item": "gtceu:lv_electric_piston",
+        "count": 2
+      }
+    ],
+    "outputs": [
+      {
+        "item": "sophisticatedbackpacks:compacting_upgrade",
+        "count": 1
+      }
+    ],
+    "fluids": [],
+    "catalysts": [],
+    "duration": 50,
+    "EUt": 16
+  },
+  {
+    "group": "sophisticatedbackpacks",
+    "type": "assembler",
+    "id": "otg:restored/backpacks/assembler/void_upgrade",
+    "inputs": [
+      {
+        "item": "sophisticatedbackpacks:upgrade_base",
+        "count": 1
+      },
+      {
+        "item": "gtceu:item_voiding_cover",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "sophisticatedbackpacks:void_upgrade",
+        "count": 1
+      }
+    ],
+    "fluids": [],
+    "catalysts": [],
+    "duration": 50,
+    "EUt": 16
+  },
+  {
+    "group": "sophisticatedbackpacks",
+    "type": "assembler",
+    "id": "otg:restored/backpacks/assembler/advanced_void_upgrade",
+    "inputs": [
+      {
+        "item": "sophisticatedbackpacks:void_upgrade",
+        "count": 1
+      },
+      {
+        "item": "gtceu:advanced_item_voiding_cover",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "sophisticatedbackpacks:advanced_void_upgrade",
+        "count": 1
+      }
+    ],
+    "fluids": [],
+    "catalysts": [],
+    "duration": 50,
+    "EUt": 16
+  },
+  {
+    "group": "sophisticatedbackpacks",
+    "type": "assembler",
+    "id": "otg:restored/backpacks/assembler/restock_upgrade",
+    "inputs": [
+      {
+        "item": "sophisticatedbackpacks:upgrade_base",
+        "count": 1
+      },
+      {
+        "item": "gtceu:lv_input_bus",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "sophisticatedbackpacks:restock_upgrade",
+        "count": 1
+      }
+    ],
+    "fluids": [],
+    "catalysts": [],
+    "duration": 50,
+    "EUt": 16
+  },
+  {
+    "group": "sophisticatedbackpacks",
+    "type": "assembler",
+    "id": "otg:restored/backpacks/assembler/advanced_restock_upgrade",
+    "inputs": [
+      {
+        "item": "sophisticatedbackpacks:restock_upgrade",
+        "count": 1
+      },
+      {
+        "item": "gtceu:mv_input_bus",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "sophisticatedbackpacks:advanced_restock_upgrade",
+        "count": 1
+      }
+    ],
+    "fluids": [],
+    "catalysts": [],
+    "duration": 50,
+    "EUt": 16
+  },
+  {
+    "group": "sophisticatedbackpacks",
+    "type": "assembler",
+    "id": "otg:restored/backpacks/assembler/deposit_upgrade",
+    "inputs": [
+      {
+        "item": "sophisticatedbackpacks:upgrade_base",
+        "count": 1
+      },
+      {
+        "item": "gtceu:lv_output_bus",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "sophisticatedbackpacks:deposit_upgrade",
+        "count": 1
+      }
+    ],
+    "fluids": [],
+    "catalysts": [],
+    "duration": 50,
+    "EUt": 16
+  },
+  {
+    "group": "sophisticatedbackpacks",
+    "type": "assembler",
+    "id": "otg:restored/backpacks/assembler/advanced_deposit_upgrade",
+    "inputs": [
+      {
+        "item": "sophisticatedbackpacks:deposit_upgrade",
+        "count": 1
+      },
+      {
+        "item": "gtceu:mv_output_bus",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "sophisticatedbackpacks:advanced_deposit_upgrade",
+        "count": 1
+      }
+    ],
+    "fluids": [],
+    "catalysts": [],
+    "duration": 50,
+    "EUt": 16
+  },
+  {
+    "group": "sophisticatedbackpacks",
+    "type": "assembler",
+    "id": "otg:restored/backpacks/assembler/refill_upgrade",
+    "inputs": [
+      {
+        "item": "sophisticatedbackpacks:upgrade_base",
+        "count": 1
+      },
+      {
+        "item": "gtceu:lv_robot_arm",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "sophisticatedbackpacks:refill_upgrade",
+        "count": 1
+      }
+    ],
+    "fluids": [],
+    "catalysts": [],
+    "duration": 50,
+    "EUt": 16
+  },
+  {
+    "group": "sophisticatedbackpacks",
+    "type": "assembler",
+    "id": "otg:restored/backpacks/assembler/advanced_refill_upgrade",
+    "inputs": [
+      {
+        "item": "sophisticatedbackpacks:refill_upgrade",
+        "count": 1
+      },
+      {
+        "item": "gtceu:mv_robot_arm",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "sophisticatedbackpacks:advanced_refill_upgrade",
+        "count": 1
+      }
+    ],
+    "fluids": [],
+    "catalysts": [],
+    "duration": 50,
+    "EUt": 16
+  },
+  {
+    "group": "sophisticatedbackpacks",
+    "type": "assembler",
+    "id": "otg:restored/backpacks/assembler/everlasting_upgrade",
+    "inputs": [
+      {
+        "item": "sophisticatedbackpacks:upgrade_base",
+        "count": 1
+      },
+      {
+        "item": "#forge:dense_plates/tungsten_steel",
+        "count": 1
+      },
+      {
+        "item": "minecraft:nether_star",
+        "count": 2
+      }
+    ],
+    "outputs": [
+      {
+        "item": "sophisticatedbackpacks:everlasting_upgrade",
+        "count": 1
+      }
+    ],
+    "fluids": [],
+    "catalysts": [],
+    "duration": 50,
+    "EUt": 16
+  },
+  {
+    "group": "sophisticatedbackpacks",
+    "type": "assembler",
+    "id": "otg:restored/backpacks/assembler/smelting_upgrade",
+    "inputs": [
+      {
+        "item": "sophisticatedbackpacks:upgrade_base",
+        "count": 1
+      },
+      {
+        "item": "minecraft:furnace",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "sophisticatedbackpacks:smelting_upgrade",
+        "count": 1
+      }
+    ],
+    "fluids": [],
+    "catalysts": [],
+    "duration": 50,
+    "EUt": 16
+  },
+  {
+    "group": "sophisticatedbackpacks",
+    "type": "shapeless",
+    "id": "otg:restored/sophisticatedbackpacks/smelting_upgrade/shapeless",
+    "output": {
+      "item": "sophisticatedbackpacks:smelting_upgrade",
+      "count": 1
+    },
+    "inputs": [
+      {
+        "item": "sophisticatedbackpacks:upgrade_base",
+        "count": 1
+      },
+      {
+        "item": "minecraft:furnace",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "group": "sophisticatedbackpacks",
+    "type": "assembler",
+    "id": "otg:restored/backpacks/assembler/auto_smelting_upgrade",
+    "inputs": [
+      {
+        "item": "sophisticatedbackpacks:smelting_upgrade",
+        "count": 1
+      },
+      {
+        "item": "gtceu:lv_conveyor_module",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "sophisticatedbackpacks:auto_smelting_upgrade",
+        "count": 1
+      }
+    ],
+    "fluids": [],
+    "catalysts": [],
+    "duration": 50,
+    "EUt": 16
+  },
+  {
+    "group": "sophisticatedbackpacks",
+    "type": "assembler",
+    "id": "otg:restored/backpacks/assembler/smoking_upgrade",
+    "inputs": [
+      {
+        "item": "sophisticatedbackpacks:upgrade_base",
+        "count": 1
+      },
+      {
+        "item": "minecraft:smoker",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "sophisticatedbackpacks:smoking_upgrade",
+        "count": 1
+      }
+    ],
+    "fluids": [],
+    "catalysts": [],
+    "duration": 50,
+    "EUt": 16
+  },
+  {
+    "group": "sophisticatedbackpacks",
+    "type": "shapeless",
+    "id": "otg:restored/sophisticatedbackpacks/smoking_upgrade/shapeless",
+    "output": {
+      "item": "sophisticatedbackpacks:smoking_upgrade",
+      "count": 1
+    },
+    "inputs": [
+      {
+        "item": "sophisticatedbackpacks:upgrade_base",
+        "count": 1
+      },
+      {
+        "item": "minecraft:smoker",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "group": "sophisticatedbackpacks",
+    "type": "assembler",
+    "id": "otg:restored/backpacks/assembler/auto_smoking_upgrade",
+    "inputs": [
+      {
+        "item": "sophisticatedbackpacks:smoking_upgrade",
+        "count": 1
+      },
+      {
+        "item": "gtceu:lv_conveyor_module",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "sophisticatedbackpacks:auto_smoking_upgrade",
+        "count": 1
+      }
+    ],
+    "fluids": [],
+    "catalysts": [],
+    "duration": 50,
+    "EUt": 16
+  },
+  {
+    "group": "sophisticatedbackpacks",
+    "type": "assembler",
+    "id": "otg:restored/backpacks/assembler/blasting_upgrade",
+    "inputs": [
+      {
+        "item": "sophisticatedbackpacks:upgrade_base",
+        "count": 1
+      },
+      {
+        "item": "minecraft:blast_furnace",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "sophisticatedbackpacks:blasting_upgrade",
+        "count": 1
+      }
+    ],
+    "fluids": [],
+    "catalysts": [],
+    "duration": 50,
+    "EUt": 16
+  },
+  {
+    "group": "sophisticatedbackpacks",
+    "type": "shapeless",
+    "id": "otg:restored/sophisticatedbackpacks/blasting_upgrade/shapeless",
+    "output": {
+      "item": "sophisticatedbackpacks:blasting_upgrade",
+      "count": 1
+    },
+    "inputs": [
+      {
+        "item": "sophisticatedbackpacks:upgrade_base",
+        "count": 1
+      },
+      {
+        "item": "minecraft:blast_furnace",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "group": "sophisticatedbackpacks",
+    "type": "assembler",
+    "id": "otg:restored/backpacks/assembler/auto_blasting_upgrade",
+    "inputs": [
+      {
+        "item": "sophisticatedbackpacks:blasting_upgrade",
+        "count": 1
+      },
+      {
+        "item": "gtceu:lv_conveyor_module",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "sophisticatedbackpacks:auto_blasting_upgrade",
+        "count": 1
+      }
+    ],
+    "fluids": [],
+    "catalysts": [],
+    "duration": 50,
+    "EUt": 16
+  },
+  {
+    "group": "sophisticatedbackpacks",
+    "type": "assembler",
+    "id": "otg:restored/backpacks/assembler/crafting_upgrade",
+    "inputs": [
+      {
+        "item": "sophisticatedbackpacks:upgrade_base",
+        "count": 1
+      },
+      {
+        "item": "minecraft:crafting_table",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "sophisticatedbackpacks:crafting_upgrade",
+        "count": 1
+      }
+    ],
+    "fluids": [],
+    "catalysts": [],
+    "duration": 50,
+    "EUt": 16
+  },
+  {
+    "group": "sophisticatedbackpacks",
+    "type": "shapeless",
+    "id": "otg:restored/sophisticatedbackpacks/crafting_upgrade/shapeless",
+    "output": {
+      "item": "sophisticatedbackpacks:crafting_upgrade",
+      "count": 1
+    },
+    "inputs": [
+      {
+        "item": "sophisticatedbackpacks:upgrade_base",
+        "count": 1
+      },
+      {
+        "item": "minecraft:crafting_table",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "group": "sophisticatedbackpacks",
+    "type": "assembler",
+    "id": "otg:restored/backpacks/assembler/stonecutter_upgrade",
+    "inputs": [
+      {
+        "item": "sophisticatedbackpacks:upgrade_base",
+        "count": 1
+      },
+      {
+        "item": "minecraft:stonecutter",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "sophisticatedbackpacks:stonecutter_upgrade",
+        "count": 1
+      }
+    ],
+    "fluids": [],
+    "catalysts": [],
+    "duration": 50,
+    "EUt": 16
+  },
+  {
+    "group": "sophisticatedbackpacks",
+    "type": "assembler",
+    "id": "otg:restored/backpacks/assembler/stack_upgrade_starter_tier",
+    "inputs": [
+      {
+        "item": "sophisticatedbackpacks:upgrade_base",
+        "count": 1
+      },
+      {
+        "item": "gtceu:lv_super_chest",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "sophisticatedbackpacks:stack_upgrade_starter_tier",
+        "count": 1
+      }
+    ],
+    "fluids": [],
+    "catalysts": [],
+    "duration": 50,
+    "EUt": 16
+  },
+  {
+    "group": "sophisticatedbackpacks",
+    "type": "assembler",
+    "id": "otg:restored/backpacks/assembler/stack_upgrade_tier_1",
+    "inputs": [
+      {
+        "item": "sophisticatedbackpacks:upgrade_base",
+        "count": 1
+      },
+      {
+        "item": "gtceu:mv_super_chest",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "sophisticatedbackpacks:stack_upgrade_tier_1",
+        "count": 1
+      }
+    ],
+    "fluids": [],
+    "catalysts": [],
+    "duration": 50,
+    "EUt": 32
+  },
+  {
+    "group": "sophisticatedbackpacks",
+    "type": "assembler",
+    "id": "otg:restored/backpacks/assembler/stack_upgrade_tier_2",
+    "inputs": [
+      {
+        "item": "sophisticatedbackpacks:stack_upgrade_tier_1",
+        "count": 1
+      },
+      {
+        "item": "gtceu:hv_super_chest",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "sophisticatedbackpacks:stack_upgrade_tier_2",
+        "count": 1
+      }
+    ],
+    "fluids": [],
+    "catalysts": [],
+    "duration": 50,
+    "EUt": 64
+  },
+  {
+    "group": "sophisticatedbackpacks",
+    "type": "assembler",
+    "id": "otg:restored/backpacks/assembler/stack_upgrade_tier_3",
+    "inputs": [
+      {
+        "item": "sophisticatedbackpacks:stack_upgrade_tier_2",
+        "count": 1
+      },
+      {
+        "item": "gtceu:ev_super_chest",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "sophisticatedbackpacks:stack_upgrade_tier_3",
+        "count": 1
+      }
+    ],
+    "fluids": [],
+    "catalysts": [],
+    "duration": 50,
+    "EUt": 128
+  },
+  {
+    "group": "sophisticatedbackpacks",
+    "type": "assembler",
+    "id": "otg:restored/backpacks/assembler/stack_upgrade_tier_4",
+    "inputs": [
+      {
+        "item": "sophisticatedbackpacks:stack_upgrade_tier_3",
+        "count": 1
+      },
+      {
+        "item": "gtceu:iv_quantum_chest",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "sophisticatedbackpacks:stack_upgrade_tier_4",
+        "count": 1
+      }
+    ],
+    "fluids": [],
+    "catalysts": [],
+    "duration": 50,
+    "EUt": 256
+  },
+  {
+    "group": "sophisticatedbackpacks",
+    "type": "assembler",
+    "id": "otg:restored/backpacks/assembler/jukebox_upgrade",
+    "inputs": [
+      {
+        "item": "sophisticatedbackpacks:upgrade_base",
+        "count": 1
+      },
+      {
+        "item": "minecraft:jukebox",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "sophisticatedbackpacks:jukebox_upgrade",
+        "count": 1
+      }
+    ],
+    "fluids": [],
+    "catalysts": [],
+    "duration": 50,
+    "EUt": 16
+  },
+  {
+    "group": "sophisticatedbackpacks",
+    "type": "assembler",
+    "id": "otg:restored/backpacks/assembler/tool_swapper_upgrade",
+    "inputs": [
+      {
+        "item": "sophisticatedbackpacks:upgrade_base",
+        "count": 1
+      },
+      {
+        "item": "#forge:tools/wrenches",
+        "count": 1
+      },
+      {
+        "item": "#forge:tools/hammers",
+        "count": 1
+      },
+      {
+        "item": "#forge:tools/screwdrivers",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "sophisticatedbackpacks:tool_swapper_upgrade",
+        "count": 1
+      }
+    ],
+    "fluids": [],
+    "catalysts": [],
+    "duration": 50,
+    "EUt": 16
+  },
+  {
+    "group": "sophisticatedbackpacks",
+    "type": "assembler",
+    "id": "otg:restored/backpacks/assembler/advanced_tool_swapper_upgrade",
+    "inputs": [
+      {
+        "item": "sophisticatedbackpacks:tool_swapper_upgrade",
+        "count": 1
+      },
+      {
+        "item": "#forge:tools/files",
+        "count": 1
+      },
+      {
+        "item": "#forge:tools/wire_cutters",
+        "count": 1
+      },
+      {
+        "item": "#forge:tools/mortars",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "sophisticatedbackpacks:advanced_tool_swapper_upgrade",
+        "count": 1
+      }
+    ],
+    "fluids": [],
+    "catalysts": [],
+    "duration": 50,
+    "EUt": 16
+  },
+  {
+    "group": "sophisticatedbackpacks",
+    "type": "assembler",
+    "id": "otg:restored/backpacks/assembler/tank_upgrade",
+    "inputs": [
+      {
+        "item": "sophisticatedbackpacks:upgrade_base",
+        "count": 1
+      },
+      {
+        "item": "gtceu:bronze_drum",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "sophisticatedbackpacks:tank_upgrade",
+        "count": 1
+      }
+    ],
+    "fluids": [],
+    "catalysts": [],
+    "duration": 50,
+    "EUt": 16
+  },
+  {
+    "group": "sophisticatedbackpacks",
+    "type": "assembler",
+    "id": "otg:restored/backpacks/assembler/pump_upgrade",
+    "inputs": [
+      {
+        "item": "sophisticatedbackpacks:upgrade_base",
+        "count": 1
+      },
+      {
+        "item": "gtceu:lv_electric_pump",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "sophisticatedbackpacks:pump_upgrade",
+        "count": 1
+      }
+    ],
+    "fluids": [],
+    "catalysts": [],
+    "duration": 50,
+    "EUt": 16
+  },
+  {
+    "group": "sophisticatedbackpacks",
+    "type": "assembler",
+    "id": "otg:restored/backpacks/assembler/advanced_pump_upgrade",
+    "inputs": [
+      {
+        "item": "sophisticatedbackpacks:pump_upgrade",
+        "count": 1
+      },
+      {
+        "item": "gtceu:mv_electric_pump",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "sophisticatedbackpacks:advanced_pump_upgrade",
+        "count": 1
+      }
+    ],
+    "fluids": [],
+    "catalysts": [],
+    "duration": 50,
+    "EUt": 16
+  },
+  {
+    "group": "sophisticatedbackpacks",
+    "type": "assembler",
+    "id": "otg:restored/backpacks/assembler/xp_pump_upgrade",
+    "inputs": [
+      {
+        "item": "sophisticatedbackpacks:pump_upgrade",
+        "count": 1
+      },
+      {
+        "item": "minecraft:experience_bottle",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "sophisticatedbackpacks:xp_pump_upgrade",
+        "count": 1
+      }
+    ],
+    "fluids": [],
+    "catalysts": [],
+    "duration": 50,
+    "EUt": 16
+  },
+  {
+    "group": "sophisticatedbackpacks",
+    "type": "assembler",
+    "id": "otg:restored/backpacks/assembler/anvil_upgrade",
+    "inputs": [
+      {
+        "item": "sophisticatedbackpacks:pump_upgrade",
+        "count": 1
+      },
+      {
+        "item": "minecraft:anvil",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "sophisticatedbackpacks:anvil_upgrade",
+        "count": 1
+      }
+    ],
+    "fluids": [],
+    "catalysts": [],
+    "duration": 50,
+    "EUt": 16
+  },
+  {
+    "group": "butchersdelight",
+    "type": "create_processing",
+    "id": "otg:restored/create_butchery/cutting/dead_cow",
+    "inputs": [
+      {
+        "item": "butchersdelight:dead_cow",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "butchersdelight:deadcowblockskinned",
+        "count": 1
+      },
+      {
+        "item": "butchersdelight:cow_hide",
+        "count": 1
+      }
+    ],
+    "fluids": [],
+    "catalysts": [],
+    "nativeJson": {
+      "type": "create:cutting",
+      "ingredients": [
+        {
+          "item": "butchersdelight:dead_cow"
+        }
+      ],
+      "results": [
+        {
+          "item": "butchersdelight:deadcowblockskinned"
+        },
+        {
+          "item": "butchersdelight:cow_hide"
+        }
+      ]
+    }
+  },
+  {
+    "group": "butchersdelight",
+    "type": "create_processing",
+    "id": "otg:restored/create_butchery/cutting/deadcowblockskinned",
+    "inputs": [
+      {
+        "item": "butchersdelight:deadcowblockskinned",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "butchersdelight:skullcow",
+        "count": 1
+      },
+      {
+        "item": "minecraft:bone",
+        "count": 1
+      },
+      {
+        "item": "butchersdelightfoods:beefribs",
+        "count": 1
+      },
+      {
+        "item": "butchersdelightfoods:legcow",
+        "count": 1
+      },
+      {
+        "item": "butchersdelightfoods:beeftenderloin",
+        "count": 1
+      }
+    ],
+    "fluids": [],
+    "catalysts": [],
+    "nativeJson": {
+      "type": "create:cutting",
+      "ingredients": [
+        {
+          "item": "butchersdelight:deadcowblockskinned"
+        }
+      ],
+      "results": [
+        {
+          "item": "butchersdelight:skullcow"
+        },
+        {
+          "item": "minecraft:bone"
+        },
+        {
+          "item": "butchersdelightfoods:beefribs"
+        },
+        {
+          "item": "butchersdelightfoods:legcow"
+        },
+        {
+          "item": "butchersdelightfoods:beeftenderloin"
+        }
+      ]
+    }
+  },
+  {
+    "group": "butchersdelight",
+    "type": "create_processing",
+    "id": "otg:restored/create_butchery/cutting/deadpig",
+    "inputs": [
+      {
+        "item": "butchersdelight:deadpig",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "butchersdelightfoods:ham",
+        "count": 1
+      },
+      {
+        "item": "butchersdelightfoods:porkloin",
+        "count": 1
+      },
+      {
+        "item": "butchersdelightfoods:porkribs",
+        "count": 1
+      }
+    ],
+    "fluids": [],
+    "catalysts": [],
+    "nativeJson": {
+      "type": "create:cutting",
+      "ingredients": [
+        {
+          "item": "butchersdelight:deadpig"
+        }
+      ],
+      "results": [
+        {
+          "item": "butchersdelightfoods:ham"
+        },
+        {
+          "item": "butchersdelightfoods:porkloin"
+        },
+        {
+          "item": "butchersdelightfoods:porkribs"
+        }
+      ]
+    }
+  },
+  {
+    "group": "butchersdelight",
+    "type": "create_processing",
+    "id": "otg:restored/create_butchery/cutting/deadsheep",
+    "inputs": [
+      {
+        "item": "butchersdelight:deadsheep",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "butchersdelight:deadsheepskinnedblock",
+        "count": 1
+      },
+      {
+        "item": "butchersdelight:sheephide",
+        "count": 1
+      }
+    ],
+    "fluids": [],
+    "catalysts": [],
+    "nativeJson": {
+      "type": "create:cutting",
+      "ingredients": [
+        {
+          "item": "butchersdelight:deadsheep"
+        }
+      ],
+      "results": [
+        {
+          "item": "butchersdelight:deadsheepskinnedblock"
+        },
+        {
+          "item": "butchersdelight:sheephide"
+        }
+      ]
+    }
+  },
+  {
+    "group": "butchersdelight",
+    "type": "create_processing",
+    "id": "otg:restored/create_butchery/cutting/deadsheepskinnedblock",
+    "inputs": [
+      {
+        "item": "butchersdelight:deadsheepskinnedblock",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "butchersdelightfoods:sheepshank",
+        "count": 1
+      },
+      {
+        "item": "butchersdelightfoods:sheeprack",
+        "count": 1
+      },
+      {
+        "item": "butchersdelightfoods:sheeploin",
+        "count": 1
+      }
+    ],
+    "fluids": [],
+    "catalysts": [],
+    "nativeJson": {
+      "type": "create:cutting",
+      "ingredients": [
+        {
+          "item": "butchersdelight:deadsheepskinnedblock"
+        }
+      ],
+      "results": [
+        {
+          "item": "butchersdelightfoods:sheepshank"
+        },
+        {
+          "item": "butchersdelightfoods:sheeprack"
+        },
+        {
+          "item": "butchersdelightfoods:sheeploin"
+        }
+      ]
+    }
+  },
+  {
+    "group": "butchersdelight",
+    "type": "create_processing",
+    "id": "otg:restored/create_butchery/milling/sheephide",
+    "inputs": [
+      {
+        "item": "butchersdelight:sheephide",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "minecraft:white_wool",
+        "count": 3
+      }
+    ],
+    "fluids": [],
+    "catalysts": [],
+    "nativeJson": {
+      "type": "create:milling",
+      "ingredients": [
+        {
+          "item": "butchersdelight:sheephide"
+        }
+      ],
+      "results": [
+        {
+          "item": "minecraft:white_wool",
+          "count": 3
+        }
+      ]
+    }
+  },
+  {
+    "group": "butchersdelight",
+    "type": "create_processing",
+    "id": "otg:restored/create_butchery/cutting/deadgoat",
+    "inputs": [
+      {
+        "item": "butchersdelight:deadgoat",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "butchersdelight:deadgoatskinnedblock",
+        "count": 1
+      },
+      {
+        "item": "butchersdelight:goat_fur",
+        "count": 1
+      }
+    ],
+    "fluids": [],
+    "catalysts": [],
+    "nativeJson": {
+      "type": "create:cutting",
+      "ingredients": [
+        {
+          "item": "butchersdelight:deadgoat"
+        }
+      ],
+      "results": [
+        {
+          "item": "butchersdelight:deadgoatskinnedblock"
+        },
+        {
+          "item": "butchersdelight:goat_fur"
+        }
+      ]
+    }
+  },
+  {
+    "group": "butchersdelight",
+    "type": "create_processing",
+    "id": "otg:restored/create_butchery/cutting/deadgoatskinnedblock",
+    "inputs": [
+      {
+        "item": "butchersdelight:deadgoatskinnedblock",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "butchersdelightfoods:goat_loin",
+        "count": 1
+      },
+      {
+        "item": "butchersdelightfoods:goat_shank",
+        "count": 1
+      },
+      {
+        "item": "butchersdelightfoods:goatrack",
+        "count": 1
+      }
+    ],
+    "fluids": [],
+    "catalysts": [],
+    "nativeJson": {
+      "type": "create:cutting",
+      "ingredients": [
+        {
+          "item": "butchersdelight:deadgoatskinnedblock"
+        }
+      ],
+      "results": [
+        {
+          "item": "butchersdelightfoods:goat_loin"
+        },
+        {
+          "item": "butchersdelightfoods:goat_shank"
+        },
+        {
+          "item": "butchersdelightfoods:goatrack"
+        }
+      ]
+    }
+  },
+  {
+    "group": "butchersdelight",
+    "type": "create_processing",
+    "id": "otg:restored/create_butchery/cutting/deadhoglin",
+    "inputs": [
+      {
+        "item": "butchersdelight:deadhoglin",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "butchersdelight:hoglinskin",
+        "count": 1
+      },
+      {
+        "item": "butchersdelightfoods:ham",
+        "count": 1
+      },
+      {
+        "item": "butchersdelightfoods:porkloin",
+        "count": 1
+      },
+      {
+        "item": "butchersdelightfoods:porkribs",
+        "count": 1
+      }
+    ],
+    "fluids": [],
+    "catalysts": [],
+    "nativeJson": {
+      "type": "create:cutting",
+      "ingredients": [
+        {
+          "item": "butchersdelight:deadhoglin"
+        }
+      ],
+      "results": [
+        {
+          "item": "butchersdelight:hoglinskin"
+        },
+        {
+          "item": "butchersdelightfoods:ham"
+        },
+        {
+          "item": "butchersdelightfoods:porkloin"
+        },
+        {
+          "item": "butchersdelightfoods:porkribs"
+        }
+      ]
+    }
+  },
+  {
+    "group": "butchersdelight",
+    "type": "create_processing",
+    "id": "otg:restored/create_butchery/cutting/deadchiken",
+    "inputs": [
+      {
+        "item": "butchersdelight:deadchiken",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "butchersdelight:deadchickenblockskinned",
+        "count": 1
+      },
+      {
+        "item": "minecraft:feather",
+        "count": 3
+      }
+    ],
+    "fluids": [],
+    "catalysts": [],
+    "nativeJson": {
+      "type": "create:cutting",
+      "ingredients": [
+        {
+          "item": "butchersdelight:deadchiken"
+        }
+      ],
+      "results": [
+        {
+          "item": "butchersdelight:deadchickenblockskinned"
+        },
+        {
+          "item": "minecraft:feather",
+          "count": 3
+        }
+      ]
+    }
+  },
+  {
+    "group": "butchersdelight",
+    "type": "create_processing",
+    "id": "otg:restored/create_butchery/cutting/deadchickenblockskinned",
+    "inputs": [
+      {
+        "item": "butchersdelight:deadchickenblockskinned",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "minecraft:chicken",
+        "count": 1
+      }
+    ],
+    "fluids": [],
+    "catalysts": [],
+    "nativeJson": {
+      "type": "create:cutting",
+      "ingredients": [
+        {
+          "item": "butchersdelight:deadchickenblockskinned"
+        }
+      ],
+      "results": [
+        {
+          "item": "minecraft:chicken"
+        }
+      ]
+    }
+  },
+  {
+    "group": "butchersdelight",
+    "type": "create_processing",
+    "id": "otg:restored/create_butchery/cutting/deadrabbitbrown",
+    "inputs": [
+      {
+        "item": "butchersdelight:deadrabbitbrown",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "butchersdelight:deadrabiitskinnedblock",
+        "count": 1
+      },
+      {
+        "item": "minecraft:rabbit_hide",
+        "count": 1
+      }
+    ],
+    "fluids": [],
+    "catalysts": [],
+    "nativeJson": {
+      "type": "create:cutting",
+      "ingredients": [
+        {
+          "item": "butchersdelight:deadrabbitbrown"
+        }
+      ],
+      "results": [
+        {
+          "item": "butchersdelight:deadrabiitskinnedblock"
+        },
+        {
+          "item": "minecraft:rabbit_hide"
+        }
+      ]
+    }
+  },
+  {
+    "group": "butchersdelight",
+    "type": "create_processing",
+    "id": "otg:restored/create_butchery/cutting/deadrabiitskinnedblock",
+    "inputs": [
+      {
+        "item": "butchersdelight:deadrabiitskinnedblock",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "minecraft:rabbit_foot",
+        "count": 1,
+        "chance": 0.65
+      },
+      {
+        "item": "minecraft:rabbit",
+        "count": 1
+      }
+    ],
+    "fluids": [],
+    "catalysts": [],
+    "nativeJson": {
+      "type": "create:cutting",
+      "ingredients": [
+        {
+          "item": "butchersdelight:deadrabiitskinnedblock"
+        }
+      ],
+      "results": [
+        {
+          "item": "minecraft:rabbit_foot",
+          "chance": 0.65
+        },
+        {
+          "item": "minecraft:rabbit"
+        }
+      ]
+    }
+  },
+  {
+    "group": "butchersdelight",
+    "type": "create_processing",
+    "id": "otg:restored/create_butchery/cutting/deadllama",
+    "inputs": [
+      {
+        "item": "butchersdelight:deadllama",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "butchersdelight:deadllamaskinnedblock",
+        "count": 1
+      },
+      {
+        "item": "minecraft:white_wool",
+        "count": 3,
+        "chance": 0.85
+      }
+    ],
+    "fluids": [],
+    "catalysts": [],
+    "nativeJson": {
+      "type": "create:cutting",
+      "ingredients": [
+        {
+          "item": "butchersdelight:deadllama"
+        }
+      ],
+      "results": [
+        {
+          "item": "butchersdelight:deadllamaskinnedblock"
+        },
+        {
+          "item": "minecraft:white_wool",
+          "count": 3,
+          "chance": 0.85
+        }
+      ]
+    }
+  },
+  {
+    "group": "butchersdelight",
+    "type": "create_processing",
+    "id": "otg:restored/create_butchery/cutting/deadllamaskinnedblock",
+    "inputs": [
+      {
+        "item": "butchersdelight:deadllamaskinnedblock",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "butchersdelightfoods:llama_leg",
+        "count": 1
+      },
+      {
+        "item": "butchersdelightfoods:llama_loin",
+        "count": 1
+      },
+      {
+        "item": "butchersdelightfoods:llamma_ribs",
+        "count": 1
+      }
+    ],
+    "fluids": [],
+    "catalysts": [],
+    "nativeJson": {
+      "type": "create:cutting",
+      "ingredients": [
+        {
+          "item": "butchersdelight:deadllamaskinnedblock"
+        }
+      ],
+      "results": [
+        {
+          "item": "butchersdelightfoods:llama_leg"
+        },
+        {
+          "item": "butchersdelightfoods:llama_loin"
+        },
+        {
+          "item": "butchersdelightfoods:llamma_ribs"
+        }
+      ]
+    }
+  }
+]

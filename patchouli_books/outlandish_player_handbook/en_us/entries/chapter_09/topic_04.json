@@ -1,0 +1,12 @@
+{
+  "name": "Keep important systems supplied",
+  "category": "patchouli:chapter_09",
+  "icon": "minecraft:chest",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Food, repairs, power inputs and commonly used components keep the rest of your progress moving. Give those supplies room to build a reserve.$(br2)A factory that can make an impressive item once is a milestone. A factory that can make it again without a long recovery period is a tool you can build on."
+    }
+  ]
+}

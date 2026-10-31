@@ -1,0 +1,12 @@
+{
+  "name": "A Gold Backpack",
+  "category": "patchouli:chapter_18",
+  "icon": "minecraft:chest",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Your factory now supplies aluminium screws, blue alloy and carbon fibres for a larger backpack. Keep a dedicated area for expedition supplies and unload bulk stone regularly."
+    }
+  ]
+}

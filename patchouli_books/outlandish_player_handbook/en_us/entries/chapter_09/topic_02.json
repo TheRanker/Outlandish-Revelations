@@ -1,0 +1,16 @@
+{
+  "name": "Teach one process at a time",
+  "category": "patchouli:chapter_09",
+  "icon": "minecraft:chest",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Before automating a recipe, run it manually and confirm the actual output. Then add transport, filters and collection.$(br2)Start with a small request. Check that ingredients reach the correct machine, fluids are available, reusable tools stay where needed and products return to storage."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Once the whole process works, increase batch sizes. Expanding a proven process is easier than investigating several new failures at once."
+    }
+  ]
+}

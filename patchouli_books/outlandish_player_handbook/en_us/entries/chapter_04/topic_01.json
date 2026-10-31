@@ -1,0 +1,16 @@
+{
+  "name": "Organize the kitchen by use",
+  "category": "patchouli:chapter_04",
+  "icon": "minecraft:bread",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Keep kitchen tools near the ingredients they process. Give frequently used supplies—such as flour, oils, sweeteners and prepared ingredients—their own storage.$(br2)Use JEI to see which meals share ingredients. Growing a few versatile crops can support many recipes, especially when your kitchen already has the required tools."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Before planting a very large field, choose a few meals you actually want to keep making. Build your crop supply around those recipes, then add variety."
+    }
+  ]
+}

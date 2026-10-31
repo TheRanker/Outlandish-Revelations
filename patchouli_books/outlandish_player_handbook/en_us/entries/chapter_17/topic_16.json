@@ -1,0 +1,12 @@
+{
+  "name": "A Kitchen That Works Together",
+  "category": "patchouli:chapter_17",
+  "icon": "minecraft:compass",
+  "sortnum": 16,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Arrange Cooking for Blockheads kitchen blocks together so the cooking station can use connected ingredient storage. Keep common ingredients and utensils nearby. The oven in this pack requires cooking oil; ordinary furnace fuel is not enough. Check the recipe in JEI and keep the kitchen supplied before relying on it for expedition food."
+    }
+  ]
+}

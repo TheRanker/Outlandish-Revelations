@@ -1,0 +1,16 @@
+{
+  "name": "Twilight Forest",
+  "category": "patchouli:chapter_12",
+  "icon": "minecraft:compass",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Follow the Twilight chapter’s boss and exploration sequence. Pay attention to the forest’s own progression messages and the guide information for each encounter.$(br2)Prepare for the next area before crossing into it. If an area resists your progress, check what the previous boss or landmark was meant to teach you."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "For every dimension: establish your return route before spending the supplies you need to use it."
+    }
+  ]
+}

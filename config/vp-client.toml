@@ -1,0 +1,27 @@
+#Gui scale
+#Range: 0.01 ~ 10.0
+guiScaleChest = 1.0
+#Gui scale
+#Range: 0.01 ~ 10.0
+guiScaleLoot = 1.0
+#Gui scale
+#Range: 0.01 ~ 10.0
+guiScaleGuide = 1.0
+#Gui scale
+#Range: 0.01 ~ 10.0
+guiScaleVortex = 1.0
+#Gui scale
+#Range: 0.01 ~ 10.0
+guiScaleChallenge = 1.0
+#Gui scale
+#Range: 0.01 ~ 10.0
+guiScaleVestige = 1.0
+#Gui scale
+#Range: 0.01 ~ 10.0
+guiScaleLeaderboard = 1.0
+#Should Soul Integrity be rendered?
+renderSoulIntegrity = true
+#Gui scale
+#Range: 0.01 ~ 10.0
+guiScaleWelcome = 0.9999999999999997
+

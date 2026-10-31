@@ -1,0 +1,12 @@
+{
+  "name": "An orbital base needs support",
+  "category": "patchouli:chapter_13",
+  "icon": "minecraft:firework_rocket",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Plan power, oxygen, storage and transport before moving a large amount of material into orbit. Build the station around jobs you want it to perform and keep a dependable route for supplies.$(br2)Space is a later industrial project. Let the factory do the preparation so the expedition can focus on discovery."
+    }
+  ]
+}

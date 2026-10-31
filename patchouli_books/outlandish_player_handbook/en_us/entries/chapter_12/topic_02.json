@@ -1,0 +1,16 @@
+{
+  "name": "The End and its outer islands",
+  "category": "patchouli:chapter_12",
+  "icon": "minecraft:compass",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Nullscape shapes the End into a more dramatic landscape. Plan your crossings around height changes and gaps, and carry blocks and Ender Pearls for difficult terrain.$(br2)Enter with enough blocks and supplies to recover from an awkward arrival. When fighting the Dragon, watch the crystals, your footing and the space around you."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "After the central encounter, the outer islands offer further exploration, End cities, Shulkers and Elytra. Do not let a promising structure distract you from the distance and supplies needed to get home.$(br2)An Elytra is an invitation to plan your flight. Carry suitable propulsion and leave enough reserve to return or land safely."
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Plan modifiers before spending ingredients",
+  "category": "patchouli:chapter_05",
+  "icon": "minecraft:anvil",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Modifiers use slots and may require earlier levels or specific components. Read the full recipe and the tool’s remaining capacity before applying one."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Prepare industrial modifier components in the appropriate GregTech workshop, then apply them at the required Tinkers station. Choose a few useful abilities that work together rather than filling every slot immediately.$(br2)A good workshop tool: does the job you need, has a repair supply and leaves you with a clear plan for its next upgrade."
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Blood Magic: prepare the altar and the factory",
+  "category": "patchouli:chapter_10",
+  "icon": "minecraft:enchanted_book",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Your first Blood Altar uses Create components in Mechanical Crafting. Later altar progression develops with GregTech:$(br2)Blood Altar tier — Supporting workshop$(br2)Tier 1 — Create components$(br2)Tier 2 — LV$(br2)Tier 3 — MV$(br2)Tier 4 — HV$(br2)Tier 5 — EV"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Use the Sanguine Scientiem to check altar structures. Use JEI for prepared slates, Blood Orb Cores and the other ingredients your workshop must supply.$(br2)Prepare enough Life Essence or Demon Will for the task you are starting. Build a repeatable collection and processing routine before expanding into a larger project."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Living Armor is a Blood Magic equipment option that develops through use. Learn how its upgrades are trained and choose abilities that suit your play style. Your final armor progression is covered by Draconic equipment later in this handbook."
+    }
+  ]
+}

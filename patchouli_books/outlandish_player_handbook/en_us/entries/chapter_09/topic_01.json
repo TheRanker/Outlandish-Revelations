@@ -1,0 +1,24 @@
+{
+  "name": "Build your AE2 network around a useful job",
+  "category": "patchouli:chapter_09",
+  "icon": "minecraft:chest",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "AE2 is the pack’s main storage system. Follow its quests and use the GregTech processing recipes in JEI to prepare the required components.$(br2)Begin with a small network that stores and retrieves useful materials. Confirm power, connections and storage capacity before expanding into a much larger layout."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "As the network grows, check the connection and channel requirements of the devices you add. A visible cable alone does not prove every device has a working connection."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Use an MV Mixer for Fluix Crystals. Prepare printed processors with a Laser Engraver and Skystone Lens, then finish processors in a Circuit Assembler. Follow JEI for the ingredients and processing fluids."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "For a Quantum Network Bridge, prepare paired Quantum Entangled Singularities in an HV-capable Implosion Compressor. The recipe uses a Singularity and Ender Pearl Dust; JEI shows the quantities and machine requirements."
+    }
+  ]
+}

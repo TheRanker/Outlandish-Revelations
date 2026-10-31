@@ -1,0 +1,16 @@
+{
+  "name": "Commission your first boiler",
+  "category": "patchouli:chapter_06",
+  "icon": "minecraft:furnace",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Build the boiler using JEI, prepare a reliable water supply and connect appropriate steam transport. Supply water before heating it and monitor the system while it starts.$(br2)Do not let a boiler run unattended with an uncertain water supply. If it runs dry or behaves unexpectedly, stop and consult its operating information before attempting a restart."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Give the boiler enough output capacity for the machines it supplies. If several machines stop together, check steam production and delivery before assuming each machine has failed."
+    }
+  ]
+}

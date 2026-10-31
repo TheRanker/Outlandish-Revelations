@@ -1,0 +1,12 @@
+{
+  "name": "Change a Wall without Starting Over",
+  "category": "patchouli:chapter_20",
+  "icon": "minecraft:bricks",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The Exchanging Gadget replaces selected blocks with your chosen material. Test it on a small area and inspect the preview. Keep it away from machines, storage and other blocks whose contents matter until you understand its behaviour."
+    }
+  ]
+}

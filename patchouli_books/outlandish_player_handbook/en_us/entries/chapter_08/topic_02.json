@@ -1,0 +1,12 @@
+{
+  "name": "Begin with useful foundations",
+  "category": "patchouli:chapter_08",
+  "icon": "minecraft:glass_bottle",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Water separation supplies Hydrogen and Oxygen. Salt-based processing can supply Chlorine. Acids then connect those basic resources to many later reactions.$(br2)Rubber is another practical early goal. Follow the chain from a suitable source to Raw Rubber, then use the vulcanizing recipe and form the resulting Rubber into the parts your machines need."
+    }
+  ]
+}

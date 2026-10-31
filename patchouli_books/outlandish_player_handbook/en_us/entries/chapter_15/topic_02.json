@@ -1,0 +1,12 @@
+{
+  "name": "Stay for the whole encounter",
+  "category": "patchouli:chapter_15",
+  "icon": "minecraft:blaze_powder",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Defeating the first health bar is not the end. Survive the final spell while the Inferno is invulnerable and stay with the encounter until the Fallen to Ashes victory advancement is awarded.$(br2)Follow the boss’s actual encounter and advancement rather than expecting an ordinary Blaze kill to complete the finale."
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "name": "entry.refinedcooking.kitchenaccesspoint.name",
+  "icon": "minecraft:comparator",
+  "category": "sebastrnlib:refined_cooking",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "entry.refinedcooking.kitchenaccesspoint.page0"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "refinedcooking:kitchen_access_point",
+      "text": "entry.refinedcooking.kitchenaccesspoint.page1"
+    },
+    {
+      "type": "patchouli:image",
+      "title": "entry.refinedcooking.kitchenaccesspoint.page2.title",
+      "images": [
+        "sebastrnlib:textures/gui/entries/refinedcooking-kitchenaccesspoint-disconnected.png"
+      ],
+      "text": "entry.refinedcooking.kitchenaccesspoint.page2"
+    },
+    {
+      "type": "patchouli:image",
+      "title": "entry.refinedcooking.kitchenaccesspoint.page3.title",
+      "images": [
+        "sebastrnlib:textures/gui/entries/refinedcooking-kitchenaccesspoint-connected.png"
+      ],
+      "text": "entry.refinedcooking.kitchenaccesspoint.page3"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "refinedcooking:kitchen_access_point": 0
+  },
+  "sortnum": 2,
+  "flag": "mod:refinedcooking"
+}

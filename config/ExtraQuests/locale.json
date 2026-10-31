@@ -1,0 +1,5 @@
+{
+  "reload": "&e(!) Configs have been reloaded.",
+  "addKeyValueSource": "&e(!) You have added a key %key% value %value% to the player %player%.",
+  "addKeyValueTarget": "&e(!) You have been added a value of %value% key %key%."
+}

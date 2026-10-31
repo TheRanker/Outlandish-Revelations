@@ -1,0 +1,16 @@
+{
+  "name": "Plan the destinations in stages",
+  "category": "patchouli:chapter_13",
+  "icon": "minecraft:firework_rocket",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Expedition — Main project to prepare$(br2)Luna — Tier-one rocket, fuel and life support$(br2)Mars, Venus and Mercury — Tier-two rocket with IV advanced components and destination-appropriate protection$(br2)Orbital station project — LuV Space Station Packager and a planned supply system"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Proxima Centauri B — Tier-three rocket with elite components supported by ZPM manufacturing$(br2)Check the actual recipes and destination requirements before every new expedition. A successful Moon trip does not prove the same equipment is suitable everywhere else."
+    }
+  ]
+}

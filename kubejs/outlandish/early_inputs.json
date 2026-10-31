@@ -1,0 +1,62 @@
+{
+  "steam_progression": {
+    "mod": "gtceu",
+    "rules": [
+      {
+        "output": "minecraft:blast_furnace",
+        "from": "minecraft:iron_ingot",
+        "to": "#forge:plates/iron"
+      },
+      {
+        "output": "gtceu:lp_steam_solid_boiler",
+        "from": "minecraft:furnace",
+        "to": "minecraft:blast_furnace"
+      },
+      {
+        "output": "gtceu:hp_steam_solid_boiler",
+        "from": "minecraft:furnace",
+        "to": "minecraft:blast_furnace"
+      },
+      {
+        "output": "gtceu:lp_steam_furnace",
+        "from": "minecraft:furnace",
+        "to": "minecraft:blast_furnace"
+      },
+      {
+        "output": "gtceu:lp_steam_alloy_smelter",
+        "from": "minecraft:furnace",
+        "to": "minecraft:blast_furnace"
+      }
+    ]
+  },
+  "chipped": {
+    "mod": "chipped",
+    "rules": [
+      {
+        "output": "chipped:carpenters_table",
+        "from": "minecraft:wooden_axe",
+        "to": "#forge:tools/saws"
+      }
+    ]
+  },
+  "farmersdelight": {
+    "mod": "farmersdelight",
+    "rules": [
+      {
+        "output": "farmersdelight:cooking_pot",
+        "from": "minecraft:wooden_shovel",
+        "to": "#minecraft:shovels"
+      }
+    ]
+  },
+  "miners_delight": {
+    "mod": "miners_delight",
+    "rules": [
+      {
+        "output": "miners_delight:copper_pot",
+        "from": "minecraft:wooden_shovel",
+        "to": "#minecraft:shovels"
+      }
+    ]
+  }
+}

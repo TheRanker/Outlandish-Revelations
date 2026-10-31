@@ -1,0 +1,20 @@
+{
+  "name": "Your first useful goals",
+  "category": "patchouli:chapter_01",
+  "icon": "minecraft:crafting_table",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Start with these goals rather than trying to craft the most impressive machine in JEI:"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "- Establish food you can replace reliably. - Gather the materials for the basic tools in Getting Started. - Learn to recognize and record useful ore deposits. - Set up your first Tinkers tools and a way to repair them. - Begin preparing copper, tin and bronze for steam industry. - Explore Create’s basic components and processing options."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "These projects support one another. A better tool makes gathering easier; a stable food supply lets you stay out longer; a small processing workshop makes the next machine less expensive to build."
+    }
+  ]
+}

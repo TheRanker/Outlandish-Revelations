@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_fluid",
+  "fluid": {
+    "amount": 90,
+    "fluid": "aquaculture_tinkers:neptunium"
+  },
+  "temperature": 1250,
+  "output": "aquaculture_tinkers:neptunium"
+}

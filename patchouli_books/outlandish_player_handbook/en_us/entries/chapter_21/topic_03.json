@@ -1,0 +1,12 @@
+{
+  "name": "Choose a Challenge",
+  "category": "patchouli:chapter_21",
+  "icon": "minecraft:amethyst_shard",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Pick one obtainable Vestige in the guide, read its requirements and track the remaining progress. Complete those activities through normal play. The reward comes from the mod’s challenge system; this reading task does not award a Vestige or complete its challenge for you."
+    }
+  ]
+}

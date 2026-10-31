@@ -1,0 +1,12 @@
+{
+  "name": "Connect Your Workers",
+  "category": "patchouli:chapter_19",
+  "icon": "minecraft:bell",
+  "sortnum": 10,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A Courier moves supplies between the warehouse and workplaces. Build the Courier’s Hut and inspect delivery requests when a worker waits. Good roads, accessible entrances and enough warehouse space matter as much as the number of couriers."
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "level_display": "tconstruct:no_levels",
+  "modules": [
+    {
+      "type": "tconstruct:stat_boost",
+      "stat": "tconstruct:durability",
+      "operation": "add",
+      "flat": 150
+    },
+    {
+      "type": "tconstruct:stat_boost",
+      "stat": "tconstruct:mining_speed",
+      "operation": "add",
+      "flat": 1
+    },
+    {
+      "type": "tconstruct:set_stat",
+      "stat": "tconstruct:harvest_tier",
+      "value": "minecraft:iron"
+    },
+    {
+      "type": "tconstruct:material_repair",
+      "stat_type": "tconstruct:head",
+      "material": "tconstruct:copper"
+    }
+  ],
+  "show_in_tooltips": "always"
+}

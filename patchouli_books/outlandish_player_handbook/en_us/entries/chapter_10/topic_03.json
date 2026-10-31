@@ -1,0 +1,12 @@
+{
+  "name": "Ars Nouveau: learn a small set of useful spells",
+  "category": "patchouli:chapter_10",
+  "icon": "minecraft:enchanted_book",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Use the Ars guidebook and quests to learn spell construction and the equipment available to you. Begin with spells that help with jobs you perform often.$(br2)Test a new spell in an open, safe area. Understand its effect and resource cost before using it near machinery, animals or a shared build."
+    }
+  ]
+}

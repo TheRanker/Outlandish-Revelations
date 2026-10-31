@@ -1,0 +1,11 @@
+{
+  "type": "tconstruct:casting_basin",
+  "fluid": {
+    "amount": 810,
+    "fluid": "aquaculture_tinkers:neptunium"
+  },
+  "result": {
+    "item": "aquaculture:neptunium_block"
+  },
+  "cooling_time": 270
+}

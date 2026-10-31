@@ -1,0 +1,16 @@
+{
+  "name": "Draconic Additions and the reactor",
+  "category": "patchouli:chapter_14",
+  "icon": "minecraft:netherite_chestplate",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Develop chaos-processing equipment in recipe order and check energy requirements before connecting it. Use the quests and JEI to separate equipment projects from material-processing projects."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "The Draconic Reactor is an optional UV undertaking. Study its containment and control requirements before loading fuel. Give it a dedicated installation and verify the controls before commissioning it.$(br2)Ready for the final boss: your equipment is configured, charged and tested, and the factory can replenish the supplies behind it."
+    }
+  ]
+}

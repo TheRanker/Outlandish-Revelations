@@ -1,0 +1,12 @@
+{
+  "name": "“The quest does not complete when I have the item.”",
+  "category": "patchouli:chapter_16",
+  "icon": "minecraft:paper",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Check the exact item, quantity and any required variant. Confirm that the prerequisite quests are complete and that the task is an item task rather than an advancement, dimension visit or fluid submission.$(br2)For a fluid task, owning a container is not the same as submitting the required sample."
+    }
+  ]
+}

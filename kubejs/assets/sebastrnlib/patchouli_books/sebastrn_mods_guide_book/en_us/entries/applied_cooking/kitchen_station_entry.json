@@ -1,0 +1,37 @@
+{
+  "name": "entry.appliedcooking.kitchenstation.name",
+  "icon": "appliedcooking:kitchen_station",
+  "category": "sebastrnlib:applied_cooking",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Connect your Cooking for Blockheads kitchen to your AE2 storage with an ME Kitchen Station. First link the station item through an ME Wireless Access Point, as you would a wireless terminal. Then place the station as part of your kitchen. Keep your ME network powered and within wireless range so the Cooking Table can use its stored ingredients."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "appliedcooking:kitchen_station",
+      "text": "entry.appliedcooking.kitchenstation.page1"
+    },
+    {
+      "type": "patchouli:image",
+      "title": "entry.appliedcooking.kitchenstation.page2.title",
+      "images": [
+        "sebastrnlib:textures/gui/entries/appliedcooking-kitchenstation-disconnected.png"
+      ],
+      "text": "entry.appliedcooking.kitchenstation.page2"
+    },
+    {
+      "type": "patchouli:image",
+      "title": "entry.appliedcooking.kitchenstation.page3.title",
+      "images": [
+        "sebastrnlib:textures/gui/entries/appliedcooking-kitchenstation-connected.png"
+      ],
+      "text": "entry.appliedcooking.kitchenstation.page3"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "appliedcooking:kitchen_station": 0
+  },
+  "sortnum": 0,
+  "flag": "mod:appliedcooking"
+}

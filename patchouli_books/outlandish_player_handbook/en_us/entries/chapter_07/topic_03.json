@@ -1,0 +1,12 @@
+{
+  "name": "HV: connect your larger projects",
+  "category": "patchouli:chapter_07",
+  "icon": "minecraft:redstone",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "HV supports specialist Tinkers materials, the Elven workshop, further Blood Magic progression, MFFS equipment and the beginning of industrial Draconium processing.$(br2)Several branches will compete for the same circuits and materials. Choose a main project, then build enough component production to support it without emptying every other workshop."
+    }
+  ]
+}

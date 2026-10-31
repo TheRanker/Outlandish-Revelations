@@ -1,0 +1,16 @@
+{
+  "name": "Nether access: your team’s Warden",
+  "category": "patchouli:chapter_11",
+  "icon": "minecraft:ender_eye",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Find a naturally generated sculk shrieker in the Deep Dark and cause a Warden to emerge. The encounter belongs to the team recorded when that Warden is summoned.$(br2)The summoner or a member of that same team must defeat that same Warden. Both the summoner and the player credited with the kill must still belong to the recorded team when it dies."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "An outsider taking the kill does not unlock either team. Coordinate the encounter with your teammates and avoid involving another team in the finishing hit.$(br2)Playing solo? Summon and defeat the Warden yourself."
+    }
+  ]
+}

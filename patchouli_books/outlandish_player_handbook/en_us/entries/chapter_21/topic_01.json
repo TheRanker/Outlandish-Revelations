@@ -1,0 +1,12 @@
+{
+  "name": "Read the Whole Item",
+  "category": "patchouli:chapter_21",
+  "icon": "minecraft:amethyst_shard",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Use Shift for detailed information and Ctrl for obtaining information where the tooltip prompts you. Some challenges offer an Alt view of remaining requirements. Read the live tooltip because this pack changes settings and requirements can depend on your progress."
+    }
+  ]
+}

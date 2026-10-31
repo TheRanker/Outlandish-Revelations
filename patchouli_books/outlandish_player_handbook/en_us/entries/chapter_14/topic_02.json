@@ -1,0 +1,16 @@
+{
+  "name": "Equipment blanks and modules",
+  "category": "patchouli:chapter_14",
+  "icon": "minecraft:netherite_chestplate",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Equipment blanks connect your material production to tools and equipment. Prepare the correct blank for the tier, then follow the fusion recipe for the item you want."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Plan modules around a purpose. Mining equipment, travel equipment and boss-fighting equipment can have different priorities. Read module tooltips for supported items, grid space and operating requirements."
+    }
+  ]
+}

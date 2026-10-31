@@ -1,0 +1,12 @@
+{
+  "name": "Breed for the Horse You Want",
+  "category": "patchouli:chapter_17",
+  "icon": "minecraft:compass",
+  "sortnum": 8,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Choose breeding stock for the traits you care about: appearance, speed, jump and health. These traits use genetics in this pack, so a foal is not simply a copy of the faster parent. Inspect your animals and keep notes across generations. Use the mod’s inspection and genetics information instead of judging only by coat colour."
+    }
+  ]
+}

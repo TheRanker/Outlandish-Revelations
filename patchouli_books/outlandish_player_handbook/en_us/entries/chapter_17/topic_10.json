@@ -1,0 +1,12 @@
+{
+  "name": "Not Every Discovery Is Safe",
+  "category": "patchouli:chapter_17",
+  "icon": "minecraft:compass",
+  "sortnum": 10,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "When investigating pots or suspicious containers, clear a little space and keep an escape route. A mimic is an encounter, not a normal chest. Bring your weapon, food and spare inventory room. Return to safety to sort finds before pushing deeper into an unfamiliar structure."
+    }
+  ]
+}

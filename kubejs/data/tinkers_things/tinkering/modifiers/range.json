@@ -1,0 +1,17 @@
+{
+  "level_display": "tconstruct:single_level",
+  "modules": [
+    {
+      "type": "tconstruct:attribute",
+      "unique": "tinkers_things.modifier.range",
+      "attribute": "forge:attack_range",
+      "operation": "addition",
+      "each_level": 1,
+      "slots": [
+        "mainhand",
+        "offhand"
+      ]
+    }
+  ],
+  "show_in_tooltips": "always"
+}

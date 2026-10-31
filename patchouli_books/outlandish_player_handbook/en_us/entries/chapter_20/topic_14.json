@@ -1,0 +1,12 @@
+{
+  "name": "Hide an Entrance in Plain Sight",
+  "category": "patchouli:chapter_20",
+  "icon": "minecraft:bricks",
+  "sortnum": 14,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Super Secret Doors provides doors that resemble building materials. Start with a stone door and fit it into a matching wall. Check both its appearance and opening direction. A concealed entrance is useful camouflage, but it does not automatically provide SecurityCraft ownership or access control."
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Build useful processing stations",
+  "category": "patchouli:chapter_06",
+  "icon": "minecraft:furnace",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A Mechanical Press is a useful early station for components. A Mechanical Mixer works with a basin, and some mixing recipes need a Blaze Burner beneath it.$(br2)Start with manually supplied stations. Once they work, add transport and collection. This makes it easier to separate a recipe problem from a transport problem."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Later, Deployers and other components support sequenced assembly. Read the complete sequence in JEI so you know the order of operations and how many repetitions are required."
+    }
+  ]
+}

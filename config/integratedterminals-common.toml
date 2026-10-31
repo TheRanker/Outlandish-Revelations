@@ -50,6 +50,8 @@
 		syncItemStorageAndCraftingTabStates = true
 		#The number of columns in the medium scale of the storage terminal.
 		guiStorageScaleMediumColumns = 10
+		#If the automatic re-sorting of the storage terminal contents should be paused while the shift key is held down.
+		guiStoragePauseSortingWhileShifting = true
 
 [core]
 
@@ -66,4 +68,12 @@
 		terminalStoragePacketMaxInstances = 1024
 		#If the version checker should be enabled.
 		versionChecker = true
+		#The limit for the number of leaves in a tree-based crafting plan after which it won't be sent to the client anymore.
+		terminalStorageMaxTreePlanSize = 64
+		#If crafting plans should default to the tree-based view. If false, it will default to the flattened view.
+		terminalStorageDefaultToCraftingPlanTree = false
+		#If client-received packets should be deserialized in a separate thread.
+		packetDeserializationEnableMultithreading = true
+		#If client-directed packets should be serialized in a separate thread.
+		packetSerializationEnableMultithreading = true
 

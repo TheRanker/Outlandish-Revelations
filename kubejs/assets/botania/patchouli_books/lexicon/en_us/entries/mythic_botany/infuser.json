@@ -1,0 +1,60 @@
+{
+  "category": "botania:mythic_botany",
+  "icon": "mythicbotany:alfsteel_ingot",
+  "name": "lexicon.entry.mythicbotany.botania.mythic_botany.infuser",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "lexicon.entry.mythicbotany.botania.mythic_botany.infuser.page0.text0"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mythicbotany:mana_infuser",
+      "text": "lexicon.entry.mythicbotany.botania.mythic_botany.infuser.page1.text0"
+    },
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "mapping": {
+          "0": "botania:shimmerrock",
+          "G": "minecraft:gold_block",
+          "I": "mythicbotany:mana_infuser",
+          "S": "botania:shimmerrock"
+        },
+        "pattern": [
+          [
+            "   ",
+            " I ",
+            "   "
+          ],
+          [
+            "SGS",
+            "G0G",
+            "SGS"
+          ]
+        ],
+        "symmetrical": true
+      },
+      "name": "lexicon.entry.mythicbotany.botania.mythic_botany.infuser.page2.text0",
+      "text": "lexicon.entry.mythicbotany.botania.mythic_botany.infuser.page2.text1"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "mythicbotany:alfsteel_ingot",
+      "link_recipe": true,
+      "text": "lexicon.entry.mythicbotany.botania.mythic_botany.infuser.page3.text0"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "botania:terrasteel_ingot",
+      "link_recipe": false,
+      "text": "For your main Terrasteel progression, use the Terrestrial Agglomeration Plate to make Terrasteel Dust, then follow the GregTech processing steps in JEI. Check JEI for any Mana Infuser recipes available at your current stage."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "mythicbotany:alfsteel_ingot",
+      "link_recipe": false,
+      "text": "Use the Mana Infuser to make Alfsteel. Open Alfsteel in JEI for the active recipe and mana cost. Supply its ingredients and enough mana before beginning the infusion."
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Prepared materials and tooling dies",
+  "category": "patchouli:chapter_05",
+  "icon": "minecraft:anvil",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Advanced tool materials are prepared in your GregTech workshop. Make the appropriate tooling die, place it in a suitable Assembler and process the material shown in JEI. The tooling die is reusable.$(br2)Workshop tier — Toolmaking projects to work toward$(br2)LV — Prepared Steel and the first industrial tool materials; Tinkers Anvil"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "MV — Prepared Aluminum and Cobalt; Foundry; optional Sanguine Steel$(br2)HV — Specialist materials such as Manyullyn, Hepatizon, Stainless Steel and Neptunium$(br2)EV — Premium projects including prepared Titanium and Ancient material"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Some prepared materials are cast; others use the Part Builder. Follow the route for the specific material. Keep prepared repair material available alongside the finished tool."
+    }
+  ]
+}

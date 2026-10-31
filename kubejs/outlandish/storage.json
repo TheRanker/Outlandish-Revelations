@@ -1,0 +1,1445 @@
+{
+  "woods": [
+    "dark_oak",
+    "oak",
+    "acacia",
+    "birch",
+    "jungle",
+    "spruce",
+    "mangrove",
+    "cherry",
+    "crimson",
+    "warped",
+    "bamboo"
+  ],
+  "recipes": [
+    {
+      "type": "shaped",
+      "output": {
+        "item": "sophisticatedstorage:barrel",
+        "nbt": {
+          "woodType": "dark_oak"
+        }
+      },
+      "pattern": [
+        "lsl",
+        "pfp",
+        "lsl"
+      ],
+      "key": {
+        "l": "#minecraft:dark_oak_logs",
+        "s": "minecraft:dark_oak_slab",
+        "p": "minecraft:dark_oak_planks",
+        "f": "minecraft:flint"
+      },
+      "id": "otg:restored/storage/0"
+    },
+    {
+      "type": "shaped",
+      "output": {
+        "item": "sophisticatedstorage:limited_barrel_1",
+        "nbt": {
+          "woodType": "dark_oak"
+        }
+      },
+      "pattern": [
+        "lsl",
+        "pfp",
+        "lpl"
+      ],
+      "key": {
+        "l": "#minecraft:dark_oak_logs",
+        "s": "minecraft:dark_oak_slab",
+        "p": "minecraft:dark_oak_planks",
+        "f": "minecraft:flint"
+      },
+      "id": "otg:restored/storage/1"
+    },
+    {
+      "type": "shaped",
+      "output": {
+        "item": "sophisticatedstorage:limited_barrel_2",
+        "nbt": {
+          "woodType": "dark_oak"
+        }
+      },
+      "pattern": [
+        "lpl",
+        "sfs",
+        "lpl"
+      ],
+      "key": {
+        "l": "#minecraft:dark_oak_logs",
+        "s": "minecraft:dark_oak_slab",
+        "p": "minecraft:dark_oak_planks",
+        "f": "minecraft:flint"
+      },
+      "id": "otg:restored/storage/2"
+    },
+    {
+      "type": "shaped",
+      "output": {
+        "item": "sophisticatedstorage:limited_barrel_3",
+        "nbt": {
+          "woodType": "dark_oak"
+        }
+      },
+      "pattern": [
+        "lsl",
+        "lfl",
+        "sps"
+      ],
+      "key": {
+        "l": "#minecraft:dark_oak_logs",
+        "s": "minecraft:dark_oak_slab",
+        "p": "minecraft:dark_oak_planks",
+        "f": "minecraft:flint"
+      },
+      "id": "otg:restored/storage/3"
+    },
+    {
+      "type": "shaped",
+      "output": {
+        "item": "sophisticatedstorage:limited_barrel_4",
+        "nbt": {
+          "woodType": "dark_oak"
+        }
+      },
+      "pattern": [
+        "sls",
+        "lfl",
+        "sls"
+      ],
+      "key": {
+        "l": "#minecraft:dark_oak_logs",
+        "s": "minecraft:dark_oak_slab",
+        "f": "minecraft:flint"
+      },
+      "id": "otg:restored/storage/4"
+    },
+    {
+      "type": "shaped",
+      "output": {
+        "item": "sophisticatedstorage:chest",
+        "nbt": {
+          "woodType": "dark_oak"
+        }
+      },
+      "pattern": [
+        "lpl",
+        "pfp",
+        "lpl"
+      ],
+      "key": {
+        "l": "#minecraft:dark_oak_logs",
+        "p": "minecraft:dark_oak_planks",
+        "f": "minecraft:flint"
+      },
+      "id": "otg:restored/storage/5"
+    },
+    {
+      "type": "shaped",
+      "output": {
+        "item": "sophisticatedstorage:barrel",
+        "nbt": {
+          "woodType": "oak"
+        }
+      },
+      "pattern": [
+        "lsl",
+        "pfp",
+        "lsl"
+      ],
+      "key": {
+        "l": "#minecraft:oak_logs",
+        "s": "minecraft:oak_slab",
+        "p": "minecraft:oak_planks",
+        "f": "minecraft:flint"
+      },
+      "id": "otg:restored/storage/6"
+    },
+    {
+      "type": "shaped",
+      "output": {
+        "item": "sophisticatedstorage:limited_barrel_1",
+        "nbt": {
+          "woodType": "oak"
+        }
+      },
+      "pattern": [
+        "lsl",
+        "pfp",
+        "lpl"
+      ],
+      "key": {
+        "l": "#minecraft:oak_logs",
+        "s": "minecraft:oak_slab",
+        "p": "minecraft:oak_planks",
+        "f": "minecraft:flint"
+      },
+      "id": "otg:restored/storage/7"
+    },
+    {
+      "type": "shaped",
+      "output": {
+        "item": "sophisticatedstorage:limited_barrel_2",
+        "nbt": {
+          "woodType": "oak"
+        }
+      },
+      "pattern": [
+        "lpl",
+        "sfs",
+        "lpl"
+      ],
+      "key": {
+        "l": "#minecraft:oak_logs",
+        "s": "minecraft:oak_slab",
+        "p": "minecraft:oak_planks",
+        "f": "minecraft:flint"
+      },
+      "id": "otg:restored/storage/8"
+    },
+    {
+      "type": "shaped",
+      "output": {
+        "item": "sophisticatedstorage:limited_barrel_3",
+        "nbt": {
+          "woodType": "oak"
+        }
+      },
+      "pattern": [
+        "lsl",
+        "lfl",
+        "sps"
+      ],
+      "key": {
+        "l": "#minecraft:oak_logs",
+        "s": "minecraft:oak_slab",
+        "p": "minecraft:oak_planks",
+        "f": "minecraft:flint"
+      },
+      "id": "otg:restored/storage/9"
+    },
+    {
+      "type": "shaped",
+      "output": {
+        "item": "sophisticatedstorage:limited_barrel_4",
+        "nbt": {
+          "woodType": "oak"
+        }
+      },
+      "pattern": [
+        "sls",
+        "lfl",
+        "sls"
+      ],
+      "key": {
+        "l": "#minecraft:oak_logs",
+        "s": "minecraft:oak_slab",
+        "f": "minecraft:flint"
+      },
+      "id": "otg:restored/storage/10"
+    },
+    {
+      "type": "shaped",
+      "output": {
+        "item": "sophisticatedstorage:chest",
+        "nbt": {
+          "woodType": "oak"
+        }
+      },
+      "pattern": [
+        "lpl",
+        "pfp",
+        "lpl"
+      ],
+      "key": {
+        "l": "#minecraft:oak_logs",
+        "p": "minecraft:oak_planks",
+        "f": "minecraft:flint"
+      },
+      "id": "otg:restored/storage/11"
+    },
+    {
+      "type": "shaped",
+      "output": {
+        "item": "sophisticatedstorage:barrel",
+        "nbt": {
+          "woodType": "acacia"
+        }
+      },
+      "pattern": [
+        "lsl",
+        "pfp",
+        "lsl"
+      ],
+      "key": {
+        "l": "#minecraft:acacia_logs",
+        "s": "minecraft:acacia_slab",
+        "p": "minecraft:acacia_planks",
+        "f": "minecraft:flint"
+      },
+      "id": "otg:restored/storage/12"
+    },
+    {
+      "type": "shaped",
+      "output": {
+        "item": "sophisticatedstorage:limited_barrel_1",
+        "nbt": {
+          "woodType": "acacia"
+        }
+      },
+      "pattern": [
+        "lsl",
+        "pfp",
+        "lpl"
+      ],
+      "key": {
+        "l": "#minecraft:acacia_logs",
+        "s": "minecraft:acacia_slab",
+        "p": "minecraft:acacia_planks",
+        "f": "minecraft:flint"
+      },
+      "id": "otg:restored/storage/13"
+    },
+    {
+      "type": "shaped",
+      "output": {
+        "item": "sophisticatedstorage:limited_barrel_2",
+        "nbt": {
+          "woodType": "acacia"
+        }
+      },
+      "pattern": [
+        "lpl",
+        "sfs",
+        "lpl"
+      ],
+      "key": {
+        "l": "#minecraft:acacia_logs",
+        "s": "minecraft:acacia_slab",
+        "p": "minecraft:acacia_planks",
+        "f": "minecraft:flint"
+      },
+      "id": "otg:restored/storage/14"
+    },
+    {
+      "type": "shaped",
+      "output": {
+        "item": "sophisticatedstorage:limited_barrel_3",
+        "nbt": {
+          "woodType": "acacia"
+        }
+      },
+      "pattern": [
+        "lsl",
+        "lfl",
+        "sps"
+      ],
+      "key": {
+        "l": "#minecraft:acacia_logs",
+        "s": "minecraft:acacia_slab",
+        "p": "minecraft:acacia_planks",
+        "f": "minecraft:flint"
+      },
+      "id": "otg:restored/storage/15"
+    },
+    {
+      "type": "shaped",
+      "output": {
+        "item": "sophisticatedstorage:limited_barrel_4",
+        "nbt": {
+          "woodType": "acacia"
+        }
+      },
+      "pattern": [
+        "sls",
+        "lfl",
+        "sls"
+      ],
+      "key": {
+        "l": "#minecraft:acacia_logs",
+        "s": "minecraft:acacia_slab",
+        "f": "minecraft:flint"
+      },
+      "id": "otg:restored/storage/16"
+    },
+    {
+      "type": "shaped",
+      "output": {
+        "item": "sophisticatedstorage:chest",
+        "nbt": {
+          "woodType": "acacia"
+        }
+      },
+      "pattern": [
+        "lpl",
+        "pfp",
+        "lpl"
+      ],
+      "key": {
+        "l": "#minecraft:acacia_logs",
+        "p": "minecraft:acacia_planks",
+        "f": "minecraft:flint"
+      },
+      "id": "otg:restored/storage/17"
+    },
+    {
+      "type": "shaped",
+      "output": {
+        "item": "sophisticatedstorage:barrel",
+        "nbt": {
+          "woodType": "birch"
+        }
+      },
+      "pattern": [
+        "lsl",
+        "pfp",
+        "lsl"
+      ],
+      "key": {
+        "l": "#minecraft:birch_logs",
+        "s": "minecraft:birch_slab",
+        "p": "minecraft:birch_planks",
+        "f": "minecraft:flint"
+      },
+      "id": "otg:restored/storage/18"
+    },
+    {
+      "type": "shaped",
+      "output": {
+        "item": "sophisticatedstorage:limited_barrel_1",
+        "nbt": {
+          "woodType": "birch"
+        }
+      },
+      "pattern": [
+        "lsl",
+        "pfp",
+        "lpl"
+      ],
+      "key": {
+        "l": "#minecraft:birch_logs",
+        "s": "minecraft:birch_slab",
+        "p": "minecraft:birch_planks",
+        "f": "minecraft:flint"
+      },
+      "id": "otg:restored/storage/19"
+    },
+    {
+      "type": "shaped",
+      "output": {
+        "item": "sophisticatedstorage:limited_barrel_2",
+        "nbt": {
+          "woodType": "birch"
+        }
+      },
+      "pattern": [
+        "lpl",
+        "sfs",
+        "lpl"
+      ],
+      "key": {
+        "l": "#minecraft:birch_logs",
+        "s": "minecraft:birch_slab",
+        "p": "minecraft:birch_planks",
+        "f": "minecraft:flint"
+      },
+      "id": "otg:restored/storage/20"
+    },
+    {
+      "type": "shaped",
+      "output": {
+        "item": "sophisticatedstorage:limited_barrel_3",
+        "nbt": {
+          "woodType": "birch"
+        }
+      },
+      "pattern": [
+        "lsl",
+        "lfl",
+        "sps"
+      ],
+      "key": {
+        "l": "#minecraft:birch_logs",
+        "s": "minecraft:birch_slab",
+        "p": "minecraft:birch_planks",
+        "f": "minecraft:flint"
+      },
+      "id": "otg:restored/storage/21"
+    },
+    {
+      "type": "shaped",
+      "output": {
+        "item": "sophisticatedstorage:limited_barrel_4",
+        "nbt": {
+          "woodType": "birch"
+        }
+      },
+      "pattern": [
+        "sls",
+        "lfl",
+        "sls"
+      ],
+      "key": {
+        "l": "#minecraft:birch_logs",
+        "s": "minecraft:birch_slab",
+        "f": "minecraft:flint"
+      },
+      "id": "otg:restored/storage/22"
+    },
+    {
+      "type": "shaped",
+      "output": {
+        "item": "sophisticatedstorage:chest",
+        "nbt": {
+          "woodType": "birch"
+        }
+      },
+      "pattern": [
+        "lpl",
+        "pfp",
+        "lpl"
+      ],
+      "key": {
+        "l": "#minecraft:birch_logs",
+        "p": "minecraft:birch_planks",
+        "f": "minecraft:flint"
+      },
+      "id": "otg:restored/storage/23"
+    },
+    {
+      "type": "shaped",
+      "output": {
+        "item": "sophisticatedstorage:barrel",
+        "nbt": {
+          "woodType": "jungle"
+        }
+      },
+      "pattern": [
+        "lsl",
+        "pfp",
+        "lsl"
+      ],
+      "key": {
+        "l": "#minecraft:jungle_logs",
+        "s": "minecraft:jungle_slab",
+        "p": "minecraft:jungle_planks",
+        "f": "minecraft:flint"
+      },
+      "id": "otg:restored/storage/24"
+    },
+    {
+      "type": "shaped",
+      "output": {
+        "item": "sophisticatedstorage:limited_barrel_1",
+        "nbt": {
+          "woodType": "jungle"
+        }
+      },
+      "pattern": [
+        "lsl",
+        "pfp",
+        "lpl"
+      ],
+      "key": {
+        "l": "#minecraft:jungle_logs",
+        "s": "minecraft:jungle_slab",
+        "p": "minecraft:jungle_planks",
+        "f": "minecraft:flint"
+      },
+      "id": "otg:restored/storage/25"
+    },
+    {
+      "type": "shaped",
+      "output": {
+        "item": "sophisticatedstorage:limited_barrel_2",
+        "nbt": {
+          "woodType": "jungle"
+        }
+      },
+      "pattern": [
+        "lpl",
+        "sfs",
+        "lpl"
+      ],
+      "key": {
+        "l": "#minecraft:jungle_logs",
+        "s": "minecraft:jungle_slab",
+        "p": "minecraft:jungle_planks",
+        "f": "minecraft:flint"
+      },
+      "id": "otg:restored/storage/26"
+    },
+    {
+      "type": "shaped",
+      "output": {
+        "item": "sophisticatedstorage:limited_barrel_3",
+        "nbt": {
+          "woodType": "jungle"
+        }
+      },
+      "pattern": [
+        "lsl",
+        "lfl",
+        "sps"
+      ],
+      "key": {
+        "l": "#minecraft:jungle_logs",
+        "s": "minecraft:jungle_slab",
+        "p": "minecraft:jungle_planks",
+        "f": "minecraft:flint"
+      },
+      "id": "otg:restored/storage/27"
+    },
+    {
+      "type": "shaped",
+      "output": {
+        "item": "sophisticatedstorage:limited_barrel_4",
+        "nbt": {
+          "woodType": "jungle"
+        }
+      },
+      "pattern": [
+        "sls",
+        "lfl",
+        "sls"
+      ],
+      "key": {
+        "l": "#minecraft:jungle_logs",
+        "s": "minecraft:jungle_slab",
+        "f": "minecraft:flint"
+      },
+      "id": "otg:restored/storage/28"
+    },
+    {
+      "type": "shaped",
+      "output": {
+        "item": "sophisticatedstorage:chest",
+        "nbt": {
+          "woodType": "jungle"
+        }
+      },
+      "pattern": [
+        "lpl",
+        "pfp",
+        "lpl"
+      ],
+      "key": {
+        "l": "#minecraft:jungle_logs",
+        "p": "minecraft:jungle_planks",
+        "f": "minecraft:flint"
+      },
+      "id": "otg:restored/storage/29"
+    },
+    {
+      "type": "shaped",
+      "output": {
+        "item": "sophisticatedstorage:barrel",
+        "nbt": {
+          "woodType": "spruce"
+        }
+      },
+      "pattern": [
+        "lsl",
+        "pfp",
+        "lsl"
+      ],
+      "key": {
+        "l": "#minecraft:spruce_logs",
+        "s": "minecraft:spruce_slab",
+        "p": "minecraft:spruce_planks",
+        "f": "minecraft:flint"
+      },
+      "id": "otg:restored/storage/30"
+    },
+    {
+      "type": "shaped",
+      "output": {
+        "item": "sophisticatedstorage:limited_barrel_1",
+        "nbt": {
+          "woodType": "spruce"
+        }
+      },
+      "pattern": [
+        "lsl",
+        "pfp",
+        "lpl"
+      ],
+      "key": {
+        "l": "#minecraft:spruce_logs",
+        "s": "minecraft:spruce_slab",
+        "p": "minecraft:spruce_planks",
+        "f": "minecraft:flint"
+      },
+      "id": "otg:restored/storage/31"
+    },
+    {
+      "type": "shaped",
+      "output": {
+        "item": "sophisticatedstorage:limited_barrel_2",
+        "nbt": {
+          "woodType": "spruce"
+        }
+      },
+      "pattern": [
+        "lpl",
+        "sfs",
+        "lpl"
+      ],
+      "key": {
+        "l": "#minecraft:spruce_logs",
+        "s": "minecraft:spruce_slab",
+        "p": "minecraft:spruce_planks",
+        "f": "minecraft:flint"
+      },
+      "id": "otg:restored/storage/32"
+    },
+    {
+      "type": "shaped",
+      "output": {
+        "item": "sophisticatedstorage:limited_barrel_3",
+        "nbt": {
+          "woodType": "spruce"
+        }
+      },
+      "pattern": [
+        "lsl",
+        "lfl",
+        "sps"
+      ],
+      "key": {
+        "l": "#minecraft:spruce_logs",
+        "s": "minecraft:spruce_slab",
+        "p": "minecraft:spruce_planks",
+        "f": "minecraft:flint"
+      },
+      "id": "otg:restored/storage/33"
+    },
+    {
+      "type": "shaped",
+      "output": {
+        "item": "sophisticatedstorage:limited_barrel_4",
+        "nbt": {
+          "woodType": "spruce"
+        }
+      },
+      "pattern": [
+        "sls",
+        "lfl",
+        "sls"
+      ],
+      "key": {
+        "l": "#minecraft:spruce_logs",
+        "s": "minecraft:spruce_slab",
+        "f": "minecraft:flint"
+      },
+      "id": "otg:restored/storage/34"
+    },
+    {
+      "type": "shaped",
+      "output": {
+        "item": "sophisticatedstorage:chest",
+        "nbt": {
+          "woodType": "spruce"
+        }
+      },
+      "pattern": [
+        "lpl",
+        "pfp",
+        "lpl"
+      ],
+      "key": {
+        "l": "#minecraft:spruce_logs",
+        "p": "minecraft:spruce_planks",
+        "f": "minecraft:flint"
+      },
+      "id": "otg:restored/storage/35"
+    },
+    {
+      "type": "shaped",
+      "output": {
+        "item": "sophisticatedstorage:barrel",
+        "nbt": {
+          "woodType": "mangrove"
+        }
+      },
+      "pattern": [
+        "lsl",
+        "pfp",
+        "lsl"
+      ],
+      "key": {
+        "l": "#minecraft:mangrove_logs",
+        "s": "minecraft:mangrove_slab",
+        "p": "minecraft:mangrove_planks",
+        "f": "minecraft:flint"
+      },
+      "id": "otg:restored/storage/36"
+    },
+    {
+      "type": "shaped",
+      "output": {
+        "item": "sophisticatedstorage:limited_barrel_1",
+        "nbt": {
+          "woodType": "mangrove"
+        }
+      },
+      "pattern": [
+        "lsl",
+        "pfp",
+        "lpl"
+      ],
+      "key": {
+        "l": "#minecraft:mangrove_logs",
+        "s": "minecraft:mangrove_slab",
+        "p": "minecraft:mangrove_planks",
+        "f": "minecraft:flint"
+      },
+      "id": "otg:restored/storage/37"
+    },
+    {
+      "type": "shaped",
+      "output": {
+        "item": "sophisticatedstorage:limited_barrel_2",
+        "nbt": {
+          "woodType": "mangrove"
+        }
+      },
+      "pattern": [
+        "lpl",
+        "sfs",
+        "lpl"
+      ],
+      "key": {
+        "l": "#minecraft:mangrove_logs",
+        "s": "minecraft:mangrove_slab",
+        "p": "minecraft:mangrove_planks",
+        "f": "minecraft:flint"
+      },
+      "id": "otg:restored/storage/38"
+    },
+    {
+      "type": "shaped",
+      "output": {
+        "item": "sophisticatedstorage:limited_barrel_3",
+        "nbt": {
+          "woodType": "mangrove"
+        }
+      },
+      "pattern": [
+        "lsl",
+        "lfl",
+        "sps"
+      ],
+      "key": {
+        "l": "#minecraft:mangrove_logs",
+        "s": "minecraft:mangrove_slab",
+        "p": "minecraft:mangrove_planks",
+        "f": "minecraft:flint"
+      },
+      "id": "otg:restored/storage/39"
+    },
+    {
+      "type": "shaped",
+      "output": {
+        "item": "sophisticatedstorage:limited_barrel_4",
+        "nbt": {
+          "woodType": "mangrove"
+        }
+      },
+      "pattern": [
+        "sls",
+        "lfl",
+        "sls"
+      ],
+      "key": {
+        "l": "#minecraft:mangrove_logs",
+        "s": "minecraft:mangrove_slab",
+        "f": "minecraft:flint"
+      },
+      "id": "otg:restored/storage/40"
+    },
+    {
+      "type": "shaped",
+      "output": {
+        "item": "sophisticatedstorage:chest",
+        "nbt": {
+          "woodType": "mangrove"
+        }
+      },
+      "pattern": [
+        "lpl",
+        "pfp",
+        "lpl"
+      ],
+      "key": {
+        "l": "#minecraft:mangrove_logs",
+        "p": "minecraft:mangrove_planks",
+        "f": "minecraft:flint"
+      },
+      "id": "otg:restored/storage/41"
+    },
+    {
+      "type": "shaped",
+      "output": {
+        "item": "sophisticatedstorage:barrel",
+        "nbt": {
+          "woodType": "cherry"
+        }
+      },
+      "pattern": [
+        "lsl",
+        "pfp",
+        "lsl"
+      ],
+      "key": {
+        "l": "#minecraft:cherry_logs",
+        "s": "minecraft:cherry_slab",
+        "p": "minecraft:cherry_planks",
+        "f": "minecraft:flint"
+      },
+      "id": "otg:restored/storage/42"
+    },
+    {
+      "type": "shaped",
+      "output": {
+        "item": "sophisticatedstorage:limited_barrel_1",
+        "nbt": {
+          "woodType": "cherry"
+        }
+      },
+      "pattern": [
+        "lsl",
+        "pfp",
+        "lpl"
+      ],
+      "key": {
+        "l": "#minecraft:cherry_logs",
+        "s": "minecraft:cherry_slab",
+        "p": "minecraft:cherry_planks",
+        "f": "minecraft:flint"
+      },
+      "id": "otg:restored/storage/43"
+    },
+    {
+      "type": "shaped",
+      "output": {
+        "item": "sophisticatedstorage:limited_barrel_2",
+        "nbt": {
+          "woodType": "cherry"
+        }
+      },
+      "pattern": [
+        "lpl",
+        "sfs",
+        "lpl"
+      ],
+      "key": {
+        "l": "#minecraft:cherry_logs",
+        "s": "minecraft:cherry_slab",
+        "p": "minecraft:cherry_planks",
+        "f": "minecraft:flint"
+      },
+      "id": "otg:restored/storage/44"
+    },
+    {
+      "type": "shaped",
+      "output": {
+        "item": "sophisticatedstorage:limited_barrel_3",
+        "nbt": {
+          "woodType": "cherry"
+        }
+      },
+      "pattern": [
+        "lsl",
+        "lfl",
+        "sps"
+      ],
+      "key": {
+        "l": "#minecraft:cherry_logs",
+        "s": "minecraft:cherry_slab",
+        "p": "minecraft:cherry_planks",
+        "f": "minecraft:flint"
+      },
+      "id": "otg:restored/storage/45"
+    },
+    {
+      "type": "shaped",
+      "output": {
+        "item": "sophisticatedstorage:limited_barrel_4",
+        "nbt": {
+          "woodType": "cherry"
+        }
+      },
+      "pattern": [
+        "sls",
+        "lfl",
+        "sls"
+      ],
+      "key": {
+        "l": "#minecraft:cherry_logs",
+        "s": "minecraft:cherry_slab",
+        "f": "minecraft:flint"
+      },
+      "id": "otg:restored/storage/46"
+    },
+    {
+      "type": "shaped",
+      "output": {
+        "item": "sophisticatedstorage:chest",
+        "nbt": {
+          "woodType": "cherry"
+        }
+      },
+      "pattern": [
+        "lpl",
+        "pfp",
+        "lpl"
+      ],
+      "key": {
+        "l": "#minecraft:cherry_logs",
+        "p": "minecraft:cherry_planks",
+        "f": "minecraft:flint"
+      },
+      "id": "otg:restored/storage/47"
+    },
+    {
+      "type": "shaped",
+      "output": {
+        "item": "sophisticatedstorage:barrel",
+        "nbt": {
+          "woodType": "crimson"
+        }
+      },
+      "pattern": [
+        "lsl",
+        "pfp",
+        "lsl"
+      ],
+      "key": {
+        "l": "#minecraft:crimson_stems",
+        "s": "minecraft:crimson_slab",
+        "p": "minecraft:crimson_planks",
+        "f": "minecraft:flint"
+      },
+      "id": "otg:restored/storage/48"
+    },
+    {
+      "type": "shaped",
+      "output": {
+        "item": "sophisticatedstorage:limited_barrel_1",
+        "nbt": {
+          "woodType": "crimson"
+        }
+      },
+      "pattern": [
+        "lsl",
+        "pfp",
+        "lpl"
+      ],
+      "key": {
+        "l": "#minecraft:crimson_stems",
+        "s": "minecraft:crimson_slab",
+        "p": "minecraft:crimson_planks",
+        "f": "minecraft:flint"
+      },
+      "id": "otg:restored/storage/49"
+    },
+    {
+      "type": "shaped",
+      "output": {
+        "item": "sophisticatedstorage:limited_barrel_2",
+        "nbt": {
+          "woodType": "crimson"
+        }
+      },
+      "pattern": [
+        "lpl",
+        "sfs",
+        "lpl"
+      ],
+      "key": {
+        "l": "#minecraft:crimson_stems",
+        "s": "minecraft:crimson_slab",
+        "p": "minecraft:crimson_planks",
+        "f": "minecraft:flint"
+      },
+      "id": "otg:restored/storage/50"
+    },
+    {
+      "type": "shaped",
+      "output": {
+        "item": "sophisticatedstorage:limited_barrel_3",
+        "nbt": {
+          "woodType": "crimson"
+        }
+      },
+      "pattern": [
+        "lsl",
+        "lfl",
+        "sps"
+      ],
+      "key": {
+        "l": "#minecraft:crimson_stems",
+        "s": "minecraft:crimson_slab",
+        "p": "minecraft:crimson_planks",
+        "f": "minecraft:flint"
+      },
+      "id": "otg:restored/storage/51"
+    },
+    {
+      "type": "shaped",
+      "output": {
+        "item": "sophisticatedstorage:limited_barrel_4",
+        "nbt": {
+          "woodType": "crimson"
+        }
+      },
+      "pattern": [
+        "sls",
+        "lfl",
+        "sls"
+      ],
+      "key": {
+        "l": "#minecraft:crimson_stems",
+        "s": "minecraft:crimson_slab",
+        "f": "minecraft:flint"
+      },
+      "id": "otg:restored/storage/52"
+    },
+    {
+      "type": "shaped",
+      "output": {
+        "item": "sophisticatedstorage:chest",
+        "nbt": {
+          "woodType": "crimson"
+        }
+      },
+      "pattern": [
+        "lpl",
+        "pfp",
+        "lpl"
+      ],
+      "key": {
+        "l": "#minecraft:crimson_stems",
+        "p": "minecraft:crimson_planks",
+        "f": "minecraft:flint"
+      },
+      "id": "otg:restored/storage/53"
+    },
+    {
+      "type": "shaped",
+      "output": {
+        "item": "sophisticatedstorage:barrel",
+        "nbt": {
+          "woodType": "warped"
+        }
+      },
+      "pattern": [
+        "lsl",
+        "pfp",
+        "lsl"
+      ],
+      "key": {
+        "l": "#minecraft:warped_stems",
+        "s": "minecraft:warped_slab",
+        "p": "minecraft:warped_planks",
+        "f": "minecraft:flint"
+      },
+      "id": "otg:restored/storage/54"
+    },
+    {
+      "type": "shaped",
+      "output": {
+        "item": "sophisticatedstorage:limited_barrel_1",
+        "nbt": {
+          "woodType": "warped"
+        }
+      },
+      "pattern": [
+        "lsl",
+        "pfp",
+        "lpl"
+      ],
+      "key": {
+        "l": "#minecraft:warped_stems",
+        "s": "minecraft:warped_slab",
+        "p": "minecraft:warped_planks",
+        "f": "minecraft:flint"
+      },
+      "id": "otg:restored/storage/55"
+    },
+    {
+      "type": "shaped",
+      "output": {
+        "item": "sophisticatedstorage:limited_barrel_2",
+        "nbt": {
+          "woodType": "warped"
+        }
+      },
+      "pattern": [
+        "lpl",
+        "sfs",
+        "lpl"
+      ],
+      "key": {
+        "l": "#minecraft:warped_stems",
+        "s": "minecraft:warped_slab",
+        "p": "minecraft:warped_planks",
+        "f": "minecraft:flint"
+      },
+      "id": "otg:restored/storage/56"
+    },
+    {
+      "type": "shaped",
+      "output": {
+        "item": "sophisticatedstorage:limited_barrel_3",
+        "nbt": {
+          "woodType": "warped"
+        }
+      },
+      "pattern": [
+        "lsl",
+        "lfl",
+        "sps"
+      ],
+      "key": {
+        "l": "#minecraft:warped_stems",
+        "s": "minecraft:warped_slab",
+        "p": "minecraft:warped_planks",
+        "f": "minecraft:flint"
+      },
+      "id": "otg:restored/storage/57"
+    },
+    {
+      "type": "shaped",
+      "output": {
+        "item": "sophisticatedstorage:limited_barrel_4",
+        "nbt": {
+          "woodType": "warped"
+        }
+      },
+      "pattern": [
+        "sls",
+        "lfl",
+        "sls"
+      ],
+      "key": {
+        "l": "#minecraft:warped_stems",
+        "s": "minecraft:warped_slab",
+        "f": "minecraft:flint"
+      },
+      "id": "otg:restored/storage/58"
+    },
+    {
+      "type": "shaped",
+      "output": {
+        "item": "sophisticatedstorage:chest",
+        "nbt": {
+          "woodType": "warped"
+        }
+      },
+      "pattern": [
+        "lpl",
+        "pfp",
+        "lpl"
+      ],
+      "key": {
+        "l": "#minecraft:warped_stems",
+        "p": "minecraft:warped_planks",
+        "f": "minecraft:flint"
+      },
+      "id": "otg:restored/storage/59"
+    },
+    {
+      "type": "shaped",
+      "output": {
+        "item": "sophisticatedstorage:barrel",
+        "nbt": {
+          "woodType": "bamboo"
+        }
+      },
+      "pattern": [
+        "lsl",
+        "pfp",
+        "lsl"
+      ],
+      "key": {
+        "l": "#minecraft:bamboo_blocks",
+        "s": "minecraft:bamboo_slab",
+        "p": "minecraft:bamboo_planks",
+        "f": "minecraft:flint"
+      },
+      "id": "otg:restored/storage/60"
+    },
+    {
+      "type": "shaped",
+      "output": {
+        "item": "sophisticatedstorage:limited_barrel_1",
+        "nbt": {
+          "woodType": "bamboo"
+        }
+      },
+      "pattern": [
+        "lsl",
+        "pfp",
+        "lpl"
+      ],
+      "key": {
+        "l": "#minecraft:bamboo_blocks",
+        "s": "minecraft:bamboo_slab",
+        "p": "minecraft:bamboo_planks",
+        "f": "minecraft:flint"
+      },
+      "id": "otg:restored/storage/61"
+    },
+    {
+      "type": "shaped",
+      "output": {
+        "item": "sophisticatedstorage:limited_barrel_2",
+        "nbt": {
+          "woodType": "bamboo"
+        }
+      },
+      "pattern": [
+        "lpl",
+        "sfs",
+        "lpl"
+      ],
+      "key": {
+        "l": "#minecraft:bamboo_blocks",
+        "s": "minecraft:bamboo_slab",
+        "p": "minecraft:bamboo_planks",
+        "f": "minecraft:flint"
+      },
+      "id": "otg:restored/storage/62"
+    },
+    {
+      "type": "shaped",
+      "output": {
+        "item": "sophisticatedstorage:limited_barrel_3",
+        "nbt": {
+          "woodType": "bamboo"
+        }
+      },
+      "pattern": [
+        "lsl",
+        "lfl",
+        "sps"
+      ],
+      "key": {
+        "l": "#minecraft:bamboo_blocks",
+        "s": "minecraft:bamboo_slab",
+        "p": "minecraft:bamboo_planks",
+        "f": "minecraft:flint"
+      },
+      "id": "otg:restored/storage/63"
+    },
+    {
+      "type": "shaped",
+      "output": {
+        "item": "sophisticatedstorage:limited_barrel_4",
+        "nbt": {
+          "woodType": "bamboo"
+        }
+      },
+      "pattern": [
+        "sls",
+        "lfl",
+        "sls"
+      ],
+      "key": {
+        "l": "#minecraft:bamboo_blocks",
+        "s": "minecraft:bamboo_slab",
+        "f": "minecraft:flint"
+      },
+      "id": "otg:restored/storage/64"
+    },
+    {
+      "type": "shaped",
+      "output": {
+        "item": "sophisticatedstorage:chest",
+        "nbt": {
+          "woodType": "bamboo"
+        }
+      },
+      "pattern": [
+        "lpl",
+        "pfp",
+        "lpl"
+      ],
+      "key": {
+        "l": "#minecraft:bamboo_blocks",
+        "p": "minecraft:bamboo_planks",
+        "f": "minecraft:flint"
+      },
+      "id": "otg:restored/storage/65"
+    },
+    {
+      "type": "shapeless",
+      "output": {
+        "item": "sophisticatedstorage:chest",
+        "nbt": {
+          "woodType": "oak"
+        }
+      },
+      "inputs": [
+        "minecraft:chest"
+      ],
+      "id": "otg:restored/storage/66"
+    },
+    {
+      "type": "shapeless",
+      "output": "minecraft:chest",
+      "inputs": [
+        {
+          "item": "sophisticatedstorage:chest",
+          "nbt": {}
+        }
+      ],
+      "id": "otg:restored/storage/67"
+    },
+    {
+      "type": "shaped",
+      "output": "minecraft:hopper",
+      "pattern": [
+        "pcp",
+        "pgp",
+        "wph"
+      ],
+      "key": {
+        "p": "gtceu:iron_plate",
+        "c": "sophisticatedstorage:chest",
+        "g": "gtceu:small_iron_gear",
+        "w": "#forge:tools/wrenches",
+        "h": "#forge:tools/hammers"
+      },
+      "id": "otg:restored/storage/68"
+    }
+  ],
+  "removals": [
+    {
+      "output": "minecraft:barrel"
+    },
+    {
+      "output": "sophisticatedstorage:barrel"
+    },
+    {
+      "output": "sophisticatedstorage:limited_barrel_1"
+    },
+    {
+      "output": "sophisticatedstorage:limited_barrel_3"
+    },
+    {
+      "output": "sophisticatedstorage:limited_barrel_2"
+    },
+    {
+      "output": "sophisticatedstorage:limited_barrel_4"
+    },
+    {
+      "output": "sophisticatedstorage:chest"
+    }
+  ]
+}

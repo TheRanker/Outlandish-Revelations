@@ -1,0 +1,23 @@
+{
+  "name": "Gathering Resources",
+  "icon": "gtceu:steel_ingot",
+  "category": "mffs:getting_started",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "gtceu:steel_ingot",
+      "link_recipe": false,
+      "text": "Start with steel from your GregTech production line. MFFS recipes accept steel through the shared steel ingredient tag. Open a component in JEI to check the required plates, ingots and other materials."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mffs:focus_matrix",
+      "text": "The Focus Matrix is one of your basic force-field components. Make these as you prepare your machinery."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Follow the machinery recipes in JEI as you build your MFFS setup. Producing steel does not replace the other components required by each machine."
+    }
+  ]
+}

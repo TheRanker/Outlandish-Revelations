@@ -1,0 +1,27 @@
+{
+  "name": "Machine Frame Assembly",
+  "icon": "industrialforegoing:machine_frame_simple",
+  "category": "industrialforegoing:basics",
+  "sortnum": 6,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "industrialforegoing:machine_frame_simple",
+      "link_recipe": false,
+      "text": "Build a Pity Machine Frame, then upgrade it in a GregTech assembler with Polyethylene Plates and steel components. Open the Simple Machine Frame in JEI for the exact recipe."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "industrialforegoing:machine_frame_advanced",
+      "link_recipe": false,
+      "text": "The Advanced Machine Frame uses a Simple Machine Frame, aluminium, gold, Netherite Scrap and Pink Slime. Supply the assembler with both its items and fluid."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "industrialforegoing:machine_frame_supreme",
+      "link_recipe": false,
+      "text": "The Supreme Machine Frame builds on the Advanced frame with stainless steel, diamond, Netherite and Ether Gas. Follow the frame recipe in JEI to plan the complete production chain."
+    }
+  ]
+}

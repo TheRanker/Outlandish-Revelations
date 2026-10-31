@@ -1,0 +1,12 @@
+{
+  "name": "Enter Ocean Monuments Prepared",
+  "category": "patchouli:chapter_17",
+  "icon": "minecraft:compass",
+  "sortnum": 14,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Progressive Bosses can prevent block breaking around Elder Guardians. Bring breathing support, a weapon, food and a route out before entering a monument. Do not rely on digging through a wall to escape. Clear the guardians and keep track of the rooms you have already checked."
+    }
+  ]
+}

@@ -24,7 +24,7 @@
 	
 	# Minimap for clients connecting to this server will be disabled
 	# Default: false
-	force_disable_minimap: true
+	force_disable_minimap: false
 	
 	# Control how force-loaded chunks work.
 	# NEVER: only allow chunk force-loading if the owning team has at least one online player.
@@ -101,7 +101,7 @@
 	# AVERAGE: use the average of all members' limits.
 	# Default: "largest"
 	# Valid values: "largest", "owner", "sum", "average"
-	party_limit_mode: "sum"
+	party_limit_mode: "largest"
 	
 	# When true, standard FTB Chunk explosion protection is applied in protected chunks when the source of the explosion cannot be determined
 	# (Ghast fireballs are a common case - vanilla supplies a null entity source)
@@ -116,5 +116,5 @@
 	# If true, the player must have the 'ftbchunks_mapping' Game stage to be able to use the map and minimap.
 	# Requires KubeJS and/or Gamestages to be installed.
 	# Default: false
-	require_game_stage: true
+	require_game_stage: false
 }

@@ -1,0 +1,12 @@
+{
+  "name": "Let the workshops support one another",
+  "category": "patchouli:chapter_10",
+  "icon": "minecraft:enchanted_book",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Magic belongs in your progression alongside machinery. Some projects need industrial components, while magical materials can support later manufacturing.$(br2)Choose a branch that interests you and follow its current recipe requirements. You can enjoy the workshop you have while preparing the factory for its next stage."
+    }
+  ]
+}

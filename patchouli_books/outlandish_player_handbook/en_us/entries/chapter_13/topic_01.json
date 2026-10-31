@@ -1,0 +1,12 @@
+{
+  "name": "Build and inspect the rocket",
+  "category": "patchouli:chapter_13",
+  "icon": "minecraft:firework_rocket",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Use the scanner’s requirements to assemble the rocket correctly. Prepare the matching fuel system and check the destination before launch.$(br2)Test your suit and oxygen supply before relying on them in an airless environment. Prepare any thermal protection the destination requires. Keep food, blocks, tools and spare supplies where you can reach them."
+    }
+  ]
+}

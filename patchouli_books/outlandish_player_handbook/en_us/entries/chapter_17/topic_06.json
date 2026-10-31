@@ -1,0 +1,12 @@
+{
+  "name": "A Horse with a History",
+  "category": "patchouli:chapter_17",
+  "icon": "minecraft:compass",
+  "sortnum": 6,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Realistic Horse Genetics gives horses inherited coat colours and performance traits. Tame a horse, saddle it and try its speed and jump before choosing a travelling companion. Size matters here: very small equines cannot carry an adult rider. Keep your horse out of combat, because nearby monsters can spook it."
+    }
+  ]
+}

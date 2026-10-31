@@ -1,0 +1,12 @@
+{
+  "name": "Pack for the Job",
+  "category": "patchouli:chapter_18",
+  "icon": "minecraft:chest",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Use a backpack for a varied toolkit and a Dank for large quantities of a few materials. Leave room for discoveries. Before a long trip, separate food, building blocks, spare tools and valuable finds so you can reach them quickly. Storage upgrades follow the materials in JEI; plan them alongside your factory."
+    }
+  ]
+}

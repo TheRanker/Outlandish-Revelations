@@ -1,0 +1,16 @@
+{
+  "name": "Animals and butchery",
+  "category": "patchouli:chapter_04",
+  "icon": "minecraft:bread",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Follow the Butcher’s Delight quests to set up your processing tools and equipment. Use JEI for the available cuts and cooking methods, and keep the work area close to food storage."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Animal care also supplies useful materials such as wool, milk and leather through the pack’s available recipes and interactions. Plan how you will replace those supplies before spending the last of them on a project."
+    }
+  ]
+}

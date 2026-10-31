@@ -1,0 +1,507 @@
+[
+  {
+    "name": "almandine",
+    "color": 10622743,
+    "gtMaterial": "almandine"
+  },
+  {
+    "name": "asbestos",
+    "color": 15132390,
+    "gtMaterial": "asbestos"
+  },
+  {
+    "name": "hematite",
+    "color": 16740705,
+    "gtMaterial": "hematite"
+  },
+  {
+    "name": "blue_topaz",
+    "color": 14417663,
+    "gtMaterial": "blue_topaz"
+  },
+  {
+    "name": "goethite",
+    "color": 9930554,
+    "gtMaterial": "goethite"
+  },
+  {
+    "name": "calcite",
+    "color": 16776952,
+    "gtMaterial": "calcite"
+  },
+  {
+    "name": "cassiterite",
+    "color": 9012350,
+    "gtMaterial": "cassiterite"
+  },
+  {
+    "name": "chalcopyrite",
+    "color": 9879941,
+    "gtMaterial": "chalcopyrite"
+  },
+  {
+    "name": "chromite",
+    "color": 12960168,
+    "gtMaterial": "chromite"
+  },
+  {
+    "name": "cinnabar",
+    "color": 16724831,
+    "gtMaterial": "cinnabar"
+  },
+  {
+    "name": "coal",
+    "color": 3751489,
+    "gtMaterial": "coal"
+  },
+  {
+    "name": "cobaltite",
+    "color": 1668607,
+    "gtMaterial": "cobaltite"
+  },
+  {
+    "name": "cooperite",
+    "color": 15335335,
+    "gtMaterial": "cooperite"
+  },
+  {
+    "name": "diamond",
+    "color": 13172735,
+    "gtMaterial": "diamond"
+  },
+  {
+    "name": "emerald",
+    "color": 1572716,
+    "gtMaterial": "emerald"
+  },
+  {
+    "name": "galena",
+    "color": 3751489,
+    "gtMaterial": "galena"
+  },
+  {
+    "name": "garnierite",
+    "color": 3328128,
+    "gtMaterial": "garnierite"
+  },
+  {
+    "name": "green_sapphire",
+    "color": 10151600,
+    "gtMaterial": "green_sapphire"
+  },
+  {
+    "name": "grossular",
+    "color": 16758647,
+    "gtMaterial": "grossular"
+  },
+  {
+    "name": "ilmenite",
+    "color": 2828836,
+    "gtMaterial": "ilmenite"
+  },
+  {
+    "name": "bauxite",
+    "color": 13613139,
+    "gtMaterial": "bauxite"
+  },
+  {
+    "name": "lazurite",
+    "color": 2635505,
+    "gtMaterial": "lazurite"
+  },
+  {
+    "name": "magnesite",
+    "color": 16514038,
+    "gtMaterial": "magnesite"
+  },
+  {
+    "name": "magnetite",
+    "color": 14933443,
+    "gtMaterial": "magnetite"
+  },
+  {
+    "name": "powellite",
+    "color": 14208940,
+    "gtMaterial": "powellite"
+  },
+  {
+    "name": "pyrite",
+    "color": 16776934,
+    "gtMaterial": "pyrite"
+  },
+  {
+    "name": "pyrolusite",
+    "color": 13088171,
+    "gtMaterial": "pyrolusite"
+  },
+  {
+    "name": "rock_salt",
+    "color": 14099216,
+    "gtMaterial": "rock_salt"
+  },
+  {
+    "name": "salt",
+    "color": 16448250,
+    "gtMaterial": "salt"
+  },
+  {
+    "name": "saltpeter",
+    "color": 15132390,
+    "gtMaterial": "saltpeter"
+  },
+  {
+    "name": "sapphire",
+    "color": 3290595,
+    "gtMaterial": "sapphire"
+  },
+  {
+    "name": "scheelite",
+    "color": 14149811,
+    "gtMaterial": "scheelite"
+  },
+  {
+    "name": "sodalite",
+    "color": 4019455,
+    "gtMaterial": "sodalite"
+  },
+  {
+    "name": "tantalite",
+    "color": 5139348,
+    "gtMaterial": "tantalite"
+  },
+  {
+    "name": "spessartine",
+    "color": 16754718,
+    "gtMaterial": "spessartine"
+  },
+  {
+    "name": "sphalerite",
+    "color": 16768136,
+    "gtMaterial": "sphalerite"
+  },
+  {
+    "name": "stibnite",
+    "color": 6645093,
+    "gtMaterial": "stibnite"
+  },
+  {
+    "name": "tetrahedrite",
+    "color": 10723483,
+    "gtMaterial": "tetrahedrite"
+  },
+  {
+    "name": "topaz",
+    "color": 15259450,
+    "gtMaterial": "topaz"
+  },
+  {
+    "name": "tungstate",
+    "color": 14745540,
+    "gtMaterial": "tungstate"
+  },
+  {
+    "name": "uraninite",
+    "color": 16766254,
+    "gtMaterial": "uraninite"
+  },
+  {
+    "name": "wulfenite",
+    "color": 16748544,
+    "gtMaterial": "wulfenite"
+  },
+  {
+    "name": "yellow_limonite",
+    "color": 16114453,
+    "gtMaterial": "yellow_limonite"
+  },
+  {
+    "name": "nether_quartz",
+    "color": 16314339,
+    "gtMaterial": "nether_quartz"
+  },
+  {
+    "name": "certus_quartz",
+    "color": 12769023,
+    "gtMaterial": "certus_quartz"
+  },
+  {
+    "name": "quartzite",
+    "color": 15922669,
+    "gtMaterial": "quartzite"
+  },
+  {
+    "name": "graphite",
+    "color": 11053214,
+    "gtMaterial": "graphite"
+  },
+  {
+    "name": "bornite",
+    "color": 16769114,
+    "gtMaterial": "bornite"
+  },
+  {
+    "name": "chalcocite",
+    "color": 6649986,
+    "gtMaterial": "chalcocite"
+  },
+  {
+    "name": "realgar",
+    "color": 16727347,
+    "gtMaterial": "realgar"
+  },
+  {
+    "name": "bastnasite",
+    "color": 13282144,
+    "gtMaterial": "bastnasite"
+  },
+  {
+    "name": "pentlandite",
+    "color": 14929683,
+    "gtMaterial": "pentlandite"
+  },
+  {
+    "name": "spodumene",
+    "color": 16759996,
+    "gtMaterial": "spodumene"
+  },
+  {
+    "name": "lepidolite",
+    "color": 16767716,
+    "gtMaterial": "lepidolite"
+  },
+  {
+    "name": "malachite",
+    "color": 15531775,
+    "gtMaterial": "malachite"
+  },
+  {
+    "name": "barite",
+    "color": 15262417,
+    "gtMaterial": "barite"
+  },
+  {
+    "name": "alunite",
+    "color": 16504439,
+    "gtMaterial": "alunite"
+  },
+  {
+    "name": "talc",
+    "color": 15466473,
+    "gtMaterial": "talc"
+  },
+  {
+    "name": "soapstone",
+    "color": 5927521,
+    "gtMaterial": "soapstone"
+  },
+  {
+    "name": "kyanite",
+    "color": 14024703,
+    "gtMaterial": "kyanite"
+  },
+  {
+    "name": "pyrochlore",
+    "color": 5982264,
+    "gtMaterial": "pyrochlore"
+  },
+  {
+    "name": "oilsands",
+    "color": 14927754,
+    "gtMaterial": "oilsands"
+  },
+  {
+    "name": "olivine",
+    "color": 11002884,
+    "gtMaterial": "olivine"
+  },
+  {
+    "name": "opal",
+    "color": 16376810,
+    "gtMaterial": "opal"
+  },
+  {
+    "name": "amethyst",
+    "color": 13607155,
+    "gtMaterial": "amethyst"
+  },
+  {
+    "name": "lapis",
+    "color": 8759807,
+    "gtMaterial": "lapis"
+  },
+  {
+    "name": "apatite",
+    "color": 445937,
+    "gtMaterial": "apatite"
+  },
+  {
+    "name": "tricalcium_phosphate",
+    "color": 16776667,
+    "gtMaterial": "tricalcium_phosphate"
+  },
+  {
+    "name": "red_garnet",
+    "color": 9767957,
+    "gtMaterial": "red_garnet"
+  },
+  {
+    "name": "yellow_garnet",
+    "color": 16187145,
+    "gtMaterial": "yellow_garnet"
+  },
+  {
+    "name": "vanadium_magnetite",
+    "color": 9082018,
+    "gtMaterial": "vanadium_magnetite"
+  },
+  {
+    "name": "pollucite",
+    "color": 15653345,
+    "gtMaterial": "pollucite"
+  },
+  {
+    "name": "bentonite",
+    "color": 15591587,
+    "gtMaterial": "bentonite"
+  },
+  {
+    "name": "fullers_earth",
+    "color": 15986619,
+    "gtMaterial": "fullers_earth"
+  },
+  {
+    "name": "pitchblende",
+    "color": 16766535,
+    "gtMaterial": "pitchblende"
+  },
+  {
+    "name": "monazite",
+    "color": 13692568,
+    "gtMaterial": "monazite"
+  },
+  {
+    "name": "trona",
+    "color": 15198132,
+    "gtMaterial": "trona"
+  },
+  {
+    "name": "gypsum",
+    "color": 16775916,
+    "gtMaterial": "gypsum"
+  },
+  {
+    "name": "zeolite",
+    "color": 15918048,
+    "gtMaterial": "zeolite"
+  },
+  {
+    "name": "redstone",
+    "color": 16711680,
+    "gtMaterial": "redstone"
+  },
+  {
+    "name": "electrotine",
+    "color": 8637429,
+    "gtMaterial": "electrotine"
+  },
+  {
+    "name": "diatomite",
+    "color": 16775930,
+    "gtMaterial": "diatomite"
+  },
+  {
+    "name": "aluminium",
+    "color": 11986431,
+    "gtMaterial": "aluminium"
+  },
+  {
+    "name": "beryllium",
+    "color": 10016375,
+    "gtMaterial": "beryllium"
+  },
+  {
+    "name": "cobalt",
+    "color": 15852241,
+    "gtMaterial": "cobalt"
+  },
+  {
+    "name": "copper",
+    "color": 15170646,
+    "gtMaterial": "copper"
+  },
+  {
+    "name": "gold",
+    "color": 16643423,
+    "gtMaterial": "gold"
+  },
+  {
+    "name": "iron",
+    "color": 15658734,
+    "gtMaterial": "iron"
+  },
+  {
+    "name": "lead",
+    "color": 8286082,
+    "gtMaterial": "lead"
+  },
+  {
+    "name": "lithium",
+    "color": 14149614,
+    "gtMaterial": "lithium"
+  },
+  {
+    "name": "molybdenum",
+    "color": 12698062,
+    "gtMaterial": "molybdenum"
+  },
+  {
+    "name": "neodymium",
+    "color": 10128276,
+    "gtMaterial": "neodymium"
+  },
+  {
+    "name": "nickel",
+    "color": 13426677,
+    "gtMaterial": "nickel"
+  },
+  {
+    "name": "palladium",
+    "color": 10526880,
+    "gtMaterial": "palladium"
+  },
+  {
+    "name": "platinum",
+    "color": 16775642,
+    "gtMaterial": "platinum"
+  },
+  {
+    "name": "plutonium",
+    "color": 12199719,
+    "gtMaterial": "plutonium"
+  },
+  {
+    "name": "silver",
+    "color": 14474495,
+    "gtMaterial": "silver"
+  },
+  {
+    "name": "sulfur",
+    "color": 16645937,
+    "gtMaterial": "sulfur"
+  },
+  {
+    "name": "thorium",
+    "color": 3290408,
+    "gtMaterial": "thorium"
+  },
+  {
+    "name": "tin",
+    "color": 16449279,
+    "gtMaterial": "tin"
+  },
+  {
+    "name": "naquadah",
+    "color": 3289650,
+    "gtMaterial": "naquadah"
+  }
+]

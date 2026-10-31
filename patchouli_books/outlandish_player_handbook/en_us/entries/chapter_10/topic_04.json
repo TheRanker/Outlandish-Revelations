@@ -1,0 +1,12 @@
+{
+  "name": "Productive Bees: read the bee’s needs",
+  "category": "patchouli:chapter_10",
+  "icon": "minecraft:enchanted_book",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Check a bee’s breeding or conversion route in JEI. Identify its home, food or flowering requirement and the product you want from it.$(br2)Set up one species successfully before expanding several breeding projects at once. Keep track of which bees you need to retain for future breeding, and organize products by their processing route."
+    }
+  ]
+}

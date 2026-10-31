@@ -1,0 +1,16 @@
+{
+  "name": "MV: expand the workshop",
+  "category": "patchouli:chapter_07",
+  "icon": "minecraft:redstone",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "MV supports more capable manufacturing and useful material branches. Your Tinkers workshop gains new prepared materials and the Foundry, while Botania and Blood Magic advance alongside your industry."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Use this stage to improve organization. Expand storage, label fluid lines and create reserves of commonly needed components. Repeated handcrafting is a useful clue that a process deserves its own station."
+    }
+  ]
+}

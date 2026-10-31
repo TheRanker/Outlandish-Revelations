@@ -1,0 +1,16 @@
+{
+  "name": "Understand the two kinds of work",
+  "category": "patchouli:chapter_06",
+  "icon": "minecraft:furnace",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Create uses rotational power for its machinery. GregTech’s early industry uses steam, followed by EU-powered machines.$(br2)Build each system around its own connections and requirements. The workshops support one another through materials and components, and JEI shows where a project needs something from the other workshop."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Your first GregTech boiler follows its crafting recipe, including a Blast Furnace. Use that recipe as your checklist while building the Create equipment that supports your other projects."
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "EV: prepare demanding processes",
+  "category": "patchouli:chapter_07",
+  "icon": "minecraft:redstone",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "EV brings projects such as the Draconic fusion workshop and further botanical and Blood Magic equipment. Your chemical and material supplies matter as much as your power output."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Before starting a large craft, check the entire chain for missing inputs. Reserve resources for maintenance and replacement parts so one ambitious project does not stop the factory."
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+
+["Attribute 1"]
+	enable = true
+	display_name = "§fHealth : §6"
+	attribute_namespace = "minecraft"
+	attribute_name = "generic.max_health"
+	#changes how to the attribute value displays when you hover (value * modifer)
+	display_modifer = 1.0
+
+["Attribute 2"]
+	enable = true
+	display_name = "§fDamage : §6"
+	attribute_namespace = "minecraft"
+	attribute_name = "generic.attack_damage"
+	#changes how to the attribute value displays when you hover (value * modifer)
+	display_modifer = 1.0
+
+["Attribute 3"]
+	enable = true
+	display_name = "§fAS : §6"
+	attribute_namespace = "minecraft"
+	attribute_name = "generic.attack_speed"
+	#changes how to the attribute value displays when you hover (value * modifer)
+	display_modifer = 1.0
+
+["Attribute 4"]
+	enable = true
+	display_name = "§fArmor : §6"
+	attribute_namespace = "minecraft"
+	attribute_name = "generic.armor"
+	#changes how to the attribute value displays when you hover (value * modifer)
+	display_modifer = 1.0
+
+["Attribute 5"]
+	enable = true
+	display_name = "§fMS : §6"
+	attribute_namespace = "minecraft"
+	attribute_name = "generic.movement_speed"
+	#changes how to the attribute value displays when you hover (value * modifer)
+	display_modifer = 100.0
+
+["Attribute 6"]
+	enable = true
+	display_name = "§fKnock Res : §6"
+	attribute_namespace = "minecraft"
+	attribute_name = "generic.knockback_resistance"
+	#changes how to the attribute value displays when you hover (value * modifer)
+	display_modifer = 10.0
+
+["Attribute 7"]
+	enable = true
+	display_name = "§fToughness : §6"
+	attribute_namespace = "minecraft"
+	attribute_name = "generic.armor_toughness"
+	#changes how to the attribute value displays when you hover (value * modifer)
+	display_modifer = 1.0
+
+["Attribute 8"]
+	enable = true
+	display_name = "§fLuck: §6"
+	attribute_namespace = "minecraft"
+	attribute_name = "generic.luck"
+	#changes how to the attribute value displays when you hover (value * modifer)
+	display_modifer = 1.0
+
+["Attribute 9"]
+	enable = false
+	display_name = "§fHealth : "
+	attribute_namespace = "minecraft"
+	attribute_name = "generic.max_health"
+	#changes how to the attribute value displays when you hover (value * modifer)
+	display_modifer = 1.0
+
+["Attribute 10"]
+	enable = false
+	display_name = "§fHealth : "
+	attribute_namespace = "minecraft"
+	attribute_name = "generic.max_health"
+	#changes how to the attribute value displays when you hover (value * modifer)
+	display_modifer = 1.0
+
+["Attribute 11"]
+	enable = false
+	display_name = "§fHealth : "
+	attribute_namespace = "minecraft"
+	attribute_name = "generic.max_health"
+	#changes how to the attribute value displays when you hover (value * modifer)
+	display_modifer = 1.0
+
+["Attribute 12"]
+	enable = false
+	display_name = "§fHealth : "
+	attribute_namespace = "minecraft"
+	attribute_name = "generic.max_health"
+	#changes how to the attribute value displays when you hover (value * modifer)
+	display_modifer = 1.0
+
+["Attribute 13"]
+	enable = false
+	display_name = "§fHealth : "
+	attribute_namespace = "minecraft"
+	attribute_name = "generic.max_health"
+	#changes how to the attribute value displays when you hover (value * modifer)
+	display_modifer = 1.0
+
+["Attribute 14"]
+	enable = false
+	display_name = "§fHealth : "
+	attribute_namespace = "minecraft"
+	attribute_name = "generic.max_health"
+	#changes how to the attribute value displays when you hover (value * modifer)
+	display_modifer = 1.0
+
+["Attribute 15"]
+	enable = false
+	display_name = "§fHealth : "
+	attribute_namespace = "minecraft"
+	attribute_name = "generic.max_health"
+	#changes how to the attribute value displays when you hover (value * modifer)
+	display_modifer = 1.0
+
+["Global Settings"]
+	enable = true
+

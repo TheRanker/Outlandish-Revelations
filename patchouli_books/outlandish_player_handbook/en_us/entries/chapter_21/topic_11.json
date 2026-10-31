@@ -1,0 +1,12 @@
+{
+  "name": "Keep Your Main Goal in Sight",
+  "category": "patchouli:chapter_21",
+  "icon": "minecraft:amethyst_shard",
+  "sortnum": 11,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Vestiges is a substantial side progression to explore as your equipment improves. Its challenges do not replace your team’s dimension unlocks or your factory’s material requirements. Bring useful equipment back into your main journey, whose final challenge remains the Hovering Inferno."
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Prepare a Stable",
+  "category": "patchouli:chapter_17",
+  "icon": "minecraft:compass",
+  "sortnum": 7,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Make a safe enclosure with room to move, good lighting and an easy entrance. Carry a lead for handling animals. Saddled horses are configured to stay put when unattended, but an enclosure is still a useful home. Leave space between breeding groups: stallions can drive rivals away from mares."
+    }
+  ]
+}

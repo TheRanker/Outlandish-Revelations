@@ -1,0 +1,16 @@
+{
+  "name": "Grow into plastics and advanced materials",
+  "category": "patchouli:chapter_08",
+  "icon": "minecraft:glass_bottle",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Project — What to understand first$(br2)Polyethylene — Ethylene supply, polymerization and forming the product$(br2)PVC — Vinyl Chloride production and a separate polymer line$(br2)PTFE — Fluorine chemistry, intermediate fluids and acid byproducts$(br2)Epoxy — Two supporting liquid inputs, the final reaction and resin processing"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "PBI — Several intermediate reactions and suitable advanced chemical equipment$(br2)The quest chapters suggest a useful order for developing these lines. JEI gives the exact machine and voltage for each recipe, including any alternative route your factory can support."
+    }
+  ]
+}

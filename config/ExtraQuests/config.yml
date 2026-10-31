@@ -1,0 +1,7 @@
+# Will there be a blacklist of console commands to execute from the command reward?
+blacklist-console: false
+
+# All commands that will be banned.
+blacklist-console-list:
+  - op
+  - gamemode

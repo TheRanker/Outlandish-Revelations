@@ -1,0 +1,16 @@
+{
+  "name": "Start with a tool you can maintain",
+  "category": "patchouli:chapter_05",
+  "icon": "minecraft:anvil",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Build a Part Builder and Tinker Station, then use the available early materials to assemble your first tools. Read Materials and You to learn how parts, traits and repairs work together.$(br2)Choose repair materials you can obtain reliably. A powerful tool is less useful when repairing it requires an expedition you are not ready to make."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Keep spare materials beside the station and bring suitable repair supplies on longer trips."
+    }
+  ]
+}

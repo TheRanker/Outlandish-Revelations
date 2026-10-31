@@ -1,0 +1,16 @@
+{
+  "name": "Industrial Foregoing and support machinery",
+  "category": "patchouli:chapter_09",
+  "icon": "minecraft:chest",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Industrial Foregoing can support useful automation projects. Check the machine’s working area, power, fluids and output handling before leaving it to run.$(br2)Place machines where you can inspect the work. Use a small test area to understand a new device, then extend the setup when its behavior is clear."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Prepare Polyethylene Plates in your GregTech workshop for the plastic ingredients used by Industrial Foregoing. Make Simple, Advanced and Supreme Machine Frames in a GregTech Assembler. Later frames also need advanced materials and fluids, so follow the full chain in JEI."
+    }
+  ]
+}

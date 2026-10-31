@@ -1,0 +1,10 @@
+{
+  "condition": {
+    "type": "mantle:tag_filled",
+    "tag": "forge:ingots/aluminum"
+  },
+  "craftable": false,
+  "hidden": false,
+  "sortOrder": 9,
+  "tier": 2
+}

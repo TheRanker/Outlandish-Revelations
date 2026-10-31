@@ -1,0 +1,12 @@
+{
+  "name": "Configure Your Devices",
+  "category": "patchouli:chapter_20",
+  "icon": "minecraft:bricks",
+  "sortnum": 10,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The Universal Block Modifier opens settings on supported SecurityCraft devices. Read each option and test changes. Add access modules only where supported, and check that trusted teammates can still use the entrance."
+    }
+  ]
+}

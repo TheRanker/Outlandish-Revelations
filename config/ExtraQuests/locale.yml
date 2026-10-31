@@ -1,0 +1,4 @@
+reload: '&e(!) Configs have been reloaded.'
+add-key-value: '&e(!) You have added a key %key% value %value% to the player %player%.'
+error-reload: '&c(!) Reload error, checking console and fixes config.'
+player-not-found: '&c(!) Player %player% not found.'

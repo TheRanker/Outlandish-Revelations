@@ -1,0 +1,12 @@
+{
+  "name": "Solve the Request, Then Expand",
+  "category": "patchouli:chapter_19",
+  "icon": "minecraft:bell",
+  "sortnum": 13,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "When construction stalls, inspect the exact requested item, tool level, worker assignment and route. A similar-looking block may not satisfy a schematic. Upgrade your Builder’s Hut as projects demand it, and finish important jobs before opening several expensive projects at once."
+    }
+  ]
+}

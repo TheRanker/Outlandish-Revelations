@@ -1,0 +1,12 @@
+{
+  "name": "Give Citizens a Home",
+  "category": "patchouli:chapter_19",
+  "icon": "minecraft:bell",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Build residences for your citizens. Housing supports a stable population, so expand it alongside workplaces rather than recruiting far more people than you can support. Keep routes between homes, work and food short and easy to navigate."
+    }
+  ]
+}

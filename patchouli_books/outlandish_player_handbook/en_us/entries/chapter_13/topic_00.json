@@ -1,0 +1,16 @@
+{
+  "name": "A rocket is one part of the expedition",
+  "category": "patchouli:chapter_13",
+  "icon": "minecraft:firework_rocket",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "GCYR adds destinations beyond the Overworld. A successful trip needs a working rocket, suitable fuel, environmental protection and a return plan."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Review the Rocket Scanner, launch pad, motor, tanks and suit recipes before committing to the build. Basic rocket components begin in HV manufacturing, while the scanner requires EV components. Follow the full material chain for every part."
+    }
+  ]
+}

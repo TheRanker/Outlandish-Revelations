@@ -1,0 +1,16 @@
+{
+  "name": "Fishing has a place in progression",
+  "category": "patchouli:chapter_04",
+  "icon": "minecraft:bread",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Fishing provides food and useful discoveries. As your fishing setup improves, check unfamiliar catches and equipment in JEI rather than treating everything as dinner.$(br2)Neptunium can eventually support your Tinkers workshop. Its prepared tool material belongs to HV manufacturing, so a good catch can become a resource for a later project."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Before a long trip: carry food you can replace, a spare supply and the equipment needed to gather more if the expedition runs long."
+    }
+  ]
+}

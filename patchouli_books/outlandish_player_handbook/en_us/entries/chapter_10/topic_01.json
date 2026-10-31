@@ -1,0 +1,24 @@
+{
+  "name": "Botania: build a mana workshop",
+  "category": "patchouli:chapter_10",
+  "icon": "minecraft:enchanted_book",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Prepare the Mechanical Botanical Seed through Create and use it for your first Pure Daisy. Livingwood and Livingrock support the beginning of your botanical workshop.$(br2)Build a mana supply and learn how it reaches the equipment that uses it. A large stored reserve is useful, but regular production is what keeps the workshop working."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Your industrial milestones include:"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "- LV: botanical cores, prepared Manasteel feedstock and the Runic Altar. - MV: the Terrestrial Agglomeration Plate and the pack’s Terrasteel process. - HV: the Elven Gateway, Natura Pylons and further equipment. - EV: Gaia Pylons and Orechid projects. - IV: the stronger Gaia encounter and later relic-related progression."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "For Terrasteel, follow the pack’s recipe in JEI, including the MV Botanical Core and the GregTech finishing process. Use the Lexica Botania for structure and equipment guidance."
+    }
+  ]
+}

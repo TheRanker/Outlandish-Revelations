@@ -1,0 +1,12 @@
+{
+  "name": "More Than Another Trinket",
+  "category": "patchouli:chapter_21",
+  "icon": "minecraft:amethyst_shard",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Vestiges of the Present adds challenge-earned equipment, accessories and encounters. Begin with its Guide Book in your tome. Read a Vestige’s obtaining information before choosing a challenge: different Vestiges reward different activities. Follow a goal that fits where you are in the pack rather than trying to complete every challenge$(br2)immediately."
+    }
+  ]
+}

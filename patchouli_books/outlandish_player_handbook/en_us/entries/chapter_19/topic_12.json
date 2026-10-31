@@ -1,0 +1,12 @@
+{
+  "name": "Protect the People",
+  "category": "patchouli:chapter_19",
+  "icon": "minecraft:bell",
+  "sortnum": 12,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Build a Guard Tower and equip your guards before expanding into exposed terrain. Keep roads lit and plan entrances that citizens can use safely. Security devices should protect the settlement without trapping your own workers."
+    }
+  ]
+}

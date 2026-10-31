@@ -1,0 +1,12 @@
+{
+  "name": "Your final challenge waits in the Nether",
+  "category": "patchouli:chapter_15",
+  "icon": "minecraft:blaze_powder",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The Hovering Inferno is the pack’s endgame boss. Reaching the Nether or defeating the Ender Dragon does not mean your equipment is ready for this encounter.$(br2)Prepare your strongest practical loadout, reliable food, protection, charged equipment and spare supplies. Know how your armor and modules behave before asking them to carry you through the fight."
+    }
+  ]
+}

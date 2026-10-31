@@ -1,0 +1,16 @@
+{
+  "name": "Your endgame armor project",
+  "category": "patchouli:chapter_14",
+  "icon": "minecraft:netherite_chestplate",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Draconic armor progression centers on modular chestpieces: Wyvern, Draconic and Chaotic.$(br2)Treat the chestpiece as a system you configure. Plan compatible shield control, capacity, recovery and energy storage together. Extra shield capacity is useful only when the rest of the setup can support the way you fight."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Read the charging and activation requirements of Undying modules before relying on them. Test flight settings and energy use before taking the equipment into a dangerous location.$(br2)Charge the whole loadout, inspect its settings and perform a safe trial before a major boss encounter."
+    }
+  ]
+}

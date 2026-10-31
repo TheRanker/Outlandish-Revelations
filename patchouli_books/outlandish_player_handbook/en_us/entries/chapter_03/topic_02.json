@@ -1,0 +1,16 @@
+{
+  "name": "Different rocks are worth investigating",
+  "category": "patchouli:chapter_03",
+  "icon": "minecraft:iron_pickaxe",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The world contains many stone types, and the Nether has its own rock and resource families. Getting Started introduces these materials. Use JEI to check what an unfamiliar block contains or what you can do with it before discarding it."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "When you discover a new resource, ask two questions: “What can I make with this now?” and “Which later process will need it?” A labeled reserve can save a second expedition."
+    }
+  ]
+}

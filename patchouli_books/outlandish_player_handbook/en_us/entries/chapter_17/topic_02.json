@@ -1,0 +1,12 @@
+{
+  "name": "Mine the Whole Vein",
+  "category": "patchouli:chapter_17",
+  "icon": "minecraft:compass",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Hold your Ultimine key while breaking a block to mine a connected selection. Search for Ultimine in Controls to find your keybind. Check the highlighted blocks before committing: some related blocks can be grouped together. Bring food and watch tool durability. Avoid using a large selection against your own building."
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "legacyStage": "new_join",
+  "entries": [
+    {
+      "item": "minecraft:wooden_sword",
+      "count": 1,
+      "slot": "MAINHAND",
+      "key": "sword"
+    },
+    {
+      "item": "minecraft:shield",
+      "count": 1,
+      "slot": "OFFHAND",
+      "key": "shield"
+    },
+    {
+      "item": "minecraft:leather_boots",
+      "count": 1,
+      "slot": "FEET",
+      "key": "boots"
+    },
+    {
+      "item": "minecraft:leather_leggings",
+      "count": 1,
+      "slot": "LEGS",
+      "key": "leggings"
+    },
+    {
+      "item": "minecraft:leather_chestplate",
+      "count": 1,
+      "slot": "CHEST",
+      "key": "chestplate"
+    },
+    {
+      "item": "minecraft:leather_helmet",
+      "count": 1,
+      "slot": "HEAD",
+      "key": "helmet"
+    },
+    {
+      "item": "minecraft:bread",
+      "count": 16,
+      "key": "bread"
+    },
+    {
+      "item": "eccentrictome:tome",
+      "count": 1,
+      "key": "tome"
+    },
+    {
+      "item": "comforts:sleeping_bag_black",
+      "count": 1,
+      "key": "sleeping_bag"
+    },
+    {
+      "item": "multibeds:bed_kit",
+      "count": 1,
+      "key": "bed_kit"
+    },
+    {
+      "item": "kubejs:lockpick",
+      "count": 1,
+      "key": "lockpick"
+    },
+    {
+      "item": "scannable:scanner",
+      "count": 1,
+      "nbt": "{items:[{item:{Count:1b,id:\"scannable:range_module\"},slot:0b}, {item:{Count:1b,id:\"scannable:range_module\"},slot:1b}, {item:{Count:1b,id:\"scannable:common_ores_module\"},slot:2b}, {item:{Count:1b,id:\"scannable:rare_ores_module\"},slot:3b}]}",
+      "key": "scanner"
+    }
+  ],
+  "scannerModules": [
+    "scannable:range_module",
+    "scannable:range_module",
+    "scannable:common_ores_module",
+    "scannable:rare_ores_module"
+  ]
+}

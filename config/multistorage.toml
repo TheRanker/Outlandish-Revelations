@@ -1,0 +1,24 @@
+
+#Items used to craft upgrades
+#add entries to override the defaults
+#
+#The first entry must be an item (modId:itemId),
+#it will be the displayed item, and by default the return when deconstructed
+#The return can be changed by adding another item entry prefixed with return (eg. "return|minecraft:chest")
+#
+#Additional entries are optional and define alternative items, each can be an item or item tag (tag|namespace:path)
+#
+[upgrade_item_crafting]
+	#Equivalent Default: "minecraft:chest", "tag|forge:chests/wooden"
+	upgrade1_item1 = []
+	#Equivalent Default: "minecraft:gold_ingot", "tag|forge:ingots/gold"
+	upgrade1_item2 = []
+	#Equivalent Default: "multistorage:upgrade1"
+	upgrade2_item1 = []
+	#Equivalent Default: "minecraft:diamond", "tag|forge:gems/diamond"
+	upgrade2_item2 = []
+	#Equivalent Default: "multistorage:upgrade2"
+	upgrade3_item1 = []
+	#Equivalent Default: "minecraft:netherite_scrap"
+	upgrade3_item2 = []
+

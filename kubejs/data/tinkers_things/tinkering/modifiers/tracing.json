@@ -1,0 +1,43 @@
+{
+  "level_display": "tconstruct:default",
+  "modules": [
+    {
+      "type": "tconstruct:weapon_mob_effect",
+      "entity": "mantle:any",
+      "effect": "minecraft:glowing",
+      "level": {
+        "flat": 1
+      },
+      "time": {
+        "flat": 40,
+        "per_level": 20,
+        "random": 40
+      },
+      "chance": {
+        "each_level": 0.25
+      }
+    },
+    {
+      "type": "tconstruct:counter_mob_effect",
+      "entity": "mantle:any",
+      "effect": "minecraft:glowing",
+      "level": {
+        "flat": 1
+      },
+      "time": {
+        "flat": 40,
+        "per_level": 20,
+        "random": 40
+      },
+      "chance": {
+        "each_level": 0.25
+      },
+      "durability_usage": 1,
+      "tool": {
+        "type": "mantle:tag",
+        "tag": "tconstruct:modifiable/armor"
+      }
+    }
+  ],
+  "show_in_tooltips": "always"
+}

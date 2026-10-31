@@ -1,0 +1,493 @@
+{
+  "disabled": [
+    "ruthlees_beings:dvvd",
+    "ruthlees_beings:ef",
+    "ruthlees_beings:fbd",
+    "ruthlees_beings:fd",
+    "ruthlees_beings:fe",
+    "ruthlees_beings:fg",
+    "ruthlees_beings:gdd",
+    "ruthlees_beings:ger",
+    "ruthlees_beings:gfgfg",
+    "ruthlees_beings:gfm",
+    "ruthlees_beings:gnd",
+    "ruthlees_beings:h",
+    "ruthlees_beings:hhjb",
+    "ruthlees_beings:hj",
+    "ruthlees_beings:jvhh",
+    "ruthlees_beings:oo",
+    "ruthlees_beings:q",
+    "ruthlees_beings:r",
+    "ruthlees_beings:rwhh",
+    "ruthlees_beings:s",
+    "ruthlees_beings:sko",
+    "ruthlees_beings:t",
+    "ruthlees_beings:teh",
+    "ruthlees_beings:w",
+    "ruthlees_beings:y",
+    "apotheotic_additions:blasted_iron_ingot",
+    "apotheotic_additions:crafted_gems/eye_ender_dragon",
+    "apotheotic_additions:crafted_gems/eye_hydra",
+    "apotheotic_additions:crafted_gems/eye_naga",
+    "apotheotic_additions:crafted_gems/eye_snow_queen",
+    "apotheotic_additions:crafted_gems/eye_ur-ghast",
+    "apotheotic_additions:crafted_gems/eye_warden",
+    "apotheotic_additions:crafted_gems/eye_wither",
+    "apotheotic_additions:gem_dust/ancient_crushing",
+    "apotheotic_additions:gem_dust/ancient_sag_mill",
+    "apotheotic_additions:gem_dust/artifact_crushing",
+    "apotheotic_additions:gem_dust/artifact_sag_mill",
+    "apotheotic_additions:gem_dust/common_crushing",
+    "apotheotic_additions:gem_dust/common_sag_mill",
+    "apotheotic_additions:gem_dust/epic_crushing",
+    "apotheotic_additions:gem_dust/epic_sag_mill",
+    "apotheotic_additions:gem_dust/esoteric_crushing",
+    "apotheotic_additions:gem_dust/esoteric_sag_mill",
+    "apotheotic_additions:gem_dust/heirloom_crushing",
+    "apotheotic_additions:gem_dust/heirloom_sag_mill",
+    "apotheotic_additions:gem_dust/mythic_crushing",
+    "apotheotic_additions:gem_dust/mythic_sag_mill",
+    "apotheotic_additions:gem_dust/rare_crushing",
+    "apotheotic_additions:gem_dust/rare_sag_mill",
+    "apotheotic_additions:gem_dust/uncommon_crushing",
+    "apotheotic_additions:gem_dust/uncommon_sag_mill",
+    "apotheotic_additions:material/ancient_crushing",
+    "apotheotic_additions:material/artifact_crushing",
+    "apotheotic_additions:material/common_crushing",
+    "apotheotic_additions:material/epic_crushing",
+    "apotheotic_additions:material/esoteric_crushing",
+    "apotheotic_additions:material/heirloom_crushing",
+    "apotheotic_additions:material/mythic_crushing",
+    "apotheotic_additions:material/rare_crushing",
+    "apotheotic_additions:material/uncommon_crushing",
+    "apotheotic_additions:mythicalband",
+    "apotheotic_additions:sigil_compat/sigil_of_socketing",
+    "apotheotic_additions:smelted_iron_ingot",
+    "apotheotic_additions:stonecutting/luminous_glass",
+    "apotheotic_additions:stonecutting/luminous_glass_pane",
+    "apotheotic_additions:stonecutting/scrap_bricks",
+    "apotheotic_additions:stonecutting/scrap_carved",
+    "apotheotic_additions:stonecutting/scrap_pillar",
+    "apotheotic_additions:stonecutting/scrap_rough",
+    "apotheotic_additions:stonecutting/scrap_slab1",
+    "apotheotic_additions:stonecutting/scrap_stairs1",
+    "apotheotic_additions:stonecutting/timeworn_fabric",
+    "apotheotic_additions:stonecutting/timeworn_fancy",
+    "pamhc2foodcore:caramelcupcakeitem_x4",
+    "pamhc2foodcore:melonpieitem",
+    "pamhc2foodcore:honeymuffinitem",
+    "mythicbotany:feysythia_petal_apothecary",
+    "productivebees:create/mixing/feywild/honeycomb_feywild"
+  ],
+  "repaired": [
+    "forbidden_arcanus:edelwood_chest_boat",
+    "forbidden_arcanus:aurum_chest_boat"
+  ],
+  "schemaRepairs": [
+    "botania:brew",
+    "farmersdelight:cooking",
+    "minecraft:smithing_transform"
+  ],
+  "details": [
+    {
+      "id": "ruthlees_beings:dvvd",
+      "action": "disable",
+      "reason": "Obsolete misspelled namespace in native jar; retain current ruthless_beings recipes"
+    },
+    {
+      "id": "ruthlees_beings:ef",
+      "action": "disable",
+      "reason": "Obsolete misspelled namespace in native jar; retain current ruthless_beings recipes"
+    },
+    {
+      "id": "ruthlees_beings:fbd",
+      "action": "disable",
+      "reason": "Obsolete misspelled namespace in native jar; retain current ruthless_beings recipes"
+    },
+    {
+      "id": "ruthlees_beings:fd",
+      "action": "disable",
+      "reason": "Obsolete misspelled namespace in native jar; retain current ruthless_beings recipes"
+    },
+    {
+      "id": "ruthlees_beings:fe",
+      "action": "disable",
+      "reason": "Obsolete misspelled namespace in native jar; retain current ruthless_beings recipes"
+    },
+    {
+      "id": "ruthlees_beings:fg",
+      "action": "disable",
+      "reason": "Obsolete misspelled namespace in native jar; retain current ruthless_beings recipes"
+    },
+    {
+      "id": "ruthlees_beings:gdd",
+      "action": "disable",
+      "reason": "Obsolete misspelled namespace in native jar; retain current ruthless_beings recipes"
+    },
+    {
+      "id": "ruthlees_beings:ger",
+      "action": "disable",
+      "reason": "Obsolete misspelled namespace in native jar; retain current ruthless_beings recipes"
+    },
+    {
+      "id": "ruthlees_beings:gfgfg",
+      "action": "disable",
+      "reason": "Obsolete misspelled namespace in native jar; retain current ruthless_beings recipes"
+    },
+    {
+      "id": "ruthlees_beings:gfm",
+      "action": "disable",
+      "reason": "Obsolete misspelled namespace in native jar; retain current ruthless_beings recipes"
+    },
+    {
+      "id": "ruthlees_beings:gnd",
+      "action": "disable",
+      "reason": "Obsolete misspelled namespace in native jar; retain current ruthless_beings recipes"
+    },
+    {
+      "id": "ruthlees_beings:h",
+      "action": "disable",
+      "reason": "Obsolete misspelled namespace in native jar; retain current ruthless_beings recipes"
+    },
+    {
+      "id": "ruthlees_beings:hhjb",
+      "action": "disable",
+      "reason": "Obsolete misspelled namespace in native jar; retain current ruthless_beings recipes"
+    },
+    {
+      "id": "ruthlees_beings:hj",
+      "action": "disable",
+      "reason": "Obsolete misspelled namespace in native jar; retain current ruthless_beings recipes"
+    },
+    {
+      "id": "ruthlees_beings:jvhh",
+      "action": "disable",
+      "reason": "Obsolete misspelled namespace in native jar; retain current ruthless_beings recipes"
+    },
+    {
+      "id": "ruthlees_beings:oo",
+      "action": "disable",
+      "reason": "Obsolete misspelled namespace in native jar; retain current ruthless_beings recipes"
+    },
+    {
+      "id": "ruthlees_beings:q",
+      "action": "disable",
+      "reason": "Obsolete misspelled namespace in native jar; retain current ruthless_beings recipes"
+    },
+    {
+      "id": "ruthlees_beings:r",
+      "action": "disable",
+      "reason": "Obsolete misspelled namespace in native jar; retain current ruthless_beings recipes"
+    },
+    {
+      "id": "ruthlees_beings:rwhh",
+      "action": "disable",
+      "reason": "Obsolete misspelled namespace in native jar; retain current ruthless_beings recipes"
+    },
+    {
+      "id": "ruthlees_beings:s",
+      "action": "disable",
+      "reason": "Obsolete misspelled namespace in native jar; retain current ruthless_beings recipes"
+    },
+    {
+      "id": "ruthlees_beings:sko",
+      "action": "disable",
+      "reason": "Obsolete misspelled namespace in native jar; retain current ruthless_beings recipes"
+    },
+    {
+      "id": "ruthlees_beings:t",
+      "action": "disable",
+      "reason": "Obsolete misspelled namespace in native jar; retain current ruthless_beings recipes"
+    },
+    {
+      "id": "ruthlees_beings:teh",
+      "action": "disable",
+      "reason": "Obsolete misspelled namespace in native jar; retain current ruthless_beings recipes"
+    },
+    {
+      "id": "ruthlees_beings:w",
+      "action": "disable",
+      "reason": "Obsolete misspelled namespace in native jar; retain current ruthless_beings recipes"
+    },
+    {
+      "id": "ruthlees_beings:y",
+      "action": "disable",
+      "reason": "Obsolete misspelled namespace in native jar; retain current ruthless_beings recipes"
+    },
+    {
+      "id": "apotheotic_additions:blasted_iron_ingot",
+      "action": "disable",
+      "reason": "References unavailable Apotheosis Adventure items or ingredient serializers; Adventure remains disabled"
+    },
+    {
+      "id": "apotheotic_additions:crafted_gems/eye_ender_dragon",
+      "action": "disable",
+      "reason": "References unavailable Apotheosis Adventure items or ingredient serializers; Adventure remains disabled"
+    },
+    {
+      "id": "apotheotic_additions:crafted_gems/eye_hydra",
+      "action": "disable",
+      "reason": "References unavailable Apotheosis Adventure items or ingredient serializers; Adventure remains disabled"
+    },
+    {
+      "id": "apotheotic_additions:crafted_gems/eye_naga",
+      "action": "disable",
+      "reason": "References unavailable Apotheosis Adventure items or ingredient serializers; Adventure remains disabled"
+    },
+    {
+      "id": "apotheotic_additions:crafted_gems/eye_snow_queen",
+      "action": "disable",
+      "reason": "References unavailable Apotheosis Adventure items or ingredient serializers; Adventure remains disabled"
+    },
+    {
+      "id": "apotheotic_additions:crafted_gems/eye_ur-ghast",
+      "action": "disable",
+      "reason": "References unavailable Apotheosis Adventure items or ingredient serializers; Adventure remains disabled"
+    },
+    {
+      "id": "apotheotic_additions:crafted_gems/eye_warden",
+      "action": "disable",
+      "reason": "References unavailable Apotheosis Adventure items or ingredient serializers; Adventure remains disabled"
+    },
+    {
+      "id": "apotheotic_additions:crafted_gems/eye_wither",
+      "action": "disable",
+      "reason": "References unavailable Apotheosis Adventure items or ingredient serializers; Adventure remains disabled"
+    },
+    {
+      "id": "apotheotic_additions:gem_dust/ancient_crushing",
+      "action": "disable",
+      "reason": "References unavailable Apotheosis Adventure items or ingredient serializers; Adventure remains disabled"
+    },
+    {
+      "id": "apotheotic_additions:gem_dust/ancient_sag_mill",
+      "action": "disable",
+      "reason": "References unavailable Apotheosis Adventure items or ingredient serializers; Adventure remains disabled"
+    },
+    {
+      "id": "apotheotic_additions:gem_dust/artifact_crushing",
+      "action": "disable",
+      "reason": "References unavailable Apotheosis Adventure items or ingredient serializers; Adventure remains disabled"
+    },
+    {
+      "id": "apotheotic_additions:gem_dust/artifact_sag_mill",
+      "action": "disable",
+      "reason": "References unavailable Apotheosis Adventure items or ingredient serializers; Adventure remains disabled"
+    },
+    {
+      "id": "apotheotic_additions:gem_dust/common_crushing",
+      "action": "disable",
+      "reason": "References unavailable Apotheosis Adventure items or ingredient serializers; Adventure remains disabled"
+    },
+    {
+      "id": "apotheotic_additions:gem_dust/common_sag_mill",
+      "action": "disable",
+      "reason": "References unavailable Apotheosis Adventure items or ingredient serializers; Adventure remains disabled"
+    },
+    {
+      "id": "apotheotic_additions:gem_dust/epic_crushing",
+      "action": "disable",
+      "reason": "References unavailable Apotheosis Adventure items or ingredient serializers; Adventure remains disabled"
+    },
+    {
+      "id": "apotheotic_additions:gem_dust/epic_sag_mill",
+      "action": "disable",
+      "reason": "References unavailable Apotheosis Adventure items or ingredient serializers; Adventure remains disabled"
+    },
+    {
+      "id": "apotheotic_additions:gem_dust/esoteric_crushing",
+      "action": "disable",
+      "reason": "References unavailable Apotheosis Adventure items or ingredient serializers; Adventure remains disabled"
+    },
+    {
+      "id": "apotheotic_additions:gem_dust/esoteric_sag_mill",
+      "action": "disable",
+      "reason": "References unavailable Apotheosis Adventure items or ingredient serializers; Adventure remains disabled"
+    },
+    {
+      "id": "apotheotic_additions:gem_dust/heirloom_crushing",
+      "action": "disable",
+      "reason": "References unavailable Apotheosis Adventure items or ingredient serializers; Adventure remains disabled"
+    },
+    {
+      "id": "apotheotic_additions:gem_dust/heirloom_sag_mill",
+      "action": "disable",
+      "reason": "References unavailable Apotheosis Adventure items or ingredient serializers; Adventure remains disabled"
+    },
+    {
+      "id": "apotheotic_additions:gem_dust/mythic_crushing",
+      "action": "disable",
+      "reason": "References unavailable Apotheosis Adventure items or ingredient serializers; Adventure remains disabled"
+    },
+    {
+      "id": "apotheotic_additions:gem_dust/mythic_sag_mill",
+      "action": "disable",
+      "reason": "References unavailable Apotheosis Adventure items or ingredient serializers; Adventure remains disabled"
+    },
+    {
+      "id": "apotheotic_additions:gem_dust/rare_crushing",
+      "action": "disable",
+      "reason": "References unavailable Apotheosis Adventure items or ingredient serializers; Adventure remains disabled"
+    },
+    {
+      "id": "apotheotic_additions:gem_dust/rare_sag_mill",
+      "action": "disable",
+      "reason": "References unavailable Apotheosis Adventure items or ingredient serializers; Adventure remains disabled"
+    },
+    {
+      "id": "apotheotic_additions:gem_dust/uncommon_crushing",
+      "action": "disable",
+      "reason": "References unavailable Apotheosis Adventure items or ingredient serializers; Adventure remains disabled"
+    },
+    {
+      "id": "apotheotic_additions:gem_dust/uncommon_sag_mill",
+      "action": "disable",
+      "reason": "References unavailable Apotheosis Adventure items or ingredient serializers; Adventure remains disabled"
+    },
+    {
+      "id": "apotheotic_additions:material/ancient_crushing",
+      "action": "disable",
+      "reason": "References unavailable Apotheosis Adventure items or ingredient serializers; Adventure remains disabled"
+    },
+    {
+      "id": "apotheotic_additions:material/artifact_crushing",
+      "action": "disable",
+      "reason": "References unavailable Apotheosis Adventure items or ingredient serializers; Adventure remains disabled"
+    },
+    {
+      "id": "apotheotic_additions:material/common_crushing",
+      "action": "disable",
+      "reason": "References unavailable Apotheosis Adventure items or ingredient serializers; Adventure remains disabled"
+    },
+    {
+      "id": "apotheotic_additions:material/epic_crushing",
+      "action": "disable",
+      "reason": "References unavailable Apotheosis Adventure items or ingredient serializers; Adventure remains disabled"
+    },
+    {
+      "id": "apotheotic_additions:material/esoteric_crushing",
+      "action": "disable",
+      "reason": "References unavailable Apotheosis Adventure items or ingredient serializers; Adventure remains disabled"
+    },
+    {
+      "id": "apotheotic_additions:material/heirloom_crushing",
+      "action": "disable",
+      "reason": "References unavailable Apotheosis Adventure items or ingredient serializers; Adventure remains disabled"
+    },
+    {
+      "id": "apotheotic_additions:material/mythic_crushing",
+      "action": "disable",
+      "reason": "References unavailable Apotheosis Adventure items or ingredient serializers; Adventure remains disabled"
+    },
+    {
+      "id": "apotheotic_additions:material/rare_crushing",
+      "action": "disable",
+      "reason": "References unavailable Apotheosis Adventure items or ingredient serializers; Adventure remains disabled"
+    },
+    {
+      "id": "apotheotic_additions:material/uncommon_crushing",
+      "action": "disable",
+      "reason": "References unavailable Apotheosis Adventure items or ingredient serializers; Adventure remains disabled"
+    },
+    {
+      "id": "apotheotic_additions:mythicalband",
+      "action": "disable",
+      "reason": "References unavailable Apotheosis Adventure items or ingredient serializers; Adventure remains disabled"
+    },
+    {
+      "id": "apotheotic_additions:sigil_compat/sigil_of_socketing",
+      "action": "disable",
+      "reason": "References unavailable Apotheosis Adventure items or ingredient serializers; Adventure remains disabled"
+    },
+    {
+      "id": "apotheotic_additions:smelted_iron_ingot",
+      "action": "disable",
+      "reason": "References unavailable Apotheosis Adventure items or ingredient serializers; Adventure remains disabled"
+    },
+    {
+      "id": "apotheotic_additions:stonecutting/luminous_glass",
+      "action": "disable",
+      "reason": "References unavailable Apotheosis Adventure items or ingredient serializers; Adventure remains disabled"
+    },
+    {
+      "id": "apotheotic_additions:stonecutting/luminous_glass_pane",
+      "action": "disable",
+      "reason": "References unavailable Apotheosis Adventure items or ingredient serializers; Adventure remains disabled"
+    },
+    {
+      "id": "apotheotic_additions:stonecutting/scrap_bricks",
+      "action": "disable",
+      "reason": "References unavailable Apotheosis Adventure items or ingredient serializers; Adventure remains disabled"
+    },
+    {
+      "id": "apotheotic_additions:stonecutting/scrap_carved",
+      "action": "disable",
+      "reason": "References unavailable Apotheosis Adventure items or ingredient serializers; Adventure remains disabled"
+    },
+    {
+      "id": "apotheotic_additions:stonecutting/scrap_pillar",
+      "action": "disable",
+      "reason": "References unavailable Apotheosis Adventure items or ingredient serializers; Adventure remains disabled"
+    },
+    {
+      "id": "apotheotic_additions:stonecutting/scrap_rough",
+      "action": "disable",
+      "reason": "References unavailable Apotheosis Adventure items or ingredient serializers; Adventure remains disabled"
+    },
+    {
+      "id": "apotheotic_additions:stonecutting/scrap_slab1",
+      "action": "disable",
+      "reason": "References unavailable Apotheosis Adventure items or ingredient serializers; Adventure remains disabled"
+    },
+    {
+      "id": "apotheotic_additions:stonecutting/scrap_stairs1",
+      "action": "disable",
+      "reason": "References unavailable Apotheosis Adventure items or ingredient serializers; Adventure remains disabled"
+    },
+    {
+      "id": "apotheotic_additions:stonecutting/timeworn_fabric",
+      "action": "disable",
+      "reason": "References unavailable Apotheosis Adventure items or ingredient serializers; Adventure remains disabled"
+    },
+    {
+      "id": "apotheotic_additions:stonecutting/timeworn_fancy",
+      "action": "disable",
+      "reason": "References unavailable Apotheosis Adventure items or ingredient serializers; Adventure remains disabled"
+    },
+    {
+      "id": "pamhc2foodcore:caramelcupcakeitem_x4",
+      "action": "disable",
+      "reason": "Native recipe output is not registered in the installed Food Core or Food Extended versions"
+    },
+    {
+      "id": "pamhc2foodcore:melonpieitem",
+      "action": "disable",
+      "reason": "Native recipe output is not registered in the installed Food Core or Food Extended versions"
+    },
+    {
+      "id": "pamhc2foodcore:honeymuffinitem",
+      "action": "disable",
+      "reason": "Native recipe output is not registered in the installed Food Core or Food Extended versions"
+    },
+    {
+      "id": "mythicbotany:feysythia_petal_apothecary",
+      "action": "disable",
+      "reason": "Optional Feywild ingredients are unavailable; Feywild is absent from this pack"
+    },
+    {
+      "id": "productivebees:create/mixing/feywild/honeycomb_feywild",
+      "action": "disable",
+      "reason": "Optional Feywild ingredients are unavailable; Feywild is absent from this pack"
+    },
+    {
+      "id": "forbidden_arcanus:edelwood_chest_boat",
+      "action": "repair",
+      "reason": "Resolve cross-loader chest ingredient to its supplied forge:chests/wooden value"
+    },
+    {
+      "id": "forbidden_arcanus:aurum_chest_boat",
+      "action": "repair",
+      "reason": "Resolve cross-loader chest ingredient to its supplied forge:chests/wooden value"
+    }
+  ]
+}

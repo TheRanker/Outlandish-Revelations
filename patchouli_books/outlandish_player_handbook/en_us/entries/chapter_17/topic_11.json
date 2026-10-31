@@ -1,0 +1,12 @@
+{
+  "name": "The End, Reshaped",
+  "category": "patchouli:chapter_17",
+  "icon": "minecraft:compass",
+  "sortnum": 11,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Nullscape overhauls the End’s terrain. Plan for dramatic height changes and awkward gaps while exploring the outer islands. Carry blocks and Ender Pearls, and avoid assuming that a distant ledge is an easy jump. Your team must earn End access first; entering it also unlocks Twilight Forest."
+    }
+  ]
+}

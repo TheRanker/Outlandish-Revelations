@@ -1,0 +1,21 @@
+{
+  "name": "Levels 1 - 30",
+  "icon": "minecraft:bookshelf",
+  "category": "apotheosis:enchanting/progression",
+  "flag": "apotheosis:enchanting",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "title": "Reaching Level 30",
+      "item": "minecraft:bookshelf",
+      "link_recipe": false,
+      "text": "Place fifteen Bookshelves around your Enchanting Table to reach level 30. Leave the space between the shelves and table clear.$(br2)For machine production, a GregTech assembler combines six planks and three books into a Bookshelf. Check JEI for the recipes available to you."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "title": "Other Stats",
+      "item": "minecraft:skeleton_skull",
+      "text": "At this stage, there are a few basic options for increasing other stats.$(p)you can use Candles to increase $(arcana), Skulls to increase $(quanta), and Amethyst Clusters to increase $(rectification)."
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "“I made a Tinkers tool, but I cannot maintain it.”",
+  "category": "patchouli:chapter_16",
+  "icon": "minecraft:paper",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Check its materials and repair route in the Tinkers books and JEI. Keep the correct prepared repair material available where required. Plan material changes around supplies you can actually replenish."
+    }
+  ]
+}

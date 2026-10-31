@@ -1,0 +1,55 @@
+// TrimsEffects v2 config JSON file
+{
+  "materialEffectLevels": {},
+  "materialEffectLevelsMinimumMatching": 4,
+  "materialEffectOverrides": {"resin":["night_vision"]},
+
+  // Mapping of armor trim patterns to their associated potion effects
+  "effects": {
+    // Simple example:
+    // "rib": ["strength"],
+    // Multiple effects example:
+    // "dune": ["speed", "jump_boost"],
+    // Fully-qualified identifiers example:
+    // "minecraft:eye": ["minecraft:invisibility"]",
+    // Custom modded patterns and effects example:
+    // "fancymod:fancytrim": ["fancymod:fancyeffect"]",
+
+    // Default values:
+    "sentry": ["resistance"],
+    "dune": ["speed"],
+    "coast": ["water_breathing"],
+    "wild": ["hero_of_the_village"],
+    "ward": ["absorption"],
+    "eye": ["regeneration"],
+    "vex": ["invisibility"],
+    "tide": ["conduit_power"],
+    "snout": ["fire_resistance"],
+    "rib": ["haste"],
+    "spire": ["strength"],
+    "wayfinder": ["slow_falling"],
+    "shaper": ["luck"],
+    "silence": ["health_boost"],
+    "raiser": ["saturation"],
+    "host": ["glowing"],
+    "flow": ["jump_boost"],
+    "bolt": ["dolphins_grace"]
+  },
+
+  // Whether mobs wearing trimmed armor should get the same
+  // status effects as players, default true
+  "applyToMobs": true,
+
+  // Association between number of matching status effects per
+  // armor piece / armor trim to what level the status effect
+  // should have, default [1, 1, 1, 2]
+  "matchingEffectLevels": [1, 1, 1, 2],
+
+  // How long a player needs to wait for absorption to refresh,
+  // in seconds, default 12.0
+  "absorptionStunSeconds": 12.0,
+
+  // Whether resin gives night vision, default true
+  "resinGivesNightVision": true
+
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Learn deposits, not just individual blocks",
+  "category": "patchouli:chapter_03",
+  "icon": "minecraft:iron_pickaxe",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "GregTech resources are often found in substantial deposits. Finding the right deposit and remembering where it is can be more valuable than collecting a few scattered blocks."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Use the scanner guidance in the quest book and keep your equipment charged when required. Record useful locations with clear names: the material, the dimension and whether you have begun mining it."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Bring enough torches, food, blocks and repair supplies to investigate a discovery properly. Mark the route out before digging a complicated underground network."
+    }
+  ]
+}

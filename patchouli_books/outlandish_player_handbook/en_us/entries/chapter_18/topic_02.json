@@ -1,0 +1,12 @@
+{
+  "name": "A Copper Backpack",
+  "category": "patchouli:chapter_18",
+  "icon": "minecraft:chest",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Upgrade your existing backpack with the bronze screws and invar plate shown in JEI. Keep using the native backpack upgrade recipe so your stored items and upgrades carry forward."
+    }
+  ]
+}

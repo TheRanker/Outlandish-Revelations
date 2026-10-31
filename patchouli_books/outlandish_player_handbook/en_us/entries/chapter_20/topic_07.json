@@ -1,0 +1,12 @@
+{
+  "name": "Understand Ownership",
+  "category": "patchouli:chapter_20",
+  "icon": "minecraft:bricks",
+  "sortnum": 7,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "SecurityCraft devices have their own ownership and access settings. FTB team membership alone does not configure every device. Decide who should place and manage the equipment, then test access with a teammate. Keep the SecurityCraft manual in your tome handy."
+    }
+  ]
+}

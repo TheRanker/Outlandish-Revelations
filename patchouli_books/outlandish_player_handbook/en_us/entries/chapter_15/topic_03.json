@@ -1,0 +1,20 @@
+{
+  "name": "Claim the victory",
+  "category": "patchouli:chapter_15",
+  "icon": "minecraft:blaze_powder",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The finale awards Ranker’s Sword, also called Tears for Fears, and four Potions of Radiation. Radiation is harmful; handle those bottles accordingly.$(br2)Complete the final sword task after your Inferno victory to mark your completion of Outlandish Revelations."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "You started with a small workshop. You learned to find resources, turn them into useful processes, explore hostile worlds and build equipment worthy of the final encounter. Take a look around your base—you built the supply lines behind that victory."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Thank you for playing. Keep building, help your teammates reach their own milestones, and share useful issue reports when something needs attention."
+    }
+  ]
+}

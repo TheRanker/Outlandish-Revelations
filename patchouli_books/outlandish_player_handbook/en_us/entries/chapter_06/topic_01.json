@@ -1,0 +1,16 @@
+{
+  "name": "Begin with rotation",
+  "category": "patchouli:chapter_06",
+  "icon": "minecraft:furnace",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Start with Andesite Alloy, shafts and a water wheel. Connect a small machine setup and use Create’s Ponder scenes to learn how components work.$(br2)Rotation must reach the machine, and the network must have enough capacity for the connected load. If machinery becomes overstressed, inspect the network and reduce the load or expand generation."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Use speed and stress information to understand what the machinery is doing. Changing speed affects the demands on the system."
+    }
+  ]
+}

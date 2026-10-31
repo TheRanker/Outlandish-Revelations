@@ -1,0 +1,12 @@
+{
+  "name": "Make Your Bed Your Own",
+  "category": "patchouli:chapter_17",
+  "icon": "minecraft:compass",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Use the MultiBeds Bed Kit to make your bed, then explore the available bed designs and bedding choices in JEI. Set up a comfortable sleeping spot near your workshop. When changing your bed, use the new one again so you know where you will return."
+    }
+  ]
+}

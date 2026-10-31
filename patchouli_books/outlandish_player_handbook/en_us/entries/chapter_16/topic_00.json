@@ -1,0 +1,12 @@
+{
+  "name": "“The recipe is in JEI, but the machine will not start.”",
+  "category": "patchouli:chapter_16",
+  "icon": "minecraft:paper",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Check the recipe category and required machine first. Then inspect voltage, circuit setting, every ingredient and fluid, and all output slots or tanks. For multiblocks, check formation and any temperature or environmental requirement.$(br2)Try one batch manually before investigating the automated transport around it."
+    }
+  ]
+}

@@ -6,4 +6,12 @@
 		crashOnModCompatCrash = false
 		#If JEI recipe filling should heuristically try to determine item tags from recipes.
 		jeiHeuristicTags = true
+		#If REI recipe filling should heuristically try to determine item tags from recipes.
+		reiHeuristicTags = true
+
+[biome]
+
+	[biome.general]
+		#The weight of spawning in the overworld, 0 disables spawning.
+		meneglinBiomeSpawnWeight = 5
 

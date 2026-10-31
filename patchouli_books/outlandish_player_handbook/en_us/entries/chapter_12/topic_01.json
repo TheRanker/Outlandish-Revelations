@@ -1,0 +1,12 @@
+{
+  "name": "Trade with Piglins",
+  "category": "patchouli:chapter_12",
+  "icon": "minecraft:compass",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Adult Piglins barter for Gold Ingots. Prepare a safe trading area and wear gold armor to help keep ordinary Piglins calm.$(br2)Piglins are the traders; Hoglins are dangerous wildlife. Pay attention to which creature you are approaching, and keep an exit available."
+    }
+  ]
+}

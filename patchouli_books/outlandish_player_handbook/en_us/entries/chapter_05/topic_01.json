@@ -1,0 +1,16 @@
+{
+  "name": "Parts do different jobs",
+  "category": "patchouli:chapter_05",
+  "icon": "minecraft:anvil",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A tool is a combination of parts. Changing one part can change its performance or traits without requiring you to abandon the entire tool.$(br2)Before assembling an expensive tool, look at what each part contributes. Decide what the tool is for: everyday mining, clearing an area, gathering a particular resource or fighting. Build around that job."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "The workshop quests divide tools into their parts and associated casts so you can prepare each step separately."
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "name": "Reforging",
+  "icon": "minecraft:anvil",
+  "category": "apotheosis:adventure/affix_loot",
+  "flag": "apotheosis:adventure",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Through the raw potential of $(9)Rarity Materials$() and the versatility of $(9)Gem Dust$(), it is now possible to reforge an item with brand new affixes.$(p)Reforging is not limited to items that already have affixes, and can be performed with any valid item."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "apotheosis:simple_reforging_table",
+      "text": "To begin reforging, craft a $(#5555FF)Simple Reforging Table$(), which allows you to reforge items up to $(#5555FF)Rare$() rarity."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Input Slots",
+      "text": "The Reforging Table has three input slots.$(p)The center slot holds the item you wish to reforge.$(p)The top-left slot holds $(9)Rarity Materials$() for the rarity you would like to reforge with."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "apotheosis:sigil_of_rebirth",
+      "title": "Input Slots",
+      "text": "The bottom-right slot holds $(9)Sigils of Rebirth$(), a unique fuel item used during the Reforging process."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Reforging",
+      "text": "Similar to an Enchanting Table, when reforging, three choices are offered.$(p)Each choice represents a potential new form of the item being reforged.$(p)No choice is inherently stronger than the others."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Reforging",
+      "text": "For each rarity, there is a base cost of experience, sigils, and materials. The extra choice slots charge double and triple the base cost.$(p)To reforge your item, simply click the desired choice."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "apotheosis:reforging_table",
+      "text": "To reforge items of $(#BB00BB)Epic$() rarity or higher, you'll need to upgrade your $(#5555FF)Simple Reforging Table$() into a $(#BB00BB)Reforging Table$()."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Notes",
+      "text": "Items that are not already affixed can be reforged.$(p)Items can be reforged multiple times.$(p)Modpacks can change the costs or prevent reforging at certain rarities."
+    }
+  ]
+}

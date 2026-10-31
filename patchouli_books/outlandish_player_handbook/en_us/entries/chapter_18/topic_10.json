@@ -1,0 +1,12 @@
+{
+  "name": "Your First Dank",
+  "category": "patchouli:chapter_18",
+  "icon": "minecraft:chest",
+  "sortnum": 10,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A Dank holds large quantities in a small number of slots. Use it for repeated materials such as stone, dirt and common mining drops. Open its interface, choose what belongs inside, and test pickup settings with a few expendable items."
+    }
+  ]
+}

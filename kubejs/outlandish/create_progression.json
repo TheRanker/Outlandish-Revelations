@@ -1,0 +1,125 @@
+{
+  "crushing": [
+    {
+      "output": "gtceu:iron_dust",
+      "input": "#forge:raw_materials/iron",
+      "processingTime": 100
+    },
+    {
+      "output": "gtceu:gold_dust",
+      "input": "#forge:raw_materials/gold",
+      "processingTime": 100
+    },
+    {
+      "output": "gtceu:copper_dust",
+      "input": "#forge:raw_materials/copper",
+      "processingTime": 100
+    },
+    {
+      "output": "gtceu:silver_dust",
+      "input": "#forge:raw_materials/silver",
+      "processingTime": 100
+    },
+    {
+      "output": "gtceu:tin_dust",
+      "input": "#forge:raw_materials/tin",
+      "processingTime": 100
+    },
+    {
+      "output": "gtceu:lead_dust",
+      "input": "#forge:raw_materials/lead",
+      "processingTime": 100
+    },
+    {
+      "output": "gtceu:zinc_dust",
+      "input": "#forge:raw_materials/zinc",
+      "processingTime": 100
+    },
+    {
+      "output": "gtceu:nickel_dust",
+      "input": "#forge:raw_materials/nickel",
+      "processingTime": 100
+    }
+  ],
+  "removedOutputs": [
+    "create:crushed_raw_iron",
+    "create:crushed_raw_gold",
+    "create:crushed_raw_copper",
+    "create:crushed_raw_zinc",
+    "create:crushed_raw_platinum",
+    "create:crushed_raw_silver",
+    "create:crushed_raw_tin",
+    "create:crushed_raw_lead",
+    "create:crushed_raw_nickel"
+  ],
+  "assembly": {
+    "results": [
+      {
+        "item": "create:precision_mechanism",
+        "chance": 120
+      },
+      {
+        "item": "#forge:plates/gold",
+        "chance": 8
+      },
+      {
+        "item": "create:andesite_alloy",
+        "chance": 8
+      },
+      {
+        "item": "create:cogwheel",
+        "chance": 5
+      },
+      {
+        "item": "minecraft:gold_nugget",
+        "chance": 3
+      },
+      {
+        "item": "create:shaft",
+        "chance": 2
+      },
+      {
+        "item": "gtceu:crushed_gold_ore",
+        "chance": 2
+      },
+      {
+        "item": "minecraft:iron_ingot",
+        "chance": 1.5
+      },
+      {
+        "item": "minecraft:clock",
+        "chance": 0.7
+      }
+    ],
+    "ingredient": "#forge:plates/gold",
+    "sequence": [
+      {
+        "type": "create:deploying",
+        "output": "create:incomplete_precision_mechanism",
+        "inputs": [
+          "create:incomplete_precision_mechanism",
+          "create:cogwheel"
+        ]
+      },
+      {
+        "type": "create:deploying",
+        "output": "create:incomplete_precision_mechanism",
+        "inputs": [
+          "create:incomplete_precision_mechanism",
+          "create:large_cogwheel"
+        ]
+      },
+      {
+        "type": "create:deploying",
+        "output": "create:incomplete_precision_mechanism",
+        "inputs": [
+          "create:incomplete_precision_mechanism",
+          "#forge:nuggets/iron"
+        ]
+      }
+    ],
+    "transitionalItem": "create:incomplete_precision_mechanism",
+    "loops": 5,
+    "id": "create:sequenced_assembly/precision_mechanism"
+  }
+}

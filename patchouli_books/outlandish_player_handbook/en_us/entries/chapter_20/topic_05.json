@@ -1,0 +1,12 @@
+{
+  "name": "Clear Space Carefully",
+  "category": "patchouli:chapter_20",
+  "icon": "minecraft:bricks",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The Destruction Gadget needs MV components and aluminium plates. It clears selected blocks rather than serving as your mining tool. Inspect every edge of the preview and test on expendable blocks before using it near a workshop."
+    }
+  ]
+}

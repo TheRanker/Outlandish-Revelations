@@ -225,7 +225,7 @@
 			# /rtp max distance from spawn point
 			# Default: 25000
 			# Range: 0 ~ 30000000
-			max_distance: 3000
+			max_distance: 10000
 			
 			# Number of tries before /rtp gives up
 			# Default: 100
@@ -257,7 +257,7 @@
 			# You can override this with FTB Ranks using ftbessentials.spawn.warmup
 			# Default: 0
 			# Range: 0 ~ 604800
-			warmup: 0
+			warmup: 5
 		}
 		
 		# Allows players to create requests to teleport to other users on the server,
@@ -276,7 +276,7 @@
 			# You can override this with FTB Ranks using ftbessentials.tpa.warmup
 			# Default: 0
 			# Range: 0 ~ 604800
-			warmup: 0
+			warmup: 5
 		}
 		
 		# Allows admins to teleport to the location a user was last seen at
@@ -306,7 +306,11 @@
 			# You can override this with FTB Ranks using ftbessentials.warp.warmup
 			# Default: 0
 			# Range: 0 ~ 604800
-			warmup: 0
+			warmup: 5
+		}
+	
+		playerspawn: {
+			warmup: 5
 		}
 	}
 }

@@ -1,0 +1,16 @@
+{
+  "name": "Progress through the workshop",
+  "category": "patchouli:chapter_14",
+  "icon": "minecraft:netherite_chestplate",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Industrial stage — Draconic projects$(br2)HV — Control matrices, Draconium processing and core components$(br2)EV — Basic fusion workshop and Sanguine Draconic Stabilizers$(br2)IV — Wyvern injectors, equipment blanks and Wyvern equipment$(br2)LuV — Awakened Draconium, Awakened injectors and Draconic equipment"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "ZPM — Chaos-related progression, Chaotic injectors and Chaotic equipment$(br2)UV — Advanced Draconic Additions chaos processing and the optional reactor project$(br2)Use the matrix and equipment-blank recipes in JEI to prepare each stage. Keep enough injectors for every ingredient in the recipe you intend to craft."
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Make steam useful",
+  "category": "patchouli:chapter_06",
+  "icon": "minecraft:furnace",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Your early steam workshop should help produce the materials for more machines. Concentrate on processes you repeat often and keep bronze production moving.$(br2)Build the workshop so you can reach the machines, see their output and add capacity. A small, reliable steam line is a strong foundation for LV."
+    }
+  ]
+}

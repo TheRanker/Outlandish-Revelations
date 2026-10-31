@@ -1,0 +1,10 @@
+{
+  "name": "Outlandish Player Handbook",
+  "landing_text": "Build a home, grow your industry, and prepare for the Hovering Inferno. Choose a chapter for practical advice. Use JEI for exact recipes and the questbook for milestones.",
+  "version": 2,
+  "book_texture": "patchouli:textures/gui/book_gray.png",
+  "model": "patchouli:book_gray",
+  "show_progress": false,
+  "use_resource_pack": false,
+  "creative_tab": "minecraft:tools_and_utilities"
+}

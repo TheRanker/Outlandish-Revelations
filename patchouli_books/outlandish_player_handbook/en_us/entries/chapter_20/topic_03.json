@@ -1,0 +1,12 @@
+{
+  "name": "Repeat a Useful Design",
+  "category": "patchouli:chapter_20",
+  "icon": "minecraft:bricks",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Use the Copy-Paste Gadget to capture a simple structure and place another copy. Check the selection boundaries, preview and material requirements. A clean room or wall section makes a good first template."
+    }
+  ]
+}

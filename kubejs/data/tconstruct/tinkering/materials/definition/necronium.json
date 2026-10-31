@@ -1,0 +1,10 @@
+{
+  "condition": {
+    "type": "forge:item_exists",
+    "item": "tconstruct:necronium_bone"
+  },
+  "craftable": true,
+  "hidden": false,
+  "sortOrder": 7,
+  "tier": 3
+}

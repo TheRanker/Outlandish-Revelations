@@ -1,0 +1,16 @@
+{
+  "name": "Your first casting setup",
+  "category": "patchouli:chapter_05",
+  "icon": "minecraft:anvil",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The Seared Melter requires Create Andesite Alloy. Prepare the alloy, then set up the Melter with a suitable heat source and casting equipment.$(br2)Casting tables handle parts and smaller casts; casting basins handle larger casts. Check the required molten material, amount and temperature in JEI before pouring."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Sand casts and reusable metal casts serve different purposes. Check how your chosen cast is made and whether it is consumed. Keep your reusable collection organized by the parts you make most often."
+    }
+  ]
+}

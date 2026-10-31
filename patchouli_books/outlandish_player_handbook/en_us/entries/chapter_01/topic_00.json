@@ -1,0 +1,20 @@
+{
+  "name": "Settle somewhere you can grow",
+  "category": "patchouli:chapter_01",
+  "icon": "minecraft:crafting_table",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Your first home needs room for more than a bed and a chest. You will eventually want a tool workshop, a farm, a mechanical processing area and a factory. You do not need to build them all immediately, but leave enough open space to add them without moving your entire base."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Choose somewhere with access to wood, water and nearby exploration routes. A perfect view is a bonus. A place where you can find your front door after a mining trip is essential."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Make a small starting area with storage, basic crafting equipment, lighting and food preparation. Keep a separate chest for the parts of your current project so they do not disappear into general storage."
+    }
+  ]
+}

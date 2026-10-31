@@ -1,0 +1,12 @@
+{
+  "name": "Feed the Settlement",
+  "category": "patchouli:chapter_19",
+  "icon": "minecraft:bell",
+  "sortnum": 6,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Build a Restaurant and provide food the cook can serve. Pair it with farming and storage so meals do not depend on a single emergency delivery. Check citizens’ needs regularly, especially while the colony population is growing."
+    }
+  ]
+}

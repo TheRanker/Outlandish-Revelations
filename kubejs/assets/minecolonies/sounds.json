@@ -1,0 +1,2450 @@
+{
+  "citizen.marksman.male1.general": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.male1.general",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.female1.general": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.female1.general",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.male2.general": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.male2.general",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.female2.general": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.female2.general",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.male3.general": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.male3.general",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.female3.general": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.female3.general",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.male4.general": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.male4.general",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.female4.general": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.female4.general",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.male1.noise": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.male1.noise",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.female1.noise": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.female1.noise",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.male2.noise": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.male2.noise",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.female2.noise": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.female2.noise",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.male3.noise": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.male3.noise",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.female3.noise": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.female3.noise",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.male4.noise": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.male4.noise",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.female4.noise": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.female4.noise",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.male1.gotobed": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.male1.gotobed",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.female1.gotobed": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.female1.gotobed",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.male2.gotobed": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.male2.gotobed",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.female2.gotobed": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.female2.gotobed",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.male3.gotobed": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.male3.gotobed",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.female3.gotobed": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.female3.gotobed",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.male4.gotobed": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.male4.gotobed",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.female4.gotobed": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.female4.gotobed",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.male1.badweather": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.male1.badweather",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.female1.badweather": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.female1.badweather",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.male2.badweather": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.male2.badweather",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.female2.badweather": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.female2.badweather",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.male3.badweather": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.male3.badweather",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.female3.badweather": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.female3.badweather",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.male4.badweather": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.male4.badweather",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.female4.badweather": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.female4.badweather",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.male1.lowsaturation": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.male1.lowsaturation",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.female1.lowsaturation": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.female1.lowsaturation",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.male2.lowsaturation": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.male2.lowsaturation",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.female2.lowsaturation": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.female2.lowsaturation",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.male3.lowsaturation": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.male3.lowsaturation",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.female3.lowsaturation": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.female3.lowsaturation",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.male4.lowsaturation": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.male4.lowsaturation",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.female4.lowsaturation": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.female4.lowsaturation",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.male1.highsaturation": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.male1.highsaturation",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.female1.highsaturation": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.female1.highsaturation",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.male2.highsaturation": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.male2.highsaturation",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.female2.highsaturation": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.female2.highsaturation",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.male3.highsaturation": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.male3.highsaturation",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.female3.highsaturation": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.female3.highsaturation",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.male4.highsaturation": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.male4.highsaturation",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.female4.highsaturation": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.female4.highsaturation",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.male1.badhousing": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.male1.badhousing",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.female1.badhousing": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.female1.badhousing",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.male2.badhousing": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.male2.badhousing",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.female2.badhousing": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.female2.badhousing",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.male3.badhousing": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.male3.badhousing",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.female3.badhousing": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.female3.badhousing",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.male4.badhousing": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.male4.badhousing",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.female4.badhousing": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.female4.badhousing",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.male1.goodhousing": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.male1.goodhousing",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.female1.goodhousing": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.female1.goodhousing",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.male2.goodhousing": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.male2.goodhousing",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.female2.goodhousing": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.female2.goodhousing",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.male3.goodhousing": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.male3.goodhousing",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.female3.goodhousing": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.female3.goodhousing",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.male4.goodhousing": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.male4.goodhousing",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.female4.goodhousing": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.female4.goodhousing",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.male1.greeting": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.male1.greeting",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.female1.greeting": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.female1.greeting",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.male2.greeting": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.male2.greeting",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.female2.greeting": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.female2.greeting",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.male3.greeting": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.male3.greeting",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.female3.greeting": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.female3.greeting",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.male4.greeting": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.male4.greeting",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.female4.greeting": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.female4.greeting",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.male1.farewell": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.male1.farewell",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.female1.farewell": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.female1.farewell",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.male2.farewell": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.male2.farewell",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.female2.farewell": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.female2.farewell",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.male3.farewell": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.male3.farewell",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.female3.farewell": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.female3.farewell",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.male4.farewell": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.male4.farewell",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.female4.farewell": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.female4.farewell",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.male1.missingequipment": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.male1.missingequipment",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.female1.missingequipment": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.female1.missingequipment",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.male2.missingequipment": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.male2.missingequipment",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.female2.missingequipment": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.female2.missingequipment",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.male3.missingequipment": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.male3.missingequipment",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.female3.missingequipment": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.female3.missingequipment",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.male4.missingequipment": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.male4.missingequipment",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.female4.missingequipment": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.female4.missingequipment",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.male1.happy": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.male1.happy",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.female1.happy": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.female1.happy",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.male2.happy": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.male2.happy",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.female2.happy": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.female2.happy",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.male3.happy": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.male3.happy",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.female3.happy": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.female3.happy",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.male4.happy": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.male4.happy",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.female4.happy": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.female4.happy",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.male1.unhappy": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.male1.unhappy",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.female1.unhappy": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.female1.unhappy",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.male2.unhappy": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.male2.unhappy",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.female2.unhappy": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.female2.unhappy",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.male3.unhappy": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.male3.unhappy",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.female3.unhappy": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.female3.unhappy",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.male4.unhappy": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.male4.unhappy",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.female4.unhappy": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.female4.unhappy",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.male1.sick": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.male1.sick",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.female1.sick": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.female1.sick",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.male2.sick": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.male2.sick",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.female2.sick": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.female2.sick",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.male3.sick": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.male3.sick",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.female3.sick": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.female3.sick",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.male4.sick": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.male4.sick",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.female4.sick": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.female4.sick",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.male1.interaction": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.male1.interaction",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.female1.interaction": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.female1.interaction",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.male2.interaction": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.male2.interaction",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.female2.interaction": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.female2.interaction",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.male3.interaction": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.male3.interaction",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.female3.interaction": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.female3.interaction",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.male4.interaction": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.male4.interaction",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.female4.interaction": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.female4.interaction",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.male1.success": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.male1.success",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.female1.success": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.female1.success",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.male2.success": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.male2.success",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.female2.success": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.female2.success",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.male3.success": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.male3.success",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.female3.success": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.female3.success",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.male4.success": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.male4.success",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.female4.success": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.female4.success",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.male1.danger": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.male1.danger",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.female1.danger": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.female1.danger",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.male2.danger": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.male2.danger",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.female2.danger": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.female2.danger",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.male3.danger": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.male3.danger",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.female3.danger": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.female3.danger",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.male4.danger": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.male4.danger",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.marksman.female4.danger": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.ranger.female4.danger",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.male1.general": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.male1.general",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.female1.general": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.female1.general",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.male2.general": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.male2.general",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.female2.general": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.female2.general",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.male3.general": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.male3.general",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.female3.general": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.female3.general",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.male4.general": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.male4.general",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.female4.general": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.female4.general",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.male1.noise": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.male1.noise",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.female1.noise": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.female1.noise",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.male2.noise": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.male2.noise",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.female2.noise": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.female2.noise",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.male3.noise": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.male3.noise",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.female3.noise": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.female3.noise",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.male4.noise": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.male4.noise",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.female4.noise": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.female4.noise",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.male1.gotobed": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.male1.gotobed",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.female1.gotobed": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.female1.gotobed",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.male2.gotobed": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.male2.gotobed",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.female2.gotobed": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.female2.gotobed",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.male3.gotobed": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.male3.gotobed",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.female3.gotobed": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.female3.gotobed",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.male4.gotobed": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.male4.gotobed",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.female4.gotobed": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.female4.gotobed",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.male1.badweather": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.male1.badweather",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.female1.badweather": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.female1.badweather",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.male2.badweather": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.male2.badweather",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.female2.badweather": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.female2.badweather",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.male3.badweather": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.male3.badweather",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.female3.badweather": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.female3.badweather",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.male4.badweather": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.male4.badweather",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.female4.badweather": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.female4.badweather",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.male1.lowsaturation": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.male1.lowsaturation",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.female1.lowsaturation": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.female1.lowsaturation",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.male2.lowsaturation": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.male2.lowsaturation",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.female2.lowsaturation": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.female2.lowsaturation",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.male3.lowsaturation": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.male3.lowsaturation",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.female3.lowsaturation": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.female3.lowsaturation",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.male4.lowsaturation": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.male4.lowsaturation",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.female4.lowsaturation": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.female4.lowsaturation",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.male1.highsaturation": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.male1.highsaturation",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.female1.highsaturation": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.female1.highsaturation",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.male2.highsaturation": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.male2.highsaturation",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.female2.highsaturation": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.female2.highsaturation",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.male3.highsaturation": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.male3.highsaturation",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.female3.highsaturation": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.female3.highsaturation",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.male4.highsaturation": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.male4.highsaturation",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.female4.highsaturation": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.female4.highsaturation",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.male1.badhousing": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.male1.badhousing",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.female1.badhousing": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.female1.badhousing",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.male2.badhousing": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.male2.badhousing",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.female2.badhousing": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.female2.badhousing",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.male3.badhousing": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.male3.badhousing",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.female3.badhousing": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.female3.badhousing",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.male4.badhousing": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.male4.badhousing",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.female4.badhousing": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.female4.badhousing",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.male1.goodhousing": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.male1.goodhousing",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.female1.goodhousing": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.female1.goodhousing",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.male2.goodhousing": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.male2.goodhousing",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.female2.goodhousing": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.female2.goodhousing",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.male3.goodhousing": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.male3.goodhousing",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.female3.goodhousing": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.female3.goodhousing",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.male4.goodhousing": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.male4.goodhousing",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.female4.goodhousing": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.female4.goodhousing",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.male1.greeting": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.male1.greeting",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.female1.greeting": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.female1.greeting",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.male2.greeting": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.male2.greeting",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.female2.greeting": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.female2.greeting",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.male3.greeting": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.male3.greeting",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.female3.greeting": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.female3.greeting",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.male4.greeting": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.male4.greeting",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.female4.greeting": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.female4.greeting",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.male1.farewell": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.male1.farewell",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.female1.farewell": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.female1.farewell",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.male2.farewell": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.male2.farewell",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.female2.farewell": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.female2.farewell",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.male3.farewell": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.male3.farewell",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.female3.farewell": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.female3.farewell",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.male4.farewell": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.male4.farewell",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.female4.farewell": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.female4.farewell",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.male1.missingequipment": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.male1.missingequipment",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.female1.missingequipment": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.female1.missingequipment",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.male2.missingequipment": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.male2.missingequipment",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.female2.missingequipment": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.female2.missingequipment",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.male3.missingequipment": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.male3.missingequipment",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.female3.missingequipment": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.female3.missingequipment",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.male4.missingequipment": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.male4.missingequipment",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.female4.missingequipment": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.female4.missingequipment",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.male1.happy": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.male1.happy",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.female1.happy": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.female1.happy",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.male2.happy": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.male2.happy",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.female2.happy": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.female2.happy",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.male3.happy": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.male3.happy",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.female3.happy": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.female3.happy",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.male4.happy": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.male4.happy",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.female4.happy": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.female4.happy",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.male1.unhappy": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.male1.unhappy",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.female1.unhappy": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.female1.unhappy",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.male2.unhappy": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.male2.unhappy",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.female2.unhappy": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.female2.unhappy",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.male3.unhappy": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.male3.unhappy",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.female3.unhappy": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.female3.unhappy",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.male4.unhappy": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.male4.unhappy",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.female4.unhappy": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.female4.unhappy",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.male1.sick": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.male1.sick",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.female1.sick": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.female1.sick",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.male2.sick": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.male2.sick",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.female2.sick": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.female2.sick",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.male3.sick": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.male3.sick",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.female3.sick": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.female3.sick",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.male4.sick": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.male4.sick",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.female4.sick": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.female4.sick",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.male1.interaction": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.male1.interaction",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.female1.interaction": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.female1.interaction",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.male2.interaction": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.male2.interaction",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.female2.interaction": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.female2.interaction",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.male3.interaction": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.male3.interaction",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.female3.interaction": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.female3.interaction",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.male4.interaction": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.male4.interaction",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.female4.interaction": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.female4.interaction",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.male1.success": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.male1.success",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.female1.success": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.female1.success",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.male2.success": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.male2.success",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.female2.success": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.female2.success",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.male3.success": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.male3.success",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.female3.success": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.female3.success",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.male4.success": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.male4.success",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.female4.success": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.female4.success",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.male1.danger": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.male1.danger",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.female1.danger": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.female1.danger",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.male2.danger": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.male2.danger",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.female2.danger": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.female2.danger",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.male3.danger": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.male3.danger",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.female3.danger": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.female3.danger",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.male4.danger": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.male4.danger",
+        "type": "event"
+      }
+    ]
+  },
+  "citizen.huscarl.female4.danger": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecolonies:citizen.knight.female4.danger",
+        "type": "event"
+      }
+    ]
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "criteria": {
+    "module_disabled": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

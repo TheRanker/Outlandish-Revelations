@@ -1,0 +1,39 @@
+{
+  "name": "botania.entry.terrasteel",
+  "category": "botania:basics",
+  "icon": "botania:terrasteel_ingot",
+  "priority": true,
+  "advancement": "botania:main/runic_altar_pickup",
+  "turnin": "botania:main/terrasteel_pickup_lexicon",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Terrasteel combines Botania with MV technology. Prepare an MV Botanical Core and Manasteel Dust, then build the Terrestrial Agglomeration Plate and its platform."
+    },
+    {
+      "type": "crafting",
+      "title": "botania.page.terrasteel4",
+      "text": "botania.page.terrasteel1",
+      "recipe": "botania:terra_plate"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Supply mana to the plate, then add the ingredients shown on the following recipe page. The result is Terrasteel Dust. Follow its uses in JEI to finish it into usable metal with GregTech processing."
+    },
+    {
+      "type": "multiblock",
+      "multiblock_id": "botania:terra_plate",
+      "text": "botania.page.terrasteel4",
+      "symmetrical": true
+    },
+    {
+      "type": "botania:terrasteel",
+      "recipe": "otg:botania/terra_plate/terrasteel_dust",
+      "text": "This process makes Terrasteel Dust. Check its uses in JEI for the next processing step."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "botania:terrasteel_block": 1,
+    "botania:terrasteel_nugget": 1
+  }
+}

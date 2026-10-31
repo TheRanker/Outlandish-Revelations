@@ -1,0 +1,129 @@
+[
+  {
+    "group": "apotheosis",
+    "item": "patchouli:guide_book",
+    "count": 1,
+    "nbt": {
+      "patchouli:book": "apotheosis:apoth_chronicle"
+    },
+    "bookId": "apotheosis:apoth_chronicle"
+  },
+  {
+    "group": "bloodmagic",
+    "item": "patchouli:guide_book",
+    "count": 1,
+    "nbt": {
+      "patchouli:book": "bloodmagic:guide"
+    },
+    "bookId": "bloodmagic:guide"
+  },
+  {
+    "group": "botania",
+    "item": "botania:lexicon",
+    "count": 1,
+    "nbt": {
+      "armor_set": ""
+    },
+    "bookId": null
+  },
+  {
+    "group": "create",
+    "item": "create:create_manual",
+    "count": 1,
+    "nbt": {
+      "armor_set": ""
+    },
+    "bookId": null
+  },
+  {
+    "group": "ftbquests",
+    "item": "ftbquests:book",
+    "count": 1,
+    "nbt": {},
+    "bookId": null
+  },
+  {
+    "group": "foodbook",
+    "item": "solcarrot:food_book",
+    "count": 1,
+    "nbt": {},
+    "bookId": null
+  },
+  {
+    "group": "industrialforegoing",
+    "item": "patchouli:guide_book",
+    "count": 1,
+    "nbt": {
+      "patchouli:book": "industrialforegoing:industrial_foregoing"
+    },
+    "bookId": "industrialforegoing:industrial_foregoing"
+  },
+  {
+    "group": "mffs",
+    "item": "patchouli:guide_book",
+    "count": 1,
+    "nbt": {
+      "patchouli:book": "mffs:handbook"
+    },
+    "bookId": "mffs:handbook"
+  },
+  {
+    "group": "player_companions",
+    "item": "patchouli:guide_book",
+    "count": 1,
+    "nbt": {
+      "patchouli:book": "player_companions:guide"
+    },
+    "bookId": "player_companions:guide"
+  },
+  {
+    "group": "pneumaticcraft",
+    "item": "patchouli:guide_book",
+    "count": 1,
+    "nbt": {
+      "patchouli:book": "pneumaticcraft:book"
+    },
+    "bookId": "pneumaticcraft:book"
+  },
+  {
+    "group": "productivebees",
+    "item": "patchouli:guide_book",
+    "count": 1,
+    "nbt": {
+      "patchouli:book": "productivebees:guide"
+    },
+    "bookId": "productivebees:guide"
+  },
+  {
+    "group": "sebastrnlib",
+    "item": "patchouli:guide_book",
+    "count": 1,
+    "nbt": {
+      "patchouli:book": "sebastrnlib:sebastrn_mods_guide_book"
+    },
+    "bookId": "sebastrnlib:sebastrn_mods_guide_book"
+  },
+  {
+    "group": "outlandish",
+    "item": "patchouli:guide_book",
+    "count": 1,
+    "nbt": {
+      "patchouli:book": "patchouli:outlandish_player_handbook"
+    },
+    "bookId": "patchouli:outlandish_player_handbook"
+  },
+  {
+    "group": "vestiges",
+    "item": "vp:guide_book",
+    "count": 1,
+    "nbt": {},
+    "bookId": null
+  },
+  {
+    "group": "securitycraft",
+    "item": "securitycraft:sc_manual",
+    "count": 1,
+    "nbt": {},
+    "bookId": null
+  }
+]

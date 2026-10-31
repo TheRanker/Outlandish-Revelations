@@ -1,0 +1,12 @@
+{
+  "name": "A Supply of Timber",
+  "category": "patchouli:chapter_19",
+  "icon": "minecraft:bell",
+  "sortnum": 8,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A Forester can support the colony’s wood demand. Provide tools, suitable trees and accessible working space. Match the wood supply to your chosen building style so the builder is not constantly waiting for another species."
+    }
+  ]
+}

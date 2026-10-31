@@ -1,0 +1,12 @@
+{
+  "name": "Build a Place for People",
+  "category": "patchouli:chapter_19",
+  "icon": "minecraft:bell",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "MineColonies lets you develop a settlement with citizens, builders and specialized workers. Begin in the Overworld and leave generous room for buildings, roads and future upgrades. Colony permissions and FTB team claims are separate systems: give teammates the access they need in both. Start small enough that you can supply your first$(br2)projects."
+    }
+  ]
+}

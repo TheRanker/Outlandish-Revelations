@@ -1,0 +1,3480 @@
+{
+  "items": [
+    {
+      "id": "lv_botanical_core",
+      "name": "LV Botanical Core",
+      "texture": "botania:item/mana_powder"
+    },
+    {
+      "id": "mv_botanical_core",
+      "name": "MV Botanical Core",
+      "texture": "botania:item/mana_powder"
+    },
+    {
+      "id": "hv_botanical_core",
+      "name": "HV Botanical Core",
+      "texture": "botania:item/mana_powder"
+    },
+    {
+      "id": "ev_botanical_core",
+      "name": "EV Botanical Core",
+      "texture": "botania:item/mana_powder"
+    },
+    {
+      "id": "iv_botanical_core",
+      "name": "IV Botanical Core",
+      "texture": "botania:item/mana_powder"
+    },
+    {
+      "id": "hv_field_control",
+      "name": "HV Field Control",
+      "texture": "minecraft:item/comparator"
+    },
+    {
+      "id": "ev_field_control",
+      "name": "EV Field Control",
+      "texture": "minecraft:item/comparator"
+    },
+    {
+      "id": "iv_field_control",
+      "name": "IV Field Control",
+      "texture": "minecraft:item/comparator"
+    },
+    {
+      "id": "mechanical_botanical_seed",
+      "name": "Mechanical Botanical Seed",
+      "texture": "minecraft:item/wheat_seeds"
+    },
+    {
+      "id": "prepared_manasteel_feedstock",
+      "name": "LV Manasteel Feedstock",
+      "texture": "minecraft:item/iron_ingot"
+    },
+    {
+      "id": "prepared_manasteel_feedstock_block",
+      "name": "Packed LV Manasteel Feedstock",
+      "texture": "minecraft:item/iron_ingot"
+    },
+    {
+      "id": "prepared_botania_runic_altar",
+      "name": "LV Prepared Runic Altar",
+      "texture": "minecraft:item/paper"
+    },
+    {
+      "id": "prepared_botania_terra_plate",
+      "name": "MV Prepared Terra Plate",
+      "texture": "minecraft:item/paper"
+    },
+    {
+      "id": "prepared_botania_alfheim_portal",
+      "name": "HV Prepared Alfheim Portal",
+      "texture": "minecraft:item/paper"
+    },
+    {
+      "id": "prepared_botania_natura_pylon",
+      "name": "HV Prepared Natura Pylon",
+      "texture": "minecraft:item/paper"
+    },
+    {
+      "id": "prepared_botania_gaia_pylon",
+      "name": "EV Prepared Gaia Pylon",
+      "texture": "minecraft:item/paper"
+    },
+    {
+      "id": "prepared_botania_gaia_ingot",
+      "name": "IV Prepared Gaia Ingot",
+      "texture": "minecraft:item/paper"
+    },
+    {
+      "id": "prepared_botania_conjuration_catalyst",
+      "name": "HV Prepared Conjuration Catalyst",
+      "texture": "minecraft:item/paper"
+    },
+    {
+      "id": "prepared_botania_terra_sword",
+      "name": "IV Prepared Terra Sword",
+      "texture": "minecraft:item/paper"
+    },
+    {
+      "id": "prepared_botania_terra_pick",
+      "name": "EV Prepared Terra Pick",
+      "texture": "minecraft:item/paper"
+    },
+    {
+      "id": "prepared_mffs_anti_friendly_module",
+      "name": "EV Prepared Anti Friendly Module",
+      "texture": "minecraft:item/paper"
+    },
+    {
+      "id": "prepared_mffs_anti_hostile_module",
+      "name": "EV Prepared Anti Hostile Module",
+      "texture": "minecraft:item/paper"
+    },
+    {
+      "id": "prepared_mffs_anti_personnel_module",
+      "name": "EV Prepared Anti Personnel Module",
+      "texture": "minecraft:item/paper"
+    },
+    {
+      "id": "prepared_mffs_anti_spawn_module",
+      "name": "EV Prepared Anti Spawn Module",
+      "texture": "minecraft:item/paper"
+    },
+    {
+      "id": "prepared_mffs_battery",
+      "name": "HV Prepared Battery",
+      "texture": "minecraft:item/paper"
+    },
+    {
+      "id": "prepared_mffs_biometric_identifier",
+      "name": "HV Prepared Biometric Identifier",
+      "texture": "minecraft:item/paper"
+    },
+    {
+      "id": "prepared_mffs_blank_card",
+      "name": "HV Prepared Blank Card",
+      "texture": "minecraft:item/paper"
+    },
+    {
+      "id": "prepared_mffs_block_access_module",
+      "name": "EV Prepared Block Access Module",
+      "texture": "minecraft:item/paper"
+    },
+    {
+      "id": "prepared_mffs_block_alter_module",
+      "name": "EV Prepared Block Alter Module",
+      "texture": "minecraft:item/paper"
+    },
+    {
+      "id": "prepared_mffs_camouflage_module",
+      "name": "HV Prepared Camouflage Module",
+      "texture": "minecraft:item/paper"
+    },
+    {
+      "id": "prepared_mffs_capacity_module",
+      "name": "IV Prepared Capacity Module",
+      "texture": "minecraft:item/paper"
+    },
+    {
+      "id": "prepared_mffs_coercion_deriver",
+      "name": "HV Prepared Coercion Deriver",
+      "texture": "minecraft:item/paper"
+    },
+    {
+      "id": "prepared_mffs_collection_module",
+      "name": "HV Prepared Collection Module",
+      "texture": "minecraft:item/paper"
+    },
+    {
+      "id": "prepared_mffs_confiscation_module",
+      "name": "EV Prepared Confiscation Module",
+      "texture": "minecraft:item/paper"
+    },
+    {
+      "id": "prepared_mffs_cube_mode",
+      "name": "HV Prepared Cube Mode",
+      "texture": "minecraft:item/paper"
+    },
+    {
+      "id": "prepared_mffs_custom_mode",
+      "name": "IV Prepared Custom Mode",
+      "texture": "minecraft:item/paper"
+    },
+    {
+      "id": "prepared_mffs_cylinder_mode",
+      "name": "HV Prepared Cylinder Mode",
+      "texture": "minecraft:item/paper"
+    },
+    {
+      "id": "prepared_mffs_disintegration_module",
+      "name": "HV Prepared Disintegration Module",
+      "texture": "minecraft:item/paper"
+    },
+    {
+      "id": "prepared_mffs_dome_module",
+      "name": "HV Prepared Dome Module",
+      "texture": "minecraft:item/paper"
+    },
+    {
+      "id": "prepared_mffs_focus_matrix",
+      "name": "HV Prepared Focus Matrix",
+      "texture": "minecraft:item/paper"
+    },
+    {
+      "id": "prepared_mffs_fortron_capacitor",
+      "name": "HV Prepared Fortron Capacitor",
+      "texture": "minecraft:item/paper"
+    },
+    {
+      "id": "prepared_mffs_frequency_card",
+      "name": "HV Prepared Frequency Card",
+      "texture": "minecraft:item/paper"
+    },
+    {
+      "id": "prepared_mffs_fusion_module",
+      "name": "HV Prepared Fusion Module",
+      "texture": "minecraft:item/paper"
+    },
+    {
+      "id": "prepared_mffs_glow_module",
+      "name": "HV Prepared Glow Module",
+      "texture": "minecraft:item/paper"
+    },
+    {
+      "id": "prepared_mffs_id_card",
+      "name": "HV Prepared Id Card",
+      "texture": "minecraft:item/paper"
+    },
+    {
+      "id": "prepared_mffs_interdiction_matrix",
+      "name": "EV Prepared Interdiction Matrix",
+      "texture": "minecraft:item/paper"
+    },
+    {
+      "id": "prepared_mffs_inverter_module",
+      "name": "HV Prepared Inverter Module",
+      "texture": "minecraft:item/paper"
+    },
+    {
+      "id": "prepared_mffs_projector",
+      "name": "HV Prepared Projector",
+      "texture": "minecraft:item/paper"
+    },
+    {
+      "id": "prepared_mffs_pyramid_mode",
+      "name": "HV Prepared Pyramid Mode",
+      "texture": "minecraft:item/paper"
+    },
+    {
+      "id": "prepared_mffs_remote_controller",
+      "name": "HV Prepared Remote Controller",
+      "texture": "minecraft:item/paper"
+    },
+    {
+      "id": "prepared_mffs_rotation_module",
+      "name": "HV Prepared Rotation Module",
+      "texture": "minecraft:item/paper"
+    },
+    {
+      "id": "prepared_mffs_scale_module",
+      "name": "IV Prepared Scale Module",
+      "texture": "minecraft:item/paper"
+    },
+    {
+      "id": "prepared_mffs_shock_module",
+      "name": "HV Prepared Shock Module",
+      "texture": "minecraft:item/paper"
+    },
+    {
+      "id": "prepared_mffs_silence_module",
+      "name": "HV Prepared Silence Module",
+      "texture": "minecraft:item/paper"
+    },
+    {
+      "id": "prepared_mffs_speed_module",
+      "name": "IV Prepared Speed Module",
+      "texture": "minecraft:item/paper"
+    },
+    {
+      "id": "prepared_mffs_sphere_mode",
+      "name": "HV Prepared Sphere Mode",
+      "texture": "minecraft:item/paper"
+    },
+    {
+      "id": "prepared_mffs_sponge_module",
+      "name": "HV Prepared Sponge Module",
+      "texture": "minecraft:item/paper"
+    },
+    {
+      "id": "prepared_mffs_stabilization_module",
+      "name": "IV Prepared Stabilization Module",
+      "texture": "minecraft:item/paper"
+    },
+    {
+      "id": "prepared_mffs_translation_module",
+      "name": "IV Prepared Translation Module",
+      "texture": "minecraft:item/paper"
+    },
+    {
+      "id": "prepared_mffs_tube_mode",
+      "name": "HV Prepared Tube Mode",
+      "texture": "minecraft:item/paper"
+    },
+    {
+      "id": "prepared_mffs_warn_module",
+      "name": "HV Prepared Warn Module",
+      "texture": "minecraft:item/paper"
+    },
+    {
+      "id": "dormant_pickaxe_heater",
+      "name": "Dormant Pickaxe Heater",
+      "texture": "artifacts:item/pickaxe_heater"
+    }
+  ],
+  "gt": [
+    {
+      "id": "otg:systems/lv_botanical_core",
+      "machine": "assembler",
+      "type": "gtceu:assembler",
+      "inputs": [
+        "4x gtceu:steel_plate",
+        "1x #gtceu:circuits/lv",
+        "1x botania:livingrock"
+      ],
+      "outputs": [
+        "4x kubejs:lv_botanical_core"
+      ],
+      "catalysts": [],
+      "fluidInputs": [],
+      "duration": 200,
+      "EUt": 16
+    },
+    {
+      "id": "otg:systems/mv_botanical_core",
+      "machine": "assembler",
+      "type": "gtceu:assembler",
+      "inputs": [
+        "4x gtceu:aluminium_plate",
+        "1x #gtceu:circuits/mv",
+        "1x botania:livingrock"
+      ],
+      "outputs": [
+        "4x kubejs:mv_botanical_core"
+      ],
+      "catalysts": [],
+      "fluidInputs": [],
+      "duration": 200,
+      "EUt": 64
+    },
+    {
+      "id": "otg:systems/hv_botanical_core",
+      "machine": "assembler",
+      "type": "gtceu:assembler",
+      "inputs": [
+        "4x gtceu:stainless_steel_plate",
+        "1x #gtceu:circuits/hv",
+        "1x botania:livingrock"
+      ],
+      "outputs": [
+        "4x kubejs:hv_botanical_core"
+      ],
+      "catalysts": [],
+      "fluidInputs": [],
+      "duration": 200,
+      "EUt": 256,
+      "circuit": 2
+    },
+    {
+      "id": "otg:systems/ev_botanical_core",
+      "machine": "assembler",
+      "type": "gtceu:assembler",
+      "inputs": [
+        "4x gtceu:titanium_plate",
+        "1x #gtceu:circuits/ev",
+        "1x botania:livingrock"
+      ],
+      "outputs": [
+        "4x kubejs:ev_botanical_core"
+      ],
+      "catalysts": [],
+      "fluidInputs": [],
+      "duration": 200,
+      "EUt": 1024
+    },
+    {
+      "id": "otg:systems/iv_botanical_core",
+      "machine": "assembler",
+      "type": "gtceu:assembler",
+      "inputs": [
+        "4x gtceu:tungsten_steel_plate",
+        "1x #gtceu:circuits/iv",
+        "1x botania:livingrock"
+      ],
+      "outputs": [
+        "4x kubejs:iv_botanical_core"
+      ],
+      "catalysts": [],
+      "fluidInputs": [],
+      "duration": 200,
+      "EUt": 4096
+    },
+    {
+      "id": "otg:systems/hv_field_control",
+      "machine": "assembler",
+      "type": "gtceu:assembler",
+      "inputs": [
+        "4x gtceu:stainless_steel_plate",
+        "1x #gtceu:circuits/hv",
+        "1x minecraft:ender_pearl"
+      ],
+      "outputs": [
+        "4x kubejs:hv_field_control"
+      ],
+      "catalysts": [],
+      "fluidInputs": [],
+      "duration": 200,
+      "EUt": 256,
+      "circuit": 3
+    },
+    {
+      "id": "otg:systems/ev_field_control",
+      "machine": "assembler",
+      "type": "gtceu:assembler",
+      "inputs": [
+        "4x gtceu:titanium_plate",
+        "1x #gtceu:circuits/ev",
+        "1x minecraft:ender_pearl"
+      ],
+      "outputs": [
+        "4x kubejs:ev_field_control"
+      ],
+      "catalysts": [],
+      "fluidInputs": [],
+      "duration": 200,
+      "EUt": 1024
+    },
+    {
+      "id": "otg:systems/iv_field_control",
+      "machine": "assembler",
+      "type": "gtceu:assembler",
+      "inputs": [
+        "4x gtceu:tungsten_steel_plate",
+        "1x #gtceu:circuits/iv",
+        "1x minecraft:ender_pearl"
+      ],
+      "outputs": [
+        "4x kubejs:iv_field_control"
+      ],
+      "catalysts": [],
+      "fluidInputs": [],
+      "duration": 200,
+      "EUt": 4096
+    },
+    {
+      "id": "otg:systems/manasteel_feedstock",
+      "machine": "assembler",
+      "type": "gtceu:assembler",
+      "inputs": [
+        "4x gtceu:steel_ingot"
+      ],
+      "outputs": [
+        "4x kubejs:prepared_manasteel_feedstock"
+      ],
+      "catalysts": [
+        "kubejs:lv_tooling_die"
+      ],
+      "fluidInputs": [],
+      "duration": 200,
+      "EUt": 16
+    },
+    {
+      "id": "otg:systems/activate_pickaxe_heater",
+      "machine": "assembler",
+      "type": "gtceu:assembler",
+      "inputs": [
+        "1x kubejs:dormant_pickaxe_heater",
+        "1x gtceu:cupronickel_coil_block"
+      ],
+      "outputs": [
+        "1x artifacts:pickaxe_heater"
+      ],
+      "catalysts": [
+        "kubejs:mv_tooling_die"
+      ],
+      "fluidInputs": [],
+      "duration": 200,
+      "EUt": 64
+    }
+  ],
+  "overrides": [
+    {
+      "id": "otg:systems/mechanical_botanical_seed",
+      "recipe": {
+        "type": "create:pressing",
+        "ingredients": [
+          {
+            "item": "create:andesite_alloy"
+          }
+        ],
+        "results": [
+          {
+            "item": "kubejs:mechanical_botanical_seed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "botania:petal_apothecary/pure_daisy",
+      "recipe": {
+        "type": "botania:petal_apothecary",
+        "ingredients": [
+          {
+            "tag": "botania:petals/white"
+          },
+          {
+            "tag": "botania:petals/white"
+          },
+          {
+            "tag": "botania:petals/white"
+          },
+          {
+            "tag": "botania:petals/white"
+          },
+          {
+            "item": "kubejs:mechanical_botanical_seed"
+          }
+        ],
+        "output": {
+          "item": "botania:pure_daisy"
+        },
+        "reagent": {
+          "tag": "botania:seed_apothecary_reagent"
+        }
+      }
+    },
+    {
+      "id": "otg:systems/pack_manasteel_feedstock",
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+          {
+            "item": "kubejs:prepared_manasteel_feedstock"
+          },
+          {
+            "item": "kubejs:prepared_manasteel_feedstock"
+          },
+          {
+            "item": "kubejs:prepared_manasteel_feedstock"
+          },
+          {
+            "item": "kubejs:prepared_manasteel_feedstock"
+          },
+          {
+            "item": "kubejs:prepared_manasteel_feedstock"
+          },
+          {
+            "item": "kubejs:prepared_manasteel_feedstock"
+          },
+          {
+            "item": "kubejs:prepared_manasteel_feedstock"
+          },
+          {
+            "item": "kubejs:prepared_manasteel_feedstock"
+          },
+          {
+            "item": "kubejs:prepared_manasteel_feedstock"
+          }
+        ],
+        "result": {
+          "item": "kubejs:prepared_manasteel_feedstock_block"
+        }
+      }
+    },
+    {
+      "id": "otg:systems/unpack_manasteel_feedstock",
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+          {
+            "item": "kubejs:prepared_manasteel_feedstock_block"
+          }
+        ],
+        "result": {
+          "item": "kubejs:prepared_manasteel_feedstock",
+          "count": 9
+        }
+      }
+    },
+    {
+      "id": "otg:botania/mana_infusion/manasteel",
+      "recipe": {
+        "type": "botania:mana_infusion",
+        "input": {
+          "item": "kubejs:prepared_manasteel_feedstock"
+        },
+        "output": {
+          "item": "botania:manasteel_ingot"
+        },
+        "mana": 3000
+      }
+    },
+    {
+      "id": "botania:mana_infusion/manasteel_block",
+      "recipe": {
+        "type": "botania:mana_infusion",
+        "input": {
+          "item": "kubejs:prepared_manasteel_feedstock_block"
+        },
+        "output": {
+          "item": "botania:manasteel_block"
+        },
+        "mana": 27000
+      }
+    },
+    {
+      "id": "otg:systems/prepare/botania_runic_altar",
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+          {
+            "item": "botania:livingrock"
+          },
+          {
+            "item": "kubejs:lv_botanical_core"
+          }
+        ],
+        "result": {
+          "item": "kubejs:prepared_botania_runic_altar"
+        }
+      }
+    },
+    {
+      "id": "botania:runic_altar",
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "category": "misc",
+        "key": {
+          "P": {
+            "item": "botania:mana_pearl"
+          },
+          "S": {
+            "item": "botania:livingrock"
+          },
+          "Z": {
+            "item": "kubejs:prepared_botania_runic_altar"
+          }
+        },
+        "pattern": [
+          "ZSS",
+          "SPS"
+        ],
+        "result": {
+          "item": "botania:runic_altar"
+        },
+        "show_notification": true
+      }
+    },
+    {
+      "id": "otg:systems/prepare/botania_terra_plate",
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+          {
+            "item": "minecraft:lapis_block"
+          },
+          {
+            "item": "kubejs:mv_botanical_core"
+          }
+        ],
+        "result": {
+          "item": "kubejs:prepared_botania_terra_plate"
+        }
+      }
+    },
+    {
+      "id": "botania:terra_plate",
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "category": "misc",
+        "key": {
+          "0": {
+            "item": "botania:rune_water"
+          },
+          "1": {
+            "item": "botania:rune_fire"
+          },
+          "2": {
+            "item": "botania:rune_earth"
+          },
+          "3": {
+            "item": "botania:rune_air"
+          },
+          "8": {
+            "item": "botania:rune_mana"
+          },
+          "L": {
+            "item": "minecraft:lapis_block"
+          },
+          "M": {
+            "tag": "botania:manasteel_blocks"
+          },
+          "Z": {
+            "item": "kubejs:prepared_botania_terra_plate"
+          }
+        },
+        "pattern": [
+          "ZLL",
+          "0M1",
+          "283"
+        ],
+        "result": {
+          "item": "botania:terra_plate"
+        },
+        "show_notification": true
+      }
+    },
+    {
+      "id": "otg:systems/prepare/botania_alfheim_portal",
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+          {
+            "tag": "botania:livingwood_logs"
+          },
+          {
+            "item": "kubejs:hv_botanical_core"
+          }
+        ],
+        "result": {
+          "item": "kubejs:prepared_botania_alfheim_portal"
+        }
+      }
+    },
+    {
+      "id": "botania:alfheim_portal",
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "category": "misc",
+        "key": {
+          "T": {
+            "tag": "botania:terrasteel_nuggets"
+          },
+          "W": {
+            "tag": "botania:livingwood_logs"
+          },
+          "Z": {
+            "item": "kubejs:prepared_botania_alfheim_portal"
+          }
+        },
+        "pattern": [
+          "ZTW",
+          "WTW",
+          "WTW"
+        ],
+        "result": {
+          "item": "botania:alfheim_portal"
+        },
+        "show_notification": true
+      }
+    },
+    {
+      "id": "otg:systems/prepare/botania_natura_pylon",
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+          {
+            "tag": "botania:terrasteel_nuggets"
+          },
+          {
+            "item": "kubejs:hv_botanical_core"
+          }
+        ],
+        "result": {
+          "item": "kubejs:prepared_botania_natura_pylon"
+        }
+      }
+    },
+    {
+      "id": "botania:natura_pylon",
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "category": "misc",
+        "key": {
+          "E": {
+            "item": "minecraft:ender_eye"
+          },
+          "P": {
+            "item": "botania:mana_pylon"
+          },
+          "T": {
+            "tag": "botania:terrasteel_nuggets"
+          },
+          "Z": {
+            "item": "kubejs:prepared_botania_natura_pylon"
+          }
+        },
+        "pattern": [
+          " Z ",
+          "TPT",
+          " E "
+        ],
+        "result": {
+          "item": "botania:natura_pylon"
+        },
+        "show_notification": true
+      }
+    },
+    {
+      "id": "otg:systems/prepare/botania_gaia_pylon",
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+          {
+            "item": "botania:pixie_dust"
+          },
+          {
+            "item": "kubejs:ev_botanical_core"
+          }
+        ],
+        "result": {
+          "item": "kubejs:prepared_botania_gaia_pylon"
+        }
+      }
+    },
+    {
+      "id": "otg:systems/gaia_pylon",
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "category": "misc",
+        "key": {
+          "D": {
+            "item": "botania:pixie_dust"
+          },
+          "E": {
+            "tag": "botania:elementium_ingots"
+          },
+          "P": {
+            "item": "mythicbotany:alfsteel_pylon"
+          },
+          "Z": {
+            "item": "kubejs:prepared_botania_gaia_pylon"
+          }
+        },
+        "pattern": [
+          " Z ",
+          "EPE",
+          " D "
+        ],
+        "result": {
+          "item": "botania:gaia_pylon"
+        },
+        "show_notification": true
+      }
+    },
+    {
+      "id": "otg:systems/prepare/botania_gaia_ingot",
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+          {
+            "item": "botania:life_essence"
+          },
+          {
+            "item": "kubejs:iv_botanical_core"
+          }
+        ],
+        "result": {
+          "item": "kubejs:prepared_botania_gaia_ingot"
+        }
+      }
+    },
+    {
+      "id": "botania:gaia_ingot",
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "category": "misc",
+        "key": {
+          "I": {
+            "tag": "botania:terrasteel_ingots"
+          },
+          "S": {
+            "item": "botania:life_essence"
+          },
+          "Z": {
+            "item": "kubejs:prepared_botania_gaia_ingot"
+          }
+        },
+        "pattern": [
+          " Z ",
+          "SIS",
+          " S "
+        ],
+        "result": {
+          "item": "botania:gaia_ingot"
+        },
+        "show_notification": true
+      }
+    },
+    {
+      "id": "otg:systems/prepare/botania_conjuration_catalyst",
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+          {
+            "item": "botania:livingrock"
+          },
+          {
+            "item": "kubejs:hv_botanical_core"
+          }
+        ],
+        "result": {
+          "item": "kubejs:prepared_botania_conjuration_catalyst"
+        }
+      }
+    },
+    {
+      "id": "botania:conjuration_catalyst",
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "category": "misc",
+        "key": {
+          "B": {
+            "item": "botania:pixie_dust"
+          },
+          "G": {
+            "tag": "botania:elementium_ingots"
+          },
+          "P": {
+            "item": "botania:alchemy_catalyst"
+          },
+          "S": {
+            "item": "botania:livingrock"
+          },
+          "Z": {
+            "item": "kubejs:prepared_botania_conjuration_catalyst"
+          }
+        },
+        "pattern": [
+          "ZBS",
+          "GPG",
+          "SGS"
+        ],
+        "result": {
+          "item": "botania:conjuration_catalyst"
+        },
+        "show_notification": true
+      }
+    },
+    {
+      "id": "otg:systems/prepare/botania_terra_sword",
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+          {
+            "tag": "botania:terrasteel_ingots"
+          },
+          {
+            "item": "kubejs:iv_botanical_core"
+          }
+        ],
+        "result": {
+          "item": "kubejs:prepared_botania_terra_sword"
+        }
+      }
+    },
+    {
+      "id": "botania:terra_sword",
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "category": "equipment",
+        "key": {
+          "I": {
+            "tag": "botania:terrasteel_ingots"
+          },
+          "S": {
+            "item": "botania:livingwood_twig"
+          },
+          "Z": {
+            "item": "kubejs:prepared_botania_terra_sword"
+          }
+        },
+        "pattern": [
+          "Z",
+          "I",
+          "S"
+        ],
+        "result": {
+          "item": "botania:terra_sword"
+        },
+        "show_notification": true
+      }
+    },
+    {
+      "id": "otg:systems/prepare/botania_terra_pick",
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+          {
+            "tag": "botania:terrasteel_ingots"
+          },
+          {
+            "item": "kubejs:ev_botanical_core"
+          }
+        ],
+        "result": {
+          "item": "kubejs:prepared_botania_terra_pick"
+        }
+      }
+    },
+    {
+      "id": "botania:terra_pick",
+      "recipe": {
+        "type": "botania:mana_upgrade",
+        "category": "equipment",
+        "key": {
+          "I": {
+            "tag": "botania:terrasteel_ingots"
+          },
+          "L": {
+            "item": "botania:livingwood_twig"
+          },
+          "T": {
+            "item": "botania:mana_tablet"
+          },
+          "Z": {
+            "item": "kubejs:prepared_botania_terra_pick"
+          }
+        },
+        "pattern": [
+          "ZTI",
+          "ILI",
+          " L "
+        ],
+        "result": {
+          "item": "botania:terra_pick"
+        },
+        "show_notification": true
+      }
+    },
+    {
+      "id": "otg:botania/terra_plate/terrasteel_dust",
+      "recipe": {
+        "type": "botania:terra_plate",
+        "ingredients": [
+          {
+            "item": "botania:mana_diamond"
+          },
+          {
+            "item": "botania:mana_pearl"
+          },
+          {
+            "item": "gtceu:manasteel_dust"
+          },
+          {
+            "item": "kubejs:mv_botanical_core"
+          }
+        ],
+        "result": {
+          "item": "gtceu:terrasteel_dust"
+        },
+        "mana": 20000
+      }
+    },
+    {
+      "id": "botania:petal_apothecary/orechid",
+      "recipe": {
+        "type": "botania:petal_apothecary",
+        "ingredients": [
+          {
+            "tag": "botania:petals/gray"
+          },
+          {
+            "tag": "botania:petals/gray"
+          },
+          {
+            "tag": "botania:petals/yellow"
+          },
+          {
+            "tag": "botania:petals/green"
+          },
+          {
+            "tag": "botania:petals/red"
+          },
+          {
+            "item": "botania:rune_pride"
+          },
+          {
+            "item": "botania:rune_greed"
+          },
+          {
+            "item": "botania:redstone_root"
+          },
+          {
+            "item": "botania:pixie_dust"
+          },
+          {
+            "item": "kubejs:ev_botanical_core"
+          }
+        ],
+        "output": {
+          "item": "botania:orechid"
+        },
+        "reagent": {
+          "tag": "botania:seed_apothecary_reagent"
+        }
+      }
+    },
+    {
+      "id": "botania:petal_apothecary/orechid_ignem",
+      "recipe": {
+        "type": "botania:petal_apothecary",
+        "ingredients": [
+          {
+            "tag": "botania:petals/red"
+          },
+          {
+            "tag": "botania:petals/red"
+          },
+          {
+            "tag": "botania:petals/white"
+          },
+          {
+            "tag": "botania:petals/white"
+          },
+          {
+            "tag": "botania:petals/pink"
+          },
+          {
+            "item": "botania:rune_pride"
+          },
+          {
+            "item": "botania:rune_greed"
+          },
+          {
+            "item": "botania:redstone_root"
+          },
+          {
+            "item": "botania:pixie_dust"
+          },
+          {
+            "item": "kubejs:ev_botanical_core"
+          }
+        ],
+        "output": {
+          "item": "botania:orechid_ignem"
+        },
+        "reagent": {
+          "tag": "botania:seed_apothecary_reagent"
+        }
+      }
+    },
+    {
+      "id": "otg:systems/prepare/mffs_anti_friendly_module",
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+          {
+            "tag": "minecraft:wool"
+          },
+          {
+            "item": "kubejs:ev_field_control"
+          }
+        ],
+        "result": {
+          "item": "kubejs:prepared_mffs_anti_friendly_module"
+        }
+      }
+    },
+    {
+      "id": "mffs:anti_friendly_module",
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "category": "misc",
+        "key": {
+          "F": {
+            "item": "mffs:focus_matrix"
+          },
+          "L": {
+            "tag": "forge:leather"
+          },
+          "P": {
+            "item": "minecraft:cooked_porkchop"
+          },
+          "S": {
+            "tag": "forge:slimeballs"
+          },
+          "Z": {
+            "item": "kubejs:prepared_mffs_anti_friendly_module"
+          }
+        },
+        "pattern": [
+          " Z ",
+          "PFL",
+          " S "
+        ],
+        "result": {
+          "item": "mffs:anti_friendly_module"
+        },
+        "show_notification": true
+      }
+    },
+    {
+      "id": "otg:systems/prepare/mffs_anti_hostile_module",
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+          {
+            "item": "minecraft:rotten_flesh"
+          },
+          {
+            "item": "kubejs:ev_field_control"
+          }
+        ],
+        "result": {
+          "item": "kubejs:prepared_mffs_anti_hostile_module"
+        }
+      }
+    },
+    {
+      "id": "mffs:anti_hostile_module",
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "category": "misc",
+        "key": {
+          "B": {
+            "item": "minecraft:bone"
+          },
+          "F": {
+            "item": "mffs:focus_matrix"
+          },
+          "G": {
+            "item": "minecraft:ghast_tear"
+          },
+          "P": {
+            "item": "minecraft:gunpowder"
+          },
+          "Z": {
+            "item": "kubejs:prepared_mffs_anti_hostile_module"
+          }
+        },
+        "pattern": [
+          " Z ",
+          "PFB",
+          " G "
+        ],
+        "result": {
+          "item": "mffs:anti_hostile_module"
+        },
+        "show_notification": true
+      }
+    },
+    {
+      "id": "otg:systems/prepare/mffs_anti_personnel_module",
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+          {
+            "item": "mffs:anti_friendly_module"
+          },
+          {
+            "item": "kubejs:ev_field_control"
+          }
+        ],
+        "result": {
+          "item": "kubejs:prepared_mffs_anti_personnel_module"
+        }
+      }
+    },
+    {
+      "id": "mffs:anti_personnel_module",
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "category": "misc",
+        "key": {
+          "F": {
+            "item": "mffs:focus_matrix"
+          },
+          "H": {
+            "item": "mffs:anti_hostile_module"
+          },
+          "Z": {
+            "item": "kubejs:prepared_mffs_anti_personnel_module"
+          }
+        },
+        "pattern": [
+          "ZFH"
+        ],
+        "result": {
+          "item": "mffs:anti_personnel_module"
+        },
+        "show_notification": true
+      }
+    },
+    {
+      "id": "otg:systems/prepare/mffs_anti_spawn_module",
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+          {
+            "item": "mffs:anti_hostile_module"
+          },
+          {
+            "item": "kubejs:ev_field_control"
+          }
+        ],
+        "result": {
+          "item": "kubejs:prepared_mffs_anti_spawn_module"
+        }
+      }
+    },
+    {
+      "id": "mffs:anti_spawn_module",
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "category": "misc",
+        "key": {
+          "F": {
+            "item": "mffs:anti_friendly_module"
+          },
+          "H": {
+            "item": "mffs:anti_hostile_module"
+          },
+          "Z": {
+            "item": "kubejs:prepared_mffs_anti_spawn_module"
+          }
+        },
+        "pattern": [
+          " Z ",
+          "F F",
+          " H "
+        ],
+        "result": {
+          "item": "mffs:anti_spawn_module"
+        },
+        "show_notification": true
+      }
+    },
+    {
+      "id": "otg:systems/prepare/mffs_battery",
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+          {
+            "tag": "forge:ingots/copper"
+          },
+          {
+            "item": "kubejs:hv_field_control"
+          }
+        ],
+        "result": {
+          "item": "kubejs:prepared_mffs_battery"
+        }
+      }
+    },
+    {
+      "id": "mffs:battery",
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "category": "misc",
+        "key": {
+          "I": {
+            "tag": "forge:ingots/iron"
+          },
+          "O": {
+            "item": "minecraft:coal"
+          },
+          "R": {
+            "tag": "forge:dusts/redstone"
+          },
+          "Z": {
+            "item": "kubejs:prepared_mffs_battery"
+          }
+        },
+        "pattern": [
+          " Z ",
+          "IRI",
+          "IOI"
+        ],
+        "result": {
+          "item": "mffs:battery"
+        },
+        "show_notification": true
+      }
+    },
+    {
+      "id": "otg:systems/prepare/mffs_biometric_identifier",
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+          {
+            "item": "mffs:focus_matrix"
+          },
+          {
+            "item": "kubejs:hv_field_control"
+          }
+        ],
+        "result": {
+          "item": "kubejs:prepared_mffs_biometric_identifier"
+        }
+      }
+    },
+    {
+      "id": "mffs:biometric_identifier",
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "category": "misc",
+        "key": {
+          "C": {
+            "item": "mffs:blank_card"
+          },
+          "F": {
+            "item": "mffs:focus_matrix"
+          },
+          "S": {
+            "tag": "forge:ingots/steel"
+          },
+          "Z": {
+            "item": "kubejs:prepared_mffs_biometric_identifier"
+          }
+        },
+        "pattern": [
+          "ZSF",
+          "SCS",
+          "FSF"
+        ],
+        "result": {
+          "item": "mffs:biometric_identifier"
+        },
+        "show_notification": true
+      }
+    },
+    {
+      "id": "otg:systems/prepare/mffs_blank_card",
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+          {
+            "item": "minecraft:paper"
+          },
+          {
+            "item": "kubejs:hv_field_control"
+          }
+        ],
+        "result": {
+          "item": "kubejs:prepared_mffs_blank_card"
+        }
+      }
+    },
+    {
+      "id": "mffs:blank_card",
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "category": "misc",
+        "key": {
+          "P": {
+            "item": "minecraft:paper"
+          },
+          "S": {
+            "tag": "forge:ingots/steel"
+          },
+          "Z": {
+            "item": "kubejs:prepared_mffs_blank_card"
+          }
+        },
+        "pattern": [
+          "ZPP",
+          "PSP",
+          "PPP"
+        ],
+        "result": {
+          "item": "mffs:blank_card"
+        },
+        "show_notification": true
+      }
+    },
+    {
+      "id": "otg:systems/prepare/mffs_block_access_module",
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+          {
+            "tag": "forge:chests/wooden"
+          },
+          {
+            "item": "kubejs:ev_field_control"
+          }
+        ],
+        "result": {
+          "item": "kubejs:prepared_mffs_block_access_module"
+        }
+      }
+    },
+    {
+      "id": "mffs:block_access_module",
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "category": "misc",
+        "key": {
+          "C": {
+            "tag": "forge:chests/wooden"
+          },
+          "F": {
+            "item": "mffs:focus_matrix"
+          },
+          "I": {
+            "tag": "forge:storage_blocks/iron"
+          },
+          "Z": {
+            "item": "kubejs:prepared_mffs_block_access_module"
+          }
+        },
+        "pattern": [
+          " Z ",
+          "IFI",
+          " C "
+        ],
+        "result": {
+          "item": "mffs:block_access_module"
+        },
+        "show_notification": true
+      }
+    },
+    {
+      "id": "otg:systems/prepare/mffs_block_alter_module",
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+          {
+            "tag": "forge:storage_blocks/gold"
+          },
+          {
+            "item": "kubejs:ev_field_control"
+          }
+        ],
+        "result": {
+          "item": "kubejs:prepared_mffs_block_alter_module"
+        }
+      }
+    },
+    {
+      "id": "mffs:block_alter_module",
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "category": "misc",
+        "key": {
+          "G": {
+            "tag": "forge:storage_blocks/gold"
+          },
+          "M": {
+            "item": "mffs:block_access_module"
+          },
+          "Z": {
+            "item": "kubejs:prepared_mffs_block_alter_module"
+          }
+        },
+        "pattern": [
+          " Z ",
+          "GMG",
+          " G "
+        ],
+        "result": {
+          "item": "mffs:block_alter_module"
+        },
+        "show_notification": true
+      }
+    },
+    {
+      "id": "otg:systems/prepare/mffs_camouflage_module",
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+          {
+            "tag": "minecraft:wool"
+          },
+          {
+            "item": "kubejs:hv_field_control"
+          }
+        ],
+        "result": {
+          "item": "kubejs:prepared_mffs_camouflage_module"
+        }
+      }
+    },
+    {
+      "id": "mffs:camouflage_module",
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "category": "misc",
+        "key": {
+          "F": {
+            "item": "mffs:focus_matrix"
+          },
+          "W": {
+            "tag": "minecraft:wool"
+          },
+          "Z": {
+            "item": "kubejs:prepared_mffs_camouflage_module"
+          }
+        },
+        "pattern": [
+          "ZFW",
+          "FWF",
+          "WFW"
+        ],
+        "result": {
+          "item": "mffs:camouflage_module"
+        },
+        "show_notification": true
+      }
+    },
+    {
+      "id": "otg:systems/prepare/mffs_capacity_module",
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+          {
+            "item": "mffs:focus_matrix"
+          },
+          {
+            "item": "kubejs:iv_field_control"
+          }
+        ],
+        "result": {
+          "item": "kubejs:prepared_mffs_capacity_module"
+        }
+      }
+    },
+    {
+      "id": "mffs:capacity_module",
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "category": "misc",
+        "key": {
+          "B": {
+            "item": "mffs:battery"
+          },
+          "F": {
+            "item": "mffs:focus_matrix"
+          },
+          "Z": {
+            "item": "kubejs:prepared_mffs_capacity_module"
+          }
+        },
+        "pattern": [
+          "ZBF"
+        ],
+        "result": {
+          "count": 2,
+          "item": "mffs:capacity_module"
+        },
+        "show_notification": true
+      }
+    },
+    {
+      "id": "otg:systems/prepare/mffs_coercion_deriver",
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+          {
+            "tag": "forge:ingots/steel"
+          },
+          {
+            "item": "kubejs:hv_field_control"
+          }
+        ],
+        "result": {
+          "item": "kubejs:prepared_mffs_coercion_deriver"
+        }
+      }
+    },
+    {
+      "id": "mffs:coercion_deriver",
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "category": "misc",
+        "key": {
+          "B": {
+            "item": "mffs:battery"
+          },
+          "F": {
+            "item": "mffs:focus_matrix"
+          },
+          "S": {
+            "tag": "forge:ingots/steel"
+          },
+          "Z": {
+            "item": "kubejs:prepared_mffs_coercion_deriver"
+          }
+        },
+        "pattern": [
+          "Z S",
+          "SFS",
+          "SBS"
+        ],
+        "result": {
+          "item": "mffs:coercion_deriver"
+        },
+        "show_notification": true
+      }
+    },
+    {
+      "id": "otg:systems/prepare/mffs_collection_module",
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+          {
+            "item": "mffs:focus_matrix"
+          },
+          {
+            "item": "kubejs:hv_field_control"
+          }
+        ],
+        "result": {
+          "item": "kubejs:prepared_mffs_collection_module"
+        }
+      }
+    },
+    {
+      "id": "mffs:collection_module",
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "category": "misc",
+        "key": {
+          "F": {
+            "item": "mffs:focus_matrix"
+          },
+          "H": {
+            "item": "minecraft:hopper"
+          },
+          "Z": {
+            "item": "kubejs:prepared_mffs_collection_module"
+          }
+        },
+        "pattern": [
+          "Z F",
+          " H ",
+          "F F"
+        ],
+        "result": {
+          "item": "mffs:collection_module"
+        },
+        "show_notification": true
+      }
+    },
+    {
+      "id": "otg:systems/prepare/mffs_confiscation_module",
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+          {
+            "item": "minecraft:ender_pearl"
+          },
+          {
+            "item": "kubejs:ev_field_control"
+          }
+        ],
+        "result": {
+          "item": "kubejs:prepared_mffs_confiscation_module"
+        }
+      }
+    },
+    {
+      "id": "mffs:confiscation_module",
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "category": "misc",
+        "key": {
+          "E": {
+            "item": "minecraft:ender_eye"
+          },
+          "F": {
+            "item": "mffs:focus_matrix"
+          },
+          "P": {
+            "item": "minecraft:ender_pearl"
+          },
+          "Z": {
+            "item": "kubejs:prepared_mffs_confiscation_module"
+          }
+        },
+        "pattern": [
+          "ZEP",
+          "EFE",
+          "PEP"
+        ],
+        "result": {
+          "item": "mffs:confiscation_module"
+        },
+        "show_notification": true
+      }
+    },
+    {
+      "id": "otg:systems/prepare/mffs_cube_mode",
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+          {
+            "item": "mffs:focus_matrix"
+          },
+          {
+            "item": "kubejs:hv_field_control"
+          }
+        ],
+        "result": {
+          "item": "kubejs:prepared_mffs_cube_mode"
+        }
+      }
+    },
+    {
+      "id": "mffs:cube_mode",
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "category": "misc",
+        "key": {
+          "F": {
+            "item": "mffs:focus_matrix"
+          },
+          "Z": {
+            "item": "kubejs:prepared_mffs_cube_mode"
+          }
+        },
+        "pattern": [
+          "ZFF",
+          "FFF",
+          "FFF"
+        ],
+        "result": {
+          "item": "mffs:cube_mode"
+        },
+        "show_notification": true
+      }
+    },
+    {
+      "id": "otg:systems/prepare/mffs_custom_mode",
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+          {
+            "item": "mffs:cube_mode"
+          },
+          {
+            "item": "kubejs:iv_field_control"
+          }
+        ],
+        "result": {
+          "item": "kubejs:prepared_mffs_custom_mode"
+        }
+      }
+    },
+    {
+      "id": "mffs:custom_mode",
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "category": "misc",
+        "key": {
+          "F": {
+            "item": "mffs:focus_matrix"
+          },
+          "P": {
+            "item": "mffs:pyramid_mode"
+          },
+          "S": {
+            "item": "mffs:sphere_mode"
+          },
+          "T": {
+            "item": "mffs:tube_mode"
+          },
+          "Z": {
+            "item": "kubejs:prepared_mffs_custom_mode"
+          }
+        },
+        "pattern": [
+          " Z ",
+          "TFP",
+          " S "
+        ],
+        "result": {
+          "item": "mffs:custom_mode"
+        },
+        "show_notification": true
+      }
+    },
+    {
+      "id": "otg:systems/prepare/mffs_cylinder_mode",
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+          {
+            "item": "mffs:sphere_mode"
+          },
+          {
+            "item": "kubejs:hv_field_control"
+          }
+        ],
+        "result": {
+          "item": "kubejs:prepared_mffs_cylinder_mode"
+        }
+      }
+    },
+    {
+      "id": "mffs:cylinder_mode",
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "category": "misc",
+        "key": {
+          "S": {
+            "item": "mffs:sphere_mode"
+          },
+          "Z": {
+            "item": "kubejs:prepared_mffs_cylinder_mode"
+          }
+        },
+        "pattern": [
+          "Z",
+          "S",
+          "S"
+        ],
+        "result": {
+          "item": "mffs:cylinder_mode"
+        },
+        "show_notification": true
+      }
+    },
+    {
+      "id": "otg:systems/prepare/mffs_disintegration_module",
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+          {
+            "item": "minecraft:diamond_pickaxe"
+          },
+          {
+            "item": "kubejs:hv_field_control"
+          }
+        ],
+        "result": {
+          "item": "kubejs:prepared_mffs_disintegration_module"
+        }
+      }
+    },
+    {
+      "id": "mffs:disintegration_module",
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "category": "misc",
+        "key": {
+          "B": {
+            "item": "mffs:battery"
+          },
+          "F": {
+            "item": "mffs:focus_matrix"
+          },
+          "P": {
+            "item": "minecraft:diamond_pickaxe"
+          },
+          "Z": {
+            "item": "kubejs:prepared_mffs_disintegration_module"
+          }
+        },
+        "pattern": [
+          " Z ",
+          "FBF",
+          " P "
+        ],
+        "result": {
+          "item": "mffs:disintegration_module"
+        },
+        "show_notification": true
+      }
+    },
+    {
+      "id": "otg:systems/prepare/mffs_dome_module",
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+          {
+            "item": "mffs:focus_matrix"
+          },
+          {
+            "item": "kubejs:hv_field_control"
+          }
+        ],
+        "result": {
+          "item": "kubejs:prepared_mffs_dome_module"
+        }
+      }
+    },
+    {
+      "id": "mffs:dome_module",
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "category": "misc",
+        "key": {
+          "F": {
+            "item": "mffs:focus_matrix"
+          },
+          "Z": {
+            "item": "kubejs:prepared_mffs_dome_module"
+          }
+        },
+        "pattern": [
+          "Z",
+          " ",
+          "F"
+        ],
+        "result": {
+          "item": "mffs:dome_module"
+        },
+        "show_notification": true
+      }
+    },
+    {
+      "id": "otg:systems/prepare/mffs_focus_matrix",
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+          {
+            "tag": "forge:dusts/redstone"
+          },
+          {
+            "item": "kubejs:hv_field_control"
+          }
+        ],
+        "result": {
+          "item": "kubejs:prepared_mffs_focus_matrix"
+        }
+      }
+    },
+    {
+      "id": "mffs:focus_matrix",
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "category": "misc",
+        "key": {
+          "D": {
+            "tag": "forge:gems/diamond"
+          },
+          "R": {
+            "tag": "forge:dusts/redstone"
+          },
+          "S": {
+            "tag": "forge:ingots/steel"
+          },
+          "Z": {
+            "item": "kubejs:prepared_mffs_focus_matrix"
+          }
+        },
+        "pattern": [
+          "ZSR",
+          "SDS",
+          "RSR"
+        ],
+        "result": {
+          "count": 9,
+          "item": "mffs:focus_matrix"
+        },
+        "show_notification": true
+      }
+    },
+    {
+      "id": "otg:systems/prepare/mffs_fortron_capacitor",
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+          {
+            "tag": "forge:ingots/steel"
+          },
+          {
+            "item": "kubejs:hv_field_control"
+          }
+        ],
+        "result": {
+          "item": "kubejs:prepared_mffs_fortron_capacitor"
+        }
+      }
+    },
+    {
+      "id": "mffs:fortron_capacitor",
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "category": "misc",
+        "key": {
+          "B": {
+            "item": "mffs:battery"
+          },
+          "F": {
+            "item": "mffs:focus_matrix"
+          },
+          "S": {
+            "tag": "forge:ingots/steel"
+          },
+          "Z": {
+            "item": "kubejs:prepared_mffs_fortron_capacitor"
+          }
+        },
+        "pattern": [
+          "ZFS",
+          "FBF",
+          "SFS"
+        ],
+        "result": {
+          "item": "mffs:fortron_capacitor"
+        },
+        "show_notification": true
+      }
+    },
+    {
+      "id": "otg:systems/prepare/mffs_frequency_card",
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+          {
+            "tag": "forge:ingots/gold"
+          },
+          {
+            "item": "kubejs:hv_field_control"
+          }
+        ],
+        "result": {
+          "item": "kubejs:prepared_mffs_frequency_card"
+        }
+      }
+    },
+    {
+      "id": "mffs:frequency_card",
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "category": "misc",
+        "key": {
+          "C": {
+            "item": "mffs:blank_card"
+          },
+          "G": {
+            "tag": "forge:ingots/gold"
+          },
+          "Z": {
+            "item": "kubejs:prepared_mffs_frequency_card"
+          }
+        },
+        "pattern": [
+          "ZCG"
+        ],
+        "result": {
+          "item": "mffs:frequency_card"
+        },
+        "show_notification": true
+      }
+    },
+    {
+      "id": "otg:systems/prepare/mffs_fusion_module",
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+          {
+            "item": "mffs:focus_matrix"
+          },
+          {
+            "item": "kubejs:hv_field_control"
+          }
+        ],
+        "result": {
+          "item": "kubejs:prepared_mffs_fusion_module"
+        }
+      }
+    },
+    {
+      "id": "mffs:fusion_module",
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "category": "misc",
+        "key": {
+          "F": {
+            "item": "mffs:focus_matrix"
+          },
+          "S": {
+            "item": "mffs:shock_module"
+          },
+          "Z": {
+            "item": "kubejs:prepared_mffs_fusion_module"
+          }
+        },
+        "pattern": [
+          "ZSF"
+        ],
+        "result": {
+          "item": "mffs:fusion_module"
+        },
+        "show_notification": true
+      }
+    },
+    {
+      "id": "otg:systems/prepare/mffs_glow_module",
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+          {
+            "item": "minecraft:glowstone"
+          },
+          {
+            "item": "kubejs:hv_field_control"
+          }
+        ],
+        "result": {
+          "item": "kubejs:prepared_mffs_glow_module"
+        }
+      }
+    },
+    {
+      "id": "mffs:glow_module",
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "category": "misc",
+        "key": {
+          "F": {
+            "item": "mffs:focus_matrix"
+          },
+          "G": {
+            "item": "minecraft:glowstone"
+          },
+          "Z": {
+            "item": "kubejs:prepared_mffs_glow_module"
+          }
+        },
+        "pattern": [
+          "ZGG",
+          "GFG",
+          "GGG"
+        ],
+        "result": {
+          "count": 4,
+          "item": "mffs:glow_module"
+        },
+        "show_notification": true
+      }
+    },
+    {
+      "id": "otg:systems/prepare/mffs_id_card",
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+          {
+            "tag": "forge:dusts/redstone"
+          },
+          {
+            "item": "kubejs:hv_field_control"
+          }
+        ],
+        "result": {
+          "item": "kubejs:prepared_mffs_id_card"
+        }
+      }
+    },
+    {
+      "id": "mffs:id_card",
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "category": "misc",
+        "key": {
+          "C": {
+            "item": "mffs:blank_card"
+          },
+          "R": {
+            "tag": "forge:dusts/redstone"
+          },
+          "Z": {
+            "item": "kubejs:prepared_mffs_id_card"
+          }
+        },
+        "pattern": [
+          "ZCR"
+        ],
+        "result": {
+          "item": "mffs:id_card"
+        },
+        "show_notification": true
+      }
+    },
+    {
+      "id": "otg:systems/prepare/mffs_interdiction_matrix",
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+          {
+            "item": "mffs:shock_module"
+          },
+          {
+            "item": "kubejs:ev_field_control"
+          }
+        ],
+        "result": {
+          "item": "kubejs:prepared_mffs_interdiction_matrix"
+        }
+      }
+    },
+    {
+      "id": "mffs:interdiction_matrix",
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "category": "misc",
+        "key": {
+          "E": {
+            "item": "minecraft:ender_chest"
+          },
+          "F": {
+            "item": "mffs:focus_matrix"
+          },
+          "S": {
+            "item": "mffs:shock_module"
+          },
+          "Z": {
+            "item": "kubejs:prepared_mffs_interdiction_matrix"
+          }
+        },
+        "pattern": [
+          "ZSS",
+          "FFF",
+          "FEF"
+        ],
+        "result": {
+          "item": "mffs:interdiction_matrix"
+        },
+        "show_notification": true
+      }
+    },
+    {
+      "id": "otg:systems/prepare/mffs_inverter_module",
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+          {
+            "tag": "forge:storage_blocks/lapis"
+          },
+          {
+            "item": "kubejs:hv_field_control"
+          }
+        ],
+        "result": {
+          "item": "kubejs:prepared_mffs_inverter_module"
+        }
+      }
+    },
+    {
+      "id": "mffs:inverter_module",
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "category": "misc",
+        "key": {
+          "F": {
+            "item": "mffs:focus_matrix"
+          },
+          "L": {
+            "tag": "forge:storage_blocks/lapis"
+          },
+          "Z": {
+            "item": "kubejs:prepared_mffs_inverter_module"
+          }
+        },
+        "pattern": [
+          "Z",
+          "F",
+          "L"
+        ],
+        "result": {
+          "item": "mffs:inverter_module"
+        },
+        "show_notification": true
+      }
+    },
+    {
+      "id": "otg:systems/prepare/mffs_projector",
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+          {
+            "tag": "forge:gems/diamond"
+          },
+          {
+            "item": "kubejs:hv_field_control"
+          }
+        ],
+        "result": {
+          "item": "kubejs:prepared_mffs_projector"
+        }
+      }
+    },
+    {
+      "id": "mffs:projector",
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "category": "misc",
+        "key": {
+          "B": {
+            "item": "mffs:battery"
+          },
+          "F": {
+            "item": "mffs:focus_matrix"
+          },
+          "S": {
+            "tag": "forge:ingots/steel"
+          },
+          "Z": {
+            "item": "kubejs:prepared_mffs_projector"
+          }
+        },
+        "pattern": [
+          " Z ",
+          "FFF",
+          "SBS"
+        ],
+        "result": {
+          "item": "mffs:projector"
+        },
+        "show_notification": true
+      }
+    },
+    {
+      "id": "otg:systems/prepare/mffs_pyramid_mode",
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+          {
+            "item": "mffs:focus_matrix"
+          },
+          {
+            "item": "kubejs:hv_field_control"
+          }
+        ],
+        "result": {
+          "item": "kubejs:prepared_mffs_pyramid_mode"
+        }
+      }
+    },
+    {
+      "id": "mffs:pyramid_mode",
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "category": "misc",
+        "key": {
+          "F": {
+            "item": "mffs:focus_matrix"
+          },
+          "Z": {
+            "item": "kubejs:prepared_mffs_pyramid_mode"
+          }
+        },
+        "pattern": [
+          "Z  ",
+          "FF ",
+          "FFF"
+        ],
+        "result": {
+          "item": "mffs:pyramid_mode"
+        },
+        "show_notification": true
+      }
+    },
+    {
+      "id": "otg:systems/prepare/mffs_remote_controller",
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+          {
+            "tag": "forge:dusts/redstone"
+          },
+          {
+            "item": "kubejs:hv_field_control"
+          }
+        ],
+        "result": {
+          "item": "kubejs:prepared_mffs_remote_controller"
+        }
+      }
+    },
+    {
+      "id": "mffs:remote_controller",
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "category": "misc",
+        "key": {
+          "B": {
+            "item": "mffs:battery"
+          },
+          "S": {
+            "tag": "forge:ingots/steel"
+          },
+          "Z": {
+            "item": "kubejs:prepared_mffs_remote_controller"
+          }
+        },
+        "pattern": [
+          " Z ",
+          "SBS",
+          "SBS"
+        ],
+        "result": {
+          "item": "mffs:remote_controller"
+        },
+        "show_notification": true
+      }
+    },
+    {
+      "id": "otg:systems/prepare/mffs_rotation_module",
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+          {
+            "item": "mffs:focus_matrix"
+          },
+          {
+            "item": "kubejs:hv_field_control"
+          }
+        ],
+        "result": {
+          "item": "kubejs:prepared_mffs_rotation_module"
+        }
+      }
+    },
+    {
+      "id": "mffs:rotation_module",
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "category": "misc",
+        "key": {
+          "F": {
+            "item": "mffs:focus_matrix"
+          },
+          "Z": {
+            "item": "kubejs:prepared_mffs_rotation_module"
+          }
+        },
+        "pattern": [
+          "Z  ",
+          " F ",
+          "  F"
+        ],
+        "result": {
+          "count": 4,
+          "item": "mffs:rotation_module"
+        },
+        "show_notification": true
+      }
+    },
+    {
+      "id": "otg:systems/prepare/mffs_scale_module",
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+          {
+            "item": "mffs:focus_matrix"
+          },
+          {
+            "item": "kubejs:iv_field_control"
+          }
+        ],
+        "result": {
+          "item": "kubejs:prepared_mffs_scale_module"
+        }
+      }
+    },
+    {
+      "id": "mffs:scale_module",
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "category": "misc",
+        "key": {
+          "F": {
+            "item": "mffs:focus_matrix"
+          },
+          "Z": {
+            "item": "kubejs:prepared_mffs_scale_module"
+          }
+        },
+        "pattern": [
+          "Z F"
+        ],
+        "result": {
+          "count": 2,
+          "item": "mffs:scale_module"
+        },
+        "show_notification": true
+      }
+    },
+    {
+      "id": "otg:systems/prepare/mffs_shock_module",
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+          {
+            "item": "mffs:focus_matrix"
+          },
+          {
+            "item": "kubejs:hv_field_control"
+          }
+        ],
+        "result": {
+          "item": "kubejs:prepared_mffs_shock_module"
+        }
+      }
+    },
+    {
+      "id": "mffs:shock_module",
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "category": "misc",
+        "key": {
+          "D": {
+            "item": "minecraft:diamond"
+          },
+          "F": {
+            "item": "mffs:focus_matrix"
+          },
+          "Z": {
+            "item": "kubejs:prepared_mffs_shock_module"
+          }
+        },
+        "pattern": [
+          "ZDF"
+        ],
+        "result": {
+          "item": "mffs:shock_module"
+        },
+        "show_notification": true
+      }
+    },
+    {
+      "id": "otg:systems/prepare/mffs_silence_module",
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+          {
+            "item": "minecraft:note_block"
+          },
+          {
+            "item": "kubejs:hv_field_control"
+          }
+        ],
+        "result": {
+          "item": "kubejs:prepared_mffs_silence_module"
+        }
+      }
+    },
+    {
+      "id": "mffs:silence_module",
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "category": "misc",
+        "key": {
+          "F": {
+            "item": "mffs:focus_matrix"
+          },
+          "N": {
+            "item": "minecraft:note_block"
+          },
+          "Z": {
+            "item": "kubejs:prepared_mffs_silence_module"
+          }
+        },
+        "pattern": [
+          " Z ",
+          "NFN",
+          " N "
+        ],
+        "result": {
+          "item": "mffs:silence_module"
+        },
+        "show_notification": true
+      }
+    },
+    {
+      "id": "otg:systems/prepare/mffs_speed_module",
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+          {
+            "item": "mffs:focus_matrix"
+          },
+          {
+            "item": "kubejs:iv_field_control"
+          }
+        ],
+        "result": {
+          "item": "kubejs:prepared_mffs_speed_module"
+        }
+      }
+    },
+    {
+      "id": "mffs:speed_module",
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "category": "misc",
+        "key": {
+          "F": {
+            "item": "mffs:focus_matrix"
+          },
+          "R": {
+            "tag": "forge:dusts/redstone"
+          },
+          "Z": {
+            "item": "kubejs:prepared_mffs_speed_module"
+          }
+        },
+        "pattern": [
+          "ZFF",
+          "RRR",
+          "FFF"
+        ],
+        "result": {
+          "count": 2,
+          "item": "mffs:speed_module"
+        },
+        "show_notification": true
+      }
+    },
+    {
+      "id": "otg:systems/prepare/mffs_sphere_mode",
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+          {
+            "item": "mffs:focus_matrix"
+          },
+          {
+            "item": "kubejs:hv_field_control"
+          }
+        ],
+        "result": {
+          "item": "kubejs:prepared_mffs_sphere_mode"
+        }
+      }
+    },
+    {
+      "id": "mffs:sphere_mode",
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "category": "misc",
+        "key": {
+          "F": {
+            "item": "mffs:focus_matrix"
+          },
+          "Z": {
+            "item": "kubejs:prepared_mffs_sphere_mode"
+          }
+        },
+        "pattern": [
+          " Z ",
+          "FFF",
+          " F "
+        ],
+        "result": {
+          "item": "mffs:sphere_mode"
+        },
+        "show_notification": true
+      }
+    },
+    {
+      "id": "otg:systems/prepare/mffs_sponge_module",
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+          {
+            "item": "minecraft:sponge"
+          },
+          {
+            "item": "kubejs:hv_field_control"
+          }
+        ],
+        "result": {
+          "item": "kubejs:prepared_mffs_sponge_module"
+        }
+      }
+    },
+    {
+      "id": "mffs:sponge_module",
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "category": "misc",
+        "key": {
+          "F": {
+            "item": "mffs:focus_matrix"
+          },
+          "S": {
+            "item": "minecraft:sponge"
+          },
+          "Z": {
+            "item": "kubejs:prepared_mffs_sponge_module"
+          }
+        },
+        "pattern": [
+          "ZSS",
+          "SFS",
+          "SSS"
+        ],
+        "result": {
+          "item": "mffs:sponge_module"
+        },
+        "show_notification": true
+      }
+    },
+    {
+      "id": "otg:systems/prepare/mffs_stabilization_module",
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+          {
+            "item": "mffs:focus_matrix"
+          },
+          {
+            "item": "kubejs:iv_field_control"
+          }
+        ],
+        "result": {
+          "item": "kubejs:prepared_mffs_stabilization_module"
+        }
+      }
+    },
+    {
+      "id": "mffs:stabilization_module",
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "category": "misc",
+        "key": {
+          "A": {
+            "item": "minecraft:diamond_axe"
+          },
+          "D": {
+            "tag": "forge:gems/diamond"
+          },
+          "F": {
+            "item": "mffs:focus_matrix"
+          },
+          "P": {
+            "item": "minecraft:diamond_pickaxe"
+          },
+          "S": {
+            "item": "minecraft:diamond_shovel"
+          },
+          "Z": {
+            "item": "kubejs:prepared_mffs_stabilization_module"
+          }
+        },
+        "pattern": [
+          "ZDF",
+          "PSA",
+          "FDF"
+        ],
+        "result": {
+          "item": "mffs:stabilization_module"
+        },
+        "show_notification": true
+      }
+    },
+    {
+      "id": "otg:systems/prepare/mffs_translation_module",
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+          {
+            "item": "mffs:focus_matrix"
+          },
+          {
+            "item": "kubejs:iv_field_control"
+          }
+        ],
+        "result": {
+          "item": "kubejs:prepared_mffs_translation_module"
+        }
+      }
+    },
+    {
+      "id": "mffs:translation_module",
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "category": "misc",
+        "key": {
+          "F": {
+            "item": "mffs:focus_matrix"
+          },
+          "S": {
+            "item": "mffs:scale_module"
+          },
+          "Z": {
+            "item": "kubejs:prepared_mffs_translation_module"
+          }
+        },
+        "pattern": [
+          "ZSF"
+        ],
+        "result": {
+          "count": 2,
+          "item": "mffs:translation_module"
+        },
+        "show_notification": true
+      }
+    },
+    {
+      "id": "otg:systems/prepare/mffs_tube_mode",
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+          {
+            "item": "mffs:focus_matrix"
+          },
+          {
+            "item": "kubejs:hv_field_control"
+          }
+        ],
+        "result": {
+          "item": "kubejs:prepared_mffs_tube_mode"
+        }
+      }
+    },
+    {
+      "id": "mffs:tube_mode",
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "category": "misc",
+        "key": {
+          "F": {
+            "item": "mffs:focus_matrix"
+          },
+          "Z": {
+            "item": "kubejs:prepared_mffs_tube_mode"
+          }
+        },
+        "pattern": [
+          "ZFF",
+          "   ",
+          "FFF"
+        ],
+        "result": {
+          "item": "mffs:tube_mode"
+        },
+        "show_notification": true
+      }
+    },
+    {
+      "id": "otg:systems/prepare/mffs_warn_module",
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+          {
+            "item": "minecraft:note_block"
+          },
+          {
+            "item": "kubejs:hv_field_control"
+          }
+        ],
+        "result": {
+          "item": "kubejs:prepared_mffs_warn_module"
+        }
+      }
+    },
+    {
+      "id": "mffs:warn_module",
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "category": "misc",
+        "key": {
+          "F": {
+            "item": "mffs:focus_matrix"
+          },
+          "N": {
+            "item": "minecraft:note_block"
+          },
+          "Z": {
+            "item": "kubejs:prepared_mffs_warn_module"
+          }
+        },
+        "pattern": [
+          "ZFN"
+        ],
+        "result": {
+          "item": "mffs:warn_module"
+        },
+        "show_notification": true
+      }
+    }
+  ],
+  "removeIds": [
+    "mffs:steel_compound",
+    "mffs:steel_ingot",
+    "botania:mana_infusion/manasteel",
+    "botania:gaia_pylon",
+    "mythicbotany:gaia_pylon"
+  ],
+  "blockedOutputs": [
+    "mffs:steel_compound",
+    "mffs:steel_ingot",
+    "botania:mana_fluxfield",
+    "aquaculture:neptunium_sword",
+    "aquaculture:neptunium_pickaxe",
+    "aquaculture:neptunium_axe",
+    "aquaculture:neptunium_shovel",
+    "aquaculture:neptunium_hoe",
+    "aquaculture:neptunium_bow",
+    "botania:manasteel_sword",
+    "botania:manasteel_pick",
+    "botania:manasteel_axe",
+    "botania:manasteel_shovel",
+    "botania:manasteel_hoe"
+  ],
+  "gatedOutputs": [
+    "botania:pure_daisy",
+    "botania:manasteel_ingot",
+    "botania:manasteel_block",
+    "botania:runic_altar",
+    "botania:terra_plate",
+    "botania:alfheim_portal",
+    "botania:natura_pylon",
+    "botania:gaia_pylon",
+    "botania:gaia_ingot",
+    "botania:conjuration_catalyst",
+    "botania:terra_sword",
+    "botania:terra_pick",
+    "botania:orechid",
+    "botania:floating_orechid",
+    "botania:orechid_ignem",
+    "botania:floating_orechid_ignem",
+    "mffs:anti_friendly_module",
+    "mffs:anti_hostile_module",
+    "mffs:anti_personnel_module",
+    "mffs:anti_spawn_module",
+    "mffs:battery",
+    "mffs:biometric_identifier",
+    "mffs:blank_card",
+    "mffs:block_access_module",
+    "mffs:block_alter_module",
+    "mffs:camouflage_module",
+    "mffs:capacity_module",
+    "mffs:coercion_deriver",
+    "mffs:collection_module",
+    "mffs:confiscation_module",
+    "mffs:cube_mode",
+    "mffs:custom_mode",
+    "mffs:cylinder_mode",
+    "mffs:disintegration_module",
+    "mffs:dome_module",
+    "mffs:focus_matrix",
+    "mffs:fortron_capacitor",
+    "mffs:frequency_card",
+    "mffs:fusion_module",
+    "mffs:glow_module",
+    "mffs:id_card",
+    "mffs:interdiction_matrix",
+    "mffs:inverter_module",
+    "mffs:projector",
+    "mffs:pyramid_mode",
+    "mffs:remote_controller",
+    "mffs:rotation_module",
+    "mffs:scale_module",
+    "mffs:shock_module",
+    "mffs:silence_module",
+    "mffs:speed_module",
+    "mffs:sphere_mode",
+    "mffs:sponge_module",
+    "mffs:stabilization_module",
+    "mffs:translation_module",
+    "mffs:tube_mode",
+    "mffs:warn_module",
+    "artifacts:pickaxe_heater"
+  ],
+  "preservedIds": [
+    "botania:manasteel_block",
+    "botania:conversions/manasteel_block_deconstruct",
+    "botania:conversions/manasteel_from_nuggets",
+    "botania:floating_orechid",
+    "botania:floating_orechid_ignem"
+  ],
+  "lootReplacements": [
+    {
+      "from": "aquaculture:neptunium_sword",
+      "to": "aquaculture:neptunium_ingot"
+    },
+    {
+      "from": "aquaculture:neptunium_pickaxe",
+      "to": "aquaculture:neptunium_ingot"
+    },
+    {
+      "from": "aquaculture:neptunium_axe",
+      "to": "aquaculture:neptunium_ingot"
+    },
+    {
+      "from": "aquaculture:neptunium_shovel",
+      "to": "aquaculture:neptunium_ingot"
+    },
+    {
+      "from": "aquaculture:neptunium_hoe",
+      "to": "aquaculture:neptunium_ingot"
+    },
+    {
+      "from": "aquaculture:neptunium_bow",
+      "to": "aquaculture:neptunium_ingot"
+    },
+    {
+      "from": "botania:manasteel_sword",
+      "to": "gtceu:steel_ingot"
+    },
+    {
+      "from": "botania:manasteel_pick",
+      "to": "gtceu:steel_ingot"
+    },
+    {
+      "from": "botania:manasteel_axe",
+      "to": "gtceu:steel_ingot"
+    },
+    {
+      "from": "botania:manasteel_shovel",
+      "to": "gtceu:steel_ingot"
+    },
+    {
+      "from": "botania:manasteel_hoe",
+      "to": "gtceu:steel_ingot"
+    },
+    {
+      "from": "artifacts:pickaxe_heater",
+      "to": "kubejs:dormant_pickaxe_heater"
+    },
+    {
+      "from": "botania:pure_daisy",
+      "to": "botania:livingrock"
+    },
+    {
+      "from": "botania:manasteel_ingot",
+      "to": "gtceu:steel_ingot"
+    },
+    {
+      "from": "botania:manasteel_block",
+      "to": "gtceu:steel_ingot"
+    },
+    {
+      "from": "botania:runic_altar",
+      "to": "botania:livingrock"
+    },
+    {
+      "from": "botania:terra_plate",
+      "to": "botania:livingrock"
+    },
+    {
+      "from": "botania:alfheim_portal",
+      "to": "botania:livingrock"
+    },
+    {
+      "from": "botania:natura_pylon",
+      "to": "botania:livingrock"
+    },
+    {
+      "from": "botania:gaia_pylon",
+      "to": "botania:livingrock"
+    },
+    {
+      "from": "botania:gaia_ingot",
+      "to": "botania:livingrock"
+    },
+    {
+      "from": "botania:conjuration_catalyst",
+      "to": "botania:livingrock"
+    },
+    {
+      "from": "botania:terra_sword",
+      "to": "botania:livingrock"
+    },
+    {
+      "from": "botania:terra_pick",
+      "to": "botania:livingrock"
+    },
+    {
+      "from": "botania:orechid",
+      "to": "botania:livingrock"
+    },
+    {
+      "from": "botania:floating_orechid",
+      "to": "botania:livingrock"
+    },
+    {
+      "from": "botania:orechid_ignem",
+      "to": "botania:livingrock"
+    },
+    {
+      "from": "botania:floating_orechid_ignem",
+      "to": "botania:livingrock"
+    },
+    {
+      "from": "mffs:anti_friendly_module",
+      "to": "minecraft:iron_ingot"
+    },
+    {
+      "from": "mffs:anti_hostile_module",
+      "to": "minecraft:iron_ingot"
+    },
+    {
+      "from": "mffs:anti_personnel_module",
+      "to": "minecraft:iron_ingot"
+    },
+    {
+      "from": "mffs:anti_spawn_module",
+      "to": "minecraft:iron_ingot"
+    },
+    {
+      "from": "mffs:battery",
+      "to": "minecraft:iron_ingot"
+    },
+    {
+      "from": "mffs:biometric_identifier",
+      "to": "minecraft:iron_ingot"
+    },
+    {
+      "from": "mffs:blank_card",
+      "to": "minecraft:iron_ingot"
+    },
+    {
+      "from": "mffs:block_access_module",
+      "to": "minecraft:iron_ingot"
+    },
+    {
+      "from": "mffs:block_alter_module",
+      "to": "minecraft:iron_ingot"
+    },
+    {
+      "from": "mffs:camouflage_module",
+      "to": "minecraft:iron_ingot"
+    },
+    {
+      "from": "mffs:capacity_module",
+      "to": "minecraft:iron_ingot"
+    },
+    {
+      "from": "mffs:coercion_deriver",
+      "to": "minecraft:iron_ingot"
+    },
+    {
+      "from": "mffs:collection_module",
+      "to": "minecraft:iron_ingot"
+    },
+    {
+      "from": "mffs:confiscation_module",
+      "to": "minecraft:iron_ingot"
+    },
+    {
+      "from": "mffs:cube_mode",
+      "to": "minecraft:iron_ingot"
+    },
+    {
+      "from": "mffs:custom_mode",
+      "to": "minecraft:iron_ingot"
+    },
+    {
+      "from": "mffs:cylinder_mode",
+      "to": "minecraft:iron_ingot"
+    },
+    {
+      "from": "mffs:disintegration_module",
+      "to": "minecraft:iron_ingot"
+    },
+    {
+      "from": "mffs:dome_module",
+      "to": "minecraft:iron_ingot"
+    },
+    {
+      "from": "mffs:focus_matrix",
+      "to": "minecraft:iron_ingot"
+    },
+    {
+      "from": "mffs:fortron_capacitor",
+      "to": "minecraft:iron_ingot"
+    },
+    {
+      "from": "mffs:frequency_card",
+      "to": "minecraft:iron_ingot"
+    },
+    {
+      "from": "mffs:fusion_module",
+      "to": "minecraft:iron_ingot"
+    },
+    {
+      "from": "mffs:glow_module",
+      "to": "minecraft:iron_ingot"
+    },
+    {
+      "from": "mffs:id_card",
+      "to": "minecraft:iron_ingot"
+    },
+    {
+      "from": "mffs:interdiction_matrix",
+      "to": "minecraft:iron_ingot"
+    },
+    {
+      "from": "mffs:inverter_module",
+      "to": "minecraft:iron_ingot"
+    },
+    {
+      "from": "mffs:projector",
+      "to": "minecraft:iron_ingot"
+    },
+    {
+      "from": "mffs:pyramid_mode",
+      "to": "minecraft:iron_ingot"
+    },
+    {
+      "from": "mffs:remote_controller",
+      "to": "minecraft:iron_ingot"
+    },
+    {
+      "from": "mffs:rotation_module",
+      "to": "minecraft:iron_ingot"
+    },
+    {
+      "from": "mffs:scale_module",
+      "to": "minecraft:iron_ingot"
+    },
+    {
+      "from": "mffs:shock_module",
+      "to": "minecraft:iron_ingot"
+    },
+    {
+      "from": "mffs:silence_module",
+      "to": "minecraft:iron_ingot"
+    },
+    {
+      "from": "mffs:speed_module",
+      "to": "minecraft:iron_ingot"
+    },
+    {
+      "from": "mffs:sphere_mode",
+      "to": "minecraft:iron_ingot"
+    },
+    {
+      "from": "mffs:sponge_module",
+      "to": "minecraft:iron_ingot"
+    },
+    {
+      "from": "mffs:stabilization_module",
+      "to": "minecraft:iron_ingot"
+    },
+    {
+      "from": "mffs:translation_module",
+      "to": "minecraft:iron_ingot"
+    },
+    {
+      "from": "mffs:tube_mode",
+      "to": "minecraft:iron_ingot"
+    },
+    {
+      "from": "mffs:warn_module",
+      "to": "minecraft:iron_ingot"
+    }
+  ],
+  "rewardReplacements": {
+    "aquaculture:neptunium_sword": "aquaculture:neptunium_ingot",
+    "aquaculture:neptunium_pickaxe": "aquaculture:neptunium_ingot",
+    "aquaculture:neptunium_axe": "aquaculture:neptunium_ingot",
+    "aquaculture:neptunium_shovel": "aquaculture:neptunium_ingot",
+    "aquaculture:neptunium_hoe": "aquaculture:neptunium_ingot",
+    "aquaculture:neptunium_bow": "aquaculture:neptunium_ingot",
+    "botania:manasteel_sword": "gtceu:steel_ingot",
+    "botania:manasteel_pick": "gtceu:steel_ingot",
+    "botania:manasteel_axe": "gtceu:steel_ingot",
+    "botania:manasteel_shovel": "gtceu:steel_ingot",
+    "botania:manasteel_hoe": "gtceu:steel_ingot",
+    "artifacts:pickaxe_heater": "kubejs:dormant_pickaxe_heater",
+    "botania:pure_daisy": "botania:livingrock",
+    "botania:manasteel_ingot": "gtceu:steel_ingot",
+    "botania:manasteel_block": "gtceu:steel_ingot",
+    "botania:runic_altar": "botania:livingrock",
+    "botania:terra_plate": "botania:livingrock",
+    "botania:alfheim_portal": "botania:livingrock",
+    "botania:natura_pylon": "botania:livingrock",
+    "botania:gaia_pylon": "botania:livingrock",
+    "botania:gaia_ingot": "botania:livingrock",
+    "botania:conjuration_catalyst": "botania:livingrock",
+    "botania:terra_sword": "botania:livingrock",
+    "botania:terra_pick": "botania:livingrock",
+    "botania:orechid": "botania:livingrock",
+    "botania:floating_orechid": "botania:livingrock",
+    "botania:orechid_ignem": "botania:livingrock",
+    "botania:floating_orechid_ignem": "botania:livingrock",
+    "mffs:anti_friendly_module": "minecraft:iron_ingot",
+    "mffs:anti_hostile_module": "minecraft:iron_ingot",
+    "mffs:anti_personnel_module": "minecraft:iron_ingot",
+    "mffs:anti_spawn_module": "minecraft:iron_ingot",
+    "mffs:battery": "minecraft:iron_ingot",
+    "mffs:biometric_identifier": "minecraft:iron_ingot",
+    "mffs:blank_card": "minecraft:iron_ingot",
+    "mffs:block_access_module": "minecraft:iron_ingot",
+    "mffs:block_alter_module": "minecraft:iron_ingot",
+    "mffs:camouflage_module": "minecraft:iron_ingot",
+    "mffs:capacity_module": "minecraft:iron_ingot",
+    "mffs:coercion_deriver": "minecraft:iron_ingot",
+    "mffs:collection_module": "minecraft:iron_ingot",
+    "mffs:confiscation_module": "minecraft:iron_ingot",
+    "mffs:cube_mode": "minecraft:iron_ingot",
+    "mffs:custom_mode": "minecraft:iron_ingot",
+    "mffs:cylinder_mode": "minecraft:iron_ingot",
+    "mffs:disintegration_module": "minecraft:iron_ingot",
+    "mffs:dome_module": "minecraft:iron_ingot",
+    "mffs:focus_matrix": "minecraft:iron_ingot",
+    "mffs:fortron_capacitor": "minecraft:iron_ingot",
+    "mffs:frequency_card": "minecraft:iron_ingot",
+    "mffs:fusion_module": "minecraft:iron_ingot",
+    "mffs:glow_module": "minecraft:iron_ingot",
+    "mffs:id_card": "minecraft:iron_ingot",
+    "mffs:interdiction_matrix": "minecraft:iron_ingot",
+    "mffs:inverter_module": "minecraft:iron_ingot",
+    "mffs:projector": "minecraft:iron_ingot",
+    "mffs:pyramid_mode": "minecraft:iron_ingot",
+    "mffs:remote_controller": "minecraft:iron_ingot",
+    "mffs:rotation_module": "minecraft:iron_ingot",
+    "mffs:scale_module": "minecraft:iron_ingot",
+    "mffs:shock_module": "minecraft:iron_ingot",
+    "mffs:silence_module": "minecraft:iron_ingot",
+    "mffs:speed_module": "minecraft:iron_ingot",
+    "mffs:sphere_mode": "minecraft:iron_ingot",
+    "mffs:sponge_module": "minecraft:iron_ingot",
+    "mffs:stabilization_module": "minecraft:iron_ingot",
+    "mffs:translation_module": "minecraft:iron_ingot",
+    "mffs:tube_mode": "minecraft:iron_ingot",
+    "mffs:warn_module": "minecraft:iron_ingot",
+    "botania:mana_fluxfield": "botania:livingrock",
+    "mffs:steel_ingot": "minecraft:iron_ingot",
+    "botania:manasteel_nugget": "gtceu:steel_ingot",
+    "botania:terrasteel_ingot": "gtceu:steel_ingot",
+    "botania:terrasteel_nugget": "gtceu:steel_ingot",
+    "botania:terrasteel_block": "gtceu:steel_ingot",
+    "botania:elementium_ingot": "gtceu:steel_ingot",
+    "botania:elementium_nugget": "gtceu:steel_ingot",
+    "botania:elementium_block": "gtceu:steel_ingot"
+  },
+  "stageTargets": {
+    "botania:runic_altar": "lv",
+    "botania:terra_plate": "mv",
+    "botania:alfheim_portal": "hv",
+    "botania:natura_pylon": "hv",
+    "botania:gaia_pylon": "ev",
+    "botania:gaia_ingot": "iv",
+    "botania:conjuration_catalyst": "hv",
+    "botania:terra_sword": "iv",
+    "botania:terra_pick": "ev",
+    "botania:orechid": "ev",
+    "botania:orechid_ignem": "ev",
+    "mffs:anti_friendly_module": "ev",
+    "mffs:anti_hostile_module": "ev",
+    "mffs:anti_personnel_module": "ev",
+    "mffs:anti_spawn_module": "ev",
+    "mffs:battery": "hv",
+    "mffs:biometric_identifier": "hv",
+    "mffs:blank_card": "hv",
+    "mffs:block_access_module": "ev",
+    "mffs:block_alter_module": "ev",
+    "mffs:camouflage_module": "hv",
+    "mffs:capacity_module": "iv",
+    "mffs:coercion_deriver": "hv",
+    "mffs:collection_module": "hv",
+    "mffs:confiscation_module": "ev",
+    "mffs:cube_mode": "hv",
+    "mffs:custom_mode": "iv",
+    "mffs:cylinder_mode": "hv",
+    "mffs:disintegration_module": "hv",
+    "mffs:dome_module": "hv",
+    "mffs:focus_matrix": "hv",
+    "mffs:fortron_capacitor": "hv",
+    "mffs:frequency_card": "hv",
+    "mffs:fusion_module": "hv",
+    "mffs:glow_module": "hv",
+    "mffs:id_card": "hv",
+    "mffs:interdiction_matrix": "ev",
+    "mffs:inverter_module": "hv",
+    "mffs:projector": "hv",
+    "mffs:pyramid_mode": "hv",
+    "mffs:remote_controller": "hv",
+    "mffs:rotation_module": "hv",
+    "mffs:scale_module": "iv",
+    "mffs:shock_module": "hv",
+    "mffs:silence_module": "hv",
+    "mffs:speed_module": "iv",
+    "mffs:sphere_mode": "hv",
+    "mffs:sponge_module": "hv",
+    "mffs:stabilization_module": "iv",
+    "mffs:translation_module": "iv",
+    "mffs:tube_mode": "hv",
+    "mffs:warn_module": "hv"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "condition": {
+    "type": "forge:item_exists",
+    "item": "tconstruct:greenheart_planks"
+  },
+  "craftable": false,
+  "hidden": false,
+  "sortOrder": 8,
+  "tier": 3
+}

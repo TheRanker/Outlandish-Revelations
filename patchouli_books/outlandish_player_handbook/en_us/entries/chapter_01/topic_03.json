@@ -1,0 +1,16 @@
+{
+  "name": "Teams, travel and a place to call home",
+  "category": "patchouli:chapter_01",
+  "icon": "minecraft:crafting_table",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "You can claim land in the Overworld. Build your main workshop with your team’s claim and chunk-loading allowances in mind; chunk loading depends on rank.$(br2)Waystone travel is free. Activate destinations as you explore so you can return to the places that matter. Travel convenience does not replace the requirements for entering a locked dimension."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Keep Inventory is enabled. Dying still interrupts an expedition, and a dangerous location can be difficult to return to, so bring supplies and prepare a safe route even when your inventory is protected.$(br2)Ready for the next step: you have a safe workshop, renewable food and a clear first project."
+    }
+  ]
+}

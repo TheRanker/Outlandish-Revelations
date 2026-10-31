@@ -1,0 +1,12 @@
+{
+  "name": "Keep Service Access Discreet",
+  "category": "patchouli:chapter_20",
+  "icon": "minecraft:bricks",
+  "sortnum": 15,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Use a matching secret trapdoor for an access hatch to pipes or a service corridor. Leave enough clearance to reach equipment and get back out. Mark the location privately so your own hidden maintenance route is easy to find."
+    }
+  ]
+}

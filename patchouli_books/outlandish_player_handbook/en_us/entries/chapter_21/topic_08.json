@@ -1,0 +1,12 @@
+{
+  "name": "Defend the Silly Seashell",
+  "category": "patchouli:chapter_21",
+  "icon": "minecraft:amethyst_shard",
+  "sortnum": 8,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A Silly Seashell encounter asks you to protect it through waves after supplying the required Hearty Pearls. Prepare the area before beginning, watch its health and collect the healing seashells described by the guide. The encounter has its own rewards; check the current instructions before committing."
+    }
+  ]
+}

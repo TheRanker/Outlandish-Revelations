@@ -1,0 +1,16 @@
+{
+  "name": "Moving into a Smeltery",
+  "category": "patchouli:chapter_05",
+  "icon": "minecraft:anvil",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Prepare Create Precision Mechanisms for the Smeltery Controller. Build the structure, connect the fuel and casting equipment, then check the controller before loading valuable materials."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Keep track of what is melting together. Use the Tinkers books and JEI to understand the fluids and alloys in your setup. Begin with small batches while learning the system."
+    }
+  ]
+}

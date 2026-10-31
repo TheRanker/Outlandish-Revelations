@@ -1,0 +1,12 @@
+{
+  "name": "One Tome, Many Answers",
+  "category": "patchouli:chapter_17",
+  "icon": "minecraft:compass",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Keep your Eccentric Tome close. Choose a manual from it when you need help with a mod, or open the Outlandish Player Handbook for advice about the whole pack. JEI shows the exact recipes; the questbook gives you goals. Craft the tome if you need a replacement. Its manuals are supplied through the pack."
+    }
+  ]
+}

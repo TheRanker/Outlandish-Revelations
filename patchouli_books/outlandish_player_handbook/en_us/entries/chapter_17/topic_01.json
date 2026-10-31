@@ -1,0 +1,12 @@
+{
+  "name": "A World Worth Exploring",
+  "category": "patchouli:chapter_17",
+  "icon": "minecraft:compass",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "William Wythers’ Overhauled Overworld is the foundation of this landscape, with Expanded Ecosphere layered over it. Expect varied terrain and long journeys between useful places. Mark ore deposits, villages and routes home. Choose a base with room for your factory and, if you want one, a colony."
+    }
+  ]
+}

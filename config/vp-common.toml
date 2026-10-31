@@ -1,86 +1,224 @@
-#Enables hardcore mode: all bosses will have x10 hp and x2 damage
-hardcore = true
+#Chance for Refresher after completing Stellar challenge. 1 is 100%, 0.25 is 25%.
+#Range: 0.0 ~ 1.0
+refresherChance = 0.5
+#Nightmare Bosses Refresher chance 0.1 is 10%
+#Range: 0.0 ~ 1.0
+nightmareRefresherChance = 0.0
+#Nightmare Bosses max fragments
+#Range: 1 ~ 2100000000
+nightmareFrags = 1
+#Nightmare Bosses min fragments
+#Range: 1 ~ 2100000000
+nightmareFragsMin = 1
+#Nightmare Bosses max loot multiplier
+#Range: 1 ~ 2100000000
+nightmareLoot = 1
+#Nightmare Bosses min loot multiplier
+#Range: 1 ~ 2100000000
+nightmareLootMin = 1
+#Nightmare Bosses max boxes
+#Range: 1 ~ 2100000000
+nightmareBoxes = 1
+#Nightmare Bosses min boxes
+#Range: 1 ~ 2100000000
+nightmareBoxesMin = 1
 #Challenge cooldown in hours
 #Range: 0 ~ 2100000000
-cooldown = 8
+cooldown = 0
 #How many % of stellar chance will you get on failure
 #Range: 0 ~ 100
-stellarChanceIncrease = 10
-#This is the number on how many challenge 1 maximum progress will be reduced
-#Range: 0 ~ 2100000000
-challengeReduce1 = 0
-#This is the number on how many challenge 2 maximum progress will be reduced
-#Range: 0 ~ 2100000000
-challengeReduce2 = 0
-#This is the number on how many challenge 3 maximum progress will be reduced
-#Range: 0 ~ 2100000000
-challengeReduce3 = 0
-#This is the number on how many challenge 4 maximum progress will be reduced
-#Range: 0 ~ 2100000000
-challengeReduce4 = 0
-#This is the number on how many challenge 5 maximum progress will be reduced
-#Range: 0 ~ 2100000000
-challengeReduce5 = 0
-#This is the number on how many challenge 6 maximum progress will be reduced
-#Range: 0 ~ 2100000000
-challengeReduce6 = 0
-#This is the number on how many challenge 7 maximum progress will be reduced
-#Range: 0 ~ 2100000000
-challengeReduce7 = 0
-#This is the number on how many challenge 8 maximum progress will be reduced
-#Range: 0 ~ 2100000000
-challengeReduce8 = 0
-#This is the number on how many challenge 9 maximum progress will be reduced
-#Range: 0 ~ 2100000000
-challengeReduce9 = 0
-#This is the number on how many challenge 10 maximum progress will be reduced
-#Range: 0 ~ 2100000000
-challengeReduce10 = 0
-#This is the number on how many challenge 11 maximum progress will be reduced
-#Range: 0 ~ 2100000000
-challengeReduce11 = 0
-#This is the number on how many challenge 12 maximum progress will be reduced
-#Range: 0 ~ 2100000000
-challengeReduce12 = 0
-#This is the number on how many challenge 13 maximum progress will be reduced
-#Range: 0 ~ 2100000000
-challengeReduce13 = 0
-#This is the number on how many challenge 14 maximum progress will be reduced
-#Range: 0 ~ 2100000000
-challengeReduce14 = 0
-#This is the number on how many challenge 15 maximum progress will be reduced
-#Range: 0 ~ 2100000000
-challengeReduce15 = 0
-#This is the number on how many challenge 16 maximum progress will be reduced
-#Range: 0 ~ 2100000000
-challengeReduce16 = 0
-#This is the number on how many challenge 17 maximum progress will be reduced
-#Range: 0 ~ 2100000000
-challengeReduce17 = 0
-#This is the number on how many challenge 18 maximum progress will be reduced
-#Range: 0 ~ 2100000000
-challengeReduce18 = 0
-#This is the number on how many challenge 19 maximum progress will be reduced
-#Range: 0 ~ 2100000000
-challengeReduce19 = 0
-#This is the number on how many challenge 20 maximum progress will be reduced
-#Range: 0 ~ 2100000000
-challengeReduce20 = 0
-#Hardcore mode Hp scale
-#Range: 1 ~ 2100000000
-bossHP = 10
-#Hardcore mode attack scale
-#Range: 1 ~ 2100000000
-bossAttack = 2
+stellarChanceIncrease = 0
+#Martyr's Habergeon Pain Gauge increase % from Ultimate. 1 is 100%, 0.1 is 10%.
+#Range: 0.0 ~ 2.147483647E9
+armorAbsorbPercent = 0.0
+#Borders for Anomaly's Ultimate teleportation. Leave at 0 for world's max border.
+#Range: > 0
+anomalyBorder = 0
+#Chance for Atlas to gain Gravity. 1 is 100%, 0.2 is 20%.
+#Range: 0.0 ~ 1.0
+atlasChance = 0.0
+#Level limit for stellar Catalyst
+#Range: 0 ~ 255
+catalystLvlLimit = 0
+#How many speed will Cat Ears give.
+#Range: 0.0 ~ 10.0
+catSpeed = 0.0
+#Cap for Cat Ears evasion.
+#Range: 0 ~ 100
+catEvadeCap = 0
+#Damage cap for Chaos Core
+#Range: > 0
+chaosDamageCap = 1
+#Chance for Chaos Core reflexion or damage change. 1 is 100%, 0.1 is 10%.
+#Range: 0.0 ~ 1.0
+chaosChance = 0.0
+#How many % from enemy's health will crown give upon kill
+#Range: > 0
+crownShield = 1
+#Chance for Devourer's Ultimate per 1 kill. 1 is 100%, 0.001 is 0.1%
+#Range: 0.0 ~ 100.0
+devourerChance = 0.0
+#Multiplier for Shield that will Flower give by Ultimate.
+#Range: 0.0 ~ 2.147483647E9
+flowerShield = 0.0
+#Killer Queens' Special explosion damage resistance shred
+#Range: 0.0 ~ 2.147483647E9
+killerRes = 0.0
+#Maximum value of Cursed Mark Madness stacks
+#Range: > 0
+markMaximum = 1
+#Heal debt of stellar Cursed Mark Ultimate in max health %
+#Range: > 0
+markHealDebt = 1
+#Mask of Demon's Special hp consumption value in max health %
+#Range: > 0
+maskRotAmount = 1
+#Chance for Midas getting luck from Ultimate per 1 gold nugget.
+#Range: 0.0 ~ 1.0
+midasChance = 0.0
+#Prism loot chance multiplier
+#Range: 0.0 ~ 2.147483647E9
+prismChance = 0.0
+#Soul Blighter's Ultimate catch chance multiplier
+#Range: 0.0 ~ 2.147483647E9
+soulBlighterChance = 0.0
+#Soul Blighter Over Shield heal multiplier
+#Range: 0.0 ~ 2.147483647E9
+soulBlighterHeal = 0.0
+#Trigon Over Shield heal multiplier
+#Range: 0.0 ~ 2.147483647E9
+trigonHeal = 0.0
+#Sweet Donut max Saturation stacks.
+#Range: > 0
+donutMaxSaturation = 1
+#Base heal bonus of Sweet Donut.
+#Range: > 0
+donutHealBonus = 1
+#How many Shield % will Ball Lightning reduce
+#Range: 0.01 ~ 1.0
+ballShield = 0.01
+#How many OverShield % will Ball Lightning reduce
+#Range: 0.01 ~ 1.0
+ballOverShield = 0.01
+#Amount of Chaos Core reflection hits from Special
+#Range: > 1
+chaosCharges = 1
+#Devourer cooldown time between rotting hits. 1000 is 1 sec
+#Range: 1 ~ 9223372036854775807
+devourerCdTime = 1
+#Amount of stats per Curse for Mark's Overdrive
+#Range: > 1
+markBonus = 1
 #How many hits can cause Soul Rotting from Devourer
 #Range: 0 ~ 2100000000
-devourer = 30
+devourer = 0
 #How many ticks must pass before Black Hole hits
 #Range: 0 ~ 2100000000
-blackhole = 4
+blackhole = 0
 #Should anomaly teleport only living entities
 anomaly = false
 #Minutes before Chaos Core challenge reset
 #Range: 1 ~ 2100000000
-chaostime = 15
+chaostime = 1
+#Minutes for fish to fed up
+#Range: 1 ~ 2100000000
+eatingMinutes = 1
+#additional bosses: 
+bosses = "hullbreaker,tremorzilla,nucleeper, luxtructosaurus,atlatitan,forsaken,void_worm"
+#repairObjectsId: 
+repairObjects = "mending,repair,unbreak,restore,heal,ingot"
+#repairBlackListId: 
+repairBlackList = ""
+#Reduction of maximum amount needed for Vortex
+#Range: > 0
+vortexReduction = 0
+#Enables Easter event
+easter = false
+#Additional chance for Easter Egg 10 is 10%
+#Range: > 0
+easterChance = 0
+#fishObjects: 
+fishObjects = "fish,shell,pearl,boot,treasure,sunken,drown,lure,prismarin,water,ocean,coral,shark,whale,manta,rain,abyss,deep,sea,pirate,ship,bottle,wet,river"
+#Rare Items for fishing by Abyssal Pearl: 
+rareItems = "item.vp.hearty_pearl,item.vp.pinky_pearl,item.vp.seashell,abyssal_heart,ichor_bottle,boot"
+#Fishing Blacklist for Abyssal Pearl: 
+fishingBlacklist = "item.vp.pearl"
+#Fails flowers Challenge when they are being placed.
+failFlowers = false
+#For servers with maxed out desync and hp lock to 2048 or if you just have problems with MaxHp.
+unlockHp = false
+#Event mode that disables all teleportations and fly.
+eventMode = false
+#blacklist for bosses: 
+blacklistBosses = "void_worm_part,"
+#Chance of rare drop in current biome from Fishing with Pearl or by defending Silly Seashell.
+#Range: 0.0 ~ 1.0
+rareFishingDropChance = 0.001
+#Defines blacklist for random potion effects as from Heirloom's Special: 
+debuffBlacklist = "crystallized,"
+#Defines whitelist for items that can be cloned with Celestial Mirror with highest priority. F.e. chestplate to not be blocked by chest in blacklist: 
+cloneWhiteList = "chestplate,box_eggs,box_saplings,item.vp.box,"
+#List of existing mirrors UUID: 
+mirrorUUIDList = ""
+#List of dupers: 
+dupersList = ""
+#Set false to disable chat messages with Lore
+lore = true
+#Cooldown in milliseconds for any Vestiges abilities. 100 is 0.1 sec.
+#Range: 0 ~ 9223372036854775807
+vestigesCooldown = 50
+#Nightmare Bosses boxes chance 0.5 is 50%
+#Range: 0.0 ~ 1.0
+nightmareAllBoxChance = 1.0
+#How many debuffs can Catalyst absorb.
+#Range: > 0
+catalystDefence = 20
+#How much Shield Bonus will Ball Lightning reduce in percent
+#Range: 0.0 ~ 2.147483647E9
+ballDebuff = 75.0
+#Damage per second cap for Nightmare Bosses in max hp % -> 0.01 is 1%
+#Range: 0.0 ~ 3.4028234663852886E38
+nightmareDpsCap = 0.01
+#Defines blacklist for items that cannot be cloned with Celestial Mirror: 
+cloneBlackList2 = "bundle,pouch,bag,backpack,chest,box,pocket,store,storage,satchel,knapsack,cargo,vault,locker,crate,trunk,barrel,bin,safe,drawer,compartment,cache,case,basket,haversack,receptacle,container,ghostly_pickaxe,soul_gem,horse_flute,sack,broom,jar,bottle"
+#Ip address for leaderboard: 
+leaderboardHost = ""
+#Ip port for leaderboard: 
+leaderboardPort = ""
+#Reduce modifier for Chaos Core Stellar ability of max hp lowering from Healing Debt
+#Range: 0.0 ~ 2.1E9
+chaosCoreStellarHpRes = 10.0
+#Base chance for spawning Hungry Oyster per 8000 ticks
+#Range: 0.0 ~ 1.0
+oysterChance = 0.15
+#Base chance for spawning Silly Seashell per 8000 ticks
+#Range: 0.0 ~ 1.0
+seashellChance = 0.15
+#Loot tables for Mystery Chest common/rare/mystic/legendary. All chances are independent so 0.7(70% chance) on common cause dropping air in 30% cases.
+lootDrops = "1<item.vp.corrupted_fragment,item.vp.box_saplings,item.irons_spellbooks.blank_rune4,item.irons_spellbooks.rare_ink5,block.minecraft.wither_skeleton_skull,item.minecraft.end_crystal4,item.minecraft.netherite_scrap2,block.aether.enchanted_gravitite8,item.irons_spellbooks.arcane_salvage,item.minecraft.diamond4,item.botania.black_lotus8,item.bloodmagic.blankslate16,item.bloodmagic.reinforcedslate8,item.bloodmagic.infusedslate4,item.eidolon.soul_shard8,item.alexscaves.darkened_apple,block.minecraft.glass32,block.minecraft.quartz_block16,block.minecraft.gold_block4,item.cisco_mod.brightsteel_ingot8,item.cisco_mod.champion_coin20,item.cisco_mod.brilliant_diamond>0.3<item.vp.corrupted_item,item.minecraft.totem_of_undying,item.vp.shard,item.vp.stellar,item.vp.corrupted_fragment16,item.aquamirae.ship_graveyard_echo4,item.enigmaticlegacy.earth_heart,item.enigmaticlegacy.etherium_ore5,item.skilltree.wisdom_scroll4,block.occultism.storage_stabilizer_tier3,item.celestisynth.supernal_netherite_ingot4,item.enigmaticlegacy.angel_blessing,item.enigmaticlegacy.ocean_stone,item.enigmaticlegacy.blazing_core,item.enigmaticlegacy.eye_of_nebula,item.irons_spellbooks.lightning_upgrade_orb,item.irons_spellbooks.ice_upgrade_orb,item.irons_spellbooks.protection_upgrade_orb,item.irons_spellbooks.mana_upgrade_orb,item.irons_spellbooks.ender_upgrade_orb,item.irons_spellbooks.cooldown_upgrade_orb,item.irons_spellbooks.nature_upgrade_orb,item.irons_spellbooks.evocation_upgrade_orb,item.irons_spellbooks.fire_upgrade_orb,item.irons_spellbooks.holy_upgrade_orb,item.irons_spellbooks.blood_upgrade_orb,item.irons_spellbooks.epic_ink5,item.vp.stellar2,item.vp.stellar3,item.botania.terrasteel_ingot,item.botania.blacker_lotus8,item.bloodmagic.demonslate8,item.bloodmagic.etherealslate4,item.bloodmagic.hellforgedparts4,item.eidolon.lesser_soul_gem4,item.twilightforest.charm_of_life_1,item.twilightforest.charm_of_life_2,item.twilightforest.charm_of_keeping_1,item.cisco_mod.darksteel4,item.cisco_mod.bright_essence8,item.cisco_mod.ancient_essence8,item.cisco_mod.unattuned_core,item.cisco_mod.ember_core,item.cisco_mod.thunder_core,item.cisco_mod.glacial_core,item.cisco_mod.light_core,item.cisco_mod.wind_core,item.cisco_mod.dark_core>0.05<item.vp.hearty_pearl,item.vp.vortex,item.vp.seashell,item.vp.corrupted_item8,item.enigmaticlegacy.cosmic_heart,item.aquamirae.abyssal_amethyst8,item.enigmaticlegacy.astral_fruit,item.enigmaticlegacy.ichor_bottle,item.enigmaticlegacy.void_pearl,item.irons_spellbooks.legendary_ink5,item.vp.stellar10,item.vp.stellar16,block.occultism.storage_stabilizer_tier4,item.vp.chaos_orb,block.minecraft.dragon_egg,item.twilightforest.charm_of_keeping_64,item.vp.box,item.vp.box_eggs2,item.vp.refresher,item.mythicbotany.alfsteel_ingot,block.alexscaves.tremorzilla_egg,item.enigmaticlegacy.soul_crystal,item.enigmaticlegacy.abyssal_heart,item.vp.vip,item.alexsmobs.warped_mixture,item.cisco_mod.true_dragons_breath,item.cisco_mod.champion_loot_bag3>0.001<item.vp.chaos_orb64,item.vp.celestial_mirror,item.vp.pinky_pearl20,item.enigmaticlegacy.the_cube,item.cisco_mod.radiant_sunshard,item.cisco_mod.temporal_core,item.cisco_mod.radiant_ruby>"
+#Enables strict optimization that may increase performance but break a lot of mechanics. WIP 
+strictOptimization = false
+#Chance to obtain Mystery Chest from advancement
+#Range: 0.0 ~ 1.0
+mysteryChestAdvancementChance = 0.1
+#Chance increase per each advancement
+#Range: 0.0 ~ 1.0
+mysteryChestAdvancementBoost = 2.0E-4
+#Chance to obtain Mystery Chest from challenge
+#Range: 0.0 ~ 1.0
+mysteryChestChallengeChance = 0.33
+#Id of items that drop of Mineral Cluster should contain: 
+mineralClusterList = "_gem_,mineral,diamond,emerald,jadeite,quartz,feldspar,mica,fluorite,halite,gypsum,_talc,graphite,pyrite,_galena,hematite,magnetite,bauxite,corundum,sapphire,ruby,topaz,amethyst,citrine,agate,jasper,opal,garnet,zircon,olivine,tourmaline,beryl,aquamarine,biotite,muscovite,orthoclase,plagioclase,amphibole,pyroxene,apatite,barite,sulfur,malachite,azurite,bornite,chalcopyrite,sphalerite,cassiterite,rutile,ilmenite,chromite,kaolinite,serpentine,epidote,staurolite,kyanite,andalusite,sillimanite"
+#Black list for items in Mineral Cluster: 
+mineralClusterBlacklist = ""
+#Chance to teleport to random player on the server from Teleportation Anomaly's Stellar Ultimate
+#Range: 0.0 ~ 1.0
+anomalyPlayerTeleportChance = 0.05
+#Time between entity clearing in ticks, 20t = 1 sec. Turned off by default with 0.
+#Range: > 0
+clearEntities = 0
+#Black list for clearing entities: 
+clearEntitiesBlacklist = "spectrum,twilightforest"
+#Food for Cat Ears that counts as fish: 
+catFood = "fish,salmon,tuna,cod,trout,herring,mackerel,sardine,anchovy,haddock,halibut,sole,flounder,swordfish,marlin,perch,pike,carp,catfish,eel,sturgeon,tilapia,seabass,snapper,grouper,dorado,barracuda,mullet,monkfish,turbot,zander,bream,roach,tench,guppy,goldfish,angelfish,tetra,barb,molly,platy,danio,betta,discus,oscar,cichlid,clownfish,surgeonfish,goby,blenny,pufferfish,lionfish,scorpionfish,stingray,shark,skate,lungfish,coelacanth,arapaima,piranha,arowana,burbot,grayling,char,smelt,capelin,pollock,whiting,hake,ling,bluefish,amberjack,wahoo,mahimahi,pompano,drum,croaker,sheepshead,tarpon,bonefish,permit,barramundi,loach,gudgeon,ide,asp,chub,rudd,dace,minnow,stickleback,sculpin,lumpsucker,gar,bowfin,paddlefish,hagfish,lamprey,anchoveta,sprat"
 

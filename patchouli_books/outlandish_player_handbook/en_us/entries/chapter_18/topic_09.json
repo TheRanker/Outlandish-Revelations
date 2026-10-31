@@ -1,0 +1,12 @@
+{
+  "name": "A Travelling Workbench",
+  "category": "patchouli:chapter_18",
+  "icon": "minecraft:chest",
+  "sortnum": 9,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A Crafting Upgrade provides a crafting grid in the backpack interface. Carry a few common supplies so you can make replacements on the road. Machine recipes still need their proper workshop."
+    }
+  ]
+}

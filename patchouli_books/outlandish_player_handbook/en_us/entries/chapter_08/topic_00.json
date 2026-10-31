@@ -1,0 +1,12 @@
+{
+  "name": "Think in small processes",
+  "category": "patchouli:chapter_08",
+  "icon": "minecraft:glass_bottle",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A chemical chain is a series of inputs and outputs. Begin by choosing one useful product, then follow its recipe backwards until you reach materials your factory already supplies.$(br2)You do not need a complete chemical plant to make your first batch. Build one working reaction, store its products clearly and connect the next step when you understand it."
+    }
+  ]
+}

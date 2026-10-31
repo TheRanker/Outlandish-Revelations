@@ -1,0 +1,12 @@
+{
+  "name": "Collect What Matters",
+  "category": "patchouli:chapter_18",
+  "icon": "minecraft:chest",
+  "sortnum": 7,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Install a Pickup Upgrade and configure its filters. Decide whether the backpack should collect all drops or only your chosen materials. Test it with a small pile before a mining trip."
+    }
+  ]
+}

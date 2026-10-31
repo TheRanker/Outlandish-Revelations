@@ -1,0 +1,9 @@
+{
+  "entity.giraffe.ambient": {
+    "sounds": [
+      "naturalist:mob/giraffe_idle"
+    ],
+    "subtitle": "naturalist.subtitles.entity.giraffe.ambient",
+    "replace": true
+  }
+}

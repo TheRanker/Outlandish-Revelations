@@ -1,0 +1,12 @@
+{
+  "name": "Build in Larger Shapes",
+  "category": "patchouli:chapter_20",
+  "icon": "minecraft:bricks",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The Building Gadget starts with LV circuits and prepared GregTech plates. Charge it, select a building block and inspect the placement preview. Supply the required blocks and begin with a small wall before attempting a large floor."
+    }
+  ]
+}

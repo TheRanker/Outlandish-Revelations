@@ -1,0 +1,12 @@
+{
+  "name": "A Shared Storehouse",
+  "category": "patchouli:chapter_19",
+  "icon": "minecraft:bell",
+  "sortnum": 9,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A Warehouse becomes the centre of colony logistics. Build it where couriers can reach workshops easily. Keep requested building materials organized and give incoming goods room to land."
+    }
+  ]
+}

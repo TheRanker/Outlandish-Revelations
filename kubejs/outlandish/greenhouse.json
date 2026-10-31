@@ -1,0 +1,1013 @@
+{
+  "recipes": [
+    {
+      "legacyId": "minecraft:oak_sapling",
+      "inputs": [],
+      "outputs": [
+        "64x minecraft:oak_log",
+        "6x minecraft:oak_sapling"
+      ],
+      "catalysts": [
+        "minecraft:oak_sapling"
+      ],
+      "fluids": [
+        {
+          "fluid": "minecraft:water",
+          "amount": 1000
+        }
+      ],
+      "duration": 1200,
+      "EUt": 40,
+      "circuit": 1,
+      "id": "otg:restored/greenhouse/minecraft/oak_sapling"
+    },
+    {
+      "legacyId": "minecraft:oak_sapling_fertiliser",
+      "inputs": [
+        "4x gtceu:fertilizer"
+      ],
+      "outputs": [
+        "64x minecraft:oak_log",
+        "64x minecraft:oak_log",
+        "12x minecraft:oak_sapling"
+      ],
+      "catalysts": [
+        "minecraft:oak_sapling"
+      ],
+      "fluids": [
+        {
+          "fluid": "minecraft:water",
+          "amount": 1000
+        }
+      ],
+      "duration": 900,
+      "EUt": 60,
+      "circuit": 2,
+      "id": "otg:restored/greenhouse/minecraft/oak_sapling_fertiliser"
+    },
+    {
+      "legacyId": "minecraft:spruce_sapling",
+      "inputs": [],
+      "outputs": [
+        "64x minecraft:spruce_log",
+        "6x minecraft:spruce_sapling"
+      ],
+      "catalysts": [
+        "minecraft:spruce_sapling"
+      ],
+      "fluids": [
+        {
+          "fluid": "minecraft:water",
+          "amount": 1000
+        }
+      ],
+      "duration": 1200,
+      "EUt": 40,
+      "circuit": 1,
+      "id": "otg:restored/greenhouse/minecraft/spruce_sapling"
+    },
+    {
+      "legacyId": "minecraft:spruce_sapling_fertiliser",
+      "inputs": [
+        "4x gtceu:fertilizer"
+      ],
+      "outputs": [
+        "64x minecraft:spruce_log",
+        "64x minecraft:spruce_log",
+        "12x minecraft:spruce_sapling"
+      ],
+      "catalysts": [
+        "minecraft:spruce_sapling"
+      ],
+      "fluids": [
+        {
+          "fluid": "minecraft:water",
+          "amount": 1000
+        }
+      ],
+      "duration": 900,
+      "EUt": 60,
+      "circuit": 2,
+      "id": "otg:restored/greenhouse/minecraft/spruce_sapling_fertiliser"
+    },
+    {
+      "legacyId": "minecraft:birch_sapling",
+      "inputs": [],
+      "outputs": [
+        "64x minecraft:birch_log",
+        "6x minecraft:birch_sapling"
+      ],
+      "catalysts": [
+        "minecraft:birch_sapling"
+      ],
+      "fluids": [
+        {
+          "fluid": "minecraft:water",
+          "amount": 1000
+        }
+      ],
+      "duration": 1200,
+      "EUt": 40,
+      "circuit": 1,
+      "id": "otg:restored/greenhouse/minecraft/birch_sapling"
+    },
+    {
+      "legacyId": "minecraft:birch_sapling_fertiliser",
+      "inputs": [
+        "4x gtceu:fertilizer"
+      ],
+      "outputs": [
+        "64x minecraft:birch_log",
+        "64x minecraft:birch_log",
+        "12x minecraft:birch_sapling"
+      ],
+      "catalysts": [
+        "minecraft:birch_sapling"
+      ],
+      "fluids": [
+        {
+          "fluid": "minecraft:water",
+          "amount": 1000
+        }
+      ],
+      "duration": 900,
+      "EUt": 60,
+      "circuit": 2,
+      "id": "otg:restored/greenhouse/minecraft/birch_sapling_fertiliser"
+    },
+    {
+      "legacyId": "minecraft:jungle_sapling",
+      "inputs": [],
+      "outputs": [
+        "64x minecraft:jungle_log",
+        "6x minecraft:jungle_sapling"
+      ],
+      "catalysts": [
+        "minecraft:jungle_sapling"
+      ],
+      "fluids": [
+        {
+          "fluid": "minecraft:water",
+          "amount": 1000
+        }
+      ],
+      "duration": 1200,
+      "EUt": 40,
+      "circuit": 1,
+      "id": "otg:restored/greenhouse/minecraft/jungle_sapling"
+    },
+    {
+      "legacyId": "minecraft:jungle_sapling_fertiliser",
+      "inputs": [
+        "4x gtceu:fertilizer"
+      ],
+      "outputs": [
+        "64x minecraft:jungle_log",
+        "64x minecraft:jungle_log",
+        "12x minecraft:jungle_sapling"
+      ],
+      "catalysts": [
+        "minecraft:jungle_sapling"
+      ],
+      "fluids": [
+        {
+          "fluid": "minecraft:water",
+          "amount": 1000
+        }
+      ],
+      "duration": 900,
+      "EUt": 60,
+      "circuit": 2,
+      "id": "otg:restored/greenhouse/minecraft/jungle_sapling_fertiliser"
+    },
+    {
+      "legacyId": "minecraft:acacia_sapling",
+      "inputs": [],
+      "outputs": [
+        "64x minecraft:acacia_log",
+        "6x minecraft:acacia_sapling"
+      ],
+      "catalysts": [
+        "minecraft:acacia_sapling"
+      ],
+      "fluids": [
+        {
+          "fluid": "minecraft:water",
+          "amount": 1000
+        }
+      ],
+      "duration": 1200,
+      "EUt": 40,
+      "circuit": 1,
+      "id": "otg:restored/greenhouse/minecraft/acacia_sapling"
+    },
+    {
+      "legacyId": "minecraft:acacia_sapling_fertiliser",
+      "inputs": [
+        "4x gtceu:fertilizer"
+      ],
+      "outputs": [
+        "64x minecraft:acacia_log",
+        "64x minecraft:acacia_log",
+        "12x minecraft:acacia_sapling"
+      ],
+      "catalysts": [
+        "minecraft:acacia_sapling"
+      ],
+      "fluids": [
+        {
+          "fluid": "minecraft:water",
+          "amount": 1000
+        }
+      ],
+      "duration": 900,
+      "EUt": 60,
+      "circuit": 2,
+      "id": "otg:restored/greenhouse/minecraft/acacia_sapling_fertiliser"
+    },
+    {
+      "legacyId": "minecraft:dark_oak_sapling",
+      "inputs": [],
+      "outputs": [
+        "64x minecraft:dark_oak_log",
+        "6x minecraft:dark_oak_sapling"
+      ],
+      "catalysts": [
+        "minecraft:dark_oak_sapling"
+      ],
+      "fluids": [
+        {
+          "fluid": "minecraft:water",
+          "amount": 1000
+        }
+      ],
+      "duration": 1200,
+      "EUt": 40,
+      "circuit": 1,
+      "id": "otg:restored/greenhouse/minecraft/dark_oak_sapling"
+    },
+    {
+      "legacyId": "minecraft:dark_oak_sapling_fertiliser",
+      "inputs": [
+        "4x gtceu:fertilizer"
+      ],
+      "outputs": [
+        "64x minecraft:dark_oak_log",
+        "64x minecraft:dark_oak_log",
+        "12x minecraft:dark_oak_sapling"
+      ],
+      "catalysts": [
+        "minecraft:dark_oak_sapling"
+      ],
+      "fluids": [
+        {
+          "fluid": "minecraft:water",
+          "amount": 1000
+        }
+      ],
+      "duration": 900,
+      "EUt": 60,
+      "circuit": 2,
+      "id": "otg:restored/greenhouse/minecraft/dark_oak_sapling_fertiliser"
+    },
+    {
+      "legacyId": "minecraft:mangrove_propagule",
+      "inputs": [],
+      "outputs": [
+        "64x minecraft:mangrove_log",
+        "6x minecraft:mangrove_propagule"
+      ],
+      "catalysts": [
+        "minecraft:mangrove_propagule"
+      ],
+      "fluids": [
+        {
+          "fluid": "minecraft:water",
+          "amount": 1000
+        }
+      ],
+      "duration": 1200,
+      "EUt": 40,
+      "circuit": 1,
+      "id": "otg:restored/greenhouse/minecraft/mangrove_propagule"
+    },
+    {
+      "legacyId": "minecraft:mangrove_propagule_fertiliser",
+      "inputs": [
+        "4x gtceu:fertilizer"
+      ],
+      "outputs": [
+        "64x minecraft:mangrove_log",
+        "64x minecraft:mangrove_log",
+        "12x minecraft:mangrove_propagule"
+      ],
+      "catalysts": [
+        "minecraft:mangrove_propagule"
+      ],
+      "fluids": [
+        {
+          "fluid": "minecraft:water",
+          "amount": 1000
+        }
+      ],
+      "duration": 900,
+      "EUt": 60,
+      "circuit": 2,
+      "id": "otg:restored/greenhouse/minecraft/mangrove_propagule_fertiliser"
+    },
+    {
+      "legacyId": "minecraft:cherry_sapling",
+      "inputs": [],
+      "outputs": [
+        "64x minecraft:cherry_log",
+        "6x minecraft:cherry_sapling"
+      ],
+      "catalysts": [
+        "minecraft:cherry_sapling"
+      ],
+      "fluids": [
+        {
+          "fluid": "minecraft:water",
+          "amount": 1000
+        }
+      ],
+      "duration": 1200,
+      "EUt": 40,
+      "circuit": 1,
+      "id": "otg:restored/greenhouse/minecraft/cherry_sapling"
+    },
+    {
+      "legacyId": "minecraft:cherry_sapling_fertiliser",
+      "inputs": [
+        "4x gtceu:fertilizer"
+      ],
+      "outputs": [
+        "64x minecraft:cherry_log",
+        "64x minecraft:cherry_log",
+        "12x minecraft:cherry_sapling"
+      ],
+      "catalysts": [
+        "minecraft:cherry_sapling"
+      ],
+      "fluids": [
+        {
+          "fluid": "minecraft:water",
+          "amount": 1000
+        }
+      ],
+      "duration": 900,
+      "EUt": 60,
+      "circuit": 2,
+      "id": "otg:restored/greenhouse/minecraft/cherry_sapling_fertiliser"
+    },
+    {
+      "legacyId": "minecraft:pumpkin_seeds",
+      "inputs": [],
+      "outputs": [
+        "6x minecraft:pumpkin"
+      ],
+      "catalysts": [
+        "minecraft:pumpkin_seeds"
+      ],
+      "fluids": [
+        {
+          "fluid": "minecraft:water",
+          "amount": 1000
+        }
+      ],
+      "duration": 1200,
+      "EUt": 40,
+      "circuit": 1,
+      "id": "otg:restored/greenhouse/minecraft/pumpkin_seeds"
+    },
+    {
+      "legacyId": "minecraft:pumpkin_seeds_fertilizer",
+      "inputs": [
+        "4x gtceu:fertilizer"
+      ],
+      "outputs": [
+        "12x minecraft:pumpkin"
+      ],
+      "catalysts": [
+        "minecraft:pumpkin_seeds"
+      ],
+      "fluids": [
+        {
+          "fluid": "minecraft:water",
+          "amount": 1000
+        }
+      ],
+      "duration": 900,
+      "EUt": 60,
+      "circuit": 2,
+      "id": "otg:restored/greenhouse/minecraft/pumpkin_seeds_fertilizer"
+    },
+    {
+      "legacyId": "minecraft:beetroot_seeds",
+      "inputs": [],
+      "outputs": [
+        "16x minecraft:beetroot"
+      ],
+      "catalysts": [
+        "minecraft:beetroot_seeds"
+      ],
+      "fluids": [
+        {
+          "fluid": "minecraft:water",
+          "amount": 1000
+        }
+      ],
+      "duration": 1200,
+      "EUt": 40,
+      "circuit": 1,
+      "id": "otg:restored/greenhouse/minecraft/beetroot_seeds"
+    },
+    {
+      "legacyId": "minecraft:beetroot_seeds_fertilizer",
+      "inputs": [
+        "4x gtceu:fertilizer"
+      ],
+      "outputs": [
+        "32x minecraft:beetroot"
+      ],
+      "catalysts": [
+        "minecraft:beetroot_seeds"
+      ],
+      "fluids": [
+        {
+          "fluid": "minecraft:water",
+          "amount": 1000
+        }
+      ],
+      "duration": 900,
+      "EUt": 60,
+      "circuit": 2,
+      "id": "otg:restored/greenhouse/minecraft/beetroot_seeds_fertilizer"
+    },
+    {
+      "legacyId": "minecraft:sweet_berries",
+      "inputs": [],
+      "outputs": [
+        "16x minecraft:sweet_berries"
+      ],
+      "catalysts": [
+        "minecraft:sweet_berries"
+      ],
+      "fluids": [
+        {
+          "fluid": "minecraft:water",
+          "amount": 1000
+        }
+      ],
+      "duration": 1200,
+      "EUt": 40,
+      "circuit": 1,
+      "id": "otg:restored/greenhouse/minecraft/sweet_berries"
+    },
+    {
+      "legacyId": "minecraft:sweet_berries_fertilizer",
+      "inputs": [
+        "4x gtceu:fertilizer"
+      ],
+      "outputs": [
+        "32x minecraft:sweet_berries"
+      ],
+      "catalysts": [
+        "minecraft:sweet_berries"
+      ],
+      "fluids": [
+        {
+          "fluid": "minecraft:water",
+          "amount": 1000
+        }
+      ],
+      "duration": 900,
+      "EUt": 60,
+      "circuit": 2,
+      "id": "otg:restored/greenhouse/minecraft/sweet_berries_fertilizer"
+    },
+    {
+      "legacyId": "minecraft:glow_berries",
+      "inputs": [],
+      "outputs": [
+        "8x minecraft:glow_berries"
+      ],
+      "catalysts": [
+        "minecraft:glow_berries"
+      ],
+      "fluids": [
+        {
+          "fluid": "minecraft:water",
+          "amount": 1000
+        }
+      ],
+      "duration": 1200,
+      "EUt": 40,
+      "circuit": 1,
+      "id": "otg:restored/greenhouse/minecraft/glow_berries"
+    },
+    {
+      "legacyId": "minecraft:glow_berries_fertilizer",
+      "inputs": [
+        "4x gtceu:fertilizer"
+      ],
+      "outputs": [
+        "16x minecraft:glow_berries"
+      ],
+      "catalysts": [
+        "minecraft:glow_berries"
+      ],
+      "fluids": [
+        {
+          "fluid": "minecraft:water",
+          "amount": 1000
+        }
+      ],
+      "duration": 900,
+      "EUt": 60,
+      "circuit": 2,
+      "id": "otg:restored/greenhouse/minecraft/glow_berries_fertilizer"
+    },
+    {
+      "legacyId": "minecraft:wheat_seeds",
+      "inputs": [],
+      "outputs": [
+        "16x minecraft:wheat"
+      ],
+      "catalysts": [
+        "minecraft:wheat_seeds"
+      ],
+      "fluids": [
+        {
+          "fluid": "minecraft:water",
+          "amount": 1000
+        }
+      ],
+      "duration": 1200,
+      "EUt": 40,
+      "circuit": 1,
+      "id": "otg:restored/greenhouse/minecraft/wheat_seeds"
+    },
+    {
+      "legacyId": "minecraft:wheat_seeds_fertilizer",
+      "inputs": [
+        "4x gtceu:fertilizer"
+      ],
+      "outputs": [
+        "32x minecraft:wheat"
+      ],
+      "catalysts": [
+        "minecraft:wheat_seeds"
+      ],
+      "fluids": [
+        {
+          "fluid": "minecraft:water",
+          "amount": 1000
+        }
+      ],
+      "duration": 900,
+      "EUt": 60,
+      "circuit": 2,
+      "id": "otg:restored/greenhouse/minecraft/wheat_seeds_fertilizer"
+    },
+    {
+      "legacyId": "minecraft:melon_seeds",
+      "inputs": [],
+      "outputs": [
+        "6x minecraft:melon"
+      ],
+      "catalysts": [
+        "minecraft:melon_seeds"
+      ],
+      "fluids": [
+        {
+          "fluid": "minecraft:water",
+          "amount": 1000
+        }
+      ],
+      "duration": 1200,
+      "EUt": 40,
+      "circuit": 1,
+      "id": "otg:restored/greenhouse/minecraft/melon_seeds"
+    },
+    {
+      "legacyId": "minecraft:melon_seeds_fertilizer",
+      "inputs": [
+        "4x gtceu:fertilizer"
+      ],
+      "outputs": [
+        "12x minecraft:melon"
+      ],
+      "catalysts": [
+        "minecraft:melon_seeds"
+      ],
+      "fluids": [
+        {
+          "fluid": "minecraft:water",
+          "amount": 1000
+        }
+      ],
+      "duration": 900,
+      "EUt": 60,
+      "circuit": 2,
+      "id": "otg:restored/greenhouse/minecraft/melon_seeds_fertilizer"
+    },
+    {
+      "legacyId": "minecraft:carrot",
+      "inputs": [],
+      "outputs": [
+        "12x minecraft:carrot"
+      ],
+      "catalysts": [
+        "minecraft:carrot"
+      ],
+      "fluids": [
+        {
+          "fluid": "minecraft:water",
+          "amount": 1000
+        }
+      ],
+      "duration": 1200,
+      "EUt": 40,
+      "circuit": 1,
+      "id": "otg:restored/greenhouse/minecraft/carrot"
+    },
+    {
+      "legacyId": "minecraft:carrot_fertilizer",
+      "inputs": [
+        "4x gtceu:fertilizer"
+      ],
+      "outputs": [
+        "24x minecraft:carrot"
+      ],
+      "catalysts": [
+        "minecraft:carrot"
+      ],
+      "fluids": [
+        {
+          "fluid": "minecraft:water",
+          "amount": 1000
+        }
+      ],
+      "duration": 900,
+      "EUt": 60,
+      "circuit": 2,
+      "id": "otg:restored/greenhouse/minecraft/carrot_fertilizer"
+    },
+    {
+      "legacyId": "minecraft:sugar_cane",
+      "inputs": [],
+      "outputs": [
+        "12x minecraft:sugar_cane"
+      ],
+      "catalysts": [
+        "minecraft:sugar_cane"
+      ],
+      "fluids": [
+        {
+          "fluid": "minecraft:water",
+          "amount": 1000
+        }
+      ],
+      "duration": 1200,
+      "EUt": 40,
+      "circuit": 1,
+      "id": "otg:restored/greenhouse/minecraft/sugar_cane"
+    },
+    {
+      "legacyId": "minecraft:sugar_cane_fertilizer",
+      "inputs": [
+        "4x gtceu:fertilizer"
+      ],
+      "outputs": [
+        "24x minecraft:sugar_cane"
+      ],
+      "catalysts": [
+        "minecraft:sugar_cane"
+      ],
+      "fluids": [
+        {
+          "fluid": "minecraft:water",
+          "amount": 1000
+        }
+      ],
+      "duration": 900,
+      "EUt": 60,
+      "circuit": 2,
+      "id": "otg:restored/greenhouse/minecraft/sugar_cane_fertilizer"
+    },
+    {
+      "legacyId": "minecraft:kelp",
+      "inputs": [],
+      "outputs": [
+        "12x minecraft:kelp"
+      ],
+      "catalysts": [
+        "minecraft:kelp"
+      ],
+      "fluids": [
+        {
+          "fluid": "minecraft:water",
+          "amount": 1000
+        }
+      ],
+      "duration": 1200,
+      "EUt": 40,
+      "circuit": 1,
+      "id": "otg:restored/greenhouse/minecraft/kelp"
+    },
+    {
+      "legacyId": "minecraft:kelp_fertilizer",
+      "inputs": [
+        "4x gtceu:fertilizer"
+      ],
+      "outputs": [
+        "24x minecraft:kelp"
+      ],
+      "catalysts": [
+        "minecraft:kelp"
+      ],
+      "fluids": [
+        {
+          "fluid": "minecraft:water",
+          "amount": 1000
+        }
+      ],
+      "duration": 900,
+      "EUt": 60,
+      "circuit": 2,
+      "id": "otg:restored/greenhouse/minecraft/kelp_fertilizer"
+    },
+    {
+      "legacyId": "minecraft:cactus",
+      "inputs": [],
+      "outputs": [
+        "12x minecraft:cactus"
+      ],
+      "catalysts": [
+        "minecraft:cactus"
+      ],
+      "fluids": [
+        {
+          "fluid": "minecraft:water",
+          "amount": 1000
+        }
+      ],
+      "duration": 1200,
+      "EUt": 40,
+      "circuit": 1,
+      "id": "otg:restored/greenhouse/minecraft/cactus"
+    },
+    {
+      "legacyId": "minecraft:cactus_fertilizer",
+      "inputs": [
+        "4x gtceu:fertilizer"
+      ],
+      "outputs": [
+        "24x minecraft:cactus"
+      ],
+      "catalysts": [
+        "minecraft:cactus"
+      ],
+      "fluids": [
+        {
+          "fluid": "minecraft:water",
+          "amount": 1000
+        }
+      ],
+      "duration": 900,
+      "EUt": 60,
+      "circuit": 2,
+      "id": "otg:restored/greenhouse/minecraft/cactus_fertilizer"
+    },
+    {
+      "legacyId": "minecraft:brown_mushroom",
+      "inputs": [],
+      "outputs": [
+        "12x minecraft:brown_mushroom"
+      ],
+      "catalysts": [
+        "minecraft:brown_mushroom"
+      ],
+      "fluids": [
+        {
+          "fluid": "minecraft:water",
+          "amount": 1000
+        }
+      ],
+      "duration": 1200,
+      "EUt": 40,
+      "circuit": 1,
+      "id": "otg:restored/greenhouse/minecraft/brown_mushroom"
+    },
+    {
+      "legacyId": "minecraft:brown_mushroom_fertilizer",
+      "inputs": [
+        "4x gtceu:fertilizer"
+      ],
+      "outputs": [
+        "24x minecraft:brown_mushroom"
+      ],
+      "catalysts": [
+        "minecraft:brown_mushroom"
+      ],
+      "fluids": [
+        {
+          "fluid": "minecraft:water",
+          "amount": 1000
+        }
+      ],
+      "duration": 900,
+      "EUt": 60,
+      "circuit": 2,
+      "id": "otg:restored/greenhouse/minecraft/brown_mushroom_fertilizer"
+    },
+    {
+      "legacyId": "minecraft:red_mushroom",
+      "inputs": [],
+      "outputs": [
+        "12x minecraft:red_mushroom"
+      ],
+      "catalysts": [
+        "minecraft:red_mushroom"
+      ],
+      "fluids": [
+        {
+          "fluid": "minecraft:water",
+          "amount": 1000
+        }
+      ],
+      "duration": 1200,
+      "EUt": 40,
+      "circuit": 1,
+      "id": "otg:restored/greenhouse/minecraft/red_mushroom"
+    },
+    {
+      "legacyId": "minecraft:red_mushroom_fertilizer",
+      "inputs": [
+        "4x gtceu:fertilizer"
+      ],
+      "outputs": [
+        "24x minecraft:red_mushroom"
+      ],
+      "catalysts": [
+        "minecraft:red_mushroom"
+      ],
+      "fluids": [
+        {
+          "fluid": "minecraft:water",
+          "amount": 1000
+        }
+      ],
+      "duration": 900,
+      "EUt": 60,
+      "circuit": 2,
+      "id": "otg:restored/greenhouse/minecraft/red_mushroom_fertilizer"
+    },
+    {
+      "legacyId": "minecraft:nether_wart",
+      "inputs": [],
+      "outputs": [
+        "12x minecraft:nether_wart"
+      ],
+      "catalysts": [
+        "minecraft:nether_wart"
+      ],
+      "fluids": [
+        {
+          "fluid": "minecraft:water",
+          "amount": 1000
+        }
+      ],
+      "duration": 1200,
+      "EUt": 40,
+      "circuit": 1,
+      "id": "otg:restored/greenhouse/minecraft/nether_wart"
+    },
+    {
+      "legacyId": "minecraft:nether_wart_fertilizer",
+      "inputs": [
+        "4x gtceu:fertilizer"
+      ],
+      "outputs": [
+        "24x minecraft:nether_wart"
+      ],
+      "catalysts": [
+        "minecraft:nether_wart"
+      ],
+      "fluids": [
+        {
+          "fluid": "minecraft:water",
+          "amount": 1000
+        }
+      ],
+      "duration": 900,
+      "EUt": 60,
+      "circuit": 2,
+      "id": "otg:restored/greenhouse/minecraft/nether_wart_fertilizer"
+    },
+    {
+      "legacyId": "minecraft:bamboo",
+      "inputs": [],
+      "outputs": [
+        "16x minecraft:bamboo"
+      ],
+      "catalysts": [
+        "minecraft:bamboo"
+      ],
+      "fluids": [
+        {
+          "fluid": "minecraft:water",
+          "amount": 1000
+        }
+      ],
+      "duration": 1200,
+      "EUt": 40,
+      "circuit": 1,
+      "id": "otg:restored/greenhouse/minecraft/bamboo"
+    },
+    {
+      "legacyId": "minecraft:bamboo_fertilizer",
+      "inputs": [
+        "4x gtceu:fertilizer"
+      ],
+      "outputs": [
+        "32x minecraft:bamboo"
+      ],
+      "catalysts": [
+        "minecraft:bamboo"
+      ],
+      "fluids": [
+        {
+          "fluid": "minecraft:water",
+          "amount": 1000
+        }
+      ],
+      "duration": 900,
+      "EUt": 60,
+      "circuit": 2,
+      "id": "otg:restored/greenhouse/minecraft/bamboo_fertilizer"
+    },
+    {
+      "legacyId": "rubber_wood",
+      "inputs": [],
+      "outputs": [
+        "16x gtceu:rubber_log",
+        "3x gtceu:rubber_sapling",
+        "4x gtceu:sticky_resin"
+      ],
+      "catalysts": [
+        "gtceu:rubber_sapling"
+      ],
+      "fluids": [
+        {
+          "fluid": "minecraft:water",
+          "amount": 1000
+        }
+      ],
+      "duration": 1200,
+      "EUt": 40,
+      "circuit": 1,
+      "id": "otg:restored/greenhouse/rubber_wood"
+    },
+    {
+      "legacyId": "rubber_wood_fertiliser",
+      "inputs": [
+        "4x gtceu:fertilizer"
+      ],
+      "outputs": [
+        "32x gtceu:rubber_log",
+        "6x gtceu:rubber_sapling",
+        "8x gtceu:sticky_resin"
+      ],
+      "catalysts": [
+        "gtceu:rubber_sapling"
+      ],
+      "fluids": [
+        {
+          "fluid": "minecraft:water",
+          "amount": 1000
+        }
+      ],
+      "duration": 900,
+      "EUt": 60,
+      "circuit": 2,
+      "id": "otg:restored/greenhouse/rubber_wood_fertiliser"
+    }
+  ],
+  "controller": {
+    "output": "gtceu:greenhouse",
+    "pattern": [
+      "GGG",
+      "CHC",
+      "PUP"
+    ],
+    "key": {
+      "G": "gtceu:tempered_glass",
+      "C": "#gtceu:circuits/mv",
+      "H": "gtceu:mv_machine_hull",
+      "P": "gtceu:mv_electric_piston",
+      "U": "gtceu:mv_electric_pump"
+    }
+  }
+}

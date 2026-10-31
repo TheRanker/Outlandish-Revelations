@@ -1,0 +1,12 @@
+{
+  "name": "Realm RPG Encounters",
+  "category": "patchouli:chapter_17",
+  "icon": "minecraft:compass",
+  "sortnum": 9,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The installed Realm RPG modules are Dragon Wyrms, Pots and Mimics, and Fallen Adventurers. Watch the terrain and investigate unusual sights carefully. Fallen adventurers add remains to discover; they are not all hostile skeleton enemies. Pots and Mimics make exploration less predictable, while wyrms add another reason to watch your$(br2)surroundings."
+    }
+  ]
+}

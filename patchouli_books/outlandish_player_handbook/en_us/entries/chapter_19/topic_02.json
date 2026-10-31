@@ -1,0 +1,12 @@
+{
+  "name": "Plan Your Town Hall",
+  "category": "patchouli:chapter_19",
+  "icon": "minecraft:bell",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Choose your colony location and architectural style carefully. Use the Build Tool preview before placing the Town Hall hut block. Leave road space and room for the building’s larger upgraded forms. A hut block marks a building project; placing it does not instantly finish the structure."
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Use the recipe tree to see the whole project",
+  "category": "patchouli:chapter_02",
+  "icon": "minecraft:book",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The installed recipe-tree view helps you trace an item back through its ingredients. Use it to find the part of the project that your workshop cannot yet produce."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "For example, a machine might need a circuit, the circuit might need a board, and the board might need a chemical you have never made. Your next project is the chemical supply. Once that supply works, the rest of the chain becomes much easier to follow."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Where the tree offers alternative recipes, choose routes that match your equipment and resources. Check the underlying recipe before committing to a large ingredient list."
+    }
+  ]
+}

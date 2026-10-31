@@ -1,0 +1,12 @@
+{
+  "name": "MFFS: start with a field you understand",
+  "category": "patchouli:chapter_10",
+  "icon": "minecraft:enchanted_book",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Begin with the HV field equipment and a suitable power supply. Learn how the system produces and distributes Fortron, then configure a modest field.$(br2)Test ownership and access with your teammates before enclosing an important area. EV supports more advanced security; IV supports further expansion and modules. Expand power and storage alongside the field."
+    }
+  ]
+}

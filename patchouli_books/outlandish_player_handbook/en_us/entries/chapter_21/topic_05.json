@@ -1,0 +1,12 @@
+{
+  "name": "Build a Useful Combination",
+  "category": "patchouli:chapter_21",
+  "icon": "minecraft:amethyst_shard",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Accessories can support different playstyles. Read their actual stats and equip pieces that help your current task. A mining setup and a boss-fighting setup need not be identical. Keep spare equipment organized in your backpack rather than changing several unfamiliar effects during a fight."
+    }
+  ]
+}

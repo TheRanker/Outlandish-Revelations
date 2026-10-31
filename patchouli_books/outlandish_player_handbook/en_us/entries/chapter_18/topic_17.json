@@ -1,0 +1,12 @@
+{
+  "name": "Keep Bulk Storage Predictable",
+  "category": "patchouli:chapter_18",
+  "icon": "minecraft:chest",
+  "sortnum": 17,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Lock slots to preserve your chosen material layout. Test filtered pickup so unwanted drops do not fill spaces reserved for ore or building blocks. Be careful with any voiding option: excess items may be destroyed instead of saved. Use a small test stack before enabling it."
+    }
+  ]
+}

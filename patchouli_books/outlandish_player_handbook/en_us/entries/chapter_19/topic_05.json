@@ -1,0 +1,12 @@
+{
+  "name": "Welcome New Citizens",
+  "category": "patchouli:chapter_19",
+  "icon": "minecraft:bell",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A Tavern gives visitors a place to arrive. Check their recruitment requirements and useful skills before inviting them. Match new citizens to jobs you can actually supply. More workers also means more demand for housing, food and tools."
+    }
+  ]
+}

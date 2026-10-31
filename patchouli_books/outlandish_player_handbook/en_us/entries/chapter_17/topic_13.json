@@ -1,0 +1,12 @@
+{
+  "name": "Give a Dying Wither Space",
+  "category": "patchouli:chapter_17",
+  "icon": "minecraft:compass",
+  "sortnum": 13,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A defeated Progressive Bosses Wither has a death sequence that ends in an explosion. Back away rather than rushing straight into the drops. For your team’s End unlock, follow the Wither encounter rules in the dimensional progression quests. Use JEI and the summoning item tooltip when preparing optional stronger variants."
+    }
+  ]
+}

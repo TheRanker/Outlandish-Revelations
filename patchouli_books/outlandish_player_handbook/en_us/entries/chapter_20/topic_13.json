@@ -1,0 +1,12 @@
+{
+  "name": "A View from Your Monitor",
+  "category": "patchouli:chapter_20",
+  "icon": "minecraft:bricks",
+  "sortnum": 13,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Link your Camera Monitor to your cameras using the SecurityCraft manual’s instructions. Test the feed from your usual operating position. Label or organize camera locations so you can find the view you need."
+    }
+  ]
+}

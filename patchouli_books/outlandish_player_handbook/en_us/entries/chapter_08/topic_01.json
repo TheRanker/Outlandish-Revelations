@@ -1,0 +1,12 @@
+{
+  "name": "Keep every output moving",
+  "category": "patchouli:chapter_08",
+  "icon": "minecraft:glass_bottle",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A full byproduct tank can stop a recipe even when the main product has somewhere to go. Inspect every output before adding more input.$(br2)Some byproducts feed other reactions or recovery processes. Use JEI to find those uses before deciding how to handle them. Keep different fluids separate and name tanks where their contents are not obvious."
+    }
+  ]
+}

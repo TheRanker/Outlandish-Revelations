@@ -1,0 +1,12 @@
+{
+  "name": "Bring Lockpicks",
+  "category": "patchouli:chapter_17",
+  "icon": "minecraft:compass",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Lootr chests are locked separately for each player. Craft lockpicks before exploring: each pick has 50 durability, and each use costs one durability. Opening a chest unlocks your own loot. Your teammate must unlock it separately and gets their own loot; you do not empty the chest for one another."
+    }
+  ]
+}

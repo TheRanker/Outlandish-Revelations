@@ -1,0 +1,20 @@
+{
+  "name": "Let JEI answer the exact recipe question",
+  "category": "patchouli:chapter_02",
+  "icon": "minecraft:book",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Search for the item you want in JEI. Hover over an item and press R to see its recipes, or U to see its uses. If those keys have been changed, check your controls."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "An item can have several recipe categories. Crafting, casting, pressing and machine processing are different routes, each with its own requirements. Look through the category tabs instead of assuming the first page is the only way to make something.$(br2)Before gathering materials, check:"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "- Which machine or crafting station performs the recipe? - Which ingredients are consumed, and which are reusable? - Are fluids required? - Does the recipe specify a voltage, temperature or circuit setting? - What else comes out besides the main product?$(br2)An empty output slot or an extra fluid tank can be just as important as the final ingredient."
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "“There are too many things to do.”",
+  "category": "patchouli:chapter_16",
+  "icon": "minecraft:paper",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Pick one useful goal and identify the first ingredient or process you cannot yet supply. Work on that step. Keep the rest bookmarked for later.$(br2)You do not need to finish every optional collection to enjoy the pack or improve your factory."
+    }
+  ]
+}

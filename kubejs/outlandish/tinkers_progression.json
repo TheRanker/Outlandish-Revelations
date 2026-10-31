@@ -1,0 +1,4758 @@
+{
+  "materials": [
+    {
+      "material": "aquaculture_tinkers:neptunium",
+      "name": "Neptunium",
+      "key": "aquaculture_tinkers_neptunium",
+      "tier": "hv",
+      "ingredient": {
+        "item": "aquaculture:neptunium_ingot"
+      },
+      "needed": 1,
+      "value": 1,
+      "billet": "kubejs:prepared_aquaculture_tinkers_neptunium",
+      "fluid": "kubejs:prepared_aquaculture_tinkers_neptunium_fluid",
+      "cast": true,
+      "temperature": 1000
+    },
+    {
+      "material": "tconstruct:aluminum",
+      "name": "Aluminum",
+      "key": "tconstruct_aluminum",
+      "tier": "mv",
+      "ingredient": {
+        "tag": "forge:ingots/aluminum"
+      },
+      "needed": 1,
+      "value": 1,
+      "billet": "kubejs:prepared_tconstruct_aluminum",
+      "fluid": "kubejs:prepared_tconstruct_aluminum_fluid",
+      "cast": true,
+      "temperature": 425
+    },
+    {
+      "material": "tconstruct:amethyst_bronze",
+      "name": "Amethyst Bronze",
+      "key": "tconstruct_amethyst_bronze",
+      "tier": "lv",
+      "ingredient": {
+        "tag": "forge:ingots/amethyst_bronze"
+      },
+      "needed": 1,
+      "value": 1,
+      "billet": "kubejs:prepared_tconstruct_amethyst_bronze",
+      "fluid": "kubejs:prepared_tconstruct_amethyst_bronze_fluid",
+      "cast": true,
+      "temperature": 820
+    },
+    {
+      "material": "tconstruct:ancient",
+      "name": "Ancient",
+      "key": "tconstruct_ancient",
+      "tier": "ev",
+      "ingredient": {
+        "tag": "forge:ingots/netherite_scrap"
+      },
+      "needed": 1,
+      "value": 1,
+      "billet": "kubejs:prepared_tconstruct_ancient",
+      "fluid": "kubejs:prepared_tconstruct_ancient_fluid",
+      "cast": true,
+      "temperature": 800
+    },
+    {
+      "material": "tconstruct:blaze",
+      "name": "Blaze",
+      "key": "tconstruct_blaze",
+      "tier": "lv",
+      "ingredient": {
+        "tag": "forge:rods/blaze"
+      },
+      "needed": 1,
+      "value": 1,
+      "billet": "kubejs:prepared_tconstruct_blaze",
+      "fluid": "kubejs:prepared_tconstruct_blaze_fluid",
+      "cast": false,
+      "temperature": 800
+    },
+    {
+      "material": "tconstruct:blazewood",
+      "name": "Blazewood",
+      "key": "tconstruct_blazewood",
+      "tier": "hv",
+      "ingredient": {
+        "item": "tconstruct:blazewood"
+      },
+      "needed": 1,
+      "value": 1,
+      "billet": "kubejs:prepared_tconstruct_blazewood",
+      "fluid": "kubejs:prepared_tconstruct_blazewood_fluid",
+      "cast": false,
+      "temperature": 800
+    },
+    {
+      "material": "tconstruct:blazing_bone",
+      "name": "Blazing Bone",
+      "key": "tconstruct_blazing_bone",
+      "tier": "hv",
+      "ingredient": {
+        "item": "tconstruct:blazing_bone"
+      },
+      "needed": 1,
+      "value": 1,
+      "billet": "kubejs:prepared_tconstruct_blazing_bone",
+      "fluid": "kubejs:prepared_tconstruct_blazing_bone_fluid",
+      "cast": false,
+      "temperature": 800
+    },
+    {
+      "material": "tconstruct:bronze",
+      "name": "Bronze",
+      "key": "tconstruct_bronze",
+      "tier": "lv",
+      "ingredient": {
+        "tag": "forge:ingots/bronze"
+      },
+      "needed": 1,
+      "value": 1,
+      "billet": "kubejs:prepared_tconstruct_bronze",
+      "fluid": "kubejs:prepared_tconstruct_bronze_fluid",
+      "cast": true,
+      "temperature": 700
+    },
+    {
+      "material": "tconstruct:cinderslime",
+      "name": "Cinderslime",
+      "key": "tconstruct_cinderslime",
+      "tier": "hv",
+      "ingredient": {
+        "tag": "forge:ingots/cinderslime"
+      },
+      "needed": 1,
+      "value": 1,
+      "billet": "kubejs:prepared_tconstruct_cinderslime",
+      "fluid": "kubejs:prepared_tconstruct_cinderslime_fluid",
+      "cast": true,
+      "temperature": 1000
+    },
+    {
+      "material": "tconstruct:cobalt",
+      "name": "Cobalt",
+      "key": "tconstruct_cobalt",
+      "tier": "mv",
+      "ingredient": {
+        "tag": "forge:ingots/cobalt"
+      },
+      "needed": 1,
+      "value": 1,
+      "billet": "kubejs:prepared_tconstruct_cobalt",
+      "fluid": "kubejs:prepared_tconstruct_cobalt_fluid",
+      "cast": true,
+      "temperature": 950
+    },
+    {
+      "material": "tconstruct:constantan",
+      "name": "Constantan",
+      "key": "tconstruct_constantan",
+      "tier": "lv",
+      "ingredient": {
+        "tag": "forge:ingots/constantan"
+      },
+      "needed": 1,
+      "value": 1,
+      "billet": "kubejs:prepared_tconstruct_constantan",
+      "fluid": "kubejs:prepared_tconstruct_constantan_fluid",
+      "cast": true,
+      "temperature": 920
+    },
+    {
+      "material": "tconstruct:dragon_scale",
+      "name": "Dragon Scale",
+      "key": "tconstruct_dragon_scale",
+      "tier": "hv",
+      "ingredient": {
+        "item": "tconstruct:dragon_scale"
+      },
+      "needed": 1,
+      "value": 1,
+      "billet": "kubejs:prepared_tconstruct_dragon_scale",
+      "fluid": "kubejs:prepared_tconstruct_dragon_scale_fluid",
+      "cast": false,
+      "temperature": 800
+    },
+    {
+      "material": "tconstruct:electrum",
+      "name": "Electrum",
+      "key": "tconstruct_electrum",
+      "tier": "lv",
+      "ingredient": {
+        "tag": "forge:ingots/electrum"
+      },
+      "needed": 1,
+      "value": 1,
+      "billet": "kubejs:prepared_tconstruct_electrum",
+      "fluid": "kubejs:prepared_tconstruct_electrum_fluid",
+      "cast": true,
+      "temperature": 760
+    },
+    {
+      "material": "tconstruct:end_rod",
+      "name": "End Rod",
+      "key": "tconstruct_end_rod",
+      "tier": "hv",
+      "ingredient": {
+        "item": "minecraft:end_rod"
+      },
+      "needed": 1,
+      "value": 1,
+      "billet": "kubejs:prepared_tconstruct_end_rod",
+      "fluid": "kubejs:prepared_tconstruct_end_rod_fluid",
+      "cast": false,
+      "temperature": 800
+    },
+    {
+      "material": "tconstruct:ender_pearl",
+      "name": "Ender Pearl",
+      "key": "tconstruct_ender_pearl",
+      "tier": "lv",
+      "ingredient": {
+        "tag": "forge:ender_pearls"
+      },
+      "needed": 1,
+      "value": 1,
+      "billet": "kubejs:prepared_tconstruct_ender_pearl",
+      "fluid": "kubejs:prepared_tconstruct_ender_pearl_fluid",
+      "cast": true,
+      "temperature": 477
+    },
+    {
+      "material": "tconstruct:enderslime",
+      "name": "Enderslime",
+      "key": "tconstruct_enderslime",
+      "tier": "hv",
+      "ingredient": {
+        "item": "tconstruct:ender_slime_crystal"
+      },
+      "needed": 1,
+      "value": 1,
+      "billet": "kubejs:prepared_tconstruct_enderslime",
+      "fluid": "kubejs:prepared_tconstruct_enderslime_fluid",
+      "cast": false,
+      "temperature": 70
+    },
+    {
+      "material": "tconstruct:enderslime_vine",
+      "name": "Enderslime Vine",
+      "key": "tconstruct_enderslime_vine",
+      "tier": "hv",
+      "ingredient": {
+        "item": "tconstruct:ender_slime_vine"
+      },
+      "needed": 1,
+      "value": 1,
+      "billet": "kubejs:prepared_tconstruct_enderslime_vine",
+      "fluid": "kubejs:prepared_tconstruct_enderslime_vine_fluid",
+      "cast": false,
+      "temperature": 800
+    },
+    {
+      "material": "tconstruct:fiery",
+      "name": "Fiery",
+      "key": "tconstruct_fiery",
+      "tier": "hv",
+      "ingredient": {
+        "tag": "forge:ingots/fiery"
+      },
+      "needed": 1,
+      "value": 1,
+      "billet": "kubejs:prepared_tconstruct_fiery",
+      "fluid": "kubejs:prepared_tconstruct_fiery_fluid",
+      "cast": true,
+      "temperature": 800
+    },
+    {
+      "material": "tconstruct:glowstone",
+      "name": "Glowstone",
+      "key": "tconstruct_glowstone",
+      "tier": "lv",
+      "ingredient": {
+        "item": "minecraft:glowstone"
+      },
+      "needed": 1,
+      "value": 1,
+      "billet": "kubejs:prepared_tconstruct_glowstone",
+      "fluid": "kubejs:prepared_tconstruct_glowstone_fluid",
+      "cast": false,
+      "temperature": 800
+    },
+    {
+      "material": "tconstruct:hepatizon",
+      "name": "Hepatizon",
+      "key": "tconstruct_hepatizon",
+      "tier": "hv",
+      "ingredient": {
+        "tag": "forge:ingots/hepatizon"
+      },
+      "needed": 1,
+      "value": 1,
+      "billet": "kubejs:prepared_tconstruct_hepatizon",
+      "fluid": "kubejs:prepared_tconstruct_hepatizon_fluid",
+      "cast": true,
+      "temperature": 1000
+    },
+    {
+      "material": "tconstruct:ice",
+      "name": "Ice",
+      "key": "tconstruct_ice",
+      "tier": "lv",
+      "ingredient": {
+        "item": "minecraft:packed_ice"
+      },
+      "needed": 1,
+      "value": 1,
+      "billet": "kubejs:prepared_tconstruct_ice",
+      "fluid": "kubejs:prepared_tconstruct_ice_fluid",
+      "cast": false,
+      "temperature": 800
+    },
+    {
+      "material": "tconstruct:ichor",
+      "name": "Ichor",
+      "key": "tconstruct_ichor",
+      "tier": "lv",
+      "ingredient": {
+        "item": "tconstruct:ichor_slime_crystal"
+      },
+      "needed": 1,
+      "value": 1,
+      "billet": "kubejs:prepared_tconstruct_ichor",
+      "fluid": "kubejs:prepared_tconstruct_ichor_fluid",
+      "cast": false,
+      "temperature": 700
+    },
+    {
+      "material": "tconstruct:invar",
+      "name": "Invar",
+      "key": "tconstruct_invar",
+      "tier": "lv",
+      "ingredient": {
+        "tag": "forge:ingots/invar"
+      },
+      "needed": 1,
+      "value": 1,
+      "billet": "kubejs:prepared_tconstruct_invar",
+      "fluid": "kubejs:prepared_tconstruct_invar_fluid",
+      "cast": true,
+      "temperature": 900
+    },
+    {
+      "material": "tconstruct:knightly",
+      "name": "Knightly",
+      "key": "tconstruct_knightly",
+      "tier": "hv",
+      "ingredient": {
+        "tag": "forge:raw_nuggets/knightmetal"
+      },
+      "needed": 1,
+      "value": 1,
+      "billet": "kubejs:prepared_tconstruct_knightly",
+      "fluid": "kubejs:prepared_tconstruct_knightly_fluid",
+      "cast": false,
+      "temperature": 800
+    },
+    {
+      "material": "tconstruct:knightmetal",
+      "name": "Knightmetal",
+      "key": "tconstruct_knightmetal",
+      "tier": "hv",
+      "ingredient": {
+        "tag": "forge:ingots/knightmetal"
+      },
+      "needed": 1,
+      "value": 1,
+      "billet": "kubejs:prepared_tconstruct_knightmetal",
+      "fluid": "kubejs:prepared_tconstruct_knightmetal_fluid",
+      "cast": true,
+      "temperature": 1000
+    },
+    {
+      "material": "tconstruct:knightslime",
+      "name": "Knightslime",
+      "key": "tconstruct_knightslime",
+      "tier": "hv",
+      "ingredient": {
+        "tag": "forge:ingots/knightslime"
+      },
+      "needed": 1,
+      "value": 1,
+      "billet": "kubejs:prepared_tconstruct_knightslime",
+      "fluid": "kubejs:prepared_tconstruct_knightslime_fluid",
+      "cast": true,
+      "temperature": 1000
+    },
+    {
+      "material": "tconstruct:kobold",
+      "name": "Kobold",
+      "key": "tconstruct_kobold",
+      "tier": "lv",
+      "ingredient": {
+        "tag": "forge:raw_nuggets/cobalt"
+      },
+      "needed": 1,
+      "value": 1,
+      "billet": "kubejs:prepared_tconstruct_kobold",
+      "fluid": "kubejs:prepared_tconstruct_kobold_fluid",
+      "cast": false,
+      "temperature": 800
+    },
+    {
+      "material": "tconstruct:magma",
+      "name": "Magma",
+      "key": "tconstruct_magma",
+      "tier": "lv",
+      "ingredient": {
+        "item": "minecraft:magma_cream"
+      },
+      "needed": 1,
+      "value": 1,
+      "billet": "kubejs:prepared_tconstruct_magma",
+      "fluid": "kubejs:prepared_tconstruct_magma_fluid",
+      "cast": false,
+      "temperature": 300
+    },
+    {
+      "material": "tconstruct:magnetite",
+      "name": "Magnetite",
+      "key": "tconstruct_magnetite",
+      "tier": "lv",
+      "ingredient": {
+        "tag": "forge:raw_nuggets/steel"
+      },
+      "needed": 1,
+      "value": 1,
+      "billet": "kubejs:prepared_tconstruct_magnetite",
+      "fluid": "kubejs:prepared_tconstruct_magnetite_fluid",
+      "cast": false,
+      "temperature": 800
+    },
+    {
+      "material": "tconstruct:manyullyn",
+      "name": "Manyullyn",
+      "key": "tconstruct_manyullyn",
+      "tier": "hv",
+      "ingredient": {
+        "tag": "forge:ingots/manyullyn"
+      },
+      "needed": 1,
+      "value": 1,
+      "billet": "kubejs:prepared_tconstruct_manyullyn",
+      "fluid": "kubejs:prepared_tconstruct_manyullyn_fluid",
+      "cast": true,
+      "temperature": 1000
+    },
+    {
+      "material": "tconstruct:nahuatl",
+      "name": "Nahuatl",
+      "key": "tconstruct_nahuatl",
+      "tier": "lv",
+      "ingredient": {
+        "item": "tconstruct:nahuatl"
+      },
+      "needed": 1,
+      "value": 1,
+      "billet": "kubejs:prepared_tconstruct_nahuatl",
+      "fluid": "kubejs:prepared_tconstruct_nahuatl_fluid",
+      "cast": false,
+      "temperature": 800
+    },
+    {
+      "material": "tconstruct:necronium",
+      "name": "Necronium",
+      "key": "tconstruct_necronium",
+      "tier": "lv",
+      "ingredient": {
+        "item": "tconstruct:necronium_bone"
+      },
+      "needed": 1,
+      "value": 1,
+      "billet": "kubejs:prepared_tconstruct_necronium",
+      "fluid": "kubejs:prepared_tconstruct_necronium_fluid",
+      "cast": false,
+      "temperature": 800
+    },
+    {
+      "material": "tconstruct:nicrosil",
+      "name": "Nicrosil",
+      "key": "tconstruct_nicrosil",
+      "tier": "hv",
+      "ingredient": {
+        "tag": "forge:ingots/nicrosil"
+      },
+      "needed": 1,
+      "value": 1,
+      "billet": "kubejs:prepared_tconstruct_nicrosil",
+      "fluid": "kubejs:prepared_tconstruct_nicrosil_fluid",
+      "cast": true,
+      "temperature": 1000
+    },
+    {
+      "material": "tconstruct:obsidian",
+      "name": "Obsidian",
+      "key": "tconstruct_obsidian",
+      "tier": "lv",
+      "ingredient": {
+        "item": "tconstruct:obsidian_pane"
+      },
+      "needed": 1,
+      "value": 1,
+      "billet": "kubejs:prepared_tconstruct_obsidian",
+      "fluid": "kubejs:prepared_tconstruct_obsidian_fluid",
+      "cast": true,
+      "temperature": 1000
+    },
+    {
+      "material": "tconstruct:pewter",
+      "name": "Pewter",
+      "key": "tconstruct_pewter",
+      "tier": "lv",
+      "ingredient": {
+        "tag": "forge:ingots/pewter"
+      },
+      "needed": 1,
+      "value": 1,
+      "billet": "kubejs:prepared_tconstruct_pewter",
+      "fluid": "kubejs:prepared_tconstruct_pewter_fluid",
+      "cast": true,
+      "temperature": 400
+    },
+    {
+      "material": "tconstruct:pig_iron",
+      "name": "Pig Iron",
+      "key": "tconstruct_pig_iron",
+      "tier": "lv",
+      "ingredient": {
+        "tag": "forge:ingots/pig_iron"
+      },
+      "needed": 1,
+      "value": 1,
+      "billet": "kubejs:prepared_tconstruct_pig_iron",
+      "fluid": "kubejs:prepared_tconstruct_pig_iron_fluid",
+      "cast": true,
+      "temperature": 811
+    },
+    {
+      "material": "tconstruct:plated_slimewood",
+      "name": "Plated Slimewood",
+      "key": "tconstruct_plated_slimewood",
+      "tier": "lv",
+      "ingredient": {
+        "item": "tconstruct:greenheart_planks"
+      },
+      "needed": 1,
+      "value": 1,
+      "billet": "kubejs:prepared_tconstruct_plated_slimewood",
+      "fluid": "kubejs:prepared_tconstruct_plated_slimewood_fluid",
+      "cast": true,
+      "temperature": 800,
+      "extra": "gtceu:brass_plate"
+    },
+    {
+      "material": "tconstruct:quartz",
+      "name": "Quartz",
+      "key": "tconstruct_quartz",
+      "tier": "lv",
+      "ingredient": {
+        "tag": "forge:gems/quartz"
+      },
+      "needed": 1,
+      "value": 1,
+      "billet": "kubejs:prepared_tconstruct_quartz",
+      "fluid": "kubejs:prepared_tconstruct_quartz_fluid",
+      "cast": true,
+      "temperature": 800
+    },
+    {
+      "material": "tconstruct:queens_slime",
+      "name": "Queens Slime",
+      "key": "tconstruct_queens_slime",
+      "tier": "hv",
+      "ingredient": {
+        "tag": "forge:ingots/queens_slime"
+      },
+      "needed": 1,
+      "value": 1,
+      "billet": "kubejs:prepared_tconstruct_queens_slime",
+      "fluid": "kubejs:prepared_tconstruct_queens_slime_fluid",
+      "cast": true,
+      "temperature": 1000
+    },
+    {
+      "material": "tconstruct:rose_gold",
+      "name": "Rose Gold",
+      "key": "tconstruct_rose_gold",
+      "tier": "lv",
+      "ingredient": {
+        "tag": "forge:ingots/rose_gold"
+      },
+      "needed": 1,
+      "value": 1,
+      "billet": "kubejs:prepared_tconstruct_rose_gold",
+      "fluid": "kubejs:prepared_tconstruct_rose_gold_fluid",
+      "cast": true,
+      "temperature": 550
+    },
+    {
+      "material": "tconstruct:shulker",
+      "name": "Shulker",
+      "key": "tconstruct_shulker",
+      "tier": "hv",
+      "ingredient": {
+        "item": "minecraft:shulker_shell"
+      },
+      "needed": 1,
+      "value": 2,
+      "billet": "kubejs:prepared_tconstruct_shulker",
+      "fluid": "kubejs:prepared_tconstruct_shulker_fluid",
+      "cast": false,
+      "temperature": 800
+    },
+    {
+      "material": "tconstruct:slimesteel",
+      "name": "Slimesteel",
+      "key": "tconstruct_slimesteel",
+      "tier": "lv",
+      "ingredient": {
+        "tag": "forge:ingots/slimesteel"
+      },
+      "needed": 1,
+      "value": 1,
+      "billet": "kubejs:prepared_tconstruct_slimesteel",
+      "fluid": "kubejs:prepared_tconstruct_slimesteel_fluid",
+      "cast": true,
+      "temperature": 900
+    },
+    {
+      "material": "tconstruct:steel",
+      "name": "Steel",
+      "key": "tconstruct_steel",
+      "tier": "lv",
+      "ingredient": {
+        "tag": "forge:ingots/steel"
+      },
+      "needed": 1,
+      "value": 1,
+      "billet": "kubejs:prepared_tconstruct_steel",
+      "fluid": "kubejs:prepared_tconstruct_steel_fluid",
+      "cast": true,
+      "temperature": 950
+    },
+    {
+      "material": "tconstruct:steeleaf",
+      "name": "Steeleaf",
+      "key": "tconstruct_steeleaf",
+      "tier": "lv",
+      "ingredient": {
+        "tag": "forge:ingots/steeleaf"
+      },
+      "needed": 1,
+      "value": 1,
+      "billet": "kubejs:prepared_tconstruct_steeleaf",
+      "fluid": "kubejs:prepared_tconstruct_steeleaf_fluid",
+      "cast": true,
+      "temperature": 934
+    },
+    {
+      "material": "tinkers_things:hematite",
+      "name": "Hematite",
+      "key": "tinkers_things_hematite",
+      "tier": "hv",
+      "ingredient": {
+        "item": "tinkers_things:hematite"
+      },
+      "needed": 1,
+      "value": 1,
+      "billet": "kubejs:prepared_tinkers_things_hematite",
+      "fluid": "kubejs:prepared_tinkers_things_hematite_fluid",
+      "cast": true,
+      "temperature": 1000
+    },
+    {
+      "material": "tinkers_things:silky_cloth",
+      "name": "Silky Cloth",
+      "key": "tinkers_things_silky_cloth",
+      "tier": "lv",
+      "ingredient": {
+        "item": "tconstruct:silky_cloth"
+      },
+      "needed": 1,
+      "value": 1,
+      "billet": "kubejs:prepared_tinkers_things_silky_cloth",
+      "fluid": "kubejs:prepared_tinkers_things_silky_cloth_fluid",
+      "cast": false,
+      "temperature": 800
+    },
+    {
+      "material": "otg:stainless_steel",
+      "name": "Stainless Steel",
+      "key": "otg_stainless_steel",
+      "tier": "hv",
+      "ingredient": {
+        "item": "gtceu:stainless_steel_ingot"
+      },
+      "needed": 1,
+      "value": 1,
+      "billet": "kubejs:prepared_otg_stainless_steel",
+      "fluid": "kubejs:prepared_otg_stainless_steel_fluid",
+      "cast": true,
+      "temperature": 900,
+      "extra": null
+    },
+    {
+      "material": "otg:titanium",
+      "name": "Titanium",
+      "key": "otg_titanium",
+      "tier": "ev",
+      "ingredient": {
+        "item": "gtceu:titanium_ingot"
+      },
+      "needed": 1,
+      "value": 1,
+      "billet": "kubejs:prepared_otg_titanium",
+      "fluid": "kubejs:prepared_otg_titanium_fluid",
+      "cast": true,
+      "temperature": 900,
+      "extra": null
+    },
+    {
+      "material": "otg:sanguine_steel",
+      "name": "Sanguine Steel",
+      "key": "otg_sanguine_steel",
+      "tier": "mv",
+      "ingredient": {
+        "item": "gtceu:steel_ingot"
+      },
+      "needed": 1,
+      "value": 1,
+      "billet": "kubejs:prepared_otg_sanguine_steel",
+      "fluid": "kubejs:prepared_otg_sanguine_steel_fluid",
+      "cast": true,
+      "temperature": 900,
+      "extra": "kubejs:stabilised_blood_reagent"
+    }
+  ],
+  "upgrades": [
+    {
+      "id": "kubejs:upgrade_tconstruct_tools_modifiers_ability_expanded",
+      "name": "Expanded Upgrade Component",
+      "tier": "hv",
+      "ingredient": {
+        "item": "minecraft:piston"
+      }
+    },
+    {
+      "id": "kubejs:upgrade_tconstruct_tools_modifiers_ability_silky",
+      "name": "Silky Upgrade Component",
+      "tier": "mv",
+      "ingredient": {
+        "item": "tconstruct:silky_cloth"
+      }
+    },
+    {
+      "id": "kubejs:upgrade_tconstruct_tools_modifiers_ability_unbreakable",
+      "name": "Unbreakable Upgrade Component",
+      "tier": "ev",
+      "ingredient": {
+        "item": "minecraft:shulker_shell"
+      }
+    },
+    {
+      "id": "kubejs:upgrade_tconstruct_tools_modifiers_upgrade_emerald",
+      "name": "Emerald Upgrade Component",
+      "tier": "lv",
+      "ingredient": {
+        "tag": "forge:gems/emerald"
+      }
+    },
+    {
+      "id": "kubejs:upgrade_tconstruct_tools_modifiers_upgrade_soulbound",
+      "name": "Soulbound Upgrade Component",
+      "tier": "hv",
+      "ingredient": {
+        "item": "minecraft:echo_shard"
+      }
+    },
+    {
+      "id": "kubejs:upgrade_tconstruct_tools_modifiers_upgrade_diamond",
+      "name": "Diamond Upgrade Component",
+      "tier": "lv",
+      "ingredient": {
+        "tag": "forge:gems/diamond"
+      }
+    },
+    {
+      "id": "kubejs:upgrade_tconstruct_tools_modifiers_upgrade_netherite",
+      "name": "Netherite Upgrade Component",
+      "tier": "mv",
+      "ingredient": {
+        "item": "minecraft:netherite_upgrade_smithing_template"
+      }
+    },
+    {
+      "id": "kubejs:upgrade_tconstruct_tools_modifiers_slotless_soulbound_ammo",
+      "name": "Soulbound Upgrade Component",
+      "tier": "hv",
+      "ingredient": {
+        "item": "minecraft:sculk_vein"
+      }
+    },
+    {
+      "id": "kubejs:reinforced_upgrade_component",
+      "name": "Reinforced Upgrade Component",
+      "tier": "mv",
+      "ingredient": {
+        "item": "tconstruct:emerald_reinforcement"
+      }
+    }
+  ],
+  "removeIds": [
+    "aquaculture_tinkers:neptunium/material/casting",
+    "aquaculture_tinkers:tools/materials/neptunium",
+    "tconstruct:smeltery/alloys/molten_bendalloy",
+    "tconstruct:smeltery/alloys/molten_brass",
+    "tconstruct:smeltery/alloys/molten_constantan",
+    "tconstruct:smeltery/alloys/molten_duralumin",
+    "tconstruct:smeltery/alloys/molten_electrum",
+    "tconstruct:smeltery/alloys/molten_enderium",
+    "tconstruct:smeltery/alloys/molten_invar",
+    "tconstruct:smeltery/alloys/molten_lumium",
+    "tconstruct:smeltery/alloys/molten_refined_obsidian",
+    "tconstruct:smeltery/alloys/molten_rose_gold",
+    "tconstruct:smeltery/alloys/molten_signalum",
+    "tconstruct:smeltery/casting/metal/netherite/ancient_repair_kit_gold_cast",
+    "tconstruct:smeltery/casting/metal/netherite/ancient_repair_kit_sand_cast",
+    "tconstruct:tools/armor/slime_skull/swapping/blaze",
+    "tconstruct:tools/armor/slime_skull/swapping/dragon_scale",
+    "tconstruct:tools/armor/slime_skull/swapping/ender_pearl",
+    "tconstruct:tools/armor/slime_skull/swapping/ice",
+    "tconstruct:tools/armor/slime_skull/swapping/knightmetal",
+    "tconstruct:tools/armor/slime_skull/swapping/pig_iron",
+    "tconstruct:tools/armor/slime_skull/swapping/rose_gold",
+    "tconstruct:tools/materials/aluminum/block",
+    "tconstruct:tools/materials/aluminum/ingot",
+    "tconstruct:tools/materials/aluminum/nugget",
+    "tconstruct:tools/materials/amethyst_bronze/block",
+    "tconstruct:tools/materials/amethyst_bronze/ingot",
+    "tconstruct:tools/materials/amethyst_bronze/nugget",
+    "tconstruct:tools/materials/ancient/ingot",
+    "tconstruct:tools/materials/ancient/nugget",
+    "tconstruct:tools/materials/blaze",
+    "tconstruct:tools/materials/blazewood",
+    "tconstruct:tools/materials/blazing_bone",
+    "tconstruct:tools/materials/bronze/block",
+    "tconstruct:tools/materials/bronze/ingot",
+    "tconstruct:tools/materials/bronze/nugget",
+    "tconstruct:tools/materials/casting/aluminum",
+    "tconstruct:tools/materials/casting/amethyst_bronze",
+    "tconstruct:tools/materials/casting/bronze",
+    "tconstruct:tools/materials/casting/cinderslime",
+    "tconstruct:tools/materials/casting/cobalt",
+    "tconstruct:tools/materials/casting/constantan",
+    "tconstruct:tools/materials/casting/electrum",
+    "tconstruct:tools/materials/casting/ender_pearl",
+    "tconstruct:tools/materials/casting/enderslime",
+    "tconstruct:tools/materials/casting/hepatizon",
+    "tconstruct:tools/materials/casting/ichor",
+    "tconstruct:tools/materials/casting/invar",
+    "tconstruct:tools/materials/casting/knightmetal",
+    "tconstruct:tools/materials/casting/knightslime",
+    "tconstruct:tools/materials/casting/magma",
+    "tconstruct:tools/materials/casting/manyullyn",
+    "tconstruct:tools/materials/casting/nicrosil",
+    "tconstruct:tools/materials/casting/obsidian",
+    "tconstruct:tools/materials/casting/pewter",
+    "tconstruct:tools/materials/casting/pig_iron",
+    "tconstruct:tools/materials/casting/queens_slime",
+    "tconstruct:tools/materials/casting/rose_gold",
+    "tconstruct:tools/materials/casting/slimesteel",
+    "tconstruct:tools/materials/casting/steel",
+    "tconstruct:tools/materials/casting/steeleaf",
+    "tconstruct:tools/materials/cinderslime/block",
+    "tconstruct:tools/materials/cinderslime/ingot",
+    "tconstruct:tools/materials/cinderslime/nugget",
+    "tconstruct:tools/materials/cobalt/block",
+    "tconstruct:tools/materials/cobalt/ingot",
+    "tconstruct:tools/materials/cobalt/nugget",
+    "tconstruct:tools/materials/composite/blazewood",
+    "tconstruct:tools/materials/composite/blazing_bone",
+    "tconstruct:tools/materials/composite/fiery",
+    "tconstruct:tools/materials/composite/magma",
+    "tconstruct:tools/materials/composite/nahuatl",
+    "tconstruct:tools/materials/composite/necronium",
+    "tconstruct:tools/materials/composite/plated_slimewood",
+    "tconstruct:tools/materials/composite/rose_gold",
+    "tconstruct:tools/materials/constantan/block",
+    "tconstruct:tools/materials/constantan/ingot",
+    "tconstruct:tools/materials/constantan/nugget",
+    "tconstruct:tools/materials/dragon_scale",
+    "tconstruct:tools/materials/electrum/block",
+    "tconstruct:tools/materials/electrum/ingot",
+    "tconstruct:tools/materials/electrum/nugget",
+    "tconstruct:tools/materials/end_rod",
+    "tconstruct:tools/materials/ender_pearl",
+    "tconstruct:tools/materials/enderslime",
+    "tconstruct:tools/materials/enderslime_vine",
+    "tconstruct:tools/materials/fiery/block",
+    "tconstruct:tools/materials/fiery/ingot",
+    "tconstruct:tools/materials/fiery/nugget",
+    "tconstruct:tools/materials/glowstone/block",
+    "tconstruct:tools/materials/glowstone/dust",
+    "tconstruct:tools/materials/hepatizon/block",
+    "tconstruct:tools/materials/hepatizon/ingot",
+    "tconstruct:tools/materials/hepatizon/nugget",
+    "tconstruct:tools/materials/ice/blue",
+    "tconstruct:tools/materials/ice/packed",
+    "tconstruct:tools/materials/ice/unpacked",
+    "tconstruct:tools/materials/ichor",
+    "tconstruct:tools/materials/invar/block",
+    "tconstruct:tools/materials/invar/ingot",
+    "tconstruct:tools/materials/invar/nugget",
+    "tconstruct:tools/materials/knightly",
+    "tconstruct:tools/materials/knightmetal/block",
+    "tconstruct:tools/materials/knightmetal/ingot",
+    "tconstruct:tools/materials/knightmetal/nugget",
+    "tconstruct:tools/materials/knightslime/block",
+    "tconstruct:tools/materials/knightslime/ingot",
+    "tconstruct:tools/materials/knightslime/nugget",
+    "tconstruct:tools/materials/kobold",
+    "tconstruct:tools/materials/magma",
+    "tconstruct:tools/materials/magnetite",
+    "tconstruct:tools/materials/manyullyn/block",
+    "tconstruct:tools/materials/manyullyn/ingot",
+    "tconstruct:tools/materials/manyullyn/nugget",
+    "tconstruct:tools/materials/melting/aluminum",
+    "tconstruct:tools/materials/melting/amethyst_bronze",
+    "tconstruct:tools/materials/melting/bronze",
+    "tconstruct:tools/materials/melting/cinderslime",
+    "tconstruct:tools/materials/melting/cobalt",
+    "tconstruct:tools/materials/melting/constantan",
+    "tconstruct:tools/materials/melting/electrum",
+    "tconstruct:tools/materials/melting/ender_pearl",
+    "tconstruct:tools/materials/melting/enderslime",
+    "tconstruct:tools/materials/melting/fiery",
+    "tconstruct:tools/materials/melting/hepatizon",
+    "tconstruct:tools/materials/melting/ice",
+    "tconstruct:tools/materials/melting/ichor",
+    "tconstruct:tools/materials/melting/invar",
+    "tconstruct:tools/materials/melting/knightmetal",
+    "tconstruct:tools/materials/melting/knightslime",
+    "tconstruct:tools/materials/melting/magma",
+    "tconstruct:tools/materials/melting/manyullyn",
+    "tconstruct:tools/materials/melting/nahuatl",
+    "tconstruct:tools/materials/melting/necronium",
+    "tconstruct:tools/materials/melting/nicrosil",
+    "tconstruct:tools/materials/melting/obsidian",
+    "tconstruct:tools/materials/melting/pewter",
+    "tconstruct:tools/materials/melting/pig_iron",
+    "tconstruct:tools/materials/melting/plated_slimewood",
+    "tconstruct:tools/materials/melting/queens_slime",
+    "tconstruct:tools/materials/melting/rose_gold",
+    "tconstruct:tools/materials/melting/slimesteel",
+    "tconstruct:tools/materials/melting/steel",
+    "tconstruct:tools/materials/melting/steeleaf",
+    "tconstruct:tools/materials/nahuatl",
+    "tconstruct:tools/materials/necronium",
+    "tconstruct:tools/materials/nicrosil/block",
+    "tconstruct:tools/materials/nicrosil/ingot",
+    "tconstruct:tools/materials/nicrosil/nugget",
+    "tconstruct:tools/materials/obsidian",
+    "tconstruct:tools/materials/obsidian_pane",
+    "tconstruct:tools/materials/pewter/block",
+    "tconstruct:tools/materials/pewter/ingot",
+    "tconstruct:tools/materials/pewter/nugget",
+    "tconstruct:tools/materials/pig_iron/block",
+    "tconstruct:tools/materials/pig_iron/ingot",
+    "tconstruct:tools/materials/pig_iron/nugget",
+    "tconstruct:tools/materials/quartz/block",
+    "tconstruct:tools/materials/quartz/gem",
+    "tconstruct:tools/materials/queens_slime/block",
+    "tconstruct:tools/materials/queens_slime/ingot",
+    "tconstruct:tools/materials/queens_slime/nugget",
+    "tconstruct:tools/materials/rose_gold/block",
+    "tconstruct:tools/materials/rose_gold/ingot",
+    "tconstruct:tools/materials/rose_gold/nugget",
+    "tconstruct:tools/materials/shulker",
+    "tconstruct:tools/materials/slimesteel/block",
+    "tconstruct:tools/materials/slimesteel/ingot",
+    "tconstruct:tools/materials/slimesteel/nugget",
+    "tconstruct:tools/materials/steel/block",
+    "tconstruct:tools/materials/steel/ingot",
+    "tconstruct:tools/materials/steel/nugget",
+    "tconstruct:tools/materials/steeleaf/block",
+    "tconstruct:tools/materials/steeleaf/ingot",
+    "tconstruct:tools/materials/steeleaf/nugget",
+    "tinkers_things:hematite/material/casting",
+    "tinkers_things:hematite/material/from_block",
+    "tinkers_things:hematite/material/from_shard",
+    "tinkers_things:hematite/material/melting",
+    "tinkers_things:silky_cloth_material"
+  ],
+  "overrides": [
+    {
+      "id": "tconstruct:smeltery/melting/quartz/ore_sparse",
+      "recipe": {
+        "type": "tconstruct:melting",
+        "conditions": [
+          {
+            "type": "mantle:tag_combination_filled",
+            "match": [
+              "forge:ores/quartz",
+              "forge:ore_rates/sparse"
+            ]
+          }
+        ],
+        "ingredient": {
+          "type": "forge:intersection",
+          "children": [
+            {
+              "tag": "forge:ores/quartz"
+            },
+            {
+              "tag": "forge:ore_rates/sparse"
+            }
+          ]
+        },
+        "result": {
+          "amount": 50,
+          "fluid": "tconstruct:molten_quartz"
+        },
+        "temperature": 637,
+        "time": 82
+      },
+      "reason": "Fixed ore yield; no machine multiplier or foundry byproducts"
+    },
+    {
+      "id": "tconstruct:smeltery/melting/quartz/ore_singular",
+      "recipe": {
+        "type": "tconstruct:melting",
+        "conditions": [
+          {
+            "type": "mantle:tag_combination_filled",
+            "ignore": "tconstruct:non_singular_ore_rates",
+            "match": "forge:ores/quartz"
+          }
+        ],
+        "ingredient": {
+          "type": "forge:difference",
+          "base": {
+            "tag": "forge:ores/quartz"
+          },
+          "subtracted": {
+            "tag": "tconstruct:non_singular_ore_rates"
+          }
+        },
+        "result": {
+          "amount": 100,
+          "fluid": "tconstruct:molten_quartz"
+        },
+        "temperature": 637,
+        "time": 137
+      },
+      "reason": "Fixed ore yield; no machine multiplier or foundry byproducts"
+    },
+    {
+      "id": "tconstruct:smeltery/melting/quartz/ore_dense",
+      "recipe": {
+        "type": "tconstruct:melting",
+        "conditions": [
+          {
+            "type": "mantle:tag_combination_filled",
+            "match": [
+              "forge:ores/quartz",
+              "forge:ore_rates/dense"
+            ]
+          }
+        ],
+        "ingredient": {
+          "type": "forge:intersection",
+          "children": [
+            {
+              "tag": "forge:ores/quartz"
+            },
+            {
+              "tag": "forge:ore_rates/dense"
+            }
+          ]
+        },
+        "result": {
+          "amount": 300,
+          "fluid": "tconstruct:molten_quartz"
+        },
+        "temperature": 637,
+        "time": 246
+      },
+      "reason": "Fixed ore yield; no machine multiplier or foundry byproducts"
+    },
+    {
+      "id": "tconstruct:smeltery/melting/emerald/ore_sparse",
+      "recipe": {
+        "type": "tconstruct:melting",
+        "conditions": [
+          {
+            "type": "mantle:tag_combination_filled",
+            "match": [
+              "forge:ores/emerald",
+              "forge:ore_rates/sparse"
+            ]
+          }
+        ],
+        "ingredient": {
+          "type": "forge:intersection",
+          "children": [
+            {
+              "tag": "forge:ores/emerald"
+            },
+            {
+              "tag": "forge:ore_rates/sparse"
+            }
+          ]
+        },
+        "result": {
+          "amount": 50,
+          "fluid": "tconstruct:molten_emerald"
+        },
+        "temperature": 934,
+        "time": 96
+      },
+      "reason": "Fixed ore yield; no machine multiplier or foundry byproducts"
+    },
+    {
+      "id": "tconstruct:smeltery/melting/emerald/ore_singular",
+      "recipe": {
+        "type": "tconstruct:melting",
+        "conditions": [
+          {
+            "type": "mantle:tag_combination_filled",
+            "ignore": "tconstruct:non_singular_ore_rates",
+            "match": "forge:ores/emerald"
+          }
+        ],
+        "ingredient": {
+          "type": "forge:difference",
+          "base": {
+            "tag": "forge:ores/emerald"
+          },
+          "subtracted": {
+            "tag": "tconstruct:non_singular_ore_rates"
+          }
+        },
+        "result": {
+          "amount": 100,
+          "fluid": "tconstruct:molten_emerald"
+        },
+        "temperature": 934,
+        "time": 161
+      },
+      "reason": "Fixed ore yield; no machine multiplier or foundry byproducts"
+    },
+    {
+      "id": "tconstruct:smeltery/melting/emerald/ore_dense",
+      "recipe": {
+        "type": "tconstruct:melting",
+        "conditions": [
+          {
+            "type": "mantle:tag_combination_filled",
+            "match": [
+              "forge:ores/emerald",
+              "forge:ore_rates/dense"
+            ]
+          }
+        ],
+        "ingredient": {
+          "type": "forge:intersection",
+          "children": [
+            {
+              "tag": "forge:ores/emerald"
+            },
+            {
+              "tag": "forge:ore_rates/dense"
+            }
+          ]
+        },
+        "result": {
+          "amount": 300,
+          "fluid": "tconstruct:molten_emerald"
+        },
+        "temperature": 934,
+        "time": 289
+      },
+      "reason": "Fixed ore yield; no machine multiplier or foundry byproducts"
+    },
+    {
+      "id": "tconstruct:smeltery/melting/amethyst/cluster",
+      "recipe": {
+        "type": "tconstruct:melting",
+        "ingredient": {
+          "item": "minecraft:amethyst_cluster"
+        },
+        "result": {
+          "amount": 400,
+          "fluid": "tconstruct:molten_amethyst"
+        },
+        "temperature": 950,
+        "time": 259
+      },
+      "reason": "Fixed ore yield; no machine multiplier or foundry byproducts"
+    },
+    {
+      "id": "tconstruct:smeltery/melting/amethyst/bud_large",
+      "recipe": {
+        "type": "tconstruct:melting",
+        "ingredient": {
+          "item": "minecraft:large_amethyst_bud"
+        },
+        "result": {
+          "amount": 300,
+          "fluid": "tconstruct:molten_amethyst"
+        },
+        "temperature": 950,
+        "time": 194
+      },
+      "reason": "Fixed ore yield; no machine multiplier or foundry byproducts"
+    },
+    {
+      "id": "tconstruct:smeltery/melting/amethyst/bud_small",
+      "recipe": {
+        "type": "tconstruct:melting",
+        "ingredient": {
+          "item": "minecraft:small_amethyst_bud"
+        },
+        "result": {
+          "amount": 100,
+          "fluid": "tconstruct:molten_amethyst"
+        },
+        "temperature": 950,
+        "time": 65
+      },
+      "reason": "Fixed ore yield; no machine multiplier or foundry byproducts"
+    },
+    {
+      "id": "tconstruct:smeltery/melting/amethyst/bud_medium",
+      "recipe": {
+        "type": "tconstruct:melting",
+        "ingredient": {
+          "item": "minecraft:medium_amethyst_bud"
+        },
+        "result": {
+          "amount": 200,
+          "fluid": "tconstruct:molten_amethyst"
+        },
+        "temperature": 950,
+        "time": 130
+      },
+      "reason": "Fixed ore yield; no machine multiplier or foundry byproducts"
+    },
+    {
+      "id": "tconstruct:smeltery/melting/diamond/ore_sparse",
+      "recipe": {
+        "type": "tconstruct:melting",
+        "conditions": [
+          {
+            "type": "mantle:tag_combination_filled",
+            "match": [
+              "forge:ores/diamond",
+              "forge:ore_rates/sparse"
+            ]
+          }
+        ],
+        "ingredient": {
+          "type": "forge:intersection",
+          "children": [
+            {
+              "tag": "forge:ores/diamond"
+            },
+            {
+              "tag": "forge:ore_rates/sparse"
+            }
+          ]
+        },
+        "result": {
+          "amount": 50,
+          "fluid": "tconstruct:molten_diamond"
+        },
+        "temperature": 1450,
+        "time": 118
+      },
+      "reason": "Fixed ore yield; no machine multiplier or foundry byproducts"
+    },
+    {
+      "id": "tconstruct:smeltery/melting/diamond/ore_singular",
+      "recipe": {
+        "type": "tconstruct:melting",
+        "conditions": [
+          {
+            "type": "mantle:tag_combination_filled",
+            "ignore": "tconstruct:non_singular_ore_rates",
+            "match": "forge:ores/diamond"
+          }
+        ],
+        "ingredient": {
+          "type": "forge:difference",
+          "base": {
+            "tag": "forge:ores/diamond"
+          },
+          "subtracted": {
+            "tag": "tconstruct:non_singular_ore_rates"
+          }
+        },
+        "result": {
+          "amount": 100,
+          "fluid": "tconstruct:molten_diamond"
+        },
+        "temperature": 1450,
+        "time": 197
+      },
+      "reason": "Fixed ore yield; no machine multiplier or foundry byproducts"
+    },
+    {
+      "id": "tconstruct:smeltery/melting/diamond/ore_dense",
+      "recipe": {
+        "type": "tconstruct:melting",
+        "conditions": [
+          {
+            "type": "mantle:tag_combination_filled",
+            "match": [
+              "forge:ores/diamond",
+              "forge:ore_rates/dense"
+            ]
+          }
+        ],
+        "ingredient": {
+          "type": "forge:intersection",
+          "children": [
+            {
+              "tag": "forge:ores/diamond"
+            },
+            {
+              "tag": "forge:ore_rates/dense"
+            }
+          ]
+        },
+        "result": {
+          "amount": 300,
+          "fluid": "tconstruct:molten_diamond"
+        },
+        "temperature": 1450,
+        "time": 355
+      },
+      "reason": "Fixed ore yield; no machine multiplier or foundry byproducts"
+    },
+    {
+      "id": "tconstruct:smeltery/melting/quartz/geore/cluster",
+      "recipe": {
+        "type": "tconstruct:melting",
+        "conditions": [
+          {
+            "type": "mantle:tag_filled",
+            "tag": "forge:geore_clusters/quartz"
+          }
+        ],
+        "ingredient": {
+          "tag": "forge:geore_clusters/quartz"
+        },
+        "result": {
+          "amount": 400,
+          "fluid": "tconstruct:molten_quartz"
+        },
+        "temperature": 637,
+        "time": 137
+      },
+      "reason": "Fixed ore yield; no machine multiplier or foundry byproducts"
+    },
+    {
+      "id": "tconstruct:smeltery/melting/quartz/geore/bud_large",
+      "recipe": {
+        "type": "tconstruct:melting",
+        "conditions": [
+          {
+            "type": "mantle:tag_filled",
+            "tag": "forge:geore_large_buds/quartz"
+          }
+        ],
+        "ingredient": {
+          "tag": "forge:geore_large_buds/quartz"
+        },
+        "result": {
+          "amount": 300,
+          "fluid": "tconstruct:molten_quartz"
+        },
+        "temperature": 637,
+        "time": 110
+      },
+      "reason": "Fixed ore yield; no machine multiplier or foundry byproducts"
+    },
+    {
+      "id": "tconstruct:smeltery/melting/quartz/geore/bud_small",
+      "recipe": {
+        "type": "tconstruct:melting",
+        "conditions": [
+          {
+            "type": "mantle:tag_filled",
+            "tag": "forge:geore_small_buds/quartz"
+          }
+        ],
+        "ingredient": {
+          "tag": "forge:geore_small_buds/quartz"
+        },
+        "result": {
+          "amount": 100,
+          "fluid": "tconstruct:molten_quartz"
+        },
+        "temperature": 637,
+        "time": 55
+      },
+      "reason": "Fixed ore yield; no machine multiplier or foundry byproducts"
+    },
+    {
+      "id": "tconstruct:smeltery/melting/quartz/geore/bud_medium",
+      "recipe": {
+        "type": "tconstruct:melting",
+        "conditions": [
+          {
+            "type": "mantle:tag_filled",
+            "tag": "forge:geore_medium_buds/quartz"
+          }
+        ],
+        "ingredient": {
+          "tag": "forge:geore_medium_buds/quartz"
+        },
+        "result": {
+          "amount": 200,
+          "fluid": "tconstruct:molten_quartz"
+        },
+        "temperature": 637,
+        "time": 82
+      },
+      "reason": "Fixed ore yield; no machine multiplier or foundry byproducts"
+    },
+    {
+      "id": "tconstruct:smeltery/melting/emerald/geore/cluster",
+      "recipe": {
+        "type": "tconstruct:melting",
+        "conditions": [
+          {
+            "type": "mantle:tag_filled",
+            "tag": "forge:geore_clusters/emerald"
+          }
+        ],
+        "ingredient": {
+          "tag": "forge:geore_clusters/emerald"
+        },
+        "result": {
+          "amount": 400,
+          "fluid": "tconstruct:molten_emerald"
+        },
+        "temperature": 934,
+        "time": 161
+      },
+      "reason": "Fixed ore yield; no machine multiplier or foundry byproducts"
+    },
+    {
+      "id": "tconstruct:smeltery/melting/emerald/geore/bud_large",
+      "recipe": {
+        "type": "tconstruct:melting",
+        "conditions": [
+          {
+            "type": "mantle:tag_filled",
+            "tag": "forge:geore_large_buds/emerald"
+          }
+        ],
+        "ingredient": {
+          "tag": "forge:geore_large_buds/emerald"
+        },
+        "result": {
+          "amount": 300,
+          "fluid": "tconstruct:molten_emerald"
+        },
+        "temperature": 934,
+        "time": 129
+      },
+      "reason": "Fixed ore yield; no machine multiplier or foundry byproducts"
+    },
+    {
+      "id": "tconstruct:smeltery/melting/emerald/geore/bud_small",
+      "recipe": {
+        "type": "tconstruct:melting",
+        "conditions": [
+          {
+            "type": "mantle:tag_filled",
+            "tag": "forge:geore_small_buds/emerald"
+          }
+        ],
+        "ingredient": {
+          "tag": "forge:geore_small_buds/emerald"
+        },
+        "result": {
+          "amount": 100,
+          "fluid": "tconstruct:molten_emerald"
+        },
+        "temperature": 934,
+        "time": 64
+      },
+      "reason": "Fixed ore yield; no machine multiplier or foundry byproducts"
+    },
+    {
+      "id": "tconstruct:smeltery/melting/emerald/geore/bud_medium",
+      "recipe": {
+        "type": "tconstruct:melting",
+        "conditions": [
+          {
+            "type": "mantle:tag_filled",
+            "tag": "forge:geore_medium_buds/emerald"
+          }
+        ],
+        "ingredient": {
+          "tag": "forge:geore_medium_buds/emerald"
+        },
+        "result": {
+          "amount": 200,
+          "fluid": "tconstruct:molten_emerald"
+        },
+        "temperature": 934,
+        "time": 96
+      },
+      "reason": "Fixed ore yield; no machine multiplier or foundry byproducts"
+    },
+    {
+      "id": "tconstruct:smeltery/melting/slime/earth/bud_large",
+      "recipe": {
+        "type": "tconstruct:melting",
+        "ingredient": {
+          "item": "tconstruct:large_earth_slime_crystal_bud"
+        },
+        "result": {
+          "amount": 750,
+          "tag": "forge:slime"
+        },
+        "temperature": 50,
+        "time": 62
+      },
+      "reason": "Fixed ore yield; no machine multiplier or foundry byproducts"
+    },
+    {
+      "id": "tconstruct:smeltery/melting/slime/earth/bud_small",
+      "recipe": {
+        "type": "tconstruct:melting",
+        "ingredient": {
+          "item": "tconstruct:small_earth_slime_crystal_bud"
+        },
+        "result": {
+          "amount": 250,
+          "tag": "forge:slime"
+        },
+        "temperature": 50,
+        "time": 31
+      },
+      "reason": "Fixed ore yield; no machine multiplier or foundry byproducts"
+    },
+    {
+      "id": "tconstruct:smeltery/melting/slime/earth/bud_medium",
+      "recipe": {
+        "type": "tconstruct:melting",
+        "ingredient": {
+          "item": "tconstruct:medium_earth_slime_crystal_bud"
+        },
+        "result": {
+          "amount": 500,
+          "tag": "forge:slime"
+        },
+        "temperature": 50,
+        "time": 46
+      },
+      "reason": "Fixed ore yield; no machine multiplier or foundry byproducts"
+    },
+    {
+      "id": "tconstruct:smeltery/melting/slime/earth/bud_cluster",
+      "recipe": {
+        "type": "tconstruct:melting",
+        "ingredient": {
+          "item": "tconstruct:earth_slime_crystal_cluster"
+        },
+        "result": {
+          "amount": 1000,
+          "tag": "forge:slime"
+        },
+        "temperature": 50,
+        "time": 77
+      },
+      "reason": "Fixed ore yield; no machine multiplier or foundry byproducts"
+    },
+    {
+      "id": "tconstruct:smeltery/melting/slime/ichor/bud_large",
+      "recipe": {
+        "type": "tconstruct:melting",
+        "ingredient": {
+          "item": "tconstruct:large_ichor_slime_crystal_bud"
+        },
+        "result": {
+          "amount": 30,
+          "fluid": "tconstruct:blazing_blood"
+        },
+        "temperature": 1500,
+        "time": 160
+      },
+      "reason": "Fixed ore yield; no machine multiplier or foundry byproducts"
+    },
+    {
+      "id": "tconstruct:smeltery/melting/slime/ichor/bud_small",
+      "recipe": {
+        "type": "tconstruct:melting",
+        "ingredient": {
+          "item": "tconstruct:small_ichor_slime_crystal_bud"
+        },
+        "result": {
+          "amount": 10,
+          "fluid": "tconstruct:blazing_blood"
+        },
+        "temperature": 1500,
+        "time": 80
+      },
+      "reason": "Fixed ore yield; no machine multiplier or foundry byproducts"
+    },
+    {
+      "id": "tconstruct:smeltery/melting/slime/ichor/bud_medium",
+      "recipe": {
+        "type": "tconstruct:melting",
+        "ingredient": {
+          "item": "tconstruct:medium_ichor_slime_crystal_bud"
+        },
+        "result": {
+          "amount": 20,
+          "fluid": "tconstruct:blazing_blood"
+        },
+        "temperature": 1500,
+        "time": 120
+      },
+      "reason": "Fixed ore yield; no machine multiplier or foundry byproducts"
+    },
+    {
+      "id": "tconstruct:smeltery/melting/slime/ichor/bud_cluster",
+      "recipe": {
+        "type": "tconstruct:melting",
+        "ingredient": {
+          "item": "tconstruct:ichor_slime_crystal_cluster"
+        },
+        "result": {
+          "amount": 40,
+          "fluid": "tconstruct:blazing_blood"
+        },
+        "temperature": 1500,
+        "time": 201
+      },
+      "reason": "Fixed ore yield; no machine multiplier or foundry byproducts"
+    },
+    {
+      "id": "tconstruct:smeltery/melting/slime/sky/bud_large",
+      "recipe": {
+        "type": "tconstruct:melting",
+        "ingredient": {
+          "item": "tconstruct:large_sky_slime_crystal_bud"
+        },
+        "result": {
+          "amount": 750,
+          "fluid": "tconstruct:sky_slime"
+        },
+        "temperature": 10,
+        "time": 57
+      },
+      "reason": "Fixed ore yield; no machine multiplier or foundry byproducts"
+    },
+    {
+      "id": "tconstruct:smeltery/melting/slime/sky/bud_small",
+      "recipe": {
+        "type": "tconstruct:melting",
+        "ingredient": {
+          "item": "tconstruct:small_sky_slime_crystal_bud"
+        },
+        "result": {
+          "amount": 250,
+          "fluid": "tconstruct:sky_slime"
+        },
+        "temperature": 10,
+        "time": 29
+      },
+      "reason": "Fixed ore yield; no machine multiplier or foundry byproducts"
+    },
+    {
+      "id": "tconstruct:smeltery/melting/slime/sky/bud_medium",
+      "recipe": {
+        "type": "tconstruct:melting",
+        "ingredient": {
+          "item": "tconstruct:medium_sky_slime_crystal_bud"
+        },
+        "result": {
+          "amount": 500,
+          "fluid": "tconstruct:sky_slime"
+        },
+        "temperature": 10,
+        "time": 43
+      },
+      "reason": "Fixed ore yield; no machine multiplier or foundry byproducts"
+    },
+    {
+      "id": "tconstruct:smeltery/melting/slime/sky/bud_cluster",
+      "recipe": {
+        "type": "tconstruct:melting",
+        "ingredient": {
+          "item": "tconstruct:sky_slime_crystal_cluster"
+        },
+        "result": {
+          "amount": 1000,
+          "fluid": "tconstruct:sky_slime"
+        },
+        "temperature": 10,
+        "time": 72
+      },
+      "reason": "Fixed ore yield; no machine multiplier or foundry byproducts"
+    },
+    {
+      "id": "tconstruct:smeltery/melting/slime/ender/bud_large",
+      "recipe": {
+        "type": "tconstruct:melting",
+        "ingredient": {
+          "item": "tconstruct:large_ender_slime_crystal_bud"
+        },
+        "result": {
+          "amount": 750,
+          "fluid": "tconstruct:ender_slime"
+        },
+        "temperature": 70,
+        "time": 64
+      },
+      "reason": "Fixed ore yield; no machine multiplier or foundry byproducts"
+    },
+    {
+      "id": "tconstruct:smeltery/melting/slime/ender/bud_small",
+      "recipe": {
+        "type": "tconstruct:melting",
+        "ingredient": {
+          "item": "tconstruct:small_ender_slime_crystal_bud"
+        },
+        "result": {
+          "amount": 250,
+          "fluid": "tconstruct:ender_slime"
+        },
+        "temperature": 70,
+        "time": 32
+      },
+      "reason": "Fixed ore yield; no machine multiplier or foundry byproducts"
+    },
+    {
+      "id": "tconstruct:smeltery/melting/slime/ender/bud_medium",
+      "recipe": {
+        "type": "tconstruct:melting",
+        "ingredient": {
+          "item": "tconstruct:medium_ender_slime_crystal_bud"
+        },
+        "result": {
+          "amount": 500,
+          "fluid": "tconstruct:ender_slime"
+        },
+        "temperature": 70,
+        "time": 48
+      },
+      "reason": "Fixed ore yield; no machine multiplier or foundry byproducts"
+    },
+    {
+      "id": "tconstruct:smeltery/melting/slime/ender/bud_cluster",
+      "recipe": {
+        "type": "tconstruct:melting",
+        "ingredient": {
+          "item": "tconstruct:ender_slime_crystal_cluster"
+        },
+        "result": {
+          "amount": 1000,
+          "fluid": "tconstruct:ender_slime"
+        },
+        "temperature": 70,
+        "time": 79
+      },
+      "reason": "Fixed ore yield; no machine multiplier or foundry byproducts"
+    },
+    {
+      "id": "tconstruct:smeltery/melting/metal/gold/nether_gold_ore",
+      "recipe": {
+        "type": "tconstruct:melting",
+        "ingredient": {
+          "item": "minecraft:nether_gold_ore"
+        },
+        "result": {
+          "amount": 90,
+          "tag": "forge:molten_gold"
+        },
+        "temperature": 700,
+        "time": 57
+      },
+      "reason": "Fixed ore yield; no machine multiplier or foundry byproducts"
+    },
+    {
+      "id": "tconstruct:smeltery/melting/metal/gold/gilded_blackstone",
+      "recipe": {
+        "type": "tconstruct:melting",
+        "ingredient": {
+          "item": "minecraft:gilded_blackstone"
+        },
+        "result": {
+          "amount": 30,
+          "tag": "forge:molten_gold"
+        },
+        "temperature": 700,
+        "time": 33
+      },
+      "reason": "Fixed ore yield; no machine multiplier or foundry byproducts"
+    },
+    {
+      "id": "tconstruct:smeltery/melting/metal/gold/raw_block",
+      "recipe": {
+        "type": "tconstruct:melting",
+        "ingredient": {
+          "tag": "forge:storage_blocks/raw_gold"
+        },
+        "result": {
+          "amount": 810,
+          "tag": "forge:molten_gold"
+        },
+        "temperature": 700,
+        "time": 341
+      },
+      "reason": "Fixed ore yield; no machine multiplier or foundry byproducts"
+    },
+    {
+      "id": "tconstruct:smeltery/melting/metal/gold/raw",
+      "recipe": {
+        "type": "tconstruct:melting",
+        "ingredient": {
+          "tag": "forge:raw_materials/gold"
+        },
+        "result": {
+          "amount": 90,
+          "tag": "forge:molten_gold"
+        },
+        "temperature": 700,
+        "time": 85
+      },
+      "reason": "Fixed ore yield; no machine multiplier or foundry byproducts"
+    },
+    {
+      "id": "tconstruct:smeltery/melting/metal/gold/ore_singular",
+      "recipe": {
+        "type": "tconstruct:melting",
+        "conditions": [
+          {
+            "type": "mantle:tag_combination_filled",
+            "ignore": "tconstruct:non_singular_ore_rates",
+            "match": "forge:ores/gold"
+          }
+        ],
+        "ingredient": {
+          "type": "forge:difference",
+          "base": {
+            "tag": "forge:ores/gold"
+          },
+          "subtracted": {
+            "tag": "tconstruct:non_singular_ore_rates"
+          }
+        },
+        "result": {
+          "amount": 90,
+          "tag": "forge:molten_gold"
+        },
+        "temperature": 700,
+        "time": 142
+      },
+      "reason": "Fixed ore yield; no machine multiplier or foundry byproducts"
+    },
+    {
+      "id": "tconstruct:smeltery/melting/metal/gold/ore_dense",
+      "recipe": {
+        "type": "tconstruct:melting",
+        "conditions": [
+          {
+            "type": "mantle:tag_combination_filled",
+            "match": [
+              "forge:ores/gold",
+              "forge:ore_rates/dense"
+            ]
+          }
+        ],
+        "ingredient": {
+          "type": "forge:intersection",
+          "children": [
+            {
+              "tag": "forge:ores/gold"
+            },
+            {
+              "tag": "forge:ore_rates/dense"
+            }
+          ]
+        },
+        "result": {
+          "amount": 270,
+          "tag": "forge:molten_gold"
+        },
+        "temperature": 700,
+        "time": 256
+      },
+      "reason": "Fixed ore yield; no machine multiplier or foundry byproducts"
+    },
+    {
+      "id": "tconstruct:smeltery/melting/metal/molten_debris/ore",
+      "recipe": {
+        "type": "tconstruct:melting",
+        "ingredient": {
+          "tag": "forge:ores/netherite_scrap"
+        },
+        "result": {
+          "amount": 45,
+          "fluid": "tconstruct:molten_debris"
+        },
+        "temperature": 1175,
+        "time": 143
+      },
+      "reason": "Fixed ore yield; no machine multiplier or foundry byproducts"
+    },
+    {
+      "id": "tconstruct:smeltery/melting/metal/copper/raw_block",
+      "recipe": {
+        "type": "tconstruct:melting",
+        "ingredient": {
+          "tag": "forge:storage_blocks/raw_copper"
+        },
+        "result": {
+          "amount": 810,
+          "tag": "forge:molten_copper"
+        },
+        "temperature": 500,
+        "time": 300
+      },
+      "reason": "Fixed ore yield; no machine multiplier or foundry byproducts"
+    },
+    {
+      "id": "tconstruct:smeltery/melting/metal/copper/ore_sparse",
+      "recipe": {
+        "type": "tconstruct:melting",
+        "conditions": [
+          {
+            "type": "mantle:tag_combination_filled",
+            "match": [
+              "forge:ores/copper",
+              "forge:ore_rates/sparse"
+            ]
+          }
+        ],
+        "ingredient": {
+          "type": "forge:intersection",
+          "children": [
+            {
+              "tag": "forge:ores/copper"
+            },
+            {
+              "tag": "forge:ore_rates/sparse"
+            }
+          ]
+        },
+        "result": {
+          "amount": 45,
+          "tag": "forge:molten_copper"
+        },
+        "temperature": 500,
+        "time": 75
+      },
+      "reason": "Fixed ore yield; no machine multiplier or foundry byproducts"
+    },
+    {
+      "id": "tconstruct:smeltery/melting/metal/copper/raw",
+      "recipe": {
+        "type": "tconstruct:melting",
+        "ingredient": {
+          "tag": "forge:raw_materials/copper"
+        },
+        "result": {
+          "amount": 90,
+          "tag": "forge:molten_copper"
+        },
+        "temperature": 500,
+        "time": 75
+      },
+      "reason": "Fixed ore yield; no machine multiplier or foundry byproducts"
+    },
+    {
+      "id": "tconstruct:smeltery/melting/metal/copper/ore_singular",
+      "recipe": {
+        "type": "tconstruct:melting",
+        "conditions": [
+          {
+            "type": "mantle:tag_combination_filled",
+            "ignore": "tconstruct:non_singular_ore_rates",
+            "match": "forge:ores/copper"
+          }
+        ],
+        "ingredient": {
+          "type": "forge:difference",
+          "base": {
+            "tag": "forge:ores/copper"
+          },
+          "subtracted": {
+            "tag": "tconstruct:non_singular_ore_rates"
+          }
+        },
+        "result": {
+          "amount": 90,
+          "tag": "forge:molten_copper"
+        },
+        "temperature": 500,
+        "time": 125
+      },
+      "reason": "Fixed ore yield; no machine multiplier or foundry byproducts"
+    },
+    {
+      "id": "tconstruct:smeltery/melting/metal/copper/ore_dense",
+      "recipe": {
+        "type": "tconstruct:melting",
+        "conditions": [
+          {
+            "type": "mantle:tag_combination_filled",
+            "match": [
+              "forge:ores/copper",
+              "forge:ore_rates/dense"
+            ]
+          }
+        ],
+        "ingredient": {
+          "type": "forge:intersection",
+          "children": [
+            {
+              "tag": "forge:ores/copper"
+            },
+            {
+              "tag": "forge:ore_rates/dense"
+            }
+          ]
+        },
+        "result": {
+          "amount": 270,
+          "tag": "forge:molten_copper"
+        },
+        "temperature": 500,
+        "time": 225
+      },
+      "reason": "Fixed ore yield; no machine multiplier or foundry byproducts"
+    },
+    {
+      "id": "tconstruct:smeltery/melting/metal/steel/raw_block",
+      "recipe": {
+        "type": "tconstruct:melting",
+        "conditions": [
+          {
+            "type": "mantle:tag_filled",
+            "tag": "forge:storage_blocks/raw_steel"
+          }
+        ],
+        "ingredient": {
+          "tag": "forge:storage_blocks/raw_steel"
+        },
+        "result": {
+          "amount": 810,
+          "tag": "forge:molten_steel"
+        },
+        "temperature": 950,
+        "time": 389
+      },
+      "reason": "Fixed ore yield; no machine multiplier or foundry byproducts"
+    },
+    {
+      "id": "tconstruct:smeltery/melting/metal/steel/raw",
+      "recipe": {
+        "type": "tconstruct:melting",
+        "conditions": [
+          {
+            "type": "mantle:tag_filled",
+            "tag": "forge:raw_materials/steel"
+          }
+        ],
+        "ingredient": {
+          "tag": "forge:raw_materials/steel"
+        },
+        "result": {
+          "amount": 90,
+          "tag": "forge:molten_steel"
+        },
+        "temperature": 950,
+        "time": 97
+      },
+      "reason": "Fixed ore yield; no machine multiplier or foundry byproducts"
+    },
+    {
+      "id": "tconstruct:smeltery/melting/metal/bronze/raw_block",
+      "recipe": {
+        "type": "tconstruct:melting",
+        "conditions": [
+          {
+            "type": "mantle:tag_filled",
+            "tag": "forge:storage_blocks/raw_bronze"
+          }
+        ],
+        "ingredient": {
+          "tag": "forge:storage_blocks/raw_bronze"
+        },
+        "result": {
+          "amount": 810,
+          "tag": "forge:molten_bronze"
+        },
+        "temperature": 700,
+        "time": 341
+      },
+      "reason": "Fixed ore yield; no machine multiplier or foundry byproducts"
+    },
+    {
+      "id": "tconstruct:smeltery/melting/metal/bronze/raw",
+      "recipe": {
+        "type": "tconstruct:melting",
+        "conditions": [
+          {
+            "type": "mantle:tag_filled",
+            "tag": "forge:raw_materials/bronze"
+          }
+        ],
+        "ingredient": {
+          "tag": "forge:raw_materials/bronze"
+        },
+        "result": {
+          "amount": 90,
+          "tag": "forge:molten_bronze"
+        },
+        "temperature": 700,
+        "time": 85
+      },
+      "reason": "Fixed ore yield; no machine multiplier or foundry byproducts"
+    },
+    {
+      "id": "tconstruct:smeltery/melting/metal/iron/raw_block",
+      "recipe": {
+        "type": "tconstruct:melting",
+        "ingredient": {
+          "tag": "forge:storage_blocks/raw_iron"
+        },
+        "result": {
+          "amount": 810,
+          "tag": "forge:molten_iron"
+        },
+        "temperature": 800,
+        "time": 361
+      },
+      "reason": "Fixed ore yield; no machine multiplier or foundry byproducts"
+    },
+    {
+      "id": "tconstruct:smeltery/melting/metal/iron/ore_sparse",
+      "recipe": {
+        "type": "tconstruct:melting",
+        "conditions": [
+          {
+            "type": "mantle:tag_combination_filled",
+            "match": [
+              "forge:ores/iron",
+              "forge:ore_rates/sparse"
+            ]
+          }
+        ],
+        "ingredient": {
+          "type": "forge:intersection",
+          "children": [
+            {
+              "tag": "forge:ores/iron"
+            },
+            {
+              "tag": "forge:ore_rates/sparse"
+            }
+          ]
+        },
+        "result": {
+          "amount": 45,
+          "tag": "forge:molten_iron"
+        },
+        "temperature": 800,
+        "time": 90
+      },
+      "reason": "Fixed ore yield; no machine multiplier or foundry byproducts"
+    },
+    {
+      "id": "tconstruct:smeltery/melting/metal/iron/raw",
+      "recipe": {
+        "type": "tconstruct:melting",
+        "ingredient": {
+          "tag": "forge:raw_materials/iron"
+        },
+        "result": {
+          "amount": 90,
+          "tag": "forge:molten_iron"
+        },
+        "temperature": 800,
+        "time": 90
+      },
+      "reason": "Fixed ore yield; no machine multiplier or foundry byproducts"
+    },
+    {
+      "id": "tconstruct:smeltery/melting/metal/iron/ore_singular",
+      "recipe": {
+        "type": "tconstruct:melting",
+        "conditions": [
+          {
+            "type": "mantle:tag_combination_filled",
+            "ignore": "tconstruct:non_singular_ore_rates",
+            "match": "forge:ores/iron"
+          }
+        ],
+        "ingredient": {
+          "type": "forge:difference",
+          "base": {
+            "tag": "forge:ores/iron"
+          },
+          "subtracted": {
+            "tag": "tconstruct:non_singular_ore_rates"
+          }
+        },
+        "result": {
+          "amount": 90,
+          "tag": "forge:molten_iron"
+        },
+        "temperature": 800,
+        "time": 150
+      },
+      "reason": "Fixed ore yield; no machine multiplier or foundry byproducts"
+    },
+    {
+      "id": "tconstruct:smeltery/melting/metal/iron/ore_dense",
+      "recipe": {
+        "type": "tconstruct:melting",
+        "conditions": [
+          {
+            "type": "mantle:tag_combination_filled",
+            "match": [
+              "forge:ores/iron",
+              "forge:ore_rates/dense"
+            ]
+          }
+        ],
+        "ingredient": {
+          "type": "forge:intersection",
+          "children": [
+            {
+              "tag": "forge:ores/iron"
+            },
+            {
+              "tag": "forge:ore_rates/dense"
+            }
+          ]
+        },
+        "result": {
+          "amount": 270,
+          "tag": "forge:molten_iron"
+        },
+        "temperature": 800,
+        "time": 271
+      },
+      "reason": "Fixed ore yield; no machine multiplier or foundry byproducts"
+    },
+    {
+      "id": "tconstruct:smeltery/melting/metal/cobalt/raw_block",
+      "recipe": {
+        "type": "tconstruct:melting",
+        "ingredient": {
+          "tag": "forge:storage_blocks/raw_cobalt"
+        },
+        "result": {
+          "amount": 810,
+          "tag": "forge:molten_cobalt"
+        },
+        "temperature": 950,
+        "time": 389
+      },
+      "reason": "Fixed ore yield; no machine multiplier or foundry byproducts"
+    },
+    {
+      "id": "tconstruct:smeltery/melting/metal/cobalt/ore_sparse",
+      "recipe": {
+        "type": "tconstruct:melting",
+        "conditions": [
+          {
+            "type": "mantle:tag_combination_filled",
+            "match": [
+              "forge:ores/cobalt",
+              "forge:ore_rates/sparse"
+            ]
+          }
+        ],
+        "ingredient": {
+          "type": "forge:intersection",
+          "children": [
+            {
+              "tag": "forge:ores/cobalt"
+            },
+            {
+              "tag": "forge:ore_rates/sparse"
+            }
+          ]
+        },
+        "result": {
+          "amount": 45,
+          "tag": "forge:molten_cobalt"
+        },
+        "temperature": 950,
+        "time": 97
+      },
+      "reason": "Fixed ore yield; no machine multiplier or foundry byproducts"
+    },
+    {
+      "id": "tconstruct:smeltery/melting/metal/cobalt/raw",
+      "recipe": {
+        "type": "tconstruct:melting",
+        "ingredient": {
+          "tag": "forge:raw_materials/cobalt"
+        },
+        "result": {
+          "amount": 90,
+          "tag": "forge:molten_cobalt"
+        },
+        "temperature": 950,
+        "time": 97
+      },
+      "reason": "Fixed ore yield; no machine multiplier or foundry byproducts"
+    },
+    {
+      "id": "tconstruct:smeltery/melting/metal/cobalt/ore_singular",
+      "recipe": {
+        "type": "tconstruct:melting",
+        "conditions": [
+          {
+            "type": "mantle:tag_combination_filled",
+            "ignore": "tconstruct:non_singular_ore_rates",
+            "match": "forge:ores/cobalt"
+          }
+        ],
+        "ingredient": {
+          "type": "forge:difference",
+          "base": {
+            "tag": "forge:ores/cobalt"
+          },
+          "subtracted": {
+            "tag": "tconstruct:non_singular_ore_rates"
+          }
+        },
+        "result": {
+          "amount": 90,
+          "tag": "forge:molten_cobalt"
+        },
+        "temperature": 950,
+        "time": 162
+      },
+      "reason": "Fixed ore yield; no machine multiplier or foundry byproducts"
+    },
+    {
+      "id": "tconstruct:smeltery/melting/metal/cobalt/ore_dense",
+      "recipe": {
+        "type": "tconstruct:melting",
+        "conditions": [
+          {
+            "type": "mantle:tag_combination_filled",
+            "match": [
+              "forge:ores/cobalt",
+              "forge:ore_rates/dense"
+            ]
+          }
+        ],
+        "ingredient": {
+          "type": "forge:intersection",
+          "children": [
+            {
+              "tag": "forge:ores/cobalt"
+            },
+            {
+              "tag": "forge:ore_rates/dense"
+            }
+          ]
+        },
+        "result": {
+          "amount": 270,
+          "tag": "forge:molten_cobalt"
+        },
+        "temperature": 950,
+        "time": 292
+      },
+      "reason": "Fixed ore yield; no machine multiplier or foundry byproducts"
+    },
+    {
+      "id": "tconstruct:smeltery/melting/metal/osmium/raw_block",
+      "recipe": {
+        "type": "tconstruct:melting",
+        "conditions": [
+          {
+            "type": "mantle:tag_filled",
+            "tag": "forge:storage_blocks/raw_osmium"
+          }
+        ],
+        "ingredient": {
+          "tag": "forge:storage_blocks/raw_osmium"
+        },
+        "result": {
+          "amount": 810,
+          "tag": "forge:molten_osmium"
+        },
+        "temperature": 975,
+        "time": 393
+      },
+      "reason": "Fixed ore yield; no machine multiplier or foundry byproducts"
+    },
+    {
+      "id": "tconstruct:smeltery/melting/metal/osmium/ore_sparse",
+      "recipe": {
+        "type": "tconstruct:melting",
+        "conditions": [
+          {
+            "type": "mantle:tag_combination_filled",
+            "match": [
+              "forge:ores/osmium",
+              "forge:ore_rates/sparse"
+            ]
+          }
+        ],
+        "ingredient": {
+          "type": "forge:intersection",
+          "children": [
+            {
+              "tag": "forge:ores/osmium"
+            },
+            {
+              "tag": "forge:ore_rates/sparse"
+            }
+          ]
+        },
+        "result": {
+          "amount": 45,
+          "tag": "forge:molten_osmium"
+        },
+        "temperature": 975,
+        "time": 98
+      },
+      "reason": "Fixed ore yield; no machine multiplier or foundry byproducts"
+    },
+    {
+      "id": "tconstruct:smeltery/melting/metal/osmium/raw",
+      "recipe": {
+        "type": "tconstruct:melting",
+        "conditions": [
+          {
+            "type": "mantle:tag_filled",
+            "tag": "forge:raw_materials/osmium"
+          }
+        ],
+        "ingredient": {
+          "tag": "forge:raw_materials/osmium"
+        },
+        "result": {
+          "amount": 90,
+          "tag": "forge:molten_osmium"
+        },
+        "temperature": 975,
+        "time": 98
+      },
+      "reason": "Fixed ore yield; no machine multiplier or foundry byproducts"
+    },
+    {
+      "id": "tconstruct:smeltery/melting/metal/osmium/ore_singular",
+      "recipe": {
+        "type": "tconstruct:melting",
+        "conditions": [
+          {
+            "type": "mantle:tag_combination_filled",
+            "ignore": "tconstruct:non_singular_ore_rates",
+            "match": "forge:ores/osmium"
+          }
+        ],
+        "ingredient": {
+          "type": "forge:difference",
+          "base": {
+            "tag": "forge:ores/osmium"
+          },
+          "subtracted": {
+            "tag": "tconstruct:non_singular_ore_rates"
+          }
+        },
+        "result": {
+          "amount": 90,
+          "tag": "forge:molten_osmium"
+        },
+        "temperature": 975,
+        "time": 164
+      },
+      "reason": "Fixed ore yield; no machine multiplier or foundry byproducts"
+    },
+    {
+      "id": "tconstruct:smeltery/melting/metal/osmium/ore_dense",
+      "recipe": {
+        "type": "tconstruct:melting",
+        "conditions": [
+          {
+            "type": "mantle:tag_combination_filled",
+            "match": [
+              "forge:ores/osmium",
+              "forge:ore_rates/dense"
+            ]
+          }
+        ],
+        "ingredient": {
+          "type": "forge:intersection",
+          "children": [
+            {
+              "tag": "forge:ores/osmium"
+            },
+            {
+              "tag": "forge:ore_rates/dense"
+            }
+          ]
+        },
+        "result": {
+          "amount": 270,
+          "tag": "forge:molten_osmium"
+        },
+        "temperature": 975,
+        "time": 295
+      },
+      "reason": "Fixed ore yield; no machine multiplier or foundry byproducts"
+    },
+    {
+      "id": "tconstruct:smeltery/melting/metal/aluminum/raw_block",
+      "recipe": {
+        "type": "tconstruct:melting",
+        "conditions": [
+          {
+            "type": "mantle:tag_filled",
+            "tag": "forge:storage_blocks/raw_aluminum"
+          }
+        ],
+        "ingredient": {
+          "tag": "forge:storage_blocks/raw_aluminum"
+        },
+        "result": {
+          "amount": 810,
+          "tag": "forge:molten_aluminum"
+        },
+        "temperature": 425,
+        "time": 283
+      },
+      "reason": "Fixed ore yield; no machine multiplier or foundry byproducts"
+    },
+    {
+      "id": "tconstruct:smeltery/melting/metal/aluminum/ore_sparse",
+      "recipe": {
+        "type": "tconstruct:melting",
+        "conditions": [
+          {
+            "type": "mantle:tag_combination_filled",
+            "match": [
+              "forge:ores/aluminum",
+              "forge:ore_rates/sparse"
+            ]
+          }
+        ],
+        "ingredient": {
+          "type": "forge:intersection",
+          "children": [
+            {
+              "tag": "forge:ores/aluminum"
+            },
+            {
+              "tag": "forge:ore_rates/sparse"
+            }
+          ]
+        },
+        "result": {
+          "amount": 45,
+          "tag": "forge:molten_aluminum"
+        },
+        "temperature": 425,
+        "time": 71
+      },
+      "reason": "Fixed ore yield; no machine multiplier or foundry byproducts"
+    },
+    {
+      "id": "tconstruct:smeltery/melting/metal/aluminum/raw",
+      "recipe": {
+        "type": "tconstruct:melting",
+        "conditions": [
+          {
+            "type": "mantle:tag_filled",
+            "tag": "forge:raw_materials/aluminum"
+          }
+        ],
+        "ingredient": {
+          "tag": "forge:raw_materials/aluminum"
+        },
+        "result": {
+          "amount": 90,
+          "tag": "forge:molten_aluminum"
+        },
+        "temperature": 425,
+        "time": 71
+      },
+      "reason": "Fixed ore yield; no machine multiplier or foundry byproducts"
+    },
+    {
+      "id": "tconstruct:smeltery/melting/metal/aluminum/ore_singular",
+      "recipe": {
+        "type": "tconstruct:melting",
+        "conditions": [
+          {
+            "type": "mantle:tag_combination_filled",
+            "ignore": "tconstruct:non_singular_ore_rates",
+            "match": "forge:ores/aluminum"
+          }
+        ],
+        "ingredient": {
+          "type": "forge:difference",
+          "base": {
+            "tag": "forge:ores/aluminum"
+          },
+          "subtracted": {
+            "tag": "tconstruct:non_singular_ore_rates"
+          }
+        },
+        "result": {
+          "amount": 90,
+          "tag": "forge:molten_aluminum"
+        },
+        "temperature": 425,
+        "time": 118
+      },
+      "reason": "Fixed ore yield; no machine multiplier or foundry byproducts"
+    },
+    {
+      "id": "tconstruct:smeltery/melting/metal/aluminum/ore_dense",
+      "recipe": {
+        "type": "tconstruct:melting",
+        "conditions": [
+          {
+            "type": "mantle:tag_combination_filled",
+            "match": [
+              "forge:ores/aluminum",
+              "forge:ore_rates/dense"
+            ]
+          }
+        ],
+        "ingredient": {
+          "type": "forge:intersection",
+          "children": [
+            {
+              "tag": "forge:ores/aluminum"
+            },
+            {
+              "tag": "forge:ore_rates/dense"
+            }
+          ]
+        },
+        "result": {
+          "amount": 270,
+          "tag": "forge:molten_aluminum"
+        },
+        "temperature": 425,
+        "time": 212
+      },
+      "reason": "Fixed ore yield; no machine multiplier or foundry byproducts"
+    },
+    {
+      "id": "tconstruct:smeltery/melting/metal/platinum/raw_block",
+      "recipe": {
+        "type": "tconstruct:melting",
+        "conditions": [
+          {
+            "type": "mantle:tag_filled",
+            "tag": "forge:storage_blocks/raw_platinum"
+          }
+        ],
+        "ingredient": {
+          "tag": "forge:storage_blocks/raw_platinum"
+        },
+        "result": {
+          "amount": 810,
+          "tag": "forge:molten_platinum"
+        },
+        "temperature": 970,
+        "time": 393
+      },
+      "reason": "Fixed ore yield; no machine multiplier or foundry byproducts"
+    },
+    {
+      "id": "tconstruct:smeltery/melting/metal/platinum/ore_sparse",
+      "recipe": {
+        "type": "tconstruct:melting",
+        "conditions": [
+          {
+            "type": "mantle:tag_combination_filled",
+            "match": [
+              "forge:ores/platinum",
+              "forge:ore_rates/sparse"
+            ]
+          }
+        ],
+        "ingredient": {
+          "type": "forge:intersection",
+          "children": [
+            {
+              "tag": "forge:ores/platinum"
+            },
+            {
+              "tag": "forge:ore_rates/sparse"
+            }
+          ]
+        },
+        "result": {
+          "amount": 45,
+          "tag": "forge:molten_platinum"
+        },
+        "temperature": 970,
+        "time": 98
+      },
+      "reason": "Fixed ore yield; no machine multiplier or foundry byproducts"
+    },
+    {
+      "id": "tconstruct:smeltery/melting/metal/platinum/raw",
+      "recipe": {
+        "type": "tconstruct:melting",
+        "conditions": [
+          {
+            "type": "mantle:tag_filled",
+            "tag": "forge:raw_materials/platinum"
+          }
+        ],
+        "ingredient": {
+          "tag": "forge:raw_materials/platinum"
+        },
+        "result": {
+          "amount": 90,
+          "tag": "forge:molten_platinum"
+        },
+        "temperature": 970,
+        "time": 98
+      },
+      "reason": "Fixed ore yield; no machine multiplier or foundry byproducts"
+    },
+    {
+      "id": "tconstruct:smeltery/melting/metal/platinum/ore_singular",
+      "recipe": {
+        "type": "tconstruct:melting",
+        "conditions": [
+          {
+            "type": "mantle:tag_combination_filled",
+            "ignore": "tconstruct:non_singular_ore_rates",
+            "match": "forge:ores/platinum"
+          }
+        ],
+        "ingredient": {
+          "type": "forge:difference",
+          "base": {
+            "tag": "forge:ores/platinum"
+          },
+          "subtracted": {
+            "tag": "tconstruct:non_singular_ore_rates"
+          }
+        },
+        "result": {
+          "amount": 90,
+          "tag": "forge:molten_platinum"
+        },
+        "temperature": 970,
+        "time": 164
+      },
+      "reason": "Fixed ore yield; no machine multiplier or foundry byproducts"
+    },
+    {
+      "id": "tconstruct:smeltery/melting/metal/platinum/ore_dense",
+      "recipe": {
+        "type": "tconstruct:melting",
+        "conditions": [
+          {
+            "type": "mantle:tag_combination_filled",
+            "match": [
+              "forge:ores/platinum",
+              "forge:ore_rates/dense"
+            ]
+          }
+        ],
+        "ingredient": {
+          "type": "forge:intersection",
+          "children": [
+            {
+              "tag": "forge:ores/platinum"
+            },
+            {
+              "tag": "forge:ore_rates/dense"
+            }
+          ]
+        },
+        "result": {
+          "amount": 270,
+          "tag": "forge:molten_platinum"
+        },
+        "temperature": 970,
+        "time": 294
+      },
+      "reason": "Fixed ore yield; no machine multiplier or foundry byproducts"
+    },
+    {
+      "id": "tconstruct:smeltery/melting/metal/gold/geore/cluster",
+      "recipe": {
+        "type": "tconstruct:melting",
+        "conditions": [
+          {
+            "type": "mantle:tag_filled",
+            "tag": "forge:geore_clusters/gold"
+          }
+        ],
+        "ingredient": {
+          "tag": "forge:geore_clusters/gold"
+        },
+        "result": {
+          "amount": 360,
+          "tag": "forge:molten_gold"
+        },
+        "temperature": 700,
+        "time": 142
+      },
+      "reason": "Fixed ore yield; no machine multiplier or foundry byproducts"
+    },
+    {
+      "id": "tconstruct:smeltery/melting/metal/gold/geore/bud_large",
+      "recipe": {
+        "type": "tconstruct:melting",
+        "conditions": [
+          {
+            "type": "mantle:tag_filled",
+            "tag": "forge:geore_large_buds/gold"
+          }
+        ],
+        "ingredient": {
+          "tag": "forge:geore_large_buds/gold"
+        },
+        "result": {
+          "amount": 270,
+          "tag": "forge:molten_gold"
+        },
+        "temperature": 700,
+        "time": 114
+      },
+      "reason": "Fixed ore yield; no machine multiplier or foundry byproducts"
+    },
+    {
+      "id": "tconstruct:smeltery/melting/metal/gold/geore/bud_small",
+      "recipe": {
+        "type": "tconstruct:melting",
+        "conditions": [
+          {
+            "type": "mantle:tag_filled",
+            "tag": "forge:geore_small_buds/gold"
+          }
+        ],
+        "ingredient": {
+          "tag": "forge:geore_small_buds/gold"
+        },
+        "result": {
+          "amount": 90,
+          "tag": "forge:molten_gold"
+        },
+        "temperature": 700,
+        "time": 57
+      },
+      "reason": "Fixed ore yield; no machine multiplier or foundry byproducts"
+    },
+    {
+      "id": "tconstruct:smeltery/melting/metal/gold/geore/bud_medium",
+      "recipe": {
+        "type": "tconstruct:melting",
+        "conditions": [
+          {
+            "type": "mantle:tag_filled",
+            "tag": "forge:geore_medium_buds/gold"
+          }
+        ],
+        "ingredient": {
+          "tag": "forge:geore_medium_buds/gold"
+        },
+        "result": {
+          "amount": 180,
+          "tag": "forge:molten_gold"
+        },
+        "temperature": 700,
+        "time": 85
+      },
+      "reason": "Fixed ore yield; no machine multiplier or foundry byproducts"
+    },
+    {
+      "id": "tconstruct:smeltery/melting/metal/copper/geore/cluster",
+      "recipe": {
+        "type": "tconstruct:melting",
+        "conditions": [
+          {
+            "type": "mantle:tag_filled",
+            "tag": "forge:geore_clusters/copper"
+          }
+        ],
+        "ingredient": {
+          "tag": "forge:geore_clusters/copper"
+        },
+        "result": {
+          "amount": 360,
+          "tag": "forge:molten_copper"
+        },
+        "temperature": 500,
+        "time": 125
+      },
+      "reason": "Fixed ore yield; no machine multiplier or foundry byproducts"
+    },
+    {
+      "id": "tconstruct:smeltery/melting/metal/copper/geore/bud_large",
+      "recipe": {
+        "type": "tconstruct:melting",
+        "conditions": [
+          {
+            "type": "mantle:tag_filled",
+            "tag": "forge:geore_large_buds/copper"
+          }
+        ],
+        "ingredient": {
+          "tag": "forge:geore_large_buds/copper"
+        },
+        "result": {
+          "amount": 270,
+          "tag": "forge:molten_copper"
+        },
+        "temperature": 500,
+        "time": 100
+      },
+      "reason": "Fixed ore yield; no machine multiplier or foundry byproducts"
+    },
+    {
+      "id": "tconstruct:smeltery/melting/metal/copper/geore/bud_small",
+      "recipe": {
+        "type": "tconstruct:melting",
+        "conditions": [
+          {
+            "type": "mantle:tag_filled",
+            "tag": "forge:geore_small_buds/copper"
+          }
+        ],
+        "ingredient": {
+          "tag": "forge:geore_small_buds/copper"
+        },
+        "result": {
+          "amount": 90,
+          "tag": "forge:molten_copper"
+        },
+        "temperature": 500,
+        "time": 50
+      },
+      "reason": "Fixed ore yield; no machine multiplier or foundry byproducts"
+    },
+    {
+      "id": "tconstruct:smeltery/melting/metal/copper/geore/bud_medium",
+      "recipe": {
+        "type": "tconstruct:melting",
+        "conditions": [
+          {
+            "type": "mantle:tag_filled",
+            "tag": "forge:geore_medium_buds/copper"
+          }
+        ],
+        "ingredient": {
+          "tag": "forge:geore_medium_buds/copper"
+        },
+        "result": {
+          "amount": 180,
+          "tag": "forge:molten_copper"
+        },
+        "temperature": 500,
+        "time": 75
+      },
+      "reason": "Fixed ore yield; no machine multiplier or foundry byproducts"
+    },
+    {
+      "id": "tconstruct:smeltery/melting/metal/iron/geore/cluster",
+      "recipe": {
+        "type": "tconstruct:melting",
+        "conditions": [
+          {
+            "type": "mantle:tag_filled",
+            "tag": "forge:geore_clusters/iron"
+          }
+        ],
+        "ingredient": {
+          "tag": "forge:geore_clusters/iron"
+        },
+        "result": {
+          "amount": 360,
+          "tag": "forge:molten_iron"
+        },
+        "temperature": 800,
+        "time": 150
+      },
+      "reason": "Fixed ore yield; no machine multiplier or foundry byproducts"
+    },
+    {
+      "id": "tconstruct:smeltery/melting/metal/iron/geore/bud_large",
+      "recipe": {
+        "type": "tconstruct:melting",
+        "conditions": [
+          {
+            "type": "mantle:tag_filled",
+            "tag": "forge:geore_large_buds/iron"
+          }
+        ],
+        "ingredient": {
+          "tag": "forge:geore_large_buds/iron"
+        },
+        "result": {
+          "amount": 270,
+          "tag": "forge:molten_iron"
+        },
+        "temperature": 800,
+        "time": 120
+      },
+      "reason": "Fixed ore yield; no machine multiplier or foundry byproducts"
+    },
+    {
+      "id": "tconstruct:smeltery/melting/metal/iron/geore/bud_small",
+      "recipe": {
+        "type": "tconstruct:melting",
+        "conditions": [
+          {
+            "type": "mantle:tag_filled",
+            "tag": "forge:geore_small_buds/iron"
+          }
+        ],
+        "ingredient": {
+          "tag": "forge:geore_small_buds/iron"
+        },
+        "result": {
+          "amount": 90,
+          "tag": "forge:molten_iron"
+        },
+        "temperature": 800,
+        "time": 60
+      },
+      "reason": "Fixed ore yield; no machine multiplier or foundry byproducts"
+    },
+    {
+      "id": "tconstruct:smeltery/melting/metal/iron/geore/bud_medium",
+      "recipe": {
+        "type": "tconstruct:melting",
+        "conditions": [
+          {
+            "type": "mantle:tag_filled",
+            "tag": "forge:geore_medium_buds/iron"
+          }
+        ],
+        "ingredient": {
+          "tag": "forge:geore_medium_buds/iron"
+        },
+        "result": {
+          "amount": 180,
+          "tag": "forge:molten_iron"
+        },
+        "temperature": 800,
+        "time": 90
+      },
+      "reason": "Fixed ore yield; no machine multiplier or foundry byproducts"
+    },
+    {
+      "id": "tconstruct:smeltery/melting/diamond/geore/cluster",
+      "recipe": {
+        "type": "tconstruct:melting",
+        "conditions": [
+          {
+            "type": "mantle:tag_filled",
+            "tag": "forge:geore_clusters/diamond"
+          }
+        ],
+        "ingredient": {
+          "tag": "forge:geore_clusters/diamond"
+        },
+        "result": {
+          "amount": 400,
+          "fluid": "tconstruct:molten_diamond"
+        },
+        "temperature": 1450,
+        "time": 197
+      },
+      "reason": "Fixed ore yield; no machine multiplier or foundry byproducts"
+    },
+    {
+      "id": "tconstruct:smeltery/melting/diamond/geore/bud_large",
+      "recipe": {
+        "type": "tconstruct:melting",
+        "conditions": [
+          {
+            "type": "mantle:tag_filled",
+            "tag": "forge:geore_large_buds/diamond"
+          }
+        ],
+        "ingredient": {
+          "tag": "forge:geore_large_buds/diamond"
+        },
+        "result": {
+          "amount": 300,
+          "fluid": "tconstruct:molten_diamond"
+        },
+        "temperature": 1450,
+        "time": 158
+      },
+      "reason": "Fixed ore yield; no machine multiplier or foundry byproducts"
+    },
+    {
+      "id": "tconstruct:smeltery/melting/diamond/geore/bud_small",
+      "recipe": {
+        "type": "tconstruct:melting",
+        "conditions": [
+          {
+            "type": "mantle:tag_filled",
+            "tag": "forge:geore_small_buds/diamond"
+          }
+        ],
+        "ingredient": {
+          "tag": "forge:geore_small_buds/diamond"
+        },
+        "result": {
+          "amount": 100,
+          "fluid": "tconstruct:molten_diamond"
+        },
+        "temperature": 1450,
+        "time": 79
+      },
+      "reason": "Fixed ore yield; no machine multiplier or foundry byproducts"
+    },
+    {
+      "id": "tconstruct:smeltery/melting/diamond/geore/bud_medium",
+      "recipe": {
+        "type": "tconstruct:melting",
+        "conditions": [
+          {
+            "type": "mantle:tag_filled",
+            "tag": "forge:geore_medium_buds/diamond"
+          }
+        ],
+        "ingredient": {
+          "tag": "forge:geore_medium_buds/diamond"
+        },
+        "result": {
+          "amount": 200,
+          "fluid": "tconstruct:molten_diamond"
+        },
+        "temperature": 1450,
+        "time": 118
+      },
+      "reason": "Fixed ore yield; no machine multiplier or foundry byproducts"
+    },
+    {
+      "id": "tconstruct:tools/modifiers/ability/expanded",
+      "recipe": {
+        "type": "tconstruct:modifier",
+        "allow_crystal": false,
+        "inputs": [
+          {
+            "item": "kubejs:upgrade_tconstruct_tools_modifiers_ability_expanded"
+          },
+          {
+            "tag": "forge:ingots/amethyst_bronze"
+          },
+          {
+            "item": "minecraft:piston"
+          },
+          {
+            "tag": "forge:slimeball/ichor"
+          },
+          {
+            "tag": "forge:slimeball/ichor"
+          }
+        ],
+        "result": "tconstruct:expanded",
+        "slots": {
+          "abilities": 1
+        },
+        "tools": {
+          "tag": "tconstruct:modifiable/aoe"
+        }
+      },
+      "reason": "GT HV modifier component; with standard costs and slots"
+    },
+    {
+      "id": "tconstruct:tools/modifiers/ability/silky",
+      "recipe": {
+        "type": "tconstruct:modifier",
+        "allow_crystal": false,
+        "check_trait_level": true,
+        "inputs": [
+          {
+            "item": "kubejs:upgrade_tconstruct_tools_modifiers_ability_silky"
+          },
+          {
+            "item": "tconstruct:silky_cloth"
+          },
+          {
+            "item": "tconstruct:silky_cloth"
+          },
+          {
+            "item": "tconstruct:silky_cloth"
+          },
+          {
+            "item": "tconstruct:silky_cloth"
+          }
+        ],
+        "level": 1,
+        "result": "tconstruct:silky",
+        "slots": {
+          "abilities": 1
+        },
+        "tools": {
+          "tag": "tconstruct:modifiable/harvest"
+        }
+      },
+      "reason": "GT MV modifier component; with standard costs and slots"
+    },
+    {
+      "id": "tconstruct:tools/modifiers/ability/unbreakable",
+      "recipe": {
+        "type": "tconstruct:modifier",
+        "allow_crystal": false,
+        "check_trait_level": true,
+        "inputs": [
+          {
+            "item": "kubejs:upgrade_tconstruct_tools_modifiers_ability_unbreakable"
+          },
+          {
+            "item": "minecraft:dragon_breath"
+          },
+          {
+            "item": "minecraft:shulker_shell"
+          },
+          {
+            "tag": "forge:ingots/netherite"
+          },
+          {
+            "tag": "forge:ingots/netherite"
+          }
+        ],
+        "level": 1,
+        "result": "tconstruct:unbreakable",
+        "slots": {
+          "abilities": 1
+        },
+        "tools": {
+          "tag": "tconstruct:modifiable/durability"
+        }
+      },
+      "reason": "GT EV modifier component; with standard costs and slots"
+    },
+    {
+      "id": "tconstruct:tools/modifiers/upgrade/emerald",
+      "recipe": {
+        "type": "tconstruct:modifier",
+        "allow_crystal": false,
+        "inputs": [
+          {
+            "item": "kubejs:upgrade_tconstruct_tools_modifiers_upgrade_emerald"
+          }
+        ],
+        "level": 1,
+        "result": "tconstruct:emerald",
+        "slots": {
+          "upgrades": 1
+        },
+        "tools": {
+          "tag": "tconstruct:modifiable/durability"
+        }
+      },
+      "reason": "GT LV modifier component; with standard costs and slots"
+    },
+    {
+      "id": "tconstruct:tools/modifiers/upgrade/soulbound",
+      "recipe": {
+        "type": "tconstruct:modifier",
+        "allow_crystal": false,
+        "inputs": [
+          {
+            "item": "kubejs:upgrade_tconstruct_tools_modifiers_upgrade_soulbound"
+          }
+        ],
+        "level": 1,
+        "result": "tconstruct:soulbound",
+        "slots": {
+          "upgrades": 1
+        },
+        "tools": {
+          "type": "forge:difference",
+          "base": {
+            "tag": "tconstruct:modifiable"
+          },
+          "subtracted": {
+            "tag": "tconstruct:modifiable/single_use"
+          }
+        }
+      },
+      "reason": "GT HV modifier component; with standard costs and slots"
+    },
+    {
+      "id": "tconstruct:tools/modifiers/upgrade/diamond",
+      "recipe": {
+        "type": "tconstruct:modifier",
+        "allow_crystal": false,
+        "inputs": [
+          {
+            "item": "kubejs:upgrade_tconstruct_tools_modifiers_upgrade_diamond"
+          }
+        ],
+        "level": 1,
+        "result": "tconstruct:diamond",
+        "slots": {
+          "upgrades": 1
+        },
+        "tools": {
+          "tag": "tconstruct:modifiable/durability"
+        }
+      },
+      "reason": "GT LV modifier component; with standard costs and slots"
+    },
+    {
+      "id": "tconstruct:tools/modifiers/upgrade/netherite",
+      "recipe": {
+        "type": "tconstruct:modifier",
+        "allow_crystal": false,
+        "inputs": [
+          {
+            "item": "kubejs:upgrade_tconstruct_tools_modifiers_upgrade_netherite"
+          },
+          {
+            "tag": "forge:ingots/netherite"
+          }
+        ],
+        "level": 1,
+        "result": "tconstruct:netherite",
+        "slots": {
+          "upgrades": 1
+        },
+        "tools": {
+          "tag": "tconstruct:modifiable/durability"
+        }
+      },
+      "reason": "GT MV modifier component; with standard costs and slots"
+    },
+    {
+      "id": "tconstruct:tools/modifiers/slotless/soulbound_ammo",
+      "recipe": {
+        "type": "tconstruct:modifier",
+        "allow_crystal": false,
+        "inputs": [
+          {
+            "item": "kubejs:upgrade_tconstruct_tools_modifiers_slotless_soulbound_ammo"
+          }
+        ],
+        "level": 1,
+        "result": "tconstruct:soulbound",
+        "tools": {
+          "tag": "tconstruct:modifiable/single_use"
+        }
+      },
+      "reason": "GT HV modifier component; with standard costs and slots"
+    },
+    {
+      "id": "tconstruct:tools/modifiers/upgrade/reinforced",
+      "recipe": {
+        "type": "tconstruct:incremental_modifier",
+        "allow_crystal": false,
+        "amount_per_item": 1,
+        "input": {
+          "item": "kubejs:reinforced_upgrade_component"
+        },
+        "level": {
+          "max": 5
+        },
+        "needed_per_level": 4,
+        "result": "tconstruct:reinforced",
+        "slots": {
+          "upgrades": 1
+        },
+        "tools": {
+          "tag": "tconstruct:modifiable/durability"
+        }
+      },
+      "reason": "MV reinforcement component"
+    }
+  ],
+  "protectedAlloys": [
+    "steel",
+    "brass",
+    "invar",
+    "constantan",
+    "electrum",
+    "aluminum",
+    "aluminium",
+    "stainless_steel",
+    "titanium",
+    "netherite",
+    "rose_gold"
+  ],
+  "gt": [
+    {
+      "id": "otg:tinkers/prepare/aquaculture_tinkers_neptunium",
+      "machine": "assembler",
+      "inputs": [
+        "1x aquaculture:neptunium_ingot"
+      ],
+      "outputs": [
+        "1x kubejs:prepared_aquaculture_tinkers_neptunium"
+      ],
+      "catalysts": [
+        "kubejs:hv_tooling_die"
+      ],
+      "duration": 200,
+      "EUt": 256,
+      "fluidInputs": [],
+      "optionalIngredient": {
+        "item": "aquaculture:neptunium_ingot"
+      }
+    },
+    {
+      "id": "otg:tinkers/prepare/tconstruct_aluminum",
+      "machine": "assembler",
+      "inputs": [
+        "1x #forge:ingots/aluminum"
+      ],
+      "outputs": [
+        "1x kubejs:prepared_tconstruct_aluminum"
+      ],
+      "catalysts": [
+        "kubejs:mv_tooling_die"
+      ],
+      "duration": 200,
+      "EUt": 64,
+      "fluidInputs": [],
+      "optionalIngredient": {
+        "tag": "forge:ingots/aluminum"
+      }
+    },
+    {
+      "id": "otg:tinkers/prepare/tconstruct_amethyst_bronze",
+      "machine": "assembler",
+      "inputs": [
+        "1x #forge:ingots/amethyst_bronze"
+      ],
+      "outputs": [
+        "1x kubejs:prepared_tconstruct_amethyst_bronze"
+      ],
+      "catalysts": [
+        "kubejs:lv_tooling_die"
+      ],
+      "duration": 200,
+      "EUt": 16,
+      "fluidInputs": [],
+      "optionalIngredient": {
+        "tag": "forge:ingots/amethyst_bronze"
+      }
+    },
+    {
+      "id": "otg:tinkers/prepare/tconstruct_ancient",
+      "machine": "assembler",
+      "inputs": [
+        "1x #forge:ingots/netherite_scrap"
+      ],
+      "outputs": [
+        "1x kubejs:prepared_tconstruct_ancient"
+      ],
+      "catalysts": [
+        "kubejs:ev_tooling_die"
+      ],
+      "duration": 200,
+      "EUt": 1024,
+      "fluidInputs": [],
+      "optionalIngredient": {
+        "tag": "forge:ingots/netherite_scrap"
+      }
+    },
+    {
+      "id": "otg:tinkers/prepare/tconstruct_blaze",
+      "machine": "assembler",
+      "inputs": [
+        "1x #forge:rods/blaze"
+      ],
+      "outputs": [
+        "1x kubejs:prepared_tconstruct_blaze"
+      ],
+      "catalysts": [
+        "kubejs:lv_tooling_die"
+      ],
+      "duration": 200,
+      "EUt": 16,
+      "fluidInputs": [],
+      "optionalIngredient": {
+        "tag": "forge:rods/blaze"
+      }
+    },
+    {
+      "id": "otg:tinkers/prepare/tconstruct_blazewood",
+      "machine": "assembler",
+      "inputs": [
+        "1x tconstruct:blazewood"
+      ],
+      "outputs": [
+        "1x kubejs:prepared_tconstruct_blazewood"
+      ],
+      "catalysts": [
+        "kubejs:hv_tooling_die"
+      ],
+      "duration": 200,
+      "EUt": 256,
+      "fluidInputs": [],
+      "optionalIngredient": {
+        "item": "tconstruct:blazewood"
+      }
+    },
+    {
+      "id": "otg:tinkers/prepare/tconstruct_blazing_bone",
+      "machine": "assembler",
+      "inputs": [
+        "1x tconstruct:blazing_bone"
+      ],
+      "outputs": [
+        "1x kubejs:prepared_tconstruct_blazing_bone"
+      ],
+      "catalysts": [
+        "kubejs:hv_tooling_die"
+      ],
+      "duration": 200,
+      "EUt": 256,
+      "fluidInputs": [],
+      "optionalIngredient": {
+        "item": "tconstruct:blazing_bone"
+      }
+    },
+    {
+      "id": "otg:tinkers/prepare/tconstruct_bronze",
+      "machine": "assembler",
+      "inputs": [
+        "1x #forge:ingots/bronze"
+      ],
+      "outputs": [
+        "1x kubejs:prepared_tconstruct_bronze"
+      ],
+      "catalysts": [
+        "kubejs:lv_tooling_die"
+      ],
+      "duration": 200,
+      "EUt": 16,
+      "fluidInputs": [],
+      "optionalIngredient": {
+        "tag": "forge:ingots/bronze"
+      }
+    },
+    {
+      "id": "otg:tinkers/prepare/tconstruct_cinderslime",
+      "machine": "assembler",
+      "inputs": [
+        "1x #forge:ingots/cinderslime"
+      ],
+      "outputs": [
+        "1x kubejs:prepared_tconstruct_cinderslime"
+      ],
+      "catalysts": [
+        "kubejs:hv_tooling_die"
+      ],
+      "duration": 200,
+      "EUt": 256,
+      "fluidInputs": [],
+      "optionalIngredient": {
+        "tag": "forge:ingots/cinderslime"
+      }
+    },
+    {
+      "id": "otg:tinkers/prepare/tconstruct_cobalt",
+      "machine": "assembler",
+      "inputs": [
+        "1x #forge:ingots/cobalt"
+      ],
+      "outputs": [
+        "1x kubejs:prepared_tconstruct_cobalt"
+      ],
+      "catalysts": [
+        "kubejs:mv_tooling_die"
+      ],
+      "duration": 200,
+      "EUt": 64,
+      "fluidInputs": [],
+      "optionalIngredient": {
+        "tag": "forge:ingots/cobalt"
+      }
+    },
+    {
+      "id": "otg:tinkers/prepare/tconstruct_constantan",
+      "machine": "assembler",
+      "inputs": [
+        "1x #forge:ingots/constantan"
+      ],
+      "outputs": [
+        "1x kubejs:prepared_tconstruct_constantan"
+      ],
+      "catalysts": [
+        "kubejs:lv_tooling_die"
+      ],
+      "duration": 200,
+      "EUt": 16,
+      "fluidInputs": [],
+      "optionalIngredient": {
+        "tag": "forge:ingots/constantan"
+      }
+    },
+    {
+      "id": "otg:tinkers/prepare/tconstruct_dragon_scale",
+      "machine": "assembler",
+      "inputs": [
+        "1x tconstruct:dragon_scale"
+      ],
+      "outputs": [
+        "1x kubejs:prepared_tconstruct_dragon_scale"
+      ],
+      "catalysts": [
+        "kubejs:hv_tooling_die"
+      ],
+      "duration": 200,
+      "EUt": 256,
+      "fluidInputs": [],
+      "optionalIngredient": {
+        "item": "tconstruct:dragon_scale"
+      }
+    },
+    {
+      "id": "otg:tinkers/prepare/tconstruct_electrum",
+      "machine": "assembler",
+      "inputs": [
+        "1x #forge:ingots/electrum"
+      ],
+      "outputs": [
+        "1x kubejs:prepared_tconstruct_electrum"
+      ],
+      "catalysts": [
+        "kubejs:lv_tooling_die"
+      ],
+      "duration": 200,
+      "EUt": 16,
+      "fluidInputs": [],
+      "optionalIngredient": {
+        "tag": "forge:ingots/electrum"
+      }
+    },
+    {
+      "id": "otg:tinkers/prepare/tconstruct_end_rod",
+      "machine": "assembler",
+      "inputs": [
+        "1x minecraft:end_rod"
+      ],
+      "outputs": [
+        "1x kubejs:prepared_tconstruct_end_rod"
+      ],
+      "catalysts": [
+        "kubejs:hv_tooling_die"
+      ],
+      "duration": 200,
+      "EUt": 256,
+      "fluidInputs": [],
+      "optionalIngredient": {
+        "item": "minecraft:end_rod"
+      }
+    },
+    {
+      "id": "otg:tinkers/prepare/tconstruct_ender_pearl",
+      "machine": "assembler",
+      "inputs": [
+        "1x #forge:ender_pearls"
+      ],
+      "outputs": [
+        "1x kubejs:prepared_tconstruct_ender_pearl"
+      ],
+      "catalysts": [
+        "kubejs:lv_tooling_die"
+      ],
+      "duration": 200,
+      "EUt": 16,
+      "fluidInputs": [],
+      "optionalIngredient": {
+        "tag": "forge:ender_pearls"
+      }
+    },
+    {
+      "id": "otg:tinkers/prepare/tconstruct_enderslime",
+      "machine": "assembler",
+      "inputs": [
+        "1x tconstruct:ender_slime_crystal"
+      ],
+      "outputs": [
+        "1x kubejs:prepared_tconstruct_enderslime"
+      ],
+      "catalysts": [
+        "kubejs:hv_tooling_die"
+      ],
+      "duration": 200,
+      "EUt": 256,
+      "fluidInputs": [],
+      "optionalIngredient": {
+        "item": "tconstruct:ender_slime_crystal"
+      }
+    },
+    {
+      "id": "otg:tinkers/prepare/tconstruct_enderslime_vine",
+      "machine": "assembler",
+      "inputs": [
+        "1x tconstruct:ender_slime_vine"
+      ],
+      "outputs": [
+        "1x kubejs:prepared_tconstruct_enderslime_vine"
+      ],
+      "catalysts": [
+        "kubejs:hv_tooling_die"
+      ],
+      "duration": 200,
+      "EUt": 256,
+      "fluidInputs": [],
+      "optionalIngredient": {
+        "item": "tconstruct:ender_slime_vine"
+      }
+    },
+    {
+      "id": "otg:tinkers/prepare/tconstruct_fiery",
+      "machine": "assembler",
+      "inputs": [
+        "1x #forge:ingots/fiery"
+      ],
+      "outputs": [
+        "1x kubejs:prepared_tconstruct_fiery"
+      ],
+      "catalysts": [
+        "kubejs:hv_tooling_die"
+      ],
+      "duration": 200,
+      "EUt": 256,
+      "fluidInputs": [],
+      "optionalIngredient": {
+        "tag": "forge:ingots/fiery"
+      }
+    },
+    {
+      "id": "otg:tinkers/prepare/tconstruct_glowstone",
+      "machine": "assembler",
+      "inputs": [
+        "1x minecraft:glowstone"
+      ],
+      "outputs": [
+        "1x kubejs:prepared_tconstruct_glowstone"
+      ],
+      "catalysts": [
+        "kubejs:lv_tooling_die"
+      ],
+      "duration": 200,
+      "EUt": 16,
+      "fluidInputs": [],
+      "optionalIngredient": {
+        "item": "minecraft:glowstone"
+      }
+    },
+    {
+      "id": "otg:tinkers/prepare/tconstruct_hepatizon",
+      "machine": "assembler",
+      "inputs": [
+        "1x #forge:ingots/hepatizon"
+      ],
+      "outputs": [
+        "1x kubejs:prepared_tconstruct_hepatizon"
+      ],
+      "catalysts": [
+        "kubejs:hv_tooling_die"
+      ],
+      "duration": 200,
+      "EUt": 256,
+      "fluidInputs": [],
+      "optionalIngredient": {
+        "tag": "forge:ingots/hepatizon"
+      }
+    },
+    {
+      "id": "otg:tinkers/prepare/tconstruct_ice",
+      "machine": "assembler",
+      "inputs": [
+        "1x minecraft:packed_ice"
+      ],
+      "outputs": [
+        "1x kubejs:prepared_tconstruct_ice"
+      ],
+      "catalysts": [
+        "kubejs:lv_tooling_die"
+      ],
+      "duration": 200,
+      "EUt": 16,
+      "fluidInputs": [],
+      "optionalIngredient": {
+        "item": "minecraft:packed_ice"
+      }
+    },
+    {
+      "id": "otg:tinkers/prepare/tconstruct_ichor",
+      "machine": "assembler",
+      "inputs": [
+        "1x tconstruct:ichor_slime_crystal"
+      ],
+      "outputs": [
+        "1x kubejs:prepared_tconstruct_ichor"
+      ],
+      "catalysts": [
+        "kubejs:lv_tooling_die"
+      ],
+      "duration": 200,
+      "EUt": 16,
+      "fluidInputs": [],
+      "optionalIngredient": {
+        "item": "tconstruct:ichor_slime_crystal"
+      }
+    },
+    {
+      "id": "otg:tinkers/prepare/tconstruct_invar",
+      "machine": "assembler",
+      "inputs": [
+        "1x #forge:ingots/invar"
+      ],
+      "outputs": [
+        "1x kubejs:prepared_tconstruct_invar"
+      ],
+      "catalysts": [
+        "kubejs:lv_tooling_die"
+      ],
+      "duration": 200,
+      "EUt": 16,
+      "fluidInputs": [],
+      "optionalIngredient": {
+        "tag": "forge:ingots/invar"
+      }
+    },
+    {
+      "id": "otg:tinkers/prepare/tconstruct_knightly",
+      "machine": "assembler",
+      "inputs": [
+        "1x #forge:raw_nuggets/knightmetal"
+      ],
+      "outputs": [
+        "1x kubejs:prepared_tconstruct_knightly"
+      ],
+      "catalysts": [
+        "kubejs:hv_tooling_die"
+      ],
+      "duration": 200,
+      "EUt": 256,
+      "fluidInputs": [],
+      "optionalIngredient": {
+        "tag": "forge:raw_nuggets/knightmetal"
+      }
+    },
+    {
+      "id": "otg:tinkers/prepare/tconstruct_knightmetal",
+      "machine": "assembler",
+      "inputs": [
+        "1x #forge:ingots/knightmetal"
+      ],
+      "outputs": [
+        "1x kubejs:prepared_tconstruct_knightmetal"
+      ],
+      "catalysts": [
+        "kubejs:hv_tooling_die"
+      ],
+      "duration": 200,
+      "EUt": 256,
+      "fluidInputs": [],
+      "optionalIngredient": {
+        "tag": "forge:ingots/knightmetal"
+      }
+    },
+    {
+      "id": "otg:tinkers/prepare/tconstruct_knightslime",
+      "machine": "assembler",
+      "inputs": [
+        "1x #forge:ingots/knightslime"
+      ],
+      "outputs": [
+        "1x kubejs:prepared_tconstruct_knightslime"
+      ],
+      "catalysts": [
+        "kubejs:hv_tooling_die"
+      ],
+      "duration": 200,
+      "EUt": 256,
+      "fluidInputs": [],
+      "optionalIngredient": {
+        "tag": "forge:ingots/knightslime"
+      }
+    },
+    {
+      "id": "otg:tinkers/prepare/tconstruct_kobold",
+      "machine": "assembler",
+      "inputs": [
+        "1x #forge:raw_nuggets/cobalt"
+      ],
+      "outputs": [
+        "1x kubejs:prepared_tconstruct_kobold"
+      ],
+      "catalysts": [
+        "kubejs:lv_tooling_die"
+      ],
+      "duration": 200,
+      "EUt": 16,
+      "fluidInputs": [],
+      "optionalIngredient": {
+        "tag": "forge:raw_nuggets/cobalt"
+      }
+    },
+    {
+      "id": "otg:tinkers/prepare/tconstruct_magma",
+      "machine": "assembler",
+      "inputs": [
+        "1x minecraft:magma_cream"
+      ],
+      "outputs": [
+        "1x kubejs:prepared_tconstruct_magma"
+      ],
+      "catalysts": [
+        "kubejs:lv_tooling_die"
+      ],
+      "duration": 200,
+      "EUt": 16,
+      "fluidInputs": [],
+      "optionalIngredient": {
+        "item": "minecraft:magma_cream"
+      }
+    },
+    {
+      "id": "otg:tinkers/prepare/tconstruct_magnetite",
+      "machine": "assembler",
+      "inputs": [
+        "1x #forge:raw_nuggets/steel"
+      ],
+      "outputs": [
+        "1x kubejs:prepared_tconstruct_magnetite"
+      ],
+      "catalysts": [
+        "kubejs:lv_tooling_die"
+      ],
+      "duration": 200,
+      "EUt": 16,
+      "fluidInputs": [],
+      "optionalIngredient": {
+        "tag": "forge:raw_nuggets/steel"
+      }
+    },
+    {
+      "id": "otg:tinkers/prepare/tconstruct_manyullyn",
+      "machine": "assembler",
+      "inputs": [
+        "1x #forge:ingots/manyullyn"
+      ],
+      "outputs": [
+        "1x kubejs:prepared_tconstruct_manyullyn"
+      ],
+      "catalysts": [
+        "kubejs:hv_tooling_die"
+      ],
+      "duration": 200,
+      "EUt": 256,
+      "fluidInputs": [],
+      "optionalIngredient": {
+        "tag": "forge:ingots/manyullyn"
+      }
+    },
+    {
+      "id": "otg:tinkers/prepare/tconstruct_nahuatl",
+      "machine": "assembler",
+      "inputs": [
+        "1x tconstruct:nahuatl"
+      ],
+      "outputs": [
+        "1x kubejs:prepared_tconstruct_nahuatl"
+      ],
+      "catalysts": [
+        "kubejs:lv_tooling_die"
+      ],
+      "duration": 200,
+      "EUt": 16,
+      "fluidInputs": [],
+      "optionalIngredient": {
+        "item": "tconstruct:nahuatl"
+      }
+    },
+    {
+      "id": "otg:tinkers/prepare/tconstruct_necronium",
+      "machine": "assembler",
+      "inputs": [
+        "1x tconstruct:necronium_bone"
+      ],
+      "outputs": [
+        "1x kubejs:prepared_tconstruct_necronium"
+      ],
+      "catalysts": [
+        "kubejs:lv_tooling_die"
+      ],
+      "duration": 200,
+      "EUt": 16,
+      "fluidInputs": [],
+      "optionalIngredient": {
+        "item": "tconstruct:necronium_bone"
+      }
+    },
+    {
+      "id": "otg:tinkers/prepare/tconstruct_nicrosil",
+      "machine": "assembler",
+      "inputs": [
+        "1x #forge:ingots/nicrosil"
+      ],
+      "outputs": [
+        "1x kubejs:prepared_tconstruct_nicrosil"
+      ],
+      "catalysts": [
+        "kubejs:hv_tooling_die"
+      ],
+      "duration": 200,
+      "EUt": 256,
+      "fluidInputs": [],
+      "optionalIngredient": {
+        "tag": "forge:ingots/nicrosil"
+      }
+    },
+    {
+      "id": "otg:tinkers/prepare/tconstruct_obsidian",
+      "machine": "assembler",
+      "inputs": [
+        "1x tconstruct:obsidian_pane"
+      ],
+      "outputs": [
+        "1x kubejs:prepared_tconstruct_obsidian"
+      ],
+      "catalysts": [
+        "kubejs:lv_tooling_die"
+      ],
+      "duration": 200,
+      "EUt": 16,
+      "fluidInputs": [],
+      "optionalIngredient": {
+        "item": "tconstruct:obsidian_pane"
+      }
+    },
+    {
+      "id": "otg:tinkers/prepare/tconstruct_pewter",
+      "machine": "assembler",
+      "inputs": [
+        "1x #forge:ingots/pewter"
+      ],
+      "outputs": [
+        "1x kubejs:prepared_tconstruct_pewter"
+      ],
+      "catalysts": [
+        "kubejs:lv_tooling_die"
+      ],
+      "duration": 200,
+      "EUt": 16,
+      "fluidInputs": [],
+      "optionalIngredient": {
+        "tag": "forge:ingots/pewter"
+      }
+    },
+    {
+      "id": "otg:tinkers/prepare/tconstruct_pig_iron",
+      "machine": "assembler",
+      "inputs": [
+        "1x #forge:ingots/pig_iron"
+      ],
+      "outputs": [
+        "1x kubejs:prepared_tconstruct_pig_iron"
+      ],
+      "catalysts": [
+        "kubejs:lv_tooling_die"
+      ],
+      "duration": 200,
+      "EUt": 16,
+      "fluidInputs": [],
+      "optionalIngredient": {
+        "tag": "forge:ingots/pig_iron"
+      }
+    },
+    {
+      "id": "otg:tinkers/prepare/tconstruct_plated_slimewood",
+      "machine": "assembler",
+      "inputs": [
+        "1x tconstruct:greenheart_planks",
+        "gtceu:brass_plate",
+        "minecraft:slime_ball"
+      ],
+      "outputs": [
+        "1x kubejs:prepared_tconstruct_plated_slimewood"
+      ],
+      "catalysts": [
+        "kubejs:lv_tooling_die"
+      ],
+      "duration": 200,
+      "EUt": 16,
+      "fluidInputs": [],
+      "optionalIngredient": {
+        "item": "tconstruct:greenheart_planks"
+      }
+    },
+    {
+      "id": "otg:tinkers/prepare/tconstruct_quartz",
+      "machine": "assembler",
+      "inputs": [
+        "1x #forge:gems/quartz"
+      ],
+      "outputs": [
+        "1x kubejs:prepared_tconstruct_quartz"
+      ],
+      "catalysts": [
+        "kubejs:lv_tooling_die"
+      ],
+      "duration": 200,
+      "EUt": 16,
+      "fluidInputs": [],
+      "optionalIngredient": {
+        "tag": "forge:gems/quartz"
+      }
+    },
+    {
+      "id": "otg:tinkers/prepare/tconstruct_queens_slime",
+      "machine": "assembler",
+      "inputs": [
+        "1x #forge:ingots/queens_slime"
+      ],
+      "outputs": [
+        "1x kubejs:prepared_tconstruct_queens_slime"
+      ],
+      "catalysts": [
+        "kubejs:hv_tooling_die"
+      ],
+      "duration": 200,
+      "EUt": 256,
+      "fluidInputs": [],
+      "optionalIngredient": {
+        "tag": "forge:ingots/queens_slime"
+      }
+    },
+    {
+      "id": "otg:tinkers/prepare/tconstruct_rose_gold",
+      "machine": "assembler",
+      "inputs": [
+        "1x #forge:ingots/rose_gold"
+      ],
+      "outputs": [
+        "1x kubejs:prepared_tconstruct_rose_gold"
+      ],
+      "catalysts": [
+        "kubejs:lv_tooling_die"
+      ],
+      "duration": 200,
+      "EUt": 16,
+      "fluidInputs": [],
+      "optionalIngredient": {
+        "tag": "forge:ingots/rose_gold"
+      }
+    },
+    {
+      "id": "otg:tinkers/prepare/tconstruct_shulker",
+      "machine": "assembler",
+      "inputs": [
+        "1x minecraft:shulker_shell"
+      ],
+      "outputs": [
+        "2x kubejs:prepared_tconstruct_shulker"
+      ],
+      "catalysts": [
+        "kubejs:hv_tooling_die"
+      ],
+      "duration": 200,
+      "EUt": 256,
+      "fluidInputs": [],
+      "optionalIngredient": {
+        "item": "minecraft:shulker_shell"
+      }
+    },
+    {
+      "id": "otg:tinkers/prepare/tconstruct_slimesteel",
+      "machine": "assembler",
+      "inputs": [
+        "1x #forge:ingots/slimesteel"
+      ],
+      "outputs": [
+        "1x kubejs:prepared_tconstruct_slimesteel"
+      ],
+      "catalysts": [
+        "kubejs:lv_tooling_die"
+      ],
+      "duration": 200,
+      "EUt": 16,
+      "fluidInputs": [],
+      "optionalIngredient": {
+        "tag": "forge:ingots/slimesteel"
+      }
+    },
+    {
+      "id": "otg:tinkers/prepare/tconstruct_steel",
+      "machine": "assembler",
+      "inputs": [
+        "1x #forge:ingots/steel"
+      ],
+      "outputs": [
+        "1x kubejs:prepared_tconstruct_steel"
+      ],
+      "catalysts": [
+        "kubejs:lv_tooling_die"
+      ],
+      "duration": 200,
+      "EUt": 16,
+      "fluidInputs": [],
+      "optionalIngredient": {
+        "tag": "forge:ingots/steel"
+      }
+    },
+    {
+      "id": "otg:tinkers/prepare/tconstruct_steeleaf",
+      "machine": "assembler",
+      "inputs": [
+        "1x #forge:ingots/steeleaf"
+      ],
+      "outputs": [
+        "1x kubejs:prepared_tconstruct_steeleaf"
+      ],
+      "catalysts": [
+        "kubejs:lv_tooling_die"
+      ],
+      "duration": 200,
+      "EUt": 16,
+      "fluidInputs": [],
+      "optionalIngredient": {
+        "tag": "forge:ingots/steeleaf"
+      }
+    },
+    {
+      "id": "otg:tinkers/prepare/tinkers_things_hematite",
+      "machine": "assembler",
+      "inputs": [
+        "1x tinkers_things:hematite"
+      ],
+      "outputs": [
+        "1x kubejs:prepared_tinkers_things_hematite"
+      ],
+      "catalysts": [
+        "kubejs:hv_tooling_die"
+      ],
+      "duration": 200,
+      "EUt": 256,
+      "fluidInputs": [],
+      "optionalIngredient": {
+        "item": "tinkers_things:hematite"
+      }
+    },
+    {
+      "id": "otg:tinkers/prepare/tinkers_things_silky_cloth",
+      "machine": "assembler",
+      "inputs": [
+        "1x tconstruct:silky_cloth"
+      ],
+      "outputs": [
+        "1x kubejs:prepared_tinkers_things_silky_cloth"
+      ],
+      "catalysts": [
+        "kubejs:lv_tooling_die"
+      ],
+      "duration": 200,
+      "EUt": 16,
+      "fluidInputs": [],
+      "optionalIngredient": {
+        "item": "tconstruct:silky_cloth"
+      }
+    },
+    {
+      "id": "otg:tinkers/prepare/otg_stainless_steel",
+      "machine": "assembler",
+      "inputs": [
+        "1x gtceu:stainless_steel_ingot"
+      ],
+      "outputs": [
+        "1x kubejs:prepared_otg_stainless_steel"
+      ],
+      "catalysts": [
+        "kubejs:hv_tooling_die"
+      ],
+      "duration": 200,
+      "EUt": 256,
+      "fluidInputs": [],
+      "optionalIngredient": {
+        "item": "gtceu:stainless_steel_ingot"
+      }
+    },
+    {
+      "id": "otg:tinkers/prepare/otg_titanium",
+      "machine": "assembler",
+      "inputs": [
+        "1x gtceu:titanium_ingot"
+      ],
+      "outputs": [
+        "1x kubejs:prepared_otg_titanium"
+      ],
+      "catalysts": [
+        "kubejs:ev_tooling_die"
+      ],
+      "duration": 200,
+      "EUt": 1024,
+      "fluidInputs": [],
+      "optionalIngredient": {
+        "item": "gtceu:titanium_ingot"
+      }
+    },
+    {
+      "id": "otg:tinkers/prepare/otg_sanguine_steel",
+      "machine": "assembler",
+      "inputs": [
+        "1x gtceu:steel_ingot",
+        "kubejs:stabilised_blood_reagent"
+      ],
+      "outputs": [
+        "1x kubejs:prepared_otg_sanguine_steel"
+      ],
+      "catalysts": [
+        "kubejs:mv_tooling_die"
+      ],
+      "duration": 200,
+      "EUt": 64,
+      "fluidInputs": [],
+      "optionalIngredient": {
+        "item": "gtceu:steel_ingot"
+      }
+    },
+    {
+      "id": "otg:tinkers/upgrade_tconstruct_tools_modifiers_ability_expanded",
+      "machine": "assembler",
+      "inputs": [
+        "minecraft:piston"
+      ],
+      "outputs": [
+        "kubejs:upgrade_tconstruct_tools_modifiers_ability_expanded"
+      ],
+      "catalysts": [
+        "kubejs:hv_tooling_die"
+      ],
+      "duration": 200,
+      "EUt": 256,
+      "fluidInputs": [],
+      "optionalIngredient": {
+        "item": "minecraft:piston"
+      }
+    },
+    {
+      "id": "otg:tinkers/upgrade_tconstruct_tools_modifiers_ability_silky",
+      "machine": "assembler",
+      "inputs": [
+        "tconstruct:silky_cloth"
+      ],
+      "outputs": [
+        "kubejs:upgrade_tconstruct_tools_modifiers_ability_silky"
+      ],
+      "catalysts": [
+        "kubejs:mv_tooling_die"
+      ],
+      "duration": 200,
+      "EUt": 64,
+      "fluidInputs": [],
+      "optionalIngredient": {
+        "item": "tconstruct:silky_cloth"
+      }
+    },
+    {
+      "id": "otg:tinkers/upgrade_tconstruct_tools_modifiers_ability_unbreakable",
+      "machine": "assembler",
+      "inputs": [
+        "minecraft:shulker_shell"
+      ],
+      "outputs": [
+        "kubejs:upgrade_tconstruct_tools_modifiers_ability_unbreakable"
+      ],
+      "catalysts": [
+        "kubejs:ev_tooling_die"
+      ],
+      "duration": 200,
+      "EUt": 1024,
+      "fluidInputs": [],
+      "optionalIngredient": {
+        "item": "minecraft:shulker_shell"
+      }
+    },
+    {
+      "id": "otg:tinkers/upgrade_tconstruct_tools_modifiers_upgrade_emerald",
+      "machine": "assembler",
+      "inputs": [
+        "#forge:gems/emerald"
+      ],
+      "outputs": [
+        "kubejs:upgrade_tconstruct_tools_modifiers_upgrade_emerald"
+      ],
+      "catalysts": [
+        "kubejs:lv_tooling_die"
+      ],
+      "duration": 200,
+      "EUt": 16,
+      "fluidInputs": [],
+      "optionalIngredient": {
+        "tag": "forge:gems/emerald"
+      }
+    },
+    {
+      "id": "otg:tinkers/upgrade_tconstruct_tools_modifiers_upgrade_soulbound",
+      "machine": "assembler",
+      "inputs": [
+        "minecraft:echo_shard"
+      ],
+      "outputs": [
+        "kubejs:upgrade_tconstruct_tools_modifiers_upgrade_soulbound"
+      ],
+      "catalysts": [
+        "kubejs:hv_tooling_die"
+      ],
+      "duration": 200,
+      "EUt": 256,
+      "fluidInputs": [],
+      "optionalIngredient": {
+        "item": "minecraft:echo_shard"
+      }
+    },
+    {
+      "id": "otg:tinkers/upgrade_tconstruct_tools_modifiers_upgrade_diamond",
+      "machine": "assembler",
+      "inputs": [
+        "#forge:gems/diamond"
+      ],
+      "outputs": [
+        "kubejs:upgrade_tconstruct_tools_modifiers_upgrade_diamond"
+      ],
+      "catalysts": [
+        "kubejs:lv_tooling_die"
+      ],
+      "duration": 200,
+      "EUt": 16,
+      "fluidInputs": [],
+      "optionalIngredient": {
+        "tag": "forge:gems/diamond"
+      }
+    },
+    {
+      "id": "otg:tinkers/upgrade_tconstruct_tools_modifiers_upgrade_netherite",
+      "machine": "assembler",
+      "inputs": [
+        "minecraft:netherite_upgrade_smithing_template"
+      ],
+      "outputs": [
+        "kubejs:upgrade_tconstruct_tools_modifiers_upgrade_netherite"
+      ],
+      "catalysts": [
+        "kubejs:mv_tooling_die"
+      ],
+      "duration": 200,
+      "EUt": 64,
+      "fluidInputs": [],
+      "optionalIngredient": {
+        "item": "minecraft:netherite_upgrade_smithing_template"
+      }
+    },
+    {
+      "id": "otg:tinkers/upgrade_tconstruct_tools_modifiers_slotless_soulbound_ammo",
+      "machine": "assembler",
+      "inputs": [
+        "minecraft:sculk_vein"
+      ],
+      "outputs": [
+        "kubejs:upgrade_tconstruct_tools_modifiers_slotless_soulbound_ammo"
+      ],
+      "catalysts": [
+        "kubejs:hv_tooling_die"
+      ],
+      "duration": 200,
+      "EUt": 256,
+      "fluidInputs": [],
+      "optionalIngredient": {
+        "item": "minecraft:sculk_vein"
+      }
+    },
+    {
+      "id": "otg:tinkers/tinkers_anvil",
+      "machine": "assembler",
+      "inputs": [
+        "3x gtceu:steel_block",
+        "4x tconstruct:seared_bricks"
+      ],
+      "outputs": [
+        "tconstruct:tinkers_anvil"
+      ],
+      "catalysts": [
+        "kubejs:lv_tooling_die"
+      ],
+      "duration": 400,
+      "EUt": 16,
+      "fluidInputs": []
+    },
+    {
+      "id": "otg:tinkers/scorched_anvil",
+      "machine": "assembler",
+      "inputs": [
+        "3x gtceu:steel_block",
+        "4x tconstruct:scorched_bricks"
+      ],
+      "outputs": [
+        "tconstruct:scorched_anvil"
+      ],
+      "catalysts": [
+        "kubejs:lv_tooling_die"
+      ],
+      "duration": 400,
+      "EUt": 16,
+      "fluidInputs": []
+    },
+    {
+      "id": "otg:tinkers/foundry_controller",
+      "machine": "assembler",
+      "inputs": [
+        "8x tconstruct:scorched_brick",
+        "gtceu:mv_machine_hull"
+      ],
+      "outputs": [
+        "tconstruct:foundry_controller"
+      ],
+      "catalysts": [
+        "kubejs:mv_tooling_die"
+      ],
+      "duration": 400,
+      "EUt": 64,
+      "fluidInputs": []
+    },
+    {
+      "id": "otg:tinkers/reinforced_upgrade_component",
+      "machine": "assembler",
+      "inputs": [
+        "tconstruct:emerald_reinforcement"
+      ],
+      "outputs": [
+        "kubejs:reinforced_upgrade_component"
+      ],
+      "catalysts": [
+        "kubejs:mv_tooling_die"
+      ],
+      "duration": 200,
+      "EUt": 64,
+      "fluidInputs": []
+    }
+  ],
+  "crafting": [
+    {
+      "id": "otg:tinkers/lv_die",
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "pattern": [
+          " P ",
+          "PCP",
+          " P "
+        ],
+        "key": {
+          "P": {
+            "item": "gtceu:steel_plate"
+          },
+          "C": {
+            "tag": "gtceu:circuits/lv"
+          }
+        },
+        "result": {
+          "item": "kubejs:lv_tooling_die"
+        }
+      }
+    },
+    {
+      "id": "otg:tinkers/mv_die",
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "pattern": [
+          " P ",
+          "PCP",
+          " P "
+        ],
+        "key": {
+          "P": {
+            "item": "gtceu:aluminium_plate"
+          },
+          "C": {
+            "tag": "gtceu:circuits/mv"
+          }
+        },
+        "result": {
+          "item": "kubejs:mv_tooling_die"
+        }
+      }
+    },
+    {
+      "id": "otg:tinkers/hv_die",
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "pattern": [
+          " P ",
+          "PCP",
+          " P "
+        ],
+        "key": {
+          "P": {
+            "item": "gtceu:stainless_steel_plate"
+          },
+          "C": {
+            "tag": "gtceu:circuits/hv"
+          }
+        },
+        "result": {
+          "item": "kubejs:hv_tooling_die"
+        }
+      }
+    },
+    {
+      "id": "otg:tinkers/ev_die",
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "pattern": [
+          " P ",
+          "PCP",
+          " P "
+        ],
+        "key": {
+          "P": {
+            "item": "gtceu:titanium_plate"
+          },
+          "C": {
+            "tag": "gtceu:circuits/ev"
+          }
+        },
+        "result": {
+          "item": "kubejs:ev_tooling_die"
+        }
+      }
+    },
+    {
+      "id": "otg:tinkers/seared_melter",
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "pattern": [
+          "BBB",
+          "BMB",
+          "BBB"
+        ],
+        "key": {
+          "B": {
+            "item": "tconstruct:seared_brick"
+          },
+          "M": {
+            "item": "create:andesite_alloy"
+          }
+        },
+        "result": {
+          "item": "tconstruct:seared_melter"
+        }
+      }
+    },
+    {
+      "id": "otg:tinkers/smeltery_controller",
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "pattern": [
+          "BCB",
+          "PMP",
+          "BBB"
+        ],
+        "key": {
+          "B": {
+            "item": "tconstruct:seared_brick"
+          },
+          "C": {
+            "item": "minecraft:copper_block"
+          },
+          "P": {
+            "item": "create:precision_mechanism"
+          },
+          "M": {
+            "item": "tconstruct:seared_melter"
+          }
+        },
+        "result": {
+          "item": "tconstruct:smeltery_controller"
+        }
+      }
+    },
+    {
+      "id": "otg:tinkers/scorched_alloyer",
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "pattern": [
+          "BCB",
+          "PMP",
+          "BBB"
+        ],
+        "key": {
+          "B": {
+            "item": "tconstruct:seared_brick"
+          },
+          "C": {
+            "item": "create:brass_casing"
+          },
+          "P": {
+            "item": "create:precision_mechanism"
+          },
+          "M": {
+            "item": "tconstruct:seared_melter"
+          }
+        },
+        "result": {
+          "item": "tconstruct:scorched_alloyer"
+        }
+      }
+    }
+  ],
+  "removeOutputs": [
+    "tconstruct:seared_melter",
+    "tconstruct:smeltery_controller",
+    "tconstruct:scorched_alloyer",
+    "tconstruct:tinkers_anvil",
+    "tconstruct:scorched_anvil",
+    "tconstruct:foundry_controller"
+  ],
+  "equipmentPolicy": "Tinkers is the main customizable equipment route. Remove AE2 ordinary quartz/fluix tools and GT swords. Keep vanilla equipment for bootstrap, automation and colonists; keep GT crafting/utility tools and unique magic, boss, fishing and powered equipment. Existing inventories are not confiscated.",
+  "equipmentBlocked": [
+    "ae2:certus_quartz_sword",
+    "ae2:certus_quartz_axe",
+    "ae2:certus_quartz_pickaxe",
+    "ae2:certus_quartz_shovel",
+    "ae2:certus_quartz_hoe",
+    "ae2:nether_quartz_sword",
+    "ae2:nether_quartz_axe",
+    "ae2:nether_quartz_pickaxe",
+    "ae2:nether_quartz_shovel",
+    "ae2:nether_quartz_hoe",
+    "ae2:fluix_sword",
+    "ae2:fluix_axe",
+    "ae2:fluix_pickaxe",
+    "ae2:fluix_shovel",
+    "ae2:fluix_hoe"
+  ]
+}

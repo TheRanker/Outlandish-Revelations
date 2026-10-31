@@ -1,0 +1,12 @@
+{
+  "name": "Keep the expedition organized",
+  "category": "patchouli:chapter_11",
+  "icon": "minecraft:ender_eye",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Decide who will summon the boss and which team is doing the encounter before starting. Keep the team arrangement stable through the fight.$(br2)Do not assume a quest reward or possession of a boss drop grants dimension access. Complete the required encounter, then make the trip."
+    }
+  ]
+}

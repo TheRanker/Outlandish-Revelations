@@ -1,0 +1,16 @@
+{
+  "name": "Multiblocks: inspect the whole structure",
+  "category": "patchouli:chapter_07",
+  "icon": "minecraft:redstone",
+  "sortnum": 6,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Use the machine’s structure information to place casings, hatches and other required blocks. Some processes also need particular coils, temperature, maintenance or environmental conditions."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "If a multiblock will not form, inspect the structure before changing the recipe. If it forms but will not run, inspect the operating requirements and every input and output.$(br2)Ready for the next tier: you can sustain the current one and have identified the new material or process that actually opens the next project."
+    }
+  ]
+}

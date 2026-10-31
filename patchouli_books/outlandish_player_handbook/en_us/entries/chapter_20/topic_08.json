@@ -1,0 +1,12 @@
+{
+  "name": "Reinforce Important Walls",
+  "category": "patchouli:chapter_20",
+  "icon": "minecraft:bricks",
+  "sortnum": 8,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Use a Universal Block Reinforcer on supported blocks to protect important parts of your base. Begin with a small test wall. Keep ownership consistent so the person maintaining the base can manage the reinforced blocks."
+    }
+  ]
+}
