@@ -1,0 +1,38 @@
+{
+  "parent": "quest_giver:quest_05",
+  "repeatable": false,
+  "icon": "minecraft:paper",
+  "start": {
+    "title": {
+      "translate": "Names Before Numbers"
+    },
+    "description": {
+      "translate": "Twelve sheets of paper will let me restore the refuge register and copy the witness notes. Names first, supplies second. No one who sheltered here is becoming a tally mark in another report. Hand the materials to me one at a time."
+    }
+  },
+  "tasks": [
+    {
+      "id": "quest_giver:gift",
+      "item": {
+        "item": "minecraft:paper"
+      },
+      "entity": "minecraft:villager",
+      "name": "Captain Edda Thorne",
+      "times": 12
+    }
+  ],
+  "complete": {
+    "title": {
+      "translate": "Names Before Numbers"
+    },
+    "description": {
+      "translate": "The ring he entrusted to me is still guarded. It is not payment for repairing a building. What you have earned is my willingness to hear you, and to speak honestly in return."
+    }
+  },
+  "rewards": [
+    {
+      "id": "quest_giver:command",
+      "command": "execute at @s run function outlandish:story/edda_thorne/delivery_06"
+    }
+  ]
+}

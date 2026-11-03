@@ -1,0 +1,38 @@
+{
+  "parent": "quest_giver:quest_02",
+  "repeatable": false,
+  "icon": "minecraft:copper_ingot",
+  "start": {
+    "title": {
+      "translate": "The Fittings We Can Restore"
+    },
+    "description": {
+      "translate": "Bring twelve copper ingots for the worn instrument fittings. We can restore the tools of study without pretending we can recreate the blade from a few surviving sketches. Hand the materials to me one at a time."
+    }
+  },
+  "tasks": [
+    {
+      "id": "quest_giver:gift",
+      "item": {
+        "item": "minecraft:copper_ingot"
+      },
+      "entity": "minecraft:villager",
+      "name": "Cassian Ashfall",
+      "times": 12
+    }
+  ],
+  "complete": {
+    "title": {
+      "translate": "The Fittings We Can Restore"
+    },
+    "description": {
+      "translate": "The Ranker carried Tears for Fears into that battle before its greater purpose had been fulfilled. Raw strength and a finished promise are not the same thing."
+    }
+  },
+  "rewards": [
+    {
+      "id": "quest_giver:command",
+      "command": "execute at @s run function outlandish:story/cassian_ashfall/delivery_03"
+    }
+  ]
+}

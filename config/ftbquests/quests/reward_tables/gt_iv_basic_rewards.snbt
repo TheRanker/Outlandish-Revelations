@@ -1,0 +1,12 @@
+{
+	id: "5611EEDC12552B9E"
+	loot_size: 1
+	order_index: 30
+	rewards: [
+		{ count: 8, item: "minecraft:iron_block" }
+		{ count: 8, item: "minecraft:redstone_block" }
+		{ count: 32, item: "minecraft:gold_ingot" }
+		{ count: 32, item: "minecraft:cooked_beef" }
+	]
+	title: "GT IV Basic Rewards"
+}

@@ -1,0 +1,28 @@
+# Changelog
+
+## Unreleased — development after 5.0
+
+- Add The Unfinished Promise: twelve NPC arcs, personal completion advancements,
+  linked FTB quests and distinct structures with event-driven restoration stages.
+- Preserve Garrick's tested five-quest forge and anvil repair behavior.
+- Configure five Nether arcs for Incendium outside the Infernal Dunes, and an
+  outer-island research station for Nullscape without occupying the dragon island.
+- Add Elyndra's Twilight woodland refuge and story continuation.
+- Cross-reference 54 FTB chapters, 1,911 quests, 33 reward tables and 81 NPC quests;
+  improve story guidance and distinguish the combat finale from parallel NPC completion.
+- Correct missing Ponder registry closure and old Tinkers basin/table item IDs.
+- Add The World Remembers recognition, personal plaque rendering and UUID/date
+  record interface. Ceremony completion remains disabled until the real ceremony
+  and memorial anchor are integrated.
+- Retain existing team dimension gates, relic art/IDs/sonic behavior, boss rewards
+  and the unfinished Blood Magic memorial design.
+- Restore FTB/Paxi source tracking, remove conflicted ignore rules, include menu
+  resources and record current CurseForge dependency pins.
+- Add portable validation, mocked personal-record tests and a local export helper.
+
+Known follow-up: multiplayer acceptance tests, new-arc playthroughs, memorial and
+ceremony integration, and differentiating 17 currently identical basic reward tables.
+
+## 5.0
+
+Initial CurseForge release. The existing Git history is retained as the baseline.

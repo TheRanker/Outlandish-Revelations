@@ -1,0 +1,39 @@
+{
+  id: "E17D000000000001"
+  filename: "a_promise_freely_given"
+  group: "671F319DF12B461D"
+  order_index: 12
+  title: "A Promise Freely Given"
+  quests: [{
+    id: "E17D000000000002"
+    title: "The Choice Remains Yours"
+    description: [
+  "Search Twilight Forest's clearings and ordinary woodland biomes for Elyndra's refuge. A team member entering the End unlocks access; Twilight's own boss progression still applies.",
+  "",
+  "Use a Quest Scroll to speak with Elyndra. Complete this NPC's 7 deliveries in Quest Giver; this FTB quest tracks the final personal completion advancement.",
+  "Give the requested materials to the named NPC one at a time. Each accepted delivery repairs part of that nearby building. A player-placed block at a repair site is preserved.",
+  "",
+  "Deliveries, in order:",
+  "1. Roots Beneath the Refuge: 16 Mossy Stone Bricks.",
+  "2. A Roof Among the Leaves: 16 Oak Planks.",
+  "3. Room for Something Living: 6 Azalea.",
+  "4. Rest Without a Price: 8 White Wool.",
+  "5. A Clear Place to Read: 8 Glass.",
+  "6. Keep the Meaning With the Words: 12 Paper.",
+  "7. A Promise Freely Given: 4 Lantern.",
+  "",
+  "Each storyline is one-time per player across every copy of that NPC. Finding another building does not restart it. If you change buildings midway, earlier repairs do not move to the new copy.",
+  "Story benefits: restore the building, hear the next part of The Unfinished Promise and record your personal completion. This FTB entry adds no separate item reward. Existing FTB team sharing may complete the tracker for teammates; their personal NPC history remains separate.",
+  "When ready, face the Hovering Inferno in the Infernal Dunes and recover Tears for Fears. This restoration does not perform a sword awakening or award the ring."
+]
+    icon: "minecraft:azalea"
+    x: 0.0d
+    y: 0.0d
+    tasks: [{
+      id: "E17D000000000003"
+      type: "advancement"
+      advancement: "outlandish:story/elyndra_completed"
+      criterion: ""
+    }]
+  }]
+}

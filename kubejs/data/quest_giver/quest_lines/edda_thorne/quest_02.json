@@ -1,0 +1,38 @@
+{
+  "parent": "quest_giver:quest_01",
+  "repeatable": false,
+  "icon": "minecraft:spruce_planks",
+  "start": {
+    "title": {
+      "translate": "A Sound Place to Stand"
+    },
+    "description": {
+      "translate": "Bring sixteen spruce planks. The upper gallery has gaps, and the watch room has lost part of its shelter. Before I ask anyone to keep watch, they need a safe place to stand. Hand the materials to me one at a time."
+    }
+  },
+  "tasks": [
+    {
+      "id": "quest_giver:gift",
+      "item": {
+        "item": "minecraft:spruce_planks"
+      },
+      "entity": "minecraft:villager",
+      "name": "Captain Edda Thorne",
+      "times": 16
+    }
+  ],
+  "complete": {
+    "title": {
+      "translate": "A Sound Place to Stand"
+    },
+    "description": {
+      "translate": "Mara's safety ledger was not a formality. I signed it because lives depended on those inspections. When the Hearth Engine failed, the signatures survived more neatly than the people who trusted them."
+    }
+  },
+  "rewards": [
+    {
+      "id": "quest_giver:command",
+      "command": "execute at @s run function outlandish:story/edda_thorne/delivery_02"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "icon": "minecraft:poppy",
+  "repeatable": false,
+  "start": {
+    "title": {
+      "translate": "A Door Left Open"
+    },
+    "description": {
+      "translate": "Edda still keeps the watch? Then some promises survived. I am Sister Ysra Vale. This sanctuary was built for people who had nowhere else to go. Before we speak of the Concord's losses, help me make room for those still living."
+    }
+  }
+}

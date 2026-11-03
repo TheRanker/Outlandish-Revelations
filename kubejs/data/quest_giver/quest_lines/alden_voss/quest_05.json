@@ -1,0 +1,38 @@
+{
+  "parent": "quest_giver:quest_04",
+  "repeatable": false,
+  "icon": "minecraft:paper",
+  "start": {
+    "title": {
+      "translate": "The Pages We Kept"
+    },
+    "description": {
+      "translate": "Bring twelve sheets of paper. I will copy the surviving observations and restore the reference shelves. Knowledge that exists in only one damaged notebook is knowledge waiting to disappear. Hand the materials to me one at a time."
+    }
+  },
+  "tasks": [
+    {
+      "id": "quest_giver:gift",
+      "item": {
+        "item": "minecraft:paper"
+      },
+      "entity": "minecraft:villager",
+      "name": "Professor Alden Voss",
+      "times": 12
+    }
+  ],
+  "complete": {
+    "title": {
+      "translate": "The Pages We Kept"
+    },
+    "description": {
+      "translate": "The records disagree about the cause, but agree about the sound: a bell beneath the earth. I will not disguise that uncertainty as an answer."
+    }
+  },
+  "rewards": [
+    {
+      "id": "quest_giver:command",
+      "command": "execute at @s run function outlandish:story/alden_voss/delivery_05"
+    }
+  ]
+}

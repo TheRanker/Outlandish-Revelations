@@ -1,0 +1,13 @@
+{
+	id: "517CB2DAB0515A50"
+	loot_size: 1
+	order_index: 13
+	rewards: [
+		{ count: 32, item: "minecraft:torch" }
+		{ count: 16, item: "minecraft:coal" }
+		{ count: 12, item: "minecraft:copper_ingot" }
+		{ count: 8, item: "minecraft:cooked_porkchop" }
+	]
+	title: "AE2 Medium Reward Bag"
+	use_title: true
+}

@@ -1,0 +1,38 @@
+{
+  "parent": "quest_giver:quest_06",
+  "repeatable": false,
+  "icon": "minecraft:soul_lantern",
+  "start": {
+    "title": {
+      "translate": "The Last Watchfire"
+    },
+    "description": {
+      "translate": "Four soul lanterns for the shelter and signal tower. Let this watchpost serve the living again. Remembering a loss should not be the only thing we know how to do. Hand the materials to me one at a time."
+    }
+  },
+  "tasks": [
+    {
+      "id": "quest_giver:gift",
+      "item": {
+        "item": "minecraft:soul_lantern"
+      },
+      "entity": "minecraft:villager",
+      "name": "Valen Cinderwatch",
+      "times": 4
+    }
+  ],
+  "complete": {
+    "title": {
+      "translate": "The Last Watchfire"
+    },
+    "description": {
+      "translate": "The lights are back. Seek A.U.R.A. when your path opens into the End. The Hovering Inferno still holds the stolen blade, and your final challenge lies ahead. What you choose to protect will matter as much as what you can defeat."
+    }
+  },
+  "rewards": [
+    {
+      "id": "quest_giver:command",
+      "command": "execute at @s run function outlandish:story/valen_cinderwatch/delivery_07"
+    }
+  ]
+}

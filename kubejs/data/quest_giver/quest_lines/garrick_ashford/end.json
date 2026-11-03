@@ -1,0 +1,12 @@
+
+{
+  "icon": "minecraft:anvil",
+  "start": {
+    "title": {
+      "translate": "The Forge Burns Again"
+    },
+    "description": {
+      "translate": "Still standing, aren't we? Not bad for a pair of stubborn fools. The forge is yours to visit whenever you like. And if you hear that bell beneath the earth, find Voss before you go poking around. Some things are better understood before they're disturbed."
+    }
+  }
+}

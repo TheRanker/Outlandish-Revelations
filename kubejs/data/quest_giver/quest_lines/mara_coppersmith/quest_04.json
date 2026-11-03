@@ -1,0 +1,38 @@
+{
+  "parent": "quest_giver:quest_03",
+  "repeatable": false,
+  "icon": "create:shaft",
+  "start": {
+    "title": {
+      "translate": "A Line Worth Following"
+    },
+    "description": {
+      "translate": "Four shafts will replace the missing transmission line. We will fit them cold and unpowered. A machine should be understood before it is set in motion. Hand the materials to me one at a time."
+    }
+  },
+  "tasks": [
+    {
+      "id": "quest_giver:gift",
+      "item": {
+        "item": "create:shaft"
+      },
+      "entity": "minecraft:villager",
+      "name": "Mara Coppersmith",
+      "times": 4
+    }
+  ],
+  "complete": {
+    "title": {
+      "translate": "A Line Worth Following"
+    },
+    "description": {
+      "translate": "Straight and sound. The Concord had a rule: never hide a fault behind a running machine. Whoever altered this workshop stopped following it."
+    }
+  },
+  "rewards": [
+    {
+      "id": "quest_giver:command",
+      "command": "execute at @s run function outlandish:story/mara_coppersmith/delivery_04"
+    }
+  ]
+}

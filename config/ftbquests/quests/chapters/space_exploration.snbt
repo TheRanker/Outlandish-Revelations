@@ -1,0 +1,1087 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "space_exploration"
+	group: "610F012654EDDFE3"
+	icon: "gcyr:rocket_scanner"
+	id: "6B6EFB5AA06723A7"
+	images: [{
+		height: 3.0d
+		image: "minecraft:textures/item/firework_rocket.png"
+		rotation: 0.0d
+		width: 3.0d
+		x: 7.0d
+		y: -3.5d
+	}]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"GCYR lets you build a rocket from components. Review the Rocket Scanner, launch pad, engine, tanks and life-support recipes in JEI."
+				"Basic rocket components begin in HV manufacturing; the scanner needs EV components. Your factory must supply the actual materials and machines shown in each recipe. Prepare fuel, oxygen and a return plan before launch."
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: "gcyr:rocket_scanner"
+			id: "26E3BBA8664166EE"
+			rewards: [
+				{
+					id: "05AD638448E50B82"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "1B2E29FBAF45B4D4"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_ev"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "44290935AD8A4151"
+				item: "gcyr:rocket_scanner"
+				type: "item"
+			}]
+			title: "Plan Your First Launch"
+			x: 9.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["26E3BBA8664166EE"]
+			description: ["Prepare the launch pad and follow the Rocket Scanner’s requirements when assembling the rocket."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: "gcyr:launch_pad"
+			id: "1F58E319B73EFE90"
+			rewards: [
+				{
+					id: "7721FAD7FFD520F9"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "21AD02F1779EDB3E"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_ev"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "0CE2AAFE9DCD1D0D"
+				item: "gcyr:launch_pad"
+				type: "item"
+			}]
+			title: "Launch Pad"
+			x: 4.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["26E3BBA8664166EE"]
+			description: ["Build a Basic Rocket Motor. Check accepted fuel and assemble the rocket according to the scanner."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: "gcyr:basic_rocket_motor"
+			id: "69C320F5F15F77ED"
+			rewards: [
+				{
+					id: "6B3C8BBCB91FF7B6"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "69918CB2C08206A4"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_ev"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "78EE5A5A33C63796"
+				item: "gcyr:basic_rocket_motor"
+				type: "item"
+			}]
+			title: "Basic Rocket Motor"
+			x: 8.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["26E3BBA8664166EE"]
+			description: ["Build and fill the Basic Fuel Tank with fuel accepted by the engine. Plan enough for the journey."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: "gcyr:basic_fuel_tank"
+			id: "43355DA38359999D"
+			rewards: [
+				{
+					id: "0283FDC704FFAA50"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4C574FDDD732F2EA"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_ev"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "135EF0FFB297F2B5"
+				item: "gcyr:basic_fuel_tank"
+				type: "item"
+			}]
+			title: "Basic Fuel Tank"
+			x: 10.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["26E3BBA8664166EE"]
+			description: ["Prepare a complete space suit and oxygen supply. Test the equipment and its readouts before entering an airless environment."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: {
+				Count: 1
+				id: "gcyr:space_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "316CFF3C3B1A5B06"
+			rewards: [
+				{
+					id: "4602F787EDDC569A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "72090F326DB6D650"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_ev"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "6B6A4778F21684A0"
+				item: {
+					Count: 1
+					id: "gcyr:space_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Space Helmet"
+			x: 12.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["26E3BBA8664166EE"]
+			description: ["Prepare the space chestpiece and confirm your oxygen supply is filled and working."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: {
+				Count: 1
+				id: "gcyr:space_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5CDAECD7A0DB32CA"
+			rewards: [
+				{
+					id: "1C543AF39EBE8217"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "5664C3B393018EFC"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_ev"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "1F2698D5730C3BA6"
+				item: {
+					Count: 1
+					id: "gcyr:space_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Space Chestplate"
+			x: 12.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["26E3BBA8664166EE"]
+			description: ["Complete the protective suit pieces and check your destination’s environmental requirements."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: {
+				Count: 1
+				id: "gcyr:space_leggings"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "16B9CB2B1BFC4B91"
+			rewards: [
+				{
+					id: "79C7302E0F8F74BD"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "337D19106180042F"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_ev"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "09B140FBA6903C50"
+				item: {
+					Count: 1
+					id: "gcyr:space_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Space Leggings"
+			x: 12.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["26E3BBA8664166EE"]
+			description: ["Finish the suit and pack blocks, food, tools and a return supply."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: {
+				Count: 1
+				id: "gcyr:space_boots"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7B1A3F378BF87CD2"
+			rewards: [
+				{
+					id: "046F8598DFAA9319"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "29B4E1F11ED3B7C7"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_ev"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "4B6A3645E86096F0"
+				item: {
+					Count: 1
+					id: "gcyr:space_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Space Boots"
+			x: 12.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["26E3BBA8664166EE"]
+			description: ["Travel to Luna with a tier-one rocket. Keep the suit supplied with oxygen, establish a safe landing area and gather local materials."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "04ABB00EF1D2F57A"
+			rewards: [
+				{
+					id: "75CA41688D622692"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4D7684906A375227"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_ev"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				dimension: "gcyr:luna"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "5B95D597E84DB40F"
+				type: "dimension"
+			}]
+			title: "First Steps on the Moon"
+			x: 9.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["04ABB00EF1D2F57A"]
+			description: ["Prepare IV manufacturing for Advanced Rocket Motors and tanks. Upgrade the rocket and review the destination’s hazards before departure."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: "gcyr:advanced_rocket_motor"
+			id: "6A42DD5D17CEA665"
+			rewards: [
+				{
+					id: "78B0D1404C9CEF03"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4ECF197BA23AEF42"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_iv"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "1434CF29243EB950"
+				item: "gcyr:advanced_rocket_motor"
+				type: "item"
+			}]
+			title: "Build an Advanced Rocket"
+			x: 9.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6A42DD5D17CEA665"]
+			description: ["Build the matching fuel tank and verify your fuel supply before launch."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: "gcyr:advanced_fuel_tank"
+			id: "5EE0F2611423F950"
+			rewards: [
+				{
+					id: "7889F7B6802CABE5"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7523E4B04EDFF82A"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_iv"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "161B72EDC036E044"
+				item: "gcyr:advanced_fuel_tank"
+				type: "item"
+			}]
+			title: "Advanced Fuel Tank"
+			x: 10.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6A42DD5D17CEA665"]
+			description: ["Prepare a tier-two rocket and the life support required here. Check oxygen and thermal protection before landing, and keep a reliable return route."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "7404F0623DD10C86"
+			rewards: [
+				{
+					id: "0E1D52F108214995"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "2A0ED1DE1BA7C317"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_iv"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				dimension: "gcyr:mars"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "21258185CE3D2D01"
+				type: "dimension"
+			}]
+			title: "Visit Mars"
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6A42DD5D17CEA665"]
+			description: ["Prepare a tier-two rocket and the life support required here. Check oxygen and thermal protection before landing, and keep a reliable return route."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "4E6E5CCD598D393B"
+			rewards: [
+				{
+					id: "1E10368EA6E7D1A5"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "73FD6A0503F2F602"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_iv"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				dimension: "gcyr:venus"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "516A8FF4E3E9DE72"
+				type: "dimension"
+			}]
+			title: "Visit Venus"
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6A42DD5D17CEA665"]
+			description: ["Prepare a tier-two rocket and the life support required here. Check oxygen and thermal protection before landing, and keep a reliable return route."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "2905F8D7C03FAB69"
+			rewards: [
+				{
+					id: "78624EFB3C601A0C"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "59A106F33CD74A9C"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_iv"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				dimension: "gcyr:mercury"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "581A4E39FC4346EB"
+				type: "dimension"
+			}]
+			title: "Visit Mercury"
+			x: 11.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6A42DD5D17CEA665"]
+			description: ["Build the Space Station Packager at LuV. Plan oxygen, power, storage and transport before moving supplies into orbit."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: "gcyr:space_station_packager"
+			id: "10CE40BB197BE2DF"
+			rewards: [
+				{
+					id: "6D6220CFCB5CB328"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7B4779FE8305252A"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_luv"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "590F9D0235F460DA"
+				item: "gcyr:space_station_packager"
+				type: "item"
+			}]
+			title: "A Home in Orbit"
+			x: 11.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["10CE40BB197BE2DF"]
+			description: ["Use the packager to prepare a Space Station Package. Follow GCYR’s deployment instructions and bring supplies for a safe orbital base."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: "gcyr:space_station_package"
+			id: "28092FA383A14766"
+			rewards: [
+				{
+					id: "2B548C723FF4C95A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0039DB8B5FBC6444"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_luv"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "199455E14A58E1C9"
+				item: "gcyr:space_station_package"
+				type: "item"
+			}]
+			title: "Pack the Station"
+			x: 13.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6A42DD5D17CEA665"]
+			description: ["Prepare ZPM manufacturing for Elite Rocket Motors and tanks. Finish life support, fuel and return preparations before departure."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: "gcyr:elite_rocket_motor"
+			id: "1329ABCDBF64AE0E"
+			rewards: [
+				{
+					id: "473566F615F1FA97"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "1511A50A0C6FB414"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_zpm"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "6A3EF5128A04628F"
+				item: "gcyr:elite_rocket_motor"
+				type: "item"
+			}]
+			title: "Beyond the Solar System"
+			x: 8.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1329ABCDBF64AE0E"]
+			description: ["Prepare the Elite Fuel Tank and verify your rocket configuration before the expedition."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: "gcyr:elite_fuel_tank"
+			id: "0198150324C8F1F8"
+			rewards: [
+				{
+					id: "71DD094DD25EC10B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "2E48C0C8EC43B96D"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_zpm"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "3E507E2006CCE774"
+				item: "gcyr:elite_fuel_tank"
+				type: "item"
+			}]
+			title: "Elite Fuel Tank"
+			x: 8.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1329ABCDBF64AE0E"]
+			description: ["Reach Proxima Centauri B with a tier-three rocket. Establish a safe landing site and investigate the terrain while keeping track of your supplies."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "09D1B8110FDD023C"
+			rewards: [
+				{
+					id: "7662F5591C9B3AB4"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7C5A27AED922C575"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_zpm"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				dimension: "gcyr:proxima_centauri_b"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "3C3AEA7C3A4D6433"
+				type: "dimension"
+			}]
+			title: "A Distant World"
+			x: 7.0d
+			y: 2.0d
+		}
+	]
+	title: "Space Exploration"
+}

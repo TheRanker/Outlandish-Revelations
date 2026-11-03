@@ -1,0 +1,13 @@
+{
+	id: "0B695E09579F170F"
+	loot_size: 1
+	order_index: 27
+	rewards: [
+		{ count: 32, item: "minecraft:iron_ingot" }
+		{ count: 48, item: "minecraft:redstone" }
+		{ count: 16, item: "minecraft:gold_ingot" }
+		{ count: 32, item: "minecraft:lapis_lazuli" }
+	]
+	title: "GT HV Basic Rewards"
+	use_title: true
+}

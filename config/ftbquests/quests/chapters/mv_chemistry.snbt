@@ -1,0 +1,364 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mv_chemistry"
+	group: "751F9FCD5495C55F"
+	icon: "gtceu:polyethylene_plate"
+	id: "53EFEF5A7973E522"
+	images: [{
+		height: 3.0d
+		image: "minecraft:textures/item/book.png"
+		rotation: 0.0d
+		width: 3.0d
+		x: -0.5d
+		y: -9.5d
+	}]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["24029D548C6BFFBE"]
+			description: [
+				"Prepare your MV Chemical Reactor and expand your production lines. These chapters suggest a factory development order; JEI shows the exact voltage and any earlier recipe route."
+				"Keep fluid lines separate, label storage and check circuit settings, amounts and output space before starting a batch. Reuse useful byproducts."
+				"Fluid tasks ask for a 1,000 mB sample through the quest system. The sample is consumed, so produce extra for your factory."
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: "gtceu:mv_chemical_reactor"
+			id: "37D062A3EC940202"
+			rewards: [
+				{
+					id: "31E217828407E77C"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6460FC10970D41C7"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_mv"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "35F458649B72625D"
+				item: "gtceu:mv_chemical_reactor"
+				type: "item"
+			}]
+			title: "MV Chemical Workshop"
+			x: -0.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["37D062A3EC940202"]
+			description: [
+				"Choose a renewable plant-based Ethanol route. Keep crops and water supplied for repeated batches."
+				"Submit a 1,000 mB sample for the task; keep the rest in production."
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "37F3E532B5F18A6E"
+			rewards: [{
+				id: "5A734CA078DDCB84"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				amount: 1000L
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				fluid: "gtceu:ethanol"
+				id: "24EA201AD883C02A"
+				type: "fluid"
+			}]
+			title: "Ferment a Feedstock"
+			x: -3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"37D062A3EC940202"
+				"37F3E532B5F18A6E"
+				"3A344CA38F3A2404"
+			]
+			description: [
+				"React Ethanol with Sulfuric Acid to produce Ethylene and Diluted Sulfuric Acid. Keep the diluted acid for recovery."
+				"Submit a 1,000 mB sample for the task; keep the rest in production."
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "4134C5B046673F33"
+			rewards: [{
+				id: "0FBEEDB9FD5D7C7F"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				amount: 1000L
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				fluid: "gtceu:ethylene"
+				id: "2DB445883CA0E3E0"
+				type: "fluid"
+			}]
+			title: "Ethylene for Plastics"
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"37D062A3EC940202"
+				"4134C5B046673F33"
+				"2BB423EE9761A64D"
+			]
+			description: [
+				"Polymerize Ethylene with Air or Oxygen. Compare yields, then form the product into the parts your factory needs."
+				"Submit a 1,000 mB sample for the task; keep the rest in production."
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "1435A3F499BD41AF"
+			rewards: [{
+				id: "27AC182C22BAA5D0"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				amount: 1000L
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				fluid: "gtceu:polyethylene"
+				id: "0D512999E49E7528"
+				type: "fluid"
+			}]
+			title: "Your First Plastic Line"
+			x: -8.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"37D062A3EC940202"
+				"4134C5B046673F33"
+				"67D62DE9C33183F9"
+				"6BF7CC59F4D1E29B"
+			]
+			description: [
+				"Choose an Ethylene and Chlorine or Hydrochloric Acid route in JEI. Provide space for the byproducts."
+				"Submit a 1,000 mB sample for the task; keep the rest in production."
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "2904A3CD288C1BDC"
+			rewards: [{
+				id: "2F85607CB4894EA4"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				amount: 1000L
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				fluid: "gtceu:vinyl_chloride"
+				id: "0C91BF55EEB709A3"
+				type: "fluid"
+			}]
+			title: "Vinyl Chloride"
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"37D062A3EC940202"
+				"2904A3CD288C1BDC"
+			]
+			description: [
+				"Polymerize Vinyl Chloride with Air or Oxygen. Solidify or extrude the product as needed, keeping this line separate from other plastics."
+				"Submit a 1,000 mB sample for the task; keep the rest in production."
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "4B3B3C9AF0FCDFB3"
+			rewards: [{
+				id: "20246DDAC2820F47"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				amount: 1000L
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				fluid: "gtceu:polyvinyl_chloride"
+				id: "23E4244C22564077"
+				type: "fluid"
+			}]
+			title: "PVC Production"
+			x: 3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1435A3F499BD41AF"]
+			description: ["Form the polymer into plates with the recipe, mold or shape shown in JEI. Plan the other ingredients for your next components alongside this supply."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: "gtceu:polyethylene_plate"
+			id: "448DFD5D074FF6A9"
+			rewards: [
+				{
+					id: "2E7314020A5700F1"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "490779BB73FAB741"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_mv"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "2268C3C2AFE59294"
+				item: "gtceu:polyethylene_plate"
+				type: "item"
+			}]
+			title: "Shape Polyethylene"
+			x: -8.0d
+			y: 1.5d
+		}
+	]
+	title: "MV Chemistry"
+}

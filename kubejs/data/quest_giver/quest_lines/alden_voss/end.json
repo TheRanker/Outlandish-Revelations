@@ -1,0 +1,11 @@
+{
+  "icon": "minecraft:amethyst_shard",
+  "start": {
+    "title": {
+      "translate": "A Record That Endures"
+    },
+    "description": {
+      "translate": "You have done enough for this old cottage. Keep your own notes, question easy answers, and find Mara. The Concord left more behind than broken machines."
+    }
+  }
+}

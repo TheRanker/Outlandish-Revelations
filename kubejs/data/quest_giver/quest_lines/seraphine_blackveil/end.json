@@ -1,0 +1,11 @@
+{
+  "icon": "minecraft:crossbow",
+  "start": {
+    "title": {
+      "translate": "An Account Worth Hearing"
+    },
+    "description": {
+      "translate": "You listened. I will remember that. Find Malric Vane. He kept the route seals and dispatch records. If someone betrayed us, I want evidence strong enough to survive the anger of the people reading it."
+    }
+  }
+}

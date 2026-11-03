@@ -1,0 +1,38 @@
+{
+  "parent": "quest_giver:quest_02",
+  "repeatable": false,
+  "icon": "minecraft:iron_ingot",
+  "start": {
+    "title": {
+      "translate": "Tools Before Ambition"
+    },
+    "description": {
+      "translate": "Twelve iron ingots will replace the guards and tool-rack braces. We are repairing a service station, not starting another engine. Keep that distinction clear. Hand the materials to me one at a time."
+    }
+  },
+  "tasks": [
+    {
+      "id": "quest_giver:gift",
+      "item": {
+        "item": "minecraft:iron_ingot"
+      },
+      "entity": "minecraft:villager",
+      "name": "Darius Emberwright",
+      "times": 12
+    }
+  ],
+  "complete": {
+    "title": {
+      "translate": "Tools Before Ambition"
+    },
+    "description": {
+      "translate": "The Concord's industrial work could make ordinary lives easier. That was the promise I believed in. A useful tool does not become innocent merely because its maker meant well."
+    }
+  },
+  "rewards": [
+    {
+      "id": "quest_giver:command",
+      "command": "execute at @s run function outlandish:story/darius_emberwright/delivery_03"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+	id: "14912C477C1CB563"
+	loot_crate: {
+		color: 15117923
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		item_name: "Outlandish FOOD Supply Bag"
+		string_id: "or_food"
+	}
+	loot_size: 1
+	order_index: 4
+	rewards: [
+		{ count: 12, item: "minecraft:baked_potato" }
+		{ count: 8, item: "minecraft:cooked_beef" }
+		{ count: 12, item: "minecraft:bread" }
+		{ count: 16, item: "minecraft:carrot" }
+	]
+	title: "Outlandish FOOD Supplies"
+	use_title: true
+}

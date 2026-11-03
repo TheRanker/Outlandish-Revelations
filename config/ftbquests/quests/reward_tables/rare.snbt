@@ -1,0 +1,20 @@
+{
+	icon: {
+		Count: 1
+		id: "ftbquests:lootcrate"
+		tag: {
+			type: "rare_loot_chest"
+		}
+	}
+	id: "4D37FFAF33DF678A"
+	loot_size: 1
+	order_index: 19
+	rewards: [
+		{ count: 32, item: "minecraft:torch" }
+		{ count: 16, item: "minecraft:coal" }
+		{ count: 12, item: "minecraft:copper_ingot" }
+		{ count: 8, item: "minecraft:cooked_porkchop" }
+	]
+	title: "&9Rare Reward"
+	use_title: true
+}

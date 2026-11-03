@@ -1,0 +1,38 @@
+{
+  "parent": "quest_giver:quest_06",
+  "repeatable": false,
+  "icon": "minecraft:amethyst_shard",
+  "start": {
+    "title": {
+      "translate": "A Blade Still Unfinished"
+    },
+    "description": {
+      "translate": "Four amethyst shards for the comparison instruments. We will restore a listening and inspection stand, not attempt an awakening we do not yet understand. Hand the materials to me one at a time."
+    }
+  },
+  "tasks": [
+    {
+      "id": "quest_giver:gift",
+      "item": {
+        "item": "minecraft:amethyst_shard"
+      },
+      "entity": "minecraft:villager",
+      "name": "Cassian Ashfall",
+      "times": 4
+    }
+  ],
+  "complete": {
+    "title": {
+      "translate": "A Blade Still Unfinished"
+    },
+    "description": {
+      "translate": "The study is ready for honest work. Find Valen Cinderwatch and hear what happened in the final battle. Keep learning before you challenge the Inferno. No instrument here will do that work for you."
+    }
+  },
+  "rewards": [
+    {
+      "id": "quest_giver:command",
+      "command": "execute at @s run function outlandish:story/cassian_ashfall/delivery_07"
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+# Delivery 6, AS the completing player. No player permission elevation.
+execute if entity @s[type=minecraft:player] if dimension minecraft:the_nether at @s as @e[type=minecraft:villager,tag=outlandish_cassian_ashfall_npc,name="Cassian Ashfall",distance=..8,sort=nearest,limit=1] at @s as @e[type=minecraft:marker,tag=outlandish_cassian_ashfall_anchor,distance=..0.1,limit=1] at @s rotated as @s unless entity @e[type=minecraft:marker,tag=outlandish_cassian_ashfall_anchor,distance=0.001..16] run function outlandish:story/cassian_ashfall/repair_06

@@ -1,0 +1,38 @@
+{
+  "parent": "quest_giver:root",
+  "repeatable": false,
+  "icon": "minecraft:smooth_basalt",
+  "start": {
+    "title": {
+      "translate": "A Steady Instrument Bed"
+    },
+    "description": {
+      "translate": "Sixteen smooth basalt will restore the instrument bed and damaged wall panels. Measurements are only useful when the bench beneath them stops moving. Hand the materials to me one at a time."
+    }
+  },
+  "tasks": [
+    {
+      "id": "quest_giver:gift",
+      "item": {
+        "item": "minecraft:smooth_basalt"
+      },
+      "entity": "minecraft:villager",
+      "name": "Cassian Ashfall",
+      "times": 16
+    }
+  ],
+  "complete": {
+    "title": {
+      "translate": "A Steady Instrument Bed"
+    },
+    "description": {
+      "translate": "Tears for Fears was not an ordinary commission. The Ranker wanted a weapon strong enough to protect others without forgetting why it had been made."
+    }
+  },
+  "rewards": [
+    {
+      "id": "quest_giver:command",
+      "command": "execute at @s run function outlandish:story/cassian_ashfall/delivery_01"
+    }
+  ]
+}

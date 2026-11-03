@@ -1,0 +1,38 @@
+{
+  "parent": "quest_giver:quest_03",
+  "repeatable": false,
+  "icon": "gtceu:steel_ingot",
+  "start": {
+    "title": {
+      "translate": "A Bench Fit for Work"
+    },
+    "description": {
+      "translate": "Eight steel ingots for new bench plates and worn fittings. Make them through your own established workshop. This outpost will not hand you machines you have not learned to build. Hand the materials to me one at a time."
+    }
+  },
+  "tasks": [
+    {
+      "id": "quest_giver:gift",
+      "item": {
+        "item": "gtceu:steel_ingot"
+      },
+      "entity": "minecraft:villager",
+      "name": "Darius Emberwright",
+      "times": 8
+    }
+  ],
+  "complete": {
+    "title": {
+      "translate": "A Bench Fit for Work"
+    },
+    "description": {
+      "translate": "Now we have somewhere to maintain equipment properly. Voss's references match the requisition marks in our stores ledger. Parts from several workshops passed through this station."
+    }
+  },
+  "rewards": [
+    {
+      "id": "quest_giver:command",
+      "command": "execute at @s run function outlandish:story/darius_emberwright/delivery_04"
+    }
+  ]
+}

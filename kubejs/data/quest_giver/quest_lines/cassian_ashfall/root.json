@@ -1,0 +1,12 @@
+{
+  "icon": "minecraft:amethyst_shard",
+  "repeatable": false,
+  "start": {
+    "title": {
+      "translate": "The Questions Left at the Bench"
+    },
+    "description": {
+      "translate": "Malric has finally separated a finding from an accusation? Good. Cassian Ashfall. I studied the materials and instruments used in The Ranker's work. I will tell you what I know of Tears for Fears, once this bench is safe enough to trust with the surviving notes."
+    }
+  }
+}

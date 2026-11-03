@@ -1,0 +1,12 @@
+{
+  "icon": "create:cogwheel",
+  "repeatable": false,
+  "start": {
+    "title": {
+      "translate": "Tools Without Hands"
+    },
+    "description": {
+      "translate": "Voss sent you? Set his notes on the dry end of the bench. I am Mara Coppersmith. The Concord left us plenty of plans and precious few people willing to question them. Before we make sense of his markings, help me put this workshop back in order."
+    }
+  }
+}

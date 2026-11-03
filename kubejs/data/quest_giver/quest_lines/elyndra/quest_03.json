@@ -1,0 +1,38 @@
+{
+  "parent": "quest_giver:quest_02",
+  "repeatable": false,
+  "icon": "minecraft:azalea",
+  "start": {
+    "title": {
+      "translate": "Room for Something Living"
+    },
+    "description": {
+      "translate": "Six azaleas will restore the small garden around the reading walk. Let something living share the space we are repairing. Hand the materials to me one at a time."
+    }
+  },
+  "tasks": [
+    {
+      "id": "quest_giver:gift",
+      "item": {
+        "item": "minecraft:azalea"
+      },
+      "entity": "minecraft:villager",
+      "name": "Elyndra",
+      "times": 6
+    }
+  ],
+  "complete": {
+    "title": {
+      "translate": "Room for Something Living"
+    },
+    "description": {
+      "translate": "A.U.R.A. preserves words faithfully. You must still decide how to live with them. Neither a machine's memory nor a forest's age removes that responsibility."
+    }
+  },
+  "rewards": [
+    {
+      "id": "quest_giver:command",
+      "command": "execute at @s run function outlandish:story/elyndra/delivery_03"
+    }
+  ]
+}

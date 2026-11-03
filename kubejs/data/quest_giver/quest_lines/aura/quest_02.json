@@ -1,0 +1,38 @@
+{
+  "parent": "quest_giver:quest_01",
+  "repeatable": false,
+  "icon": "minecraft:purpur_block",
+  "start": {
+    "title": {
+      "translate": "The Frame That Remains"
+    },
+    "description": {
+      "translate": "Sixteen purpur blocks required for the station frame and roof breaches. Local materials are suitable for restoring the existing design. Hand the materials to me one at a time."
+    }
+  },
+  "tasks": [
+    {
+      "id": "quest_giver:gift",
+      "item": {
+        "item": "minecraft:purpur_block"
+      },
+      "entity": "minecraft:villager",
+      "name": "A.U.R.A.",
+      "times": 16
+    }
+  ],
+  "complete": {
+    "title": {
+      "translate": "The Frame That Remains"
+    },
+    "description": {
+      "translate": "Frame restored. Tears for Fears was carried into its final battle before the greater purpose described in these notes had been realised. That does not make the weapon without value; it makes the record incomplete."
+    }
+  },
+  "rewards": [
+    {
+      "id": "quest_giver:command",
+      "command": "execute at @s run function outlandish:story/aura/delivery_02"
+    }
+  ]
+}

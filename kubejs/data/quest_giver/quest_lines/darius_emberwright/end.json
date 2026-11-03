@@ -1,0 +1,11 @@
+{
+  "icon": "minecraft:blast_furnace",
+  "start": {
+    "title": {
+      "translate": "A Route Reopened"
+    },
+    "description": {
+      "translate": "The outpost can serve travellers again. Find Seraphine Blackveil next. She kept fighting after our stores ran empty. She has good reasons to distrust the Concord's promises, so bring patience rather than a defence prepared in advance."
+    }
+  }
+}

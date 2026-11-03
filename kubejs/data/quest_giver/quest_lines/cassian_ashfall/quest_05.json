@@ -1,0 +1,38 @@
+{
+  "parent": "quest_giver:quest_04",
+  "repeatable": false,
+  "icon": "minecraft:glass",
+  "start": {
+    "title": {
+      "translate": "Preserve the View"
+    },
+    "description": {
+      "translate": "Eight pieces of glass for the study screens and roof light. The remaining records should be protected without sealing them away from examination. Hand the materials to me one at a time."
+    }
+  },
+  "tasks": [
+    {
+      "id": "quest_giver:gift",
+      "item": {
+        "item": "minecraft:glass"
+      },
+      "entity": "minecraft:villager",
+      "name": "Cassian Ashfall",
+      "times": 8
+    }
+  ],
+  "complete": {
+    "title": {
+      "translate": "Preserve the View"
+    },
+    "description": {
+      "translate": "A.U.R.A. may preserve research we no longer have. If your path eventually reaches the End, seek that intelligence before assuming these damaged notes are the whole account."
+    }
+  },
+  "rewards": [
+    {
+      "id": "quest_giver:command",
+      "command": "execute at @s run function outlandish:story/cassian_ashfall/delivery_05"
+    }
+  ]
+}

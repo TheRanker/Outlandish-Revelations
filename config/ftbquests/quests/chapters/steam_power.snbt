@@ -1,0 +1,989 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "steam_power"
+	group: "290BD65C3C52540C"
+	icon: "gtceu:lp_steam_solid_boiler"
+	id: "29CA4BD942BD24DC"
+	images: [{
+		height: 3.0d
+		image: "minecraft:textures/item/book.png"
+		rotation: 0.0d
+		width: 3.0d
+		x: -17.0d
+		y: -8.0d
+	}]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Supply water before heating the boiler, then connect suitable steam pipes and machines. Monitor water, fuel and output as you expand."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "50AA01A160CDF8F0"
+			rewards: [
+				{
+					id: "79726A0F0F330A55"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "086D4F8BE3379B05"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_steam"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "6D1174C5771A7A31"
+				item: "gtceu:lp_steam_solid_boiler"
+				type: "item"
+			}]
+			title: "Low Pressure Steam"
+			x: -24.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["50AA01A160CDF8F0"]
+			description: ["This branch is Optional, not required for progression, but if you want more steam, have at it. "]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "38D16F46D1A7FE5B"
+			optional: true
+			rewards: [
+				{
+					id: "0F5AFE8C8A553797"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "39730043C286626F"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_steam"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "More Steam, Higher Pressure"
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "2F8328600E2B35EA"
+				item: "gtceu:hp_steam_solar_boiler"
+				type: "item"
+			}]
+			title: "High Pressure Steam"
+			x: -8.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["50AA01A160CDF8F0"]
+			description: ["Build a GregTech Primitive Pump or a Create Mechanical Pump to supply water. A Cooking for Blockheads Sink is a useful later source: its recipe needs Magnetic Iron and a Primitive Pump. Connect suitable fluid transport and verify steady water delivery before heating a boiler."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "2AC4E43BB5EFDF92"
+			rewards: [
+				{
+					id: "0883C6F2AD7F9C92"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "11F95F2678DD6277"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_steam"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Any Water Supply Source"
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "00F3AFA20BBD2578"
+				item: "gtceu:primitive_pump"
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "A Reliable Water Supply"
+			x: -27.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["50AA01A160CDF8F0"]
+			description: ["Craft the Low Pressure Steam Compressor using JEI, then connect a suitable steam supply. Compress materials for plates and other components. Keep the output and exhaust clear, and check that the boiler can keep up when several machines run together."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "00594E950707B1A6"
+			rewards: [
+				{
+					id: "706D03828910F1E9"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7682712752E4A8AB"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_steam"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "308B8CD965CF3EF0"
+				item: "gtceu:lp_steam_compressor"
+				type: "item"
+			}]
+			title: "Low Pressure Steam Compressor"
+			x: -23.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["00594E950707B1A6"]
+			description: ["Crush materials for the next processing step. Compare the complete ore-processing chain in JEI before routing the dust."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "0BECD1BAEFF6EE8A"
+			rewards: [
+				{
+					id: "7D8ED690C39FE4C9"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0304EF5DB546F875"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_steam"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "6D01C9F8FC2DDACD"
+				item: "gtceu:lp_steam_macerator"
+				type: "item"
+			}]
+			title: "Craft a Low Pressure Steam Macerator"
+			x: -19.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["50AA01A160CDF8F0"]
+			description: ["A Forge Hammer Machine will greatly increase your output of certain metals"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "326D2D207676872C"
+			optional: true
+			rewards: [
+				{
+					id: "0A541F521A149777"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "307CA7619DA5B12F"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_steam"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "More Efficent Plates"
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "5C742C5165BEF9DA"
+				item: "gtceu:lp_steam_forge_hammer"
+				type: "item"
+			}]
+			x: -25.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["00594E950707B1A6"]
+			description: ["Build the Primitive Blast Furnace and its required brick structure. Follow the structure preview and JEI to prepare the fuel and ingredients for your first Steel. Keep its output clear and build a reserve for your next workshop projects."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "6FEA7BE681157758"
+			rewards: [
+				{
+					id: "0F6AB74472A1E4F7"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3D91235C56E3278E"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_steam"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 5.0d
+			subtitle: "Blast up some Ore! Lets make some Steel!"
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "316BB65D4006F289"
+				item: "gtceu:primitive_blast_furnace"
+				type: "item"
+			}]
+			title: "Primitive Blast Furnace"
+			x: -16.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["50AA01A160CDF8F0"]
+			description: ["Craft the Low Pressure Steam Extractor using JEI, then connect a suitable steam supply. Extract useful materials from the inputs shown in JEI. Keep the output and exhaust clear, and check that the boiler can keep up when several machines run together."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "2FAA9C1966B6DDA5"
+			optional: true
+			rewards: [
+				{
+					id: "5857EC4A14ED8BC6"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "5554C450E94ED29E"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_steam"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "712240E3D4E4CAB3"
+				item: "gtceu:lp_steam_extractor"
+				type: "item"
+			}]
+			title: "Low Pressure Steam Extractor"
+			x: -23.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["50AA01A160CDF8F0"]
+			description: ["Craft the Low Pressure Steam Furnace using JEI, then connect a suitable steam supply. Smelt materials using your steam supply. Keep the output and exhaust clear, and check that the boiler can keep up when several machines run together."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "0B51CAA243384F22"
+			optional: true
+			rewards: [
+				{
+					id: "1429C8FBA4FF2555"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4A47045547242821"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_steam"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "66E79A29C3EFC698"
+				item: "gtceu:lp_steam_furnace"
+				type: "item"
+			}]
+			title: "Low Pressure Steam Furnace"
+			x: -22.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["50AA01A160CDF8F0"]
+			description: ["Craft the Low Pressure Steam Alloy Smelter using JEI, then connect a suitable steam supply. Combine the ingredients for the alloys shown in JEI. Keep the output and exhaust clear, and check that the boiler can keep up when several machines run together."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "167C4F4477775DD6"
+			optional: true
+			rewards: [
+				{
+					id: "6A19F1C1E48D2DA8"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0B869B336AC6C25A"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_steam"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "1A8664700506BE4A"
+				item: "gtceu:lp_steam_alloy_smelter"
+				type: "item"
+			}]
+			title: "Low Pressure Steam Alloy Smelter"
+			x: -21.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["50AA01A160CDF8F0"]
+			description: ["Craft the Low Pressure Steam Rock Crusher using JEI, then connect a suitable steam supply. Process the rock recipes shown in JEI. Keep the output and exhaust clear, and check that the boiler can keep up when several machines run together."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "4D449F75C4C6FEA2"
+			optional: true
+			rewards: [
+				{
+					id: "0A407F4751A09A6D"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "529E412E9586E82E"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_steam"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "0F500AD2FEA3F436"
+				item: "gtceu:lp_steam_rock_crusher"
+				type: "item"
+			}]
+			title: "Low Pressure Steam Rock Crusher"
+			x: -26.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["38D16F46D1A7FE5B"]
+			description: ["Craft the High Pressure Steam Extractor using JEI, then connect a suitable steam supply. Expand your extraction capacity. Keep the output and exhaust clear, and check that the boiler can keep up when several machines run together."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "5C9BD4D6180EA3CF"
+			optional: true
+			rewards: [{
+				id: "76764B5D8B0F9044"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "118A831E7FA504D9"
+				item: "gtceu:hp_steam_extractor"
+				type: "item"
+			}]
+			title: "High Pressure Steam Extractor"
+			x: -8.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["3A2DE72B02A8B98A"]
+			description: ["Crush materials for the next processing step. Compare the complete ore-processing chain in JEI before routing the dust."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "6C986696C60C893A"
+			rewards: [
+				{
+					id: "3FBAC0389EC266B4"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7077B890F7E4D13A"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_steam"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "2EDF574E36173E46"
+				item: "gtceu:hp_steam_macerator"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["38D16F46D1A7FE5B"]
+			description: ["Craft the High Pressure Steam Compressor using JEI, then connect a suitable steam supply. Expand your compression capacity. Keep the output and exhaust clear, and check that the boiler can keep up when several machines run together."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "3A2DE72B02A8B98A"
+			optional: true
+			rewards: [{
+				id: "47A1DD58FB940FD8"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "60A991C75D4337F8"
+				item: "gtceu:hp_steam_compressor"
+				type: "item"
+			}]
+			title: "High Pressure Steam Compressor"
+			x: -10.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["38D16F46D1A7FE5B"]
+			description: ["Craft the High Pressure Steam Forge Hammer using JEI, then connect a suitable steam supply. Prepare the crushed ores and other products shown in JEI. Keep the output and exhaust clear, and check that the boiler can keep up when several machines run together."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "2DDFFA477EB92840"
+			optional: true
+			rewards: [
+				{
+					id: "560AFB7BF52B1AD1"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7E83F7B7973A4323"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_steam"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "061D01EB437DC245"
+				item: "gtceu:hp_steam_forge_hammer"
+				type: "item"
+			}]
+			title: "High Pressure Steam Forge Hammer"
+			x: -10.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["38D16F46D1A7FE5B"]
+			description: ["Craft the High Pressure Steam Furnace using JEI, then connect a suitable steam supply. Expand your steam-powered smelting capacity. Keep the output and exhaust clear, and check that the boiler can keep up when several machines run together."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "43689C50CA4DC9A7"
+			optional: true
+			rewards: [{
+				id: "73C481FBBA03C250"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "29B7CC814541F736"
+				item: "gtceu:hp_steam_furnace"
+				type: "item"
+			}]
+			title: "High Pressure Steam Furnace"
+			x: -6.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["38D16F46D1A7FE5B"]
+			description: ["Craft the High Pressure Steam Alloy Smelter using JEI, then connect a suitable steam supply. Expand your alloy production. Keep the output and exhaust clear, and check that the boiler can keep up when several machines run together."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "172ACED447560C88"
+			optional: true
+			rewards: [
+				{
+					id: "62EA6F7EF320D71C"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "1FE06F496CB82E00"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_steam"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "455B02FA974A91E0"
+				item: "gtceu:hp_steam_alloy_smelter"
+				type: "item"
+			}]
+			title: "High Pressure Steam Alloy Smelter"
+			x: -11.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["38D16F46D1A7FE5B"]
+			description: ["Craft the High Pressure Steam Rock Crusher using JEI, then connect a suitable steam supply. Expand the rock-processing line shown in JEI. Keep the output and exhaust clear, and check that the boiler can keep up when several machines run together."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "58B87CB845DEEC6A"
+			optional: true
+			rewards: [{
+				id: "3EAE709E114A96CF"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "17CDC517F54A257F"
+				item: "gtceu:hp_steam_rock_crusher"
+				type: "item"
+			}]
+			title: "High Pressure Steam Rock Crusher"
+			x: -6.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6FEA7BE681157758"]
+			description: [
+				"To get Started in LV .. check our LV section to the Left "
+				"<<<<--------"
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: "gtceu:lv_machine_hull"
+			id: "747A811B0D98753D"
+			rewards: [
+				{
+					id: "23DCC327A68E5DC6"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "03DECCD1542EF7F9"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_steam"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			size: 4.0d
+			subtitle: "Now on to LV!"
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "3378DCAB10F49D8B"
+				title: "Steam Age Accomplished"
+				type: "checkmark"
+			}]
+			x: -16.5d
+			y: 5.5d
+		}
+	]
+	title: "Steam Power"
+}

@@ -1,0 +1,11 @@
+{
+  "replace": true,
+  "values": [
+    "twilightforest:clearing",
+    "twilightforest:forest",
+    "twilightforest:dense_forest",
+    "twilightforest:firefly_forest",
+    "twilightforest:mushroom_forest",
+    "twilightforest:oak_savannah"
+  ]
+}

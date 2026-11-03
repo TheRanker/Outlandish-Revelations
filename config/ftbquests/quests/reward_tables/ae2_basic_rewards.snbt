@@ -1,0 +1,13 @@
+{
+	id: "0A18991D9745743A"
+	loot_size: 1
+	order_index: 14
+	rewards: [
+		{ count: 32, item: "minecraft:torch" }
+		{ count: 16, item: "minecraft:coal" }
+		{ count: 12, item: "minecraft:copper_ingot" }
+		{ count: 8, item: "minecraft:cooked_porkchop" }
+	]
+	title: "AE2 Basic Rewards"
+	use_title: true
+}

@@ -1,0 +1,74 @@
+[
+  {
+    "quest_line_id": "garrick_ashford",
+    "entity_id": "minecraft:villager",
+    "name": "Garrick Ashford",
+    "interaction_item": "quest_giver:quest_scroll"
+  },
+  {
+    "quest_line_id": "alden_voss",
+    "entity_id": "minecraft:villager",
+    "name": "Professor Alden Voss",
+    "interaction_item": "quest_giver:quest_scroll"
+  },
+  {
+    "quest_line_id": "mara_coppersmith",
+    "entity_id": "minecraft:villager",
+    "name": "Mara Coppersmith",
+    "interaction_item": "quest_giver:quest_scroll"
+  },
+  {
+    "quest_line_id": "edda_thorne",
+    "entity_id": "minecraft:villager",
+    "name": "Captain Edda Thorne",
+    "interaction_item": "quest_giver:quest_scroll"
+  },
+  {
+    "quest_line_id": "ysra_vale",
+    "entity_id": "minecraft:villager",
+    "name": "Sister Ysra Vale",
+    "interaction_item": "quest_giver:quest_scroll"
+  },
+  {
+    "quest_line_id": "darius_emberwright",
+    "entity_id": "minecraft:villager",
+    "name": "Darius Emberwright",
+    "interaction_item": "quest_giver:quest_scroll"
+  },
+  {
+    "quest_line_id": "seraphine_blackveil",
+    "entity_id": "minecraft:villager",
+    "name": "Seraphine Blackveil",
+    "interaction_item": "quest_giver:quest_scroll"
+  },
+  {
+    "quest_line_id": "malric_vane",
+    "entity_id": "minecraft:villager",
+    "name": "Malric Vane",
+    "interaction_item": "quest_giver:quest_scroll"
+  },
+  {
+    "quest_line_id": "cassian_ashfall",
+    "entity_id": "minecraft:villager",
+    "name": "Cassian Ashfall",
+    "interaction_item": "quest_giver:quest_scroll"
+  },
+  {
+    "quest_line_id": "valen_cinderwatch",
+    "entity_id": "minecraft:villager",
+    "name": "Valen Cinderwatch",
+    "interaction_item": "quest_giver:quest_scroll"
+  },
+  {
+    "quest_line_id": "aura",
+    "entity_id": "minecraft:villager",
+    "name": "A.U.R.A.",
+    "interaction_item": "quest_giver:quest_scroll"
+  },
+  {
+    "quest_line_id": "elyndra",
+    "entity_id": "minecraft:villager",
+    "name": "Elyndra",
+    "interaction_item": "quest_giver:quest_scroll"
+  }
+]

@@ -1,0 +1,38 @@
+{
+  "parent": "quest_giver:quest_05",
+  "repeatable": false,
+  "icon": "minecraft:paper",
+  "start": {
+    "title": {
+      "translate": "The Name on the Record"
+    },
+    "description": {
+      "translate": "Twelve sheets of paper will let me restore the study shelves and copy what we can substantiate. Write the blade's name correctly: Tears for Fears. The person who named it meant something by that. Hand the materials to me one at a time."
+    }
+  },
+  "tasks": [
+    {
+      "id": "quest_giver:gift",
+      "item": {
+        "item": "minecraft:paper"
+      },
+      "entity": "minecraft:villager",
+      "name": "Cassian Ashfall",
+      "times": 12
+    }
+  ],
+  "complete": {
+    "title": {
+      "translate": "The Name on the Record"
+    },
+    "description": {
+      "translate": "The Hovering Inferno took the blade when The Ranker fell. Recovering it would return what was stolen. It would not, by itself, settle the promise left unfinished."
+    }
+  },
+  "rewards": [
+    {
+      "id": "quest_giver:command",
+      "command": "execute at @s run function outlandish:story/cassian_ashfall/delivery_06"
+    }
+  ]
+}

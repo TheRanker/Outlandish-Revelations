@@ -1,0 +1,38 @@
+{
+  "parent": "quest_giver:quest_03",
+  "repeatable": false,
+  "icon": "minecraft:white_wool",
+  "start": {
+    "title": {
+      "translate": "Rest Without a Price"
+    },
+    "description": {
+      "translate": "Eight pieces of white wool for the resting benches and clean coverings. No traveller must surrender something precious before being allowed to recover here. Hand the materials to me one at a time."
+    }
+  },
+  "tasks": [
+    {
+      "id": "quest_giver:gift",
+      "item": {
+        "item": "minecraft:white_wool"
+      },
+      "entity": "minecraft:villager",
+      "name": "Elyndra",
+      "times": 8
+    }
+  ],
+  "complete": {
+    "title": {
+      "translate": "Rest Without a Price"
+    },
+    "description": {
+      "translate": "Remember that distinction when you hear of blood and sacrifice. An offering chosen knowingly is not the same as pain demanded by someone more powerful. It cannot be made willing by giving it a noble name."
+    }
+  },
+  "rewards": [
+    {
+      "id": "quest_giver:command",
+      "command": "execute at @s run function outlandish:story/elyndra/delivery_04"
+    }
+  ]
+}

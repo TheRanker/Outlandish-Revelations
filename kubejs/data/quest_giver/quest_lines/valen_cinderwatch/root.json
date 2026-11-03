@@ -1,0 +1,12 @@
+{
+  "icon": "minecraft:soul_lantern",
+  "repeatable": false,
+  "start": {
+    "title": {
+      "translate": "A Witness Still Standing"
+    },
+    "description": {
+      "translate": "Cassian sent you for an account of the battle? Valen Cinderwatch. I was there. Before I tell you how The Ranker fell, help me restore this shelter. I have spent too long remembering the people we could not bring home and too little preparing for those still on the road."
+    }
+  }
+}

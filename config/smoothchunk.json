@@ -17,6 +17,19 @@
     "disableProtoSave": true
   },
 
+  "detectBrokenPOIs": {
+    // Detects broken POI locations and fixes them. Recommended to use when using disableProtoSave,
+    // as it can leave behind broken POIs when changing world generation on an existing world(e.g. removing a biome mod).
+    // Default: true
+    "detectBrokenPOIs": true
+  },
+
+  "logPOIRepair": {
+    // Detects broken POI locations and fixes them. DisableProtoSave can leave behind broken POIs when changing world generation on an existing world(e.g. removing a biome mod).
+    // Default: true
+    "logPOIRepair": true
+  },
+
   "debugLogging": {
     // Enables debug logging of how many chunks got saved in a tick. 
     // Default: false

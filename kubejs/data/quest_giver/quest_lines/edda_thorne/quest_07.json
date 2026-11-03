@@ -1,0 +1,38 @@
+{
+  "parent": "quest_giver:quest_06",
+  "repeatable": false,
+  "icon": "minecraft:lantern",
+  "start": {
+    "title": {
+      "translate": "The Watch We Keep"
+    },
+    "description": {
+      "translate": "Four lanterns for the gallery and entrance. Once they are hung, this place can guide travellers home again. Finish this for the people who will need it, whether they ever learn your name or not. Hand the materials to me one at a time."
+    }
+  },
+  "tasks": [
+    {
+      "id": "quest_giver:gift",
+      "item": {
+        "item": "minecraft:lantern"
+      },
+      "entity": "minecraft:villager",
+      "name": "Captain Edda Thorne",
+      "times": 4
+    }
+  ],
+  "complete": {
+    "title": {
+      "translate": "The Watch We Keep"
+    },
+    "description": {
+      "translate": "The watchpost has a purpose again. Find Sister Ysra Vale next. She understands a truth the Concord too often forgot: a sacrifice taken from someone is not the same as one freely given. Tell her Edda still keeps the watch."
+    }
+  },
+  "rewards": [
+    {
+      "id": "quest_giver:command",
+      "command": "execute at @s run function outlandish:story/edda_thorne/delivery_07"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "criteria": {
+    "arc_finished": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

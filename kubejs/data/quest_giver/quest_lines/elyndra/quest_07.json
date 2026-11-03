@@ -1,0 +1,38 @@
+{
+  "parent": "quest_giver:quest_06",
+  "repeatable": false,
+  "icon": "minecraft:lantern",
+  "start": {
+    "title": {
+      "translate": "A Promise Freely Given"
+    },
+    "description": {
+      "translate": "Four lanterns for the refuge and garden walk. Let the next traveller find their way here without being asked to know our names. Hand the materials to me one at a time."
+    }
+  },
+  "tasks": [
+    {
+      "id": "quest_giver:gift",
+      "item": {
+        "item": "minecraft:lantern"
+      },
+      "entity": "minecraft:villager",
+      "name": "Elyndra",
+      "times": 4
+    }
+  ],
+  "complete": {
+    "title": {
+      "translate": "A Promise Freely Given"
+    },
+    "description": {
+      "translate": "The refuge is restored. You know more now of what was lost, what survived, and what it means to give freely. Face the Hovering Inferno when you are ready. Recover Tears for Fears, then follow its existing path with the same care you have shown here."
+    }
+  },
+  "rewards": [
+    {
+      "id": "quest_giver:command",
+      "command": "execute at @s run function outlandish:story/elyndra/delivery_07"
+    }
+  ]
+}

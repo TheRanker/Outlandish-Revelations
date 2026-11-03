@@ -1,0 +1,38 @@
+{
+  "parent": "quest_giver:quest_04",
+  "repeatable": false,
+  "icon": "minecraft:redstone",
+  "start": {
+    "title": {
+      "translate": "Compare, Then Conclude"
+    },
+    "description": {
+      "translate": "Bring eight redstone dust for the comparison bench fittings. We will restore the old signal indicators; no automated verdict will replace reading the records ourselves. Hand the materials to me one at a time."
+    }
+  },
+  "tasks": [
+    {
+      "id": "quest_giver:gift",
+      "item": {
+        "item": "minecraft:redstone"
+      },
+      "entity": "minecraft:villager",
+      "name": "Malric Vane",
+      "times": 8
+    }
+  ],
+  "complete": {
+    "title": {
+      "translate": "Compare, Then Conclude"
+    },
+    "description": {
+      "translate": "The alteration predates The Ranker's final departure. It was not simply a frightened clerk tidying the account after his defeat. Someone changed the conditions under which others chose to act."
+    }
+  },
+  "rewards": [
+    {
+      "id": "quest_giver:command",
+      "command": "execute at @s run function outlandish:story/malric_vane/delivery_05"
+    }
+  ]
+}

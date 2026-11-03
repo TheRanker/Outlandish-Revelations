@@ -1,0 +1,39 @@
+
+{
+  "parent": "quest_giver:quest_02",
+  "icon": "minecraft:brick",
+  "start": {
+    "title": {
+      "translate": "The Furnace That Failed"
+    },
+    "description": {
+      "translate": "The old furnace didn't just break. It buckled from the inside, like something had pushed against the walls. Never seen heat do that. I need sixteen bricks to repair the foundation. Bring them here, and I'll tell you what happened that night."
+    }
+  },
+  "tasks": [
+    {
+      "id": "quest_giver:item_stack",
+      "amount": 16,
+      "item": {
+        "item": "minecraft:brick"
+      }
+    }
+  ],
+  "complete": {
+    "title": {
+      "translate": "The Furnace That Failed"
+    },
+    "description": {
+      "translate": "These will do. Here's what bothers me: the fire was nearly out when the machinery started shaking. Then came a sound like someone striking a bell underground. A moment later, everything went sideways."
+    }
+  },
+  "rewards": [
+    {
+      "id": "quest_giver:item",
+      "item": {
+        "item": "minecraft:coal",
+        "count": 8
+      }
+    }
+  ]
+}

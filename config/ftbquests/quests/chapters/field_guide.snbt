@@ -1,0 +1,745 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "field_guide"
+	group: "290BD65C3C52540C"
+	icon: "minecraft:compass"
+	id: "6677BACD52A30B61"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Keep your Eccentric Tome close. Choose a manual from it when you need help with a mod, or open the Outlandish Player Handbook for advice about the whole pack. JEI shows the exact recipes; the questbook gives you goals. Craft the tome if you need a replacement. Its manuals are supplied through the pack."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: "eccentrictome:tome"
+			id: "5ACC919AC3DF3092"
+			optional: true
+			rewards: [{
+				id: "6D641EAAACA1BFDF"
+				type: "xp"
+				xp: 10
+			}]
+			size: 1.8d
+			tasks: [{
+				consume_items: false
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "62CC4160C41DE96C"
+				item: "eccentrictome:tome"
+				type: "item"
+			}]
+			title: "One Tome, Many Answers"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5ACC919AC3DF3092"]
+			description: ["William Wythers’ Overhauled Overworld is the foundation of this landscape, with Expanded Ecosphere layered over it. Expect varied terrain and long journeys between useful places. Mark ore deposits, villages and routes home. Choose a base with room for your factory and, if you want one, a colony."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: "minecraft:compass"
+			id: "477E683DB97FE730"
+			optional: true
+			rewards: [{
+				id: "00A61F35107AFB88"
+				type: "xp"
+				xp: 10
+			}]
+			size: 1.3d
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "62EDE96B1948DE29"
+				type: "checkmark"
+			}]
+			title: "A World Worth Exploring"
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["477E683DB97FE730"]
+			description: ["Hold your Ultimine key while breaking a block to mine a connected selection. Search for Ultimine in Controls to find your keybind. Check the highlighted blocks before committing: some related blocks can be grouped together. Bring food and watch tool durability. Avoid using a large selection against your own building."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: "minecraft:compass"
+			id: "475F70F11A4DAB88"
+			optional: true
+			rewards: [{
+				id: "5BCE32C2FDDB1150"
+				type: "xp"
+				xp: 10
+			}]
+			size: 1.3d
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "0A8EE85D9AC71F7B"
+				type: "checkmark"
+			}]
+			title: "Mine the Whole Vein"
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["477E683DB97FE730"]
+			description: ["Lootr chests are locked separately for each player. Craft lockpicks before exploring: each pick has 50 durability, and each use costs one durability. Opening a chest unlocks your own loot. Your teammate must unlock it separately and gets their own loot; you do not empty the chest for one another."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: "minecraft:compass"
+			id: "7625C306A9B067B7"
+			optional: true
+			rewards: [{
+				id: "1139BDC40ECAFC34"
+				type: "xp"
+				xp: 10
+			}]
+			size: 1.3d
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "0255A2FAA69B33E4"
+				type: "checkmark"
+			}]
+			title: "Bring Lockpicks"
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5ACC919AC3DF3092"]
+			description: ["Use the MultiBeds Bed Kit to make your bed, then explore the available bed designs and bedding choices in JEI. Set up a comfortable sleeping spot near your workshop. When changing your bed, use the new one again so you know where you will return."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: "multibeds:bed_kit"
+			id: "6B66A27774D1ACF7"
+			optional: true
+			rewards: [{
+				id: "7E5CD38F5B029BEB"
+				type: "xp"
+				xp: 10
+			}]
+			size: 1.3d
+			tasks: [{
+				consume_items: false
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "12CC4511461A1E8C"
+				item: "multibeds:bed_kit"
+				type: "item"
+			}]
+			title: "Make Your Bed Your Own"
+			x: -5.2d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5ACC919AC3DF3092"]
+			description: ["This Forge pack uses Oculus for shader support. Open the shader-pack screen from Video Settings and choose an available compatible shader pack. Shaders are optional. Start with modest settings, then adjust shadows and effects until movement feels comfortable. You do not need to install Iris alongside Oculus."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: "minecraft:compass"
+			id: "01F236B31C4CA31B"
+			optional: true
+			rewards: [{
+				id: "7A16F002848B6770"
+				type: "xp"
+				xp: 10
+			}]
+			size: 1.3d
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "0D5A778B2B4CD6BA"
+				type: "checkmark"
+			}]
+			title: "Choose Your View"
+			x: 0.0d
+			y: 3.2500000000000004d
+		}
+		{
+			dependencies: ["477E683DB97FE730"]
+			description: ["Realistic Horse Genetics gives horses inherited coat colours and performance traits. Tame a horse, saddle it and try its speed and jump before choosing a travelling companion. Size matters here: very small equines cannot carry an adult rider. Keep your horse out of combat, because nearby monsters can spook it."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: "minecraft:compass"
+			id: "6F2C8E93751CA847"
+			optional: true
+			rewards: [{
+				id: "6CCB5CBF76D00459"
+				type: "xp"
+				xp: 10
+			}]
+			size: 1.3d
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "076DEE865F8B57F4"
+				type: "checkmark"
+			}]
+			title: "A Horse with a History"
+			x: 7.15d
+			y: 1.9500000000000002d
+		}
+		{
+			dependencies: ["6F2C8E93751CA847"]
+			description: ["Make a safe enclosure with room to move, good lighting and an easy entrance. Carry a lead for handling animals. Saddled horses are configured to stay put when unattended, but an enclosure is still a useful home. Leave space between breeding groups: stallions can drive rivals away from mares."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: "minecraft:lead"
+			id: "05560C53E220C6CC"
+			optional: true
+			rewards: [{
+				id: "4AFE923119B4D08D"
+				type: "xp"
+				xp: 10
+			}]
+			size: 1.3d
+			tasks: [{
+				consume_items: false
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "777683AFFAA75984"
+				item: "minecraft:lead"
+				type: "item"
+			}]
+			title: "Prepare a Stable"
+			x: 7.15d
+			y: 4.550000000000001d
+		}
+		{
+			dependencies: ["05560C53E220C6CC"]
+			description: ["Choose breeding stock for the traits you care about: appearance, speed, jump and health. These traits use genetics in this pack, so a foal is not simply a copy of the faster parent. Inspect your animals and keep notes across generations. Use the mod’s inspection and genetics information instead of judging only by coat colour."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: "minecraft:iron_horse_armor"
+			id: "3D7BB0D0945409FD"
+			optional: true
+			rewards: [{
+				id: "393F64CCEA4D7633"
+				type: "xp"
+				xp: 10
+			}]
+			size: 1.3d
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "1FC05DC68C1296DF"
+				type: "checkmark"
+			}]
+			title: "Breed for the Horse You Want"
+			x: 7.15d
+			y: 7.15d
+		}
+		{
+			dependencies: ["477E683DB97FE730"]
+			description: ["The installed Realm RPG modules are Dragon Wyrms, Pots and Mimics, and Fallen Adventurers. Watch the terrain and investigate unusual sights carefully. Fallen adventurers add remains to discover; they are not all hostile skeleton enemies. Pots and Mimics make exploration less predictable, while wyrms add another reason to watch your surroundings."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: "minecraft:compass"
+			id: "337E5CA4645C2C51"
+			optional: true
+			rewards: [{
+				id: "53303D008159006A"
+				type: "xp"
+				xp: 10
+			}]
+			size: 1.3d
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "3966B29B2A0633C3"
+				type: "checkmark"
+			}]
+			title: "Realm RPG Encounters"
+			x: 3.2500000000000004d
+			y: 1.9500000000000002d
+		}
+		{
+			dependencies: ["337E5CA4645C2C51"]
+			description: ["When investigating pots or suspicious containers, clear a little space and keep an escape route. A mimic is an encounter, not a normal chest. Bring your weapon, food and spare inventory room. Return to safety to sort finds before pushing deeper into an unfamiliar structure."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: "minecraft:compass"
+			id: "00F6625F2A7A7928"
+			optional: true
+			rewards: [{
+				id: "36CB94812EBDF168"
+				type: "xp"
+				xp: 10
+			}]
+			size: 1.3d
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "3C30AAC0BFDCAA34"
+				type: "checkmark"
+			}]
+			title: "Not Every Discovery Is Safe"
+			x: 3.2500000000000004d
+			y: 4.550000000000001d
+		}
+		{
+			dependencies: ["477E683DB97FE730"]
+			description: ["Nullscape overhauls the End’s terrain. Plan for dramatic height changes and awkward gaps while exploring the outer islands. Carry blocks and Ender Pearls, and avoid assuming that a distant ledge is an easy jump. Your team must earn End access first; entering it also unlocks Twilight Forest."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: "minecraft:compass"
+			id: "53BCA1D6EF77E590"
+			optional: true
+			rewards: [{
+				id: "26CC96DBE68C6250"
+				type: "xp"
+				xp: 10
+			}]
+			size: 1.3d
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "20B083D2415E9B14"
+				type: "checkmark"
+			}]
+			title: "The End, Reshaped"
+			x: 5.8500000000000005d
+			y: 1.9500000000000002d
+		}
+		{
+			dependencies: ["477E683DB97FE730"]
+			description: ["Progressive Bosses changes the fights themselves and offers stronger summon variants. In this version, the Wither has several forms selected through Corrupted Soul Sand, and the Dragon has a corrupted form summoned with Corrupted End Crystals. Prepare for the version you summon. These are additional challenges; the Hovering Inferno remains the pack’s final boss."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: "minecraft:compass"
+			id: "368AFCC73CC088AD"
+			optional: true
+			rewards: [{
+				id: "7B362A24F69EE66C"
+				type: "xp"
+				xp: 10
+			}]
+			size: 1.3d
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "3DAEA5574A756204"
+				type: "checkmark"
+			}]
+			title: "Choose Your Next Boss Challenge"
+			x: 4.550000000000001d
+			y: 1.9500000000000002d
+		}
+		{
+			dependencies: ["368AFCC73CC088AD"]
+			description: ["A defeated Progressive Bosses Wither has a death sequence that ends in an explosion. Back away rather than rushing straight into the drops. For your team’s End unlock, follow the Wither encounter rules in the dimensional progression quests. Use JEI and the summoning item tooltip when preparing optional stronger variants."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: "minecraft:compass"
+			id: "1D80F363581C2D7A"
+			optional: true
+			rewards: [{
+				id: "2EC1A686047D337B"
+				type: "xp"
+				xp: 10
+			}]
+			size: 1.3d
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "20020648BBA7DED2"
+				type: "checkmark"
+			}]
+			title: "Give a Dying Wither Space"
+			x: 4.550000000000001d
+			y: 4.550000000000001d
+		}
+		{
+			dependencies: ["368AFCC73CC088AD"]
+			description: ["Progressive Bosses can prevent block breaking around Elder Guardians. Bring breathing support, a weapon, food and a route out before entering a monument. Do not rely on digging through a wall to escape. Clear the guardians and keep track of the rooms you have already checked."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: "minecraft:compass"
+			id: "6C4C62EE12E5A00B"
+			optional: true
+			rewards: [{
+				id: "606A412A1CDCDFED"
+				type: "xp"
+				xp: 10
+			}]
+			size: 1.3d
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "2874F3399E6CEFA4"
+				type: "checkmark"
+			}]
+			title: "Enter Ocean Monuments Prepared"
+			x: 5.8500000000000005d
+			y: 4.550000000000001d
+		}
+		{
+			dependencies: ["5ACC919AC3DF3092"]
+			description: ["The Cooking for Blockheads Sink provides unlimited water in this pack. Its recipe needs magnetic iron plates and a GregTech Primitive Pump, so prepare those first. Connect the sink to your boilers with fluid transport that can extract from it. One source can feed several boilers, but the pipes must move enough water to keep up."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: "cookingforblockheads:sink"
+			id: "52F45F357997A33B"
+			optional: true
+			rewards: [
+				{
+					id: "03796E500B9515A1"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "66297C7E3BF6CC7F"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_steam"
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 1.3d
+			tasks: [{
+				consume_items: false
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "11C15BA6C62A8692"
+				item: "cookingforblockheads:sink"
+				type: "item"
+			}]
+			title: "Water for the Workshop"
+			x: 0.0d
+			y: -3.9000000000000004d
+		}
+		{
+			dependencies: ["52F45F357997A33B"]
+			description: ["Arrange Cooking for Blockheads kitchen blocks together so the cooking station can use connected ingredient storage. Keep common ingredients and utensils nearby. The oven in this pack requires cooking oil; ordinary furnace fuel is not enough. Check the recipe in JEI and keep the kitchen supplied before relying on it for expedition food."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: "cookingforblockheads:oven"
+			id: "6355E3B3728BC981"
+			optional: true
+			rewards: [
+				{
+					id: "704360E2DF7B7A9B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "2DDD401C0F2A2DBF"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_steam"
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 1.3d
+			tasks: [{
+				consume_items: false
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "07C6E1C91689A40A"
+				item: "cookingforblockheads:oven"
+				type: "item"
+			}]
+			title: "A Kitchen That Works Together"
+			x: 0.0d
+			y: 7.15d
+		}
+	]
+	title: "Life in Outlandish"
+}

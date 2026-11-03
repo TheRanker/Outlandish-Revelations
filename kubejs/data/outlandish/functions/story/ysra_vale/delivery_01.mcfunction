@@ -1,0 +1,2 @@
+# Delivery 1, AS the completing player. No player permission elevation.
+execute if entity @s[type=minecraft:player] if dimension minecraft:overworld at @s as @e[type=minecraft:villager,tag=outlandish_ysra_npc,name="Sister Ysra Vale",distance=..8,sort=nearest,limit=1] at @s as @e[type=minecraft:marker,tag=outlandish_ysra_anchor,distance=..0.1,limit=1] at @s rotated as @s unless entity @e[type=minecraft:marker,tag=outlandish_ysra_anchor,distance=0.001..16] run function outlandish:story/ysra_vale/repair_01

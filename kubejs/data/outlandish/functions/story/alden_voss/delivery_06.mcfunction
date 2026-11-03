@@ -1,0 +1,3 @@
+# Quest 6: invoked as the delivering player.
+execute if entity @s[type=minecraft:player] if dimension minecraft:overworld at @s as @e[type=minecraft:villager,tag=outlandish_voss_npc,name="Professor Alden Voss",distance=..8,sort=nearest,limit=1] at @s as @e[type=minecraft:marker,tag=outlandish_voss_anchor,distance=..0.1,limit=1] at @s rotated as @s unless entity @e[type=minecraft:marker,tag=outlandish_voss_anchor,distance=0.001..16] run function outlandish:story/alden_voss/repair_06
+execute if entity @s[type=minecraft:player] run function outlandish:story/alden_voss/complete

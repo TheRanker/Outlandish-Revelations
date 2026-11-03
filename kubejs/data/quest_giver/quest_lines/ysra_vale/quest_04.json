@@ -1,0 +1,38 @@
+{
+  "parent": "quest_giver:quest_03",
+  "repeatable": false,
+  "icon": "minecraft:white_wool",
+  "start": {
+    "title": {
+      "translate": "A Place to Recover"
+    },
+    "description": {
+      "translate": "Eight pieces of white wool will restore the resting benches and their clean coverings. We offer rest here. No one must prove their usefulness before they are allowed to receive it. Hand the materials to me one at a time."
+    }
+  },
+  "tasks": [
+    {
+      "id": "quest_giver:gift",
+      "item": {
+        "item": "minecraft:white_wool"
+      },
+      "entity": "minecraft:villager",
+      "name": "Sister Ysra Vale",
+      "times": 8
+    }
+  ],
+  "complete": {
+    "title": {
+      "translate": "A Place to Recover"
+    },
+    "description": {
+      "translate": "People sometimes speak of sacrifice as though the word makes every loss noble. It does not. A choice made freely and a cost forced on someone are very different things."
+    }
+  },
+  "rewards": [
+    {
+      "id": "quest_giver:command",
+      "command": "execute at @s run function outlandish:story/ysra_vale/delivery_04"
+    }
+  ]
+}

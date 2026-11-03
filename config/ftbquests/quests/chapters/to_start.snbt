@@ -1,0 +1,62 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "to_start"
+	group: "671F319DF12B461D"
+	id: "0D451FD02314CA9F"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		can_repeat: true
+		description: [
+			"Not every stranger is willing to speak freely. Some carry stories, others carry secrets, and a few are waiting for someone willing to help."
+			""
+			"A Quest Scroll allows you to speak with these people. Should yours become lost, claim another here. One scroll works for every supported quest giver you encounter."
+		]
+		extraquests_calendar: {
+			active_quests: 3
+			enabled: 0b
+			pool: ""
+			reset_time: "06:00"
+			timezone: "UTC"
+			weekday: 1
+			weekly: 0b
+		}
+		icon: {
+			Count: 1
+			id: "minecolonies:resourcescroll"
+			tag: { }
+		}
+		id: "5A34DFABE4AC44E0"
+		ignore_reward_blocking: true
+		optional: true
+		repeat_cooldown: 5
+		repeatable: true
+		rewards: [{
+			id: "479352FFFD3559AD"
+			item: "quest_giver:quest_scroll"
+			type: "item"
+		}]
+		subtitle: "Obtain a replacement scroll used to speak with the people scattered throughout the world."
+		tasks: [{
+			extraquests_options: {
+				aggregation: "AUTO"
+				duration: 600L
+				minimum_contribution: 0L
+				reset_damage: 0b
+				reset_death: 1b
+				reset_logout: 0b
+				shared: 0b
+				timer_enabled: 0b
+				timer_start: "FIRST_PROGRESS"
+			}
+			id: "1AB89E7DE21A7E4F"
+			title: "The Scroll"
+			type: "checkmark"
+		}]
+		title: "A Traveler's Invitation"
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "A Traveler's Invitation"
+}

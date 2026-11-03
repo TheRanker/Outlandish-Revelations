@@ -1,0 +1,1619 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_nether"
+	group: "610F012654EDDFE3"
+	icon: "minecraft:nether_wart_block"
+	id: "47B098CCFD63619D"
+	images: [{
+		height: 3.0d
+		image: "minecraft:textures/item/blaze_powder.png"
+		rotation: 0.0d
+		width: 3.0d
+		x: -6.0d
+		y: -10.5d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Find a naturally generated sculk shrieker in the Deep Dark and trigger a Warden. You or a member of your FTB team must defeat that same Warden to earn Nether access for the team."
+				"The summoner and the player credited with the kill must still belong to the team that summoned it. An outsider taking the kill does not unlock either team. Prepare equipment, food and a retreat route."
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "1DAE408EDD69AFFD"
+			rewards: [
+				{
+					id: "2B4D042637E4D0B0"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "79F21F8C95A7CB8C"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_steam"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 3.0d
+			subtitle: "Kill Warden To Access Nether"
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "60BA20D7B7A39DD3"
+				stage: "nether_access"
+				type: "gamestage"
+			}]
+			title: "Earn Your Passage"
+			x: -12.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1DAE408EDD69AFFD"]
+			description: ["Enter the Nether after your team earns access. Bring blocks, food and fire protection, and mark a safe route back. Incendium makes this dimension a much larger adventure."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "3345903441A5BE84"
+			rewards: [
+				{
+					id: "314048D2989791B4"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6BF9AB2122A131C1"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_steam"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "6FB0585DFB3977A6"
+				type: "dimension"
+			}]
+			title: "Visit The Nether"
+			x: -6.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["3345903441A5BE84"]
+			description: ["Find Incendium’s Ash Barrens. Mark a safe route, look for its landmarks and keep enough supplies to return home."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "0961B69DDC9214E3"
+			rewards: [{
+				id: "6741EA25EA6E537D"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				biome: "incendium:ash_barrens"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "7CC54FB1F690823B"
+				type: "biome"
+			}]
+			title: "Explore the Ash Barrens"
+			x: -9.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["3345903441A5BE84"]
+			description: ["Find Incendium’s Infernal Dunes. Mark a safe route, look for its landmarks and keep enough supplies to return home."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "73D53EC734093B00"
+			rewards: [{
+				id: "3FBE61DE817DF812"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				biome: "incendium:infernal_dunes"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "5EA058C32D70BCDE"
+				type: "biome"
+			}]
+			title: "Explore the Infernal Dunes"
+			x: -8.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["3345903441A5BE84"]
+			description: ["Find Incendium’s Inverted Forest. Mark a safe route, look for its landmarks and keep enough supplies to return home."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "1553AAE8E861CE40"
+			rewards: [{
+				id: "4CCFDD8E97AFBB67"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				biome: "incendium:inverted_forest"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "05A927C352EEA755"
+				type: "biome"
+			}]
+			title: "Explore the Inverted Forest"
+			x: -7.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["3345903441A5BE84"]
+			description: ["Find Incendium’s Quartz Flats. Mark a safe route, look for its landmarks and keep enough supplies to return home."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "5F75FED071A8DE1B"
+			rewards: [{
+				id: "44CC81B2217A3D52"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				biome: "incendium:quartz_flats"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "710B311910AFB1C3"
+				type: "biome"
+			}]
+			title: "Explore the Quartz Flats"
+			x: -6.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["3345903441A5BE84"]
+			description: ["Find Incendium’s Toxic Heap. Mark a safe route, look for its landmarks and keep enough supplies to return home."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "7289CF4137D99503"
+			rewards: [{
+				id: "2206A2A33E45E08C"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				biome: "incendium:toxic_heap"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "09471E97511450D8"
+				type: "biome"
+			}]
+			title: "Explore the Toxic Heap"
+			x: -5.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["3345903441A5BE84"]
+			description: ["Find Incendium’s Volcanic Deltas. Mark a safe route, look for its landmarks and keep enough supplies to return home."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "7CF02FC031503EEF"
+			rewards: [{
+				id: "3434DAAEC352EDA6"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				biome: "incendium:volcanic_deltas"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "0301DAB6ED485D35"
+				type: "biome"
+			}]
+			title: "Explore the Volcanic Deltas"
+			x: -4.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["3345903441A5BE84"]
+			description: ["Find Incendium’s Weeping Valley. Mark a safe route, look for its landmarks and keep enough supplies to return home."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "04AE12257BE749C7"
+			rewards: [{
+				id: "5FDC27D7CC867517"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				biome: "incendium:weeping_valley"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "61E6F3D810B958D2"
+				type: "biome"
+			}]
+			title: "Explore the Weeping Valley"
+			x: -3.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["3345903441A5BE84"]
+			description: ["Find Incendium’s Withered Forest. Mark a safe route, look for its landmarks and keep enough supplies to return home."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "3DA8F0367FFBEF22"
+			rewards: [{
+				id: "0F1C3D70A7039F0F"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				biome: "incendium:withered_forest"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "4323E182786A3B15"
+				type: "biome"
+			}]
+			title: "Explore the Withered Forest"
+			x: -2.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["3345903441A5BE84"]
+			description: [
+				"Storm a Forbidden Castle and kill every last piglin living inside"
+				"Follow the matching Incendium advancement while exploring. This task completes when the adventure awards that advancement."
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "56328DF2FE63F9B5"
+			rewards: [
+				{
+					id: "5F012771D7D6C052"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "5F65EF95B57348DA"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_steam"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "incendium:ash_barrens/conquer_castle"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "1B9B6A4B644B7200"
+				type: "advancement"
+			}]
+			title: "The Conqueror"
+			x: -9.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3345903441A5BE84"]
+			description: [
+				"Give a Sentry a taste of its own medicine"
+				"Follow the matching Incendium advancement while exploring. This task completes when the adventure awards that advancement."
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "6DA8711106B21894"
+			rewards: [{
+				id: "7E6834C3FCA9CD3C"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				advancement: "incendium:ash_barrens/duel_of_the_fates"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "0A49F25738116E19"
+				type: "advancement"
+			}]
+			title: "Duel of the Fates"
+			x: -8.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3345903441A5BE84"]
+			description: [
+				"In the Golden Age, a great King ruled this castle. But he was betrayed, cursed, and exiled from his Kingdom. This is what remains."
+				"Follow the matching Incendium advancement while exploring. This task completes when the adventure awards that advancement."
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "088B825B3824602E"
+			rewards: [{
+				id: "349E6A1D60675838"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				advancement: "incendium:ash_barrens/enter_castle"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "19FF32F5236E3955"
+				type: "advancement"
+			}]
+			title: "In the Hall of the Piglin King"
+			x: -7.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3345903441A5BE84"]
+			description: [
+				"Kill a Desert Blaze on the boundary of light and dark to get both of its drops"
+				"Follow the matching Incendium advancement while exploring. This task completes when the adventure awards that advancement."
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "6AFAD3F9C7E4FDC1"
+			rewards: [
+				{
+					id: "6F9B3F6563080D20"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "751CB1B736EB5355"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_steam"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "incendium:infernal_dunes/border_of_life"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "269085665EEC5FC8"
+				type: "advancement"
+			}]
+			title: "Border of Life"
+			x: -6.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3345903441A5BE84"]
+			description: [
+				"Kill one of the odd Desert Blazes native to the Infernal Dunes"
+				"Follow the matching Incendium advancement while exploring. This task completes when the adventure awards that advancement."
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "77D94D6C5A6ECAB8"
+			rewards: [{
+				id: "102D956545F54F91"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				advancement: "incendium:infernal_dunes/dune_blaze"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "6CF44777297347D1"
+				type: "advancement"
+			}]
+			title: "Light-Sensitive"
+			x: -5.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3345903441A5BE84"]
+			description: [
+				"Extinguish a Pipeline Sentry"
+				"Follow the matching Incendium advancement while exploring. This task completes when the adventure awards that advancement."
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "54AC0C0E80B9E019"
+			rewards: [{
+				id: "6D0D372B21250858"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				advancement: "incendium:infernal_dunes/pipeline/kill_sentry"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "27737F514CE2A6ED"
+				type: "advancement"
+			}]
+			title: "Ceci n'est pas un blaze"
+			x: -4.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3345903441A5BE84"]
+			description: [
+				"Retrieve a Pipeline's hidden treasure"
+				"Follow the matching Incendium advancement while exploring. This task completes when the adventure awards that advancement."
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "13C108080300B284"
+			rewards: [
+				{
+					id: "02B8AFC066C7CB6C"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "71933C8B8AF39F75"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_steam"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "incendium:infernal_dunes/pipeline/pipeline_treasure"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "3B2709AF632A6CF7"
+				type: "advancement"
+			}]
+			title: "Plumber's Plunder"
+			x: -3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3345903441A5BE84"]
+			description: [
+				"Get hit by a Sentry's lightning attack"
+				"Follow the matching Incendium advancement while exploring. This task completes when the adventure awards that advancement."
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "4508634363E68F21"
+			rewards: [{
+				id: "679EB8A7B860B6AA"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				advancement: "incendium:infernal_dunes/pipeline/unlimited_power"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "603AE7F32A91C389"
+				type: "advancement"
+			}]
+			title: "UNLIMITED POWER!!!"
+			x: -2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3345903441A5BE84"]
+			description: [
+				"Steal some loot from a Piglin Village"
+				"Follow the matching Incendium advancement while exploring. This task completes when the adventure awards that advancement."
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "57B8F1A17BDB564E"
+			rewards: [{
+				id: "3DF368A1D239F0CA"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				advancement: "incendium:misc/loot_piglin_village"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "7E384E45076A4CD3"
+				type: "advancement"
+			}]
+			title: "Piglin Pillage"
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3345903441A5BE84"]
+			description: [
+				"The piglin's experiments backfired leading to a dangerous situation"
+				"Follow the matching Incendium advancement while exploring. This task completes when the adventure awards that advancement."
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "0144FA0C7D99ABB4"
+			rewards: [{
+				id: "1C78EE0834E5B291"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				advancement: "incendium:misc/ruined_lab"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "17C4C9EB1CF1AAF7"
+				type: "advancement"
+			}]
+			title: "Alchemical Experiments"
+			x: -9.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3345903441A5BE84"]
+			description: [
+				"Discover every single Incendium biome"
+				"Follow the matching Incendium advancement while exploring. This task completes when the adventure awards that advancement."
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "72EA1E71BFD14C9C"
+			rewards: [
+				{
+					id: "05D9E9F46D79A2F7"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "70C1C4F39E451692"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_steam"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "incendium:misc/soul_searcher"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "0E562316ADAE0296"
+				type: "advancement"
+			}]
+			title: "Soul Searcher"
+			x: -8.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3345903441A5BE84"]
+			description: [
+				"Feed a Ghastling its odd favorite food - fire charges - to toggle it following you"
+				"Follow the matching Incendium advancement while exploring. This task completes when the adventure awards that advancement."
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "2270E7230B20329B"
+			rewards: [{
+				id: "3572F57DF81A8D8C"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				advancement: "incendium:quartz_flats/feed_ghastling"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "07DB87FC91FD4421"
+				type: "advancement"
+			}]
+			title: "Feed the Beast"
+			x: -7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3345903441A5BE84"]
+			description: [
+				"Brave the Quartz Flats' frozen lava seas"
+				"Follow the matching Incendium advancement while exploring. This task completes when the adventure awards that advancement."
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "623123E0F325D01C"
+			rewards: [{
+				id: "1019F143D61A0D19"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				advancement: "incendium:quartz_flats/floor_is_tears"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "7655E7C436390E36"
+				type: "advancement"
+			}]
+			title: "The Floor is Tears"
+			x: -6.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3345903441A5BE84"]
+			description: [
+				"Kill a ghast on its home turf above the frozen lava seas"
+				"Follow the matching Incendium advancement while exploring. This task completes when the adventure awards that advancement."
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "58BAF7B2A632355E"
+			rewards: [{
+				id: "66861BA9F608F91B"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				advancement: "incendium:quartz_flats/ghast_buster"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "15B593093690F2BC"
+				type: "advancement"
+			}]
+			title: "Ghast Buster"
+			x: -5.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3345903441A5BE84"]
+			description: [
+				"Enter the Quartz Tower, the prison of the Ghastlings"
+				"Follow the matching Incendium advancement while exploring. This task completes when the adventure awards that advancement."
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "0E928B4355078AF7"
+			rewards: [{
+				id: "286E8827982BBCA8"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				advancement: "incendium:quartz_flats/rescue_mission"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "3411D38BC2846E77"
+				type: "advancement"
+			}]
+			title: "Rescue Mission"
+			x: -4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3345903441A5BE84"]
+			description: [
+				"Infiltrate the Sanctum vault and silence its guards to remove Mining Fatigue"
+				"Follow the matching Incendium advancement while exploring. This task completes when the adventure awards that advancement."
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "32D86959E4AAD18B"
+			rewards: [
+				{
+					id: "529B66F66542E7F9"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3A75A0179E6445D1"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_steam"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "incendium:quartz_flats/sanctum/vault_hunter"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "48208C0EC73C3261"
+				type: "advancement"
+			}]
+			title: "Vault Hunter"
+			x: -3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3345903441A5BE84"]
+			description: [
+				"Find the hidden treasure in the Quartz Kitchen"
+				"Follow the matching Incendium advancement while exploring. This task completes when the adventure awards that advancement."
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "2153FF1FFBA502F9"
+			rewards: [{
+				id: "0847EC8D29C7E70B"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				advancement: "incendium:quartz_flats/torte/kitchen_treasure"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "1B28AB9FB90BD66C"
+				type: "advancement"
+			}]
+			title: "Kitchen's Treasure"
+			x: -2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3345903441A5BE84"]
+			description: [
+				"Explore the terrifying, and rewarding, Incendium Nether"
+				"Follow the matching Incendium advancement while exploring. This task completes when the adventure awards that advancement."
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "7495476E4BD5FB7B"
+			rewards: [{
+				id: "60825A19F13EA1F6"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				advancement: "incendium:root"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "6DF49192348D7FB1"
+				type: "advancement"
+			}]
+			title: "Incendium"
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["3345903441A5BE84"]
+			description: [
+				"Discover every type of loot in a Nether Reactor"
+				"Follow the matching Incendium advancement while exploring. This task completes when the adventure awards that advancement."
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "7B746B14497B2109"
+			rewards: [
+				{
+					id: "39E09C3F58F1997A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "2C203EB089F0E6EC"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_steam"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "incendium:toxic_heap/mystic_wisdom"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "017CC38297F196C9"
+				type: "advancement"
+			}]
+			title: "Mystic Wisdom"
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3345903441A5BE84"]
+			description: [
+				"Loot a Nether Reactor"
+				"Follow the matching Incendium advancement while exploring. This task completes when the adventure awards that advancement."
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "26AEA5331E473245"
+			rewards: [{
+				id: "4057819693F08A1C"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				advancement: "incendium:toxic_heap/nuclear_fusion"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "38C7B01447151173"
+				type: "advancement"
+			}]
+			title: "Pocket Edition Alpha"
+			x: -9.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3345903441A5BE84"]
+			description: [
+				"Get poisoned by a toxic slime"
+				"Follow the matching Incendium advancement while exploring. This task completes when the adventure awards that advancement."
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "6D06760DCEC899D9"
+			rewards: [{
+				id: "3B9ADD75DDDBE63A"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				advancement: "incendium:toxic_heap/slime_poison"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "7603D62465A49234"
+				type: "advancement"
+			}]
+			title: "Toxic Personality"
+			x: -8.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3345903441A5BE84"]
+			description: [
+				"Mine the exposed ancient debris in the height of the Volcanic Deltas"
+				"Follow the matching Incendium advancement while exploring. This task completes when the adventure awards that advancement."
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "769A19348A887961"
+			rewards: [
+				{
+					id: "7F864F5A2E621B75"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "26C2070DC14938A0"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_steam"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "incendium:volcanic_deltas/hidden_debris"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "007F17F6632A641D"
+				type: "advancement"
+			}]
+			title: "Treacherous Heights"
+			x: -7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3345903441A5BE84"]
+			description: [
+				"Put on some chain armor and use it to dispel a restless spirit"
+				"Follow the matching Incendium advancement while exploring. This task completes when the adventure awards that advancement."
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "3EAA73F3E26B51F9"
+			rewards: [
+				{
+					id: "6030173237C0DCFF"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6168F5FF6372527E"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_steam"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "incendium:withered_forest/chain_armor"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "0C3696A8DBB3521A"
+				type: "advancement"
+			}]
+			title: "Ghostbuster"
+			x: -6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3345903441A5BE84"]
+			description: [
+				"Kill a restless spirit"
+				"Follow the matching Incendium advancement while exploring. This task completes when the adventure awards that advancement."
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "4BBDC1C10CCCF624"
+			rewards: [{
+				id: "47421FE5C9B9BFC2"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				advancement: "incendium:withered_forest/kill_spirit"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "3308B42C37EA7253"
+				type: "advancement"
+			}]
+			title: "Apparitions"
+			x: -5.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3345903441A5BE84"]
+			description: ["Bring Gold Ingots to adult Piglins for bartering. Wear gold armor to help keep ordinary Piglins calm, and build a safe trading area. Hoglins are dangerous wildlife; Piglins are the traders."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: "minecraft:gold_ingot"
+			id: "3212C8E0F3909C82"
+			rewards: [{
+				id: "08FCEA9327ED9784"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "0B7CDF620ECFE72E"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			title: "Gold for Supplies"
+			x: 4.0d
+			y: -6.0d
+		}
+	]
+	title: "The Nether"
+}

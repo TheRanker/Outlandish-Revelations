@@ -1,0 +1,11 @@
+{
+  "icon": "minecraft:amethyst_shard",
+  "start": {
+    "title": {
+      "translate": "Knowledge Before the Challenge"
+    },
+    "description": {
+      "translate": "The blade remains in the Inferno's grasp. Understanding it will take more than reclaiming it. Find Valen Cinderwatch. He witnessed the final battle, and there are things no drawing at this bench can tell you."
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "parent": "quest_giver:quest_05",
+  "repeatable": false,
+  "icon": "minecraft:paper",
+  "start": {
+    "title": {
+      "translate": "A Second Copy"
+    },
+    "description": {
+      "translate": "Twelve sheets of paper will preserve the comparison notes and the surviving dispatches. A fact that can be destroyed by taking one book is not safe enough. Hand the materials to me one at a time."
+    }
+  },
+  "tasks": [
+    {
+      "id": "quest_giver:gift",
+      "item": {
+        "item": "minecraft:paper"
+      },
+      "entity": "minecraft:villager",
+      "name": "Malric Vane",
+      "times": 12
+    }
+  ],
+  "complete": {
+    "title": {
+      "translate": "A Second Copy"
+    },
+    "description": {
+      "translate": "I will not give you a culprit the records cannot prove. The betrayal was real; its full authorship remains uncertain. Carry that uncertainty honestly."
+    }
+  },
+  "rewards": [
+    {
+      "id": "quest_giver:command",
+      "command": "execute at @s run function outlandish:story/malric_vane/delivery_06"
+    }
+  ]
+}

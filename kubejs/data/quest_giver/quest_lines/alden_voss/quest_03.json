@@ -1,0 +1,38 @@
+{
+  "parent": "quest_giver:quest_02",
+  "repeatable": false,
+  "icon": "minecraft:glass",
+  "start": {
+    "title": {
+      "translate": "A Clearer View"
+    },
+    "description": {
+      "translate": "Eight pieces of glass should close these windows. Rain has already blurred too many pages. We must preserve what remains before we decide what it means. Hand the materials to me one at a time."
+    }
+  },
+  "tasks": [
+    {
+      "id": "quest_giver:gift",
+      "item": {
+        "item": "minecraft:glass"
+      },
+      "entity": "minecraft:villager",
+      "name": "Professor Alden Voss",
+      "times": 8
+    }
+  ],
+  "complete": {
+    "title": {
+      "translate": "A Clearer View"
+    },
+    "description": {
+      "translate": "Listen carefully: an observation is not an explanation. Something answered the engine, but my notes cannot yet tell us what."
+    }
+  },
+  "rewards": [
+    {
+      "id": "quest_giver:command",
+      "command": "execute at @s run function outlandish:story/alden_voss/delivery_03"
+    }
+  ]
+}

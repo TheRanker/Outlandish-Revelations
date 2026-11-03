@@ -1,0 +1,610 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "draconic_industry"
+	group: "58A75D3AE27EE52B"
+	icon: "draconicevolution:wyvern_core"
+	id: "3304B4CC7D7D5D26"
+	images: [{
+		height: 3.0d
+		image: "minecraft:textures/item/dragon_breath.png"
+		rotation: 0.0d
+		width: 3.0d
+		x: 6.0d
+		y: -3.5d
+	}]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Make HV Draconic Control Matrices in an HV Assembler. Process Draconium Dust in an HV Electric Furnace and prepare Draconium Cores. Build a reliable supply before assembling your fusion workshop."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: "kubejs:hv_draconic_matrix"
+			id: "3A0C48C42EE944BA"
+			rewards: [{
+				id: "0412212564D70661"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "1D688DAA847A82D8"
+				item: "kubejs:hv_draconic_matrix"
+				type: "item"
+			}]
+			title: "Industrial Draconium"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3A0C48C42EE944BA"]
+			description: ["Assemble a Fusion Crafting Core and Basic Crafting Injectors at EV. Arrange the injectors around the core, connect a suitable FE supply, and check the ingredients and total energy in JEI."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: "draconicevolution:crafting_core"
+			id: "320D6C82CCFF6F04"
+			rewards: [
+				{
+					id: "429F65BA96CFA7F6"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4D8D38DABC00DDE2"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_iv"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "7E986A1D471CC4E8"
+				item: "draconicevolution:crafting_core"
+				type: "item"
+			}]
+			title: "Build a Fusion Workshop"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["320D6C82CCFF6F04"]
+			description: ["Make IV matrices and craft a Wyvern Core with Basic injectors. Upgrade to Wyvern injectors, keeping enough for the largest recipe you plan to make."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: "draconicevolution:wyvern_crafting_injector"
+			id: "2DF60A8C441399AE"
+			rewards: [
+				{
+					id: "5FF783CBA00DC40C"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "05D7E9F462F113D7"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_iv"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "0B1089D05AC315DA"
+				item: "draconicevolution:wyvern_crafting_injector"
+				type: "item"
+			}]
+			title: "IV Wyvern Injectors"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2DF60A8C441399AE"]
+			description: ["Combine prepared Stainless Steel and Titanium tool materials, Tungsten Steel Plates and an IV circuit into an IV Equipment Blank. Use it for your Wyvern equipment."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: "kubejs:iv_draconic_equipment_blank"
+			id: "184023D1F9824EDB"
+			rewards: [{
+				id: "57DBEB7FAFAE68DD"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "238817561C791195"
+				item: "kubejs:iv_draconic_equipment_blank"
+				type: "item"
+			}]
+			title: "Prepare Equipment Blanks"
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["184023D1F9824EDB"]
+			description: ["Use Wyvern injectors, IV matrices and equipment blanks to craft your first Wyvern tools and weapons. Charge the equipment and plan its modules before battle."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					Parent: {
+						energy: {
+							energy: 0
+						}
+						module_host: {
+							modules: [ ]
+							properties: { }
+							provider_id: [I;
+								-776606807
+								531186377
+								-1909584654
+								1253803713
+							]
+						}
+					}
+				}
+				id: "draconicevolution:wyvern_sword"
+			}
+			id: "59693955AFC2845D"
+			rewards: [
+				{
+					id: "401FD8D736C1129A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "216B24154326FE6B"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_iv"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "7F3B9C6799092432"
+				item: "draconicevolution:wyvern_sword"
+				type: "item"
+			}]
+			title: "Wyvern Equipment"
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2DF60A8C441399AE"]
+			description: ["Combine an EV Blood-Infused Circuit, Stabilised Blood Reagent, prepared Sanguine Steel and a Silver Plate into stabilizers. Reserve some for awakening Draconium and the later reactor project."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: "kubejs:sanguine_draconic_stabilizer"
+			id: "67120112ABAC6431"
+			rewards: [{
+				id: "27A1DCDBB466883D"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "3376E7C9DAD2D732"
+				item: "kubejs:sanguine_draconic_stabilizer"
+				type: "item"
+			}]
+			title: "Sanguine Stabilization"
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["67120112ABAC6431"]
+			description: ["Prepare LuV matrices and a Sanguine Draconic Stabilizer. Use a Dragon Heart and the ingredients in JEI to awaken Draconium on Wyvern injectors. Upgrade to Awakened injectors and prepare LuV equipment blanks."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: "draconicevolution:awakened_crafting_injector"
+			id: "625591F640326A5B"
+			rewards: [
+				{
+					id: "48569F2917892AEE"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7D93D62884FC98B5"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_luv"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "05C3AE49242C327F"
+				item: "draconicevolution:awakened_crafting_injector"
+				type: "item"
+			}]
+			title: "LuV Awakening"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["625591F640326A5B"]
+			description: ["Prepare thoroughly before facing a Chaos Guardian. Your first Chaos fragments come from that adventure. Use them with ZPM matrices to upgrade your injectors and begin Chaotic equipment."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: "draconicevolution:chaotic_crafting_injector"
+			id: "5FCC310D019D7B3B"
+			rewards: [
+				{
+					id: "1C092041811E3AA3"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0932595501A32C85"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_zpm"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "1D9440EE19A0AB75"
+				item: "draconicevolution:chaotic_crafting_injector"
+				type: "item"
+			}]
+			title: "ZPM Chaos"
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5FCC310D019D7B3B"]
+			description: ["After obtaining Chaos fragments, prepare UV matrices for Draconic Additions’ chaos-processing equipment. Build the machines in recipe order and check their energy needs."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: "draconicadditions:chaos_liquifier"
+			id: "3C322C4843619467"
+			optional: true
+			rewards: [{
+				id: "0A6975E8687DDBC5"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "0144765732F86714"
+				item: "draconicadditions:chaos_liquifier"
+				type: "item"
+			}]
+			title: "UV Chaos Industry"
+			x: 3.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["5FCC310D019D7B3B"]
+			description: ["The Draconic Reactor is a major UV project. Build its controls and containment before commissioning it, and study its operating requirements carefully. Give it a dedicated site and test controls before loading fuel."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: "draconicevolution:reactor_core"
+			id: "59E27C7F45FF5491"
+			optional: true
+			rewards: [
+				{
+					id: "3009692686135EED"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7FE05E1E84A6B5A6"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_uv"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "10E572B61E1D7017"
+				item: "draconicevolution:reactor_core"
+				type: "item"
+			}]
+			title: "An Optional Reactor"
+			x: 9.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["59693955AFC2845D"]
+			description: ["Craft and charge a Wyvern Capacitor. Configure charging for the equipment you carry and check your reserve before leaving home."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					Parent: {
+						energy: {
+							energy: 0
+						}
+						module_host: {
+							modules: [ ]
+							properties: {
+								charge_armor: {
+									hud: 1b
+								}
+								charge_curios: {
+									hud: 1b
+								}
+								charge_held_item: {
+									hud: 1b
+								}
+								charge_hot_bar: {
+									hud: 1b
+								}
+								charge_main: {
+									hud: 1b
+								}
+							}
+							provider_id: [I;
+								1109337849
+								-480425675
+								-2088847151
+								1565347094
+							]
+						}
+					}
+				}
+				id: "draconicevolution:wyvern_capacitor"
+			}
+			id: "77A8FC9F84C4AD12"
+			optional: true
+			rewards: [
+				{
+					id: "1CF63D4CBC4AD7EC"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "2221F6326FAF9C90"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_iv"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "54A5F1805D67D0A5"
+				item: "draconicevolution:wyvern_capacitor"
+				type: "item"
+			}]
+			title: "Carry a Power Reserve"
+			x: 14.5d
+			y: 0.0d
+		}
+	]
+	title: "Draconic Industry"
+}

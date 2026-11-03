@@ -1,0 +1,14 @@
+{
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "outlandish:aura_research_station",
+        "projection": "rigid",
+        "processors": "outlandish:aura_research_station"
+      }
+    }
+  ]
+}

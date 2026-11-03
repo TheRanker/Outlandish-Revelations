@@ -1,0 +1,24 @@
+{
+	id: "192FD441BCD3D3BE"
+	loot_crate: {
+		color: 7920843
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		glow: 1b
+		item_name: "Outlandish UV Supply Bag"
+		string_id: "or_uv"
+	}
+	loot_size: 1
+	order_index: 11
+	rewards: [
+		{ count: 24, item: "minecraft:iron_block" }
+		{ count: 24, item: "minecraft:redstone_block" }
+		{ count: 12, item: "minecraft:gold_block" }
+		{ count: 16, item: "minecraft:lapis_block" }
+	]
+	title: "Outlandish UV Supplies"
+	use_title: true
+}

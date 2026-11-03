@@ -1,0 +1,498 @@
+// The Graveyard config. Comments are rewritten at start. Values are kept.
+{
+  general: {
+    // Set true to stop every Graveyard mob from appearing on its own. Spawn eggs and commands still work.
+    structuresOnly: false,
+    // Play the boss music during the Corrupted Champion fight. Client setting.
+    bossMusic: true,
+    // Show ash particles above smoldering blocks. Client setting.
+    ashParticles: true,
+    // Volume factor for all Graveyard sounds, the boss music included. Range 0 to 1. Client setting.
+    soundVolume: 1.0
+  },
+  structures: {
+    // Altar of the Corrupted Champion.
+    altar: {
+      // Set false to stop this structure from generating.
+      enabled: true,
+      // Chance from 0 to 1 that a placed structure generates.
+      chance: 1.0
+    },
+    // Crypt below the surface.
+    crypt: {
+      enabled: true,
+      chance: 1.0,
+      // Lowest Y level of the crypt.
+      minY: -40,
+      // Highest Y level of the crypt.
+      maxY: -10
+    },
+    // Dead tree.
+    dead_tree: {
+      enabled: true,
+      chance: 1.0
+    },
+    // Giant mushroom.
+    giant_mushroom: {
+      enabled: true,
+      chance: 1.0
+    },
+    // Haunted house.
+    haunted_house: {
+      enabled: true,
+      chance: 1.0
+    },
+    // Large graveyard.
+    large_graveyard: {
+      enabled: true,
+      chance: 1.0
+    },
+    // Prison of the Corrupted Champion in the sky.
+    lich_prison: {
+      enabled: true,
+      chance: 1.0,
+      // Lowest Y level of the prison.
+      minY: 210,
+      // Highest Y level of the prison.
+      maxY: 210
+    },
+    // Medium graveyard.
+    medium_graveyard: {
+      enabled: true,
+      chance: 1.0
+    },
+    // Memorial tree.
+    memorial_tree: {
+      enabled: true,
+      chance: 1.0
+    },
+    // Mushroom grave.
+    mushroom_grave: {
+      enabled: true,
+      chance: 1.0
+    },
+    // Overrun village. Its switch and its chance apply to every overrun village variant.
+    overrun_village: {
+      enabled: true,
+      chance: 1.0
+    },
+    // Overrun desert village.
+    overrun_desert_village: {
+      enabled: true,
+      chance: 1.0
+    },
+    // Overrun plains village.
+    overrun_plains_village: {
+      enabled: true,
+      chance: 1.0
+    },
+    // Overrun savanna village.
+    overrun_savanna_village: {
+      enabled: true,
+      chance: 1.0
+    },
+    // Overrun snowy village.
+    overrun_snowy_village: {
+      enabled: true,
+      chance: 1.0
+    },
+    // Overrun taiga village.
+    overrun_taiga_village: {
+      enabled: true,
+      chance: 1.0
+    },
+    // Ruins.
+    ruins: {
+      enabled: true,
+      chance: 1.0
+    },
+    // Small desert grave.
+    small_desert_grave: {
+      enabled: true,
+      chance: 1.0
+    },
+    // Small desert graveyard.
+    small_desert_graveyard: {
+      enabled: true,
+      chance: 1.0
+    },
+    // Small grave.
+    small_grave: {
+      enabled: true,
+      chance: 1.0
+    },
+    // Small graveyard.
+    small_graveyard: {
+      enabled: true,
+      chance: 1.0
+    },
+    // Small mountain grave.
+    small_mountain_grave: {
+      enabled: true,
+      chance: 1.0
+    },
+    // Small savanna grave.
+    small_savanna_grave: {
+      enabled: true,
+      chance: 1.0
+    }
+  },
+  mobs: {
+    // Acolyte.
+    acolyte: {
+      // Set false to stop this mob from appearing on its own. Spawn eggs and commands still work.
+      enabled: true,
+      // Natural spawn. Weight 0 turns the natural spawn off. Group size is the number of mobs per spawn.
+      spawn: {
+        // Weight of the natural spawn.
+        weight: 0,
+        // Smallest group size. At least 1 when the weight is above 0.
+        minGroup: 0,
+        // Largest group size. Not below minGroup.
+        maxGroup: 0
+      },
+      // Set true to let the mob burn in daylight.
+      burnsInSunlight: false,
+      // Set true to let the wither effect hurt this mob.
+      canBeWithered: false,
+      // Health factor. 1.0 keeps the default. Minimum 0.05. A negative value resets to 1.0.
+      health: 1.0,
+      // Attack damage factor. 1.0 keeps the default. Minimum 0.05. A negative value resets to 1.0.
+      damage: 1.0,
+      // Movement speed factor. 1.0 keeps the default. Minimum 0.05. A negative value resets to 1.0.
+      speed: 1.0
+    },
+    // Corrupted evoker.
+    corrupted_evoker: {
+      enabled: true,
+      spawn: {
+        weight: 0,
+        minGroup: 0,
+        maxGroup: 0
+      },
+      burnsInSunlight: true,
+      canBeWithered: false,
+      health: 1.0,
+      damage: 1.0,
+      speed: 1.0
+    },
+    // Corrupted pillager.
+    corrupted_pillager: {
+      enabled: true,
+      spawn: {
+        weight: 0,
+        minGroup: 0,
+        maxGroup: 0
+      },
+      burnsInSunlight: true,
+      canBeWithered: false,
+      health: 1.0,
+      damage: 1.0,
+      speed: 1.0
+    },
+    // Corrupted vindicator.
+    corrupted_vindicator: {
+      enabled: true,
+      spawn: {
+        weight: 0,
+        minGroup: 0,
+        maxGroup: 0
+      },
+      burnsInSunlight: true,
+      canBeWithered: false,
+      health: 1.0,
+      damage: 1.0,
+      speed: 1.0
+    },
+    // Crow.
+    crow: {
+      enabled: true,
+      spawn: {
+        weight: 10,
+        minGroup: 4,
+        maxGroup: 9
+      },
+      burnsInSunlight: false,
+      canBeWithered: false,
+      health: 1.0,
+      damage: 1.0,
+      speed: 1.0
+    },
+    // Ghoul.
+    ghoul: {
+      enabled: true,
+      spawn: {
+        weight: 25,
+        minGroup: 2,
+        maxGroup: 5
+      },
+      burnsInSunlight: true,
+      canBeWithered: false,
+      health: 1.0,
+      damage: 1.0,
+      speed: 1.0
+    },
+    // Magpie.
+    magpie: {
+      enabled: true,
+      spawn: {
+        weight: 8,
+        minGroup: 2,
+        maxGroup: 3
+      },
+      burnsInSunlight: false,
+      canBeWithered: false,
+      health: 1.0,
+      damage: 1.0,
+      speed: 1.0
+    },
+    // Nameless hanged. This mob has no other settings.
+    nameless_hanged: {
+      enabled: true
+    },
+    // Nightmare.
+    nightmare: {
+      enabled: true,
+      spawn: {
+        weight: 10,
+        minGroup: 1,
+        maxGroup: 1
+      },
+      burnsInSunlight: false,
+      canBeWithered: false,
+      health: 1.0,
+      damage: 1.0,
+      speed: 1.0
+    },
+    // Raven.
+    raven: {
+      enabled: true,
+      spawn: {
+        weight: 8,
+        minGroup: 2,
+        maxGroup: 4
+      },
+      burnsInSunlight: false,
+      canBeWithered: false,
+      health: 1.0,
+      damage: 1.0,
+      speed: 1.0
+    },
+    // The reaper is off by default.
+    reaper: {
+      enabled: true,
+      spawn: {
+        weight: 5,
+        minGroup: 2,
+        maxGroup: 3
+      },
+      burnsInSunlight: true,
+      canBeWithered: false,
+      health: 1.0,
+      damage: 1.0,
+      speed: 1.0
+    },
+    // Revenant.
+    revenant: {
+      enabled: true,
+      spawn: {
+        weight: 25,
+        minGroup: 5,
+        maxGroup: 8
+      },
+      burnsInSunlight: true,
+      canBeWithered: false,
+      health: 1.0,
+      damage: 1.0,
+      speed: 1.0
+    },
+    // Skeleton creeper.
+    skeleton_creeper: {
+      enabled: true,
+      spawn: {
+        weight: 25,
+        minGroup: 1,
+        maxGroup: 4
+      },
+      burnsInSunlight: true,
+      canBeWithered: false,
+      health: 1.0,
+      damage: 1.0,
+      speed: 1.0
+    },
+    // Tormented villager.
+    tormented_villager: {
+      enabled: true,
+      spawn: {
+        weight: 0,
+        minGroup: 1,
+        maxGroup: 1
+      },
+      burnsInSunlight: false,
+      canBeWithered: false,
+      health: 1.0,
+      damage: 1.0,
+      speed: 1.0
+    },
+    // Wraith.
+    wraith: {
+      enabled: true,
+      spawn: {
+        weight: 0,
+        minGroup: 0,
+        maxGroup: 0
+      },
+      burnsInSunlight: true,
+      canBeWithered: false,
+      health: 1.0,
+      damage: 1.0,
+      speed: 1.0
+    }
+  },
+  hordes: {
+    // Set false to turn the horde spawn off. Peaceful, the doMobSpawning rule and spawn-monsters=false also stop hordes.
+    enabled: true,
+    // Number of spawn tries per horde. Range 0 to 256.
+    spawnAttempts: 40,
+    // Ticks between two horde checks. 24000 ticks are one day.
+    intervalTicks: 24000,
+    // Random extra ticks added to the interval.
+    randomExtraTicks: 1200,
+    // Chance from 0 to 1 that a check starts a horde.
+    chancePerCheck: 0.2,
+    // Smallest distance from the player in blocks. Minimum 1.
+    minDistance: 24,
+    // Largest distance from the player in blocks. Not below minDistance.
+    maxDistance: 48,
+    // Set true to start hordes only at night.
+    nightOnly: true
+  },
+  corruptedChampion: {
+    summoning: {
+      // Set true to require staff fragments at the altar.
+      needsStaffFragments: true,
+      // Items that summon the boss, as translation keys.
+      summonItems: ["item.minecraft.debug_stick"],
+      // Mobs whose death fills the dagger with blood, as translation keys.
+      bloodEntities: ["entity.minecraft.villager"],
+      // Ticks of invulnerability after the boss spawns. Minimum 200.
+      spawnInvulnerableTicks: 410
+    },
+    stats: {
+      // Health in the casting phase. Must be above 0.
+      castingHealth: 400.0,
+      // Health in the hunting phase. Must be above 0.
+      huntingHealth: 200.0,
+      // Attack damage in the casting phase. Minimum 0.
+      castingDamage: 30.0,
+      // Attack damage added in the hunting phase.
+      huntingDamageBonus: 40.0,
+      // Armor. Minimum 0.
+      armor: 14.0,
+      // Armor toughness. Minimum 0.
+      armorToughness: 12.0,
+      // Movement speed added in the hunting phase.
+      huntingSpeedBonus: 0.15
+    },
+    spells: {
+      // Duration of the hunting phase in ticks. Minimum 1.
+      huntDuration: 800,
+      // Duration of the falling corpse spell in ticks. Minimum 1.
+      corpseDuration: 400,
+      // Cooldown of the falling corpse spell in ticks. Minimum 0.
+      corpseCooldown: 400,
+      // Duration of the healing spell in ticks. Minimum 1.
+      healingDuration: 700,
+      // Cooldown of the teleport and heal spell in ticks. Minimum 0.
+      healingCooldown: 600,
+      // The boss casts the healing spell below this health.
+      healThresholdHealth: 300.0,
+      // Duration of the levitation spell in ticks. Minimum 1.
+      levitationDuration: 150,
+      // Cooldown of the levitation spell in ticks. Minimum 0.
+      levitationCooldown: 400,
+      // Y offset in blocks for players teleported by the healing spell.
+      playerTeleportYOffset: -15,
+      // Largest number of skulls per skull spell. Range 1 to 64.
+      maxSkulls: 5,
+      // Explosion radius of a skull. Range 0 to 16.
+      skullExplosionRadius: 2.0,
+      // Set true to let skull explosions break blocks.
+      skullsDestroyBlocks: false
+    },
+    fight: {
+      // Set false to skip the phase change of the fight.
+      multiphase: true,
+      // Set true to make the boss invulnerable during spells.
+      invulnerableDuringSpells: true,
+      // Ticks of invulnerability at a phase change. Minimum 0.
+      phaseInvulnerableTicks: 200,
+      // Cooldown of the hunt in ticks. Minimum 200.
+      huntCooldown: 600,
+      // Cooldown of the charge attack in ticks. Minimum 40.
+      chargeCooldown: 160,
+      // Cooldown of the pounce attack in ticks. Minimum 40.
+      pounceCooldown: 120,
+      // Largest number of mobs the boss keeps alive. Range 0 to 256.
+      maxSummonedMobs: 30,
+      // Largest group size per summon. Range 1 to 64.
+      maxSummonGroupSize: 5,
+      // Ghoul spawn timer in ticks. Minimum 0.
+      ghoulSpawnTimer: 6000
+    },
+    effects: {
+      // Set true to darken the sky during the fight.
+      darkenSky: true,
+      // Set true to thicken the fog during the fight.
+      thickenFog: true,
+      // Volume of the boss music. Range 0 to 4. Client setting.
+      musicVolume: 1.0
+    }
+  },
+  chronicle: {
+    // Show the chronicle button in the inventory. Client setting.
+    inventoryButton: true,
+    // Show a toast for each found chronicle page. Client setting.
+    toasts: true,
+    // Add chronicle pages to chest loot.
+    pagesInLoot: true
+  },
+  behaviour: {
+    // Let magpies pick up items.
+    magpiesStealItems: true,
+    // Chance per check that a magpie goes for an item. Range 0 to 1.
+    magpieTheftChance: 0.1,
+    // Let crows eat crops.
+    crowsEatCrops: true,
+    // Let a ghouling with a coffin pick up items.
+    ghoulingCollectsItems: true,
+    // Let wraiths put out torches and lights.
+    wraithGriefing: true,
+    // Let players open dark iron doors and trapdoors by hand. Use the same value on the server and on each client.
+    darkIronOpensByHand: false,
+    // Generate smoldering blocks in overrun villages.
+    smolderingBlocksInVillages: true,
+    // Let the skeleton creeper explosion break blocks.
+    skeletonCreeperDestroysBlocks: false,
+    // Explosion radius of the skeleton creeper. Range 0 to 16.
+    skeletonCreeperExplosionRadius: 3.5,
+    // Give urns a double chest inventory.
+    urnDoubleInventory: true,
+    // Replace the wither skeleton spawner in the large graveyard with a skeleton spawner.
+    replaceWitherSkeletonSpawner: false,
+    // Fog particles that rise from moss.
+    fogParticles: {
+      // Set false to turn the fog particles off. Client setting.
+      enabled: true,
+      // Higher numbers mean rarer particles. Range 1 to 100000. Client setting.
+      rarity: 50
+    },
+    // Number of trades the nameless hanged offers.
+    namelessHangedOffers: {
+      // Fewest trades. Minimum 1.
+      min: 7,
+      // Most trades. Not below min.
+      max: 9
+    }
+  }
+}

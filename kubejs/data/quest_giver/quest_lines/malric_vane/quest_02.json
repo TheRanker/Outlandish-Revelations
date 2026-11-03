@@ -1,0 +1,38 @@
+{
+  "parent": "quest_giver:quest_01",
+  "repeatable": false,
+  "icon": "minecraft:quartz",
+  "start": {
+    "title": {
+      "translate": "Marks in a Clear Light"
+    },
+    "description": {
+      "translate": "Twelve quartz will restore the pale inspection panels. A dark seal on dark stone is an excellent place to hide a small difference. Hand the materials to me one at a time."
+    }
+  },
+  "tasks": [
+    {
+      "id": "quest_giver:gift",
+      "item": {
+        "item": "minecraft:quartz"
+      },
+      "entity": "minecraft:villager",
+      "name": "Malric Vane",
+      "times": 12
+    }
+  ],
+  "complete": {
+    "title": {
+      "translate": "Marks in a Clear Light"
+    },
+    "description": {
+      "translate": "Seraphine's impression belongs to a dispatch office that had already closed. Someone kept using its authority after the people responsible for it had gone."
+    }
+  },
+  "rewards": [
+    {
+      "id": "quest_giver:command",
+      "command": "execute at @s run function outlandish:story/malric_vane/delivery_02"
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "version": 1,
+  "ceremonyIntegrationEnabled": false,
+  "originalInscription": [
+    "THE RANKER'S MEMORIAL",
+    "The Unfinished Promise",
+    "A promise once broken, waiting to be fulfilled."
+  ],
+  "memorials": [],
+  "npcs": [
+    {
+      "id": "garrick_ashford",
+      "displayName": "Garrick Ashford",
+      "existingEntityName": "Garrick Ashford",
+      "carrying": "You brought Tears for Fears back. Good work, traveller. A fine blade deserves hands that remember who it was made to protect.",
+      "fulfilled": "You kept the promise through to the end. I will remember that."
+    },
+    {
+      "id": "alden_voss",
+      "displayName": "Professor Alden Voss",
+      "existingEntityName": "Professor Alden Voss",
+      "carrying": "Tears for Fears, recovered at last. Congratulations. Keep asking careful questions; possession is not the same as understanding.",
+      "fulfilled": "Now the record holds another truth: you chose to fulfil the promise yourself."
+    },
+    {
+      "id": "mara_coppersmith",
+      "displayName": "Mara Coppersmith",
+      "existingEntityName": "Mara Coppersmith",
+      "carrying": "So that is Tears for Fears in working hands again. Well done. Keep its purpose as carefully as you keep its edge.",
+      "fulfilled": "You carried the work further than a repaired workshop. That matters."
+    },
+    {
+      "id": "edda_thorne",
+      "displayName": "Captain Edda Thorne",
+      "existingEntityName": "Captain Edda Thorne",
+      "carrying": "You recovered the blade. You have my respect. Carry it for the people beside you, not for the praise it might bring.",
+      "fulfilled": "The promise you fulfilled was yours to choose. I am glad you chose to keep it."
+    },
+    {
+      "id": "ysra_vale",
+      "displayName": "Sister Ysra Vale",
+      "existingEntityName": "Sister Ysra Vale",
+      "carrying": "Tears for Fears has returned. May it shelter the living. Congratulations, traveller; remember that strength does not make another person yours to spend.",
+      "fulfilled": "What you gave freely will be remembered here."
+    },
+    {
+      "id": "darius_emberwright",
+      "displayName": "Darius Emberwright",
+      "existingEntityName": "Darius Emberwright",
+      "carrying": "The stolen blade is back in our world. Well done. The people who kept these outposts standing would have wanted to see this.",
+      "fulfilled": "You did more than recover what was lost. You gave the old promise a future."
+    },
+    {
+      "id": "seraphine_blackveil",
+      "displayName": "Seraphine Blackveil",
+      "existingEntityName": "Seraphine Blackveil",
+      "carrying": "You brought Tears for Fears back. I will give you that, and gladly. Do not forget the people whose names never made the grand accounts.",
+      "fulfilled": "You kept your own promise. That earns a kind of trust no banner can demand."
+    },
+    {
+      "id": "malric_vane",
+      "displayName": "Malric Vane",
+      "existingEntityName": "Malric Vane",
+      "carrying": "The recovery of Tears for Fears is no longer a rumour. Congratulations. I will record what you achieved without pretending it answers every question.",
+      "fulfilled": "Your freely chosen act belongs in the record, under your own name."
+    },
+    {
+      "id": "cassian_ashfall",
+      "displayName": "Cassian Ashfall",
+      "existingEntityName": "Cassian Ashfall",
+      "carrying": "Tears for Fears, here at last. Congratulations on its recovery. Treat what we learned as a responsibility, not permission to stop learning.",
+      "fulfilled": "You carried the unfinished work beyond these instruments. I am glad to have witnessed it."
+    },
+    {
+      "id": "valen_cinderwatch",
+      "displayName": "Valen Cinderwatch",
+      "existingEntityName": "Valen Cinderwatch",
+      "carrying": "I saw that blade fall into the enemy's keeping. Seeing it carried out again is more than I expected. Well done.",
+      "fulfilled": "The last watchfire no longer marks only a loss. You gave us something else to remember."
+    },
+    {
+      "id": "aura",
+      "displayName": "A.U.R.A.",
+      "existingEntityName": "A.U.R.A.",
+      "carrying": "Relic recovery confirmed: Tears for Fears. Congratulations, bearer. Preserve both the instrument and the purpose recorded with it.",
+      "fulfilled": "Personal fulfilment confirmed. This record belongs to you, bearer."
+    },
+    {
+      "id": "elyndra",
+      "displayName": "Elyndra, Keeper of the Veil",
+      "existingEntityName": "Elyndra",
+      "carrying": "Tears for Fears has found its way back. Congratulations, traveller. What you choose to protect will give its strength meaning.",
+      "fulfilled": "The promise was freely chosen and personally fulfilled. The forest remembers."
+    }
+  ]
+}

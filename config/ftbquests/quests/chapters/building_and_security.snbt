@@ -1,0 +1,902 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "building_and_security"
+	group: "290BD65C3C52540C"
+	icon: "minecraft:bricks"
+	id: "2C7EB070F2E5FB02"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Plan floors, entrances and service access before filling a building with machines. Keep room behind machines for cables and pipes. Building Gadgets help with large projects, while SecurityCraft and Super Secret Doors let you control and conceal access."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: "minecraft:bricks"
+			id: "27C92A94F86C531B"
+			optional: true
+			rewards: [{
+				id: "10876707F40A2DFC"
+				type: "xp"
+				xp: 10
+			}]
+			size: 1.8d
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "5AAAA6AC4455855D"
+				type: "checkmark"
+			}]
+			title: "Build a Workshop You Can Use"
+			x: 0.0d
+			y: 0.8999999999999999d
+		}
+		{
+			dependencies: ["27C92A94F86C531B"]
+			description: ["The Building Gadget starts with LV circuits and prepared GregTech plates. Charge it, select a building block and inspect the placement preview. Supply the required blocks and begin with a small wall before attempting a large floor."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: "buildinggadgets2:gadget_building"
+			id: "45200CDD0D07AB7B"
+			optional: true
+			rewards: [
+				{
+					id: "208309F9AA5FC586"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "73D3C8C2B47F34B7"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_lv"
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 1.3d
+			tasks: [{
+				consume_items: false
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "21980CA96DA224D0"
+				item: "buildinggadgets2:gadget_building"
+				type: "item"
+			}]
+			title: "Build in Larger Shapes"
+			x: 4.550000000000001d
+			y: -1.9500000000000002d
+		}
+		{
+			dependencies: ["27C92A94F86C531B"]
+			description: ["The Exchanging Gadget replaces selected blocks with your chosen material. Test it on a small area and inspect the preview. Keep it away from machines, storage and other blocks whose contents matter until you understand its behaviour."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: "buildinggadgets2:gadget_exchanging"
+			id: "7BDB1DD3E0F12202"
+			optional: true
+			rewards: [
+				{
+					id: "15157C5C739B4A89"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "447B087FD603F210"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_lv"
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 1.3d
+			tasks: [{
+				consume_items: false
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "74AE78BE336B2A7A"
+				item: "buildinggadgets2:gadget_exchanging"
+				type: "item"
+			}]
+			title: "Change a Wall without Starting Over"
+			x: -4.550000000000001d
+			y: -1.9500000000000002d
+		}
+		{
+			dependencies: ["27C92A94F86C531B"]
+			description: ["Use the Copy-Paste Gadget to capture a simple structure and place another copy. Check the selection boundaries, preview and material requirements. A clean room or wall section makes a good first template."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: "buildinggadgets2:gadget_copy_paste"
+			id: "74776A307009CA2C"
+			optional: true
+			rewards: [
+				{
+					id: "0026A84E659CA281"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7E34532F418DC331"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_lv"
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 1.3d
+			tasks: [{
+				consume_items: false
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "51E6236CCF040E56"
+				item: "buildinggadgets2:gadget_copy_paste"
+				type: "item"
+			}]
+			title: "Repeat a Useful Design"
+			x: -1.3d
+			y: -1.9500000000000002d
+		}
+		{
+			dependencies: ["27C92A94F86C531B"]
+			description: ["The Template Manager uses an LV machine hull and circuits. Use it to organize the building templates you want to reuse. Give designs descriptive names and test a template before making it the foundation of a large build."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: "buildinggadgets2:template_manager"
+			id: "1F123305C9C75682"
+			optional: true
+			rewards: [
+				{
+					id: "1BD0C983398C7D5A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "723494038D46D0AA"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_lv"
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 1.3d
+			tasks: [{
+				consume_items: false
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "663F478F523CF406"
+				item: "buildinggadgets2:template_manager"
+				type: "item"
+			}]
+			title: "Keep Your Favourite Templates"
+			x: 0.0d
+			y: -1.9500000000000002d
+		}
+		{
+			dependencies: ["27C92A94F86C531B"]
+			description: ["The Destruction Gadget needs MV components and aluminium plates. It clears selected blocks rather than serving as your mining tool. Inspect every edge of the preview and test on expendable blocks before using it near a workshop."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: "buildinggadgets2:gadget_destruction"
+			id: "6A905AE9EE2C5722"
+			optional: true
+			rewards: [
+				{
+					id: "1B32253B0FB02515"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3FA0FB9C336CD8E0"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_mv"
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 1.3d
+			tasks: [{
+				consume_items: false
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "67C3799D578FE6D6"
+				item: "buildinggadgets2:gadget_destruction"
+				type: "item"
+			}]
+			title: "Clear Space Carefully"
+			x: -2.6d
+			y: -1.9500000000000002d
+		}
+		{
+			dependencies: ["27C92A94F86C531B"]
+			description: ["The Cut-Paste Gadget needs MV components, aluminium plates and an iron buzz saw blade. Plan both the source and destination before cutting. Start with a small empty structure and make sure the destination has enough room."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: "buildinggadgets2:gadget_cut_paste"
+			id: "32B9E145E6D7D833"
+			optional: true
+			rewards: [
+				{
+					id: "473F6E7D6BF540F7"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "1ED738A2D7246B75"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_mv"
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 1.3d
+			tasks: [{
+				consume_items: false
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "3FBE1813D28FAE86"
+				item: "buildinggadgets2:gadget_cut_paste"
+				type: "item"
+			}]
+			title: "Move a Building Section"
+			x: 2.6d
+			y: -1.9500000000000002d
+		}
+		{
+			dependencies: ["27C92A94F86C531B"]
+			description: ["SecurityCraft devices have their own ownership and access settings. FTB team membership alone does not configure every device. Decide who should place and manage the equipment, then test access with a teammate. Keep the SecurityCraft manual in your tome handy."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: "minecraft:bricks"
+			id: "260F97342BB603DF"
+			optional: true
+			rewards: [{
+				id: "36B3E178AB92C025"
+				type: "xp"
+				xp: 10
+			}]
+			size: 1.3d
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "36121A2F7C736F9E"
+				type: "checkmark"
+			}]
+			title: "Understand Ownership"
+			x: 0.0d
+			y: 4.550000000000001d
+		}
+		{
+			dependencies: ["260F97342BB603DF"]
+			description: ["Use a Universal Block Reinforcer on supported blocks to protect important parts of your base. Begin with a small test wall. Keep ownership consistent so the person maintaining the base can manage the reinforced blocks."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: {
+				Count: 1
+				id: "securitycraft:universal_block_reinforcer_lvl1"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6CA0471C92A4E3CC"
+			optional: true
+			rewards: [
+				{
+					id: "790FB11472A32F75"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7A8C6C1CE4357E71"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_lv"
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 1.3d
+			tasks: [{
+				consume_items: false
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "212B2304826EA9CA"
+				item: {
+					Count: 1
+					id: "securitycraft:universal_block_reinforcer_lvl1"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Reinforce Important Walls"
+			x: -3.2500000000000004d
+			y: 4.550000000000001d
+		}
+		{
+			dependencies: ["6CA0471C92A4E3CC"]
+			description: ["Use the Universal Block Remover to remove reinforced blocks you own. Keep it somewhere accessible before enclosing a room. Test maintenance access while the project is still small."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: {
+				Count: 1
+				id: "securitycraft:universal_block_remover"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "260929DAD2EF624C"
+			optional: true
+			rewards: [
+				{
+					id: "396D08EA71C6B85E"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "40C0E6CF25C83B08"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_lv"
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 1.3d
+			tasks: [{
+				consume_items: false
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "61CD764BB2987854"
+				item: {
+					Count: 1
+					id: "securitycraft:universal_block_remover"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Keep a Maintenance Tool"
+			x: -3.2500000000000004d
+			y: 7.15d
+		}
+		{
+			dependencies: ["260F97342BB603DF"]
+			description: ["The Universal Block Modifier opens settings on supported SecurityCraft devices. Read each option and test changes. Add access modules only where supported, and check that trusted teammates can still use the entrance."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: "securitycraft:universal_block_modifier"
+			id: "7D2A79B6B433E7D0"
+			optional: true
+			rewards: [
+				{
+					id: "5F727D1704CCAC8B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "62DEAB9AA69ED551"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_lv"
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 1.3d
+			tasks: [{
+				consume_items: false
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "434DCE0DFC4123F3"
+				item: "securitycraft:universal_block_modifier"
+				type: "item"
+			}]
+			title: "Configure Your Devices"
+			x: 3.2500000000000004d
+			y: 4.550000000000001d
+		}
+		{
+			dependencies: ["260F97342BB603DF"]
+			description: ["Fit a Keypad Door where controlled access is useful. Set the code and test opening and closing it from both sides. Make sure your own movement and planned colony routes still work."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: "securitycraft:keypad_door_item"
+			id: "6EC6C84C5E607E56"
+			optional: true
+			rewards: [
+				{
+					id: "768864894BC373E9"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3F55A0ED616F2A42"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_lv"
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 1.3d
+			tasks: [{
+				consume_items: false
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "7FAE1CDC916F0552"
+				item: "securitycraft:keypad_door_item"
+				type: "item"
+			}]
+			title: "A Door with a Code"
+			x: -1.9500000000000002d
+			y: 1.9500000000000002d
+		}
+		{
+			dependencies: ["260F97342BB603DF"]
+			description: ["Place a Security Camera with a useful view of your entrance or workshop. Check its ownership and position before building a decorative surround. Cameras help you observe the area; they do not replace lighting or a secure entrance."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: "securitycraft:security_camera"
+			id: "77C6BF8C4D861463"
+			optional: true
+			rewards: [
+				{
+					id: "77859CB75DF6E058"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "51EDE76723243CB7"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_lv"
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 1.3d
+			tasks: [{
+				consume_items: false
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "2EBACDDBEC7B4D74"
+				item: "securitycraft:security_camera"
+				type: "item"
+			}]
+			title: "Watch the Entrance"
+			x: 0.0d
+			y: 7.15d
+		}
+		{
+			dependencies: ["77C6BF8C4D861463"]
+			description: ["Link your Camera Monitor to your cameras using the SecurityCraft manual’s instructions. Test the feed from your usual operating position. Label or organize camera locations so you can find the view you need."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: "securitycraft:camera_monitor"
+			id: "63F79A7F2A9E175F"
+			optional: true
+			rewards: [
+				{
+					id: "2B7AD64246C80634"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "1B677BCF68088252"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_lv"
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 1.3d
+			tasks: [{
+				consume_items: false
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "01501FFEBA990115"
+				item: "securitycraft:camera_monitor"
+				type: "item"
+			}]
+			title: "A View from Your Monitor"
+			x: 3.2500000000000004d
+			y: 7.15d
+		}
+		{
+			dependencies: ["27C92A94F86C531B"]
+			description: ["Super Secret Doors provides doors that resemble building materials. Start with a stone door and fit it into a matching wall. Check both its appearance and opening direction. A concealed entrance is useful camouflage, but it does not automatically provide SecurityCraft ownership or access control."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: "secretdoors:secret_stone_door"
+			id: "706AB67331766C2C"
+			optional: true
+			rewards: [
+				{
+					id: "01F717079AF2A428"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "2DF7710B6C667EDE"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_steam"
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 1.3d
+			tasks: [{
+				consume_items: false
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "1274E569E7F6EAFF"
+				item: "secretdoors:secret_stone_door"
+				type: "item"
+			}]
+			title: "Hide an Entrance in Plain Sight"
+			x: 3.2500000000000004d
+			y: 0.65d
+		}
+		{
+			dependencies: ["706AB67331766C2C"]
+			description: ["Use a matching secret trapdoor for an access hatch to pipes or a service corridor. Leave enough clearance to reach equipment and get back out. Mark the location privately so your own hidden maintenance route is easy to find."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: "secretdoors:secret_stone_trapdoor"
+			id: "1DE5AA5DBF01750F"
+			optional: true
+			rewards: [
+				{
+					id: "2E0DFEF2497FE9C6"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "16F209CCE1730CFE"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_steam"
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 1.3d
+			tasks: [{
+				consume_items: false
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "7076C1EAF1C6E848"
+				item: "secretdoors:secret_stone_trapdoor"
+				type: "item"
+			}]
+			title: "Keep Service Access Discreet"
+			x: 7.15d
+			y: 0.65d
+		}
+	]
+	title: "Building and Base Security"
+}

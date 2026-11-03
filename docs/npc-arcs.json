@@ -1,0 +1,234 @@
+{
+  "title": "The Unfinished Promise",
+  "npcs": [
+    {
+      "id": "garrick_ashford",
+      "name": "Garrick Ashford",
+      "dimension": "minecraft:overworld",
+      "completion_advancement": "outlandish:garrick_completed",
+      "quest_line_id": "garrick_ashford",
+      "ftb_task_id": "72FC19707B6A1A63",
+      "tracking_prepared": true,
+      "quest_hook_connected": true,
+      "completion_function": "outlandish:story/garrick_ashford/complete",
+      "final_delivery_reward": {
+        "id": "quest_giver:command",
+        "command": "execute at @s run function outlandish:story/garrick_ashford/complete"
+      }
+    },
+    {
+      "id": "alden_voss",
+      "name": "Professor Alden Voss",
+      "dimension": "minecraft:overworld",
+      "completion_advancement": "outlandish:story/alden_voss_completed",
+      "quest_line_id": "alden_voss",
+      "ftb_task_id": "A1DE000000000003",
+      "tracking_prepared": true,
+      "quest_hook_connected": true,
+      "completion_function": "outlandish:story/alden_voss/complete",
+      "final_delivery_reward": {
+        "id": "quest_giver:command",
+        "command": "execute at @s run function outlandish:story/alden_voss/complete"
+      },
+      "repeatable": false,
+      "structure": "outlandish:voss_cottage",
+      "stage_count": 6
+    },
+    {
+      "id": "mara_coppersmith",
+      "name": "Mara Coppersmith",
+      "dimension": "minecraft:overworld",
+      "completion_advancement": "outlandish:story/mara_coppersmith_completed",
+      "quest_line_id": "mara_coppersmith",
+      "ftb_task_id": "CAAA000000000003",
+      "tracking_prepared": true,
+      "quest_hook_connected": true,
+      "completion_function": "outlandish:story/mara_coppersmith/complete",
+      "final_delivery_reward": {
+        "id": "quest_giver:command",
+        "command": "execute at @s run function outlandish:story/mara_coppersmith/complete"
+      },
+      "repeatable": false,
+      "structure": "outlandish:mara_workshop",
+      "stage_count": 7
+    },
+    {
+      "id": "edda_thorne",
+      "name": "Captain Edda Thorne",
+      "dimension": "minecraft:overworld",
+      "completion_advancement": "outlandish:story/edda_thorne_completed",
+      "quest_line_id": "edda_thorne",
+      "ftb_task_id": "EDDA000000000003",
+      "tracking_prepared": true,
+      "quest_hook_connected": true,
+      "completion_function": "outlandish:story/edda_thorne/complete",
+      "final_delivery_reward": {
+        "id": "quest_giver:command",
+        "command": "execute at @s run function outlandish:story/edda_thorne/complete"
+      },
+      "repeatable": false,
+      "structure": "outlandish:edda_watchpost",
+      "stage_count": 7
+    },
+    {
+      "id": "ysra_vale",
+      "name": "Sister Ysra Vale",
+      "dimension": "minecraft:overworld",
+      "completion_advancement": "outlandish:story/ysra_vale_completed",
+      "quest_line_id": "ysra_vale",
+      "ftb_task_id": "A57A000000000003",
+      "tracking_prepared": true,
+      "quest_hook_connected": true,
+      "completion_function": "outlandish:story/ysra_vale/complete",
+      "final_delivery_reward": {
+        "id": "quest_giver:command",
+        "command": "execute at @s run function outlandish:story/ysra_vale/complete"
+      },
+      "repeatable": false,
+      "structure": "outlandish:ysra_sanctuary",
+      "stage_count": 7
+    },
+    {
+      "id": "darius_emberwright",
+      "name": "Darius Emberwright",
+      "dimension": "minecraft:the_nether",
+      "completion_advancement": "outlandish:story/darius_emberwright_completed",
+      "quest_line_id": "darius_emberwright",
+      "ftb_task_id": "DA71000000000003",
+      "tracking_prepared": true,
+      "quest_hook_connected": true,
+      "completion_function": "outlandish:story/darius_emberwright/complete",
+      "final_delivery_reward": {
+        "id": "quest_giver:command",
+        "command": "execute at @s run function outlandish:story/darius_emberwright/complete"
+      },
+      "repeatable": false,
+      "structure": "outlandish:darius_outpost",
+      "stage_count": 7
+    },
+    {
+      "id": "seraphine_blackveil",
+      "name": "Seraphine Blackveil",
+      "dimension": "minecraft:the_nether",
+      "completion_advancement": "outlandish:story/seraphine_blackveil_completed",
+      "quest_line_id": "seraphine_blackveil",
+      "ftb_task_id": "5E7A000000000003",
+      "tracking_prepared": true,
+      "quest_hook_connected": true,
+      "completion_function": "outlandish:story/seraphine_blackveil/complete",
+      "final_delivery_reward": {
+        "id": "quest_giver:command",
+        "command": "execute at @s run function outlandish:story/seraphine_blackveil/complete"
+      },
+      "repeatable": false,
+      "structure": "outlandish:seraphine_hideout",
+      "stage_count": 7
+    },
+    {
+      "id": "malric_vane",
+      "name": "Malric Vane",
+      "dimension": "minecraft:the_nether",
+      "completion_advancement": "outlandish:story/malric_vane_completed",
+      "quest_line_id": "malric_vane",
+      "ftb_task_id": "AA1C000000000003",
+      "tracking_prepared": true,
+      "quest_hook_connected": true,
+      "completion_function": "outlandish:story/malric_vane/complete",
+      "final_delivery_reward": {
+        "id": "quest_giver:command",
+        "command": "execute at @s run function outlandish:story/malric_vane/complete"
+      },
+      "repeatable": false,
+      "structure": "outlandish:malric_archive",
+      "stage_count": 7
+    },
+    {
+      "id": "cassian_ashfall",
+      "name": "Cassian Ashfall",
+      "dimension": "minecraft:the_nether",
+      "completion_advancement": "outlandish:story/cassian_ashfall_completed",
+      "quest_line_id": "cassian_ashfall",
+      "ftb_task_id": "CA55100000000003",
+      "tracking_prepared": true,
+      "quest_hook_connected": true,
+      "completion_function": "outlandish:story/cassian_ashfall/complete",
+      "final_delivery_reward": {
+        "id": "quest_giver:command",
+        "command": "execute at @s run function outlandish:story/cassian_ashfall/complete"
+      },
+      "repeatable": false,
+      "structure": "outlandish:cassian_study",
+      "stage_count": 7
+    },
+    {
+      "id": "valen_cinderwatch",
+      "name": "Valen Cinderwatch",
+      "dimension": "minecraft:the_nether",
+      "completion_advancement": "outlandish:story/valen_cinderwatch_completed",
+      "quest_line_id": "valen_cinderwatch",
+      "ftb_task_id": "BA1E000000000003",
+      "tracking_prepared": true,
+      "quest_hook_connected": true,
+      "completion_function": "outlandish:story/valen_cinderwatch/complete",
+      "final_delivery_reward": {
+        "id": "quest_giver:command",
+        "command": "execute at @s run function outlandish:story/valen_cinderwatch/complete"
+      },
+      "repeatable": false,
+      "structure": "outlandish:valen_watchfire",
+      "stage_count": 7
+    },
+    {
+      "id": "aura",
+      "name": "A.U.R.A.",
+      "dimension": "minecraft:the_end",
+      "completion_advancement": "outlandish:story/aura_completed",
+      "quest_line_id": "aura",
+      "ftb_task_id": "A07A000000000003",
+      "tracking_prepared": true,
+      "quest_hook_connected": true,
+      "completion_function": "outlandish:story/aura/complete",
+      "final_delivery_reward": {
+        "id": "quest_giver:command",
+        "command": "execute at @s run function outlandish:story/aura/complete"
+      },
+      "repeatable": false,
+      "structure": "outlandish:aura_research_station",
+      "stage_count": 7
+    },
+    {
+      "id": "elyndra",
+      "name": "Elyndra",
+      "dimension": "twilightforest:twilight_forest",
+      "completion_advancement": "outlandish:story/elyndra_completed",
+      "quest_line_id": "elyndra",
+      "ftb_task_id": "E17D000000000003",
+      "tracking_prepared": true,
+      "quest_hook_connected": true,
+      "completion_function": "outlandish:story/elyndra/complete",
+      "final_delivery_reward": {
+        "id": "quest_giver:command",
+        "command": "execute at @s run function outlandish:story/elyndra/complete"
+      },
+      "repeatable": false,
+      "structure": "outlandish:elyndra_refuge",
+      "stage_count": 7
+    }
+  ],
+  "testing": {
+    "single_player": "pending per-arc gameplay tests",
+    "multiplayer": "deferred until near release; unverified",
+    "alden_voss": "User confirmed single-player setup, quests and repairs working; non-admin commands confirmed.",
+    "mara_coppersmith": "Static validation only; in-game tests pending.",
+    "structure_generation": "User reports all prior generated structures generating correctly without issues.",
+    "edda_thorne": "Static checks passed; gameplay validation pending.",
+    "ysra_vale": "Static checks passed; gameplay validation pending.",
+    "darius_emberwright": "User confirms loading errors gone and Nether structure generation working perfectly; multiplayer remains deferred.",
+    "seraphine_blackveil": "Static validation passed; in-game tests pending.",
+    "malric_vane": "Static validation passed; in-game tests pending.",
+    "cassian_ashfall": "Static validation passed; in-game tests pending.",
+    "valen_cinderwatch": "Static validation passed; in-game tests pending.",
+    "aura": "Static validation passed; natural placement and gameplay pending.",
+    "elyndra": "Static validation passed; natural placement and gameplay pending."
+  }
+}

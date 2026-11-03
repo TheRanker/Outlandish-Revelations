@@ -1,0 +1,11 @@
+{
+  "icon": "minecraft:soul_lantern",
+  "start": {
+    "title": {
+      "translate": "A Witness, Not a Verdict"
+    },
+    "description": {
+      "translate": "You have my account. Keep it beside Seraphine's, not in place of hers. When your existing progress permits entry to the End, seek A.U.R.A. The Concord left research beyond this realm. Understand what remains before you face the Hovering Inferno."
+    }
+  }
+}

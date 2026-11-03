@@ -1,0 +1,38 @@
+{
+  "parent": "quest_giver:quest_06",
+  "repeatable": false,
+  "icon": "minecraft:soul_lantern",
+  "start": {
+    "title": {
+      "translate": "Embers of the Concord"
+    },
+    "description": {
+      "translate": "Four soul lanterns for the landing and shelter. Let the next traveller recognise a place to rest before they come close enough to call for help. Hand the materials to me one at a time."
+    }
+  },
+  "tasks": [
+    {
+      "id": "quest_giver:gift",
+      "item": {
+        "item": "minecraft:soul_lantern"
+      },
+      "entity": "minecraft:villager",
+      "name": "Darius Emberwright",
+      "times": 4
+    }
+  ],
+  "complete": {
+    "title": {
+      "translate": "Embers of the Concord"
+    },
+    "description": {
+      "translate": "The outpost is useful again. Find Seraphine. Tell her Darius has kept the route records, including the names the official reports left out. She deserves more than another promise."
+    }
+  },
+  "rewards": [
+    {
+      "id": "quest_giver:command",
+      "command": "execute at @s run function outlandish:story/darius_emberwright/delivery_07"
+    }
+  ]
+}

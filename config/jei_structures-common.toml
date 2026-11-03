@@ -1,0 +1,8 @@
+
+[debugCapture]
+	#Suppress teleport, chunk, and entity sync packets for the capture player during debug structure capture.
+	silentCaptureTeleport = true
+	#Number of structure chunks to load per tick during debug structure capture.
+	#Range: 1 ~ 64
+	chunkLoadsPerTick = 8
+

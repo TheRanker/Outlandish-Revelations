@@ -1,0 +1,138 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_forgotten_forge"
+	group: "671F319DF12B461D"
+	id: "00084033E0FBBB12"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["440515863C1CCFA9"]
+			description: ["Find Garrick's naturally generated workshop"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "341AEEC2E66EFB35"
+			subtitle: "The Forgotten Forge"
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "41F85B94BF77C786"
+				structure: "outlandish:garrick_forge"
+				type: "structure"
+			}]
+			title: "Find The Forgotten Forge"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["341AEEC2E66EFB35"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			icon: "bloodmagic:soulforge"
+			id: "1DF850DC20855200"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "324F7FB55A119DCA"
+				table_id: 6687729743695354911L
+				type: "loot"
+			}]
+			tasks: [{
+				advancement: "outlandish:garrick_completed"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "72FC19707B6A1A63"
+				title: "A Forge Remembered"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			description: [
+				"Long ago, a great engineer and warrior known as The Ranker sought to protect a world on the brink of destruction."
+				""
+				"He built magnificent machines, united the finest minds of his age, and forged a legendary sword called Tears for Fears."
+				""
+				"But his final journey ended in tragedy."
+				""
+				"Deep within the Nether, the Hovering Inferno defeated The Ranker and claimed his unfinished weapon. His allies scattered, his great inventions were forgotten, and the world slowly lost hope."
+				""
+				"Yet not everyone has forgotten."
+				""
+				"Across the Overworld and distant dimensions, remnants of an old alliance still remain. Some seek answers. Some seek forgiveness. Others have spent their lives waiting for revenge."
+				""
+				"Find these forgotten souls. Hear their stories. Restore what was lost and uncover the truth behind The Ranker's final battle."
+				""
+				"But remember, traveller..."
+				""
+				"The greatest power is not always found in the strongest weapon. Sometimes, it is found in what you choose to protect."
+				""
+				"Your story begins among the ruins of an old blacksmith's forge."
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "440515863C1CCFA9"
+			subtitle: "He forged a sword to end a war. You will forge the future he never lived to see."
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "3828B2535FE3F603"
+				title: "The Unfinished Promise"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+	]
+	title: "The Forgotten Forge"
+}

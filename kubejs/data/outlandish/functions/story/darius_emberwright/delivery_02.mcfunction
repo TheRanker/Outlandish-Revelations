@@ -1,0 +1,2 @@
+# Delivery 2, AS the completing player. No player permission elevation.
+execute if entity @s[type=minecraft:player] if dimension minecraft:the_nether at @s as @e[type=minecraft:villager,tag=outlandish_darius_npc,name="Darius Emberwright",distance=..8,sort=nearest,limit=1] at @s as @e[type=minecraft:marker,tag=outlandish_darius_anchor,distance=..0.1,limit=1] at @s rotated as @s unless entity @e[type=minecraft:marker,tag=outlandish_darius_anchor,distance=0.001..16] run function outlandish:story/darius_emberwright/repair_02

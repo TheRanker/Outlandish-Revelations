@@ -1,0 +1,38 @@
+{
+  "parent": "quest_giver:quest_03",
+  "repeatable": false,
+  "icon": "minecraft:red_wool",
+  "start": {
+    "title": {
+      "translate": "A Banner Without a Boast"
+    },
+    "description": {
+      "translate": "Eight pieces of red wool for the watchpost panels and resting benches. A banner should tell the weary where help can be found, not pretend that everyone beneath it was victorious. Hand the materials to me one at a time."
+    }
+  },
+  "tasks": [
+    {
+      "id": "quest_giver:gift",
+      "item": {
+        "item": "minecraft:red_wool"
+      },
+      "entity": "minecraft:villager",
+      "name": "Valen Cinderwatch",
+      "times": 8
+    }
+  ],
+  "complete": {
+    "title": {
+      "translate": "A Banner Without a Boast"
+    },
+    "description": {
+      "translate": "When he fell, Tears for Fears remained with the enemy. I will not invent final words I could not hear. There was noise, heat, and the work of getting the wounded away."
+    }
+  },
+  "rewards": [
+    {
+      "id": "quest_giver:command",
+      "command": "execute at @s run function outlandish:story/valen_cinderwatch/delivery_04"
+    }
+  ]
+}

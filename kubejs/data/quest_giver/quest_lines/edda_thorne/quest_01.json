@@ -1,0 +1,38 @@
+{
+  "parent": "quest_giver:root",
+  "repeatable": false,
+  "icon": "minecraft:stone_bricks",
+  "start": {
+    "title": {
+      "translate": "Walls Worth Standing Behind"
+    },
+    "description": {
+      "translate": "Sixteen stone bricks will close the breaches in the lower walls. I will not ask another traveller to sleep behind stone I know to be unsound. Hand the materials to me one at a time."
+    }
+  },
+  "tasks": [
+    {
+      "id": "quest_giver:gift",
+      "item": {
+        "item": "minecraft:stone_bricks"
+      },
+      "entity": "minecraft:villager",
+      "name": "Captain Edda Thorne",
+      "times": 16
+    }
+  ],
+  "complete": {
+    "title": {
+      "translate": "Walls Worth Standing Behind"
+    },
+    "description": {
+      "translate": "A wall earns its place by protecting someone. The Concord understood that once. In the final preparations, too many people began speaking of protection as if it were only a question of power."
+    }
+  },
+  "rewards": [
+    {
+      "id": "quest_giver:command",
+      "command": "execute at @s run function outlandish:story/edda_thorne/delivery_01"
+    }
+  ]
+}

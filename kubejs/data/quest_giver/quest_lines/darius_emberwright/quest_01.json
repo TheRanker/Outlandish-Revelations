@@ -1,0 +1,38 @@
+{
+  "parent": "quest_giver:root",
+  "repeatable": false,
+  "icon": "minecraft:polished_blackstone_bricks",
+  "start": {
+    "title": {
+      "translate": "A Foundation Above the Fire"
+    },
+    "description": {
+      "translate": "Sixteen polished blackstone bricks will mend the landing and lower breaches. Out here, a safe place to put your feet is a greater kindness than most people realise. Hand the materials to me one at a time."
+    }
+  },
+  "tasks": [
+    {
+      "id": "quest_giver:gift",
+      "item": {
+        "item": "minecraft:polished_blackstone_bricks"
+      },
+      "entity": "minecraft:villager",
+      "name": "Darius Emberwright",
+      "times": 16
+    }
+  ],
+  "complete": {
+    "title": {
+      "translate": "A Foundation Above the Fire"
+    },
+    "description": {
+      "translate": "That is sound enough to work from. We built these posts to keep people moving safely. Later, the orders spoke only of keeping production moving. There is a difference."
+    }
+  },
+  "rewards": [
+    {
+      "id": "quest_giver:command",
+      "command": "execute at @s run function outlandish:story/darius_emberwright/delivery_01"
+    }
+  ]
+}

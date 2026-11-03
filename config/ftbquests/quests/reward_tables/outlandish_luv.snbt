@@ -1,0 +1,24 @@
+{
+	id: "2F4C5278CBA02DC7"
+	loot_crate: {
+		color: 15502560
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		glow: 1b
+		item_name: "Outlandish LUV Supply Bag"
+		string_id: "or_luv"
+	}
+	loot_size: 1
+	order_index: 7
+	rewards: [
+		{ count: 12, item: "minecraft:iron_block" }
+		{ count: 12, item: "minecraft:redstone_block" }
+		{ count: 6, item: "minecraft:gold_block" }
+		{ count: 8, item: "minecraft:lapis_block" }
+	]
+	title: "Outlandish LUV Supplies"
+	use_title: true
+}

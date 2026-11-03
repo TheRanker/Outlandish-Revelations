@@ -1,0 +1,534 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "vestiges"
+	group: "290BD65C3C52540C"
+	icon: "minecraft:amethyst_shard"
+	id: "0845D7FAFEC8C873"
+	order_index: 8
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Vestiges of the Present adds challenge-earned equipment, accessories and encounters. Begin with its Guide Book in your tome. Read a Vestige’s obtaining information before choosing a challenge: different Vestiges reward different activities. Follow a goal that fits where you are in the pack rather than trying to complete every challenge immediately."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: "minecraft:amethyst_shard"
+			id: "456443081666AA5F"
+			optional: true
+			rewards: [{
+				id: "4A4F3A6227A3F709"
+				type: "xp"
+				xp: 10
+			}]
+			size: 1.8d
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "2C6C83D28C5F34B9"
+				type: "checkmark"
+			}]
+			title: "More Than Another Trinket"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["456443081666AA5F"]
+			description: ["Use Shift for detailed information and Ctrl for obtaining information where the tooltip prompts you. Some challenges offer an Alt view of remaining requirements. Read the live tooltip because this pack changes settings and requirements can depend on your progress."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: "minecraft:amethyst_shard"
+			id: "1F44A10F06A33332"
+			optional: true
+			rewards: [{
+				id: "29DF279B1AAB6CAD"
+				type: "xp"
+				xp: 10
+			}]
+			size: 1.3d
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "7584638B81F222B9"
+				type: "checkmark"
+			}]
+			title: "Read the Whole Item"
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1F44A10F06A33332"]
+			description: ["Search Controls for Vestiges of the Present. The mod provides Special and Ultimate bindings for the first and second equipped Vestiges. Choose keys that do not conflict with Ultimine, backpacks or spell controls. Equip the item in its appropriate slot, then test abilities somewhere safe."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: "minecraft:amethyst_shard"
+			id: "0816D8A2BE7B55FC"
+			optional: true
+			rewards: [{
+				id: "0A80E5DF41E4D932"
+				type: "xp"
+				xp: 10
+			}]
+			size: 1.3d
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "4AE70CA859A14B4D"
+				type: "checkmark"
+			}]
+			title: "Set Your Ability Keys"
+			x: 9.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1F44A10F06A33332"]
+			description: ["Pick one obtainable Vestige in the guide, read its requirements and track the remaining progress. Complete those activities through normal play. The reward comes from the mod’s challenge system; this reading task does not award a Vestige or complete its challenge for you."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: "minecraft:amethyst_shard"
+			id: "2E6D485D171A08CA"
+			optional: true
+			rewards: [{
+				id: "71F88AAFB0F71DF1"
+				type: "xp"
+				xp: 10
+			}]
+			size: 1.3d
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "603474508F202BDD"
+				type: "checkmark"
+			}]
+			title: "Choose a Challenge"
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0816D8A2BE7B55FC"]
+			description: ["Some Vestiges have Stellar forms with extra effects. Compare the actual tooltip before building your equipment around one. Check charges, cooldowns and Radiance requirements, and keep a practical way to fight while a powerful ability is unavailable."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: "minecraft:amethyst_shard"
+			id: "0B08CA1F9E434FD1"
+			optional: true
+			rewards: [{
+				id: "53D4648703A88381"
+				type: "xp"
+				xp: 10
+			}]
+			size: 1.3d
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "305A10A7CC9DE612"
+				type: "checkmark"
+			}]
+			title: "Understand Stellar Equipment"
+			x: 9.75d
+			y: -1.9500000000000002d
+		}
+		{
+			dependencies: ["0816D8A2BE7B55FC"]
+			description: ["Accessories can support different playstyles. Read their actual stats and equip pieces that help your current task. A mining setup and a boss-fighting setup need not be identical. Keep spare equipment organized in your backpack rather than changing several unfamiliar effects during a fight."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: "minecraft:amethyst_shard"
+			id: "1BF5F69DB10B20B2"
+			optional: true
+			rewards: [{
+				id: "3134E647495DB7A8"
+				type: "xp"
+				xp: 10
+			}]
+			size: 1.3d
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "5F5DF599C37C30CF"
+				type: "checkmark"
+			}]
+			title: "Build a Useful Combination"
+			x: 9.75d
+			y: 3.2500000000000004d
+		}
+		{
+			dependencies: ["2E6D485D171A08CA"]
+			description: ["Hungry Oysters introduce an ocean activity: protect nearby Skinny Fish while they fatten, then lead the Well-Fed Fish back. Read the guide’s current requirements and prepare for hostile creatures around the water. This is easier with breathing support, clear visibility and a safe place to regroup."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: "minecraft:amethyst_shard"
+			id: "10A450F6B5CB9326"
+			optional: true
+			rewards: [{
+				id: "18795E66A421113E"
+				type: "xp"
+				xp: 10
+			}]
+			size: 1.3d
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "1A732A84F7B49DB0"
+				type: "checkmark"
+			}]
+			title: "An Ocean Side Adventure"
+			x: 14.950000000000001d
+			y: 3.2500000000000004d
+		}
+		{
+			dependencies: ["10A450F6B5CB9326"]
+			description: ["Complete the Hungry Oyster activity to obtain a Hearty Pearl. Keep it for the ocean-related uses shown in the guide and JEI. Before starting the next encounter, make sure you have food, breathing support and equipment you can rely on underwater."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: "vp:hearty_pearl"
+			id: "000332FFB9F948D5"
+			optional: true
+			rewards: [
+				{
+					id: "3AFF5966BC96EACB"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "5A3F5A96AC740315"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_steam"
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 1.3d
+			tasks: [{
+				consume_items: false
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "317FCC540E30ECC2"
+				item: "vp:hearty_pearl"
+				type: "item"
+			}]
+			title: "Earn a Hearty Pearl"
+			x: 14.950000000000001d
+			y: 5.8500000000000005d
+		}
+		{
+			dependencies: ["000332FFB9F948D5"]
+			description: ["A Silly Seashell encounter asks you to protect it through waves after supplying the required Hearty Pearls. Prepare the area before beginning, watch its health and collect the healing seashells described by the guide. The encounter has its own rewards; check the current instructions before committing."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: "minecraft:amethyst_shard"
+			id: "176E945572F767D2"
+			optional: true
+			rewards: [{
+				id: "76E9DDFFF8445312"
+				type: "xp"
+				xp: 10
+			}]
+			size: 1.3d
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "105C359416D52AD7"
+				type: "checkmark"
+			}]
+			title: "Defend the Silly Seashell"
+			x: 9.75d
+			y: 5.8500000000000005d
+		}
+		{
+			dependencies: ["176E945572F767D2"]
+			description: ["Obtain an Adorned Seashell from a successful Silly Seashell defence. Check its uses before spending it. Treat this as an optional ocean achievement alongside your main progression, and return with better equipment if the waves overwhelm you."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: "vp:seashell"
+			id: "647D81A837FCCB47"
+			optional: true
+			rewards: [
+				{
+					id: "2F4DCBD6AAA4C4D0"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "5A2F77F44BA08401"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_hv"
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 1.3d
+			tasks: [{
+				consume_items: false
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "35613704E6C75102"
+				item: "vp:seashell"
+				type: "item"
+			}]
+			title: "A Successful Defence"
+			x: 5.2d
+			y: 5.8500000000000005d
+		}
+		{
+			dependencies: ["0B08CA1F9E434FD1"]
+			description: ["Some Vestiges items alter equipment, apply curses or start much harder encounters. Read both the effect and obtaining information before using them. Test unfamiliar combinations on spare equipment. A rare item is worth understanding before you spend it."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: "minecraft:amethyst_shard"
+			id: "33C77FDFDD405967"
+			optional: true
+			rewards: [{
+				id: "13F48E2BCDE6D7CB"
+				type: "xp"
+				xp: 10
+			}]
+			size: 1.3d
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "7C5DDF2C21F82DE6"
+				type: "checkmark"
+			}]
+			title: "Read Before Using Rare Items"
+			x: 14.950000000000001d
+			y: -1.9500000000000002d
+		}
+		{
+			dependencies: ["33C77FDFDD405967"]
+			description: ["Vestiges is a substantial side progression to explore as your equipment improves. Its challenges do not replace your team’s dimension unlocks or your factory’s material requirements. Bring useful equipment back into your main journey, whose final challenge remains the Hovering Inferno."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: "minecraft:amethyst_shard"
+			id: "0A775DC71B9FABA1"
+			optional: true
+			rewards: [{
+				id: "095E2FC8CABBA21F"
+				type: "xp"
+				xp: 10
+			}]
+			size: 1.3d
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "7DEC675A25EE874D"
+				type: "checkmark"
+			}]
+			title: "Keep Your Main Goal in Sight"
+			x: 17.55d
+			y: -1.9500000000000002d
+		}
+	]
+	title: "Vestiges of the Present"
+}

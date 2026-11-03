@@ -1,0 +1,407 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "hv_chemistry"
+	group: "751F9FCD5495C55F"
+	icon: "gtceu:polytetrafluoroethylene_foil"
+	id: "7113D04D005A1EE0"
+	images: [{
+		height: 3.0d
+		image: "minecraft:textures/item/book.png"
+		rotation: 0.0d
+		width: 3.0d
+		x: 9.0d
+		y: -12.5d
+	}]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["37D062A3EC940202"]
+			description: [
+				"Prepare your HV Chemical Reactor and expand your production lines. These chapters suggest a factory development order; JEI shows the exact voltage and any earlier recipe route."
+				"Keep fluid lines separate, label storage and check circuit settings, amounts and output space before starting a batch. Reuse useful byproducts."
+				"Fluid tasks ask for a 1,000 mB sample through the quest system. The sample is consumed, so produce extra for your factory."
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: "gtceu:hv_chemical_reactor"
+			id: "36927A264A7E9637"
+			rewards: [
+				{
+					id: "1DBFBFD61F798A94"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "18CA4A278775C470"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_hv"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "4199E0DAF9C28E9C"
+				item: "gtceu:hv_chemical_reactor"
+				type: "item"
+			}]
+			title: "HV Chemical Workshop"
+			x: 9.0d
+			y: -9.5d
+		}
+		{
+			dependencies: [
+				"36927A264A7E9637"
+				"67D62DE9C33183F9"
+			]
+			description: [
+				"React Methane with Chlorine to make Chloroform. Connect a useful destination for the Hydrochloric Acid output."
+				"Submit a 1,000 mB sample for the task; keep the rest in production."
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "6664ECE7F6962B73"
+			rewards: [{
+				id: "598C30A171EA0993"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				amount: 1000L
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				fluid: "gtceu:chloroform"
+				id: "7B6F4EA476F865E1"
+				type: "fluid"
+			}]
+			title: "Chlorinated Feedstock"
+			x: 7.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["36927A264A7E9637"]
+			description: [
+				"Follow an available Fluorine or fluorine-bearing mineral route in JEI. Establish a stable supply before expanding fluoropolymer production."
+				"Submit a 1,000 mB sample for the task; keep the rest in production."
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "70FD6E9171A87DE4"
+			rewards: [{
+				id: "761C648E9942A175"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				amount: 1000L
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				fluid: "gtceu:hydrofluoric_acid"
+				id: "3C9907424FCF1700"
+				type: "fluid"
+			}]
+			title: "Prepare Hydrofluoric Acid"
+			x: 4.5d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"36927A264A7E9637"
+				"6664ECE7F6962B73"
+				"70FD6E9171A87DE4"
+			]
+			description: [
+				"React Chloroform with Hydrofluoric Acid and provide storage for the Hydrochloric Acid output."
+				"Submit a 1,000 mB sample for the task; keep the rest in production."
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "27763D7A700BD432"
+			rewards: [{
+				id: "3242E448C01985EC"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				amount: 1000L
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				fluid: "gtceu:tetrafluoroethylene"
+				id: "6B7C5861098F0CDE"
+				type: "fluid"
+			}]
+			title: "Tetrafluoroethylene"
+			x: 6.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"36927A264A7E9637"
+				"27763D7A700BD432"
+			]
+			description: [
+				"Polymerize Tetrafluoroethylene with Air or Oxygen, then form the product into your next machine components."
+				"Submit a 1,000 mB sample for the task; keep the rest in production."
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "17F0D70AC7CA06B8"
+			rewards: [{
+				id: "3E44ACF7DC8668BE"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				amount: 1000L
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				fluid: "gtceu:polytetrafluoroethylene"
+				id: "60966BF39FA4FE2A"
+				type: "fluid"
+			}]
+			title: "PTFE for Advanced Machines"
+			x: 9.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"36927A264A7E9637"
+				"4134C5B046673F33"
+			]
+			description: [
+				"React Benzene and Ethylene to make Styrene. Keep the Hydrogen output for another process."
+				"Submit a 1,000 mB sample for the task; keep the rest in production."
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "7BAE84522DD39B14"
+			rewards: [{
+				id: "6EBC181B80A7FEED"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				amount: 1000L
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				fluid: "gtceu:styrene"
+				id: "34662CA423A03CFE"
+				type: "fluid"
+			}]
+			title: "Styrene"
+			x: 12.5d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"36927A264A7E9637"
+				"7BAE84522DD39B14"
+			]
+			description: [
+				"Prepare Raw Styrene-Butadiene Rubber with the mixing recipe, then vulcanize it with Sulfur. Compare its uses with ordinary Rubber."
+				"Submit a 1,000 mB sample for the task; keep the rest in production."
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "46AD7D96BE2DD735"
+			rewards: [{
+				id: "5DC4AEF68D602939"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				amount: 1000L
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				fluid: "gtceu:styrene_butadiene_rubber"
+				id: "521725FA0B9FAFBC"
+				type: "fluid"
+			}]
+			title: "Synthetic Rubber"
+			x: 10.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["17F0D70AC7CA06B8"]
+			description: ["Form the polymer into plates with the recipe, mold or shape shown in JEI. Plan the other ingredients for your next components alongside this supply."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: "gtceu:polytetrafluoroethylene_plate"
+			id: "281B026552B17109"
+			rewards: [
+				{
+					id: "4661CAD141C10B4A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "24FB228BA5DDE77E"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_hv"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "6273B2CAF06CCA99"
+				item: "gtceu:polytetrafluoroethylene_plate"
+				type: "item"
+			}]
+			title: "Shape Polytetrafluoroethylene"
+			x: 9.0d
+			y: -1.5d
+		}
+	]
+	title: "HV+ Chemistry"
+}

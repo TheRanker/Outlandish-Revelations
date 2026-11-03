@@ -1,0 +1,4 @@
+#Deprecated compatibility setting. Learn By Analogy UI always follows Minecraft's current language.
+#Allowed Values: AUTO, ZH_CN, EN_US
+uiLanguageMode = "AUTO"
+

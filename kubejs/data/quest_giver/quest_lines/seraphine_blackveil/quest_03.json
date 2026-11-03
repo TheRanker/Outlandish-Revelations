@@ -1,0 +1,38 @@
+{
+  "parent": "quest_giver:quest_02",
+  "repeatable": false,
+  "icon": "minecraft:iron_ingot",
+  "start": {
+    "title": {
+      "translate": "An Open Refuge"
+    },
+    "description": {
+      "translate": "Twelve iron ingots for braces and window guards. Strengthen the walls, but leave the courtyard entrance clear. A refuge that locks out the desperate has forgotten its purpose. Hand the materials to me one at a time."
+    }
+  },
+  "tasks": [
+    {
+      "id": "quest_giver:gift",
+      "item": {
+        "item": "minecraft:iron_ingot"
+      },
+      "entity": "minecraft:villager",
+      "name": "Seraphine Blackveil",
+      "times": 12
+    }
+  ],
+  "complete": {
+    "title": {
+      "translate": "An Open Refuge"
+    },
+    "description": {
+      "translate": "Darius kept the names. Good. I remember faces more easily than requisition numbers. There were people on those routes who never appeared in an official loss report."
+    }
+  },
+  "rewards": [
+    {
+      "id": "quest_giver:command",
+      "command": "execute at @s run function outlandish:story/seraphine_blackveil/delivery_03"
+    }
+  ]
+}

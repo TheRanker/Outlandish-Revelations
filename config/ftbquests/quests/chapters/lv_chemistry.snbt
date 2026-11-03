@@ -1,0 +1,577 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "lv_chemistry"
+	group: "751F9FCD5495C55F"
+	icon: "gtceu:rubber_ingot"
+	id: "74B01D89D3DD7555"
+	images: [{
+		height: 3.0d
+		image: "minecraft:textures/item/book.png"
+		rotation: 0.0d
+		width: 3.0d
+		x: 3.0d
+		y: -3.5d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Follow the rubber chain in JEI: gather a suitable source, prepare Raw Rubber, vulcanize it with Sulfur in a Chemical Reactor, then form the Rubber into parts. Reserve enough for cables and pumps."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "70EB22BA34887CB5"
+			rewards: [{
+				id: "5866A03B0F67D21B"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "3F743E3789C2997F"
+				item: "gtceu:sulfur_ore"
+				type: "item"
+			}]
+			title: "Obtain Sulfur"
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			description: ["Follow the rubber chain in JEI: gather a suitable source, prepare Raw Rubber, vulcanize it with Sulfur in a Chemical Reactor, then form the Rubber into parts. Reserve enough for cables and pumps."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "75F81BFC854D6F9B"
+			rewards: [{
+				id: "12852EAF346DD2E3"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [
+				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
+					id: "61E346118F284638"
+					item: "gtceu:sticky_resin"
+					type: "item"
+				}
+				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
+					id: "02EB477828488753"
+					item: "gtceu:rubber_log"
+					type: "item"
+				}
+				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
+					id: "5C84BDF365A3A63A"
+					item: "minecraft:slime_ball"
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["75F81BFC854D6F9B"]
+			description: ["Follow the rubber chain in JEI: gather a suitable source, prepare Raw Rubber, vulcanize it with Sulfur in a Chemical Reactor, then form the Rubber into parts. Reserve enough for cables and pumps."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "5023B57567EB8F79"
+			rewards: [{
+				id: "26D9848B1B226AFF"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "4A40C2BB63E95627"
+				item: "gtceu:raw_rubber_dust"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5023B57567EB8F79"]
+			description: ["Follow the rubber chain in JEI: gather a suitable source, prepare Raw Rubber, vulcanize it with Sulfur in a Chemical Reactor, then form the Rubber into parts. Reserve enough for cables and pumps."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "4CE7C414B892DC22"
+			rewards: [{
+				id: "1C7692322140D4AD"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "0FB3187E07B754C1"
+				item: "gtceu:rubber_ingot"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4CE7C414B892DC22"]
+			description: ["Follow the rubber chain in JEI: gather a suitable source, prepare Raw Rubber, vulcanize it with Sulfur in a Chemical Reactor, then form the Rubber into parts. Reserve enough for cables and pumps."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "30848B3D1632AB73"
+			rewards: [{
+				id: "074D96F3AD0B2AF5"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "1B075ED81A600D47"
+				item: "gtceu:rubber_plate"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			description: ["Follow the rubber chain in JEI: gather a suitable source, prepare Raw Rubber, vulcanize it with Sulfur in a Chemical Reactor, then form the Rubber into parts. Reserve enough for cables and pumps."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "7A0CB989BF94AD0A"
+			rewards: [
+				{
+					id: "44BD1A53F5BFB495"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6FD2C444F0259A60"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_lv"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Create Liquid Rubber"
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "71959C12F17B0FF6"
+				item: "gtceu:lv_chemical_reactor"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			description: [
+				"Prepare your LV Chemical Reactor and expand your production lines. These chapters suggest a factory development order; JEI shows the exact voltage and any earlier recipe route."
+				"Keep fluid lines separate, label storage and check circuit settings, amounts and output space before starting a batch. Reuse useful byproducts."
+				"Fluid tasks ask for a 1,000 mB sample through the quest system. The sample is consumed, so produce extra for your factory."
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: "gtceu:lv_chemical_reactor"
+			id: "24029D548C6BFFBE"
+			rewards: [
+				{
+					id: "22697C6617937444"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "1A31A93898D08EBD"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_lv"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "2633585BB2D6BF15"
+				item: "gtceu:lv_chemical_reactor"
+				type: "item"
+			}]
+			title: "LV Chemical Workshop"
+			x: 6.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["24029D548C6BFFBE"]
+			description: [
+				"Use an Electrolyzer to split water into Hydrogen and Oxygen. Provide storage for both outputs so one full tank does not stop the line."
+				"Submit a 1,000 mB sample for the task; keep the rest in production."
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "15A48686F7700A12"
+			rewards: [{
+				id: "3B72E9DCE83FE389"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				amount: 1000L
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				fluid: "gtceu:hydrogen"
+				id: "54DA9F23948FBD73"
+				type: "fluid"
+			}]
+			title: "Separate Water"
+			x: 6.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"24029D548C6BFFBE"
+				"15A48686F7700A12"
+			]
+			description: [
+				"Collect Oxygen from separation. It supports chemical recipes and can improve several polymerization yields."
+				"Submit a 1,000 mB sample for the task; keep the rest in production."
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "2BB423EE9761A64D"
+			rewards: [{
+				id: "5519E428931E3B82"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				amount: 1000L
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				fluid: "gtceu:oxygen"
+				id: "1839C12E85BD1BD8"
+				type: "fluid"
+			}]
+			title: "Keep the Oxygen"
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["24029D548C6BFFBE"]
+			description: [
+				"Choose a salt-based electrolyzing route in JEI. Keep the other outputs for your chemical workshop."
+				"Submit a 1,000 mB sample for the task; keep the rest in production."
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "67D62DE9C33183F9"
+			rewards: [{
+				id: "39034A8E279EB048"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				amount: 1000L
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				fluid: "gtceu:chlorine"
+				id: "4B9F51BE3C72C6DE"
+				type: "fluid"
+			}]
+			title: "A Chlorine Supply"
+			x: 8.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"24029D548C6BFFBE"
+				"15A48686F7700A12"
+				"67D62DE9C33183F9"
+			]
+			description: [
+				"React Hydrogen and Chlorine using the circuit setting in JEI. This acid supports many later processing chains."
+				"Submit a 1,000 mB sample for the task; keep the rest in production."
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "6BF7CC59F4D1E29B"
+			rewards: [{
+				id: "1044692BB8C3B316"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				amount: 1000L
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				fluid: "gtceu:hydrochloric_acid"
+				id: "0BCE49F38B74A278"
+				type: "fluid"
+			}]
+			title: "Hydrochloric Acid"
+			x: 8.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"24029D548C6BFFBE"
+				"2BB423EE9761A64D"
+			]
+			description: [
+				"Follow the Sulfur Dioxide and Sulfur Trioxide reactions in JEI, then finish the acid with water. Store intermediates and retain diluted acid for recovery."
+				"Submit a 1,000 mB sample for the task; keep the rest in production."
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "3A344CA38F3A2404"
+			rewards: [{
+				id: "212A87E18ECA6BBE"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				amount: 1000L
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				fluid: "gtceu:sulfuric_acid"
+				id: "1354DBC516D4D07F"
+				type: "fluid"
+			}]
+			title: "Sulfuric Acid"
+			x: 4.5d
+			y: -1.5d
+		}
+	]
+	title: "LV Chemistry"
+}

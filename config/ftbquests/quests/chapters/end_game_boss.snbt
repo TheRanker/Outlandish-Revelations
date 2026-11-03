@@ -1,0 +1,100 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "end_game_boss"
+	group: "003D792941648271"
+	id: "34896ABC71F259BA"
+	images: [{
+		height: 3.0d
+		image: "minecraft:textures/item/blaze_rod.png"
+		rotation: 0.0d
+		width: 3.0d
+		x: 0.0d
+		y: -5.0d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		description: [
+  "Your final challenge waits in Incendium’s Infernal Dunes. Find an Infernal Altar and drop a Nether Star at its center to summon the Hovering Inferno.",
+  "Bring your best equipment, food and protection. You can attempt the summon whenever you can reach it, but this fight is intended for a fully prepared endgame player.",
+  "Defeat the first health bar, then survive the final spell while the Inferno is invulnerable. Stay with the encounter until it awards the Fallen to Ashes victory advancement.",
+  "Claim this quest's victory rewards for Tears for Fears (kubejs:rankers_sword) and four Potions of Radiation. Radiation is harmful. This quest does not award the Ring of Ranker or perform a later sword awakening."
+]
+		extraquests_calendar: {
+			active_quests: 3
+			enabled: 0b
+			pool: ""
+			reset_time: "06:00"
+			timezone: "UTC"
+			weekday: 1
+			weekly: 0b
+		}
+		hide_dependency_lines: false
+		icon: "minecraft:blaze_powder"
+		id: "06DABBCE6668C79A"
+		rewards: [
+			{
+				auto: "enabled"
+				command: "/tellraw @a {\"text\":\"The Hovering Inferno has been defeated!\",\"color\":\"gold\"}"
+				icon: "minecraft:blaze_powder"
+				id: "187864FF8A01DB65"
+				team_reward: false
+				type: "command"
+			}
+			{
+				id: "5D6A006000000001"
+				item: {
+					Count: 1
+					id: "kubejs:rankers_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				team_reward: false
+				type: "item"
+			}
+			{
+				count: 4
+				id: "5D6A006000000002"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "kubejs:radiation"
+						display: {
+							Name: "{\"text\":\"Potion of Radiation\",\"italic\":false}"
+						}
+					}
+				}
+				team_reward: false
+				type: "item"
+			}
+		]
+		shape: "octagon"
+		size: 3.0d
+		subtitle: "Outlandish Revelations: Endgame Boss"
+		tasks: [{
+			advancement: "incendium:infernal_dunes/inferno/kill"
+			criterion: ""
+			extraquests_options: {
+				aggregation: "AUTO"
+				duration: 600L
+				minimum_contribution: 0L
+				reset_damage: 0b
+				reset_death: 1b
+				reset_logout: 0b
+				shared: 0b
+				timer_enabled: 0b
+				timer_start: "FIRST_PROGRESS"
+			}
+			id: "326290B87329A845"
+			title: "Survive the Inferno's final spell"
+			type: "advancement"
+		}]
+		title: "The Hovering Inferno"
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "End Game Boss"
+}

@@ -1,0 +1,15 @@
+{
+  "structures": [
+    {
+      "structure": "outlandish:darius_outpost",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 19408347,
+    "spacing": 24,
+    "separation": 8,
+    "spread_type": "linear"
+  }
+}

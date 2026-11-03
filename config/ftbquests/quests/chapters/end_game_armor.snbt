@@ -1,0 +1,593 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "end_game_armor"
+	group: "003D792941648271"
+	icon: {
+		Count: 1
+		ForgeCaps: {
+			Parent: {
+				energy: {
+					energy: 0
+				}
+				module_host: {
+					modules: [ ]
+					properties: { }
+					provider_id: [I;
+						-1978391685
+						-843036541
+						-1939061132
+						65230198
+					]
+				}
+			}
+		}
+		id: "draconicevolution:chaotic_chestpiece"
+		tag: { }
+	}
+	id: "52CB0D3E6A25027F"
+	images: [{
+		height: 3.0d
+		image: "minecraft:textures/item/netherite_chestplate.png"
+		rotation: 0.0d
+		width: 3.0d
+		x: -15.0d
+		y: -3.0d
+	}]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Build your endgame protection around a Draconic modular chestpiece. Progress from Wyvern at IV to Draconic at LuV and Chaotic at ZPM. Plan shield control, capacity, recovery and energy storage together, then charge and test the loadout before facing the Hovering Inferno."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "55A841DF293D51EE"
+			rewards: [{
+				id: "491815728DE41D91"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "58F5E1D7C63D6F50"
+				title: "Plan Your Modular Armor"
+				type: "checkmark"
+			}]
+			title: "Your Endgame Armor Workshop"
+			x: -12.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0C5DE941B729004A"]
+			description: ["Craft and charge this chestpiece. Open its module grid and plan shield control, capacity, recovery and energy storage together. Check tooltips for module compatibility and space requirements."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					Parent: {
+						energy: {
+							energy: 0
+						}
+						module_host: {
+							modules: [ ]
+							properties: { }
+							provider_id: [I;
+								193684681
+								1793868224
+								-1132499657
+								824445721
+							]
+						}
+					}
+				}
+				id: "draconicevolution:wyvern_chestpiece"
+			}
+			id: "0D2F7F5F8C6F8FCA"
+			rewards: [
+				{
+					id: "1E4DADE7165ADF5B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "49FC24C23A394E14"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_iv"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "7329303EAB47EBD5"
+				item: "draconicevolution:wyvern_chestpiece"
+				type: "item"
+			}]
+			title: "Wyvern Modular Chestpiece"
+			x: -20.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"37230E7C4AE3DF76"
+				"0D2F7F5F8C6F8FCA"
+			]
+			description: ["Craft and charge this chestpiece. Open its module grid and plan shield control, capacity, recovery and energy storage together. Check tooltips for module compatibility and space requirements."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					Parent: {
+						energy: {
+							energy: 0
+						}
+						module_host: {
+							modules: [ ]
+							properties: { }
+							provider_id: [I;
+								2001006784
+								-1342289737
+								-1490597400
+								-345719808
+							]
+						}
+					}
+				}
+				id: "draconicevolution:draconic_chestpiece"
+			}
+			id: "38A155E6F59E77C5"
+			rewards: [
+				{
+					id: "54A83570B8D5AAE3"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "478098C213A1337B"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_luv"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "7E33FD7BECB2509E"
+				item: "draconicevolution:draconic_chestpiece"
+				type: "item"
+			}]
+			title: "Draconic Modular Chestpiece"
+			x: -13.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"7C43ED9DC2CFC076"
+				"38A155E6F59E77C5"
+			]
+			description: ["Craft and charge this chestpiece. Open its module grid and plan shield control, capacity, recovery and energy storage together. Check tooltips for module compatibility and space requirements."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					Parent: {
+						energy: {
+							energy: 0
+						}
+						module_host: {
+							modules: [ ]
+							properties: { }
+							provider_id: [I;
+								1732615133
+								721241481
+								-1288731693
+								-297624188
+							]
+						}
+					}
+				}
+				id: "draconicevolution:chaotic_chestpiece"
+			}
+			id: "1ED402A50A6072FD"
+			rewards: [
+				{
+					id: "2D26748CFA733764"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "32FA601220563D85"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_zpm"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "4EF97BD5F5FF7129"
+				item: "draconicevolution:chaotic_chestpiece"
+				type: "item"
+			}]
+			title: "Chaotic Modular Chestpiece"
+			x: -7.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"1ED402A50A6072FD"
+				"347DDCC7F483E33C"
+			]
+			description: ["Prepare this module, fit it into supported equipment and keep that equipment charged. Test the result safely before taking it to the final boss."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: "draconicevolution:item_chaotic_shield_control"
+			id: "6FEB06426DA29BA2"
+			rewards: [
+				{
+					id: "142D2502F108F116"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6074D22E9929DFEC"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_zpm"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "1C0EE88B77A2E8A4"
+				item: "draconicevolution:item_chaotic_shield_control"
+				type: "item"
+			}]
+			title: "Chaotic Shield Control Module"
+			x: -9.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"1ED402A50A6072FD"
+				"098AE482951CD5A0"
+			]
+			description: ["Prepare this module, fit it into supported equipment and keep that equipment charged. Test the result safely before taking it to the final boss."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: "draconicevolution:item_chaotic_shield_capacity"
+			id: "3BE3B835061A5F1D"
+			rewards: [
+				{
+					id: "078538E44BBC78AC"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "113E9046609EA7F6"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_zpm"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "6348AECD09DF1A60"
+				item: "draconicevolution:item_chaotic_shield_capacity"
+				type: "item"
+			}]
+			title: "Chaotic Shield Capacity Module"
+			x: -6.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"1ED402A50A6072FD"
+				"445302BB5AF9215F"
+			]
+			description: ["Prepare this module, fit it into supported equipment and keep that equipment charged. Test the result safely before taking it to the final boss."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: "draconicevolution:item_chaotic_shield_recovery"
+			id: "59E2D57741C4B52A"
+			rewards: [
+				{
+					id: "2B0C88D874F75ADC"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6E6BC3FCD0D4463C"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_zpm"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "220F34602FE57790"
+				item: "draconicevolution:item_chaotic_shield_recovery"
+				type: "item"
+			}]
+			title: "Chaotic Shield Recovery Module"
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"1ED402A50A6072FD"
+				"02A7B4E0373AB354"
+			]
+			description: ["Prepare this module, fit it into supported equipment and keep that equipment charged. Test the result safely before taking it to the final boss."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: "draconicevolution:item_chaotic_undying"
+			id: "22B37142F6009B7F"
+			rewards: [
+				{
+					id: "4C701FFBB3CDF97B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "23D45023F47B3E7A"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_zpm"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "0CA36BAE3D5A08A6"
+				item: "draconicevolution:item_chaotic_undying"
+				type: "item"
+			}]
+			title: "Chaotic Undying Module"
+			x: -6.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"1ED402A50A6072FD"
+				"174D6AD6B92DC510"
+			]
+			description: ["Prepare this module, fit it into supported equipment and keep that equipment charged. Test the result safely before taking it to the final boss."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: "draconicevolution:item_chaotic_flight"
+			id: "0034307F82F86A73"
+			rewards: [
+				{
+					id: "6056FD0B22A2FE82"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3FDE32B56378E956"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_zpm"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "5186D12BAE3DA353"
+				item: "draconicevolution:item_chaotic_flight"
+				type: "item"
+			}]
+			title: "Chaotic Flight Module"
+			x: -4.0d
+			y: 1.0d
+		}
+	]
+	title: "Endgame Equipment"
+}

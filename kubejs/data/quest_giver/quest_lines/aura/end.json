@@ -1,0 +1,11 @@
+{
+  "icon": "minecraft:end_crystal",
+  "start": {
+    "title": {
+      "translate": "A Record Returned to the Living"
+    },
+    "description": {
+      "translate": "Archive access restored. Seek Elyndra in the Twilight Forest when you choose to continue. She can help you understand the part of the Concord's research that cannot be reduced to a manufacturing instruction. The recovered blade's existing path remains unchanged."
+    }
+  }
+}

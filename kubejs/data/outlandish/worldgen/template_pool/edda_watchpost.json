@@ -1,0 +1,14 @@
+{
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "outlandish:edda_watchpost",
+        "projection": "rigid",
+        "processors": "outlandish:edda_watchpost"
+      }
+    }
+  ]
+}

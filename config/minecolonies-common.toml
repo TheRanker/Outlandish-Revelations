@@ -1,11 +1,11 @@
 
-#All configuration items related to the core gameplay
+#minecolonies.config.gameplay.comment
 [gameplay]
-	#Whether to generate supply ships and camps in loot chests. [Default: true]
+	#minecolonies.config.generatesupplyloot.comment minecolonies.config.default.boolean
 	generatesupplyloot = true
 
-#All configurations related to the request system
+#minecolonies.config.requestsystem.comment
 [requestsystem]
-	#Should the request system show debug information in the debug.log? Useful if malfunctioning. [Default: false]
+	#minecolonies.config.enabledebuglogging.comment minecolonies.config.default.boolean
 	enabledebuglogging = false
 

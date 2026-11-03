@@ -1,0 +1,11 @@
+{
+  "icon": "minecraft:book",
+  "start": {
+    "title": {
+      "translate": "Knowledge in Working Hands"
+    },
+    "description": {
+      "translate": "The workshop stands, and the records have a second copy. That is enough for today. Find Captain Edda Thorne when you are ready. Tell her Mara kept the old safety ledger. She will know why that matters."
+    }
+  }
+}

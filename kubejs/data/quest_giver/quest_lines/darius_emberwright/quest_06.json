@@ -1,0 +1,38 @@
+{
+  "parent": "quest_giver:quest_05",
+  "repeatable": false,
+  "icon": "minecraft:paper",
+  "start": {
+    "title": {
+      "translate": "A Record Beyond Ash"
+    },
+    "description": {
+      "translate": "Twelve sheets of paper will let me copy the surviving route and supply records. We lost enough knowledge when the stores burned. This set will not remain the only one. Hand the materials to me one at a time."
+    }
+  },
+  "tasks": [
+    {
+      "id": "quest_giver:gift",
+      "item": {
+        "item": "minecraft:paper"
+      },
+      "entity": "minecraft:villager",
+      "name": "Darius Emberwright",
+      "times": 12
+    }
+  ],
+  "complete": {
+    "title": {
+      "translate": "A Record Beyond Ash"
+    },
+    "description": {
+      "translate": "Seraphine Blackveil escorted some of the last supply parties. She thinks The Ranker left people like us to bear the cost. I cannot settle that with an argument. Hear her out."
+    }
+  },
+  "rewards": [
+    {
+      "id": "quest_giver:command",
+      "command": "execute at @s run function outlandish:story/darius_emberwright/delivery_06"
+    }
+  ]
+}

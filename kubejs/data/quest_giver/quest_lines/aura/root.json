@@ -1,0 +1,12 @@
+{
+  "icon": "minecraft:end_crystal",
+  "repeatable": false,
+  "start": {
+    "title": {
+      "translate": "An Answer Still Waiting"
+    },
+    "description": {
+      "translate": "Visitor identified. Concord archive interface A.U.R.A. responding. Valen Cinderwatch's account remains relevant, but witness testimony and research records answer different questions. This station has lost several supporting systems. Restore them, and I can make the surviving record accessible."
+    }
+  }
+}

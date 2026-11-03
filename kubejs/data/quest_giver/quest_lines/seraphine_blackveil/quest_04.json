@@ -1,0 +1,38 @@
+{
+  "parent": "quest_giver:quest_03",
+  "repeatable": false,
+  "icon": "minecraft:white_wool",
+  "start": {
+    "title": {
+      "translate": "The People Who Survived"
+    },
+    "description": {
+      "translate": "Eight pieces of white wool will restore the resting benches. Save your speeches about courage for later. Exhausted people need somewhere to lie down. Hand the materials to me one at a time."
+    }
+  },
+  "tasks": [
+    {
+      "id": "quest_giver:gift",
+      "item": {
+        "item": "minecraft:white_wool"
+      },
+      "entity": "minecraft:villager",
+      "name": "Seraphine Blackveil",
+      "times": 8
+    }
+  ],
+  "complete": {
+    "title": {
+      "translate": "The People Who Survived"
+    },
+    "description": {
+      "translate": "Ysra would understand. Help given without a demand attached is rare enough here that people remember it. You have not tried to tell us what our gratitude should sound like."
+    }
+  },
+  "rewards": [
+    {
+      "id": "quest_giver:command",
+      "command": "execute at @s run function outlandish:story/seraphine_blackveil/delivery_04"
+    }
+  ]
+}

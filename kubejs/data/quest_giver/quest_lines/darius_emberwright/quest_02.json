@@ -1,0 +1,38 @@
+{
+  "parent": "quest_giver:quest_01",
+  "repeatable": false,
+  "icon": "minecraft:crimson_planks",
+  "start": {
+    "title": {
+      "translate": "Shelter That Will Not Burn"
+    },
+    "description": {
+      "translate": "Bring sixteen crimson planks for the shelter panels and roof fittings. Use timber suited to this place. The Nether is an expensive place to learn that lesson twice. Hand the materials to me one at a time."
+    }
+  },
+  "tasks": [
+    {
+      "id": "quest_giver:gift",
+      "item": {
+        "item": "minecraft:crimson_planks"
+      },
+      "entity": "minecraft:villager",
+      "name": "Darius Emberwright",
+      "times": 16
+    }
+  ],
+  "complete": {
+    "title": {
+      "translate": "Shelter That Will Not Burn"
+    },
+    "description": {
+      "translate": "The roof holds again. Garrick would approve of the work, even if he would have something sharp to say about my joinery. It is good to hear his forge survived."
+    }
+  },
+  "rewards": [
+    {
+      "id": "quest_giver:command",
+      "command": "execute at @s run function outlandish:story/darius_emberwright/delivery_02"
+    }
+  ]
+}

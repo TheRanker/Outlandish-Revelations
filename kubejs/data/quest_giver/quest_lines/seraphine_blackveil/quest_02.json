@@ -1,0 +1,38 @@
+{
+  "parent": "quest_giver:quest_01",
+  "repeatable": false,
+  "icon": "minecraft:warped_planks",
+  "start": {
+    "title": {
+      "translate": "A Shelter of Our Own"
+    },
+    "description": {
+      "translate": "Bring sixteen warped planks for the sleeping wing and supply shelter. We need a roof that belongs to the people beneath it, not another office that demands a report. Hand the materials to me one at a time."
+    }
+  },
+  "tasks": [
+    {
+      "id": "quest_giver:gift",
+      "item": {
+        "item": "minecraft:warped_planks"
+      },
+      "entity": "minecraft:villager",
+      "name": "Seraphine Blackveil",
+      "times": 16
+    }
+  ],
+  "complete": {
+    "title": {
+      "translate": "A Shelter of Our Own"
+    },
+    "description": {
+      "translate": "That will keep the stores dry. The Ranker had a weapon people spoke of as if it could settle every debt. We were still waiting for food and safe passage."
+    }
+  },
+  "rewards": [
+    {
+      "id": "quest_giver:command",
+      "command": "execute at @s run function outlandish:story/seraphine_blackveil/delivery_02"
+    }
+  ]
+}

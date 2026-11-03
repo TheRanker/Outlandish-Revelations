@@ -1,0 +1,38 @@
+{
+  "parent": "quest_giver:quest_04",
+  "repeatable": false,
+  "icon": "create:cogwheel",
+  "start": {
+    "title": {
+      "translate": "Teeth That Meet"
+    },
+    "description": {
+      "translate": "Bring four small cogwheels for the coupling display. We need to compare the surviving gear marks with the drawings. Leave your own working machinery in place; make fresh parts for this job. Hand the materials to me one at a time."
+    }
+  },
+  "tasks": [
+    {
+      "id": "quest_giver:gift",
+      "item": {
+        "item": "create:cogwheel"
+      },
+      "entity": "minecraft:villager",
+      "name": "Mara Coppersmith",
+      "times": 4
+    }
+  ],
+  "complete": {
+    "title": {
+      "translate": "Teeth That Meet"
+    },
+    "description": {
+      "translate": "The patterns match an auxiliary assembly, not the engine's main drive. That narrows Voss's search. It does not excuse the people who signed off on an unsafe test."
+    }
+  },
+  "rewards": [
+    {
+      "id": "quest_giver:command",
+      "command": "execute at @s run function outlandish:story/mara_coppersmith/delivery_05"
+    }
+  ]
+}

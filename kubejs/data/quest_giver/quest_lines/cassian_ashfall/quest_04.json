@@ -1,0 +1,38 @@
+{
+  "parent": "quest_giver:quest_03",
+  "repeatable": false,
+  "icon": "minecraft:gold_ingot",
+  "start": {
+    "title": {
+      "translate": "Precision Without Display"
+    },
+    "description": {
+      "translate": "Eight gold ingots will restore the fine comparison contacts. Their use here is practical. I have no interest in gilding a ruin so that it resembles success. Hand the materials to me one at a time."
+    }
+  },
+  "tasks": [
+    {
+      "id": "quest_giver:gift",
+      "item": {
+        "item": "minecraft:gold_ingot"
+      },
+      "entity": "minecraft:villager",
+      "name": "Cassian Ashfall",
+      "times": 8
+    }
+  ],
+  "complete": {
+    "title": {
+      "translate": "Precision Without Display"
+    },
+    "description": {
+      "translate": "There are notes in the Concord's research that refer to intention and response. I will not dress those fragments up as a recipe we have proved."
+    }
+  },
+  "rewards": [
+    {
+      "id": "quest_giver:command",
+      "command": "execute at @s run function outlandish:story/cassian_ashfall/delivery_04"
+    }
+  ]
+}

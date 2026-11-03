@@ -1,0 +1,38 @@
+{
+  "parent": "quest_giver:quest_01",
+  "repeatable": false,
+  "icon": "minecraft:quartz",
+  "start": {
+    "title": {
+      "translate": "A Reference That Endures"
+    },
+    "description": {
+      "translate": "Twelve quartz will replace the broken reference surfaces. We need a clear background against which to compare marks and material samples. Hand the materials to me one at a time."
+    }
+  },
+  "tasks": [
+    {
+      "id": "quest_giver:gift",
+      "item": {
+        "item": "minecraft:quartz"
+      },
+      "entity": "minecraft:villager",
+      "name": "Cassian Ashfall",
+      "times": 12
+    }
+  ],
+  "complete": {
+    "title": {
+      "translate": "A Reference That Endures"
+    },
+    "description": {
+      "translate": "Malric's missing components belonged to the support equipment, not a secret second sword. Their absence matters, but it does not explain every choice made afterward."
+    }
+  },
+  "rewards": [
+    {
+      "id": "quest_giver:command",
+      "command": "execute at @s run function outlandish:story/cassian_ashfall/delivery_02"
+    }
+  ]
+}

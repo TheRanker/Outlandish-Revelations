@@ -1,0 +1,62 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_work_we_carry_forward"
+	group: "671F319DF12B461D"
+	id: "67E6D9C471C97BBC"
+	order_index: 3
+	quest_links: [ ]
+	quests: [{
+		description: [
+  "Search the Overworld for Mara Coppersmith's own building.",
+  "",
+  "Use a Quest Scroll to speak with Mara Coppersmith. Complete this NPC's 7 deliveries in Quest Giver; this FTB quest tracks the final personal completion advancement.",
+  "Give the requested materials to the named NPC one at a time. Each accepted delivery repairs part of that nearby building. A player-placed block at a repair site is preserved.",
+  "",
+  "Deliveries, in order:",
+  "1. A Roof Over Honest Work: 16 Spruce Planks.",
+  "2. A Steady Footing: 12 Stone Bricks.",
+  "3. The Shape of Useful Things: 8 Andesite Alloy.",
+  "4. A Line Worth Following: 4 Create Shafts.",
+  "5. Teeth That Meet: 4 Create Cogwheels.",
+  "6. Pressure Needs Restraint: 12 Bronze Ingots.",
+  "7. The Work We Carry Forward: 12 Paper.",
+  "",
+  "Each storyline is one-time per player across every copy of that NPC. Finding another building does not restart it. If you change buildings midway, earlier repairs do not move to the new copy.",
+  "Story benefits: restore the building, hear the next part of The Unfinished Promise and record your personal completion. This FTB entry adds no separate item reward. Existing FTB team sharing may complete the tracker for teammates; their personal NPC history remains separate.",
+  "Next story lead: Captain Edda Thorne. Follow the existing dimension requirements when travelling onward; the story does not unlock dimensions."
+]
+		extraquests_calendar: {
+			active_quests: 3
+			enabled: 0b
+			pool: ""
+			reset_time: "06:00"
+			timezone: "UTC"
+			weekday: 1
+			weekly: 0b
+		}
+		icon: "create:cogwheel"
+		id: "2A5D9CEC07D87950"
+		tasks: [{
+			advancement: "outlandish:story/mara_coppersmith_completed"
+			criterion: ""
+			extraquests_options: {
+				aggregation: "AUTO"
+				duration: 600L
+				minimum_contribution: 0L
+				reset_damage: 0b
+				reset_death: 1b
+				reset_logout: 0b
+				shared: 0b
+				timer_enabled: 0b
+				timer_start: "FIRST_PROGRESS"
+			}
+			id: "628453C537EFD011"
+			type: "advancement"
+		}]
+		title: "Knowledge in Working Hands"
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "The Work We Carry Forward"
+}
