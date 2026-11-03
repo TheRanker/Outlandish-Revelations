@@ -1,0 +1,23 @@
+name: Validate development pack
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Validate pack references and data
+        run: python tools/validate_pack.py
+      - name: Test personal World Remembers behavior
+        run: node tools/tests/world_remembers.mjs
+      - name: Check local development archive
+        run: python tools/build_pack.py
