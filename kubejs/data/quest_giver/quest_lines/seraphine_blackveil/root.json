@@ -1,0 +1,12 @@
+{
+  "icon": "minecraft:crossbow",
+  "repeatable": false,
+  "start": {
+    "title": {
+      "translate": "No Welcome Prepared"
+    },
+    "description": {
+      "translate": "Darius sent you? Then he has finally found someone willing to carry more than excuses. Seraphine Blackveil. This refuge belongs to the people who kept each other alive when the Concord's promises stopped arriving. Help them first. We can speak of The Ranker afterward."
+    }
+  }
+}

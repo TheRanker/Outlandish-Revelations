@@ -1,0 +1,38 @@
+{
+  "parent": "quest_giver:root",
+  "repeatable": false,
+  "icon": "minecraft:end_stone_bricks",
+  "start": {
+    "title": {
+      "translate": "A Platform for the Record"
+    },
+    "description": {
+      "translate": "Sixteen End stone bricks required for the damaged landing and outer shell. An archive is not accessible if its visitors cannot stand safely beside it. Hand the materials to me one at a time."
+    }
+  },
+  "tasks": [
+    {
+      "id": "quest_giver:gift",
+      "item": {
+        "item": "minecraft:end_stone_bricks"
+      },
+      "entity": "minecraft:villager",
+      "name": "A.U.R.A.",
+      "times": 16
+    }
+  ],
+  "complete": {
+    "title": {
+      "translate": "A Platform for the Record"
+    },
+    "description": {
+      "translate": "Landing integrity improved. Record note: the Concord established this station beyond the central island. Its research role was separate from the dragon's domain."
+    }
+  },
+  "rewards": [
+    {
+      "id": "quest_giver:command",
+      "command": "execute at @s run function outlandish:story/aura/delivery_01"
+    }
+  ]
+}

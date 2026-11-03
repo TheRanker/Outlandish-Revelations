@@ -1,0 +1,38 @@
+{
+  "parent": "quest_giver:quest_04",
+  "repeatable": false,
+  "icon": "minecraft:gold_ingot",
+  "start": {
+    "title": {
+      "translate": "Keep the Markers Clear"
+    },
+    "description": {
+      "translate": "Four gold ingots for the route-marker fittings. A small clear signal is worth more here than a grand declaration no one can follow. Hand the materials to me one at a time."
+    }
+  },
+  "tasks": [
+    {
+      "id": "quest_giver:gift",
+      "item": {
+        "item": "minecraft:gold_ingot"
+      },
+      "entity": "minecraft:villager",
+      "name": "Valen Cinderwatch",
+      "times": 4
+    }
+  ],
+  "complete": {
+    "title": {
+      "translate": "Keep the Markers Clear"
+    },
+    "description": {
+      "translate": "Edda kept her trust. Ysra kept her doors open. Darius and Seraphine kept people alive. The Ranker's story belongs beside those acts, not above them."
+    }
+  },
+  "rewards": [
+    {
+      "id": "quest_giver:command",
+      "command": "execute at @s run function outlandish:story/valen_cinderwatch/delivery_05"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  id: "AA1C000000000001"
+  filename: "the_altered_record"
+  group: "671F319DF12B461D"
+  order_index: 8
+  title: "The Altered Record"
+  quests: [{
+    id: "AA1C000000000002"
+    title: "Evidence Before Judgment"
+    description: [
+  "Search Incendium Nether biomes outside the Infernal Dunes. Nether access still requires your team to trigger and defeat the same Warden.",
+  "",
+  "Use a Quest Scroll to speak with Malric Vane. Complete this NPC's 7 deliveries in Quest Giver; this FTB quest tracks the final personal completion advancement.",
+  "Give the requested materials to the named NPC one at a time. Each accepted delivery repairs part of that nearby building. A player-placed block at a repair site is preserved.",
+  "",
+  "Deliveries, in order:",
+  "1. Walls Around the Evidence: 16 Polished Blackstone Bricks.",
+  "2. Marks in a Clear Light: 12 Nether Quartz.",
+  "3. Protection Without Concealment: 8 Glass.",
+  "4. A Register Held Together: 12 Iron Ingot.",
+  "5. Compare, Then Conclude: 8 Redstone Dust.",
+  "6. A Second Copy: 12 Paper.",
+  "7. The Altered Record: 4 Amethyst Shard.",
+  "",
+  "Each storyline is one-time per player across every copy of that NPC. Finding another building does not restart it. If you change buildings midway, earlier repairs do not move to the new copy.",
+  "Story benefits: restore the building, hear the next part of The Unfinished Promise and record your personal completion. This FTB entry adds no separate item reward. Existing FTB team sharing may complete the tracker for teammates; their personal NPC history remains separate.",
+  "Next story lead: Cassian Ashfall. Follow the existing dimension requirements when travelling onward; the story does not unlock dimensions."
+]
+    icon: "minecraft:writable_book"
+    x: 0.0d
+    y: 0.0d
+    tasks: [{
+      id: "AA1C000000000003"
+      type: "advancement"
+      advancement: "outlandish:story/malric_vane_completed"
+      criterion: ""
+    }]
+  }]
+}

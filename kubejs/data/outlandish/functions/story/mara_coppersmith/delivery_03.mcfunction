@@ -1,0 +1,2 @@
+# Accepted delivery 3, AS the completing player. Local repair only.
+execute if entity @s[type=minecraft:player] if dimension minecraft:overworld at @s as @e[type=minecraft:villager,tag=outlandish_mara_npc,name="Mara Coppersmith",distance=..8,sort=nearest,limit=1] at @s as @e[type=minecraft:marker,tag=outlandish_mara_anchor,distance=..0.1,limit=1] at @s rotated as @s unless entity @e[type=minecraft:marker,tag=outlandish_mara_anchor,distance=0.001..16] run function outlandish:story/mara_coppersmith/repair_03

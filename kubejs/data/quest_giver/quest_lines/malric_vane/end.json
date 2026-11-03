@@ -1,0 +1,11 @@
+{
+  "icon": "minecraft:writable_book",
+  "start": {
+    "title": {
+      "translate": "Evidence Before Judgment"
+    },
+    "description": {
+      "translate": "The dispatch was altered. That is a finding, not yet a name to condemn. Cassian Ashfall studied the equipment assigned to The Ranker. Find him and ask what those missing components were meant to support."
+    }
+  }
+}

@@ -1,5 +1,5 @@
 
 [logbegone]
 	regex = ["\\[net\\.minecraft\\.client\\.ClientRecipeBook\\]: Unknown recipe category: forbidden_arcanus:clibano_combustion/(?:forbidden_arcanus|productivebees):[a-z0-9_./-]+", "\\[net\\.minecraft\\.client\\.ClientRecipeBook\\]: Unknown recipe category: apotheosis:fletching/(?:apotheosis|apotheotic_additions):[a-z0-9_./-]+", "\\[net\\.minecraft\\.client\\.ClientRecipeBook\\]: Unknown recipe category: mythicbotany:infuser/(?:mythicbotany|productivebees):[a-z0-9_./-]+", "\\[net\\.minecraft\\.client\\.ClientRecipeBook\\]: Unknown recipe category: \\[!!!com\\.mojang\\.logging\\.LogUtils\\$1ToString@[0-9a-f]+=>java\\.lang\\.NullPointerException:Cannot invoke \"Object.toString\\(\\)\" because the return value of \"java.util.function.Supplier.get\\(\\)\" is null!!!\\]/feywild:[a-z0-9_./-]+"]
-	phrases = ["Disconnecting VANILLA connection attempt", "Channels ", "Empty height range"]
+	phrases = ["Disconnecting VANILLA connection attempt", "Channels ", "Empty height range", "[Quantified][GPU Startup][OpenCL]", "[LwjglRuntimeTuning] Creating daemon thread", "OpenCL runtime initialised via LWJGL", "OpenCL context initialized for device:", "Force probe: isolated OpenCL acceleration initialized successfully", "OpenCL probe succeeded on attempt"]
 

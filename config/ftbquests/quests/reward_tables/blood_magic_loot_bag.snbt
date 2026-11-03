@@ -1,0 +1,14 @@
+{
+	icon: "bloodmagic:mastercore"
+	id: "4F7310810CCDCD00"
+	loot_size: 1
+	order_index: 32
+	rewards: [
+		{ count: 32, item: "minecraft:torch" }
+		{ count: 16, item: "minecraft:coal" }
+		{ count: 12, item: "minecraft:copper_ingot" }
+		{ count: 8, item: "minecraft:cooked_porkchop" }
+	]
+	title: "&cBlood Magic Loot Box"
+	use_title: true
+}

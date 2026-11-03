@@ -1,0 +1,15 @@
+{
+  "structures": [
+    {
+      "structure": "outlandish:aura_research_station",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:concentric_rings",
+    "distance": 64,
+    "spread": 3,
+    "count": 128,
+    "preferred_biomes": "#outlandish:aura_outer_islands"
+  }
+}

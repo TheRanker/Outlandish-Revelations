@@ -1,0 +1,15 @@
+{
+  "structures": [
+    {
+      "structure": "outlandish:voss_cottage",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 19408343,
+    "spacing": 24,
+    "separation": 8,
+    "spread_type": "linear"
+  }
+}

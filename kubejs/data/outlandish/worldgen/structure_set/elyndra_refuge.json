@@ -1,0 +1,15 @@
+{
+  "structures": [
+    {
+      "structure": "outlandish:elyndra_refuge",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 19408353,
+    "spacing": 24,
+    "separation": 8,
+    "spread_type": "linear"
+  }
+}

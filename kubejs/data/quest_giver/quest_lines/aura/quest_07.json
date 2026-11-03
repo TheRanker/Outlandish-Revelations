@@ -1,0 +1,38 @@
+{
+  "parent": "quest_giver:quest_06",
+  "repeatable": false,
+  "icon": "minecraft:amethyst_shard",
+  "start": {
+    "title": {
+      "translate": "The Memory Beyond the Void"
+    },
+    "description": {
+      "translate": "Four amethyst shards required for the inspection resonators. They will restore the station's study instruments. They will not perform a sword awakening. Hand the materials to me one at a time."
+    }
+  },
+  "tasks": [
+    {
+      "id": "quest_giver:gift",
+      "item": {
+        "item": "minecraft:amethyst_shard"
+      },
+      "entity": "minecraft:villager",
+      "name": "A.U.R.A.",
+      "times": 4
+    }
+  ],
+  "complete": {
+    "title": {
+      "translate": "The Memory Beyond the Void"
+    },
+    "description": {
+      "translate": "Station restoration complete. Seek Elyndra. Carry the record with care, and leave room for what a record alone cannot teach. Your access to the Twilight Forest remains governed by your existing progression."
+    }
+  },
+  "rewards": [
+    {
+      "id": "quest_giver:command",
+      "command": "execute at @s run function outlandish:story/aura/delivery_07"
+    }
+  ]
+}

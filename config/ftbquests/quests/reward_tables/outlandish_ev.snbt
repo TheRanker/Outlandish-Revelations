@@ -1,0 +1,23 @@
+{
+	id: "5E8D561C97BC7A5A"
+	loot_crate: {
+		color: 10717928
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		item_name: "Outlandish EV Supply Bag"
+		string_id: "or_ev"
+	}
+	loot_size: 1
+	order_index: 3
+	rewards: [
+		{ count: 48, item: "minecraft:iron_ingot" }
+		{ count: 64, item: "minecraft:redstone" }
+		{ count: 24, item: "minecraft:gold_ingot" }
+		{ count: 64, item: "minecraft:glass" }
+	]
+	title: "Outlandish EV Supplies"
+	use_title: true
+}

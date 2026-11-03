@@ -1,0 +1,38 @@
+{
+  "parent": "quest_giver:root",
+  "repeatable": false,
+  "icon": "minecraft:mossy_stone_bricks",
+  "start": {
+    "title": {
+      "translate": "Roots Beneath the Refuge"
+    },
+    "description": {
+      "translate": "Sixteen mossy stone bricks will mend the refuge's foundations. Build with the forest rather than trying to erase every sign that it has been here longer than we have. Hand the materials to me one at a time."
+    }
+  },
+  "tasks": [
+    {
+      "id": "quest_giver:gift",
+      "item": {
+        "item": "minecraft:mossy_stone_bricks"
+      },
+      "entity": "minecraft:villager",
+      "name": "Elyndra",
+      "times": 16
+    }
+  ],
+  "complete": {
+    "title": {
+      "translate": "Roots Beneath the Refuge"
+    },
+    "description": {
+      "translate": "A sound beginning. Ysra would approve. The living need shelter more urgently than the past needs another grand account of itself."
+    }
+  },
+  "rewards": [
+    {
+      "id": "quest_giver:command",
+      "command": "execute at @s run function outlandish:story/elyndra/delivery_01"
+    }
+  ]
+}

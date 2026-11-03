@@ -1,0 +1,11 @@
+{
+  "icon": "minecraft:shield",
+  "start": {
+    "title": {
+      "translate": "Trust Beyond the Walls"
+    },
+    "description": {
+      "translate": "You kept your word. That matters more to me than a polished blade. The Ranker's ring remains in my keeping. For now, seek Sister Ysra Vale. Ask her what it means to give something freely when the cost is real."
+    }
+  }
+}

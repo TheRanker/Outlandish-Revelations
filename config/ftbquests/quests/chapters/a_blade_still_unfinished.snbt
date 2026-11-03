@@ -1,0 +1,39 @@
+{
+  id: "CA55100000000001"
+  filename: "a_blade_still_unfinished"
+  group: "671F319DF12B461D"
+  order_index: 9
+  title: "A Blade Still Unfinished"
+  quests: [{
+    id: "CA55100000000002"
+    title: "Knowledge Before the Challenge"
+    description: [
+  "Search Incendium Nether biomes outside the Infernal Dunes. Nether access still requires your team to trigger and defeat the same Warden.",
+  "",
+  "Use a Quest Scroll to speak with Cassian Ashfall. Complete this NPC's 7 deliveries in Quest Giver; this FTB quest tracks the final personal completion advancement.",
+  "Give the requested materials to the named NPC one at a time. Each accepted delivery repairs part of that nearby building. A player-placed block at a repair site is preserved.",
+  "",
+  "Deliveries, in order:",
+  "1. A Steady Instrument Bed: 16 Smooth Basalt.",
+  "2. A Reference That Endures: 12 Nether Quartz.",
+  "3. The Fittings We Can Restore: 12 Copper Ingot.",
+  "4. Precision Without Display: 8 Gold Ingot.",
+  "5. Preserve the View: 8 Glass.",
+  "6. The Name on the Record: 12 Paper.",
+  "7. A Blade Still Unfinished: 4 Amethyst Shard.",
+  "",
+  "Each storyline is one-time per player across every copy of that NPC. Finding another building does not restart it. If you change buildings midway, earlier repairs do not move to the new copy.",
+  "Story benefits: restore the building, hear the next part of The Unfinished Promise and record your personal completion. This FTB entry adds no separate item reward. Existing FTB team sharing may complete the tracker for teammates; their personal NPC history remains separate.",
+  "Next story lead: Valen Cinderwatch. Follow the existing dimension requirements when travelling onward; the story does not unlock dimensions."
+]
+    icon: "minecraft:amethyst_shard"
+    x: 0.0d
+    y: 0.0d
+    tasks: [{
+      id: "CA55100000000003"
+      type: "advancement"
+      advancement: "outlandish:story/cassian_ashfall_completed"
+      criterion: ""
+    }]
+  }]
+}

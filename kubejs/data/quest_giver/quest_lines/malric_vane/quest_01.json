@@ -1,0 +1,38 @@
+{
+  "parent": "quest_giver:root",
+  "repeatable": false,
+  "icon": "minecraft:polished_blackstone_bricks",
+  "start": {
+    "title": {
+      "translate": "Walls Around the Evidence"
+    },
+    "description": {
+      "translate": "Sixteen polished blackstone bricks will secure the breached archive walls. Paper survives fire poorly. It fares no better when left beneath falling masonry. Hand the materials to me one at a time."
+    }
+  },
+  "tasks": [
+    {
+      "id": "quest_giver:gift",
+      "item": {
+        "item": "minecraft:polished_blackstone_bricks"
+      },
+      "entity": "minecraft:villager",
+      "name": "Malric Vane",
+      "times": 16
+    }
+  ],
+  "complete": {
+    "title": {
+      "translate": "Walls Around the Evidence"
+    },
+    "description": {
+      "translate": "I kept the originals separate from the reports copied afterward. People often correct a record when they mean to make it less embarrassing."
+    }
+  },
+  "rewards": [
+    {
+      "id": "quest_giver:command",
+      "command": "execute at @s run function outlandish:story/malric_vane/delivery_01"
+    }
+  ]
+}

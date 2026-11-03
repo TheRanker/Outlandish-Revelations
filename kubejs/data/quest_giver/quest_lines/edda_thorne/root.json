@@ -1,0 +1,12 @@
+{
+  "icon": "minecraft:shield",
+  "repeatable": false,
+  "start": {
+    "title": {
+      "translate": "A Captain Still on Watch"
+    },
+    "description": {
+      "translate": "Mara kept the ledger? Good. Too many people remember the Concord's machines and forget the people standing beside them. Captain Edda Thorne. This watchpost sheltered travellers once. Help me make it fit to shelter them again, and I will tell you what I witnessed."
+    }
+  }
+}

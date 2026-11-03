@@ -1,0 +1,2382 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create"
+	group: "290BD65C3C52540C"
+	icon: "create:large_cogwheel"
+	id: "290E7A54FDBF199B"
+	images: [{
+		height: 3.0d
+		image: "minecraft:textures/item/book.png"
+		rotation: 0.0d
+		width: 3.0d
+		x: 4.5d
+		y: -5.5d
+	}]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Create machines use rotational power. Begin with Andesite Alloy, shafts and a water wheel, then add processing and item transport. Use Ponder on components to see how they connect."
+				"Create materials also support Tinkers and Botania. Follow Steam Power for your first GregTech power system, and check JEI when the workshops share ingredients."
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "4AF6019F39CCFF76"
+			rewards: [
+				{
+					id: "7BA54813E7DAE758"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0594CAE177B81954"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_steam"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				icon: "create:wrench"
+				id: "54544C20A3E6A0F7"
+				title: "Create"
+				type: "checkmark"
+			}]
+			title: "Build with Rotation"
+			x: -5.25d
+			y: -3.75d
+		}
+		{
+			dependencies: ["4AF6019F39CCFF76"]
+			description: ["This will be the main ingredient for most of this mod's items and blocks."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "70128B0C7FCD8752"
+			rewards: [
+				{
+					id: "167C5497B5F28863"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "08721B5E30DD0A5F"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_steam"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 32L
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "1946375C01A465C9"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["70128B0C7FCD8752"]
+			description: ["&n&5Shafts&r transfer rotational power without changing the speed of the gears."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "4AEBE72DD3B83243"
+			rewards: [{
+				id: "79558E267D3CE0D0"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				count: 16L
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "05AE4DB371CBC98F"
+				item: "create:shaft"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["4AEBE72DD3B83243"]
+			description: [
+				"The &n&5Cogwheel&r transfers rotational power but also doubles or halves speed."
+				""
+				"Doubling speed will also double the stress in the system."
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "574B30B29382F177"
+			rewards: [
+				{
+					id: "4B784C3C508BEF8D"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4E9222815384487F"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_steam"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 8L
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "6F19AD5A81DA46CD"
+				item: "create:cogwheel"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["574B30B29382F177"]
+			description: [
+				"The &n&5Cogwheel&r transfers rotational power but also doubles or halves speed."
+				""
+				"Doubling speed will also double the stress in the system."
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "57CE82379168AB7C"
+			rewards: [
+				{
+					id: "0B8E50CDDCA0A601"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "77C7EED1747B2329"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_steam"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 8L
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "04454E4FEC539C42"
+				item: "create:large_cogwheel"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["4AEBE72DD3B83243"]
+			description: [
+				"The &n&5Water Wheel&r is one of the most basic ways of generating rotational force. You can hook up multiple wheels by placing them next to each other."
+				""
+				"You can also change the appearance by using different Wooden Logs on them!"
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "5E4B14D698E48BC2"
+			rewards: [
+				{
+					id: "0497D63B574FB238"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "47E7ACFB8F8B83A3"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_steam"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 3L
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "467142CB0D8627F2"
+				item: "create:water_wheel"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["35610051E95077E0"]
+			description: ["The &n&5Encased Fan&r is used to pull/push items and entities if you spin it. The arrow will show you the direction it's facing and the rotation direction will determine if it pushes or pulls."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "061C278765927DAF"
+			rewards: [{
+				id: "738AFC519F51E04E"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "27C841962CCF1B87"
+				item: "create:encased_fan"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["574B30B29382F177"]
+			description: ["The &n&5Gearbox&r can rotate the direction of the rotation in any direction by 90 degrees."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "03866BD5C68FD902"
+			rewards: [{
+				id: "371F56AFF7071E3A"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "607B38BD1C7A26DB"
+				item: "create:gearbox"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["4AEBE72DD3B83243"]
+			description: ["The &n&5Clutch&r will stop any rotation if a redstone signal is applied."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "2358B0838F2094DD"
+			rewards: [{
+				id: "581610CBDAFF7D69"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "72FA2DF0F1AD86F1"
+				item: "create:clutch"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["4AEBE72DD3B83243"]
+			description: ["The &n&5Gearshift&r will reverse the direction of rotation if a redstone signal is applied."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "00A48A66EE77DE68"
+			rewards: [{
+				id: "2A54F81E40A008D3"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "4769B364D590247B"
+				item: "create:gearshift"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["35610051E95077E0"]
+			description: ["The &n&5Chain Drive&r can be linked with others in any direction as long as they are touching. They will relay the rotation sideways."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "3F170BAC6F110F97"
+			rewards: [{
+				id: "6189C2C6F9843FFD"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "6053EBC47F17FA4A"
+				item: "create:encased_chain_drive"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3F170BAC6F110F97"]
+			description: [
+				"The &n&5Adjustable Chain Drive&r works similar to the normal Chain Drive when it has no redstone signal."
+				""
+				"When you apply a redstone signal and it is the block receiving the rotational force, it will double the speed for the connected Chain Drives."
+				""
+				"When you apply a redstone signal and it is not the block receiving the rotational force, it will half the speed for the connected Chain Drives."
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "3A34D3B9B2217015"
+			rewards: [{
+				id: "529955A0251A5BAD"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "7C67E8B960E26C26"
+				item: "create:adjustable_chain_gearshift"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5E4B14D698E48BC2"]
+			description: ["The &n&5Press&r can be used to create metal plates or blocks."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "69A7D18D1744BBE8"
+			rewards: [{
+				id: "47F932C6074035CA"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "1331DA9DBF429209"
+				item: "create:mechanical_press"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"7C67FA92681A3B40"
+				"574B30B29382F177"
+			]
+			description: ["The &n&5Mixer&r can be used combined with the Basin to craft."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "2ADC4489239B0D21"
+			rewards: [{
+				id: "4BC3D2087151ED65"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "239B4627C629B64E"
+				item: "create:mechanical_mixer"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["70128B0C7FCD8752"]
+			description: ["The &n&5Basin&r is used for recipes, mainly including the &n&5Mechanical Press&r and the &n&5Mechanical Mixer&r."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "7C67FA92681A3B40"
+			rewards: [{
+				id: "0C48F467E58EEFBF"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "1273ADED421FF040"
+				item: "create:basin"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["70128B0C7FCD8752"]
+			description: [
+				"To get the &n&5Blaze Burner&r, you need to make an Empty Blaze Burner and R-Click it on a Blaze."
+				""
+				"This is used under a Basin to heat it or super-heat it for different recipes."
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "08B249BD15C85FA3"
+			rewards: [{
+				id: "328EB71D65DB1881"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "4D426F2BF15392F9"
+				item: "create:blaze_burner"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["35610051E95077E0"]
+			description: ["The &n&5Mechanical Piston&r is similar to the Piston, it can push blocks, but you can add as many Extension Poles as you wish."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "368638577D0BAF6C"
+			rewards: [{
+				id: "13A5ADE8C26EA482"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "7B9A8EAB529BF4C1"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "create:mechanical_piston"
+							}
+							{
+								Count: 1b
+								id: "create:sticky_mechanical_piston"
+							}
+						]
+					}
+				}
+				title: "Mechanical Pistons"
+				type: "item"
+			}]
+			title: "Mechanical Pistons"
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["70128B0C7FCD8752"]
+			description: ["The Speedometer will show you the speed of the currently connected gear."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "5E044C1289BD5722"
+			rewards: [{
+				id: "086415B6C9DE3DE5"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "315D4A23B53AE86F"
+				item: "create:speedometer"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["70128B0C7FCD8752"]
+			description: ["The Stressometer will show you how stressed the system is when you connect it."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "12BDAB415F449BDA"
+			rewards: [{
+				id: "325566612DCA671F"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "721F2785F6C82AE9"
+				item: "create:stressometer"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["35610051E95077E0"]
+			description: [
+				"The &n&5Cart Assembler&r can be placed on tracks. Anything you build on top of it will be picked up by a Minecart if the Assembler has a redstone signal."
+				""
+				"The blocks must be glued together and any blocks requiring rotational force will automatically be working."
+				""
+				"To \"unmount\" the blocks from the Minecart, simply turn off the redstone signal and let the Minecart ride through."
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "57AB4632AD3F8854"
+			rewards: [
+				{
+					id: "6339B25291A13A3D"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "5C63379BA3B015FB"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_steam"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "0813DAA47629D6E0"
+				item: "create:cart_assembler"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["35610051E95077E0"]
+			description: ["The &n&5Linear Chassis&r can be used similar to the &n&5Super Glue&r. It will connect blocks in a line without the need for glue."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "38CC83C7E3C79EFD"
+			rewards: [{
+				id: "606BC1E9FBD9278C"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "5E4D207373765B84"
+				item: "create:linear_chassis"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["35610051E95077E0"]
+			description: ["The &n&5Radial Chassis&r can be used similar to the &n&5Super Glue&r. It will connect blocks in a line, on the sides, without the need for glue."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "08116610D4CD05BC"
+			rewards: [{
+				id: "1714E0794EBE5A58"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "23168CAC71B0E8BD"
+				item: "create:radial_chassis"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["70128B0C7FCD8752"]
+			description: ["Combine with &n&5Radial Chassis&r to create a very powerful windmill that has high stress capacity."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "519EAA79BADDC284"
+			rewards: [{
+				id: "520E1F819FAEC4C0"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "0620657086164C12"
+				item: "create:white_sail"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["35610051E95077E0"]
+			description: ["The &n&5Drill&r will break any block in front of it. If it has a connected inventory, the items will be stored in it."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "7CF60F5F77C2AAE9"
+			rewards: [
+				{
+					id: "020A56DD4630E8B3"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "58E1565800FDEFEC"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_steam"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "6FEAB39FD847312C"
+				item: "create:mechanical_drill"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["35610051E95077E0"]
+			description: ["The &n&5Saw&r will harvest trees in front of it. It can also be used as a Sawmill. If it has a connected inventory, the items will be stored in it."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "76BEA1616194D1CE"
+			rewards: [{
+				id: "0B6BE086876654E2"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "27587FF6D2A0546B"
+				item: "create:mechanical_saw"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3DA5E78A64A5B7AE"]
+			description: ["The &n&5Deployer&r can be used to either place items/blocks or to use items like Swords."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "615FA8F692304E09"
+			rewards: [{
+				id: "52FDDF9FD796BEEB"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "4ECAC59FFB2A3DA1"
+				item: "create:deployer"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["35610051E95077E0"]
+			description: [
+				"The &n&5Portable Interface&r works in pairs. You need to have one placed in the world and another one on a moving entity, like a Minecart."
+				""
+				"When the two interfaces are facing each other, they will link and transfer items between each other."
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "58E62BCA3FE51354"
+			rewards: [{
+				id: "50FC6F2937ADB197"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "2E2D9131A95FFD39"
+				item: "create:portable_storage_interface"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["35610051E95077E0"]
+			description: ["The &n&5Harvester&r will harvest any crops it goes over. If it has a connected inventory, the items will be stored in it."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "566A91483FC986F2"
+			rewards: [{
+				id: "773684218FDA5F01"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "1623B25094CE14BA"
+				item: "create:mechanical_harvester"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["35610051E95077E0"]
+			description: ["The &n&5Plough&r will destroy any non-solid block, turn dirt into farmland and launch entities without doing damage. If it has a connected inventory, the items will be stored in it."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "1381C10B308BE452"
+			rewards: [{
+				id: "2ECD3A43ABC4D82D"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "609925A139FC5246"
+				item: "create:mechanical_plough"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["70128B0C7FCD8752"]
+			description: ["&n&5Casings&r are used as a crafting ingredient for most blocks."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "35610051E95077E0"
+			rewards: [{
+				id: "66DC7C59D39B1BA2"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "7A4A25EF0AF063DA"
+				item: "create:andesite_casing"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"2ADC4489239B0D21"
+				"08B249BD15C85FA3"
+			]
+			description: ["&n&5Casings&r are used as a crafting ingredient for most blocks."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "3DA5E78A64A5B7AE"
+			rewards: [{
+				id: "293292C9A7744FA4"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "005454FED1A8DB56"
+				item: "create:brass_casing"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["70128B0C7FCD8752"]
+			description: ["&n&5Casings&r are used as a crafting ingredient for most blocks."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "3EBD7975F58B652D"
+			rewards: [{
+				id: "6BCEB055EFACF0B3"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "72EDFD26A28765A7"
+				item: "create:copper_casing"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3DA5E78A64A5B7AE"]
+			description: [
+				"The &n&5Arm&r is a machine that can take items from a Depot or a Belt and place them into a different Depot, Belt or Crafter."
+				""
+				"To select input/output hold the Arm in your hand and R-Click the blocks you want to assign."
+				""
+				"To deselect a block, L-Click it with the Arm in your hand."
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "63BA532477111957"
+			rewards: [{
+				id: "5F9D949ADA354D1F"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "6D3D94EE09906C2A"
+				item: "create:mechanical_arm"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["35610051E95077E0"]
+			description: ["The &n&5Funnel&r can import or export items from connected inventories."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "18D5B8FF162A73C0"
+			rewards: [{
+				id: "60C56A57FC69B264"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "05F3D4390CC39D91"
+				item: "create:andesite_funnel"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3DA5E78A64A5B7AE"]
+			description: ["The &n&5Funnel&r can import or export items from connected inventories."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "26373005D5A237F8"
+			rewards: [{
+				id: "31715DA8B18514F2"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "02A043A3AB540F4B"
+				item: "create:brass_funnel"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["35610051E95077E0"]
+			description: ["The &n&5Tunnels&r can be placed on belts and they will filter items that pass through them. You can link multiple tunnels by placing them next to each other."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "7041FF71E3D0AD8F"
+			rewards: [{
+				id: "2798C6E7A2E655E5"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "33C338D37961494F"
+				item: "create:andesite_tunnel"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3DA5E78A64A5B7AE"]
+			description: ["The &n&5Tunnels&r can be placed on belts and they will filter items that pass through them. You can link multiple tunnels by placing them next to each other."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "0CA911C47A451C53"
+			rewards: [{
+				id: "01EBC745BF78C5A1"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "0EA82F1E43B2A3E9"
+				item: "create:brass_tunnel"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["70128B0C7FCD8752"]
+			description: ["The &n&5Depot&r is used to store items, mainly for the Spout."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "5F3D7C103428135D"
+			rewards: [{
+				id: "4CC91CD67C7A4ED6"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "7611DDE6CA9ED5DE"
+				item: "create:depot"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["70128B0C7FCD8752"]
+			description: ["The &n&5Chute&r is used to insert/extract from inventories, or to place/take items from a belt."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "0E9521C029C04D82"
+			rewards: [{
+				id: "4554ABB601618165"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "5E796F622515AA8C"
+				item: "create:chute"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["70128B0C7FCD8752"]
+			description: [
+				"These goggles will allow you to see your contrations in more detail."
+				""
+				"It will show things as rotation speed and stress."
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "4C96FF47C0B4BB3B"
+			rewards: [{
+				id: "5B7C3B6497750596"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "580398483741F650"
+				item: "create:goggles"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["70128B0C7FCD8752"]
+			description: [
+				"You can create this by making Rose Crystals and Sand Paper."
+				""
+				"You can either hold the crystals in your off-hand, or throw them on the ground and then R-Click while holding Sand Paper."
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "09E33652068152FB"
+			rewards: [
+				{
+					id: "2407CAABFDE46F6C"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "115C0C4D00F8F0AD"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_steam"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 8L
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "2BDDDCCEE026E9EB"
+				item: "create:polished_rose_quartz"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["70128B0C7FCD8752"]
+			description: ["The &n&5Blaze Cake&r is used to Super-Heat the Blaze Burner for crafting the Chromatic Compound."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "7310C8D293152DB5"
+			rewards: [{
+				id: "08E4AEBF7785EEAA"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "38FE0354AEDAC716"
+				item: "create:blaze_cake"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["3DA5E78A64A5B7AE"]
+			description: [
+				"The &n&5Crafters&r can be connected to each other to form a huge in-world crafting table."
+				""
+				"The arrows on the Crafters must eventually converge on the same Crafter to finish the recipe. You can turn the arrows by R-Clicking it with the Wrench."
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "3B7333F08FCC4E23"
+			rewards: [{
+				id: "79FD600AC34D9C61"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "3BF5126B6CCD10D5"
+				item: "create:mechanical_crafter"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["35610051E95077E0"]
+			description: ["The &n&5Gantry Carriage&r can be attached to Gantry Shafts and if the Shaft is rotating, it will move the Carriage along it."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "134A134B20D17B78"
+			rewards: [{
+				id: "748887AAC6B54627"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "5D92CE04445CC8ED"
+				item: "create:gantry_carriage"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["70128B0C7FCD8752"]
+			description: ["The &n&5Weighted Ejector&r can launch items or entities to a selected location."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "62D5A21B4E29D5FE"
+			rewards: [{
+				id: "7F14BF0AB314EDC2"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "7B42D95C08276CA3"
+				item: "create:weighted_ejector"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3DA5E78A64A5B7AE"]
+			description: ["The &n&5Smart Chute&r is the same as the Chute but with additional functionalities, such as stack size and filters."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "2090B9A2C8ED16AC"
+			rewards: [{
+				id: "17F2303F84C1414D"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "09D99F8F20899EEC"
+				item: "create:smart_chute"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["70128B0C7FCD8752"]
+			description: [
+				"The Schematic Table will read and write structures to/from your schematics."
+				""
+				"You can use it to copy buildings or to share them with others!"
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "114F2FA94D1ABA2C"
+			rewards: [
+				{
+					id: "7DB397ED7BEDBDE9"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "786BB58AEFC5BD12"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_steam"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "6C5BD9DD873D0C0B"
+				item: "create:schematic_table"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["114F2FA94D1ABA2C"]
+			description: ["The Cannon will build the structures from Schematics, taking materials from nearby chests and using gunpowder as fuel."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "30A1FA05B28E5962"
+			rewards: [{
+				id: "6A619080FB77870A"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "0D6079B89880C1C4"
+				item: "create:schematicannon"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["35610051E95077E0"]
+			description: ["The &n&5Rope Pulley&r can move blocks up or down, they can be glued together."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "08D28F289B9C0F76"
+			rewards: [{
+				id: "767DF2F73D09347C"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "413057F8D156F54A"
+				item: "create:rope_pulley"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3EBD7975F58B652D"]
+			description: ["The &n&5Spout&r is used to fill items with liquid. It is best to use a Depot under it to hold the items."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "725928F0D0D4C903"
+			rewards: [{
+				id: "56B9C2C678E64260"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "4DF02DE8C6DCE01A"
+				item: "create:spout"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3EBD7975F58B652D"]
+			description: ["The &n&5Hose Pulley&r is a pump that can extract liquids or place liquids in the world."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "42347707F85FBC92"
+			rewards: [{
+				id: "01B4F95E53D6D9DB"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "6849307BCE0EEA4B"
+				item: "create:hose_pulley"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["70128B0C7FCD8752"]
+			description: ["Craft Piston Extension Pole and use Ponder to learn how it connects. Check JEI for ingredients and uses, then try a small setup before expanding."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "65615964DE053617"
+			rewards: [{
+				id: "7D78F5060E0D228F"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "6EF45113993795D4"
+				item: "create:piston_extension_pole"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3EBD7975F58B652D"]
+			description: [
+				"The &n&5Portable Interface&r works in pairs. You need to have one placed in the world and another one on a moving entity, like a Minecart."
+				""
+				"When the two interfaces are facing each other, they will link and transfer liquids between each other."
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "2502A5D9F075D89A"
+			rewards: [{
+				id: "7586A0B9B1B002E5"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "675DC1039CC17091"
+				item: "create:portable_fluid_interface"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"2ADC4489239B0D21"
+				"08B249BD15C85FA3"
+			]
+			description: ["Follow the tasks shown here and use the connected quests to plan your next step. Check JEI for recipes and ingredient alternatives."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "5A6E671A0F0F5569"
+			rewards: [{
+				id: "010757C45D70CBB2"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				icon: "create:brass_ingot"
+				id: "648E8FCF1DE9F421"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ingots/brass"
+					}
+				}
+				title: "Any Brass Ingot"
+				type: "item"
+			}]
+			title: "Brass"
+			x: 7.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["70128B0C7FCD8752"]
+			description: ["&n&5Super Glue&r can be used to attach blocks to each other to move them with pistons or other means."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "6B09F5A00FA38956"
+			rewards: [{
+				id: "4DF55C79B22193D0"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "0F316978C19CA7D2"
+				item: {
+					Count: 1
+					id: "create:super_glue"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["70128B0C7FCD8752"]
+			description: [
+				"&n&5Belts&r can be placed between two &n&5Shafts&r to transfer mobs/items or to simply transfer rotational energy from one point to another."
+				""
+				"The &n&5Shafts&r must be at either 45, 90 or 180 degrees from each other."
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "0CA29FF2121DC298"
+			rewards: [{
+				id: "003969BAD74596B3"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				count: 4L
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "513DC37D3A358ACE"
+				item: "create:belt_connector"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.5d
+		}
+	]
+	title: "Create"
+}

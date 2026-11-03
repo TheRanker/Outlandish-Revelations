@@ -1,0 +1,12 @@
+{
+  "icon": "minecraft:blast_furnace",
+  "repeatable": false,
+  "start": {
+    "title": {
+      "translate": "An Outpost Still Standing"
+    },
+    "description": {
+      "translate": "Ysra remembers us? I wondered whether anyone did. Darius Emberwright. This was a Concord service outpost, before the supply routes failed and everyone with sense went looking for a way home. You reached it under your own strength. Help me make it useful again."
+    }
+  }
+}

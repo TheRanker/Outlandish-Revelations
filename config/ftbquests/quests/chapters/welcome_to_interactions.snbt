@@ -1,0 +1,281 @@
+{
+	autofocus_id: "001E41CB829C0D46"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "welcome_to_interactions"
+	group: ""
+	icon: "minecraft:book"
+	id: "125A812BF384E9CD"
+	images: [{
+		height: 4.5d
+		image: "outlandish_revelations:textures/title.png"
+		rotation: 0.0d
+		width: 20.0d
+		x: 0.0d
+		y: -9.0d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+  "Welcome to Outlandish Revelations! Start with shelter, food and a small workshop. Keep the scanner close: GregTech deposits form large veins, so finding the right deposit matters more than digging at random.",
+  "Develop your Create workshop alongside early GTCEu Stone and Steam work. Follow Starter Progression for copper, tin and bronze, then build reliable steam machines. JEI is the source for the current recipes, processing methods and ingredient alternatives.",
+  "Steam leads into Low Voltage (LV), then MV, HV, EV and IV. Each tier brings new materials and automation. Later chapters continue into advanced Draconic equipment and space travel.",
+  "The Unfinished Promise is the parallel storyline: twelve people across the Overworld, Nether, End and Twilight Forest. Claim a Quest Scroll from A Traveler's Invitation, then begin with Garrick Ashford. NPC stories accompany your progress; they do not replace technology recipes or dimension requirements.",
+  "Your FTB team must trigger a naturally generated Warden and defeat that same Warden for Nether access. Summon and defeat your team's same Wither for End access. Entering the End unlocks Twilight Forest for the team. Follow the dimensional quests for the full encounter rules.",
+  "The Hovering Inferno is the intended final combat challenge back in the Nether. Find an Infernal Altar in the Infernal Dunes and use a Nether Star to summon it when prepared. No extra NPC story gate is imposed.",
+  "Magic, exploration and technology support one another. Use the chapter connections for your next project, and keep dependable supplies of the parts you use most."
+]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: "minecraft:crafting_table"
+			id: "239EC20EDCBDF9E7"
+			rewards: [{
+				id: "28089818ED31D88B"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			size: 2.2d
+			subtitle: "Build a workshop. Explore. Grow your industry."
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "61A43BD36AED3378"
+				title: "Primary Quest Chains"
+				type: "checkmark"
+			}]
+			title: "Your First Steps"
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["239EC20EDCBDF9E7"]
+			description: [
+				"These resources you will need in abundance. "
+				""
+				"Copper, Tin, Coal, Redstone, Iron, Sand, Clay and Sugarcane"
+				""
+				""
+				"Ore come in Veins, they are not spawened by Vanilla means"
+				""
+				"GregTech Veins Come in 10-1000 block ores all clustered together"
+				""
+				"use the "
+				"{image:scannable:item/scanner width:30 height:30 align:1}"
+				"to find Ore Veins. Shift Click to change Addons"
+				""
+				"Tin = Cassiterite Ore"
+				"Redstone = Redstone"
+				"Copper = Chalcopyrite, Chalcocite, Malachite, Bornite, Tetrahedrite and Copper"
+				"Diamond = Diamond"
+				"Magnetite = Yellow / Brown Limanite Ore, Banded Iron Ore, Pyrite Ore"
+				"Coal = Coal"
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: "botania:cosmetic_questgiver_mark"
+			id: "461800F44FF4F3CC"
+			rewards: [{
+				id: "0A8B85142569CA4F"
+				type: "xp"
+				xp: 10
+			}]
+			size: 1.3d
+			subtitle: "Gather These Initial Items"
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "7C471EB82625762F"
+				title: "Important Information"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["239EC20EDCBDF9E7"]
+			description: [
+				"Search for an item in JEI. Point at it and press R for its recipes or U for its uses. Bookmark ingredients you need often."
+				"Category tabs separate crafting, casting and machine processes. Look through the available categories and check the machine, fluid, power and time requirements."
+				"Use the installed recipe-tree view to work backwards through the ingredients for your goal. It helps you plan the whole production line before building it."
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: "minecraft:book"
+			id: "615F09DC23A8A8ED"
+			rewards: [{
+				id: "4703A4AE70B1C7C3"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			size: 1.3d
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "01A476D135CC107D"
+				title: "Optional Quests"
+				type: "checkmark"
+			}]
+			title: "Find Your Next Recipe with JEI"
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["239EC20EDCBDF9E7"]
+			description: [
+				"All chests that spawn in the world are LOCKED!"
+				""
+				"you need a Lockpick to unlock them.  you may have to attempt to unlock the chest multiple times to open it."
+				""
+				"Lockpicks will take durabliity each time you attempt to open a lock. successful or not. "
+				""
+				"Lock picks can be crafted with 2 Stone, 1 Flint, 1 Gregtech File (tool)"
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "64F9E2B1E70A6D11"
+			rewards: [{
+				id: "5065BA3E47FE04C7"
+				type: "xp"
+				xp: 10
+			}]
+			size: 1.3d
+			subtitle: "Open Chests in Wild"
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "4A3E7DD921C684BE"
+				item: {
+					Count: 1
+					id: "kubejs:lockpick"
+					tag: {
+						Damage: 0
+					}
+				}
+				only_from_crafting: true
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["239EC20EDCBDF9E7"]
+			description: [
+				"we provides a scanner item that can survey the nearby area for points of interest. Scan results are visualized for a short while in a clean and readable manner, either as in-world highlights or appropriately positioned overlays. Did I mention eye candy yet? What results are shown depends on the modules in the scanner. Up to three modules may be installed at the same time. Default modules include:"
+				""
+				""
+				"Common ore detection (e.g. coal, iron)"
+				"Rare ore detection (e.g. gold, diamond)"
+				"Range booster"
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "70A5745190C94605"
+			rewards: [{
+				id: "73BB06950754A86C"
+				type: "xp"
+				xp: 10
+			}]
+			size: 1.3d
+			subtitle: "Scan all of the Things"
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "6814E57677772F8B"
+				item: "scannable:scanner"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.0d
+		}
+	]
+	title: "Welcome to Outlandish Revelations!"
+}

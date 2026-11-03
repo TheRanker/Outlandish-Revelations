@@ -1,0 +1,748 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "butchers_delight"
+	group: "290BD65C3C52540C"
+	id: "58C555D330796599"
+	images: [{
+		height: 3.0d
+		image: "minecraft:textures/item/book.png"
+		rotation: 0.0d
+		width: 3.0d
+		x: -4.0d
+		y: -9.0d
+	}]
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Set up this part of your butchery station near your animal pens and food storage. Check JEI for processing and cooking uses."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "32A224B8ABA196D9"
+			rewards: [{
+				id: "0D0859BDCFFFFCA0"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "6AC5DF265C0F39B3"
+				item: {
+					Count: 1
+					id: "butchersdelight:cleaver"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["32A224B8ABA196D9"]
+			description: ["Set up this part of your butchery station near your animal pens and food storage. Check JEI for processing and cooking uses."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "2264EF0F6B1F12B1"
+			rewards: [{
+				id: "7717F9A008F1423C"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "5F157C24D061EDE9"
+				item: "butchersdelight:hook"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["32A224B8ABA196D9"]
+			description: ["Set up this part of your butchery station near your animal pens and food storage. Check JEI for processing and cooking uses."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "59FB483AFFC3A6A8"
+			rewards: [{
+				id: "1F91D2275B9F4C2B"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "0AB2E604BC234F41"
+				item: "butchersdelight:rack"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["59FB483AFFC3A6A8"]
+			description: ["Set up this part of your butchery station near your animal pens and food storage. Check JEI for processing and cooking uses."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "1E9787653C8EA59D"
+			rewards: [{
+				id: "34AF4EAF6F4A11EB"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "0F252468C11DE8B9"
+				item: "butchersdelight:roaster"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1E9787653C8EA59D"]
+			description: ["Prepare this cut in your butchery workshop and cook it with the recipe in JEI. Add it to your food supply or use it in a larger meal."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "733F9D52A2B4EB6F"
+			rewards: [{
+				id: "102CC86BD92DE6DA"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "0AA159FFF2751CD8"
+				item: "butchersdelightfoods:cookedbeefribs"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1E9787653C8EA59D"]
+			description: ["Prepare this cut in your butchery workshop and cook it with the recipe in JEI. Add it to your food supply or use it in a larger meal."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "7F69867411C9BA96"
+			rewards: [{
+				id: "3D8A92F8503DA84C"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "2C73E6D5BCE92EA7"
+				item: "butchersdelightfoods:cooked_leg_cow"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1E9787653C8EA59D"]
+			description: ["Prepare this cut in your butchery workshop and cook it with the recipe in JEI. Add it to your food supply or use it in a larger meal."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "4E182CA762A1458C"
+			rewards: [{
+				id: "5D62A1F93B02C01A"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "2054214EB4A00F59"
+				item: "butchersdelightfoods:coockedbeeftenderloin"
+				type: "item"
+			}]
+			title: "Cooked Beef Tenderloin"
+			x: -8.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1E9787653C8EA59D"]
+			description: ["Prepare this cut in your butchery workshop and cook it with the recipe in JEI. Add it to your food supply or use it in a larger meal."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "557D0EAB965CCCB7"
+			rewards: [{
+				id: "50CD7DCB41753832"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "545938852DB9CFE0"
+				item: "butchersdelightfoods:cookedsheepshank"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1E9787653C8EA59D"]
+			description: ["Prepare this cut in your butchery workshop and cook it with the recipe in JEI. Add it to your food supply or use it in a larger meal."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "3EF91F766CC48FF1"
+			rewards: [{
+				id: "023287C7A38205A1"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "04611C314BFC69AC"
+				item: "butchersdelightfoods:cookedsheeprack"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1E9787653C8EA59D"]
+			description: ["Prepare this cut in your butchery workshop and cook it with the recipe in JEI. Add it to your food supply or use it in a larger meal."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "6D8CE31B772AA8CF"
+			rewards: [{
+				id: "1A09F2C393D5C790"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "348B56E04A2A063F"
+				item: "butchersdelightfoods:cooked_sheeploin"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1E9787653C8EA59D"]
+			description: ["Prepare this cut in your butchery workshop and cook it with the recipe in JEI. Add it to your food supply or use it in a larger meal."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "638E7A8499C0BE30"
+			rewards: [{
+				id: "1BA896C04E40D99A"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "5FF95291C0754531"
+				item: "butchersdelightfoods:cooked_ham"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1E9787653C8EA59D"]
+			description: ["Prepare this cut in your butchery workshop and cook it with the recipe in JEI. Add it to your food supply or use it in a larger meal."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "736057493E6F9A50"
+			rewards: [{
+				id: "1BBEEBD39491F45C"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "233FD2A3F5436486"
+				item: "butchersdelightfoods:cookedporkloin"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1E9787653C8EA59D"]
+			description: ["Prepare this cut in your butchery workshop and cook it with the recipe in JEI. Add it to your food supply or use it in a larger meal."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "7185E13123AAB52A"
+			rewards: [{
+				id: "31517BEB2C694ACA"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "53A5229C8BE7A3B5"
+				item: "butchersdelightfoods:cookedporkribs"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1E9787653C8EA59D"]
+			description: ["Prepare this cut in your butchery workshop and cook it with the recipe in JEI. Add it to your food supply or use it in a larger meal."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "4E25D47A1D7AD7B9"
+			rewards: [{
+				id: "7B4426230C340557"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "23305ED5EF748E18"
+				item: "butchersdelightfoods:cooked_goat_shank"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1E9787653C8EA59D"]
+			description: ["Prepare this cut in your butchery workshop and cook it with the recipe in JEI. Add it to your food supply or use it in a larger meal."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "3D22AB4EB4EB9E99"
+			rewards: [{
+				id: "4436574A09192755"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "142458D263862EA4"
+				item: "butchersdelightfoods:cooked_goat_rack"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1E9787653C8EA59D"]
+			description: ["Prepare this cut in your butchery workshop and cook it with the recipe in JEI. Add it to your food supply or use it in a larger meal."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "3EFFC01B444D6B05"
+			rewards: [{
+				id: "6D256E847199683B"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "2681D9E737F2BCB1"
+				item: "butchersdelightfoods:cooked_goat_loin"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1E9787653C8EA59D"]
+			description: ["Prepare this cut in your butchery workshop and cook it with the recipe in JEI. Add it to your food supply or use it in a larger meal."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "463C86D20A9C6321"
+			rewards: [{
+				id: "1D3C94376A31B215"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "109273056A40926F"
+				item: "butchersdelightfoods:cooked_llama_leg"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1E9787653C8EA59D"]
+			description: ["Prepare this cut in your butchery workshop and cook it with the recipe in JEI. Add it to your food supply or use it in a larger meal."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "3CE72875C5E9192D"
+			rewards: [{
+				id: "71071AB26CB53AD7"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "57185922D3CDD9E9"
+				item: "butchersdelightfoods:cooked_llama_ribs"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1E9787653C8EA59D"]
+			description: ["Prepare this cut in your butchery workshop and cook it with the recipe in JEI. Add it to your food supply or use it in a larger meal."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "06425987D8D9F1AC"
+			rewards: [{
+				id: "7F5F747CE80E98C6"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "15A3B1CCFAEA2E63"
+				item: "butchersdelightfoods:cooked_llama_loin"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.5d
+		}
+	]
+	title: "Butcher's Delight"
+}

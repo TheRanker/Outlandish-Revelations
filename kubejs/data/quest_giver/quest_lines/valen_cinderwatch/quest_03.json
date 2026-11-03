@@ -1,0 +1,38 @@
+{
+  "parent": "quest_giver:quest_02",
+  "repeatable": false,
+  "icon": "minecraft:iron_ingot",
+  "start": {
+    "title": {
+      "translate": "Guard the Living"
+    },
+    "description": {
+      "translate": "Twelve iron ingots for window guards and the signal frame. Leave the doors usable. We are sheltering travellers, not protecting an empty building from them. Hand the materials to me one at a time."
+    }
+  },
+  "tasks": [
+    {
+      "id": "quest_giver:gift",
+      "item": {
+        "item": "minecraft:iron_ingot"
+      },
+      "entity": "minecraft:villager",
+      "name": "Valen Cinderwatch",
+      "times": 12
+    }
+  ],
+  "complete": {
+    "title": {
+      "translate": "Guard the Living"
+    },
+    "description": {
+      "translate": "The Inferno was stronger than the force facing it. The Ranker kept fighting. He did not look like someone chasing a glorious ending. He looked like someone trying to buy another moment for other people."
+    }
+  },
+  "rewards": [
+    {
+      "id": "quest_giver:command",
+      "command": "execute at @s run function outlandish:story/valen_cinderwatch/delivery_03"
+    }
+  ]
+}

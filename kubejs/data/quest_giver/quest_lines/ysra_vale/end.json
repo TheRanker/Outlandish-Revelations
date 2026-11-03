@@ -1,0 +1,11 @@
+{
+  "icon": "minecraft:poppy",
+  "start": {
+    "title": {
+      "translate": "A Gift Without a Debt"
+    },
+    "description": {
+      "translate": "You have given this sanctuary a future. Let that be enough for today. When your own journey permits passage into the Nether, seek Darius Emberwright at the old Concord outpost. Until then, go at your own pace. No worthy promise requires you to hurry toward harm."
+    }
+  }
+}

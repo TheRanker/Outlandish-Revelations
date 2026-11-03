@@ -1,0 +1,12 @@
+
+{
+  "icon": "minecraft:anvil",
+  "start": {
+    "title": {
+      "translate": "Embers of the Old Forge"
+    },
+    "description": {
+      "translate": "Name's Garrick Ashford. Used to be the finest smith for miles, before my forge went up in smoke. Lost most of my tools, half my workshop, and a good bit of my pride. You look like someone who knows how to get their hands dirty. Help me get this place working again, and I'll make it worth your trouble."
+    }
+  }
+}

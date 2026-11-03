@@ -1,0 +1,39 @@
+
+{
+  "parent": "quest_giver:quest_03",
+  "icon": "minecraft:copper_ingot",
+  "start": {
+    "title": {
+      "translate": "A New Kind of Fire"
+    },
+    "description": {
+      "translate": "I've been studying mechanical workshops. Shafts, gears, steam engines... Clever stuff. Dangerous too, if you don't respect it. Bring me twelve copper ingots. I want to rebuild the damaged fittings before trying anything ambitious."
+    }
+  },
+  "tasks": [
+    {
+      "id": "quest_giver:item_stack",
+      "amount": 12,
+      "item": {
+        "item": "minecraft:copper_ingot"
+      }
+    }
+  ],
+  "complete": {
+    "title": {
+      "translate": "A New Kind of Fire"
+    },
+    "description": {
+      "translate": "Good copper. That's a start. There was a professor who came through here months ago, asking about strange underground signals. I laughed him out of the workshop. I'm beginning to think I owe the man an apology."
+    }
+  },
+  "rewards": [
+    {
+      "id": "quest_giver:item",
+      "item": {
+        "item": "minecraft:experience_bottle",
+        "count": 3
+      }
+    }
+  ]
+}

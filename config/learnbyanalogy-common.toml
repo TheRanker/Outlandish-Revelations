@@ -1,0 +1,3 @@
+#Require MineColonies technology/learnbyanalogy before dynamic recipe features are available.
+requireResearchUnlock = true
+

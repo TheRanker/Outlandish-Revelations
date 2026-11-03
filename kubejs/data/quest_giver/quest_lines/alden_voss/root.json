@@ -1,0 +1,12 @@
+{
+  "icon": "minecraft:book",
+  "repeatable": false,
+  "start": {
+    "title": {
+      "translate": "The Burden of Knowledge"
+    },
+    "description": {
+      "translate": "Professor Alden Voss. Once, that name opened doors. These days I am grateful when a door stays on its hinges. If Garrick sent you, perhaps we can save what remains of my research."
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "parent": "quest_giver:quest_04",
+  "repeatable": false,
+  "icon": "minecraft:copper_ingot",
+  "start": {
+    "title": {
+      "translate": "A Signal Through the Storm"
+    },
+    "description": {
+      "translate": "Bring eight copper ingots for the signal fittings and roof conductor. We used to guide messengers here through bad weather. I would like the next one to arrive safely. Hand the materials to me one at a time."
+    }
+  },
+  "tasks": [
+    {
+      "id": "quest_giver:gift",
+      "item": {
+        "item": "minecraft:copper_ingot"
+      },
+      "entity": "minecraft:villager",
+      "name": "Captain Edda Thorne",
+      "times": 8
+    }
+  ],
+  "complete": {
+    "title": {
+      "translate": "A Signal Through the Storm"
+    },
+    "description": {
+      "translate": "I saw The Ranker before his final journey. He did not ask me to remember him as a conqueror. He asked me to keep something safe, and to judge carefully whom I trusted."
+    }
+  },
+  "rewards": [
+    {
+      "id": "quest_giver:command",
+      "command": "execute at @s run function outlandish:story/edda_thorne/delivery_05"
+    }
+  ]
+}

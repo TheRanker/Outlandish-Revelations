@@ -1,0 +1,38 @@
+{
+  "parent": "quest_giver:quest_04",
+  "repeatable": false,
+  "icon": "minecraft:poppy",
+  "start": {
+    "title": {
+      "translate": "Something Living"
+    },
+    "description": {
+      "translate": "Bring eight poppies for the courtyard pots and our small supply of colour and comfort. Leave the wild places growing; gather only what you can spare. Hand the materials to me one at a time."
+    }
+  },
+  "tasks": [
+    {
+      "id": "quest_giver:gift",
+      "item": {
+        "item": "minecraft:poppy"
+      },
+      "entity": "minecraft:villager",
+      "name": "Sister Ysra Vale",
+      "times": 8
+    }
+  ],
+  "complete": {
+    "title": {
+      "translate": "Something Living"
+    },
+    "description": {
+      "translate": "I study what some call Blood Magic. Its power does not excuse cruelty. A practitioner must understand the cost, choose it for themselves, and never confuse another person's life with a supply waiting to be taken."
+    }
+  },
+  "rewards": [
+    {
+      "id": "quest_giver:command",
+      "command": "execute at @s run function outlandish:story/ysra_vale/delivery_05"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "display": {
+    "icon": { "item": "kubejs:rankers_sword" },
+    "title": "The Promise Fulfilled",
+    "description": "Complete your own relic-awakening ceremony at The Ranker's Memorial.",
+    "background": "minecraft:textures/block/blackstone.png",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": { "awakening_completed": { "trigger": "minecraft:impossible" } }
+}

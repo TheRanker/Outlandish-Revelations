@@ -1,0 +1,382 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_end"
+	group: "610F012654EDDFE3"
+	icon: "minecraft:end_stone"
+	id: "371135369E02E255"
+	images: [{
+		height: 3.0d
+		image: "minecraft:textures/item/ender_eye.png"
+		rotation: 0.0d
+		width: 3.0d
+		x: 9.0d
+		y: -9.5d
+	}]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Summon a Wither with soul sand or soul soil and three Wither skeleton skulls. The player who places the final skull records the encounter for their team."
+				"That player or a teammate must defeat the same Wither, with both still on the recorded team. Victory grants the team access to the End. Choose your battlefield carefully."
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "03F260978EACBD3D"
+			rewards: [
+				{
+					id: "48CBB3C4E0D46F7A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3B8739C526B8F0ED"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_hv"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "2090231D927FE6A1"
+				stage: "end_access"
+				type: "gamestage"
+			}]
+			title: "Challenge the Wither"
+			x: 9.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["03F260978EACBD3D"]
+			description: ["Prepare your supplies, locate a stronghold and enter the End. Your first successful entry also opens Twilight Forest for your team."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "5CCF5A0CC25C7FB6"
+			rewards: [
+				{
+					id: "52D43CCC0A778B71"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "62B0BA7E49F87372"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_hv"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				dimension: "minecraft:the_end"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "49F187828DCA6006"
+				type: "dimension"
+			}]
+			title: "Beyond the Stronghold"
+			x: 9.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["5CCF5A0CC25C7FB6"]
+			description: ["Destroy the End crystals, watch the Dragon’s attacks and choose safe moments to strike. Bring blocks and a ranged weapon. The pack’s final boss still waits in the Nether."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "2DA75E694219EA34"
+			rewards: [
+				{
+					id: "24F6A95E434658C7"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3A385935FCD2D89B"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_ev"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "348236F01FA382F6"
+				type: "kill"
+				value: 1L
+			}]
+			title: "The Ender Dragon"
+			x: 9.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5CCF5A0CC25C7FB6"]
+			description: ["Carry Ender Pearls for emergencies, and check the landing before throwing."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: "minecraft:ender_pearl"
+			id: "737272133F2D9CBC"
+			rewards: [{
+				id: "2D2CA027295B71A2"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "77004D02728F266D"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			title: "Keep a Way Back"
+			x: 11.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["2DA75E694219EA34"]
+			description: ["Gather chorus fruit from the outer islands. Keep plants for a renewable supply."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: "minecraft:chorus_fruit"
+			id: "3F823528D3361F57"
+			rewards: [{
+				id: "3D7AC0DB04E321EE"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "456FF5CCF2CC294E"
+				item: "minecraft:chorus_fruit"
+				type: "item"
+			}]
+			title: "Chorus Fruit"
+			x: 7.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2DA75E694219EA34"]
+			description: ["Explore End cities and collect Shulker Shells for portable storage."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: "minecraft:shulker_shell"
+			id: "6816F5C8750E7974"
+			rewards: [
+				{
+					id: "0F3B9A687F0B60EE"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "16241C16B11A6FBA"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_ev"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "65E22A08E6C39BD6"
+				item: "minecraft:shulker_shell"
+				type: "item"
+			}]
+			title: "Portable Storage"
+			x: 9.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2DA75E694219EA34"]
+			description: ["Search an End ship for an Elytra. Bring rockets and plan a safe landing before your first flight."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: {
+				Count: 1
+				id: "minecraft:elytra"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0E9194875554D1C1"
+			rewards: [
+				{
+					id: "7D897EE7E32ECE34"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "76FE8741DC27809E"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_ev"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "1C67A37E62083BEF"
+				item: {
+					Count: 1
+					id: "minecraft:elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Take Flight"
+			x: 10.0d
+			y: -2.5d
+		}
+	]
+	title: "The End?"
+}

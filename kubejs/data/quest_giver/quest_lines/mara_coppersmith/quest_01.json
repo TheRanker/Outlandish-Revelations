@@ -1,0 +1,38 @@
+{
+  "parent": "quest_giver:root",
+  "repeatable": false,
+  "icon": "minecraft:spruce_planks",
+  "start": {
+    "title": {
+      "translate": "A Roof Over Honest Work"
+    },
+    "description": {
+      "translate": "Sixteen spruce planks will patch the damaged wall and the holes above the bench. No point restoring machinery if every storm gets the first turn at it. Hand the materials to me one at a time."
+    }
+  },
+  "tasks": [
+    {
+      "id": "quest_giver:gift",
+      "item": {
+        "item": "minecraft:spruce_planks"
+      },
+      "entity": "minecraft:villager",
+      "name": "Mara Coppersmith",
+      "times": 16
+    }
+  ],
+  "complete": {
+    "title": {
+      "translate": "A Roof Over Honest Work"
+    },
+    "description": {
+      "translate": "Better. Voss looks for answers in his notes. I look at the parts people wore out, repaired, and chose to keep. Both kinds of evidence matter."
+    }
+  },
+  "rewards": [
+    {
+      "id": "quest_giver:command",
+      "command": "execute at @s run function outlandish:story/mara_coppersmith/delivery_01"
+    }
+  ]
+}

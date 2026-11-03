@@ -1,0 +1,38 @@
+{
+  "parent": "quest_giver:quest_02",
+  "repeatable": false,
+  "icon": "create:andesite_alloy",
+  "start": {
+    "title": {
+      "translate": "The Shape of Useful Things"
+    },
+    "description": {
+      "translate": "Eight pieces of andesite alloy should restore the casings around the assembly bench. Wood gives it shape; alloy protects the fittings. Simple work, done properly. Hand the materials to me one at a time."
+    }
+  },
+  "tasks": [
+    {
+      "id": "quest_giver:gift",
+      "item": {
+        "item": "create:andesite_alloy"
+      },
+      "entity": "minecraft:villager",
+      "name": "Mara Coppersmith",
+      "times": 8
+    }
+  ],
+  "complete": {
+    "title": {
+      "translate": "The Shape of Useful Things"
+    },
+    "description": {
+      "translate": "There. The marks in Voss's notes are assembly references. They tell a mechanic which parts belong together. They do not tell us why the Hearth Engine failed."
+    }
+  },
+  "rewards": [
+    {
+      "id": "quest_giver:command",
+      "command": "execute at @s run function outlandish:story/mara_coppersmith/delivery_03"
+    }
+  ]
+}

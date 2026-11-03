@@ -1,0 +1,1988 @@
+[
+  {
+    "filename": "[1.20.1] SecurityCraft v1.10.2.1.jar",
+    "category": "mods",
+    "projectID": 64760,
+    "fileID": 8336490
+  },
+  {
+    "filename": "[1.20.1_ver_0.05.1]_Improved_AE_2_32x.zip",
+    "category": "resourcepacks",
+    "projectID": 891816,
+    "fileID": 7590860
+  },
+  {
+    "filename": "[1.20.1_ver_0.06.2_FABRIC]_Improved_Create_32x.zip",
+    "category": "resourcepacks",
+    "projectID": 973588,
+    "fileID": 8980456
+  },
+  {
+    "filename": "[ver_0.26]_GT_Revival 32x_1.19.2-1.20.1-1.21.zip",
+    "category": "resourcepacks",
+    "projectID": 964322,
+    "fileID": 8980386
+  },
+  {
+    "filename": "accessories-neoforge-1.0.0-beta.46+1.20.1.jar",
+    "category": "mods",
+    "projectID": 938917,
+    "fileID": 6201361
+  },
+  {
+    "filename": "accessories_cclayer-7.4.0-beta.18+1.20.1.jar",
+    "category": "mods",
+    "projectID": 1005683,
+    "fileID": 5786436
+  },
+  {
+    "filename": "aeinfinitybooster-forge-2.1.0+mc1.20.1.jar",
+    "category": "mods",
+    "projectID": 559313,
+    "fileID": 9295403
+  },
+  {
+    "filename": "AI-Improvements-1.20-0.5.2.jar",
+    "category": "mods",
+    "projectID": 233019,
+    "fileID": 4578262
+  },
+  {
+    "filename": "amendments-1.20-2.2.6.jar",
+    "category": "mods",
+    "projectID": 896746,
+    "fileID": 8657397
+  },
+  {
+    "filename": "apexcore-1.20.1-10.0.0.jar",
+    "category": "mods",
+    "projectID": 550778,
+    "fileID": 4702159
+  },
+  {
+    "filename": "Apotheosis-1.20.1-7.4.8.jar",
+    "category": "mods",
+    "projectID": 313970,
+    "fileID": 6461960
+  },
+  {
+    "filename": "ApotheoticAdditionsV2.2.2.jar",
+    "category": "mods",
+    "projectID": 924640,
+    "fileID": 6393313
+  },
+  {
+    "filename": "ApothicAttributes-1.20.1-1.3.7.jar",
+    "category": "mods",
+    "projectID": 898963,
+    "fileID": 5634071
+  },
+  {
+    "filename": "ApothicCurios-1.20.1-1.0.3e.jar",
+    "category": "mods",
+    "projectID": 950712,
+    "fileID": 6624706
+  },
+  {
+    "filename": "appleskin-forge-mc1.20.1-2.5.1.jar",
+    "category": "mods",
+    "projectID": 248787,
+    "fileID": 4770828
+  },
+  {
+    "filename": "applied-botanics-forge-1.5.2.jar",
+    "category": "mods",
+    "projectID": 610632,
+    "fileID": 7427985
+  },
+  {
+    "filename": "appliedcooking-4.0.0.jar",
+    "category": "mods",
+    "projectID": 689579,
+    "fileID": 4708347
+  },
+  {
+    "filename": "appliedenergistics2-forge-15.4.12.jar",
+    "category": "mods",
+    "projectID": 223794,
+    "fileID": 9357405
+  },
+  {
+    "filename": "Aquaculture-1.20.1-2.5.7.jar",
+    "category": "mods",
+    "projectID": 60028,
+    "fileID": 7331172
+  },
+  {
+    "filename": "Aquaculture-Tinkers-1.0.0.jar",
+    "category": "mods",
+    "projectID": 1195862,
+    "fileID": 6169867
+  },
+  {
+    "filename": "architectury-9.2.14-forge.jar",
+    "category": "mods",
+    "projectID": 419699,
+    "fileID": 5137938
+  },
+  {
+    "filename": "areaeffectcloud3d-1.0.4.jar",
+    "category": "mods",
+    "projectID": 1273303,
+    "fileID": 6570066
+  },
+  {
+    "filename": "ars_creo-1.20.1-4.3.0.jar",
+    "category": "mods",
+    "projectID": 575698,
+    "fileID": 6265696
+  },
+  {
+    "filename": "ars_elemental-1.20.1-0.6.8.0.jar",
+    "category": "mods",
+    "projectID": 561470,
+    "fileID": 8399870
+  },
+  {
+    "filename": "ars_nouveau-1.20.1-4.12.7-all.jar",
+    "category": "mods",
+    "projectID": 401955,
+    "fileID": 6688854
+  },
+  {
+    "filename": "arseng-1.2.0.jar",
+    "category": "mods",
+    "projectID": 905641,
+    "fileID": 5504444
+  },
+  {
+    "filename": "artifacts-forge-9.5.19.jar",
+    "category": "mods",
+    "projectID": 312353,
+    "fileID": 7903806
+  },
+  {
+    "filename": "async-locator-forge-1.20-1.3.0.jar",
+    "category": "mods",
+    "projectID": 625069,
+    "fileID": 4603343
+  },
+  {
+    "filename": "athena-forge-1.20.1-3.1.2.jar",
+    "category": "mods",
+    "projectID": 841890,
+    "fileID": 5176879
+  },
+  {
+    "filename": "AttributeFix-Forge-1.20.1-21.0.5.jar",
+    "category": "mods",
+    "projectID": 280510,
+    "fileID": 7612291
+  },
+  {
+    "filename": "BadMobs-1.20.1-19.0.4.jar",
+    "category": "mods",
+    "projectID": 233258,
+    "fileID": 5086469
+  },
+  {
+    "filename": "badpackets-forge-0.4.3.jar",
+    "category": "mods",
+    "projectID": 615134,
+    "fileID": 4784395
+  },
+  {
+    "filename": "balm-forge-1.20.1-7.3.44.jar",
+    "category": "mods",
+    "projectID": 531761,
+    "fileID": 8969708
+  },
+  {
+    "filename": "beautify-2.0.2.jar",
+    "category": "mods",
+    "projectID": 633252,
+    "fileID": 4781709
+  },
+  {
+    "filename": "BetterBurning-Forge-1.20.1-9.0.3.jar",
+    "category": "mods",
+    "projectID": 353434,
+    "fileID": 7612358
+  },
+  {
+    "filename": "BetterPingDisplay-1.20.1-1.1.jar",
+    "category": "mods",
+    "projectID": 292038,
+    "fileID": 4594106
+  },
+  {
+    "filename": "blockui-1.20.1-1.0.194-snapshot.jar",
+    "category": "mods",
+    "projectID": 522992,
+    "fileID": 7606230
+  },
+  {
+    "filename": "BloodMagic-1.18-1.20.1-3.3.8-50.jar",
+    "category": "mods",
+    "projectID": 224791,
+    "fileID": 8516586
+  },
+  {
+    "filename": "Boat-Item-View-Forge-1.20.1-0.0.5.jar",
+    "category": "mods",
+    "projectID": 482444,
+    "fileID": 4590982
+  },
+  {
+    "filename": "Bookshelf-Forge-1.20.1-20.2.15.jar",
+    "category": "mods",
+    "projectID": 228525,
+    "fileID": 7612389
+  },
+  {
+    "filename": "Botania-1.20.1-456-FORGE.jar",
+    "category": "mods",
+    "projectID": 225643,
+    "fileID": 8901969
+  },
+  {
+    "filename": "BotanyPots-Forge-1.20.1-13.0.43.jar",
+    "category": "mods",
+    "projectID": 353928,
+    "fileID": 7612402
+  },
+  {
+    "filename": "BotanyTrees-Forge-1.20.1-9.0.20.jar",
+    "category": "mods",
+    "projectID": 411357,
+    "fileID": 7612410
+  },
+  {
+    "filename": "Bountiful-6.0.4+1.20.1-forge.jar",
+    "category": "mods",
+    "projectID": 309516,
+    "fileID": 5937417
+  },
+  {
+    "filename": "BrandonsCore-1.20.1-3.2.1.302-universal.jar",
+    "category": "mods",
+    "projectID": 231382,
+    "fileID": 5422013
+  },
+  {
+    "filename": "buildinggadgets2-1.0.8.jar",
+    "category": "mods",
+    "projectID": 298187,
+    "fileID": 6850495
+  },
+  {
+    "filename": "Butchersdelight beta 1.20.1 2.1.0.jar",
+    "category": "mods",
+    "projectID": 551909,
+    "fileID": 5228909
+  },
+  {
+    "filename": "Butchersdelight Foods beta 1.20.1 1.0.3.jar",
+    "category": "mods",
+    "projectID": 919301,
+    "fileID": 5230731
+  },
+  {
+    "filename": "caelus-forge-3.2.0+1.20.1.jar",
+    "category": "mods",
+    "projectID": 308989,
+    "fileID": 5281700
+  },
+  {
+    "filename": "CBMultipart-1.20.1-3.3.0.159-universal.jar",
+    "category": "mods",
+    "projectID": 258426,
+    "fileID": 7845318
+  },
+  {
+    "filename": "chipped-forge-1.20.1-3.0.7.jar",
+    "category": "mods",
+    "projectID": 456956,
+    "fileID": 5813138
+  },
+  {
+    "filename": "chisels-and-bits-forge-20.1.20.jar",
+    "category": "mods",
+    "projectID": 231095,
+    "fileID": 7620767
+  },
+  {
+    "filename": "citadel-2.6.3-1.20.1.jar",
+    "category": "mods",
+    "projectID": 331936,
+    "fileID": 7476570
+  },
+  {
+    "filename": "clienttweaks-forge-1.20.1-11.1.11.jar",
+    "category": "mods",
+    "projectID": 251407,
+    "fileID": 8697032
+  },
+  {
+    "filename": "cloth-config-11.1.136-forge.jar",
+    "category": "mods",
+    "projectID": 348521,
+    "fileID": 5729105
+  },
+  {
+    "filename": "Clumps-forge-1.20.1-12.0.0.4.jar",
+    "category": "mods",
+    "projectID": 256717,
+    "fileID": 5278538
+  },
+  {
+    "filename": "CodeChickenLib-1.20.1-4.4.0.528-universal.jar",
+    "category": "mods",
+    "projectID": 242818,
+    "fileID": 8491810
+  },
+  {
+    "filename": "collective-1.20.1-8.72.jar",
+    "category": "mods",
+    "projectID": 342584,
+    "fileID": 9383865
+  },
+  {
+    "filename": "comforts-forge-6.4.0+1.20.1.jar",
+    "category": "mods",
+    "projectID": 276951,
+    "fileID": 5503516
+  },
+  {
+    "filename": "CommonCapabilities-1.20.1-2.9.11.jar",
+    "category": "mods",
+    "projectID": 247007,
+    "fileID": 7229322
+  },
+  {
+    "filename": "compressedcreativity-1.20.1-0.2.0-all.jar",
+    "category": "mods",
+    "projectID": 549381,
+    "fileID": 6603441
+  },
+  {
+    "filename": "configuration-forge-1.20.1-3.1.0.jar",
+    "category": "mods",
+    "projectID": 444699,
+    "fileID": 5840405
+  },
+  {
+    "filename": "constructionwand-1.20.1-2.11.jar",
+    "category": "mods",
+    "projectID": 399558,
+    "fileID": 4684054
+  },
+  {
+    "filename": "Controlling-forge-1.20.1-12.0.2.jar",
+    "category": "mods",
+    "projectID": 250398,
+    "fileID": 4646682
+  },
+  {
+    "filename": "cookingforblockheads-forge-1.20.1-16.0.15.jar",
+    "category": "mods",
+    "projectID": 231484,
+    "fileID": 7454483
+  },
+  {
+    "filename": "cosmeticarmorreworked-1.20.1-v1a.jar",
+    "category": "mods",
+    "projectID": 237307,
+    "fileID": 4600191
+  },
+  {
+    "filename": "create-1.20.1-6.0.8.jar",
+    "category": "mods",
+    "projectID": 328085,
+    "fileID": 7178761
+  },
+  {
+    "filename": "createaddition-1.20.1-1.3.3.jar",
+    "category": "mods",
+    "projectID": 439890,
+    "fileID": 7208610
+  },
+  {
+    "filename": "CreativeCore_FORGE_v2.12.40_mc1.20.1.jar",
+    "category": "mods",
+    "projectID": 257814,
+    "fileID": 8947229
+  },
+  {
+    "filename": "cristellib-1.1.6-forge.jar",
+    "category": "mods",
+    "projectID": 856996,
+    "fileID": 5869180
+  },
+  {
+    "filename": "CTM-1.20.1-1.1.10.jar",
+    "category": "mods",
+    "projectID": 267602,
+    "fileID": 5983309
+  },
+  {
+    "filename": "Cucumber-1.20.1-7.0.16.jar",
+    "category": "mods",
+    "projectID": 272335,
+    "fileID": 7180783
+  },
+  {
+    "filename": "cupboard-1.20.1-4.2.jar",
+    "category": "mods",
+    "projectID": 326652,
+    "fileID": 8889041
+  },
+  {
+    "filename": "curios-forge-5.14.1+1.20.1.jar",
+    "category": "mods",
+    "projectID": 309927,
+    "fileID": 6418456
+  },
+  {
+    "filename": "CyclopsCore-1.20.1-1.22.3.jar",
+    "category": "mods",
+    "projectID": 232758,
+    "fileID": 8813356
+  },
+  {
+    "filename": "dankstorage-forge-1.20.1-16.jar",
+    "category": "mods",
+    "projectID": 335673,
+    "fileID": 7300650
+  },
+  {
+    "filename": "DarkModeEverywhere-1.20.1-1.2.5.jar",
+    "category": "mods",
+    "projectID": 574123,
+    "fileID": 7204201
+  },
+  {
+    "filename": "DarkUtilities-Forge-1.20.1-17.0.6.jar",
+    "category": "mods",
+    "projectID": 242195,
+    "fileID": 7612437
+  },
+  {
+    "filename": "DiagonalFences-v8.1.5-1.20.1-Forge.jar",
+    "category": "mods",
+    "projectID": 458048,
+    "fileID": 5918173
+  },
+  {
+    "filename": "DiagonalWalls-v8.0.4-1.20.1-Forge.jar",
+    "category": "mods",
+    "projectID": 969422,
+    "fileID": 5918171
+  },
+  {
+    "filename": "DiagonalWindows-v8.1.5-1.20.1-Forge.jar",
+    "category": "mods",
+    "projectID": 891328,
+    "fileID": 5918168
+  },
+  {
+    "filename": "Ding-1.20.1-Forge-1.5.0.jar",
+    "category": "mods",
+    "projectID": 231275,
+    "fileID": 5477586
+  },
+  {
+    "filename": "domum_ornamentum-1.20.1-1.0.304-snapshot-universal.jar",
+    "category": "mods",
+    "projectID": 527361,
+    "fileID": 8765962
+  },
+  {
+    "filename": "dracolotl-1.0.3-forge-neoforge-1.20.1.jar",
+    "category": "mods",
+    "projectID": 1111965,
+    "fileID": 6991478
+  },
+  {
+    "filename": "Draconic-Additions-1.20.1-2.4.1.5-universal.jar",
+    "category": "mods",
+    "projectID": 314515,
+    "fileID": 6144499
+  },
+  {
+    "filename": "Draconic-Evolution-1.20.1-3.1.2.621-universal.jar",
+    "category": "mods",
+    "projectID": 223565,
+    "fileID": 6793843
+  },
+  {
+    "filename": "dragonmounts-1.20.1-1.2.3-beta.jar",
+    "category": "mods",
+    "projectID": 375088,
+    "fileID": 5335579
+  },
+  {
+    "filename": "drippyloadingscreen_forge_3.1.5_MC_1.20.1.jar",
+    "category": "mods",
+    "projectID": 511770,
+    "fileID": 8552902
+  },
+  {
+    "filename": "droppedbuffs-1.20.1-1.5.5.jar",
+    "category": "mods",
+    "projectID": 1037427,
+    "fileID": 7603861
+  },
+  {
+    "filename": "easy_npc-forge-1.20.1-7.17.1.jar",
+    "category": "mods",
+    "projectID": 1308987,
+    "fileID": 9310585
+  },
+  {
+    "filename": "eccentrictome-1.20.1-1.10.4.jar",
+    "category": "mods",
+    "projectID": 597522,
+    "fileID": 7285203
+  },
+  {
+    "filename": "EclecticTrove-1.20.1-1.3.0.zip",
+    "category": "resourcepacks",
+    "projectID": 538850,
+    "fileID": 4933725
+  },
+  {
+    "filename": "elevatorid-1.20.1-1.9.1-forge.jar",
+    "category": "mods",
+    "projectID": 250832,
+    "fileID": 6602224
+  },
+  {
+    "filename": "embeddium-0.3.31+mc1.20.1.jar",
+    "category": "mods",
+    "projectID": 908741,
+    "fileID": 5681725
+  },
+  {
+    "filename": "EnchantmentDescriptions-Forge-1.20.1-17.1.21.jar",
+    "category": "mods",
+    "projectID": 250419,
+    "fileID": 7612607
+  },
+  {
+    "filename": "enderchests-forge-1.20.1-1.4.jar",
+    "category": "mods",
+    "projectID": 363535,
+    "fileID": 6910034
+  },
+  {
+    "filename": "EnderIO-1.20.1-6.2.18-beta-all.jar",
+    "category": "mods",
+    "projectID": 64578,
+    "fileID": 7726916
+  },
+  {
+    "filename": "EnderIOReCreated_1.0.0-forge.jar",
+    "category": "mods",
+    "projectID": 939426,
+    "fileID": 4874771
+  },
+  {
+    "filename": "endertanks-forge-1.20.1-1.5.jar",
+    "category": "mods",
+    "projectID": 59613,
+    "fileID": 6910073
+  },
+  {
+    "filename": "endrem_forge-5.3.3-R-1.20.1.jar",
+    "category": "mods",
+    "projectID": 404183,
+    "fileID": 5598990
+  },
+  {
+    "filename": "ends_delight-2.6.1+forge.1.20.1.jar",
+    "category": "mods",
+    "projectID": 662675,
+    "fileID": 8675193
+  },
+  {
+    "filename": "entity_model_features-3.3.12-1.20.1-forge.jar",
+    "category": "mods",
+    "projectID": 844662,
+    "fileID": 9188522
+  },
+  {
+    "filename": "entity_texture_features-7.2.6-1.20.1-forge.jar",
+    "category": "mods",
+    "projectID": 568563,
+    "fileID": 9188405
+  },
+  {
+    "filename": "entityculling-forge-1.11.3-mc1.20.1.jar",
+    "category": "mods",
+    "projectID": 448233,
+    "fileID": 9100267
+  },
+  {
+    "filename": "EuphoriaPatcher-1.10.5-r5.9.3-forge.jar",
+    "category": "mods",
+    "projectID": 915902,
+    "fileID": 8884681
+  },
+  {
+    "filename": "expanded_ecosphere-3.2.4-forge.jar",
+    "category": "mods",
+    "projectID": 490686,
+    "fileID": 5004493
+  },
+  {
+    "filename": "ExplorersCompass-1.20.1-1.4.0-forge.jar",
+    "category": "mods",
+    "projectID": 491794,
+    "fileID": 7892927
+  },
+  {
+    "filename": "ExtendedAE-1.20-1.4.22-forge.jar",
+    "category": "mods",
+    "projectID": 892005,
+    "fileID": 9304849
+  },
+  {
+    "filename": "ExtraLib-3.3.1-1.20.1-Forge.jar",
+    "category": "mods",
+    "projectID": 1083780,
+    "fileID": 9340491
+  },
+  {
+    "filename": "ExtraQuests-2.0.0-1.20.1-Forge.jar",
+    "category": "mods",
+    "projectID": 964194,
+    "fileID": 9372355
+  },
+  {
+    "filename": "Faithful 32x - 1.20.1.zip",
+    "category": "resourcepacks",
+    "projectID": 436482,
+    "fileID": 8281081
+  },
+  {
+    "filename": "fallingleaves-1.20.1-2.1.2.jar",
+    "category": "mods",
+    "projectID": 463155,
+    "fileID": 6241090
+  },
+  {
+    "filename": "FallingTree-1.20.1-4.3.4.jar",
+    "category": "mods",
+    "projectID": 349559,
+    "fileID": 5010620
+  },
+  {
+    "filename": "fancymenu_forge_3.9.14_MC_1.20.1.jar",
+    "category": "mods",
+    "projectID": 367706,
+    "fileID": 9002946
+  },
+  {
+    "filename": "fantasyfurniture-1.20.1-9.0.0.jar",
+    "category": "mods",
+    "projectID": 579564,
+    "fileID": 4702176
+  },
+  {
+    "filename": "FarmersDelight-1.20.1-1.3.4.jar",
+    "category": "mods",
+    "projectID": 398521,
+    "fileID": 8765179
+  },
+  {
+    "filename": "fennecfox-forge-1.20.1-1.0.0.jar",
+    "category": "mods",
+    "projectID": 694325,
+    "fileID": 4603477
+  },
+  {
+    "filename": "ferritecore-6.0.1-forge.jar",
+    "category": "mods",
+    "projectID": 429235,
+    "fileID": 4810975
+  },
+  {
+    "filename": "feywild-1.20.1-5.6.4.jar",
+    "category": "mods",
+    "projectID": 484377,
+    "fileID": 9321457
+  },
+  {
+    "filename": "FluidDrawersLegacy-1.20.1-forge-1.20.1-1.1.0-beta.jar",
+    "category": "mods",
+    "projectID": 597669,
+    "fileID": 7715081
+  },
+  {
+    "filename": "FluxNetworks-1.20.1-7.2.1.15.jar",
+    "category": "mods",
+    "projectID": 248020,
+    "fileID": 5234697
+  },
+  {
+    "filename": "forbidden_arcanus-1.20.1-2.2.6.jar",
+    "category": "mods",
+    "projectID": 309858,
+    "fileID": 5198323
+  },
+  {
+    "filename": "ForgeConfigScreens-v8.0.2-1.20.1-Forge.jar",
+    "category": "mods",
+    "projectID": 544048,
+    "fileID": 4672356
+  },
+  {
+    "filename": "formations-1.0.4-forge-mc1.20.2.jar",
+    "category": "mods",
+    "projectID": 915115,
+    "fileID": 6789339
+  },
+  {
+    "filename": "formationsoverworld-1.0.5-mc1.20.jar",
+    "category": "mods",
+    "projectID": 915324,
+    "fileID": 6792379
+  },
+  {
+    "filename": "FpsReducer2-forge-1.20.1-2.5.1.jar",
+    "category": "mods",
+    "projectID": 280294,
+    "fileID": 6791399
+  },
+  {
+    "filename": "FramedBlocks-9.4.3.jar",
+    "category": "mods",
+    "projectID": 441647,
+    "fileID": 7386520
+  },
+  {
+    "filename": "framework-forge-1.20.1-0.8.0.jar",
+    "category": "mods",
+    "projectID": 549225,
+    "fileID": 7573740
+  },
+  {
+    "filename": "friendsandfoes-forge-5.0.4+mc1.20.1.jar",
+    "category": "mods",
+    "projectID": 602059,
+    "fileID": 9332004
+  },
+  {
+    "filename": "ftb-chunks-forge-2001.3.8.jar",
+    "category": "mods",
+    "projectID": 314906,
+    "fileID": 8216874
+  },
+  {
+    "filename": "ftb-essentials-forge-2001.2.4.jar",
+    "category": "mods",
+    "projectID": 410811,
+    "fileID": 7609948
+  },
+  {
+    "filename": "ftb-library-forge-2001.2.13.jar",
+    "category": "mods",
+    "projectID": 404465,
+    "fileID": 8226927
+  },
+  {
+    "filename": "ftb-quests-forge-2001.4.22.jar",
+    "category": "mods",
+    "projectID": 289412,
+    "fileID": 8078538
+  },
+  {
+    "filename": "ftb-ranks-forge-2001.1.7.jar",
+    "category": "mods",
+    "projectID": 314905,
+    "fileID": 6522073
+  },
+  {
+    "filename": "ftb-teams-forge-2001.3.2.jar",
+    "category": "mods",
+    "projectID": 404468,
+    "fileID": 7499810
+  },
+  {
+    "filename": "ftb-ultimine-forge-2001.1.8.jar",
+    "category": "mods",
+    "projectID": 386134,
+    "fileID": 7880472
+  },
+  {
+    "filename": "ftb-xmod-compat-forge-2.1.3.jar",
+    "category": "mods",
+    "projectID": 889915,
+    "fileID": 6402486
+  },
+  {
+    "filename": "fusion-1.3.16-forge-mc1.20.1.jar",
+    "category": "mods",
+    "projectID": 854949,
+    "fileID": 9070201
+  },
+  {
+    "filename": "fzzy_config-0.7.7+1.20.1+forge.jar",
+    "category": "mods",
+    "projectID": 1005914,
+    "fileID": 8883366
+  },
+  {
+    "filename": "gbf-1.0.2.jar",
+    "category": "mods",
+    "projectID": 1455983,
+    "fileID": 8448863
+  },
+  {
+    "filename": "gcyr-1.20.1-0.2.9.jar",
+    "category": "mods",
+    "projectID": 922713,
+    "fileID": 8349382
+  },
+  {
+    "filename": "geckolib-forge-1.20.1-4.8.4.jar",
+    "category": "mods",
+    "projectID": 388172,
+    "fileID": 8285794
+  },
+  {
+    "filename": "Glodium-1.20-1.5-forge.jar",
+    "category": "mods",
+    "projectID": 957920,
+    "fileID": 5226922
+  },
+  {
+    "filename": "graveyard-FORGE-4.0.1+mc1.20.1.jar",
+    "category": "mods",
+    "projectID": 531188,
+    "fileID": 9346774
+  },
+  {
+    "filename": "gtceu-1.20.1-7.5.3.jar",
+    "category": "mods",
+    "projectID": 890405,
+    "fileID": 7917773
+  },
+  {
+    "filename": "gtec-1.20.1-0.3.0.jar",
+    "category": "mods",
+    "projectID": 1088948,
+    "fileID": 8678176
+  },
+  {
+    "filename": "guideme-20.1.15.jar",
+    "category": "mods",
+    "projectID": 1173950,
+    "fileID": 8204776
+  },
+  {
+    "filename": "handcrafted-forge-1.20.1-3.0.6.jar",
+    "category": "mods",
+    "projectID": 538214,
+    "fileID": 5118729
+  },
+  {
+    "filename": "HavenQuestingTheme-1.20.1-1.0.0.zip",
+    "category": "resourcepacks",
+    "projectID": 964522,
+    "fileID": 5076186
+  },
+  {
+    "filename": "iChunUtil-1.20.1-Forge-1.0.3.jar",
+    "category": "mods",
+    "projectID": 229060,
+    "fileID": 6000481
+  },
+  {
+    "filename": "ImmediatelyFast-Forge-1.5.5+1.20.4.jar",
+    "category": "mods",
+    "projectID": 686911,
+    "fileID": 8348481
+  },
+  {
+    "filename": "immersive_weathering-1.20.1-2.0.5-forge.jar",
+    "category": "mods",
+    "projectID": 592449,
+    "fileID": 6116941
+  },
+  {
+    "filename": "Incendium_1.20.x_v5.3.5.jar",
+    "category": "mods",
+    "projectID": 591388,
+    "fileID": 5351562
+  },
+  {
+    "filename": "industrial-foregoing-1.20.1-3.5.22.jar",
+    "category": "mods",
+    "projectID": 266515,
+    "fileID": 7949862
+  },
+  {
+    "filename": "insanelib-1.23.4.6.jar",
+    "category": "mods",
+    "projectID": 465109,
+    "fileID": 8306331
+  },
+  {
+    "filename": "IntegratedCrafting-1.20.1-1.4.10.jar",
+    "category": "mods",
+    "projectID": 287357,
+    "fileID": 9383621
+  },
+  {
+    "filename": "IntegratedDynamics-1.20.1-1.31.4.jar",
+    "category": "mods",
+    "projectID": 236307,
+    "fileID": 9385153
+  },
+  {
+    "filename": "IntegratedTerminals-1.20.1-1.7.0.jar",
+    "category": "mods",
+    "projectID": 295910,
+    "fileID": 8726024
+  },
+  {
+    "filename": "IntegratedTunnels-1.20.1-1.10.1.jar",
+    "category": "mods",
+    "projectID": 251389,
+    "fileID": 8813742
+  },
+  {
+    "filename": "inventorysorter-1.20.1-23.0.11.jar",
+    "category": "mods",
+    "projectID": 240633,
+    "fileID": 7188685
+  },
+  {
+    "filename": "item-filters-forge-2001.1.0-build.59.jar",
+    "category": "mods",
+    "projectID": 309674,
+    "fileID": 4838266
+  },
+  {
+    "filename": "Jade-1.20.1-Forge-11.13.3.jar",
+    "category": "mods",
+    "projectID": 324717,
+    "fileID": 8479276
+  },
+  {
+    "filename": "JadeAddons-1.20.1-Forge-5.5.1.jar",
+    "category": "mods",
+    "projectID": 583345,
+    "fileID": 8203724
+  },
+  {
+    "filename": "jamlib-forge-1.3.6+1.20.1-patch.1.jar",
+    "category": "mods",
+    "projectID": 623764,
+    "fileID": 8155852
+  },
+  {
+    "filename": "jei-1.20.1-forge-15.74.0.229.jar",
+    "category": "mods",
+    "projectID": 238222,
+    "fileID": 9298209
+  },
+  {
+    "filename": "jeiintegration_1.20.1-10.0.0.jar",
+    "category": "mods",
+    "projectID": 265917,
+    "fileID": 4999754
+  },
+  {
+    "filename": "jeioptimizer-1.20.1-1.2.5-15.74.jar",
+    "category": "mods",
+    "projectID": 1570444,
+    "fileID": 9318470
+  },
+  {
+    "filename": "JsonThings-1.20.1-0.9.13.jar",
+    "category": "mods",
+    "projectID": 541617,
+    "fileID": 7949740
+  },
+  {
+    "filename": "K-Turrets-3.0.48-1.20.1.jar",
+    "category": "mods",
+    "projectID": 536437,
+    "fileID": 8660438
+  },
+  {
+    "filename": "Kambrik-6.1.1+1.20.1-forge.jar",
+    "category": "mods",
+    "projectID": 455585,
+    "fileID": 4654401
+  },
+  {
+    "filename": "konkrete_forge_1.8.0_MC_1.20-1.20.1.jar",
+    "category": "mods",
+    "projectID": 410295,
+    "fileID": 5028413
+  },
+  {
+    "filename": "kotlinforforge-4.12.0-all.jar",
+    "category": "mods",
+    "projectID": 351264,
+    "fileID": 7291067
+  },
+  {
+    "filename": "KubeJS Blood Magic-1.0.2-1.20.1.jar",
+    "category": "mods",
+    "projectID": 934206,
+    "fileID": 5492965
+  },
+  {
+    "filename": "kubejs-create-forge-2001.3.0-build.8.jar",
+    "category": "mods",
+    "projectID": 429371,
+    "fileID": 6265498
+  },
+  {
+    "filename": "kubejs-forge-2001.6.5-build.26.jar",
+    "category": "mods",
+    "projectID": 238086,
+    "fileID": 8020595
+  },
+  {
+    "filename": "kubejs_botania-1.4.0-forge.jar",
+    "category": "mods",
+    "projectID": 618511,
+    "fileID": 4948244
+  },
+  {
+    "filename": "kubejs_enderio-forge-1.20.1-0.6.1.jar",
+    "category": "mods",
+    "projectID": 910379,
+    "fileID": 7671713
+  },
+  {
+    "filename": "kubejsadditions-forge-4.3.4.jar",
+    "category": "mods",
+    "projectID": 594387,
+    "fileID": 6302185
+  },
+  {
+    "filename": "kubejsarsnouveau-1.2.2.jar",
+    "category": "mods",
+    "projectID": 833926,
+    "fileID": 4862554
+  },
+  {
+    "filename": "kubejsbotanypots-1.2.2.jar",
+    "category": "mods",
+    "projectID": 832870,
+    "fileID": 4920458
+  },
+  {
+    "filename": "kubejsdelight-1.20.1-1.1.5.jar",
+    "category": "mods",
+    "projectID": 864875,
+    "fileID": 7615404
+  },
+  {
+    "filename": "kubejsoffline-5.2.0.27.jar",
+    "category": "mods",
+    "projectID": 641627,
+    "fileID": 7430748
+  },
+  {
+    "filename": "kubejspowah-1.2.1.jar",
+    "category": "mods",
+    "projectID": 838378,
+    "fileID": 4920550
+  },
+  {
+    "filename": "l2library-2.5.5.jar",
+    "category": "mods",
+    "projectID": 620203,
+    "fileID": 9142545
+  },
+  {
+    "filename": "ldlib-forge-1.20.1-1.0.52.a.jar",
+    "category": "mods",
+    "projectID": 626676,
+    "fileID": 8830518
+  },
+  {
+    "filename": "learnbyanalogy-0.1.1.jar",
+    "category": "mods",
+    "projectID": 1608266,
+    "fileID": 8476900
+  },
+  {
+    "filename": "LeavesBeGone-v8.0.0-1.20.1-Forge.jar",
+    "category": "mods",
+    "projectID": 686435,
+    "fileID": 4613293
+  },
+  {
+    "filename": "LibX-1.20.1-5.0.14.jar",
+    "category": "mods",
+    "projectID": 412525,
+    "fileID": 5207625
+  },
+  {
+    "filename": "light-overlay-8.0.0-forge.jar",
+    "category": "mods",
+    "projectID": 325492,
+    "fileID": 4573178
+  },
+  {
+    "filename": "lightmansdiscord-1.20-0.2.0.3-server.jar",
+    "category": "mods",
+    "projectID": 545459,
+    "fileID": 4767181
+  },
+  {
+    "filename": "loadmyresources_forge_1.0.4_MC_1.19.3.jar",
+    "category": "mods",
+    "projectID": 534502,
+    "fileID": 4203277
+  },
+  {
+    "filename": "Log-Begone-Forge-1.20.1-1.0.8.jar",
+    "category": "mods",
+    "projectID": 623560,
+    "fileID": 4583425
+  },
+  {
+    "filename": "lootjs-forge-1.20.1-2.13.1.jar",
+    "category": "mods",
+    "projectID": 570630,
+    "fileID": 7551186
+  },
+  {
+    "filename": "lootr-forge-1.20-0.7.35.94.jar",
+    "category": "mods",
+    "projectID": 361276,
+    "fileID": 7263076
+  },
+  {
+    "filename": "Mantle-1.20.1-1.11.117.jar",
+    "category": "mods",
+    "projectID": 74924,
+    "fileID": 8809819
+  },
+  {
+    "filename": "mcw-bridges-3.1.2-mc1.20.1forge.jar",
+    "category": "mods",
+    "projectID": 351725,
+    "fileID": 7627954
+  },
+  {
+    "filename": "mcw-doors-1.1.5-mc1.20.1forge.jar",
+    "category": "mods",
+    "projectID": 378646,
+    "fileID": 7618714
+  },
+  {
+    "filename": "mcw-furniture-3.4.1-mc1.20.1forge.jar",
+    "category": "mods",
+    "projectID": 359540,
+    "fileID": 7255630
+  },
+  {
+    "filename": "mcw-holidays-1.1.2-mc1.20.1forge.jar",
+    "category": "mods",
+    "projectID": 930232,
+    "fileID": 7304461
+  },
+  {
+    "filename": "mcw-lights-1.1.5-mc1.20.1forge.jar",
+    "category": "mods",
+    "projectID": 502372,
+    "fileID": 7304117
+  },
+  {
+    "filename": "mcw-mcwfences-1.2.1-mc1.20.1forge.jar",
+    "category": "mods",
+    "projectID": 453925,
+    "fileID": 7308423
+  },
+  {
+    "filename": "mcw-mcwpaths-1.1.1-mc1.20.1forge.jar",
+    "category": "mods",
+    "projectID": 629153,
+    "fileID": 7029554
+  },
+  {
+    "filename": "mcw-mcwwindows-2.4.2-mc1.20.1forge.jar",
+    "category": "mods",
+    "projectID": 363569,
+    "fileID": 7317714
+  },
+  {
+    "filename": "mcw-roofs-2.3.2-mc1.20.1forge.jar",
+    "category": "mods",
+    "projectID": 352039,
+    "fileID": 6494466
+  },
+  {
+    "filename": "mcw-trapdoors-1.1.5-mc1.20.1forge.jar",
+    "category": "mods",
+    "projectID": 400933,
+    "fileID": 7256186
+  },
+  {
+    "filename": "melody_forge_1.0.3_MC_1.20.1-1.20.4.jar",
+    "category": "mods",
+    "projectID": 938643,
+    "fileID": 5109692
+  },
+  {
+    "filename": "mezz_config-1.20.1-forge-0.6.10.jar",
+    "category": "mods",
+    "projectID": 1689768,
+    "fileID": 9374027
+  },
+  {
+    "filename": "mffs-5.1.29-all.jar",
+    "category": "mods",
+    "projectID": 238546,
+    "fileID": 8649940
+  },
+  {
+    "filename": "minecolonies-1.20.1-1.1.1305-snapshot.jar",
+    "category": "mods",
+    "projectID": 245506,
+    "fileID": 9373584
+  },
+  {
+    "filename": "minecolonies-jei-fix-1.0.0.jar",
+    "category": "mods",
+    "projectID": 1418831,
+    "fileID": 7407709
+  },
+  {
+    "filename": "modernfix-forge-5.27.91+mc1.20.1.jar",
+    "category": "mods",
+    "projectID": 790626,
+    "fileID": 9309378
+  },
+  {
+    "filename": "modonomicon-1.20.1-forge-1.79.3.jar",
+    "category": "mods",
+    "projectID": 538392,
+    "fileID": 7446143
+  },
+  {
+    "filename": "moonlight-1.20-2.16.38B-forge.jar",
+    "category": "mods",
+    "projectID": 499980,
+    "fileID": 9354258
+  },
+  {
+    "filename": "morejs-forge-1.20.1-0.10.1.jar",
+    "category": "mods",
+    "projectID": 666198,
+    "fileID": 6542592
+  },
+  {
+    "filename": "MouseTweaks-forge-mc1.20.1-2.25.1.jar",
+    "category": "mods",
+    "projectID": 60089,
+    "fileID": 5338457
+  },
+  {
+    "filename": "multibeds-forge-1.20.1-1.3.jar",
+    "category": "mods",
+    "projectID": 244858,
+    "fileID": 6910107
+  },
+  {
+    "filename": "multipiston-1.20-0.0.47-snapshot.jar",
+    "category": "mods",
+    "projectID": 303278,
+    "fileID": 7097889
+  },
+  {
+    "filename": "multistorage-forge-1.20.1-1.1.jar",
+    "category": "mods",
+    "projectID": 244864,
+    "fileID": 5302644
+  },
+  {
+    "filename": "MyServerIsCompatible-1.20-1.0.jar",
+    "category": "mods",
+    "projectID": 492574,
+    "fileID": 4580511
+  },
+  {
+    "filename": "MythicBotany-1.20.1-4.0.4.jar",
+    "category": "mods",
+    "projectID": 400058,
+    "fileID": 6702112
+  },
+  {
+    "filename": "naturalist-2.0.9-forge-1.20.1.jar",
+    "category": "mods",
+    "projectID": 627986,
+    "fileID": 9289192
+  },
+  {
+    "filename": "NaturesCompass-1.20.1-1.12.0-forge.jar",
+    "category": "mods",
+    "projectID": 252848,
+    "fileID": 7892948
+  },
+  {
+    "filename": "Neat-1.20.1-41-FORGE.jar",
+    "category": "mods",
+    "projectID": 238372,
+    "fileID": 5838485
+  },
+  {
+    "filename": "Necronomicon-Forge-1.6.0+1.20.1.jar",
+    "category": "mods",
+    "projectID": 586157,
+    "fileID": 5772681
+  },
+  {
+    "filename": "netherportalfix-forge-1.20-13.0.1.jar",
+    "category": "mods",
+    "projectID": 241160,
+    "fileID": 4939735
+  },
+  {
+    "filename": "netherportalspread-1.20.1-8.6.jar",
+    "category": "mods",
+    "projectID": 342097,
+    "fileID": 9224169
+  },
+  {
+    "filename": "NoChatReports-FORGE-1.20.1-v2.2.3.jar",
+    "category": "mods",
+    "projectID": 634062,
+    "fileID": 8675977
+  },
+  {
+    "filename": "Nullscape_1.20.x_v1.2.8.jar",
+    "category": "mods",
+    "projectID": 570354,
+    "fileID": 5759138
+  },
+  {
+    "filename": "observable-4.4.2.jar",
+    "category": "mods",
+    "projectID": 509575,
+    "fileID": 5643037
+  },
+  {
+    "filename": "oceansdelight-1.0.2-1.20.jar",
+    "category": "mods",
+    "projectID": 841262,
+    "fileID": 4652060
+  },
+  {
+    "filename": "oculus-mc1.20.1-1.8.0.jar",
+    "category": "mods",
+    "projectID": 581495,
+    "fileID": 6020952
+  },
+  {
+    "filename": "outlandish-compatibility-fixes-1.2.6.jar",
+    "category": "mods",
+    "projectID": 1769793,
+    "fileID": 9365934
+  },
+  {
+    "filename": "packetfixer-3.3.2-1.18-1.20.4-merged.jar",
+    "category": "mods",
+    "projectID": 689467,
+    "fileID": 7872374
+  },
+  {
+    "filename": "pamhc2crops-1.20-1.0.3.jar",
+    "category": "mods",
+    "projectID": 361385,
+    "fileID": 4687624
+  },
+  {
+    "filename": "pamhc2foodcore-1.20.4-1.0.5.jar",
+    "category": "mods",
+    "projectID": 372534,
+    "fileID": 5097798
+  },
+  {
+    "filename": "pamhc2foodextended-1.20.4-1.0.1.jar",
+    "category": "mods",
+    "projectID": 402231,
+    "fileID": 5147171
+  },
+  {
+    "filename": "pamhc2trees-1.20-1.0.2.jar",
+    "category": "mods",
+    "projectID": 365460,
+    "fileID": 4625518
+  },
+  {
+    "filename": "Patchouli-1.20.1-85-FORGE.jar",
+    "category": "mods",
+    "projectID": 306770,
+    "fileID": 7731017
+  },
+  {
+    "filename": "Paxi-1.20-Forge-4.0.jar",
+    "category": "mods",
+    "projectID": 515708,
+    "fileID": 4749994
+  },
+  {
+    "filename": "persistentinventorysearch-1.20.1-1.7.jar",
+    "category": "mods",
+    "projectID": 880052,
+    "fileID": 9033321
+  },
+  {
+    "filename": "PigPen-Forge-1.20.1-15.0.3.jar",
+    "category": "mods",
+    "projectID": 396234,
+    "fileID": 7613222
+  },
+  {
+    "filename": "pipez-1.20.1-1.2.5.jar",
+    "category": "mods",
+    "projectID": 443900,
+    "fileID": 4916633
+  },
+  {
+    "filename": "Placebo-1.20.1-8.6.3.jar",
+    "category": "mods",
+    "projectID": 283644,
+    "fileID": 6274231
+  },
+  {
+    "filename": "platforms-forge-1.20.1-1.2.jar",
+    "category": "mods",
+    "projectID": 244786,
+    "fileID": 6910132
+  },
+  {
+    "filename": "player-animation-lib-forge-1.0.2-rc1+1.20.jar",
+    "category": "mods",
+    "projectID": 658587,
+    "fileID": 4587214
+  },
+  {
+    "filename": "pneumaticcraft-repressurized-6.0.23+mc1.20.1.jar",
+    "category": "mods",
+    "projectID": 281849,
+    "fileID": 8411196
+  },
+  {
+    "filename": "polymorph-forge-0.49.11+1.20.1.jar",
+    "category": "mods",
+    "projectID": 388800,
+    "fileID": 8854504
+  },
+  {
+    "filename": "ponderjs-1.20.1-2.1.0.jar",
+    "category": "mods",
+    "projectID": 622888,
+    "fileID": 7188949
+  },
+  {
+    "filename": "Powah-5.0.11.jar",
+    "category": "mods",
+    "projectID": 633483,
+    "fileID": 6828054
+  },
+  {
+    "filename": "powerfuljs-1.6.1.jar",
+    "category": "mods",
+    "projectID": 819845,
+    "fileID": 4951461
+  },
+  {
+    "filename": "Pretty_Pipez_1_20_0-1.zip",
+    "category": "resourcepacks",
+    "projectID": 628633,
+    "fileID": 5945546
+  },
+  {
+    "filename": "probejs-6.0.1-forge.jar",
+    "category": "mods",
+    "projectID": 585406,
+    "fileID": 5227399
+  },
+  {
+    "filename": "productivebees-1.20.1-12.6.0.jar",
+    "category": "mods",
+    "projectID": 377897,
+    "fileID": 5566102
+  },
+  {
+    "filename": "progressivebosses-4.3.12.jar",
+    "category": "mods",
+    "projectID": 289466,
+    "fileID": 7723295
+  },
+  {
+    "filename": "PuzzlesLib-v8.1.36-1.20.1-Forge.jar",
+    "category": "mods",
+    "projectID": 495476,
+    "fileID": 9130247
+  },
+  {
+    "filename": "quantified api-omni-2.2.4.jar",
+    "category": "mods",
+    "projectID": 1397967,
+    "fileID": 9037916
+  },
+  {
+    "filename": "quest_giver-1.20.1-1.5.3.jar",
+    "category": "mods",
+    "projectID": 618562,
+    "fileID": 8745077
+  },
+  {
+    "filename": "questsadditions-1.4.7.jar",
+    "category": "mods",
+    "projectID": 580129,
+    "fileID": 6004490
+  },
+  {
+    "filename": "radium-mc1.20.1-0.12.4+git.26c9d8e.jar",
+    "category": "mods",
+    "projectID": 570017,
+    "fileID": 5706069
+  },
+  {
+    "filename": "realistic_horse_genetics-1.20.1-13.5.jar",
+    "category": "mods",
+    "projectID": 339184,
+    "fileID": 5752402
+  },
+  {
+    "filename": "realmrpg_dragon_wyrms_1.0.1_forge_1.20.1.jar",
+    "category": "mods",
+    "projectID": 908314,
+    "fileID": 4958556
+  },
+  {
+    "filename": "realmrpg_pots_and_mimics_1.0.2_forge_1.20.1.jar",
+    "category": "mods",
+    "projectID": 868333,
+    "fileID": 4789152
+  },
+  {
+    "filename": "realmrpg_skeletons-1.1.0-forge-1.20.1.jar",
+    "category": "mods",
+    "projectID": 916895,
+    "fileID": 6058824
+  },
+  {
+    "filename": "resourcefullib-forge-1.20.1-2.1.29.jar",
+    "category": "mods",
+    "projectID": 570073,
+    "fileID": 5659871
+  },
+  {
+    "filename": "rhino-forge-2001.2.3-build.10.jar",
+    "category": "mods",
+    "projectID": 416294,
+    "fileID": 6186971
+  },
+  {
+    "filename": "rubidium-extra-0.5.4.4+mc1.20.1-build.131.jar",
+    "category": "mods",
+    "projectID": 654373,
+    "fileID": 6101745
+  },
+  {
+    "filename": "Runelic-Forge-1.20.1-18.0.4.jar",
+    "category": "mods",
+    "projectID": 393149,
+    "fileID": 7613226
+  },
+  {
+    "filename": "ruthless_beings.AWW-1.1.9.5-forge-1.20.1.jar",
+    "category": "mods",
+    "projectID": 1127235,
+    "fileID": 6191417
+  },
+  {
+    "filename": "Satako-7.0.33-1.20.1.jar",
+    "category": "mods",
+    "projectID": 282037,
+    "fileID": 6335099
+  },
+  {
+    "filename": "scannable-MC1.20.1-forge-1.7.12+18ccb75.jar",
+    "category": "mods",
+    "projectID": 266784,
+    "fileID": 4763070
+  },
+  {
+    "filename": "Searchables-forge-1.20.1-1.0.3.jar",
+    "category": "mods",
+    "projectID": 858542,
+    "fileID": 5284015
+  },
+  {
+    "filename": "sebastrnlib-4.0.0.jar",
+    "category": "mods",
+    "projectID": 709936,
+    "fileID": 4706669
+  },
+  {
+    "filename": "secretdoors-1.20.1-v1.1.0.jar",
+    "category": "mods",
+    "projectID": 951809,
+    "fileID": 6207153
+  },
+  {
+    "filename": "shetiphiancore-forge-1.20.1-1.5.jar",
+    "category": "mods",
+    "projectID": 71738,
+    "fileID": 6909982
+  },
+  {
+    "filename": "shut_up_gl_error-forge-2.0.0+1.20.1.jar",
+    "category": "mods",
+    "projectID": 900855,
+    "fileID": 6748272
+  },
+  {
+    "filename": "SimpleDiscordRichPresence-forge-4.0.3-build.40+mc1.20.1.jar",
+    "category": "mods",
+    "projectID": 334853,
+    "fileID": 4964550
+  },
+  {
+    "filename": "simplylight-1.20.1-1.4.6-build.50.jar",
+    "category": "mods",
+    "projectID": 300331,
+    "fileID": 4832944
+  },
+  {
+    "filename": "smallcolonies 1.20.1 v1.8.jar",
+    "category": "mods",
+    "projectID": 1232237,
+    "fileID": 7881681
+  },
+  {
+    "filename": "smallcoloniesme 1.20.1 v1.9.jar",
+    "category": "mods",
+    "projectID": 1247027,
+    "fileID": 8045905
+  },
+  {
+    "filename": "SmartBrainLib-forge-1.20.1-1.15.jar",
+    "category": "mods",
+    "projectID": 661293,
+    "fileID": 5654964
+  },
+  {
+    "filename": "smoothchunk-1.20.1-4.4.jar",
+    "category": "mods",
+    "projectID": 582327,
+    "fileID": 9255094
+  },
+  {
+    "filename": "sodiumdynamiclights-forge-1.0.10-1.20.1.jar",
+    "category": "mods",
+    "projectID": 551736,
+    "fileID": 6044481
+  },
+  {
+    "filename": "sodiumoptionsapi-forge-1.0.10-1.20.1.jar",
+    "category": "mods",
+    "projectID": 1103431,
+    "fileID": 6100812
+  },
+  {
+    "filename": "solcarrot-1.20.1-1.15.1.jar",
+    "category": "mods",
+    "projectID": 277616,
+    "fileID": 4888575
+  },
+  {
+    "filename": "sophisticated_jei_index-1.2.4+1.20.1.jar",
+    "category": "mods",
+    "projectID": 1482785,
+    "fileID": 9089416
+  },
+  {
+    "filename": "sophisticatedbackpacks-1.20.1-3.26.19.2239.jar",
+    "category": "mods",
+    "projectID": 422301,
+    "fileID": 9385316
+  },
+  {
+    "filename": "sophisticatedcore-1.20.1-1.5.21.2444.jar",
+    "category": "mods",
+    "projectID": 618298,
+    "fileID": 9385244
+  },
+  {
+    "filename": "sophisticatedstorage-1.20.1-1.5.13.2212.jar",
+    "category": "mods",
+    "projectID": 619320,
+    "fileID": 9385402
+  },
+  {
+    "filename": "spark-1.10.53-forge.jar",
+    "category": "mods",
+    "projectID": 361579,
+    "fileID": 4738952
+  },
+  {
+    "filename": "Stay_True_1.20.zip",
+    "category": "resourcepacks",
+    "projectID": 353554,
+    "fileID": 4624707
+  },
+  {
+    "filename": "Steam_Rails-1.7.3+forge-mc1.20.1.jar",
+    "category": "mods",
+    "projectID": 688231,
+    "fileID": 8745475
+  },
+  {
+    "filename": "steamadditions-1.5.2.jar",
+    "category": "mods",
+    "projectID": 1008510,
+    "fileID": 7616827
+  },
+  {
+    "filename": "StorageDrawers-forge-1.20.1-12.15.1.jar",
+    "category": "mods",
+    "projectID": 223852,
+    "fileID": 8997897
+  },
+  {
+    "filename": "structure_gel-1.20.1-2.16.2.jar",
+    "category": "mods",
+    "projectID": 378802,
+    "fileID": 5278429
+  },
+  {
+    "filename": "structurize-1.20.1-1.0.823-snapshot.jar",
+    "category": "mods",
+    "projectID": 298744,
+    "fileID": 9333929
+  },
+  {
+    "filename": "supermartijn642configlib-1.1.8-forge-mc1.20.jar",
+    "category": "mods",
+    "projectID": 438332,
+    "fileID": 4715408
+  },
+  {
+    "filename": "supermartijn642corelib-1.1.26-forge-mc1.20.1.jar",
+    "category": "mods",
+    "projectID": 454372,
+    "fileID": 9352413
+  },
+  {
+    "filename": "TConstruct-1.20.1-3.12.1.231.jar",
+    "category": "mods",
+    "projectID": 74072,
+    "fileID": 8944121
+  },
+  {
+    "filename": "TF_Lost_Blocks-1.20.1-1.5.0.jar",
+    "category": "mods",
+    "projectID": 639723,
+    "fileID": 5033783
+  },
+  {
+    "filename": "Tinker-Things-1.20.1-1.3.4.jar",
+    "category": "mods",
+    "projectID": 811436,
+    "fileID": 8944153
+  },
+  {
+    "filename": "tinkersdelight-1.2.0-forge-1.20.1.jar",
+    "category": "mods",
+    "projectID": 1005386,
+    "fileID": 6169637
+  },
+  {
+    "filename": "Tips-Forge-1.20.1-12.1.9.jar",
+    "category": "mods",
+    "projectID": 306549,
+    "fileID": 7613269
+  },
+  {
+    "filename": "titanium-1.20.1-3.8.35.jar",
+    "category": "mods",
+    "projectID": 287342,
+    "fileID": 8426836
+  },
+  {
+    "filename": "ToastControl-1.20.1-8.0.3.jar",
+    "category": "mods",
+    "projectID": 271740,
+    "fileID": 4711316
+  },
+  {
+    "filename": "toofast-1.20-0.4.3.5.jar",
+    "category": "mods",
+    "projectID": 550678,
+    "fileID": 4627738
+  },
+  {
+    "filename": "ToolStats-Forge-1.20.1-16.0.10.jar",
+    "category": "mods",
+    "projectID": 377109,
+    "fileID": 7613277
+  },
+  {
+    "filename": "torchmaster-20.1.9.jar",
+    "category": "mods",
+    "projectID": 254268,
+    "fileID": 5849456
+  },
+  {
+    "filename": "Towns-and-Towers-1.12-Fabric+Forge.jar",
+    "category": "mods",
+    "projectID": 626761,
+    "fileID": 4923828
+  },
+  {
+    "filename": "towntalk-1.20.1-1.1.0.jar",
+    "category": "mods",
+    "projectID": 900364,
+    "fileID": 5355511
+  },
+  {
+    "filename": "trashcans-1.1.2-forge-mc1.20.4.jar",
+    "category": "mods",
+    "projectID": 394535,
+    "fileID": 9289018
+  },
+  {
+    "filename": "TravelersTitles-1.20-Forge-4.0.2.jar",
+    "category": "mods",
+    "projectID": 504908,
+    "fileID": 5065825
+  },
+  {
+    "filename": "trimeffects-forge-mc1.20-2.1.2.jar",
+    "category": "mods",
+    "projectID": 870275,
+    "fileID": 6165308
+  },
+  {
+    "filename": "twilightforest-1.20.1-4.3.2508-universal.jar",
+    "category": "mods",
+    "projectID": 227639,
+    "fileID": 5468648
+  },
+  {
+    "filename": "untamedwilds-1.20.1-4.0.4.jar",
+    "category": "mods",
+    "projectID": 457252,
+    "fileID": 4779746
+  },
+  {
+    "filename": "valhelsia_core-forge-1.20.1-1.1.2.jar",
+    "category": "mods",
+    "projectID": 416935,
+    "fileID": 5189548
+  },
+  {
+    "filename": "VestigesOfThePresent 1.20.1-1.7.8.jar",
+    "category": "mods",
+    "projectID": 971973,
+    "fileID": 8881710
+  },
+  {
+    "filename": "villagertradingplus-forge-mc1.20.1-1.1.1.jar",
+    "category": "mods",
+    "projectID": 1635301,
+    "fileID": 9346742
+  },
+  {
+    "filename": "VisualWorkbench-v8.0.1-1.20.1-Forge.jar",
+    "category": "mods",
+    "projectID": 500273,
+    "fileID": 6798189
+  },
+  {
+    "filename": "waystones-forge-1.20.1-14.1.21.jar",
+    "category": "mods",
+    "projectID": 245755,
+    "fileID": 8849482
+  },
+  {
+    "filename": "WWOO-FABRIC+FORGE+QUILT-2.0.0.jar",
+    "category": "mods",
+    "projectID": 921022,
+    "fileID": 4793728
+  },
+  {
+    "filename": "YeetusExperimentus-Forge-2.3.1-build.6+mc1.20.1.jar",
+    "category": "mods",
+    "projectID": 635427,
+    "fileID": 4680832
+  },
+  {
+    "filename": "YungsApi-1.20-Forge-4.0.6.jar",
+    "category": "mods",
+    "projectID": 421850,
+    "fileID": 5769971
+  },
+  {
+    "filename": "YungsBetterDesertTemples-1.20-Forge-3.0.3.jar",
+    "category": "mods",
+    "projectID": 631016,
+    "fileID": 4769439
+  },
+  {
+    "filename": "YungsBetterDungeons-1.20-Forge-4.0.4.jar",
+    "category": "mods",
+    "projectID": 510089,
+    "fileID": 5271360
+  },
+  {
+    "filename": "YungsBetterJungleTemples-1.20-Forge-2.0.5.jar",
+    "category": "mods",
+    "projectID": 897669,
+    "fileID": 5331760
+  },
+  {
+    "filename": "YungsBetterMineshafts-1.20-Forge-4.0.4.jar",
+    "category": "mods",
+    "projectID": 389665,
+    "fileID": 4769063
+  },
+  {
+    "filename": "YungsBetterNetherFortresses-1.20-Forge-2.0.6.jar",
+    "category": "mods",
+    "projectID": 817651,
+    "fileID": 5193465
+  },
+  {
+    "filename": "YungsBetterOceanMonuments-1.20-Forge-3.0.4.jar",
+    "category": "mods",
+    "projectID": 689238,
+    "fileID": 4883003
+  },
+  {
+    "filename": "YungsBetterWitchHuts-1.20-Forge-3.0.3.jar",
+    "category": "mods",
+    "projectID": 631401,
+    "fileID": 4769489
+  },
+  {
+    "filename": "YungsExtras-1.20-Forge-4.0.3.jar",
+    "category": "mods",
+    "projectID": 480006,
+    "fileID": 4769514
+  },
+  {
+    "filename": "zume-1.2.2.jar",
+    "category": "mods",
+    "projectID": 927564,
+    "fileID": 7983502
+  }
+]

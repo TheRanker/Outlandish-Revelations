@@ -1,0 +1,23 @@
+{
+	id: "5E1EFB3122475A4B"
+	loot_crate: {
+		color: 15056459
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		item_name: "Outlandish HV Supply Bag"
+		string_id: "or_hv"
+	}
+	loot_size: 1
+	order_index: 5
+	rewards: [
+		{ count: 32, item: "minecraft:iron_ingot" }
+		{ count: 48, item: "minecraft:redstone" }
+		{ count: 16, item: "minecraft:gold_ingot" }
+		{ count: 32, item: "minecraft:lapis_lazuli" }
+	]
+	title: "Outlandish HV Supplies"
+	use_title: true
+}

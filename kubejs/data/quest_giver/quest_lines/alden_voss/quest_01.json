@@ -1,0 +1,38 @@
+{
+  "parent": "quest_giver:root",
+  "repeatable": false,
+  "icon": "minecraft:oak_planks",
+  "start": {
+    "title": {
+      "translate": "Shelter for the Truth"
+    },
+    "description": {
+      "translate": "Garrick believes me now? Then perhaps I was wrong to give up. Bring sixteen oak planks. These broken walls will not keep another storm away from my records. Hand the materials to me one at a time."
+    }
+  },
+  "tasks": [
+    {
+      "id": "quest_giver:gift",
+      "item": {
+        "item": "minecraft:oak_planks"
+      },
+      "entity": "minecraft:villager",
+      "name": "Professor Alden Voss",
+      "times": 16
+    }
+  ],
+  "complete": {
+    "title": {
+      "translate": "Shelter for the Truth"
+    },
+    "description": {
+      "translate": "A dry room is a modest beginning. The signal Garrick heard was real. I recorded it before the Hearth Engine failed."
+    }
+  },
+  "rewards": [
+    {
+      "id": "quest_giver:command",
+      "command": "execute at @s run function outlandish:story/alden_voss/delivery_01"
+    }
+  ]
+}

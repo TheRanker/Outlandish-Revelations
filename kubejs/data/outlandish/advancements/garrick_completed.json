@@ -1,0 +1,7 @@
+{
+  "criteria": {
+    "garrick_finished": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

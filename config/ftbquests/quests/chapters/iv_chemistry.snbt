@@ -1,0 +1,455 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "iv_chemistry"
+	group: "751F9FCD5495C55F"
+	icon: "gtceu:iv_chemical_reactor"
+	id: "21CB695E6E03D19A"
+	images: [{
+		height: 3.0d
+		image: "minecraft:textures/item/book.png"
+		rotation: 0.0d
+		width: 3.0d
+		x: 11.0d
+		y: -8.5d
+	}]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7CFF2C3E0FA351F7"]
+			description: [
+				"Prepare your IV Chemical Reactor and expand your production lines. These chapters suggest a factory development order; JEI shows the exact voltage and any earlier recipe route."
+				"Keep fluid lines separate, label storage and check circuit settings, amounts and output space before starting a batch. Reuse useful byproducts."
+				"Fluid tasks ask for a 1,000 mB sample through the quest system. The sample is consumed, so produce extra for your factory."
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: "gtceu:iv_chemical_reactor"
+			id: "609B349FF5237DB7"
+			rewards: [
+				{
+					id: "7516512442DF3316"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0443F4B2BA613989"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_iv"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "258D3CFA20ADD92D"
+				item: "gtceu:iv_chemical_reactor"
+				type: "item"
+			}]
+			title: "IV Chemical Workshop"
+			x: 11.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"609B349FF5237DB7"
+				"67D62DE9C33183F9"
+			]
+			description: [
+				"React Benzene with Chlorine and keep the Hydrochloric Acid byproduct for your acid network."
+				"Submit a 1,000 mB sample for the task; keep the rest in production."
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "6E38A948B2D94866"
+			rewards: [{
+				id: "5801F72FE0BD8E61"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				amount: 1000L
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				fluid: "gtceu:chlorobenzene"
+				id: "059848B6E80ADE11"
+				type: "fluid"
+			}]
+			title: "Aromatic Feedstock"
+			x: 8.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"609B349FF5237DB7"
+				"6E38A948B2D94866"
+			]
+			description: [
+				"Prepare Nitration Mixture and react it with Chlorobenzene. Keep the acid recovery output separate from the product."
+				"Submit a 1,000 mB sample for the task; keep the rest in production."
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "4C9FC01390435A0B"
+			rewards: [{
+				id: "49906B694285053E"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				amount: 1000L
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				fluid: "gtceu:nitrochlorobenzene"
+				id: "5826F75618A0156E"
+				type: "fluid"
+			}]
+			title: "Nitration"
+			x: 8.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"609B349FF5237DB7"
+				"4C9FC01390435A0B"
+				"15A48686F7700A12"
+			]
+			description: [
+				"Process Nitrochlorobenzene with Hydrogen and the Copper ingredient in JEI. This feeds your advanced polymer line."
+				"Submit a 1,000 mB sample for the task; keep the rest in production."
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "341A766090B1CE54"
+			rewards: [{
+				id: "025D8EA21DA6A5FB"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				amount: 1000L
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				fluid: "gtceu:dichlorobenzidine"
+				id: "27B393B7FB42607A"
+				type: "fluid"
+			}]
+			title: "Build the Intermediate"
+			x: 8.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"609B349FF5237DB7"
+				"341A766090B1CE54"
+			]
+			description: [
+				"Use a Large Chemical Reactor for Dichlorobenzidine, Ammonia and the reusable Zinc catalyst. Check that the reactor supports the recipe voltage."
+				"Submit a 1,000 mB sample for the task; keep the rest in production."
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "242B98F586047EAA"
+			rewards: [{
+				id: "3C84A5B7B0FAEF99"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				amount: 1000L
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				fluid: "gtceu:diaminobenzidine"
+				id: "5029FB66A2C7ECE4"
+				type: "fluid"
+			}]
+			title: "Diaminobenzidine"
+			x: 11.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["609B349FF5237DB7"]
+			description: [
+				"Compare the Naphthalene and Dimethylbenzene routes in JEI. Choose one supported by your supplies and prepare its reagent or catalyst."
+				"Submit a 1,000 mB sample for the task; keep the rest in production."
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "75B7916A2F05B758"
+			rewards: [{
+				id: "3128DDB186501229"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				amount: 1000L
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				fluid: "gtceu:phthalic_acid"
+				id: "7F713F5D2847A23E"
+				type: "fluid"
+			}]
+			title: "Phthalic Acid"
+			x: 14.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"609B349FF5237DB7"
+				"75B7916A2F05B758"
+				"3A344CA38F3A2404"
+			]
+			description: [
+				"React Phenol, Sulfuric Acid and Phthalic Acid in a Large Chemical Reactor. Retain diluted acid for recovery."
+				"Submit a 1,000 mB sample for the task; keep the rest in production."
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "510E7768EC059DD2"
+			rewards: [{
+				id: "3BCAD58A794EFAA7"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				amount: 1000L
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				fluid: "gtceu:diphenyl_isophthalate"
+				id: "13E30F9022B8A168"
+				type: "fluid"
+			}]
+			title: "Diphenyl Isophthalate"
+			x: 14.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"609B349FF5237DB7"
+				"242B98F586047EAA"
+				"510E7768EC059DD2"
+			]
+			description: [
+				"Combine Diaminobenzidine and Diphenyl Isophthalate. Reuse the Phenol output and build a reserve of PBI for advanced components."
+				"Submit a 1,000 mB sample for the task; keep the rest in production."
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "749235B232476461"
+			rewards: [{
+				id: "79957DF74DFFF080"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				amount: 1000L
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				fluid: "gtceu:polybenzimidazole"
+				id: "3E2BC8FF40322A5C"
+				type: "fluid"
+			}]
+			title: "PBI Production"
+			x: 14.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["749235B232476461"]
+			description: ["Form the polymer into plates with the recipe, mold or shape shown in JEI. Plan the other ingredients for your next components alongside this supply."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: "gtceu:polybenzimidazole_plate"
+			id: "1117A29A012EFA33"
+			rewards: [
+				{
+					id: "0BE2B01E0A6E0C24"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "2C0EA947D308AD03"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_iv"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "40109BA88771C9E5"
+				item: "gtceu:polybenzimidazole_plate"
+				type: "item"
+			}]
+			title: "Shape Polybenzimidazole"
+			x: 14.0d
+			y: 3.5d
+		}
+	]
+	title: "IV Chemistry"
+}

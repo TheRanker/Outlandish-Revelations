@@ -1,0 +1,61 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_burden_of_knowledge"
+	group: "671F319DF12B461D"
+	id: "5777245DC2D00F09"
+	order_index: 2
+	quest_links: [ ]
+	quests: [{
+		description: [
+  "Search the Overworld for Professor Alden Voss's own building.",
+  "",
+  "Use a Quest Scroll to speak with Professor Alden Voss. Complete this NPC's 6 deliveries in Quest Giver; this FTB quest tracks the final personal completion advancement.",
+  "Give the requested materials to the named NPC one at a time. Each accepted delivery repairs part of that nearby building. A player-placed block at a repair site is preserved.",
+  "",
+  "Deliveries, in order:",
+  "1. Shelter for the Truth: 16 Oak Planks.",
+  "2. What the Foundations Remember: 12 Stone Bricks.",
+  "3. A Clearer View: 8 Glass.",
+  "4. An Instrument Worth Trusting: 12 Copper Ingot.",
+  "5. The Pages We Kept: 12 Paper.",
+  "6. The Bell Beneath the Earth: 4 Amethyst Shard.",
+  "",
+  "Each storyline is one-time per player across every copy of that NPC. Finding another building does not restart it. If you change buildings midway, earlier repairs do not move to the new copy.",
+  "Story benefits: restore the building, hear the next part of The Unfinished Promise and record your personal completion. This FTB entry adds no separate item reward. Existing FTB team sharing may complete the tracker for teammates; their personal NPC history remains separate.",
+  "Next story lead: Mara Coppersmith. Follow the existing dimension requirements when travelling onward; the story does not unlock dimensions."
+]
+		extraquests_calendar: {
+			active_quests: 3
+			enabled: 0b
+			pool: ""
+			reset_time: "06:00"
+			timezone: "UTC"
+			weekday: 1
+			weekly: 0b
+		}
+		icon: "minecraft:book"
+		id: "1D798D2B7B33018C"
+		tasks: [{
+			advancement: "outlandish:story/alden_voss_completed"
+			criterion: ""
+			extraquests_options: {
+				aggregation: "AUTO"
+				duration: 600L
+				minimum_contribution: 0L
+				reset_damage: 0b
+				reset_death: 1b
+				reset_logout: 0b
+				shared: 0b
+				timer_enabled: 0b
+				timer_start: "FIRST_PROGRESS"
+			}
+			id: "16497F68A1B455BF"
+			type: "advancement"
+		}]
+		title: "A Record That Endures"
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "The Burden of Knowledge"
+}

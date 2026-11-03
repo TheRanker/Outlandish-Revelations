@@ -1,0 +1,38 @@
+{
+  "parent": "quest_giver:quest_02",
+  "repeatable": false,
+  "icon": "minecraft:glass",
+  "start": {
+    "title": {
+      "translate": "Light Without Exposure"
+    },
+    "description": {
+      "translate": "Eight pieces of glass will close the broken windows. A sanctuary should welcome the morning without letting every cold wind inside. Hand the materials to me one at a time."
+    }
+  },
+  "tasks": [
+    {
+      "id": "quest_giver:gift",
+      "item": {
+        "item": "minecraft:glass"
+      },
+      "entity": "minecraft:villager",
+      "name": "Sister Ysra Vale",
+      "times": 8
+    }
+  ],
+  "complete": {
+    "title": {
+      "translate": "Light Without Exposure"
+    },
+    "description": {
+      "translate": "Voss seeks an explanation. Mara seeks a record that can be trusted. Both are needed. But understanding a tragedy does not, by itself, teach us how to care for its survivors."
+    }
+  },
+  "rewards": [
+    {
+      "id": "quest_giver:command",
+      "command": "execute at @s run function outlandish:story/ysra_vale/delivery_03"
+    }
+  ]
+}

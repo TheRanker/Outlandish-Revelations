@@ -1,0 +1,3517 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "minecolonies"
+	group: "290BD65C3C52540C"
+	icon: "minecolonies:supplycampdeployer"
+	id: "0E21FB2EFB41A583"
+	images: [
+		{
+			height: 3.867403314917127d
+			image: "minecolonies:textures/quests/minecolonies_logo_medium.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: 3.0d
+			y: -21.5d
+		}
+		{
+			height: 2.0d
+			image: "minecolonies:textures/quests/hc_feed_the_machine.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: -4.0d
+			y: -15.0d
+		}
+		{
+			height: 0.4657039711191336d
+			image: "minecolonies:textures/quests/hc_logistics.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: -4.0d
+			y: -7.5d
+		}
+		{
+			height: 0.6323529411764706d
+			image: "minecolonies:textures/quests/hc_utility.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 10.5d
+			y: -15.0d
+		}
+		{
+			height: 1.5d
+			image: "minecolonies:textures/quests/hc_university_research.png"
+			rotation: 0.0d
+			width: 4.5d
+			x: 10.5d
+			y: -9.5d
+		}
+		{
+			height: 1.5d
+			image: "minecolonies:textures/quests/hc_the_builder.png"
+			rotation: 0.0d
+			width: 3.1601941747572813d
+			x: 3.0d
+			y: -9.5d
+		}
+		{
+			height: 0.5d
+			image: "minecolonies:textures/quests/hc_defense.png"
+			rotation: 0.0d
+			width: 2.880952380952381d
+			x: 5.5d
+			y: -1.0d
+		}
+	]
+	order_index: 10
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["As you have explored, you may have encountered abandoned colonies. If you like, you can take over an abandoned colony and repair it. This can be a good way to jumpstart your colony. However, if you want the full colony experience, then it’s recommended that you find a good place to settle your colony and start the old fashioned way. Blood, sweat and tears. "]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "1BB571557F74D3A1"
+			rewards: [{
+				id: "5CD3EE9DDB8E0915"
+				type: "xp"
+				xp: 5
+			}]
+			size: 1.5d
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "7BE92C777F0CDFCE"
+				title: "Abandoned Villages"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: -18.0d
+		}
+		{
+			dependencies: [
+				"1E1870FAD295DEDE"
+				"0F409DACBEB7BBF8"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"The &bBuild Tool&r is one of the most important tools in the mod. It's how you will place all building from now on. Right+click any solid item to open the build preview GUI. On the right are controls for moving, rotating, raising, and lowering your building. "
+				""
+				"Place your &bTown Hall&r block and register your colony. However, the first building to be constructed is the builders hut. Your Town Hall cannot be built until you have a completed builders hut."
+				""
+				""
+				"{image:minecolonies:textures/quests/hc_build_tool.png width:190 height:100 align:1}"
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			icon: "structurize:sceptergold"
+			id: "0D6E099A1A242153"
+			rewards: [
+				{
+					id: "4AAE1329601DC4C8"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "2C0FFA33AF366627"
+					item: "minecolonies:blockhutbuilder"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "693D8ACD5C669D8F"
+					table_id: 2567105459748842191L
+					type: "loot"
+				}
+			]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [
+				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
+					id: "1775C68F15D3A127"
+					item: "structurize:sceptergold"
+					type: "item"
+				}
+				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
+					id: "76047AC611CF5CEA"
+					item: "minecolonies:blockhuttownhall"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["583A7AA84FEC027F"]
+			description: [
+				"Many new buildings and upgrades are locked behind university research so it is worth getting a university built as soon as possible. Researcher will research various upgrades to your colony, and each level unlocks an additional researcher for a total of 5 researchers. Each Researcher can start their own research, but more Researchers does not lower the amount of time each individual research takes."
+				""
+				"Note: Research time is real-world time spent in-game. However, after level 3, Researchers will sometimes use offline time to work on researches."
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "15B51FB56A64C303"
+			rewards: [
+				{
+					count: 8
+					id: "6EA63BB2DF16906E"
+					item: "minecraft:book"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "370AD98C323714CC"
+					item: "minecraft:paper"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2257E29AB79A4B37"
+					table_id: 2567105459748842191L
+					type: "loot"
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "41C6DE416391669D"
+				item: "minecolonies:blockhutuniversity"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["0D6E099A1A242153"]
+			description: ["Citizens need to eat in order to work. Until you have a restaurant and a steady supply of food, you will need to put a few pieces of food in their inventory. They’ll eat when they are hungry."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: true
+			id: "75599A9909C7A8C8"
+			invisible: true
+			rewards: [
+				{
+					id: "198FACC199D7F9DF"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 32
+					id: "462D964429E4145B"
+					item: "minecraft:apple"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "minecolonies:minecolonies/citizen_eat_food_first"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "5166EF74710327F7"
+				type: "advancement"
+			}]
+			title: "Another Mouth to Feed"
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0D6E099A1A242153"]
+			description: [
+				"Before anything can be built, you need a Builder. The Builder must build their own Builder’s Hut before building any other huts, and they cannot build or upgrade a hut to a higher level than their own hut level. "
+				""
+				"The builder is arguably the hardest working citizen in your colony. (Second only to you). You are not limited to just one builder. As your colony grows, you may need to add more builders just to keep up. "
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "583A7AA84FEC027F"
+			rewards: [
+				{
+					id: "2DD72858F74DB0F1"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2838B7071FCED6A3"
+					table_id: 2567105459748842191L
+					type: "loot"
+				}
+			]
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "Say that 10 times real fast! "
+			tasks: [{
+				advancement: "minecolonies:minecolonies/build_builder"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "42ACB94291B0A619"
+				type: "advancement"
+			}]
+			title: "Build the Builder Building"
+			x: 3.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["0D6E099A1A242153"]
+			description: ["Okay this achievement is kind of a lie. It might be more analogous to “teach a man to fish”.  Regardless, the point is that if you teach your builder to make simple items that fit in a 2x2 crafting grid (like torches) they can craft the item themselves instead of asking for help."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: true
+			id: "342A1EF584823D2C"
+			rewards: [
+				{
+					id: "5B314A5CCBAEE4AB"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 16
+					id: "509384C588395E36"
+					item: "minecraft:charcoal"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "75475F7FD3D0C89C"
+					item: "minecraft:stick"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "minecolonies:minecolonies/building_add_recipe_torch"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "0D004B0007E5AF2D"
+				type: "advancement"
+			}]
+			title: "Never Craft Again"
+			x: 10.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["0D6E099A1A242153"]
+			description: [
+				"What kind of a leader are you?! Your citizens are so hungry, they are eating rotten flesh! &eAre you eating rotten flesh?&r Can you spare some bread or apples for the colony? "
+				""
+				"It is strongly suggested that you build a restaurant and any of the 5 herding huts or a fisher’s hut. If you have those buildings already, check that buildings have the resources they need to work."
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: true
+			id: "65D23E7683812E26"
+			invisible: true
+			rewards: [
+				{
+					count: 8
+					id: "75106226A0732DAC"
+					item: "minecraft:apple"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "6C347E5C1C73E1DF"
+					item: "minecraft:bread"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "minecolonies:minecolonies/citizen_eat_food_rotten_flesh"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "56AEC7E832A19F2C"
+				type: "advancement"
+			}]
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["583A7AA84FEC027F"]
+			description: ["The Forester is an essential worker in your colony. They will chop down trees and replant a sapling in the tree’s place. Foresters will chop any tree in the immediate area. However, this area can be restricted using a &ezoning tool&r available in the hut block. "]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "23012F6C4C522CEB"
+			rewards: [
+				{
+					count: 4
+					id: "15EECD6D40BE289B"
+					item: "minecraft:spruce_sapling"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1A6DF2A712435C5D"
+					item: "minecraft:birch_sapling"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "4F8193EEBC5DAF86"
+					item: "minecraft:dark_oak_sapling"
+					type: "item"
+				}
+				{
+					id: "304B85F74B8CD274"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				advancement: "minecolonies:production/build_lumberjack"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "4B59516A205F5B3C"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["583A7AA84FEC027F"]
+			description: [
+				"At the Mine, the Miner will mine for ores and materials. Once they are hired, the Miner will first create a shaft downward to a specific depth depending on the level of the Mine. Once the main shaft is completed, the Miner will then branch out. While mining, sometimes the Miner will get lucky and get an ore block instead of a basic stone block. &7&o(magic!)&r&r"
+				""
+				"Tip: The miner fills holes and gaps with a Fill Block, cobblestone by default. However, the fill block can be changed in the Miner’s Hut settings. If you have a forester and lots of wood, consider using wood planks. Or perhaps now you will have a use for all that deepslate."
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "6BB0C51EE8CA5966"
+			rewards: [
+				{
+					count: 64
+					id: "5B274A63D5231947"
+					item: "minecraft:cobblestone"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "4877FBA6EC7A9D9C"
+					item: "minecraft:ladder"
+					type: "item"
+				}
+				{
+					id: "26D36528752046BE"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Build a Mine"
+			tasks: [{
+				advancement: "minecolonies:production/build_miner"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "653FEFE52C7922EB"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["583A7AA84FEC027F"]
+			description: [
+				"The fisher is an excellent source of early game food for your citizens. Hopefully you have a decent resource for string. With any luck the fisherman will also get some some extra loot. "
+				""
+				"If your colony lacks a natural water source like an ocean or river, you can make do with a 6x6x1 area of water. "
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "0B009391E3F76D6E"
+			rewards: [
+				{
+					id: "41290EC24CAFB21A"
+					item: {
+						Count: 1
+						id: "minecraft:fishing_rod"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2A65572EBCC33FC3"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5D28157090509A0C"
+					table_id: 2567105459748842191L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				advancement: "minecolonies:production/build_fisherman"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "5AD9F4B7AD855B62"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["583A7AA84FEC027F"]
+			description: ["I can finally top playing in the dirt (as much) and hand off my farming duties to someone else. I should probably have the farmer start with carrots since they don't need to be cooked, too..."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "57C889EC980D33D9"
+			rewards: [
+				{
+					id: "2EC62DDE60A5271C"
+					item: {
+						Count: 1
+						id: "minecraft:stone_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "32DA997CA1B1452D"
+					item: "minecraft:carrot"
+					type: "item"
+				}
+				{
+					id: "0708DD6396D0281E"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				advancement: "minecolonies:production/build_farmer"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "27273974BDD31F90"
+				type: "advancement"
+			}]
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["583A7AA84FEC027F"]
+			description: ["The warehouse is completed. It might not seem like much, but you can't have much of a trade empire without a place to store things. "]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "67E8B8DCFC93F832"
+			rewards: [
+				{
+					count: 6
+					id: "7C9192244B100208"
+					item: "minecolonies:blockminecoloniesrack"
+					type: "item"
+				}
+				{
+					id: "6FDB054D697C4EA9"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "3357ED5EB15A8E1F"
+					item: {
+						Count: 1
+						id: "minecraft:leather_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "468AD241FEBAD5AD"
+					table_id: 2567105459748842191L
+					type: "loot"
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				advancement: "minecolonies:production/build_warehouse"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "7854E168E9B85C0A"
+				type: "advancement"
+			}]
+			x: -4.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["67E8B8DCFC93F832"]
+			description: [
+				"The Courier runs back and forth from the Warehouse to all the worker huts in your colony, delivering materials to workers and putting finished products in the Warehouse. The level of the Courier’s Hut will dictate how many items the Courier can carry and the amount of requests they can keep track of at a time."
+				""
+				"Courier’s don’t just work on their own. You must build a warehouse, and assign the courier to work at a warehouse. "
+				""
+				"Note: If you have multiple Warehouses, Couriers will only see the items in the Warehouse they are assigned to. This is helpful in the late game when troubleshooting requests."
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "490628CE108A833A"
+			rewards: [
+				{
+					id: "179A2848301F8E27"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "7EFD224B4DFF2D7A"
+					item: {
+						Count: 1
+						id: "minecraft:leather_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Build a Courier Hut"
+			tasks: [{
+				advancement: "minecolonies:production/build_delivery_person"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "583088FA8B5FB372"
+				type: "advancement"
+			}]
+			x: -5.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["583A7AA84FEC027F"]
+			description: [
+				"With so many colonists working for the greater good it can be difficult to know who needs what. The clipboard is an easy way to see all the requests your workers have."
+				""
+				"&eSneak + right-click&r on your town hall block to register the clipboard."
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: true
+			id: "71FCF06A98CC66D7"
+			rewards: [{
+				id: "177501B32770F7EB"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "6FF8ACDFE7CCF238"
+				item: "minecolonies:clipboard"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -14.0d
+		}
+		{
+			dependencies: ["583A7AA84FEC027F"]
+			description: ["Congratulations! Getting the builder upgraded is an important step. The Builder can only build or upgrade any other hut up to the level of their own hut. So, in order for the Builder to upgrade any building, the Builder’s Hut must be upgraded first. Then the Builder will be able to upgrade any other building(s)."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "48AC8545D66B71B7"
+			invisible: true
+			rewards: [
+				{
+					id: "26291BA2B0B493D5"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "047498EB28BED4F9"
+					table_id: 2567105459748842191L
+					type: "loot"
+				}
+			]
+			size: 1.0d
+			subtitle: "Level Up a Builders Hut"
+			tasks: [{
+				advancement: "minecolonies:minecolonies/build_builder_2"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "085B7F66AE89804A"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["583A7AA84FEC027F"]
+			description: [
+				"Got your eye on a new recruit and need some hay bales? If you place a postbox outside your tavern you can request items from the warehouse and a courier will deliver them to the postbox."
+				""
+				"Similarly, if you have items you want taken to the warehouse, place them in a Stash and a courier will be along shortly to pick them up."
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: true
+			id: "3B40A769EDB26EA2"
+			rewards: [{
+				id: "54CCF231F5454523"
+				item: "minecolonies:blockhutdeliveryman"
+				type: "item"
+			}]
+			tasks: [
+				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
+					id: "0CBB5387057BD20C"
+					item: "minecolonies:blockpostbox"
+					type: "item"
+				}
+				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
+					id: "49A9EEEC13D15772"
+					item: "minecolonies:blockstash"
+					type: "item"
+				}
+			]
+			title: "Postbox and Stash"
+			x: 11.5d
+			y: -13.0d
+		}
+		{
+			dependencies: ["1BB571557F74D3A1"]
+			description: ["Once you have found the location for your colony, you will likely want to build either a supply camp or supply ship. You can choose one but not both. Either will provide you with some basic supplies to help you get started in the early game. &o&7(bed, food, basic tools and armor, starting resources, etc.)&r&r It’s beneficial to place your supply camp or ship near your colony as you will be traveling back and forth to it frequently in the early game. &eClose, but not in the way close.&r"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "6EEA012FA11C7C08"
+			rewards: [{
+				id: "0C26B4C4C2E40B99"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "69C59B97E310195D"
+				title: "Get Supplies"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: -16.5d
+		}
+		{
+			dependencies: ["6EEA012FA11C7C08"]
+			description: ["When placing any building, including your supply camp or ship. You will have the option to change your colony style. Click the “Switch Pack” button to open a menu with many styles to choose from. If you want to get an idea of the styles before you build, go to youtube and search \"&eMineColonies Build Styles&r\". Note: This pack includes a number of additional styles not shown in the video."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "22F4C38E79DEFF1E"
+			rewards: [{
+				id: "686F219F7D0FA4DF"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "TODO: Improve Language"
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "0D31FB2D2AF9C5F2"
+				title: "Colony Styles"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: -15.0d
+		}
+		{
+			dependencies: ["22F4C38E79DEFF1E"]
+			description: ["Clear out and flatten an area roughly 20x20 blocks to make room for your camp. The camp will not place if there are objects in the way. Right clicking the supply camp on the ground will show a 3D preview of the camp. Using the placement controls arrows, position the camp in your clearing, then click the green checkmark to finalize the placement. If it won’t place, then the terrain is in the way, and you may need to clear the area more. Red lines may appear showing you the areas that need to be cleared."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "1E1870FAD295DEDE"
+			rewards: [
+				{
+					id: "39770AE2E1C10F79"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "73CBF31CD696813C"
+					table_id: 2567105459748842191L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "178C6956FA00A9AA"
+				item: "minecolonies:supplycampdeployer"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["22F4C38E79DEFF1E"]
+			description: ["Depending on the pack style you choose, supply ships may need to be placed in water, or in the air. Clear an area large enough to fit your supply ship. This may include digging under water, depending on where you place your ship. The supply ship will not place if there are objects in the way. Right clicking the supply ship on the ground will show a 3D preview of the camp. Using the placement controls arrows, position the ship in your clearing, then click the green checkmark to finalize the placement. If it won’t place, then the terrain is in the way, and you may need to clear the area more. Red lines will appear showing you the areas that need to be cleared."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "0F409DACBEB7BBF8"
+			rewards: [
+				{
+					id: "07C2786C7B699300"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "628F7D96B58C5DE7"
+					table_id: 2567105459748842191L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "1F8579DCF97FCBC6"
+				item: "minecolonies:supplychestdeployer"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["583A7AA84FEC027F"]
+			description: [
+				"Cliches aside, the tavern should be a high priority building in the early game for several reasons. A tavern can house four colonists. Exactly the number that spawned when you created your village. "
+				""
+				"After completing the tavern, visitors will stop by to hang out in hopes of being recruited into your colony. You can recruit these visitors by giving them the items they request. "
+				""
+				"You may want to check out their stats before recruiting a visitor because nobody wants to pay too much for a rubbish colonist."
+				""
+				"&o&8PRO TIP: You can tell a lot about a potential recruit by looking at their boots. Fancy boots, better stats.&r&r"
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "132AF80A62FFF98D"
+			rewards: [
+				{
+					id: "70FF8005358FD4D3"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "111AF7DB4CE84D4F"
+					table_id: 2567105459748842191L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				advancement: "minecolonies:minecolonies/build_tavern"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "12135B574D6B6BBA"
+				title: "You all meet in a tavern..."
+				type: "advancement"
+			}]
+			title: "You All Meet In a Tavern..."
+			x: 2.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["583A7AA84FEC027F"]
+			description: [
+				"The Town Hall is the central building in your colony. It provides lots of helpful information about your colony such as citizen stats, open work orders, citizen happiness, allies and more. "
+				""
+				"The settings tab should be a first stop for any new colonist as it contains options for hiring mode, housing assignment mode, and options to allow kids to be born. Also, this is where you can customize your colony flag. Your flag will appear on guard towers and guard shields. "
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "5FC01763770A062E"
+			rewards: [
+				{
+					id: "75BD758BFC0D4791"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "34A412921C328BEA"
+					table_id: 2567105459748842191L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				advancement: "minecolonies:minecolonies/build_town_hall"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "08ECF6614470F257"
+				type: "advancement"
+			}]
+			title: "Town Hall"
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["583A7AA84FEC027F"]
+			description: [
+				"Starving colonists will eat just about anything, including raw food and rotten flesh. Yuck! "
+				""
+				"When citizens are hungry, they will come to the Restaurant and the Cook will give them food. (assuming you have food to give them) Consider building a Fisher’s Hut, or a Cowhand’s Hut. "
+				""
+				"Note: Make sure to choose a fuel for your cook to use. Some popular options are charcoal, sticks, and planks, although anything with a burn time will work. "
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "647F95EED59927B7"
+			rewards: [
+				{
+					id: "6B894F7FD493FE50"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "67E29D9BD3972BC8"
+					table_id: 2567105459748842191L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				advancement: "minecolonies:production/build_cook"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "44CB12F671435930"
+				title: "Restaurant"
+				type: "advancement"
+			}]
+			x: 1.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["0D6E099A1A242153"]
+			description: [
+				"The Ancient Tome is a glowing book that’s dropped by raiders during raids. If you have the Ancient Tome in your inventory, it will glow when there is going to be a raid that night. "
+				""
+				"In the later game, the Enchanter can convert Ancient Tomes into enchanted books. "
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: true
+			id: "69EAF1072D492F1A"
+			rewards: [
+				{
+					id: "1ED4EA43EBB5F2D9"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "37634C6C11ED163C"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:sharpness"
+								lvl: 4s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Keep one in your hotbar"
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "4FC0D16018A0834C"
+				item: "minecolonies:ancienttome"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -13.0d
+		}
+		{
+			dependencies: ["0D6E099A1A242153"]
+			description: ["While you might think your builder needs glasses sometimes, these goggles won’t help them. The Builders googles are for you. When you put them on your head or in a curio head slot they allow you to preview your buildings at level 5 which is helpful when fitting one building next to another."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: true
+			id: "120152510AD4B59A"
+			subtitle: "It’s A Samsquanch!"
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "387CF6BDD450D5BD"
+				item: {
+					Count: 1
+					id: "minecolonies:build_goggles"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: -14.0d
+		}
+		{
+			dependencies: [
+				"201CB898A399F1D5"
+				"49793060345FB28C"
+				"7870800C28A7E199"
+				"493B9FC17C3CF3CA"
+				"130E8FC7479E4271"
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "4DD7E2BD8508A117"
+			subtitle: "Build one of every herder hut."
+			tasks: [{
+				advancement: "minecolonies:production/build_all_herders"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "69375D01EECF69DB"
+				type: "advancement"
+			}]
+			x: -5.0d
+			y: -13.0d
+		}
+		{
+			description: [
+				"The Cowhand’s Hut is where the Cowhand will milk, breed, and butcher cows for leather. The Cowhand will only keep two cows alive per hut level, so at level 5 they will have ten cows in their holding pens to breed and butcher."
+				""
+				"Note: &eYou must bring your own cows to the pen.&r"
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "49793060345FB28C"
+			rewards: [
+				{
+					id: "06B600FFE4CF2E50"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "30842F1BADAF5B54"
+					item: "minecraft:bucket"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "554F10EEB5E8FAC3"
+					table_id: 2567105459748842191L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "6A604DC08BC24230"
+				item: "minecolonies:blockhutcowboy"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -11.5d
+		}
+		{
+			description: [
+				"The Swineherd’s Hut is where the Swineherd will breed and butcher pigs for food. You will have to capture and bring in two pigs to the Swineherd’s Hut, as the Swineherd will not catch and bring in any pigs."
+				""
+				"The Swineherd will only keep two pigs alive per hut level, so at level 5 they will have ten pigs in their holding pens."
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "201CB898A399F1D5"
+			rewards: [
+				{
+					id: "615D2FD91B1B90F2"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2D88347B508B93D4"
+					table_id: 2567105459748842191L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "77C960B9B8F4F26C"
+				item: "minecolonies:blockhutswineherder"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -11.5d
+		}
+		{
+			description: [
+				"The Chicken Farmer’s Hut is where the Chicken Farmer will raise chickens, collect eggs, and butcher chickens for food. You will have to capture and bring in two chickens to the Chicken Farmer’s Hut, as the Chicken Farmer will not catch and bring in any chickens."
+				""
+				"The Chicken Farmer will only keep two chickens alive per hut level, so at level 5 they will have ten chickens."
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "7870800C28A7E199"
+			rewards: [
+				{
+					id: "7CE27ABD0AA27AE4"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 16
+					id: "2DD16BAF95D1FA06"
+					item: "minecraft:wheat_seeds"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "25A2F365A5ACAF62"
+					table_id: 2567105459748842191L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "2532D7CC1BE4EDC0"
+				item: "minecolonies:blockhutchickenherder"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -11.5d
+		}
+		{
+			description: [
+				"The Shepherd’s Hut is where the Shepherd will breed and butcher sheep for food and wool. You will have to capture and bring in two sheep to the Shepherd’s Hut, as the Shepherd will not catch and bring in any sheep."
+				""
+				"The Shepherd will only keep two sheep alive per hut level, so at level 5 they will have ten sheep in their holding pens."
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "130E8FC7479E4271"
+			rewards: [
+				{
+					id: "1978660AFEE9550A"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "64FBC8D5D5F8E092"
+					item: {
+						Count: 1
+						id: "minecraft:shears"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "54D26793442046F7"
+					table_id: 2567105459748842191L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "76C613DD301AADAA"
+				item: "minecolonies:blockhutshepherd"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -13.5d
+		}
+		{
+			description: [
+				"The Rabbit Hutch is where the Rabbit Herder will raise and butcher rabbits. You will have to capture and bring in two rabbits to the Rabbit Hutch, as the Rabbit Herder will not catch and bring in any rabbits."
+				""
+				" The Rabbit Herder will only keep two rabbits alive per hut level, so at level 5 they will have ten rabbits in their holding pens."
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "493B9FC17C3CF3CA"
+			rewards: [
+				{
+					id: "090D3B15ACE7FDFF"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "318C25503B4B6E0F"
+					table_id: 2567105459748842191L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "45BFAC7E32843F7C"
+				item: "minecolonies:blockhutrabbithutch"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["00A3AD4BD4EE0FC7"]
+			description: [
+				"The Barracks is the ultimate protection for your colony. The Barracks Towers (unlike the normal Guard tower) will employ and house one Guard for every level built, for a total of 5 Guards per Barracks Tower!"
+				""
+				"In the later game you will likely want two barracks chock full of &mexpendable&r brave souls."
+				""
+				"Tip: At level 3, you can hire spies for 5 gold per raid, these spies will go out into the world and if barbarians are spotted, the spies will tell you exactly where the barbarians are."
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "5A11A2FC20E5CE2A"
+			rewards: [
+				{
+					id: "05BBD7141863E37E"
+					item: {
+						Count: 1
+						id: "minecraft:iron_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7C16BBFC08BC6531"
+					item: {
+						Count: 1
+						id: "minecraft:iron_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5601B530472B5EA5"
+					item: {
+						Count: 1
+						id: "minecraft:iron_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "27BB49CEBC4B9C12"
+					item: {
+						Count: 1
+						id: "minecraft:iron_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6AECB15F11202C76"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Build a Barracks"
+			tasks: [{
+				advancement: "minecolonies:military/build_barracks"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "3CD051A0BF135210"
+				type: "advancement"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["15B51FB56A64C303"]
+			description: [
+				"The Sawmill is where the Carpenter will craft any items made of at least 75% wood. This is the point where the colony really starts to feel like it’s running on its own. Be sure to set up important recipes for items your builder regularly needs. While the sawmill starts with a paltry 10 recipes, the number of recipes you can teach the Sawmill doubles per building level."
+				""
+				"Tip: Be sure to give your carpenter a &ebuild tool&r as some recipes require it. "
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "0EBB4E5195610A82"
+			rewards: [
+				{
+					id: "5805F3CA7D86C3C9"
+					item: "structurize:sceptergold"
+					type: "item"
+				}
+				{
+					id: "074D5AAEB7DC0888"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4036C5DE1EC50F32"
+					table_id: 2567105459748842191L
+					type: "loot"
+				}
+			]
+			subtitle: "Build a Sawmill"
+			tasks: [{
+				advancement: "minecolonies:production/build_sawmill"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "7FD8AFA50B110945"
+				type: "advancement"
+			}]
+			x: 8.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["15B51FB56A64C303"]
+			description: [
+				"The Composter’s Hut is where the Composter will turn organic materials into compost, which can be used by the Farmer or Florist to fertilize crops or flowers. "
+				""
+				"Note: You must configure the composter’s hut with the items you want composted before the composter will compost. &7&oThis sounds similar to a woodchuck tongue twister.&r"
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "6B0CE8AD86991E28"
+			rewards: [
+				{
+					count: 64
+					id: "6F5648CB86A26CB5"
+					item: "minecraft:wheat_seeds"
+					type: "item"
+				}
+				{
+					id: "3D947B9E79F64D5F"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "51FF3600E49E1B29"
+					table_id: 2567105459748842191L
+					type: "loot"
+				}
+			]
+			subtitle: "Build a Composter Hut"
+			tasks: [{
+				advancement: "minecolonies:production/build_composter"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "06409E42896033EF"
+				type: "advancement"
+			}]
+			x: 11.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["15B51FB56A64C303"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "206159A3C7A78447"
+			rewards: [
+				{
+					id: "78FC5B1200521DB0"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "57FA7BD5B2992F66"
+					table_id: 2567105459748842191L
+					type: "loot"
+				}
+			]
+			subtitle: "Build a Mystical Site"
+			tasks: [{
+				advancement: "minecolonies:minecolonies/build_mysticalsite"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "3D34C9F6B1CDA855"
+				type: "advancement"
+			}]
+			x: 13.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["583A7AA84FEC027F"]
+			description: [
+				"The Guard Tower will employ and house one Guard to protect your colony. Your citizens will appreciate a well guarded colony. A general rule of thumb is two guards for every three citizens."
+				""
+				"Guards sleep in guard dowers, freeing up the bed they previously occupied in a residence or tavern allowing you to recruit new colonists. "
+				""
+				"Tip: You can expand your colony border by building and leveling up guard towers."
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "00A3AD4BD4EE0FC7"
+			rewards: [
+				{
+					id: "1C00DB8352773D0D"
+					item: {
+						Count: 1
+						id: "minecraft:leather_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "52BB7650BA7F93C6"
+					item: {
+						Count: 1
+						id: "minecraft:leather_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "579FC0FF685F1B74"
+					item: {
+						Count: 1
+						id: "minecraft:leather_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5109E0B26D874E58"
+					item: {
+						Count: 1
+						id: "minecraft:leather_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "326C6E95DBAC8062"
+					item: "minecolonies:blockhutguardtower"
+					type: "item"
+				}
+				{
+					id: "3F00DBCE48C0734F"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			size: 2.0d
+			subtitle: "Build a Guard Tower and Hire a Guard"
+			tasks: [{
+				advancement: "minecolonies:minecolonies/build_guard_tower"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "141D6D650FC4BF6C"
+				type: "advancement"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["15B51FB56A64C303"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "52453550206EC770"
+			rewards: [
+				{
+					count: 4
+					id: "6FF859D4E7AE14E4"
+					item: "minecraft:red_dye"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "0D8E5EA45B170BC0"
+					item: "minecraft:yellow_dye"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "7862A4D161DD35F5"
+					item: "minecraft:blue_dye"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "5F38056AB77F2B51"
+					item: "minecraft:green_dye"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "0D1DFD556FA08B48"
+					item: "minecraft:white_dye"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "3C66C344455F510F"
+					item: "minecraft:black_dye"
+					type: "item"
+				}
+				{
+					id: "283AF2A0554A7457"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "1B2173714B76B9B5"
+				item: "minecolonies:blockhutdyer"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["15B51FB56A64C303"]
+			description: ["The Crusher’s Hut is where the Crusher will take items and crush them into other blocks. Most notably cobblestone = gravel, gravel = sand, sand = clay. One important factor to know is that the crusher has a daily limit based on the hut level. Level 1 has a daily max of 16, level 2 has 64. At level 5 it’s daily max is 999. "]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "2B01B964638DFBD1"
+			rewards: [
+				{
+					count: 64
+					id: "311875D658F3B58B"
+					item: "minecraft:cobblestone"
+					type: "item"
+				}
+				{
+					id: "484716BB5F7B1711"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1B461BA7C0AA7493"
+					table_id: 2567105459748842191L
+					type: "loot"
+				}
+			]
+			subtitle: "Build a Crusher's Hut"
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "3A1105B57D967428"
+				item: "minecolonies:blockhutcrusher"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["15B51FB56A64C303"]
+			description: [
+				"The Flower Shop is where your Florist will grow flowers for your colony, if given compost and an axe. "
+				""
+				"One important factor to know is that the flower shop has a daily flower limit based on the hut level. Level 1 has a daily max of 4, level 2 has 8. At level 5 it’s daily max is 20. "
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "37E43341FA234E84"
+			rewards: [
+				{
+					count: 16
+					id: "1AA5DDD6C2D9D8B4"
+					item: "minecraft:bone_meal"
+					type: "item"
+				}
+				{
+					id: "512078FC7FE9AE1C"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "606E12C777A49CC2"
+					table_id: 2567105459748842191L
+					type: "loot"
+				}
+			]
+			subtitle: "Build a Flower Shop"
+			tasks: [{
+				advancement: "minecolonies:production/build_florist"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "7CA26CEF33B7E7C4"
+				type: "advancement"
+			}]
+			x: 11.0d
+			y: -4.0d
+		}
+		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "743D7D9204915A13"
+			invisible: true
+			rewards: [
+				{
+					id: "2A93DA054FEDFDE0"
+					item: "minecraft:flower_pot"
+					type: "item"
+				}
+				{
+					id: "6B29E7DAE363A46D"
+					item: "minecraft:lily_of_the_valley"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "minecolonies:minecolonies/citizen_bury"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "11A3C7F3DC5C2A4F"
+				type: "advancement"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"The rallying banner will summon your Guards to you when used. It’s especially useful in raids, as Guards don’t automatically know where to find the raiders. You must shift + right-click the banner on a Guard tower or Barracks Tower to assigns the Guards in that tower to the rallying banner."
+				""
+				"Note: Your Guards will not follow you outside the colony border. To bring Guards outside the border, set them to Follow you on the second page of their tower GUI."
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "1C16AEE8E29FB5A0"
+			rewards: [{
+				id: "74858E546DE01642"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "59ED1ABBA005E7C9"
+				item: {
+					Count: 1
+					id: "minecolonies:banner_rally_guards"
+					tag: {
+						guardtowerpositions: [ ]
+						isActive: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: -13.0d
+		}
+		{
+			dependencies: ["15B51FB56A64C303"]
+			description: ["The stonemason is another key profession in the colony. They craft items commonly required by the builder. The stonemason will craft 3x3 recipes made entirely out of cobblestone, stone, andesite, diorite, granite, quartz, purpur, nether bricks, prismarine, sandstones, blackstone, and basalt. They can also craft end stone from cobblestone and an ender pearl after you complete the research."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "15F03A5E7E14C022"
+			rewards: [
+				{
+					id: "0299FC878824E0CD"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2E6EB3E80C24510F"
+					table_id: 2567105459748842191L
+					type: "loot"
+				}
+			]
+			subtitle: "Build a Stonemason's Hut"
+			tasks: [{
+				advancement: "minecolonies:production/build_stonemason"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "583FA03F43A8C439"
+				type: "advancement"
+			}]
+			x: 10.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["5A11A2FC20E5CE2A"]
+			description: [
+				"The Combat Academy is where your Knights in Training will train to become Knight. This also allows them to level up without a risk of dying to mobs."
+				"The Knights in Training require a sword and shield to practice. They will attack the practice dummies, a pumpkin on top of a bale of hay."
+				""
+				"Tip: Consider setting the hiring mode to automatic so new recruits or kids growing up will automatically start training if not already attending school"
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "4D9DC4973FD340E5"
+			rewards: [
+				{
+					id: "68743AAE977C18C9"
+					item: {
+						Count: 1
+						id: "minecraft:iron_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "555B440944DE3BF6"
+					item: {
+						Count: 1
+						id: "minecraft:shield"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "02202FA3E324D9C5"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Build a Combat Academy"
+			tasks: [{
+				advancement: "minecolonies:military/build_combat_academy"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "216A6D186442B812"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5A11A2FC20E5CE2A"]
+			description: [
+				"The Archery is where your Archers in Training will train to become Archer. This also allows them to level up without a risk of dying to mobs. "
+				""
+				"The Archers in Training require a bow to practice. They will shoot at the practice targets, a target block"
+				""
+				"Tip: Consider setting the hiring mode to automatic so new recruits or kids growing up will automatically start training if not already attending school. "
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "6D56AD1BEC644A10"
+			rewards: [
+				{
+					id: "3920611631742955"
+					item: {
+						Count: 1
+						id: "minecraft:bow"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "421CC51FDE78E89D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Build an Archery"
+			tasks: [{
+				advancement: "minecolonies:military/build_archery"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "45EC23671E2EFAA2"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["15B51FB56A64C303"]
+			description: ["The Graveyard is where the Undertaker will bury your deceased citizens. When a citizen dies, a grave will spawn at the location of death. The Undertaker will attempt to recover the grave before it despawns. If successful, the Undertaker will return to the graveyard and attempt to revive the citizen. If the citizen cannot be revived, the Undertaker will bury them in the Graveyard. Another grave will be placed with the citizen’s name on it."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "33058894ACD9CB06"
+			rewards: [
+				{
+					id: "655F6BD43915CAC1"
+					item: "minecraft:rotten_flesh"
+					type: "item"
+				}
+				{
+					id: "581667D2EE854319"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "20131C3B38C0EDBB"
+					table_id: 2567105459748842191L
+					type: "loot"
+				}
+			]
+			subtitle: "Build a Graveyard"
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "25D5972318AE4EBB"
+				item: "minecolonies:blockhutgraveyard"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["583A7AA84FEC027F"]
+			description: [
+				"Citizens will go to the Residence they are assigned to at night to sleep. The Residence is also a way to get more citizens for your colony. Every residence level adds another bed. More beds means more citizen capacity."
+				""
+				"It’s worth considering residence locations and the citizens they house. Workers get grumpy when they have to travel long distances to work. Try to move citizens into homes close to where they work. "
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "72C749AD9F1C634E"
+			rewards: [
+				{
+					count: 3
+					id: "1967A08F48E115F5"
+					item: "minecraft:cooked_beef"
+					type: "item"
+				}
+				{
+					id: "40F334C8F1199631"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Build a Residence"
+			tasks: [{
+				advancement: "minecolonies:minecolonies/build_citizen"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "5BB6907D960343BA"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["15B51FB56A64C303"]
+			description: ["Remember in the beginning how it seemed that everyone was sick with Influenza and you had to keep feeding everyone carrots and potatoes? With the hospital built, they can go see the doctor and get cured by the Healer. You or the colony still needs to supply the ingredients."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "74C114D0C0D4D374"
+			rewards: [
+				{
+					id: "17B3D67DE05A7CD3"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2B8C3B423E721420"
+					table_id: 2567105459748842191L
+					type: "loot"
+				}
+			]
+			subtitle: "Build a Hospital"
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "7B16946B51885249"
+				item: "minecolonies:blockhuthospital"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["15B51FB56A64C303"]
+			description: [
+				"The Library is a way for you to raise your adult citizens’ Intelligence skill, which influences skill increases once employed. A citizen will randomly level up their Intelligence as long as they’re assigned to the Library. Paper and books help Library Students increase their skills faster."
+				""
+				"Being a Library Student is a full-time job, and a student cannot be employed simultaneously at any other hut."
+				""
+				"Tip: Consider setting the hiring mode to automatic so new recruits or kids growing up will start school automatically."
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "68FC81E133443E76"
+			rewards: [
+				{
+					count: 8
+					id: "5A880F1233D803D2"
+					item: "minecraft:book"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "58FFC9391296B6E6"
+					item: "minecraft:paper"
+					type: "item"
+				}
+				{
+					id: "29A487A47A0FD8C3"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Build a Library"
+			tasks: [{
+				advancement: "minecolonies:production/build_library"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "3316D1B9DBC7EA0F"
+				type: "advancement"
+			}]
+			x: 9.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["15B51FB56A64C303"]
+			description: ["The Blacksmith is a 3x3 crafter and can make any vanilla tools, armor, swords, and shields (no bows or redstone items). You will need to teach the Blacksmith the recipes of the items you want them to create. "]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "19D03831EB5EED02"
+			rewards: [
+				{
+					count: 16
+					id: "054ADA61F5EBDF99"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "042BABD650691E39"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2A3DD368A716D2BC"
+					table_id: 2567105459748842191L
+					type: "loot"
+				}
+			]
+			subtitle: "Build a Blacksmith Hut"
+			tasks: [{
+				advancement: "minecolonies:production/build_blacksmith"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "0DA42996BDBDE771"
+				type: "advancement"
+			}]
+			x: 13.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["15B51FB56A64C303"]
+			description: [
+				"The Stone Smeltery is where the Stone Smelter will smelt cobblestone into stone, stone bricks into cracked stone bricks, clay balls into bricks, clay blocks into terracotta, terracotta into glazed terracotta, all types of stone into all types of smooth stone, and logs into charcoal. They can also pop chorus fruits! "
+				""
+				"Be sure to teach the Stone Smelter recipes needed by your colony. Also, be sure to set a fuel type. "
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "430475E11D259B74"
+			rewards: [
+				{
+					count: 64
+					id: "7BD34182DD592A8C"
+					item: "minecraft:cobblestone"
+					type: "item"
+				}
+				{
+					id: "16B026E6E923FE89"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "453044D7DB15EACE"
+					table_id: 2567105459748842191L
+					type: "loot"
+				}
+			]
+			subtitle: "Build a Stone Smelter"
+			tasks: [{
+				advancement: "minecolonies:production/build_stone_smeltery"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "1C4CC262377E767F"
+				type: "advancement"
+			}]
+			x: 13.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["15B51FB56A64C303"]
+			description: ["The Smeltery is where the Smelter will smelt ores into ingots. The higher the level of the Smeltery, the more furnaces the Smelter will be able to use. A higher level will also have a higher chance to double and even triple the ingot output per block of ore."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "6A60B76053393288"
+			rewards: [
+				{
+					count: 32
+					id: "5823FBA3E567FE8C"
+					item: "minecraft:raw_iron"
+					type: "item"
+				}
+				{
+					id: "2BCE177D842AA205"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "450386CEA4A6BF2A"
+					table_id: 2567105459748842191L
+					type: "loot"
+				}
+			]
+			subtitle: "Builder a Smelter"
+			tasks: [{
+				advancement: "minecolonies:production/build_smeltery"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "4149CBA832F9F7B3"
+				type: "advancement"
+			}]
+			x: 13.0d
+			y: -8.0d
+		}
+		{
+			description: ["The Baker will craft bread dough, cookie dough, cake dough, and raw pumpkin pie, then bake these in a furnace to create bread, cookies, cakes, and pumpkin pies. They will only do this upon request, whether from the Cook, the postbox, or as a minimum stock in the Warehouse."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "7B5E2CD676A1A1C4"
+			rewards: [
+				{
+					count: 2
+					id: "3704289560567A9E"
+					item: "minecraft:wheat"
+					type: "item"
+				}
+				{
+					id: "44D92E889F20882E"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2429E3DCE4DDBB54"
+					table_id: 2567105459748842191L
+					type: "loot"
+				}
+			]
+			subtitle: "Build a Bakery"
+			tasks: [{
+				advancement: "minecolonies:production/build_baker"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "417ABABF3953F755"
+				type: "advancement"
+			}]
+			x: -3.5d
+			y: -13.0d
+		}
+		{
+			description: [
+				"The resource scroll is an easy way to tell what one of your Builder needs. Sneak + right-click on a Builder’s Hut to register the resource scroll to the builder."
+				""
+				"Now when you right-click while holding the resource scroll, you will see all the needed materials for the Builder’s Hut you clicked on."
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "085F473094778DCD"
+			rewards: [{
+				id: "343642A5225FBCAB"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Micromanagement at it's finest"
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "7FDC708CCFC43F1B"
+				item: {
+					Count: 1
+					id: "minecolonies:resourcescroll"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: -14.0d
+		}
+		{
+			dependencies: ["15B51FB56A64C303"]
+			description: [
+				"Possibly one of the most dangerous jobs, especially early on. The Nether Miner travels to the Nether to mine resources. When the miner travels through the portal, there is a chance they may die. So choose your worker carefully."
+				""
+				"The portal in the Nether Mine will transport players to the Nether. However, the Nether Miner does not actually travel into the Nether, nor do they actually mine any blocks in the Nether."
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "3B91163DE3DA885C"
+			rewards: [
+				{
+					count: 12
+					id: "212B59C3DEB3A36A"
+					item: "minecraft:obsidian"
+					type: "item"
+				}
+				{
+					id: "55C634F21B355D56"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2A26BF03991E2F3A"
+					table_id: 2567105459748842191L
+					type: "random"
+				}
+			]
+			subtitle: "Build a Nether Mine"
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "375CB98D9CFA3BD1"
+				item: "minecolonies:blockhutnetherworker"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["00A3AD4BD4EE0FC7"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "537A8F99CC3F525D"
+			invisible: true
+			rewards: [
+				{
+					id: "17D96E22386475B6"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2A7403095F54A849"
+					table_id: 2567105459748842191L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				advancement: "minecolonies:military/army_8"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "316B12D0955BD3A5"
+				type: "advancement"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["537A8F99CC3F525D"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "5F5DB67F6A470C73"
+			invisible: true
+			rewards: [
+				{
+					id: "7D4665C76890CAA4"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2EAB3AA54519F3A1"
+					table_id: 2567105459748842191L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				advancement: "minecolonies:military/army_30"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "7B6CBFCC0D73938B"
+				type: "advancement"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5F5DB67F6A470C73"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "53F8923B85A8A9CC"
+			invisible: true
+			rewards: [
+				{
+					id: "0C00F01F3B567297"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "78C6AC012D77C330"
+					table_id: 2567105459748842191L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				advancement: "minecolonies:military/army_80"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "0576D447E526E8C2"
+				type: "advancement"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["72C749AD9F1C634E"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "3AE1C3290500638F"
+			invisible: true
+			rewards: [
+				{
+					id: "391403C87C45AA1A"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3699D9ECAC724F45"
+					table_id: 2567105459748842191L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				advancement: "minecolonies:minecolonies/colony_population_10"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "47E29293D84B8C1F"
+				type: "advancement"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3AE1C3290500638F"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "4D61009737D94BDA"
+			invisible: true
+			rewards: [
+				{
+					id: "1BF4CDE00A585B13"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "74EB46CE9C257FCA"
+					table_id: 2567105459748842191L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				advancement: "minecolonies:minecolonies/colony_population_25"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "5EE4B0C4C88E2C21"
+				type: "advancement"
+			}]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4D61009737D94BDA"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "14DA3DC7C0009A6A"
+			invisible: true
+			rewards: [
+				{
+					id: "339C2D7D2E13CC60"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4FD18B335529812C"
+					table_id: 2567105459748842191L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				advancement: "minecolonies:minecolonies/colony_population_50"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "3A10636BFEEE2400"
+				type: "advancement"
+			}]
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5A11A2FC20E5CE2A"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "360E9E02A494217C"
+			invisible: true
+			rewards: [
+				{
+					id: "163866DF3DC8067E"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "29BD26AFD24AE402"
+					table_id: 2567105459748842191L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				advancement: "minecolonies:military/build_barracks_tower"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "00EB245458699A11"
+				type: "advancement"
+			}]
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["33058894ACD9CB06"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "696BDC29ACCBBE29"
+			invisible: true
+			rewards: [
+				{
+					id: "07ACEB931B4480C1"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "263EB1512E3FF69D"
+					table_id: 2567105459748842191L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				advancement: "minecolonies:minecolonies/undertaker_totem"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "3A72EC9D1339464A"
+				type: "advancement"
+			}]
+			x: 13.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["0EBB4E5195610A82"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "68500900087F92BC"
+			invisible: true
+			rewards: [
+				{
+					id: "319C392EAB9692FF"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "10E8DA2E83A792E1"
+					table_id: 2567105459748842191L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				advancement: "minecolonies:minecolonies/building_add_recipe_door"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "3FAFD3B7E01CCBD8"
+				type: "advancement"
+			}]
+			x: 7.0d
+			y: -9.0d
+		}
+		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "6B26495A9E7D77FC"
+			invisible: true
+			rewards: [
+				{
+					id: "05DDF99E9477869C"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "16045A2DB21EE205"
+					table_id: 2567105459748842191L
+					type: "loot"
+				}
+				{
+					id: "3562F2AFBC208295"
+					item: "minecraft:red_bed"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "minecolonies:minecolonies/colony_population_5"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "72AB20636F505D75"
+				type: "advancement"
+			}]
+			x: 13.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5FC01763770A062E"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "37BE190EE466D697"
+			invisible: true
+			rewards: [
+				{
+					id: "1CE52B3E62FB0202"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "261EE25F9B3423BA"
+					table_id: 2567105459748842191L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				advancement: "minecolonies:minecolonies/build_town_hall_5"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "5ADD18EEB58A873B"
+				type: "advancement"
+			}]
+			x: -1.0d
+			y: -8.5d
+		}
+	]
+	title: "MineColonies"
+}

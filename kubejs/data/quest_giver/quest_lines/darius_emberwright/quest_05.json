@@ -1,0 +1,38 @@
+{
+  "parent": "quest_giver:quest_04",
+  "repeatable": false,
+  "icon": "minecraft:quartz",
+  "start": {
+    "title": {
+      "translate": "The Marks We Can Read"
+    },
+    "description": {
+      "translate": "Bring twelve Nether quartz. I can use it to restore the pale reference panels beside the bench. We need to compare those workshop marks in a light that does not turn everything the colour of flame. Hand the materials to me one at a time."
+    }
+  },
+  "tasks": [
+    {
+      "id": "quest_giver:gift",
+      "item": {
+        "item": "minecraft:quartz"
+      },
+      "entity": "minecraft:villager",
+      "name": "Darius Emberwright",
+      "times": 12
+    }
+  ],
+  "complete": {
+    "title": {
+      "translate": "The Marks We Can Read"
+    },
+    "description": {
+      "translate": "These are service references, not a confession written in metal. They prove where parts travelled. To understand what happened, we still need the people who saw them used."
+    }
+  },
+  "rewards": [
+    {
+      "id": "quest_giver:command",
+      "command": "execute at @s run function outlandish:story/darius_emberwright/delivery_05"
+    }
+  ]
+}

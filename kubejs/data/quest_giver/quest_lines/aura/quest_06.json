@@ -1,0 +1,38 @@
+{
+  "parent": "quest_giver:quest_05",
+  "repeatable": false,
+  "icon": "minecraft:paper",
+  "start": {
+    "title": {
+      "translate": "The Record We Can Carry"
+    },
+    "description": {
+      "translate": "Twelve sheets of paper required for the accessible reference shelves and copied research. Knowledge preserved only in an isolated station remains vulnerable to loss. Hand the materials to me one at a time."
+    }
+  },
+  "tasks": [
+    {
+      "id": "quest_giver:gift",
+      "item": {
+        "item": "minecraft:paper"
+      },
+      "entity": "minecraft:villager",
+      "name": "A.U.R.A.",
+      "times": 12
+    }
+  ],
+  "complete": {
+    "title": {
+      "translate": "The Record We Can Carry"
+    },
+    "description": {
+      "translate": "Reference access restored. Elyndra in the Twilight Forest is named as a keeper of the living tradition connected to these studies. Consult her rather than treating this fragmentary archive as a finished ritual manual."
+    }
+  },
+  "rewards": [
+    {
+      "id": "quest_giver:command",
+      "command": "execute at @s run function outlandish:story/aura/delivery_06"
+    }
+  ]
+}

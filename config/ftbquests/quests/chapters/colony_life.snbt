@@ -1,0 +1,766 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "colony_life"
+	group: "290BD65C3C52540C"
+	icon: "minecraft:bell"
+	id: "3A2E82FDB5E307FC"
+	order_index: 9
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["MineColonies lets you develop a settlement with citizens, builders and specialized workers. Begin in the Overworld and leave generous room for buildings, roads and future upgrades. Colony permissions and FTB team claims are separate systems: give teammates the access they need in both. Start small enough that you can supply your first projects."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: "minecraft:bell"
+			id: "4D21102AB56A1635"
+			optional: true
+			rewards: [{
+				id: "54420B371D483A2B"
+				type: "xp"
+				xp: 10
+			}]
+			size: 1.8d
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "040E3BC92635E267"
+				type: "checkmark"
+			}]
+			title: "Build a Place for People"
+			x: 7.199999999999999d
+			y: -8.1d
+		}
+		{
+			dependencies: ["4D21102AB56A1635"]
+			description: ["Prepare a Supply Camp and use its placement preview to choose a clear site. Check the footprint and access before confirming. The camp supplies a starting point for your colony. Keep your industrial workshop close enough to help, but outside the footprints of future colony buildings."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: "minecolonies:supplycampdeployer"
+			id: "70F5C31DEE8AD028"
+			optional: true
+			rewards: [
+				{
+					id: "3F07D24AA63EFA55"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4EB834889889DAB0"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_steam"
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 1.3d
+			tasks: [{
+				consume_items: false
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "001A52A30D3A2D9D"
+				item: "minecolonies:supplycampdeployer"
+				type: "item"
+			}]
+			title: "Establish a Supply Camp"
+			x: 7.15d
+			y: -5.2d
+		}
+		{
+			dependencies: ["70F5C31DEE8AD028"]
+			description: ["Choose your colony location and architectural style carefully. Use the Build Tool preview before placing the Town Hall hut block. Leave road space and room for the building’s larger upgraded forms. A hut block marks a building project; placing it does not instantly finish the structure."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: "minecolonies:blockhuttownhall"
+			id: "53922E029BF98087"
+			optional: true
+			rewards: [
+				{
+					id: "21449E4AD77B5AC6"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "2BB3CFCA8A143188"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_steam"
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 1.3d
+			tasks: [{
+				consume_items: false
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "31C7057095C8C2CF"
+				item: "minecolonies:blockhuttownhall"
+				type: "item"
+			}]
+			title: "Plan Your Town Hall"
+			x: 7.15d
+			y: -3.2500000000000004d
+		}
+		{
+			dependencies: ["53922E029BF98087"]
+			description: ["Place a Builder’s Hut using the preview, assign a citizen, and request construction through its Build Options. Supply the requested blocks and suitable tools. Read the builder’s requests when work stops; a missing tool or inaccessible block can halt an otherwise well-stocked project."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: "minecolonies:blockhutbuilder"
+			id: "5B34E3B738D7B6B3"
+			optional: true
+			rewards: [
+				{
+					id: "40AEE80EEDD4FCD2"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "768EA104987CEDEA"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_steam"
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 1.3d
+			tasks: [{
+				consume_items: false
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "47C6364E6890B13F"
+				item: "minecolonies:blockhutbuilder"
+				type: "item"
+			}]
+			title: "Your First Builder"
+			x: 7.15d
+			y: -1.3d
+		}
+		{
+			dependencies: ["5B34E3B738D7B6B3"]
+			description: ["Build residences for your citizens. Housing supports a stable population, so expand it alongside workplaces rather than recruiting far more people than you can support. Keep routes between homes, work and food short and easy to navigate."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: "minecolonies:blockhutcitizen"
+			id: "054E3F9A329E404E"
+			optional: true
+			rewards: [
+				{
+					id: "04BF3A50D7B7178A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0BD2279C15595925"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_steam"
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 1.3d
+			tasks: [{
+				consume_items: false
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "15CDB8D38B521E24"
+				item: "minecolonies:blockhutcitizen"
+				type: "item"
+			}]
+			title: "Give Citizens a Home"
+			x: 4.550000000000001d
+			y: -1.3d
+		}
+		{
+			dependencies: ["054E3F9A329E404E"]
+			description: ["A Tavern gives visitors a place to arrive. Check their recruitment requirements and useful skills before inviting them. Match new citizens to jobs you can actually supply. More workers also means more demand for housing, food and tools."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: "minecolonies:blockhuttavern"
+			id: "4D76A10D91F72238"
+			optional: true
+			rewards: [
+				{
+					id: "236A09940C4CC6AB"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7A125255FD25FDED"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_steam"
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 1.3d
+			tasks: [{
+				consume_items: false
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "034FB75384E80AF7"
+				item: "minecolonies:blockhuttavern"
+				type: "item"
+			}]
+			title: "Welcome New Citizens"
+			x: 2.6d
+			y: -3.2500000000000004d
+		}
+		{
+			dependencies: ["054E3F9A329E404E"]
+			description: ["Build a Restaurant and provide food the cook can serve. Pair it with farming and storage so meals do not depend on a single emergency delivery. Check citizens’ needs regularly, especially while the colony population is growing."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: "minecolonies:blockhutcook"
+			id: "6411BCE9D0873007"
+			optional: true
+			rewards: [
+				{
+					id: "00C5A5FEDE2FA726"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7C4410CE06DC8AD0"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_steam"
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 1.3d
+			tasks: [{
+				consume_items: false
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "66EF3DE09CB1A38D"
+				item: "minecolonies:blockhutcook"
+				type: "item"
+			}]
+			title: "Feed the Settlement"
+			x: 2.6d
+			y: 0.65d
+		}
+		{
+			dependencies: ["6411BCE9D0873007"]
+			description: ["Give your Farmer suitable fields, seeds and tools. Confirm that the worker can reach the fields and that harvested items have somewhere to go. Begin with crops you need frequently, then diversify as food production expands."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: "minecolonies:blockhutfarmer"
+			id: "6F7ABD8DE9C54DA9"
+			optional: true
+			rewards: [
+				{
+					id: "7D45483B10C7AF8A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "18729083039BB1BE"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_steam"
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 1.3d
+			tasks: [{
+				consume_items: false
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "4C43D6C2EF4D15C9"
+				item: "minecolonies:blockhutfarmer"
+				type: "item"
+			}]
+			title: "Grow a Reliable Supply"
+			x: 0.65d
+			y: 0.65d
+		}
+		{
+			dependencies: ["5B34E3B738D7B6B3"]
+			description: ["A Forester can support the colony’s wood demand. Provide tools, suitable trees and accessible working space. Match the wood supply to your chosen building style so the builder is not constantly waiting for another species."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: "minecolonies:blockhutlumberjack"
+			id: "4B119E84B19A1E3E"
+			optional: true
+			rewards: [
+				{
+					id: "3EC9798DBE12445E"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "1F74F6A6E0C40DB8"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_steam"
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 1.3d
+			tasks: [{
+				consume_items: false
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "5B853870BA282340"
+				item: "minecolonies:blockhutlumberjack"
+				type: "item"
+			}]
+			title: "A Supply of Timber"
+			x: 10.4d
+			y: -1.3d
+		}
+		{
+			dependencies: ["5B34E3B738D7B6B3"]
+			description: ["A Warehouse becomes the centre of colony logistics. Build it where couriers can reach workshops easily. Keep requested building materials organized and give incoming goods room to land."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: "minecolonies:blockhutwarehouse"
+			id: "076D7F6D55D40F0F"
+			optional: true
+			rewards: [
+				{
+					id: "68664AD2A7F2905F"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3E2A00BB3549CCC2"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_lv"
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 1.3d
+			tasks: [{
+				consume_items: false
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "6E1A7FBD0275284C"
+				item: "minecolonies:blockhutwarehouse"
+				type: "item"
+			}]
+			title: "A Shared Storehouse"
+			x: 7.15d
+			y: 1.9500000000000002d
+		}
+		{
+			dependencies: ["076D7F6D55D40F0F"]
+			description: ["A Courier moves supplies between the warehouse and workplaces. Build the Courier’s Hut and inspect delivery requests when a worker waits. Good roads, accessible entrances and enough warehouse space matter as much as the number of couriers."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: "minecolonies:blockhutdeliveryman"
+			id: "1F1A60D4C1E66361"
+			optional: true
+			rewards: [
+				{
+					id: "43AF01F4804A911D"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "727715C4BD00A068"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_lv"
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 1.3d
+			tasks: [{
+				consume_items: false
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "3CBC7312947E8105"
+				item: "minecolonies:blockhutdeliveryman"
+				type: "item"
+			}]
+			title: "Connect Your Workers"
+			x: 7.15d
+			y: 5.2d
+		}
+		{
+			dependencies: ["076D7F6D55D40F0F"]
+			description: ["A University unlocks research for colony development. Read each research requirement, supply its materials and assign a researcher. Choose upgrades that solve your current bottleneck. Colony research works alongside your factory; it does not replace the machine processes shown in JEI."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: "minecolonies:blockhutuniversity"
+			id: "37961612B114E7D2"
+			optional: true
+			rewards: [
+				{
+					id: "5187E96D7C650476"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "476548050030A6EC"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_lv"
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 1.3d
+			tasks: [{
+				consume_items: false
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "342AA409C032410D"
+				item: "minecolonies:blockhutuniversity"
+				type: "item"
+			}]
+			title: "Research the Next Step"
+			x: 14.950000000000001d
+			y: 1.9500000000000002d
+		}
+		{
+			dependencies: ["054E3F9A329E404E"]
+			description: ["Build a Guard Tower and equip your guards before expanding into exposed terrain. Keep roads lit and plan entrances that citizens can use safely. Security devices should protect the settlement without trapping your own workers."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: "minecolonies:blockhutguardtower"
+			id: "31180C099480B3F6"
+			optional: true
+			rewards: [
+				{
+					id: "532925F4033B26D3"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3E3E610458468AF6"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_steam"
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 1.3d
+			tasks: [{
+				consume_items: false
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "1C743BE358510E52"
+				item: "minecolonies:blockhutguardtower"
+				type: "item"
+			}]
+			title: "Protect the People"
+			x: 2.6d
+			y: -1.3d
+		}
+		{
+			dependencies: ["37961612B114E7D2"]
+			description: ["When construction stalls, inspect the exact requested item, tool level, worker assignment and route. A similar-looking block may not satisfy a schematic. Upgrade your Builder’s Hut as projects demand it, and finish important jobs before opening several expensive projects at once."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: "minecraft:bell"
+			id: "72323011864A999F"
+			optional: true
+			rewards: [{
+				id: "30B4AF6572565D32"
+				type: "xp"
+				xp: 10
+			}]
+			size: 1.3d
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "1055C17E21A2BD6D"
+				type: "checkmark"
+			}]
+			title: "Solve the Request, Then Expand"
+			x: 18.200000000000003d
+			y: 1.9500000000000002d
+		}
+	]
+	title: "Starting a Colony"
+}

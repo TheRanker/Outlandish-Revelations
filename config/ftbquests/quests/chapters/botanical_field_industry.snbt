@@ -1,0 +1,484 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "botanical_field_industry"
+	group: ""
+	icon: "botania:runic_altar"
+	id: "39F53BB405F4B7D2"
+	images: [{
+		height: 3.0d
+		image: "minecraft:textures/item/book.png"
+		rotation: 0.0d
+		width: 3.0d
+		x: 4.5d
+		y: -4.0d
+	}]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Press Andesite Alloy into a Mechanical Botanical Seed and use it to make a Pure Daisy. Place suitable blocks around the flower and let it transform them into Livingwood and Livingrock."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: "botania:pure_daisy"
+			id: "29D6C8CEA45B5453"
+			rewards: [{
+				id: "028B10AE965DB1D2"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "55326EFA72A56595"
+				item: "botania:pure_daisy"
+				type: "item"
+			}]
+			title: "Create: Living Materials"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["29D6C8CEA45B5453"]
+			description: ["Prepare LV Botanical Cores and Manasteel feedstock in your workshop. Infuse the feedstock with mana, then prepare a Runic Altar for your first runes."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: "kubejs:lv_botanical_core"
+			id: "10E6F5DA4568C94B"
+			rewards: [{
+				id: "5485FAD346D5E47C"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "340E10A3A10BC354"
+				item: "kubejs:lv_botanical_core"
+				type: "item"
+			}]
+			title: "LV: Manasteel and Runes"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["10E6F5DA4568C94B"]
+			description: ["Prepare the Terrestrial Agglomeration Plate through your MV workshop. Supply the ingredients and mana for the Terrasteel Dust recipe, including the MV Botanical Core, then use the GregTech finishing process shown in JEI to make your Terrasteel."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: "botania:terra_plate"
+			id: "29C0371822A8FAEB"
+			rewards: [{
+				id: "2ED6917A806B35A6"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "2537B9E08EC21260"
+				item: "botania:terra_plate"
+				type: "item"
+			}]
+			title: "MV: Terrasteel"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["29C0371822A8FAEB"]
+			description: ["Prepare the Elven Gateway and Natura Pylons at HV. Supply mana, open the gateway and use JEI to plan your Elven trades."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: "botania:alfheim_portal"
+			id: "63DC467E3B1AC0D7"
+			rewards: [{
+				id: "1DE289290DE94767"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "7D7A9712EA153506"
+				item: "botania:alfheim_portal"
+				type: "item"
+			}]
+			title: "HV: Elven Workshop"
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["63DC467E3B1AC0D7"]
+			description: ["Prepare EV Botanical Cores for Gaia Pylons and Orechid flowers. Build a clear Gaia arena, or prepare a renewable mana supply for your Orechid project."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: "botania:gaia_pylon"
+			id: "6E8F08A48C424573"
+			rewards: [{
+				id: "7F63EFF511FD164F"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "0BDC162A5BA2B33B"
+				item: "botania:gaia_pylon"
+				type: "item"
+			}]
+			title: "EV: Gaia and Ore Flowers"
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6E8F08A48C424573"]
+			description: ["Prepare the IV recipe for the Gaia summoning ingot and challenge Gaia again for a chance at relics. The Terra Blade is another IV goal."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: "botania:gaia_ingot"
+			id: "708D4BE3BB39008F"
+			rewards: [{
+				id: "50F7BFD6178EEAFA"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "07A2BB4AE746CF16"
+				item: "botania:gaia_ingot"
+				type: "item"
+			}]
+			title: "IV: Relics and Terra Blade"
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			description: ["Fish for Neptunium and prepare it at HV for Tinkers parts. Keep improving your fishing gear and watch for useful workshop supplies."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: "kubejs:prepared_aquaculture_tinkers_neptunium"
+			id: "65EC2ADAC8C9CFAD"
+			rewards: [{
+				id: "43CC81D73B3C73BF"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "16E886F33A0DB439"
+				item: "kubejs:prepared_aquaculture_tinkers_neptunium"
+				type: "item"
+			}]
+			title: "Fishing Supplies the Workshop"
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["10E6F5DA4568C94B"]
+			description: ["Explore for a Dormant Pickaxe Heater. Restore it at MV with a Cupronickel Coil Block and the MV Tooling Die, then equip the Artifact."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: "artifacts:pickaxe_heater"
+			id: "20F0B1579401CC47"
+			rewards: [
+				{
+					id: "7FCCEE000D18DB63"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "1BEF84F63D0D13E7"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_lv"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "2234355F180D6F73"
+				item: "artifacts:pickaxe_heater"
+				type: "item"
+			}]
+			title: "Restore a Found Artifact"
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			description: ["Prepare HV Field Controls and build a small MFFS system. Supply power, generate Fortron and check ownership and access cards with your teammates."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: "mffs:coercion_deriver"
+			id: "47124893338EAF52"
+			rewards: [{
+				id: "7F5CBB46B3C3FA37"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "2FA2F7BB4AA5A9C8"
+				item: "mffs:coercion_deriver"
+				type: "item"
+			}]
+			title: "HV: Powered Force Fields"
+			x: 6.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["47124893338EAF52"]
+			description: ["Use EV Field Controls for advanced security equipment. Test permissions with another player before enabling security around a shared workshop."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: "mffs:interdiction_matrix"
+			id: "35687DFCDE122A4E"
+			rewards: [{
+				id: "3481C53E2F0BA18A"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "52A182D0047EA809"
+				item: "mffs:interdiction_matrix"
+				type: "item"
+			}]
+			title: "EV: Field Security"
+			x: 9.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["35687DFCDE122A4E"]
+			description: ["Prepare IV Field Controls for larger fields and extra modules. Expand the power supply and storage alongside the field, then test the result."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: "mffs:scale_module"
+			id: "766AAECFDA3E0229"
+			rewards: [
+				{
+					id: "3BD29F406F666263"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "46B1F37499CA02C1"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_lv"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "188F7C68CBD9BC80"
+				item: "mffs:scale_module"
+				type: "item"
+			}]
+			title: "IV: Field Expansion"
+			x: 12.0d
+			y: 2.5d
+		}
+	]
+	title: "Botanical and Field Industry"
+}

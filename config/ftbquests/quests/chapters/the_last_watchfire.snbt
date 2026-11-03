@@ -1,0 +1,39 @@
+{
+  id: "BA1E000000000001"
+  filename: "the_last_watchfire"
+  group: "671F319DF12B461D"
+  order_index: 10
+  title: "The Last Watchfire"
+  quests: [{
+    id: "BA1E000000000002"
+    title: "A Witness, Not a Verdict"
+    description: [
+  "Search Incendium Nether biomes outside the Infernal Dunes. Nether access still requires your team to trigger and defeat the same Warden.",
+  "",
+  "Use a Quest Scroll to speak with Valen Cinderwatch. Complete this NPC's 7 deliveries in Quest Giver; this FTB quest tracks the final personal completion advancement.",
+  "Give the requested materials to the named NPC one at a time. Each accepted delivery repairs part of that nearby building. A player-placed block at a repair site is preserved.",
+  "",
+  "Deliveries, in order:",
+  "1. Stone for Those Returning: 16 Nether Bricks.",
+  "2. A Signal Still Standing: 16 Basalt.",
+  "3. Guard the Living: 12 Iron Ingot.",
+  "4. A Banner Without a Boast: 8 Red Wool.",
+  "5. Keep the Markers Clear: 4 Gold Ingot.",
+  "6. An Account That Can Be Questioned: 12 Paper.",
+  "7. The Last Watchfire: 4 Soul Lantern.",
+  "",
+  "Each storyline is one-time per player across every copy of that NPC. Finding another building does not restart it. If you change buildings midway, earlier repairs do not move to the new copy.",
+  "Story benefits: restore the building, hear the next part of The Unfinished Promise and record your personal completion. This FTB entry adds no separate item reward. Existing FTB team sharing may complete the tracker for teammates; their personal NPC history remains separate.",
+  "Next story lead: A.U.R.A.. Follow the existing dimension requirements when travelling onward; the story does not unlock dimensions."
+]
+    icon: "minecraft:soul_lantern"
+    x: 0.0d
+    y: 0.0d
+    tasks: [{
+      id: "BA1E000000000003"
+      type: "advancement"
+      advancement: "outlandish:story/valen_cinderwatch_completed"
+      criterion: ""
+    }]
+  }]
+}

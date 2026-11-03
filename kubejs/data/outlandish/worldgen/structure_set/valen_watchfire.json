@@ -1,0 +1,15 @@
+{
+  "structures": [
+    {
+      "structure": "outlandish:valen_watchfire",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 19408351,
+    "spacing": 24,
+    "separation": 8,
+    "spread_type": "linear"
+  }
+}

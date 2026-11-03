@@ -1,0 +1,38 @@
+{
+  "parent": "quest_giver:quest_01",
+  "repeatable": false,
+  "icon": "minecraft:stone_bricks",
+  "start": {
+    "title": {
+      "translate": "What the Foundations Remember"
+    },
+    "description": {
+      "translate": "The floor shifted during the catastrophe. Twelve stone bricks will help shore up the damaged foundations. I would rather lose my pride than another visitor beneath the floor. Hand the materials to me one at a time."
+    }
+  },
+  "tasks": [
+    {
+      "id": "quest_giver:gift",
+      "item": {
+        "item": "minecraft:stone_bricks"
+      },
+      "entity": "minecraft:villager",
+      "name": "Professor Alden Voss",
+      "times": 12
+    }
+  ],
+  "complete": {
+    "title": {
+      "translate": "What the Foundations Remember"
+    },
+    "description": {
+      "translate": "The foundations are sound again. The engine shook before the furnace grew hot. That order matters."
+    }
+  },
+  "rewards": [
+    {
+      "id": "quest_giver:command",
+      "command": "execute at @s run function outlandish:story/alden_voss/delivery_02"
+    }
+  ]
+}

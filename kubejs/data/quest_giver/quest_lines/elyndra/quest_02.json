@@ -1,0 +1,38 @@
+{
+  "parent": "quest_giver:quest_01",
+  "repeatable": false,
+  "icon": "minecraft:oak_planks",
+  "start": {
+    "title": {
+      "translate": "A Roof Among the Leaves"
+    },
+    "description": {
+      "translate": "Bring sixteen oak planks for the roof and broken screens. Take what you need with care, and leave room for new growth. Hand the materials to me one at a time."
+    }
+  },
+  "tasks": [
+    {
+      "id": "quest_giver:gift",
+      "item": {
+        "item": "minecraft:oak_planks"
+      },
+      "entity": "minecraft:villager",
+      "name": "Elyndra",
+      "times": 16
+    }
+  ],
+  "complete": {
+    "title": {
+      "translate": "A Roof Among the Leaves"
+    },
+    "description": {
+      "translate": "The refuge can offer shelter again. The Ranker's promise was not unfinished because he lacked the will to fight. A promise of protection cannot be completed by force alone."
+    }
+  },
+  "rewards": [
+    {
+      "id": "quest_giver:command",
+      "command": "execute at @s run function outlandish:story/elyndra/delivery_02"
+    }
+  ]
+}

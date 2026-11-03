@@ -1,0 +1,3157 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "medium_voltage"
+	group: "0BA74938AD86532B"
+	icon: "gtceu:good_electronic_circuit"
+	id: "574AC3A76DC03364"
+	images: [{
+		height: 3.0d
+		image: "minecraft:textures/item/book.png"
+		rotation: 0.0d
+		width: 3.0d
+		x: -5.5d
+		y: -5.0d
+	}]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Remember: Overclocking runs a recipe twice as fast but at four times power consumption"
+				""
+				"As you start replacing machines, you can put the old ones in a macerator to reclaim some of the ingredients used in crafting it"
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "262AE37765B139BE"
+			rewards: [
+				{
+					id: "2069F5E27D17E3B6"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "73FAB82D3EDC2227"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_mv"
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			subtitle: "Welcome to &bMV&r"
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "7DECEDB572639CFF"
+				item: "gtceu:good_electronic_circuit"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 0.19999999999999996d
+		}
+		{
+			dependencies: [
+				"57F1B60DEA622275"
+				"2B9BA85662BF637C"
+				"246882DD125868EC"
+				"0E603F1FE596DB2A"
+				"4E1D5EC061A4AE55"
+			]
+			description: [
+				"               Congratulations! "
+				""
+				"With the Advanced Integrated Circuit you have successfully made it to High Voltage!"
+				""
+				"You can toss out those old recipes for Basic Electronic Circuits and Good Electronic Circuits and replace them with their Integrated versions"
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: "gtceu:advanced_integrated_circuit"
+			id: "2C28217E1131A63A"
+			rewards: [
+				{
+					id: "393CDD69E1A97FFE"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "502F2B7FE7D13923"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_mv"
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			subtitle: "A new era"
+			tasks: [
+				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
+					id: "3948D4991F8810F6"
+					item: "gtceu:basic_integrated_circuit"
+					type: "item"
+				}
+				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
+					id: "2E681E532E087237"
+					item: "gtceu:good_integrated_circuit"
+					type: "item"
+				}
+				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
+					id: "74F24FDAA9C6153D"
+					item: "gtceu:advanced_integrated_circuit"
+					type: "item"
+				}
+			]
+			title: "Advanced Integrated Circuit"
+			x: 2.25d
+			y: -2.25d
+		}
+		{
+			dependencies: ["262AE37765B139BE"]
+			description: [
+				"I know, this is an LV machine in the MV age, but trust me, it is worth the MV circuits it takes to craft this"
+				""
+				"Circuits become cheaper to craft with the Circuit Assembler, and you will need a lot of circuits"
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "246882DD125868EC"
+			rewards: [
+				{
+					id: "3DF2116DF9E49EE0"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "42AECA3A8E8FE1E2"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_lv"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Cheaper circuits!"
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "2BA5756D55310A03"
+				item: "gtceu:lv_circuit_assembler"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"063F5023D56CA6B1"
+				"6A82827978D3483B"
+				"06BBD7B736C564C1"
+			]
+			description: ["Prepare Transistor with the JEI recipe. Check machine voltage and fluid inputs, then make a reserve for the next connected quests."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "0E603F1FE596DB2A"
+			rewards: [
+				{
+					id: "37D07C665F9634EB"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0477033EDE72D79B"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_mv"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "4EFE2448BBA41309"
+				item: "gtceu:transistor"
+				type: "item"
+			}]
+			x: 1.5000000000000009d
+			y: 0.19999999999999996d
+		}
+		{
+			dependencies: ["100ADA8508F6502A"]
+			description: ["That wafer needs to be cut into chips now, so back to the Cutter with these"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "57F1B60DEA622275"
+			rewards: [
+				{
+					id: "5AA6F4B9A7D7C4E1"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "2884EBF95CB39508"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_mv"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "5805B28FB0547910"
+				item: "gtceu:ilc_chip"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["7EFA4F2C0A895502"]
+			description: ["Engraved wafers need to be cut into the appropriate size, so back to the Cutter we go!"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "2B9BA85662BF637C"
+			rewards: [
+				{
+					id: "55A39BBF3CBDDB3F"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4B04D1AC6BF7DCB3"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_mv"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "2900399703D087CC"
+				item: "gtceu:ram_chip"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"54A164C737660C4E"
+				"2AB457E29360E3B8"
+			]
+			description: ["Prepare Silicon Ingot with the JEI recipe. Check machine voltage and fluid inputs, then make a reserve for the next connected quests."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "662E0A84D755064F"
+			rewards: [
+				{
+					id: "2348F951294FB9F4"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0E5BD83CE089A46E"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_mv"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "1B2434CAA46B1B5E"
+				item: "gtceu:silicon_ingot"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5E90EF7FF530C477"]
+			description: [
+				"Ethylene with even more oxygen will make you Polyethylene"
+				""
+				"Do note you need to use &eProgram 1&r for this recipe"
+				""
+				"You could use air instead of oxygen, but you'll get less Polyethylene out"
+				""
+				"This stuff is very versatile, we'll be using a lot of it, so be sure to make a bunch or better yet make it passively"
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "6A82827978D3483B"
+			rewards: [
+				{
+					id: "6BD7E76F3312A37E"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0E430B94CAD6455B"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_mv"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Even more oxygen"
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "6A3EF1D7987AA6BB"
+				item: "gtceu:polyethylene_bucket"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.4d
+		}
+		{
+			dependencies: ["262AE37765B139BE"]
+			description: ["Once you've got polyethylene set up, you can switch to making machine hulls in the Assembler to save on some materials"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "063F5023D56CA6B1"
+			rewards: [
+				{
+					id: "1B629A76A8267E15"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "266B8E9D3694AAA1"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_mv"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Greggers, ASSEMBLE!"
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "37E2BCA62B82CFF5"
+				item: "gtceu:mv_assembler"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.19999999999999996d
+		}
+		{
+			dependencies: ["707EBA5717938515"]
+			description: [
+				"Turn blocks into plates with this one trick!"
+				""
+				"Also very useful for making silicon wafers and wafer chips, which we'll get into shortly"
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "0D1A6B32FEB51FAD"
+			rewards: [
+				{
+					id: "6F6C3E73B3417EA7"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "71B383C6E1AE918A"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_mv"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "The cutting edge"
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "7BE3C637D0A738EF"
+				item: "gtceu:mv_cutter"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.5000000000000004d
+		}
+		{
+			dependencies: [
+				"4DD7F3508B757EF0"
+				"1F92F7314DF3C3E2"
+			]
+			description: ["One ruby plate in the Lathe will make a Ruby Lens"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "26004F997C758011"
+			rewards: [{
+				id: "7742DCB74500D3F7"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "6719992674D5E9F1"
+				item: "gtceu:ruby_lens"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.5000000000000018d
+		}
+		{
+			dependencies: [
+				"0D1A6B32FEB51FAD"
+				"26D1F1ECF66194E6"
+			]
+			description: [
+				"The cutter will make quick work of the boule and turn it into 16 wafers"
+				""
+				"You can also use these wafers to make cheaper diodes - time to upgrade that recipe!"
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "688AFF76CF5E599A"
+			rewards: [
+				{
+					id: "7A3671B6E79256E1"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "76BF16038E87E38E"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_mv"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "5205FCBDC094E2F2"
+				item: "gtceu:silicon_wafer"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -0.9999999999999989d
+		}
+		{
+			description: [
+				"&e32x Silicon Dust&r and a &aSmall Pile of Gallium Arsenide Dust&r on &bProgram 2&r will make you one of these "
+				""
+				"It might be worth making a new EBF, one for just Program 1 recipes"
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "26D1F1ECF66194E6"
+			rewards: [
+				{
+					id: "06C4D0C99158C976"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "2E36296F10252C53"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_mv"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "6A276D195CB7BAD1"
+				item: "gtceu:silicon_boule"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -2.4999999999999973d
+		}
+		{
+			dependencies: [
+				"545959C8C28C6F2B"
+				"26004F997C758011"
+				"644B16B9618B41BE"
+			]
+			description: [
+				"Uses a laser and specific lenses to engrave different patterns on the wafers"
+				""
+				"You might want to make one of these per lens we make, so you don't have to change out the lenses manually when automating"
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "11F7D3DDF5683EB3"
+			rewards: [
+				{
+					id: "2EBCE18043D77811"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "50742DF1F39731AC"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_mv"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "699D8FAFFE29593C"
+				item: "gtceu:mv_laser_engraver"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -3.5000000000000018d
+		}
+		{
+			dependencies: [
+				"1ACD6672F72664D6"
+				"1F92F7314DF3C3E2"
+			]
+			description: ["Process one of those emerald plates in a Lathe to get your Emerald Lens!"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "545959C8C28C6F2B"
+			rewards: [{
+				id: "16950710D10185F1"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "26EADF8B321DFAA6"
+				item: "gtceu:emerald_lens"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -3.5000000000000018d
+		}
+		{
+			dependencies: ["262AE37765B139BE"]
+			description: [
+				"Insert gem plate and get gem lens"
+				""
+				"Still makes rods too!"
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "1F92F7314DF3C3E2"
+			rewards: [
+				{
+					id: "6B4C96ACE33EEC7B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "49C7CE1D4F1883BC"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_mv"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "79464C2A1BC4AF5A"
+				item: "gtceu:mv_lathe"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -5.500000000000011d
+		}
+		{
+			dependencies: ["0D1A6B32FEB51FAD"]
+			description: ["Use the cutter with a block of emerald to get emerald plates"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "1ACD6672F72664D6"
+			rewards: [{
+				id: "4165234EDBAE1A23"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "08D29D56F156C82E"
+				item: "gtceu:emerald_plate"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -1.4999999999999984d
+		}
+		{
+			dependencies: ["0D1A6B32FEB51FAD"]
+			description: ["Insert a block of ruby into your cutter to get nine ruby plates"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "4DD7F3508B757EF0"
+			rewards: [{
+				id: "16A756955B6CB9B8"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "56729AE1F5992DB7"
+				item: "gtceu:ruby_plate"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.4999999999999984d
+		}
+		{
+			dependencies: ["0D1A6B32FEB51FAD"]
+			description: [
+				"There are many ways to make lubricant"
+				""
+				"One way I would suggest is to extract fish oil from fish and then distill that into lubricant"
+				""
+				"Lubricant is very useful with a cutter because recipes using it are much faster compared to water for example"
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "42FD79CEB3426861"
+			rewards: [
+				{
+					id: "0214E5992B3A31FD"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "782AFBC0CD345E5F"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_mv"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "4DA40BBA92BE3271"
+				item: "gtceu:lubricant_bucket"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 1.5000000000000013d
+		}
+		{
+			dependencies: ["262AE37765B139BE"]
+			description: [
+				"This is typically used in Ore Processing lines to get alternative byproducts by washing crushed ore in mercury or sodium persulfate"
+				""
+				"In this case though, it can also be used to cool hot silicon ingots"
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "54A164C737660C4E"
+			rewards: [
+				{
+					id: "0AA9036F2D4131CE"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "77EA140702841EC6"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_mv"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "67DE2F5E9646F51B"
+				item: "gtceu:mv_chemical_bath"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["589F47DE51213920"]
+			description: [
+				"Put those dusts we just made into your electric blast furnace and get some hot silicon!"
+				""
+				"Holding a hot ingot will damage you, but you have to for this quest because I'm a little evil"
+				""
+				"You will need to cool it, in this case with a chemical bath"
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "2AB457E29360E3B8"
+			rewards: [
+				{
+					id: "0F204894E9C71571"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "08C5A61C36B2D91B"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_mv"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Hot potato"
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "00676E5631ED2A66"
+				item: "gtceu:hot_silicon_ingot"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["262AE37765B139BE"]
+			description: [
+				"You can find raw aluminium in the End, and raw aluminum just about everywhere!"
+				""
+				"Alternatively, you can acquire aluminum by processing a variety of items like bauxite in an electrolyzer for example"
+				""
+				"We can also generate aluminum passively in the clay line process"
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "1C1802ABF3EE3120"
+			rewards: [
+				{
+					id: "0A9ADD1C4DE8CA0F"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "350821400A1DBB6F"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_mv"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "Aluminium is that you?"
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				icon: "gtceu:aluminium_ingot"
+				id: "7B46FA23AF26BF76"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ingots/aluminum"
+					}
+				}
+				title: "Aluminum Ingot"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"11F7D3DDF5683EB3"
+				"688AFF76CF5E599A"
+			]
+			description: ["A Glass Lens (Green) can also make this, but making the colored glass lens is an HV recipe"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "7EFA4F2C0A895502"
+			rewards: [
+				{
+					id: "160318641496447C"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "096F7065F33494AC"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_mv"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "412F8874629333ED"
+				item: "gtceu:ram_wafer"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -2.4999999999999973d
+		}
+		{
+			dependencies: [
+				"11F7D3DDF5683EB3"
+				"688AFF76CF5E599A"
+			]
+			description: ["A Glass Lens (Red) can also make this, but making glass lenses is an HV recipe"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "100ADA8508F6502A"
+			rewards: [
+				{
+					id: "5AD193B848278200"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "1D619C5D74EE82D7"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_mv"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "0B29B51417A0773F"
+				item: "gtceu:ilc_wafer"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.4999999999999973d
+		}
+		{
+			dependencies: [
+				"629DC8DED0F6B578"
+				"579A41570D610B07"
+			]
+			description: [
+				"Ethanol + Sulfuric Acid in a &eChemical Reactor&r makes Ethylene"
+				""
+				"There are other methods of course, but those involve petrochemistry which we aren't getting into quite yet"
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "5E90EF7FF530C477"
+			rewards: [
+				{
+					id: "5954DF2772B2947F"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "2A6A82A57A3FBD42"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_mv"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "1D9C137DC559E76F"
+				item: "gtceu:ethylene_bucket"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"307F92868E0F4EB3"
+				"22AC248B6BB88486"
+			]
+			description: ["Distilling biomass results in ethanol, which is alcohol, but don't tell anyone I told you"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "629DC8DED0F6B578"
+			rewards: [
+				{
+					id: "186F86047464276F"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "09DBB95EA63243FB"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_mv"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Not for drinking"
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "70555BDDBADF02A3"
+				item: "gtceu:ethanol_bucket"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			description: [
+				"Use a &aMortar&r on some coal to get coal dust"
+				""
+				"Put your coal dust through the &eCentrifuge&r to get carbon dust"
+				""
+				"Use that Centrifuge again, with glass dust this time, to get silicon dioxide dust"
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "589F47DE51213920"
+			rewards: [
+				{
+					id: "123AA7806A238728"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "2FF0451D94263F24"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_mv"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [
+				{
+					count: 2L
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
+					id: "7FFE2CFE2C3F5E41"
+					item: "gtceu:carbon_dust"
+					type: "item"
+				}
+				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
+					id: "7C28E6CC97ACE6A3"
+					item: "gtceu:silicon_dioxide_dust"
+					type: "item"
+				}
+			]
+			title: "Silicon ingredients"
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["662E0A84D755064F"]
+			description: ["Prepare Silicon Plate with the JEI recipe. Check machine voltage and fluid inputs, then make a reserve for the next connected quests."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "06BBD7B736C564C1"
+			rewards: [
+				{
+					id: "1E27E86E3FA1AC17"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7154B2B74B4F5FAC"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_mv"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "76730D2C8D492CAA"
+				item: "gtceu:silicon_plate"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"492386DF6CA892BD"
+				"53AF056139DAACDB"
+			]
+			description: ["Biomass is useful for many things like ethanol and methanol production"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "307F92868E0F4EB3"
+			rewards: [
+				{
+					id: "17EFFF54A2B5FCBF"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6993315CE1780B9F"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_mv"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "17A555336A386EDA"
+				item: "gtceu:biomass_bucket"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["262AE37765B139BE"]
+			description: [
+				"Distills compounds into other substances - note the programmed circuit setting for the available recipes"
+				""
+				"There is a Distillation Tower, but we will get into that later on"
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "22AC248B6BB88486"
+			rewards: [
+				{
+					id: "4F088257C2994F1C"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6E623304DC884B9A"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_mv"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "6DA7AD27CA056906"
+				item: "gtceu:mv_distillery"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["262AE37765B139BE"]
+			description: ["Follow the tasks shown here and use the connected quests to plan your next step. Check JEI for recipes and ingredient alternatives."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "492386DF6CA892BD"
+			rewards: [
+				{
+					id: "3E9B58985FDF3138"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "498F5EA3939A2A64"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_mv"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Not that kind of brewery"
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "47A9907066F31663"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:lv_brewery"
+							}
+							{
+								Count: 1b
+								id: "gtceu:mv_brewery"
+							}
+						]
+					}
+				}
+				title: "A Brewery"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6300791605A757B0"]
+			description: [
+				"Macerate those plant balls and make some bio chaff"
+				""
+				"When automating this, make sure you set the output to only 2 bio chaff and not 4. The chance outputs will confuse the autocrafting setup otherwise"
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "53AF056139DAACDB"
+			rewards: [
+				{
+					id: "366A18C475A54E9E"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "54C08D8193833F66"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_mv"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "646E2D0A688D28AD"
+				item: "gtceu:bio_chaff"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["262AE37765B139BE"]
+			description: ["Put water on the left and lava on the right of your &erock crusher&r, in the world, then insert a single diorite block in the rock crusher, and watch it create more diorite for you"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: "gtceu:mv_rock_crusher"
+			id: "6275C90E5890C1E4"
+			optional: true
+			rewards: [
+				{
+					id: "362C350662ABBECB"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "32792BF84A213FBF"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_mv"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.25d
+			subtitle: "Passive aluminium"
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "2D0B938BFFE7D76C"
+				item: "gtceu:mv_rock_crusher"
+				type: "item"
+			}]
+			title: "The clayline"
+			x: -8.975000000000001d
+			y: 2.9749999999999996d
+		}
+		{
+			dependencies: ["262AE37765B139BE"]
+			description: ["Also makes those magnetic iron rods for just some energy - save your redstone!"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "1BD5B25B80EC0F97"
+			rewards: [
+				{
+					id: "003A33472F7F4D5F"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3CB7824290DDD795"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_mv"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Magnetizing!"
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "4C32A748A4630A95"
+				item: "gtceu:mv_polarizer"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["262AE37765B139BE"]
+			description: [
+				"Extruders force ingots into various shapes with the use of the extruder mold"
+				""
+				"It is often cheaper to use the extruder to make crafting components like rotors for example"
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "0A2675CF16B6443B"
+			optional: true
+			rewards: [
+				{
+					id: "3125A2BC6E3E54AF"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "1922767923C7B993"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_mv"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "0997C42AD73E0890"
+				item: "gtceu:mv_extruder"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0A2675CF16B6443B"]
+			description: ["Prepare Rotor Extruder Mold with the JEI recipe. Check machine voltage and fluid inputs, then make a reserve for the next connected quests."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "53E1B892386DD42F"
+			optional: true
+			rewards: [
+				{
+					id: "23DA4B5D6C95F416"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "1C768CA0AE2851DA"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_mv"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "1724B18A1A47C232"
+				item: "gtceu:rotor_extruder_mold"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0A2675CF16B6443B"]
+			description: ["Prepare Normal Pipe Extruder Mold with the JEI recipe. Check machine voltage and fluid inputs, then make a reserve for the next connected quests."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "54A619012A5FD814"
+			optional: true
+			rewards: [
+				{
+					id: "6BF07AE8A3DDBBFC"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "1B73202C86C5ADAE"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_mv"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "74B66E8EEC327F1D"
+				item: "gtceu:normal_pipe_extruder_mold"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0A2675CF16B6443B"]
+			description: ["Prepare Bolt Extruder Mold with the JEI recipe. Check machine voltage and fluid inputs, then make a reserve for the next connected quests."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "1E5032F8420016AB"
+			optional: true
+			rewards: [
+				{
+					id: "19BCAEEAA1938E9E"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "53CDC4546DC8F088"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_mv"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "4366765C95E0F2DA"
+				item: "gtceu:bolt_extruder_mold"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1BD5B25B80EC0F97"]
+			description: ["You'll need these for MV Electric Motors, a component for many MV machines"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "497028C92F886AE0"
+			rewards: [
+				{
+					id: "391B0C554552AA4A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7A94DDAC0325A87A"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_mv"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "638FE467700933F2"
+				item: "gtceu:magnetic_steel_rod"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["72DACA35906D7E5B"]
+			description: ["Finally, it is time to electrolyze the clay dust and get that sweet, sweet aluminium dust"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "41FCD7F5B7E6E261"
+			optional: true
+			rewards: [
+				{
+					id: "16A2ADBAE5D6728C"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "59E36712DBB6484F"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_mv"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "A good source of silicon too"
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "1AF82AB8FAD6E515"
+				item: "gtceu:mv_electrolyzer"
+				type: "item"
+			}]
+			x: -9.000000000000002d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"6E9126ECA080E725"
+				"72DACA35906D7E5B"
+			]
+			description: [
+				"Our first cover! Covers alter the behavior of machines in a multitude of ways, but this isn't the place to get into all of that"
+				""
+				"The &arobot arm&r cover will allow you to export (by default) or import items into a machine. In this case, using that buffer chest/barrel from before, you can import specifically diorite dust"
+				""
+				"Why is this LV when we're in MV? Well, because it is cheaper to make and covers don't explode despite the voltage difference"
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: "gtceu:lv_robot_arm"
+			id: "2341D611975C58AF"
+			optional: true
+			rewards: [
+				{
+					id: "06EAF7F7AE447D91"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "5B1A93B5FB22A8D6"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_lv"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Auto import? Yes please"
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "4A4FD0588A9C3448"
+				item: "gtceu:lv_robot_arm"
+				type: "item"
+			}]
+			x: -8.300000000000002d
+			y: 4.800000000000001d
+		}
+		{
+			dependencies: ["6275C90E5890C1E4"]
+			description: [
+				"Grind that diorite into diorite dust! You'll also get a small chance at stone dust, which you will need to account for"
+				""
+				"It is recommended that you auto output into a buffer chest/barrel and just trash the stone dust"
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "6E9126ECA080E725"
+			optional: true
+			rewards: [
+				{
+					id: "4CC41AD4F85CE1CA"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "50081BD1D618A429"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_mv"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "026C2FC05C707BFF"
+				item: "gtceu:mv_macerator"
+				type: "item"
+			}]
+			x: -9.000000000000002d
+			y: 4.100000000000001d
+		}
+		{
+			dependencies: ["6E9126ECA080E725"]
+			description: [
+				"Centrifuge the diorite dust to get clay dust and mirabilite dust"
+				""
+				"The mirabilite can be saved for later processing, if you like"
+				""
+				"The next step just uses clay dust, so you'll have to do something with that mirabilite dust"
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "72DACA35906D7E5B"
+			optional: true
+			rewards: [
+				{
+					id: "153F7FE2473B5867"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "27269BEDB3689DA1"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_mv"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "2F87D396311C6602"
+				item: "gtceu:mv_centrifuge"
+				type: "item"
+			}]
+			x: -9.700000000000001d
+			y: 4.800000000000001d
+		}
+		{
+			dependencies: ["262AE37765B139BE"]
+			description: ["This uses even more steam! It might be time to build another boiler"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "2AEDB489A017AAF9"
+			optional: true
+			rewards: [
+				{
+					id: "4E257D3EED48E02B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "30E05DCEB338719C"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_mv"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Full steam ahead!"
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "28BC15EC9BCAB1B6"
+				item: "gtceu:mv_steam_turbine"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["262AE37765B139BE"]
+			description: ["When powering multiple machines, keep in mind cable loss!"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "428C034C78923B6C"
+			optional: true
+			rewards: [
+				{
+					id: "6AAE4AA993CB4069"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4E427896A544A91E"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_mv"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "71567A9437A86C2F"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:mv_1a_energy_converter"
+							}
+							{
+								Count: 1b
+								id: "gtceu:mv_4a_energy_converter"
+							}
+							{
+								Count: 1b
+								id: "gtceu:mv_8a_energy_converter"
+							}
+							{
+								Count: 1b
+								id: "gtceu:mv_16a_energy_converter"
+							}
+						]
+					}
+				}
+				title: "Any MV Energy Converter"
+				type: "item"
+			}]
+			title: "MV Energy Converters"
+			x: -9.5d
+			y: 1.5d
+		}
+		{
+			description: [
+				"Eight plants in a Compressor will create a plant ball"
+				""
+				"You can also get these as a chance output from the centrifuge when making glue"
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "6300791605A757B0"
+			rewards: [
+				{
+					id: "0FE1F330860933DA"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7E0D1BD5A8DFD24A"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_mv"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "Compressed plant matter"
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "577EEBAF4FACDCA1"
+				item: "gtceu:plant_ball"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["24E3CB198F73524A"]
+			description: ["A copper ingot and 63mB of oxygen in your arc furnace will make an annealed copper ingot"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "4E1D5EC061A4AE55"
+			rewards: [
+				{
+					id: "70512DF20AB6E77D"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "34166C7A9BD6EC7C"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_mv"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "5CB8068643C87602"
+				item: "gtceu:annealed_copper_ingot"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["262AE37765B139BE"]
+			description: [
+				"A little oxygen and some electricity and you can anneal copper"
+				""
+				"This will also allow you to break down old machines into ingot forms rather than dust like in the macerator"
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: "gtceu:mv_arc_furnace"
+			id: "24E3CB198F73524A"
+			rewards: [
+				{
+					id: "15C7663195A4FE00"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "617745FCC8063446"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_mv"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Arcing electricity!"
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "77EF6FE6C54C104A"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:lv_arc_furnace"
+							}
+							{
+								Count: 1b
+								id: "gtceu:mv_arc_furnace"
+							}
+						]
+					}
+				}
+				title: "Arc Furnace"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["262AE37765B139BE"]
+			description: [
+				"This machine is going to see a lot of use, upgrading it is worth it to keep it processing recipes quickly"
+				""
+				"Consider making multiple of these to help process recipes in parallel"
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "579A41570D610B07"
+			rewards: [
+				{
+					id: "1F199C11040A149D"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7C10D5F463B33C47"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_mv"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Where's your lab coat?"
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "3165B02F2BFFEDDA"
+				item: "gtceu:mv_chemical_reactor"
+				title: "Chemical Reactor"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4E1D5EC061A4AE55"]
+			description: [
+				"Still crafting resistors in a crafting grid? "
+				""
+				"Take that annealed copper, turn it into fine wire, then add a little glue and carbon to make 4 resistors at once in your Assembler"
+				""
+				"Talk about a recipe upgrade!"
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "4AE05E80142C12A6"
+			optional: true
+			rewards: [
+				{
+					id: "7FF2A6BED70735ED"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0F34F1836D2E1927"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_mv"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
+					id: "2F26EFD73DE0E8A1"
+					item: "gtceu:fine_annealed_copper_wire"
+					type: "item"
+				}
+				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
+					id: "427138127BEBAEAF"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "gtceu:carbon_dust"
+								}
+								{
+									Count: 1b
+									id: "gtceu:charcoal_dust"
+								}
+								{
+									Count: 1b
+									id: "gtceu:coal_dust"
+								}
+								{
+									Count: 1b
+									id: "enderio:powdered_coal"
+								}
+							]
+						}
+					}
+					title: "Carbon dust"
+					type: "item"
+				}
+			]
+			title: "Resistors Revisited"
+			x: 0.5d
+			y: -5.5d
+		}
+		{
+			description: [
+				"A new setup for ore processing! "
+				""
+				"[ \"\", { \"text\": \"The \" }, { \"text\": \"Sifter \", \"color\":\"yellow\" }, { \"text\": \"replaces the Thermal Centrifuge and 2nd Macerator in the \" }, { \"text\":\"Ore Processing Setup\", \"color\":\"gold\", \"clickEvent\": { \"action\":\"change_page\", \"value\":\"25DBFE887B041E94\" }, \"underlined\":\"true\", \"hoverEvent\": { \"action\":\"show_text\", \"contents\": { \"text\":\"Click here for a reminder\" } } } ]"
+				""
+				"You don't have to build a new setup just for this if you are clever with filters and your item flow, but a new setup is probably less work"
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "51DB667E991E51F0"
+			rewards: [{
+				id: "6EDCDEE40161B8A8"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "0ED34925D7A494BF"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:lv_sifter"
+							}
+							{
+								Count: 1b
+								id: "gtceu:mv_sifter"
+							}
+						]
+					}
+				}
+				title: "Sifter"
+				type: "item"
+			}]
+			x: 7.699999999999999d
+			y: -4.300000000000001d
+		}
+		{
+			dependencies: ["51DB667E991E51F0"]
+			description: [
+				"Process &aRaw Emerald&r or silk-touched &aNether Emerald Ore&r through a Macerator, then Ore Washer the crushed ore, then start &esifting&r the purified ore for &bExquisite&r or &bFlawless&r gems"
+				""
+				"It does have to be GregTech's emerald ore, you can't use regular silk-touched emerald ore for this"
+				""
+				"&e&lHint:&r To find GregTech™ emeralds, look for &dberyllium&r in the Nether &cbetween y=5 and y=30&r, or you can check the Mining Dimension in the netherrack layer!"
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "644B16B9618B41BE"
+			min_width: 250
+			rewards: [{
+				id: "6A535A6C81AF330E"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "4DB8770CF9F924C5"
+				item: "gtceu:flawless_emerald_gem"
+				type: "item"
+			}]
+			x: 6.4d
+			y: -4.300000000000001d
+		}
+		{
+			dependencies: [
+				"63621F0189B6EB1B"
+				"7963008B930D84BB"
+			]
+			description: ["Prepare Vanadium Steel Ingot with the JEI recipe. Check machine voltage and fluid inputs, then make a reserve for the next connected quests."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "707EBA5717938515"
+			rewards: [
+				{
+					id: "163C340535E8E97A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "049FA0E13A9C9EB8"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_mv"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "72380DD47A0B98BD"
+				item: "gtceu:vanadium_steel_ingot"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["262AE37765B139BE"]
+			description: ["Making &bvanadium steel dust&r is an MV recipe in the Mixer, so it is time for an upgrade! "]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "63621F0189B6EB1B"
+			rewards: [
+				{
+					id: "1A1F39E38E5A8596"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "43720EC35D614D1C"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_mv"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "72EB03DB951E83D4"
+				item: "gtceu:mv_mixer"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["262AE37765B139BE"]
+			description: ["This machine is very useful for acquiring &dchromium dust&r, which we'll need to make &bstainless steel dust&r and &bvanadium steel dust&r"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "7963008B930D84BB"
+			rewards: [
+				{
+					id: "5EE88E0F72501F48"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "5DF8C2DC3E30CD77"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_mv"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "0AEB920BEAD1C447"
+				item: "gtceu:mv_electrolyzer"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 1.5d
+		}
+	]
+	title: "Metallurgy MV+"
+}

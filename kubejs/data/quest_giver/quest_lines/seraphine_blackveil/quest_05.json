@@ -1,0 +1,38 @@
+{
+  "parent": "quest_giver:quest_04",
+  "repeatable": false,
+  "icon": "minecraft:gold_ingot",
+  "start": {
+    "title": {
+      "translate": "A Seal We Choose"
+    },
+    "description": {
+      "translate": "Four gold ingots for the supply seals and the ration bench fittings. Gold speaks clearly to some of our neighbours. These stores must reach the people named on the register. Hand the materials to me one at a time."
+    }
+  },
+  "tasks": [
+    {
+      "id": "quest_giver:gift",
+      "item": {
+        "item": "minecraft:gold_ingot"
+      },
+      "entity": "minecraft:villager",
+      "name": "Seraphine Blackveil",
+      "times": 4
+    }
+  ],
+  "complete": {
+    "title": {
+      "translate": "A Seal We Choose"
+    },
+    "description": {
+      "translate": "The seals on the last Concord dispatch did not match the delivery we received. At the time, we were too hungry to investigate. I kept the impression anyway."
+    }
+  },
+  "rewards": [
+    {
+      "id": "quest_giver:command",
+      "command": "execute at @s run function outlandish:story/seraphine_blackveil/delivery_05"
+    }
+  ]
+}

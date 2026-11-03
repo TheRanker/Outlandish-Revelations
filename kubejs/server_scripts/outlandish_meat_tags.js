@@ -1,0 +1,14 @@
+ServerEvents.tags('item', event => {
+  event.add('forge:meat', [
+    'minecraft:beef',
+    'minecraft:cooked_beef',
+    'minecraft:porkchop',
+    'minecraft:cooked_porkchop',
+    'minecraft:chicken',
+    'minecraft:cooked_chicken',
+    'minecraft:mutton',
+    'minecraft:cooked_mutton',
+    'minecraft:rabbit',
+    'minecraft:cooked_rabbit'
+  ])
+})

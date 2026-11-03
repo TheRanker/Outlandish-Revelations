@@ -396,17 +396,6 @@
         "value": 1
       }
     },
-    "ars_nouveau:ars_nouveau.perk.max_mana": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 10000,
-        "value": 10000
-      }
-    },
     "tconstruct:player.experience_multiplier": {
       "enabled": false,
       "min": {
@@ -416,6 +405,17 @@
       "max": {
         "default": 100,
         "value": 100
+      }
+    },
+    "ars_nouveau:ars_nouveau.perk.max_mana": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10000,
+        "value": 10000
       }
     },
     "botania:pixie_spawn_chance": {

@@ -1,0 +1,12 @@
+{
+  "icon": "minecraft:azalea",
+  "repeatable": false,
+  "start": {
+    "title": {
+      "translate": "What the Forest Remembers"
+    },
+    "description": {
+      "translate": "A.U.R.A. still keeps the record? Then the Concord left more than ruins. I am Elyndra. Before we speak of the blade, help me restore a place where the forest's travellers can rest. Understanding begins more quietly than most seekers expect."
+    }
+  }
+}

@@ -1,0 +1,96 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "journeys_end"
+	group: "003D792941648271"
+	icon: {
+		Count: 1
+		id: "kubejs:rankers_sword"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "64001D940DA4531D"
+	images: [{
+		height: 3.6d
+		image: "outlandish_revelations:textures/title.png"
+		rotation: 0.0d
+		width: 16.0d
+		x: 0.0d
+		y: -5.0d
+	}]
+	order_index: 2
+	quest_links: [ ]
+	quests: [{
+		dependencies: ["06DABBCE6668C79A"]
+		description: [
+  "You began with a handful of materials and built a world of workshops, machines and discoveries. Defeating the Hovering Inferno and receiving Tears for Fears marks the main combat finale of Outlandish Revelations. Congratulations!",
+  "The Unfinished Promise runs alongside the main progression. Owning the sword does not automatically finish the twelve NPC stories. Return to the people whose stories you still want to hear; each FTB story entry tracks its corresponding NPC completion.",
+  "Thank you for playing and helping the pack improve. If something fails, report what happened, how to reproduce it and the relevant log. Finish your factory, explore somewhere new, or help your teammates reach their own milestones."
+]
+		extraquests_calendar: {
+			active_quests: 3
+			enabled: 0b
+			pool: ""
+			reset_time: "06:00"
+			timezone: "UTC"
+			weekday: 1
+			weekly: 0b
+		}
+		hide_dependency_lines: false
+		icon: {
+			Count: 1
+			id: "kubejs:rankers_sword"
+			tag: {
+				Damage: 0
+			}
+		}
+		id: "6D3EFEAA5280A59C"
+		rewards: [
+			{
+				id: "553554B2562C94C3"
+				type: "xp"
+				xp: 10
+			}
+			{
+				id: "270285E9DA68C81A"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "or_end"
+					}
+				}
+				type: "item"
+			}
+		]
+		size: 3.0d
+		tasks: [{
+			consume_items: false
+			extraquests_options: {
+				aggregation: "AUTO"
+				duration: 600L
+				minimum_contribution: 0L
+				reset_damage: 0b
+				reset_death: 1b
+				reset_logout: 0b
+				shared: 0b
+				timer_enabled: 0b
+				timer_start: "FIRST_PROGRESS"
+			}
+			id: "4AAC98AB5556DEB5"
+			item: {
+				Count: 1
+				id: "kubejs:rankers_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			type: "item"
+		}]
+		title: "Outlandish, to the End"
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Thank You for Playing"
+}

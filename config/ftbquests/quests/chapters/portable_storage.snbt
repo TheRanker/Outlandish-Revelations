@@ -1,0 +1,1046 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "portable_storage"
+	group: "290BD65C3C52540C"
+	icon: "minecraft:chest"
+	id: "65612656BD39E687"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Use a backpack for a varied toolkit and a Dank for large quantities of a few materials. Leave room for discoveries. Before a long trip, separate food, building blocks, spare tools and valuable finds so you can reach them quickly. Storage upgrades follow the materials in JEI; plan them alongside your factory."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: "minecraft:chest"
+			id: "34C1FB82BE32DEFE"
+			optional: true
+			rewards: [{
+				id: "2B480A05E51D3DA5"
+				type: "xp"
+				xp: 10
+			}]
+			size: 1.8d
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "77A167E425CD9790"
+				type: "checkmark"
+			}]
+			title: "Pack for the Job"
+			x: -0.8999999999999999d
+			y: 0.0d
+		}
+		{
+			dependencies: ["34C1FB82BE32DEFE"]
+			description: ["Prepare wrought iron screws, a red alloy plate, leather, string and a GregTech Wood Crate. Your first backpack gives tools and supplies a home away from home. Set its opening key in Controls and test access before leaving."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: "sophisticatedbackpacks:backpack"
+			id: "467813CA11B587D4"
+			optional: true
+			rewards: [
+				{
+					id: "25D064B800ACBA03"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "5D8051D0FAD8D130"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_steam"
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 1.3d
+			tasks: [{
+				consume_items: false
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "59A5651AD679D5B6"
+				item: "sophisticatedbackpacks:backpack"
+				type: "item"
+			}]
+			title: "Your First Backpack"
+			x: 3.9000000000000004d
+			y: -3.9000000000000004d
+		}
+		{
+			dependencies: ["467813CA11B587D4"]
+			description: ["Upgrade your existing backpack with the bronze screws and invar plate shown in JEI. Keep using the native backpack upgrade recipe so your stored items and upgrades carry forward."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: "sophisticatedbackpacks:copper_backpack"
+			id: "43F225D4CD9558A6"
+			optional: true
+			rewards: [
+				{
+					id: "11221B901872C3F2"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0F9BC5157AE1342C"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_steam"
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 1.3d
+			tasks: [{
+				consume_items: false
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "4836DF2FBC3880A1"
+				item: "sophisticatedbackpacks:copper_backpack"
+				type: "item"
+			}]
+			title: "A Copper Backpack"
+			x: 7.15d
+			y: -3.9000000000000004d
+		}
+		{
+			dependencies: ["43F225D4CD9558A6"]
+			description: ["Prepare steel screws and a rose gold plate for the next upgrade. Inspect the result in JEI before crafting. Organize your extra space around the items you actually carry."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: "sophisticatedbackpacks:iron_backpack"
+			id: "4C792D39333F6FFE"
+			optional: true
+			rewards: [
+				{
+					id: "029D93F4182EDFD6"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "2C143502DEDC0150"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_lv"
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 1.3d
+			tasks: [{
+				consume_items: false
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "0C6F2E8FD81A6D37"
+				item: "sophisticatedbackpacks:iron_backpack"
+				type: "item"
+			}]
+			title: "An Iron Backpack"
+			x: 9.100000000000001d
+			y: -3.9000000000000004d
+		}
+		{
+			dependencies: ["4C792D39333F6FFE"]
+			description: ["Your factory now supplies aluminium screws, blue alloy and carbon fibres for a larger backpack. Keep a dedicated area for expedition supplies and unload bulk stone regularly."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: "sophisticatedbackpacks:gold_backpack"
+			id: "73FF4AA6BDF3D198"
+			optional: true
+			rewards: [
+				{
+					id: "58CCB2EF76378938"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "555A6D179192E7FD"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_mv"
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 1.3d
+			tasks: [{
+				consume_items: false
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "6AEC766074ED9A30"
+				item: "sophisticatedbackpacks:gold_backpack"
+				type: "item"
+			}]
+			title: "A Gold Backpack"
+			x: 11.05d
+			y: -3.9000000000000004d
+		}
+		{
+			dependencies: ["73FF4AA6BDF3D198"]
+			description: ["Use stainless steel screws, PTFE plates and carbon fibres for this upgrade. More storage is useful, but filters and a tidy layout make it easier to use."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: "sophisticatedbackpacks:diamond_backpack"
+			id: "5F3C9F0E49A630EF"
+			optional: true
+			rewards: [
+				{
+					id: "11D29FA98D66BCFD"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "53DB8EC897C2F42B"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_hv"
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 1.3d
+			tasks: [{
+				consume_items: false
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "1BA752C17B29736E"
+				item: "sophisticatedbackpacks:diamond_backpack"
+				type: "item"
+			}]
+			title: "A Diamond Backpack"
+			x: 13.000000000000002d
+			y: -3.9000000000000004d
+		}
+		{
+			dependencies: ["5F3C9F0E49A630EF"]
+			description: ["Prepare titanium screws, epoxy plates and carbon fibres for the final backpack upgrade. Keep the upgraded pack maintained and review its installed upgrades before your next long expedition."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: "sophisticatedbackpacks:netherite_backpack"
+			id: "409859D43ADB00FD"
+			optional: true
+			rewards: [
+				{
+					id: "017AFA7CB583424E"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6D098419843A0F54"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_ev"
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 1.3d
+			tasks: [{
+				consume_items: false
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "7E9987C97341BCB1"
+				item: "sophisticatedbackpacks:netherite_backpack"
+				type: "item"
+			}]
+			title: "A Netherite Backpack"
+			x: 14.950000000000001d
+			y: -3.9000000000000004d
+		}
+		{
+			dependencies: ["467813CA11B587D4"]
+			description: ["Install a Pickup Upgrade and configure its filters. Decide whether the backpack should collect all drops or only your chosen materials. Test it with a small pile before a mining trip."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: "sophisticatedbackpacks:pickup_upgrade"
+			id: "57BBC5F32B64D466"
+			optional: true
+			rewards: [
+				{
+					id: "67F2710518CEC0B0"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0955F90CA4A8CEB7"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_lv"
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 1.3d
+			tasks: [{
+				consume_items: false
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "760E27E7DCE3E869"
+				item: "sophisticatedbackpacks:pickup_upgrade"
+				type: "item"
+			}]
+			title: "Collect What Matters"
+			x: 5.2d
+			y: -1.3d
+		}
+		{
+			dependencies: ["467813CA11B587D4"]
+			description: ["A Feeding Upgrade uses food stored in the backpack. Keep suitable meals inside and check its settings. A full backpack of stone will not help when you are hungry."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: "sophisticatedbackpacks:feeding_upgrade"
+			id: "14CE7206F0AAA622"
+			optional: true
+			rewards: [
+				{
+					id: "6F0F464D6C634FC8"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6BB41F9CFE07AB6C"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_lv"
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 1.3d
+			tasks: [{
+				consume_items: false
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "23BCB6C405E17F52"
+				item: "sophisticatedbackpacks:feeding_upgrade"
+				type: "item"
+			}]
+			title: "Food Within Reach"
+			x: 3.9000000000000004d
+			y: -1.3d
+		}
+		{
+			dependencies: ["467813CA11B587D4"]
+			description: ["A Crafting Upgrade provides a crafting grid in the backpack interface. Carry a few common supplies so you can make replacements on the road. Machine recipes still need their proper workshop."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: "sophisticatedbackpacks:crafting_upgrade"
+			id: "77C765A6C37345EC"
+			optional: true
+			rewards: [
+				{
+					id: "0912F406D768ED98"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7B17EFD4B9520120"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_lv"
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 1.3d
+			tasks: [{
+				consume_items: false
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "6B8A65F8CA8F8B5F"
+				item: "sophisticatedbackpacks:crafting_upgrade"
+				type: "item"
+			}]
+			title: "A Travelling Workbench"
+			x: 2.6d
+			y: -1.3d
+		}
+		{
+			dependencies: ["34C1FB82BE32DEFE"]
+			description: ["A Dank holds large quantities in a small number of slots. Use it for repeated materials such as stone, dirt and common mining drops. Open its interface, choose what belongs inside, and test pickup settings with a few expendable items."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: "dankstorage:dank_1"
+			id: "7E6F3D6668A4625D"
+			optional: true
+			rewards: [
+				{
+					id: "5871C59457DF1E7D"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "714FE6A579723D56"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_steam"
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 1.3d
+			tasks: [{
+				consume_items: false
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "4E128E3D726F3667"
+				item: "dankstorage:dank_1"
+				type: "item"
+			}]
+			title: "Your First Dank"
+			x: 3.9000000000000004d
+			y: 3.9000000000000004d
+		}
+		{
+			dependencies: ["7E6F3D6668A4625D"]
+			description: ["Follow the upgrade recipe in JEI from your previous Dank. Higher tiers provide more capacity. Keep the container’s contents intact during upgrading, then check your pickup settings and locked slots again. You do not need the highest tier for every job."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: "dankstorage:dank_2"
+			id: "329C53A36579236F"
+			optional: true
+			rewards: [
+				{
+					id: "328AEF0487079970"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "20F812622C332BEE"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_steam"
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 1.3d
+			tasks: [{
+				consume_items: false
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "75207391CB533C6B"
+				item: "dankstorage:dank_2"
+				type: "item"
+			}]
+			title: "Dank 2"
+			x: 7.15d
+			y: 3.9000000000000004d
+		}
+		{
+			dependencies: ["329C53A36579236F"]
+			description: ["Follow the upgrade recipe in JEI from your previous Dank. Higher tiers provide more capacity. Keep the container’s contents intact during upgrading, then check your pickup settings and locked slots again. You do not need the highest tier for every job."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: "dankstorage:dank_3"
+			id: "4DC2A8CEDF4F31C7"
+			optional: true
+			rewards: [
+				{
+					id: "2D6829D4FCDDB268"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4EA123AD5E839250"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_steam"
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 1.3d
+			tasks: [{
+				consume_items: false
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "7355F4C3A71F7990"
+				item: "dankstorage:dank_3"
+				type: "item"
+			}]
+			title: "Dank 3"
+			x: 9.100000000000001d
+			y: 3.9000000000000004d
+		}
+		{
+			dependencies: ["4DC2A8CEDF4F31C7"]
+			description: ["Follow the upgrade recipe in JEI from your previous Dank. Higher tiers provide more capacity. Keep the container’s contents intact during upgrading, then check your pickup settings and locked slots again. You do not need the highest tier for every job."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: "dankstorage:dank_4"
+			id: "2BDEA8D8093BB737"
+			optional: true
+			rewards: [
+				{
+					id: "5D86DBB385009608"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "43699F665158E5B4"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_steam"
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 1.3d
+			tasks: [{
+				consume_items: false
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "2AC3C568313DD443"
+				item: "dankstorage:dank_4"
+				type: "item"
+			}]
+			title: "Dank 4"
+			x: 11.05d
+			y: 3.9000000000000004d
+		}
+		{
+			dependencies: ["2BDEA8D8093BB737"]
+			description: ["Follow the upgrade recipe in JEI from your previous Dank. Higher tiers provide more capacity. Keep the container’s contents intact during upgrading, then check your pickup settings and locked slots again. You do not need the highest tier for every job."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: "dankstorage:dank_5"
+			id: "622C14EE564671F2"
+			optional: true
+			rewards: [
+				{
+					id: "2745AA43924E525A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "47ABB6A8C7F23517"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_steam"
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 1.3d
+			tasks: [{
+				consume_items: false
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "791FC62C6F01D333"
+				item: "dankstorage:dank_5"
+				type: "item"
+			}]
+			title: "Dank 5"
+			x: 13.000000000000002d
+			y: 3.9000000000000004d
+		}
+		{
+			dependencies: ["622C14EE564671F2"]
+			description: ["Follow the upgrade recipe in JEI from your previous Dank. Higher tiers provide more capacity. Keep the container’s contents intact during upgrading, then check your pickup settings and locked slots again. You do not need the highest tier for every job."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: "dankstorage:dank_6"
+			id: "5647A8AEFB9A5F23"
+			optional: true
+			rewards: [
+				{
+					id: "002D7C7498690CA3"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "27DF6DB46FE4E1ED"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_steam"
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 1.3d
+			tasks: [{
+				consume_items: false
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "0FA5C11A336DA939"
+				item: "dankstorage:dank_6"
+				type: "item"
+			}]
+			title: "Dank 6"
+			x: 14.950000000000001d
+			y: 3.9000000000000004d
+		}
+		{
+			dependencies: ["5647A8AEFB9A5F23"]
+			description: ["Follow the upgrade recipe in JEI from your previous Dank. Higher tiers provide more capacity. Keep the container’s contents intact during upgrading, then check your pickup settings and locked slots again. You do not need the highest tier for every job."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: "dankstorage:dank_7"
+			id: "6842C7C599FC368A"
+			optional: true
+			rewards: [
+				{
+					id: "40BC979D486ED2DD"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "382572BEA3D33293"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_steam"
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 1.3d
+			tasks: [{
+				consume_items: false
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "24F13C1468AF61F7"
+				item: "dankstorage:dank_7"
+				type: "item"
+			}]
+			title: "Dank 7"
+			x: 16.900000000000002d
+			y: 3.9000000000000004d
+		}
+		{
+			dependencies: ["7E6F3D6668A4625D"]
+			description: ["Lock slots to preserve your chosen material layout. Test filtered pickup so unwanted drops do not fill spaces reserved for ore or building blocks. Be careful with any voiding option: excess items may be destroyed instead of saved. Use a small test stack before enabling it."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: "minecraft:chest"
+			id: "29FE996DBD172ABA"
+			optional: true
+			rewards: [{
+				id: "628C76432951C569"
+				type: "xp"
+				xp: 10
+			}]
+			size: 1.3d
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "3655DF8D5BE190F1"
+				type: "checkmark"
+			}]
+			title: "Keep Bulk Storage Predictable"
+			x: 5.2d
+			y: 1.3d
+		}
+		{
+			dependencies: ["7E6F3D6668A4625D"]
+			description: ["A Dock lets a Dank become part of a stationary storage setup. Place the Dank in the dock and test item insertion and extraction with your chosen transport. Keep a portable Dank for travel and a separate docked one for a busy production line."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: "dankstorage:dock"
+			id: "478B9A5224E937F7"
+			optional: true
+			rewards: [
+				{
+					id: "3AA7A899A300B103"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4A30C36A2B99BBCF"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_lv"
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 1.3d
+			tasks: [{
+				consume_items: false
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "50A6FDB30BB0E193"
+				item: "dankstorage:dock"
+				type: "item"
+			}]
+			title: "Put Your Dank to Work"
+			x: 2.6d
+			y: 1.3d
+		}
+	]
+	title: "Backpacks and Bulk Storage"
+}

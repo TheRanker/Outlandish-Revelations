@@ -1,0 +1,38 @@
+{
+  "parent": "quest_giver:quest_05",
+  "repeatable": false,
+  "icon": "gtceu:bronze_ingot",
+  "start": {
+    "title": {
+      "translate": "Pressure Needs Restraint"
+    },
+    "description": {
+      "translate": "Twelve bronze ingots will let me rebuild the fittings and braces on the old pressure rig. This is preparation for careful steam work, not permission to light an abandoned boiler. Hand the materials to me one at a time."
+    }
+  },
+  "tasks": [
+    {
+      "id": "quest_giver:gift",
+      "item": {
+        "item": "gtceu:bronze_ingot"
+      },
+      "entity": "minecraft:villager",
+      "name": "Mara Coppersmith",
+      "times": 12
+    }
+  ],
+  "complete": {
+    "title": {
+      "translate": "Pressure Needs Restraint"
+    },
+    "description": {
+      "translate": "The braces are back. There will be no free boiler waiting for you here. Build your own machines through the proper steps, learn their limits, and keep those limits in sight."
+    }
+  },
+  "rewards": [
+    {
+      "id": "quest_giver:command",
+      "command": "execute at @s run function outlandish:story/mara_coppersmith/delivery_06"
+    }
+  ]
+}

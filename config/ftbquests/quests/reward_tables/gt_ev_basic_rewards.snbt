@@ -1,0 +1,12 @@
+{
+	id: "499D88D44DAF4820"
+	loot_size: 1
+	order_index: 29
+	rewards: [
+		{ count: 48, item: "minecraft:iron_ingot" }
+		{ count: 64, item: "minecraft:redstone" }
+		{ count: 24, item: "minecraft:gold_ingot" }
+		{ count: 64, item: "minecraft:glass" }
+	]
+	title: "GT EV Basic Rewards"
+}

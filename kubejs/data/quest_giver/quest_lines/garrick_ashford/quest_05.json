@@ -1,0 +1,49 @@
+{
+  "parent": "quest_giver:quest_04",
+  "icon": "minecraft:anvil",
+  "start": {
+    "title": {
+      "translate": "Ashes to Iron"
+    },
+    "description": {
+      "translate": "One last job. I need a new anvil. The old one cracked when the furnace collapsed, and I'm not trusting it with another hammer strike. Bring me an anvil, and we'll call this forge rebuilt. Mostly."
+    }
+  },
+  "tasks": [
+    {
+      "id": "quest_giver:item_stack",
+      "amount": 1,
+      "item": {
+        "item": "minecraft:anvil"
+      }
+    }
+  ],
+  "complete": {
+    "title": {
+      "translate": "Ashes to Iron"
+    },
+    "description": {
+      "translate": "Look at that. A working forge again. You've done more for this place than I expected, and I don't forget a debt. If you ever meet Professor Alden Voss, tell him Garrick Ashford wants to talk. And tell him I believe him now."
+    }
+  },
+  "rewards": [
+    {
+      "id": "quest_giver:item",
+      "item": {
+        "item": "minecraft:emerald",
+        "count": 4
+      }
+    },
+    {
+      "id": "quest_giver:item",
+      "item": {
+        "item": "minecraft:experience_bottle",
+        "count": 5
+      }
+    },
+    {
+      "id": "quest_giver:command",
+      "command": "execute at @s run function outlandish:story/garrick_ashford/complete"
+    }
+  ]
+}

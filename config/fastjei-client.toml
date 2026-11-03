@@ -1,0 +1,72 @@
+#Batch JEI's ingredient filter construction into a single bulk operation
+#instead of one call per ingredient. Required for parallelSearchBuild to
+#help during startup. Safe.
+#Only used on JEI 15.20.0.113 - 15.24.0.150; newer JEI does this itself.
+batchedFilterInit = true
+#Build JEI's search indexes (name/mod/tag/tooltip prefix trees) on worker
+#threads instead of one at a time on the main thread. Safe: each index is
+#only ever written by one thread.
+parallelSearchBuild = true
+#Also compute item tooltips for JEI's tooltip search on worker threads.
+#This is usually the single slowest part of JEI startup because it runs
+#every mod's tooltip code once per item. Errors are isolated per item.
+#Disable this first if you see startup crashes mentioning tooltips.
+parallelTooltipScan = true
+#Worker thread count for parallel work. 0 = auto (cpu cores - 2, minimum 2).
+#Range: 0 ~ 64
+workerThreads = 0
+#When a recipe category has more recipes than lazyRecipeLayoutThreshold,
+#only build the recipe widgets for the page being viewed instead of all of
+#them up front. Fixes the freeze/crash when opening an item with a huge
+#number of recipes or uses. Note: for such huge categories the
+#'bookmarked first' / 'craftable first' recipe sorting is skipped.
+#Only used on JEI 15.20.0.113 - 15.24.0.150; newer JEI does this itself.
+lazyRecipeLayouts = true
+#Recipe count above which lazy recipe layouts kick in.
+#0 = always lazy (recipe sorting stages never apply).
+#Range: 0 ~ 1000000
+lazyRecipeLayoutThreshold = 200
+#Do not generate JEI's synthetic anvil book-enchanting and grindstone
+#disenchanting entries. JEI builds one recipe per enchantable item x
+#enchantment x level: on a pack with 425 enchantments that is 182k anvil and
+#465k grindstone recipes, ~15 s of startup plus the memory and index cost of
+#holding them forever. Repair recipes have their own toggle below.
+#JEI 15.20.x has no grindstone category at all, so only the anvil half applies there.
+#Set to false to get JEI's stock behaviour back.
+skipGeneratedEnchantmentRecipes = true
+#Do not generate JEI's synthetic anvil and grindstone REPAIR entries.
+#The grindstone half walks every damageable item in the pack and drives the
+#hidden menu once per item, so it grows with the pack. The anvil half is a
+#fixed vanilla list of 15 material groups covering 57 items, so it costs
+#roughly 114 menu simulations no matter how large the pack is.
+#Set to false to get JEI's stock behaviour back.
+skipGeneratedRepairRecipes = true
+#JEI builds its anvil and grindstone recipes by driving a hidden menu once
+#per item x enchantment combination. Writing the two input stacks fires four
+#container updates per combination, each one broadcasting every slot and
+#re-running the recipe simulation, and only the last update can see both
+#inputs. Skip the redundant ones and simulate once, after both slots are set.
+#The values JEI reads are identical.
+skipRedundantMenuUpdates = true
+#JEI looks for an already-known brewing recipe by scanning its whole recipe set
+#once per potion x reagent pair, and that pair loop repeats until no new potion
+#appears, so the cost grows faster than the number of potions in the pack.
+#Answer the same question from a hash index instead. Every one of these recipes
+#has a uid, and JEI keys both equals and hashCode purely on that uid, so the
+#index returns exactly the recipe the scan would have found. FastJEI checks the
+#index against JEI's own set on every lookup and falls back permanently if they
+#ever disagree. Only used on JEI 15.24.0.150 and newer; older JEI already does
+#a hashed lookup here.
+#Turn this off if brewing recipes look wrong or are missing.
+indexedBrewingLookup = true
+#Load JEI on a background thread after joining a world instead of freezing
+#the game until it is done. You can move and play right away; the JEI
+#overlay shows up once loading finishes. Only the final hand-off and the
+#plugins listed in renderThreadPlugins run on the main thread.
+#Only used on JEI 15.70.0.221 and newer.
+asyncStart = true
+#JEI plugin ids that are always called on the main thread during a background start.
+renderThreadPlugins = ["kubejs:jei"]
+#Log how long each FastJEI-accelerated phase took.
+logTimings = true
+

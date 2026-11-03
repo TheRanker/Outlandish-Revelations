@@ -1,0 +1,38 @@
+{
+  "parent": "quest_giver:quest_04",
+  "repeatable": false,
+  "icon": "minecraft:glass",
+  "start": {
+    "title": {
+      "translate": "A Clear Place to Read"
+    },
+    "description": {
+      "translate": "Eight pieces of glass will restore the reading alcove's windows. A quiet place to consider a difficult record is sometimes more useful than another answer spoken too quickly. Hand the materials to me one at a time."
+    }
+  },
+  "tasks": [
+    {
+      "id": "quest_giver:gift",
+      "item": {
+        "item": "minecraft:glass"
+      },
+      "entity": "minecraft:villager",
+      "name": "Elyndra",
+      "times": 8
+    }
+  ],
+  "complete": {
+    "title": {
+      "translate": "A Clear Place to Read"
+    },
+    "description": {
+      "translate": "The notes about Tears for Fears speak of a willing blood sacrifice. They do not give anyone a claim over another person's life. This refuge will not become an altar that makes that choice on your behalf."
+    }
+  },
+  "rewards": [
+    {
+      "id": "quest_giver:command",
+      "command": "execute at @s run function outlandish:story/elyndra/delivery_05"
+    }
+  ]
+}

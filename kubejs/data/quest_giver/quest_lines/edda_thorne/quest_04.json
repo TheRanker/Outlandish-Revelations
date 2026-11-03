@@ -1,0 +1,38 @@
+{
+  "parent": "quest_giver:quest_03",
+  "repeatable": false,
+  "icon": "minecraft:white_wool",
+  "start": {
+    "title": {
+      "translate": "Room for the Weary"
+    },
+    "description": {
+      "translate": "Eight pieces of white wool will mend the refuge's bedding and replace the watch room's torn cloth. A captain who counts only weapons has already forgotten half her duty. Hand the materials to me one at a time."
+    }
+  },
+  "tasks": [
+    {
+      "id": "quest_giver:gift",
+      "item": {
+        "item": "minecraft:white_wool"
+      },
+      "entity": "minecraft:villager",
+      "name": "Captain Edda Thorne",
+      "times": 8
+    }
+  ],
+  "complete": {
+    "title": {
+      "translate": "Room for the Weary"
+    },
+    "description": {
+      "translate": "That is what I wanted restored first: somewhere a frightened person can rest. Not a monument to the battles we lost. The living need us to leave them more than stories."
+    }
+  },
+  "rewards": [
+    {
+      "id": "quest_giver:command",
+      "command": "execute at @s run function outlandish:story/edda_thorne/delivery_04"
+    }
+  ]
+}

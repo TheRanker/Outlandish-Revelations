@@ -1,0 +1,38 @@
+{
+  "parent": "quest_giver:quest_03",
+  "repeatable": false,
+  "icon": "minecraft:copper_ingot",
+  "start": {
+    "title": {
+      "translate": "An Instrument Worth Trusting"
+    },
+    "description": {
+      "translate": "Garrick knows his metals. I need twelve copper ingots to restore the fittings on my instrument bench. Before we trust another reading, we must trust the apparatus. Hand the materials to me one at a time."
+    }
+  },
+  "tasks": [
+    {
+      "id": "quest_giver:gift",
+      "item": {
+        "item": "minecraft:copper_ingot"
+      },
+      "entity": "minecraft:villager",
+      "name": "Professor Alden Voss",
+      "times": 12
+    }
+  ],
+  "complete": {
+    "title": {
+      "translate": "An Instrument Worth Trusting"
+    },
+    "description": {
+      "translate": "Now we can compare signals instead of chasing echoes. The Brass Concord once insisted on such care. In the final days, we forgot why."
+    }
+  },
+  "rewards": [
+    {
+      "id": "quest_giver:command",
+      "command": "execute at @s run function outlandish:story/alden_voss/delivery_04"
+    }
+  ]
+}

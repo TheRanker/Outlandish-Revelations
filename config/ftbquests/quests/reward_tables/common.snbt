@@ -1,0 +1,20 @@
+{
+	icon: {
+		Count: 1
+		id: "ftbquests:lootcrate"
+		tag: {
+			type: "common_loot"
+		}
+	}
+	id: "06C4634E81851A6C"
+	loot_size: 1
+	order_index: 17
+	rewards: [
+		{ count: 32, item: "minecraft:torch" }
+		{ count: 16, item: "minecraft:coal" }
+		{ count: 12, item: "minecraft:copper_ingot" }
+		{ count: 8, item: "minecraft:cooked_porkchop" }
+	]
+	title: "Common Reward"
+	use_title: true
+}

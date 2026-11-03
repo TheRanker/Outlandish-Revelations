@@ -1,0 +1,66 @@
+{
+	id: "23A030D0854BAACF"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{ count: 3, item: "minecraft:bread" }
+		{ count: 3, item: "minecraft:apple" }
+		{ count: 3, item: "minecraft:carrot" }
+		{ count: 3, item: "minecraft:potato" }
+		{ count: 3, item: "minecraft:baked_potato" }
+		{ count: 3, item: "minecraft:cooked_beef" }
+		{ count: 3, item: "minecraft:cooked_porkchop" }
+		{ count: 3, item: "minecraft:cooked_mutton" }
+		{ count: 3, item: "minecraft:cooked_chicken" }
+		{ count: 3, item: "minecraft:cooked_rabbit" }
+		{ count: 3, item: "minecraft:cooked_cod" }
+		{ count: 3, item: "minecraft:cooked_salmon" }
+		{ count: 3, item: "minecraft:sweet_berries" }
+		{ count: 3, item: "minecraft:spider_eye" }
+		{ count: 3, item: "minecraft:beetroot" }
+		{ count: 3, item: "minecraft:dried_kelp" }
+		{ item: "minecraft:cake", weight: 0.25f }
+		{ item: "minecraft:cookie", weight: 0.25f }
+		{ item: "minecraft:pumpkin_pie", weight: 0.25f }
+		{ item: "minecraft:mushroom_stew", weight: 0.5f }
+		{ item: "minecraft:rabbit_stew", weight: 0.5f }
+		{ item: "minecraft:beetroot_soup", weight: 0.5f }
+		{ item: "minecraft:melon_slice", weight: 0.25f }
+		{ count: 16, item: "minecraft:oak_log" }
+		{ count: 64, item: "minecraft:cobblestone" }
+		{ count: 16, item: "minecraft:string" }
+		{ count: 32, item: "minecraft:torch" }
+		{ item: "minecraft:target" }
+		{ count: 64, item: "minecraft:stone" }
+		{ count: 64, item: "minecraft:granite" }
+		{ count: 64, item: "minecraft:diorite" }
+		{ count: 64, item: "minecraft:andesite" }
+		{ item: "minecraft:furnace" }
+		{ item: "minecraft:blast_furnace" }
+		{ count: 4, item: "minecraft:chest" }
+		{ count: 8, item: "minecraft:bricks" }
+		{ count: 16, item: "minecraft:clay" }
+		{ count: 16, item: "minecraft:terracotta" }
+		{ count: 32, item: "minecraft:glass" }
+		{ item: "minecraft:white_bed" }
+		{ count: 32, item: "minecraft:white_wool" }
+		{ count: 2, item: "minecraft:sheep_spawn_egg", weight: 0.5f }
+		{ count: 64, item: "minecraft:oak_leaves" }
+		{ count: 4, item: "minecraft:white_dye" }
+		{ count: 4, item: "minecraft:red_dye" }
+		{ count: 4, item: "minecraft:yellow_dye" }
+		{ count: 4, item: "minecraft:green_dye" }
+		{ count: 4, item: "minecraft:black_dye" }
+		{ count: 4, item: "minecraft:blue_dye" }
+		{ item: "minecraft:armor_stand" }
+		{ count: 4, item: "minecraft:flower_pot" }
+		{ item: "domum_ornamentum:blockbarreldeco_standing" }
+		{ item: "domum_ornamentum:blockbarreldeco_onside" }
+		{ count: 16, item: "minecraft:coal" }
+		{ count: 16, item: "minecraft:charcoal" }
+		{ count: 16, item: "minecraft:kelp" }
+		{ count: 2, item: "minecraft:cow_spawn_egg", weight: 0.5f }
+		{ count: 2, item: "minecraft:pig_spawn_egg", weight: 0.5f }
+	]
+	title: "MineColonies Common"
+}

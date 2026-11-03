@@ -1,0 +1,44 @@
+{
+  "parent": "quest_giver:root",
+  "icon": "minecraft:iron_ingot",
+  "start": {
+    "title": {
+      "translate": "A Smith Without a Hammer"
+    },
+    "description": {
+      "translate": "My old anvil is ruined. Bring me eight iron ingots, one at a time. We will get the smithing bench back into working order."
+    }
+  },
+  "tasks": [
+    {
+      "id": "quest_giver:gift",
+      "item": {
+        "item": "minecraft:iron_ingot"
+      },
+      "entity": "minecraft:villager",
+      "name": "Garrick Ashford",
+      "times": 8
+    }
+  ],
+  "complete": {
+    "title": {
+      "translate": "The First Repair"
+    },
+    "description": {
+      "translate": "There we are. A proper anvil, back where it belongs. You can see the workshop coming together."
+    }
+  },
+  "rewards": [
+    {
+      "id": "quest_giver:command",
+      "command": "execute at @s as @e[type=minecraft:marker,tag=outlandish_garrick_anvil,tag=!outlandish_garrick_anvil_placed,distance=..12,sort=nearest,limit=1] at @s run function outlandish:garrick/upgrade_01"
+    },
+    {
+      "id": "quest_giver:item",
+      "item": {
+        "item": "minecraft:bread",
+        "count": 4
+      }
+    }
+  ]
+}

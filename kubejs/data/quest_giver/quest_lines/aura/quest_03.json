@@ -1,0 +1,38 @@
+{
+  "parent": "quest_giver:quest_02",
+  "repeatable": false,
+  "icon": "minecraft:glass",
+  "start": {
+    "title": {
+      "translate": "Windows Into the Work"
+    },
+    "description": {
+      "translate": "Eight pieces of glass required for the observation screens. Protection of records should not become concealment from those seeking to understand them. Hand the materials to me one at a time."
+    }
+  },
+  "tasks": [
+    {
+      "id": "quest_giver:gift",
+      "item": {
+        "item": "minecraft:glass"
+      },
+      "entity": "minecraft:villager",
+      "name": "A.U.R.A.",
+      "times": 8
+    }
+  ],
+  "complete": {
+    "title": {
+      "translate": "Windows Into the Work"
+    },
+    "description": {
+      "translate": "Observation screens restored. Missing support components and altered dispatches are consistent with Malric's findings. These records cannot identify every person responsible. An archive must not substitute certainty for missing evidence."
+    }
+  },
+  "rewards": [
+    {
+      "id": "quest_giver:command",
+      "command": "execute at @s run function outlandish:story/aura/delivery_03"
+    }
+  ]
+}

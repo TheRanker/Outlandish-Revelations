@@ -1,0 +1,39 @@
+
+{
+  "parent": "quest_giver:quest_01",
+  "icon": "minecraft:flint",
+  "start": {
+    "title": {
+      "translate": "Tools of a Forgotten Trade"
+    },
+    "description": {
+      "translate": "My old master swore a good craftsman could make a useful tool from almost anything. Let's see what you've got. Bring me twelve flint. We'll start with the basics before worrying about molten metal and fancy machinery."
+    }
+  },
+  "tasks": [
+    {
+      "id": "quest_giver:item_stack",
+      "amount": 12,
+      "item": {
+        "item": "minecraft:flint"
+      }
+    }
+  ],
+  "complete": {
+    "title": {
+      "translate": "Tools of a Forgotten Trade"
+    },
+    "description": {
+      "translate": "Not bad. You've got the patience for proper toolmaking. I once thought that was all anyone needed. Then I built something that proved me wrong."
+    }
+  },
+  "rewards": [
+    {
+      "id": "quest_giver:item",
+      "item": {
+        "item": "minecraft:experience_bottle",
+        "count": 2
+      }
+    }
+  ]
+}

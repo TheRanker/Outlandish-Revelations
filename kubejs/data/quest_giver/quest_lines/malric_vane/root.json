@@ -1,0 +1,12 @@
+{
+  "icon": "minecraft:writable_book",
+  "repeatable": false,
+  "start": {
+    "title": {
+      "translate": "A Keeper of Uncomfortable Things"
+    },
+    "description": {
+      "translate": "Seraphine kept the seal? Then there is still something worth comparing. Malric Vane. I was trusted with records, which is a polite way of saying people expected me to preserve their version of events. Help restore the archive. We will see which version survives its own evidence."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+	id: "7471474BD60A02C7"
+	loot_crate: {
+		color: 15980664
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		glow: 1b
+		item_name: "Outlandish END Supply Bag"
+		string_id: "or_end"
+	}
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{ count: 32, item: "minecraft:iron_block" }
+		{ count: 32, item: "minecraft:redstone_block" }
+		{ count: 16, item: "minecraft:gold_block" }
+		{ count: 64, item: "minecraft:cooked_beef" }
+	]
+	title: "Outlandish END Supplies"
+	use_title: true
+}

@@ -1,0 +1,319 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ev_chemistry"
+	group: "751F9FCD5495C55F"
+	icon: "gtceu:ev_chemical_reactor"
+	id: "2EDEFDBF36BCDB34"
+	images: [{
+		height: 3.0d
+		image: "minecraft:textures/item/book.png"
+		rotation: 0.0d
+		width: 3.0d
+		x: 7.0d
+		y: -10.0d
+	}]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["36927A264A7E9637"]
+			description: [
+				"Prepare your EV Chemical Reactor and expand your production lines. These chapters suggest a factory development order; JEI shows the exact voltage and any earlier recipe route."
+				"Keep fluid lines separate, label storage and check circuit settings, amounts and output space before starting a batch. Reuse useful byproducts."
+				"Fluid tasks ask for a 1,000 mB sample through the quest system. The sample is consumed, so produce extra for your factory."
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: "gtceu:ev_chemical_reactor"
+			id: "7CFF2C3E0FA351F7"
+			rewards: [
+				{
+					id: "188F1DD66A5A029E"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "104C1FB38780713B"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_ev"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "4B68816B080C8F72"
+				item: "gtceu:ev_chemical_reactor"
+				type: "item"
+			}]
+			title: "EV Chemical Workshop"
+			x: 7.0d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"7CFF2C3E0FA351F7"
+				"37F3E532B5F18A6E"
+			]
+			description: [
+				"Biodiesel production can supply Glycerol. Choose an oil and alcohol route that fits your farm and separate the useful outputs."
+				"Submit a 1,000 mB sample for the task; keep the rest in production."
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "420CCF1B32659242"
+			rewards: [{
+				id: "6C049A74D618D9FC"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				amount: 1000L
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				fluid: "gtceu:glycerol"
+				id: "48520905BD07278D"
+				type: "fluid"
+			}]
+			title: "Keep the Glycerol"
+			x: 5.5d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"7CFF2C3E0FA351F7"
+				"420CCF1B32659242"
+				"6BF7CC59F4D1E29B"
+			]
+			description: [
+				"React Glycerol with Hydrochloric Acid. This prepares one of the two main liquid inputs for your Epoxy line."
+				"Submit a 1,000 mB sample for the task; keep the rest in production."
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "2ECDFB9ABF0F8066"
+			rewards: [{
+				id: "0EF2F05CC4088EC6"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				amount: 1000L
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				fluid: "gtceu:epichlorohydrin"
+				id: "5B4AD4142E64CACC"
+				type: "fluid"
+			}]
+			title: "Epichlorohydrin"
+			x: 7.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"7CFF2C3E0FA351F7"
+				"6BF7CC59F4D1E29B"
+			]
+			description: [
+				"Combine Acetone, Phenol and Hydrochloric Acid with the JEI recipe. Keep diluted acid for recovery."
+				"Submit a 1,000 mB sample for the task; keep the rest in production."
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "7A721B677F8C1071"
+			rewards: [{
+				id: "1C9888B5CD0608EE"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				amount: 1000L
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				fluid: "gtceu:bisphenol_a"
+				id: "3D27EC0C68C6E1F1"
+				type: "fluid"
+			}]
+			title: "Bisphenol A"
+			x: 8.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"7CFF2C3E0FA351F7"
+				"2ECDFB9ABF0F8066"
+				"7A721B677F8C1071"
+			]
+			description: [
+				"Combine Epichlorohydrin, Bisphenol A and Sodium Hydroxide. Plan storage for Salt Water and keep the resin available for advanced manufacturing."
+				"Submit a 1,000 mB sample for the task; keep the rest in production."
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			id: "435941D32CDCF36B"
+			rewards: [{
+				id: "3B89A3EEBF4DED74"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				amount: 1000L
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				fluid: "gtceu:epoxy"
+				id: "1BA8627EDDB27E26"
+				type: "fluid"
+			}]
+			title: "Epoxy Resin"
+			x: 10.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["435941D32CDCF36B"]
+			description: ["Form the polymer into plates with the recipe, mold or shape shown in JEI. Plan the other ingredients for your next components alongside this supply."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: "gtceu:epoxy_plate"
+			id: "1AEF9E06A0D507A5"
+			rewards: [
+				{
+					id: "623640031D9ACD79"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7F820E8F68DA6B43"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "or_ev"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "34C04286ADE6A9CD"
+				item: "gtceu:epoxy_plate"
+				type: "item"
+			}]
+			title: "Shape Epoxy"
+			x: 13.5d
+			y: -5.0d
+		}
+	]
+	title: "EV Chemistry"
+}

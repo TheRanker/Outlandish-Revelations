@@ -1,0 +1,38 @@
+{
+  "parent": "quest_giver:root",
+  "repeatable": false,
+  "icon": "minecraft:blackstone",
+  "start": {
+    "title": {
+      "translate": "Somewhere to Return"
+    },
+    "description": {
+      "translate": "Sixteen blackstone will close the gaps in our courtyard and mend the landing. The people bringing supplies deserve a route that does not crumble under them. Hand the materials to me one at a time."
+    }
+  },
+  "tasks": [
+    {
+      "id": "quest_giver:gift",
+      "item": {
+        "item": "minecraft:blackstone"
+      },
+      "entity": "minecraft:villager",
+      "name": "Seraphine Blackveil",
+      "times": 16
+    }
+  ],
+  "complete": {
+    "title": {
+      "translate": "Somewhere to Return"
+    },
+    "description": {
+      "translate": "We held this place with salvaged tools while officials counted equipment elsewhere. Do not tell me the Concord meant well until you have heard what its good intentions cost."
+    }
+  },
+  "rewards": [
+    {
+      "id": "quest_giver:command",
+      "command": "execute at @s run function outlandish:story/seraphine_blackveil/delivery_01"
+    }
+  ]
+}

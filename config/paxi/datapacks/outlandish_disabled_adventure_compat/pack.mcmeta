@@ -1,0 +1,14 @@
+{
+  "pack": {
+    "pack_format": 15,
+    "description": "Outlandish Revelations: omit the unavailable affix-conversion resource while Apotheosis Adventure is disabled."
+  },
+  "filter": {
+    "block": [
+      {
+        "namespace": "apotheosis",
+        "path": "loot_modifiers/affix_conversion\\.json"
+      }
+    ]
+  }
+}

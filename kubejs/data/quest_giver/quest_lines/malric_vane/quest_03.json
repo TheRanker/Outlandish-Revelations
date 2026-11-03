@@ -1,0 +1,38 @@
+{
+  "parent": "quest_giver:quest_02",
+  "repeatable": false,
+  "icon": "minecraft:glass",
+  "start": {
+    "title": {
+      "translate": "Protection Without Concealment"
+    },
+    "description": {
+      "translate": "Eight pieces of glass for the damaged display screens. The records must be protected, but they should remain visible to the people asking about them. Hand the materials to me one at a time."
+    }
+  },
+  "tasks": [
+    {
+      "id": "quest_giver:gift",
+      "item": {
+        "item": "minecraft:glass"
+      },
+      "entity": "minecraft:villager",
+      "name": "Malric Vane",
+      "times": 8
+    }
+  ],
+  "complete": {
+    "title": {
+      "translate": "Protection Without Concealment"
+    },
+    "description": {
+      "translate": "Darius's route ledger and Seraphine's account agree on the date. The official dispatch disagrees. That gives us a contradiction we can investigate, rather than a rumour we can repeat."
+    }
+  },
+  "rewards": [
+    {
+      "id": "quest_giver:command",
+      "command": "execute at @s run function outlandish:story/malric_vane/delivery_03"
+    }
+  ]
+}
