@@ -38,8 +38,9 @@ the central End island and existing Warden/Wither/team gates.
 
 - Memorial geometry/location and the Tier 1 three-offering awakening are not
   integrated. Do not enable the completion hook as a substitute for a real ceremony.
-- Seventeen legacy reward tables have identical basic supply contents. Their
-  IDs and balance were preserved; a later reward-theme pass should keep references stable.
+- The formerly identical 17 reward pools now have distinct theme/rarity supplies.
+  IDs and draw counts are preserved; the existing Steam baseline is retained.
+  See [reward balance](REWARD_BALANCE.md). In-game balance testing remains necessary.
 - Existing task-level AE2 prerequisites are intentional. Do not remove them merely
   because they are task IDs rather than whole-quest IDs.
 - Garrick retains his tested mix of gifts and inventory-possession tasks. Newer

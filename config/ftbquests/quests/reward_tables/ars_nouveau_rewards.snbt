@@ -3,11 +3,23 @@
 	loot_size: 1
 	order_index: 15
 	rewards: [
-		{ count: 32, item: "minecraft:torch" }
-		{ count: 16, item: "minecraft:coal" }
-		{ count: 12, item: "minecraft:copper_ingot" }
-		{ count: 8, item: "minecraft:cooked_porkchop" }
-	]
-	title: "Ars Nouveau Rewards"
+  {
+    "count": 8,
+    "item": "minecraft:lapis_lazuli"
+  },
+  {
+    "count": 4,
+    "item": "minecraft:amethyst_shard"
+  },
+  {
+    "count": 16,
+    "item": "minecraft:paper"
+  },
+  {
+    "count": 4,
+    "item": "minecraft:gold_ingot"
+  }
+]
+	title: "Ars Nouveau Study Supplies"
 	use_title: true
 }

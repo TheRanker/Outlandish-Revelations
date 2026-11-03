@@ -4,11 +4,23 @@
 	loot_size: 1
 	order_index: 20
 	rewards: [
-		{ count: 32, item: "minecraft:torch" }
-		{ count: 16, item: "minecraft:coal" }
-		{ count: 12, item: "minecraft:copper_ingot" }
-		{ count: 8, item: "minecraft:cooked_porkchop" }
-	]
+  {
+    "count": 24,
+    "item": "minecraft:iron_ingot"
+  },
+  {
+    "count": 24,
+    "item": "minecraft:redstone"
+  },
+  {
+    "count": 8,
+    "item": "minecraft:gold_ingot"
+  },
+  {
+    "count": 16,
+    "item": "minecraft:lapis_lazuli"
+  }
+]
 	title: "&dEpic Reward"
 	use_title: true
 }

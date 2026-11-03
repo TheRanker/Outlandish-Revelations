@@ -3,11 +3,23 @@
 	loot_size: 1
 	order_index: 13
 	rewards: [
-		{ count: 32, item: "minecraft:torch" }
-		{ count: 16, item: "minecraft:coal" }
-		{ count: 12, item: "minecraft:copper_ingot" }
-		{ count: 8, item: "minecraft:cooked_porkchop" }
-	]
-	title: "AE2 Medium Reward Bag"
+  {
+    "count": 24,
+    "item": "minecraft:glass"
+  },
+  {
+    "count": 16,
+    "item": "minecraft:redstone"
+  },
+  {
+    "count": 12,
+    "item": "minecraft:paper"
+  },
+  {
+    "count": 8,
+    "item": "minecraft:iron_ingot"
+  }
+]
+	title: "AE2 Network Maintenance Supplies"
 	use_title: true
 }

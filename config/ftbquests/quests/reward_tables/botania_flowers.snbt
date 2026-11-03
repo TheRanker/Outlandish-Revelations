@@ -3,10 +3,22 @@
 	loot_size: 1
 	order_index: 0
 	rewards: [
-		{ count: 32, item: "minecraft:torch" }
-		{ count: 16, item: "minecraft:coal" }
-		{ count: 12, item: "minecraft:copper_ingot" }
-		{ count: 8, item: "minecraft:cooked_porkchop" }
-	]
+  {
+    "count": 4,
+    "item": "botania:white_mystical_flower"
+  },
+  {
+    "count": 4,
+    "item": "botania:light_blue_mystical_flower"
+  },
+  {
+    "count": 4,
+    "item": "botania:yellow_mystical_flower"
+  },
+  {
+    "count": 4,
+    "item": "botania:red_mystical_flower"
+  }
+]
 	title: "Botania Flowers"
 }

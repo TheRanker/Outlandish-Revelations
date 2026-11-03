@@ -3,11 +3,23 @@
 	loot_size: 1
 	order_index: 22
 	rewards: [
-		{ count: 32, item: "minecraft:torch" }
-		{ count: 16, item: "minecraft:coal" }
-		{ count: 12, item: "minecraft:copper_ingot" }
-		{ count: 8, item: "minecraft:cooked_porkchop" }
-	]
-	title: "GT Steam Basic Rewards"
+  {
+    "count": 24,
+    "item": "minecraft:torch"
+  },
+  {
+    "count": 16,
+    "item": "minecraft:coal"
+  },
+  {
+    "count": 12,
+    "item": "minecraft:copper_ingot"
+  },
+  {
+    "count": 12,
+    "item": "minecraft:clay_ball"
+  }
+]
+	title: "GT Steam Workshop Supplies"
 	use_title: true
 }
