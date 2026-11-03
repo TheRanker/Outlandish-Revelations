@@ -1,0 +1,16 @@
+{
+  "name": "A promise alongside your progress",
+  "category": "patchouli:chapter_22",
+  "icon": "minecraft:writable_book",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The Unfinished Promise follows twelve people whose lives were changed by the Brass Concord and The Ranker. Their accounts unfold as you help restore the places they call home. Listen to each account and let the story emerge through their requests."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Follow these stories alongside Create and GTCEu Stone/Steam, then LV, MV, HV, EV and IV. The story does not replace your factory progression or your team’s dimension requirements. You can return to a request when you have the supplies."
+    }
+  ]
+}

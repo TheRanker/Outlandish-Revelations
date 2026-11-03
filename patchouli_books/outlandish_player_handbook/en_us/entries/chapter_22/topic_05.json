@@ -1,0 +1,20 @@
+{
+  "name": "Tears for Fears and remembrance",
+  "category": "patchouli:chapter_22",
+  "icon": "minecraft:book",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The Hovering Inferno victory and the twelve NPC stories are parallel achievements. Follow the finale’s quest requirements to claim Tears for Fears and four Radiation potions. Recovering the sword does not by itself complete every story or awaken a relic."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "After recovering Tears for Fears, carry it in your normal inventory when speaking with a story NPC. It can be in your hotbar, main inventory or offhand; it need not be selected. A contextual Listen prompt offers their recognition while preserving ordinary quest conversations. A sword inside a backpack or other container is not in your normal inventory."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "The memorial awakening is still being developed in this version. The Promise Fulfilled is reserved for your own successful ceremony once that integration is available. Possessing the sword, visiting a memorial or sharing a team does not award it. There is currently no playable awakening ceremony to complete."
+    }
+  ]
+}

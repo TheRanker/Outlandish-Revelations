@@ -1,7 +1,7 @@
 {
   "name": "Outlandish Player Handbook",
-  "landing_text": "Build a home, grow your industry, and prepare for the Hovering Inferno. Choose a chapter for practical advice. Use JEI for exact recipes and the questbook for milestones.",
-  "version": 2,
+  "landing_text": "Build a home, grow your industry, and prepare for the Hovering Inferno. Along the way, discover The Unfinished Promise and help twelve scattered survivors restore their homes. Use JEI for recipes and the questbook for milestones.",
+  "version": 3,
   "book_texture": "patchouli:textures/gui/book_gray.png",
   "model": "patchouli:book_gray",
   "show_progress": false,

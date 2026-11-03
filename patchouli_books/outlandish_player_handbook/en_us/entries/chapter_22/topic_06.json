@@ -1,0 +1,16 @@
+{
+  "name": "What a reward bag contains",
+  "category": "patchouli:chapter_22",
+  "icon": "minecraft:chest",
+  "sortnum": 6,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A reward bag is a random supply reward. The revised basic pools make one draw: you receive one possible stack, rather than every item in the pool. Workshop themes favor useful supplies, such as AE2 assembly materials or ordinary Botania mystical flowers."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Rarity improves the basic supply stacks; it does not promise a finished machine or relic. These bags do not bypass dimension encounters, NPC deliveries or awakening. Keep following JEI and the questbook for the projects those materials support."
+    }
+  ]
+}

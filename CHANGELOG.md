@@ -2,6 +2,9 @@
 
 ## Unreleased — development after 5.0
 
+- Update the player handbook with the twelve NPC storylines, scroll and repair
+  guidance, personal versus team progress, reward bags and the unfinished ceremony status.
+
 - Differentiate the 17 formerly identical reward pools by workshop theme and
   rarity. Retune 16 tables and retain the established Steam bag baseline, preserving
   table IDs, draw counts, crate registrations and quest rewards. Use only basic
