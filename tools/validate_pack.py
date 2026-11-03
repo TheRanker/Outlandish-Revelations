@@ -33,6 +33,27 @@ def validate():
         for dependency in quest.get('dependencies',[]):assert normal(dependency) in ids,('Missing prerequisite',quest['id'],dependency)
         for reward in quest.get('rewards',[]):
             if reward.get('type')=='loot':assert normal(reward.get('table_id','')) in tables,('Missing reward table',quest['id'])
+    policies=json.loads((ROOT/'tools/data/reward_pools.json').read_text())
+    signatures=set();pools={}
+    safe_vanilla={'torch','coal','copper_ingot','cooked_porkchop','iron_ingot','redstone','glass','gold_ingot',
+        'lapis_lazuli','paper','amethyst_shard','stone','bone_meal','oak_log','cobblestone','wheat','leather',
+        'clay_ball','baked_potato','oak_planks'}
+    for name,policy in policies.items():
+        table,_=load(ROOT/f'config/ftbquests/quests/reward_tables/{name}.snbt')
+        assert table['id']==policy['id'] and table['loot_size']==1,('Reward identity/draw count changed',name)
+        rows=table['rewards'];assert len(rows)==4
+        assert rows==[{'count':count,'item':item} for item,count in policy['rewards']],('Reward policy mismatch',name)
+        for row in rows:
+            namespace,item=row['item'].split(':')
+            assert (namespace=='minecraft' and item in safe_vanilla) or (namespace=='botania' and item in {
+                'white_mystical_flower','light_blue_mystical_flower','yellow_mystical_flower','red_mystical_flower'}),('Progression-key reward not permitted',name,row)
+            assert isinstance(row['count'],int) and 1<=row['count']<=64
+        signatures.add(tuple(sorted((row['item'],row['count']) for row in rows)))
+        pools[name]={row['item']:row['count'] for row in rows}
+    assert len(signatures)==len(policies)==17,'Reward pools accidentally became identical again'
+    for lower,higher in [('rare','epic'),('epic','legendary')]:
+        assert pools[lower].keys()==pools[higher].keys()
+        assert all(pools[higher][item]>amount for item,amount in pools[lower].items()),'Higher rarity must increase every material stack'
     links=json.loads((ROOT/'kubejs/data/quest_giver/quest_line_links.json').read_text(encoding='utf-8'))
     names=json.loads((ROOT/'kubejs/data/quest_giver/quest_line_names.json').read_text(encoding='utf-8'))['names']
     assert len(links)==len(set(names))==12

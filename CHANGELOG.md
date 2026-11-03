@@ -2,6 +2,10 @@
 
 ## Unreleased — development after 5.0
 
+- Differentiate the 17 formerly identical reward pools by workshop theme and
+  rarity. Retune 16 tables and retain the established Steam bag baseline, preserving
+  table IDs, draw counts, crate registrations and quest rewards. Use only basic
+  supplies and ordinary mystical flowers; no machines, circuits, boss keys or relics.
 - Add The Unfinished Promise: twelve NPC arcs, personal completion advancements,
   linked FTB quests and distinct structures with event-driven restoration stages.
 - Preserve Garrick's tested five-quest forge and anvil repair behavior.
@@ -21,7 +25,7 @@
 - Add portable validation, mocked personal-record tests and a local export helper.
 
 Known follow-up: multiplayer acceptance tests, new-arc playthroughs, memorial and
-ceremony integration, and differentiating 17 currently identical basic reward tables.
+ceremony integration, and in-game reward quantity/rarity balance testing.
 
 ## 5.0
 

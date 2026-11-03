@@ -1,0 +1,19 @@
+{
+  "common": {"id":"06C4634E81851A6C","rewards":[["minecraft:torch",16],["minecraft:coal",8],["minecraft:copper_ingot",8],["minecraft:cooked_porkchop",4]]},
+  "uncommon": {"id":"3A3BDBA4E9AD13C4","rewards":[["minecraft:iron_ingot",8],["minecraft:redstone",8],["minecraft:glass",16],["minecraft:cooked_porkchop",8]]},
+  "rare": {"id":"4D37FFAF33DF678A","rewards":[["minecraft:iron_ingot",12],["minecraft:redstone",16],["minecraft:gold_ingot",4],["minecraft:lapis_lazuli",12]]},
+  "epic": {"id":"617F6D802ED0FD00","rewards":[["minecraft:iron_ingot",24],["minecraft:redstone",24],["minecraft:gold_ingot",8],["minecraft:lapis_lazuli",16]]},
+  "legendary": {"id":"639509C7B28C90DF","rewards":[["minecraft:iron_ingot",32],["minecraft:redstone",32],["minecraft:gold_ingot",12],["minecraft:lapis_lazuli",24]]},
+  "ae2_basic_rewards": {"id":"0A18991D9745743A","title":"AE2 Assembly Supplies","rewards":[["minecraft:iron_ingot",12],["minecraft:copper_ingot",16],["minecraft:redstone",12],["minecraft:glass",16]]},
+  "ae2_basic_reward_table": {"id":"517CB2DAB0515A50","title":"AE2 Network Maintenance Supplies","rewards":[["minecraft:glass",24],["minecraft:redstone",16],["minecraft:paper",12],["minecraft:iron_ingot",8]]},
+  "ars_nouveau_rewards": {"id":"3903E8F06E812E9F","title":"Ars Nouveau Study Supplies","rewards":[["minecraft:lapis_lazuli",8],["minecraft:amethyst_shard",4],["minecraft:paper",16],["minecraft:gold_ingot",4]]},
+  "blood_magic_loot_bag": {"id":"4F7310810CCDCD00","title":"&cBlood Magic Workshop Supplies","rewards":[["minecraft:stone",32],["minecraft:glass",16],["minecraft:redstone",12],["minecraft:iron_ingot",8]]},
+  "botania_flowers": {"id":"129BBEE2418753DE","rewards":[["botania:white_mystical_flower",4],["botania:light_blue_mystical_flower",4],["botania:yellow_mystical_flower",4],["botania:red_mystical_flower",4]]},
+  "elven_loot": {"id":"724575573A0EFEF5","title":"&2Elven Workshop Supplies&r","rewards":[["minecraft:glass",24],["minecraft:gold_ingot",6],["minecraft:lapis_lazuli",12],["minecraft:paper",16]]},
+  "legendary_mana_loot": {"id":"0595EDDADDEA1407","title":"&6Mana Workshop Reserve&r","rewards":[["minecraft:gold_ingot",8],["minecraft:lapis_lazuli",16],["minecraft:amethyst_shard",8],["minecraft:bone_meal",24]]},
+  "living_loot": {"id":"28A9C4EA22B6DBD7","title":"&9Living Workshop Supplies&r","rewards":[["minecraft:oak_log",16],["minecraft:cobblestone",24],["minecraft:wheat",12],["minecraft:leather",8]]},
+  "Rune_loot": {"id":"2A7CC6916B99544B","title":"&9Rune Study Supplies&r","rewards":[["minecraft:bone_meal",12],["minecraft:clay_ball",16],["minecraft:redstone",12],["minecraft:paper",16]]},
+  "twilight_forest_loot_bag": {"id":"4A44448EAB2A8165","title":"Twilight Expedition Supplies","rewards":[["minecraft:torch",24],["minecraft:baked_potato",12],["minecraft:oak_planks",24],["minecraft:paper",16]]},
+  "gt_steam_basic_rewards": {"id":"3DAEBCB8606C6C4A","title":"GT Steam Workshop Supplies","rewards":[["minecraft:torch",24],["minecraft:coal",16],["minecraft:copper_ingot",12],["minecraft:clay_ball",12]]},
+  "outlandish_steam": {"id":"3EB40F280F0DF8A1","rewards":[["minecraft:torch",32],["minecraft:coal",16],["minecraft:copper_ingot",12],["minecraft:cooked_porkchop",8]]}
+}
