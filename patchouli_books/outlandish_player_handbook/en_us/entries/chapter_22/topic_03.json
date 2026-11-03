@@ -1,0 +1,16 @@
+{
+  "name": "Beyond the Overworld",
+  "category": "patchouli:chapter_22",
+  "icon": "minecraft:ender_eye",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "In the Nether, seek Darius Emberwright, Seraphine Blackveil, Malric Vane, Cassian Ashfall and Valen Cinderwatch. Their homes generate outside the Infernal Dunes. Incendium’s large biomes make a marked route and spare supplies valuable."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "A.U.R.A. waits on the End’s outer islands, away from the central dragon-fight island. Prepare for Nullscape terrain and the journey outward. In Twilight Forest, seek Elyndra, Keeper of the Veil, in woodland and clearing areas. Follow the forest’s own progression while exploring."
+    }
+  ]
+}
