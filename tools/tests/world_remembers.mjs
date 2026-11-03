@@ -54,7 +54,7 @@ function makeEnvironment(enabled=false,saved={},requireAnchor=false){
     'com.saphienyako.quest_giver.quest.QuestLinkManager':{getMatchingLink:target=>target.link},
     'net.minecraftforge.common.MinecraftForge':{EVENT_BUS:{addListener:(...args)=>hooks.nativeListeners.push(args)}},
     'net.minecraftforge.eventbus.api.EventPriority':{LOWEST:'LOWEST'},
-    'java.lang.Class':{forName:value=>value},
+    'net.minecraftforge.event.entity.player.PlayerInteractEvent$EntityInteractSpecific':{__javaObject__:'entity-interact-specific-class'},
     'net.minecraftforge.fml.loading.FMLEnvironment':{dist:{isClient:()=>false}}
   };
   const sandbox={global:{},console:{error:value=>logs.push(value)},Java:{loadClass(name){classLoads.push(name);if(!(name in java))throw Error('Unexpected class: '+name);return java[name];}},
@@ -76,6 +76,7 @@ check('Disabled hook creates no records or achievements',Object.keys(disabled.se
 check('Dedicated-server bridge registers no render event',disabled.hooks.clientEvents.length===0);
 check('Dedicated-server path loads no client rendering classes',!disabled.classLoads.some(n=>n.startsWith('net.minecraft.client.')||n.startsWith('net.minecraftforge.client.')));
 check('Conversation observer receives canceled events at LOWEST',disabled.hooks.nativeListeners[0][0]==='LOWEST' && disabled.hooks.nativeListeners[0][1]===true);
+check('Observer uses the loaded event Class without forbidden reflection',disabled.hooks.nativeListeners[0][2]==='entity-interact-specific-class' && !disabled.classLoads.includes('java.lang.Class'));
 
 const env=makeEnvironment(true);
 for(const [label,alter] of [
