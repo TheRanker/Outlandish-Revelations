@@ -1,12 +1,13 @@
 # Development and validation
 
-This repository holds overrides and dependency pins, not downloaded mod JARs or
+This repository holds overrides and dependency pins, one explicitly bundled custom compatibility JAR, and no
 private launcher metadata. Use Python 3.12+ and Node.js 22+ for the validation tools.
 
 Run from the repository root:
 
 ```text
 python tools/validate_pack.py
+python tools/audit_npc_requests.py
 node tools/tests/world_remembers.mjs
 python tools/build_pack.py
 ```
@@ -50,3 +51,5 @@ the central End island and existing Warden/Wither/team gates.
 
 No build or validation workflow publishes releases. Keep release publication
 separate from updating development source.
+
+The native bridge artifact and its checked-in source are documented in [compatibility build notes](../compat/README.md). The export pins current installed download versions, excludes disabled JEIOptimizer and includes exactly one custom compatibility JAR. See [NPC request audit](NPC_REQUEST_AUDIT.md) and [batch acceptance list](BATCH_ACCEPTANCE.md) for outstanding checks.

@@ -17,6 +17,8 @@ jobs:
           node-version: '22'
       - name: Validate pack references and data
         run: python tools/validate_pack.py
+      - name: Audit NPC requests and storyline links
+        run: python tools/audit_npc_requests.py
       - name: Test personal World Remembers behavior
         run: node tools/tests/world_remembers.mjs
       - name: Check local development archive

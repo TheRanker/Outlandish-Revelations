@@ -2608,6 +2608,9 @@
 				"Finally, at &6HV&r you get access to the &dByproducts&r"
 				""
 				"These byproducts are often incredibly useful and will come in handy multiple times as you progress"
+				"The custom ore-enhancement branch is an optional alternative alongside standard GregTech refining. An HV Arc Furnace converts one Ore Shard and 144 mB Blazing Pyrotheum into one Ore Crystal (480 EU/t). A furnace converts that Crystal into eight Clusters."
+				"For a further upgrade, an HV Chemical Bath converts one Crystal and 10 mB UU-Matter into one Ore Clump (480 EU/t). A furnace converts the Clump into sixteen Clusters. Fluid availability can delay this beyond simply owning an HV machine."
+				"For iron, copper and gold, Blood Magic also provides an HV Chemical Reactor alternative: one Shard, one Blood Chemical Catalyst and 1,000 mB water produce one Crystal. Choose a useful route in JEI; these optional conversions do not replace progression gates."
 			]
 			extraquests_calendar: {
 				active_quests: 3

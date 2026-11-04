@@ -1,0 +1,7 @@
+{
+  "path": "compat/artifacts/outlandish-compatibility-fixes-1.2.7.jar",
+  "sha256": "d56e4824219902b2b79706142133398d2d6ac6a1d677d79c096d77d6c4319fa9",
+  "baseSha256": "e333716d2a993f8ca39374d4ffe581e38f1d2b7eedac1568377f6e64b90ca43b",
+  "replacesProjectID": 1769793,
+  "version": "1.2.7"
+}

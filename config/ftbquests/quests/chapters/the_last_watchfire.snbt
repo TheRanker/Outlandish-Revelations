@@ -24,7 +24,7 @@
   "",
   "Each storyline is one-time per player across every copy of that NPC. Finding another building does not restart it. If you change buildings midway, earlier repairs do not move to the new copy.",
   "Story benefits: restore the building, hear the next part of The Unfinished Promise and record your personal completion. This FTB entry adds no separate item reward. Existing FTB team sharing may complete the tracker for teammates; their personal NPC history remains separate.",
-  "Next story lead: A.U.R.A.. Follow the existing dimension requirements when travelling onward; the story does not unlock dimensions."
+  "Next story lead: A.U.R.A. Follow the existing dimension requirements when travelling onward; the story does not unlock dimensions."
 ]
     icon: "minecraft:soul_lantern"
     x: 0.0d

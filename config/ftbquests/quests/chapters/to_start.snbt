@@ -7,11 +7,12 @@
 	order_index: 0
 	quest_links: [ ]
 	quests: [{
-		can_repeat: true
+		can_repeat: 1b
 		description: [
 			"Not every stranger is willing to speak freely. Some carry stories, others carry secrets, and a few are waiting for someone willing to help."
 			""
 			"A Quest Scroll allows you to speak with these people. Should yours become lost, claim another here. One scroll works for every supported quest giver you encounter."
+			"To get another scroll, complete the checkmark and claim the scroll reward. After the repeat cooldown, complete the checkmark again for another replacement. This only replaces the scroll; it does not reset any NPC storyline."
 		]
 		extraquests_calendar: {
 			active_quests: 3
@@ -31,7 +32,6 @@
 		ignore_reward_blocking: true
 		optional: true
 		repeat_cooldown: 5
-		repeatable: true
 		rewards: [{
 			id: "479352FFFD3559AD"
 			item: "quest_giver:quest_scroll"

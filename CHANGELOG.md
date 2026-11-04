@@ -2,9 +2,21 @@
 
 ## Unreleased — development after 5.0
 
+- Repair the replacement-scroll repeat definition and document the narrow local
+  test-world claim reset; preserve all story completion records.
+- Unify nine K-Turrets titanium crafting inputs and its repair ingredient.
+- Audit all 81 NPC requests and 76 FTB delivery summaries; correct five stale
+  documentation task IDs and add automated consistency checks.
+- Refresh current dependency pins, exclude incompatible JEIOptimizer and preserve
+  pending gameplay checks in the batch acceptance list.
+- Explain optional MV/HV ore enhancements in quests and the handbook; retain simple
+  early processing and add the matching 1:1 Create raw-platinum-to-dust route.
+- Add compatibility mod 1.2.7 native story bridge for stable event registration,
+  player identity and inventory access; retain data-driven story logic and existing
+  UUID records. Bundle the custom JAR in local exports in place of its old download.
+- Correct the Beautify candelabra advancement and narrow Log Begone filters.
 - Update the player handbook with the twelve NPC storylines, scroll and repair
   guidance, personal versus team progress, reward bags and the unfinished ceremony status.
-
 - Differentiate the 17 formerly identical reward pools by workshop theme and
   rarity. Retune 16 tables and retain the established Steam bag baseline, preserving
   table IDs, draw counts, crate registrations and quest rewards. Use only basic

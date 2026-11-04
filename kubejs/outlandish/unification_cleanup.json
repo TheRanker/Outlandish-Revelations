@@ -140,6 +140,10 @@
       {
         "from": "ae2:quartz_block",
         "to": "#forge:storage_blocks/certus_quartz"
+      },
+      {
+        "from": "k_turrets:titanium_ingot",
+        "to": "#forge:ingots/titanium"
       }
     ],
     "standaloneRemovals": [

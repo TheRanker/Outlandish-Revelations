@@ -22,7 +22,7 @@ class Player{
     this.slots=Array.from({length:36},(_,i)=>({id:i===swordSlot?'kubejs:rankers_sword':'minecraft:air',isEmpty(){return this.id==='minecraft:air';}}));
     this.offhand=[{id:'minecraft:air',isEmpty(){return this.id==='minecraft:air';}}];
     this.level={dimension:'minecraft:overworld',getEntity:id=>server.entities[id],anchorBlockId:'minecraft:lodestone',getBlockState(){return {getBlock:()=>this.anchorBlockId};}};}
-  getUUID(){return this.uuid;}getGameProfile(){return {getName:()=>this.name};}
+  get username(){return this.name;}
   getInventory(){return {items:new List(this.slots),offhand:new List(this.offhand)};}getItemInHand(){return {id:'quest_giver:quest_scroll'};}
   distanceToSqr(target){return (this.x-target.x)**2+(this.y-target.y)**2+(this.z-target.z)**2;}
   getAdvancements(){return {award:(adv,criterion)=>this.awards.push({adv,criterion})};}
@@ -33,7 +33,7 @@ class Literal{
   constructor(name){this.name=name;this.children=[];}executes(handler){this.handler=handler;return this;}
   requires(requirement){this.requirement=requirement;return this;}then(child){this.children.push(child);return this;}
 }
-function makeEnvironment(enabled=false,saved={},requireAnchor=false){
+function makeEnvironment(enabled=false,saved={},requireAnchor=false,clientSide=false){
   const settings=structuredClone(config);settings.ceremonyIntegrationEnabled=enabled;
   settings.memorials=[{id:'test_only',dimension:'minecraft:overworld',anchor:{x:0,y:60,z:0},interaction:{x:0,y:61,z:0},plaque:{x:0.5,y:61.5,z:0.01,yaw:0,scale:0.01}}];
   if(requireAnchor)settings.memorials[0].anchor.requiredBlockId='minecraft:lodestone';
@@ -41,7 +41,14 @@ function makeEnvironment(enabled=false,saved={},requireAnchor=false){
   const hooks={login:null,block:null,command:null,nativeListeners:[],clientEvents:[]};
   const logs=[];const packets=[];const classLoads=[];
   const clock={value:'2026-11-03T12:00:00Z'};
+  const native={
+    uuid:entity=>entity.uuid,username:player=>player.username,
+    hasSword:player=>[...player.slots,...player.offhand].some(stack=>stack.id==='kubejs:rankers_sword'),
+    installConversation:callback=>hooks.nativeListeners.push(['LOWEST',true,'entity-interact-specific-class',callback]),
+    installRenderer:callback=>{if(clientSide)hooks.clientEvents.push(['net.minecraftforge.client.event.RenderLevelStageEvent',callback]);}
+  };
   const java={
+    'com.theranker.creativeguard.WorldRemembersBridge':native,
     'java.time.Instant':{now:()=>({toString:()=>clock.value})},
     'java.util.UUID':{fromString:value=>value},
     'net.minecraft.resources.ResourceLocation':class{constructor(value){this.value=value;}},
@@ -54,10 +61,9 @@ function makeEnvironment(enabled=false,saved={},requireAnchor=false){
     'com.saphienyako.quest_giver.quest.QuestLinkManager':{getMatchingLink:target=>target.link},
     'net.minecraftforge.common.MinecraftForge':{EVENT_BUS:{addListener:(...args)=>hooks.nativeListeners.push(args)}},
     'net.minecraftforge.eventbus.api.EventPriority':{LOWEST:'LOWEST'},
-    'net.minecraftforge.event.entity.player.PlayerInteractEvent$EntityInteractSpecific':{__javaObject__:'entity-interact-specific-class'},
-    'net.minecraftforge.fml.loading.FMLEnvironment':{dist:{isClient:()=>false}}
+    'net.minecraftforge.event.entity.player.PlayerInteractEvent$EntityInteractSpecific':{__javaObject__:'entity-interact-specific-class'}
   };
-  const sandbox={global:{},console:{error:value=>logs.push(value)},Java:{loadClass(name){classLoads.push(name);if(!(name in java))throw Error('Unexpected class: '+name);return java[name];}},
+  const sandbox={global:{},Platform:{isClientEnvironment:()=>clientSide},console:{error:value=>logs.push(value)},Java:{loadClass(name){classLoads.push(name);if(!(name in java))throw Error('Unexpected class: '+name);return java[name];}},
     JsonIO:{readString:()=>JSON.stringify(settings)},Text:{of:text},
     ForgeEvents:{onEvent:(...args)=>hooks.clientEvents.push(args)},
     BlockEvents:{rightClicked:fn=>hooks.block=fn},PlayerEvents:{loggedIn:fn=>hooks.login=fn},
@@ -74,6 +80,9 @@ const disabled=makeEnvironment();
 check('Distributed ceremony hook refuses completion',disabled.api.completeAwakening(disabled.alice,receipt()).reason==='ceremony_integration_not_connected');
 check('Disabled hook creates no records or achievements',Object.keys(disabled.server.values).length===0 && disabled.alice.awards.length===0);
 check('Dedicated-server bridge registers no render event',disabled.hooks.clientEvents.length===0);
+const clientBridge=makeEnvironment(false,{},false,true);
+check('Client bridge registers the render observer',clientBridge.hooks.clientEvents.length===1 && clientBridge.hooks.clientEvents[0][0]==='net.minecraftforge.client.event.RenderLevelStageEvent');
+check('Side checks never load filtered FML classes',![...disabled.classLoads,...clientBridge.classLoads].some(name=>name.startsWith('net.minecraftforge.fml.loading.')));
 check('Dedicated-server path loads no client rendering classes',!disabled.classLoads.some(n=>n.startsWith('net.minecraft.client.')||n.startsWith('net.minecraftforge.client.')));
 check('Conversation observer receives canceled events at LOWEST',disabled.hooks.nativeListeners[0][0]==='LOWEST' && disabled.hooks.nativeListeners[0][1]===true);
 check('Observer uses the loaded event Class without forbidden reflection',disabled.hooks.nativeListeners[0][2]==='entity-interact-specific-class' && !disabled.classLoads.includes('java.lang.Class'));
@@ -107,8 +116,8 @@ check('Death/replacement player keeps UUID record without carrying sword',env.ap
 const restarted=makeEnvironment(true,JSON.parse(JSON.stringify(env.server.values)));
 check('Serialized server restart restores record',restarted.api.getPersonalRecord(restarted.alice).completedAtUtc===result.completedAtUtc);
 
-const target={x:1,y:61,z:0,link:{questLineId:'garrick_ashford'},getUUID:()=> '33333333-3333-4333-8333-333333333333',getId:()=>42,isAlive:()=>true};
-env.server.entities[target.getUUID()]=target;
+const target={x:1,y:61,z:0,link:{questLineId:'garrick_ashford'},uuid:'33333333-3333-4333-8333-333333333333',getId:()=>42,isAlive:()=>true};
+env.server.entities[target.uuid]=target;
 let canceled=false;
 const conversation={getEntity:()=>env.alice,getHand:()=> 'MAIN_HAND',getTarget:()=>target,setCanceled:()=>canceled=true};
 const previousChat=env.alice.chat.length;
@@ -128,7 +137,7 @@ check('Congratulations do not grant another completion record',env.api.getPerson
 const names=[];function collect(node){names.push(node.name);node.children.forEach(collect);}collect(command);
 check('No completion grant/revoke command exposed',!names.some(n=>['grant','complete','awaken','revoke'].includes(n)));
 for(const npc of config.npcs){
-  const actor={...target,link:{questLineId:npc.id},getUUID:()=>target.getUUID()};env.server.entities[actor.getUUID()]=actor;
+  const actor={...target,link:{questLineId:npc.id},uuid:target.uuid};env.server.entities[actor.uuid]=actor;
   const interaction={...conversation,getEntity:()=>env.bob,getTarget:()=>actor};
   env.sandbox.global.ORWorldRemembersConversation(interaction);
   const count=env.packets.length;
@@ -153,9 +162,9 @@ check('Corrupt personal data does not grant completion',corrupted.alice.awards.l
 function drawSnapshot(packet,uuid,anchorBlockId='minecraft:lodestone'){
   const drawn=[];let receiver;let logout;
   const pose={pushPose(){},popPose(){},translate(){},mulPose(){},scale(){},last:()=>({pose:()=>({})})};
-  const mc={player:{getUUID:()=>uuid},level:{dimension:'minecraft:overworld',getBlockState:()=>({getBlock:()=>anchorBlockId})},
+  const mc={player:{uuid},level:{dimension:'minecraft:overworld',getBlockState:()=>({getBlock:()=>anchorBlockId})},
     font:{width:t=>t.value.length,drawInBatch:(t,x,y,color)=>{if(!Number.isInteger(color)||color>2147483647||color< -2147483648)throw Error('Java ARGB int overflow');drawn.push(t.value);}},renderBuffers:()=>({bufferSource:()=>({endBatch(){}})})};
-  const classes={'net.minecraft.client.Minecraft':{getInstance:()=>mc},'net.minecraftforge.client.event.RenderLevelStageEvent$Stage':{AFTER_TRANSLUCENT_BLOCKS:'after'},
+  const classes={'com.theranker.creativeguard.WorldRemembersBridge':{uuid:entity=>entity.uuid},'net.minecraft.client.Minecraft':{getInstance:()=>mc},'net.minecraftforge.client.event.RenderLevelStageEvent$Stage':{AFTER_TRANSLUCENT_BLOCKS:'after'},
     'net.minecraft.client.gui.Font$DisplayMode':{NORMAL:'normal'},'com.mojang.math.Axis':{YP:{rotationDegrees:value=>value}},
     'net.minecraft.core.BlockPos':class{},'net.minecraftforge.registries.ForgeRegistries':{BLOCKS:{getKey:block=>block}}};
   const sandbox={global:{},Java:{loadClass:name=>classes[name]},Text:{of:text},console,

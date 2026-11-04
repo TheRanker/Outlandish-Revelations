@@ -69,11 +69,13 @@ See [development and validation](docs/DEVELOPMENT.md),
 
 `config`, `defaultconfigs`, `kubejs`, `patchouli_books` and `resources` are pack
 overrides. FTB Quests and Paxi are intentionally tracked. Mod/resource-pack
-downloads are pinned in `manifest.json`; launcher accounts, worlds and caches
+downloads are pinned in `manifest.json`; the custom compatibility 1.2.7 JAR is
+bundled from `compat/artifacts` by the export tool; launcher accounts, worlds and caches
 are excluded.
 
 ```text
 python tools/validate_pack.py
+python tools/audit_npc_requests.py
 node tools/tests/world_remembers.mjs
 python tools/build_pack.py
 ```

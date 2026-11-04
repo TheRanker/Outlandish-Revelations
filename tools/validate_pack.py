@@ -2,6 +2,7 @@
 from collections import defaultdict
 from pathlib import Path
 import json
+import hashlib
 import re
 import zipfile
 from snbt import load
@@ -19,7 +20,7 @@ def normal(value):
 
 def validate():
     ids=defaultdict(list);quests=[];tables={};json_count=0;snbt_count=0
-    for folder in ('kubejs/data','kubejs/outlandish'):
+    for folder in ('kubejs/data','kubejs/outlandish','patchouli_books'):
         for file in (ROOT/folder).rglob('*.json'):
             json.loads(file.read_text(encoding='utf-8-sig'));json_count+=1
     for file in (ROOT/'config/ftbquests/quests').rglob('*.snbt'):
@@ -74,6 +75,8 @@ def validate():
             assert all(value[part][key].get('translate') for part in ('start','complete') for key in ('title','description'))
         advancement=npc['completion_advancement']
         assert sum(task.get('advancement')==advancement for q in quests for task in q.get('tasks',[]))==1
+        linked=[task for q in quests for task in q.get('tasks',[]) if task.get('advancement')==advancement]
+        assert normal(linked[0]['id'])==normal(npc['ftb_task_id']),('NPC index task ID is stale',npc['id'])
         namespace,name=advancement.split(':')
         assert (ROOT/f'kubejs/data/{namespace}/advancements/{name}.json').exists()
         completion=ROOT/f'kubejs/data/outlandish/functions/story/{npc["id"]}/complete.mcfunction'
@@ -85,9 +88,35 @@ def validate():
     assert 'incendium:infernal_dunes' not in biome['values']
     aura=json.loads((ROOT/'kubejs/data/outlandish/worldgen/structure_set/aura_research_station.json').read_text())['placement']
     assert aura['type']=='minecraft:concentric_rings' and aura['distance']>=64
+    placement_salts=set()
+    for file in (ROOT/'kubejs/data/outlandish/worldgen/structure_set').glob('*.json'):
+        placement=json.loads(file.read_text())['placement']
+        salt=placement.get('salt')
+        assert type(salt) is int and 0<=salt<=2147483647,('Missing or invalid structure placement salt',file)
+        assert salt not in placement_salts,('Duplicate NPC placement salt',file)
+        placement_salts.add(salt)
+    native=json.loads((ROOT/'compat/native-artifact.json').read_text())
+    native_jar=ROOT/native['path']
+    assert hashlib.sha256(native_jar.read_bytes()).hexdigest()==native['sha256'],'Native artifact hash mismatch'
+    with zipfile.ZipFile(native_jar) as z:
+        assert z.testzip() is None
+        assert 'com/theranker/creativeguard/WorldRemembersBridge.class' in z.namelist()
     manifest=json.loads((ROOT/'manifest.json').read_text())
     assert manifest['minecraft']['version']=='1.20.1' and manifest['overrides']=='overrides'
     assert len({(entry['projectID'],entry['fileID']) for entry in manifest['files']})==len(manifest['files'])
+    assert not any(e['projectID']==native['replacesProjectID'] for e in manifest['files']),'Old native mod download would duplicate bundled override'
+    inventory=json.loads((ROOT/'docs/dependency-inventory.json').read_text(encoding='utf-8'))
+    assert not any(e['filename'].lower().startswith('jeioptimizer-') for e in inventory),'Incompatible JEIOptimizer must remain excluded'
+    pins={(e['projectID'],e['fileID']) for e in manifest['files']}
+    assert {(e['projectID'],e['fileID']) for e in inventory if 'projectID' in e}==pins
+    assert sum(e.get('distribution')=='bundled_override' for e in inventory)==1
+    handbook=ROOT/'patchouli_books/outlandish_player_handbook'
+    for file in (handbook/'en_us/entries').rglob('*.json'):
+        entry=json.loads(file.read_text(encoding='utf-8-sig'))
+        assert (handbook/'en_us/categories'/((entry['category'].split(':',1)[1])+'.json')).is_file(),file
+    scroll=next(q for q in quests if q['id']=='5A34DFABE4AC44E0')
+    assert scroll['can_repeat']==1 and 'repeatable' not in scroll
+    assert scroll['rewards'][0]['item']=='quest_giver:quest_scroll'
     for archive in (ROOT/'config/paxi').rglob('*.zip'):
         with zipfile.ZipFile(archive) as z:assert z.testzip() is None,archive
     nbt_count=0

@@ -11,6 +11,10 @@
     {
       "type": "patchouli:text",
       "text": "Later, Deployers and other components support sequenced assembly. Read the complete sequence in JEI so you know the order of operations and how many repetitions are required."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "For basic ores, Crushing Wheels turn one raw material into one matching dust. Supported metals include iron, copper, gold, silver, tin, lead, zinc, nickel and platinum. Custom Ore Shards and related forms are optional later upgrades; see Ore upgrades at your own pace in chapter 7."
     }
   ]
 }

@@ -2738,6 +2738,8 @@
 				"This machine is going to see a lot of use, upgrading it is worth it to keep it processing recipes quickly"
 				""
 				"Consider making multiple of these to help process recipes in parallel"
+				"Optional ore upgrade: an MV Chemical Reactor combines one matching ore BLOCK with 200 mB Life Essence and 200 mB water to make one Ore Shard (48 EU/t). This recipe uses an ore-block tag, not a normal raw-ore drop. Check JEI and plan how you will obtain the block."
+				"A furnace converts one Shard into four Ore Clusters. An LV Macerator can then process those Clusters into the matching crushed ore. You can instead keep Shards for the optional HV upgrades. This route is not required to unlock the next voltage tier."
 			]
 			extraquests_calendar: {
 				active_quests: 3
