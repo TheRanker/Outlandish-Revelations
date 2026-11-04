@@ -80,3 +80,16 @@ Executed tools/audit_npc_requests.py and portable reference validation. This is 
 ### Elyndra
 
 16 minecraft:mossy_stone_bricks; 16 minecraft:oak_planks; 6 minecraft:azalea; 8 minecraft:white_wool; 8 minecraft:glass; 12 minecraft:paper; 4 minecraft:lantern.
+
+## Installation identity reconciliation — 2026-11-04
+
+Before deployment, the live FTB editor versions of Valen and A.U.R.A. were found
+with established chapter/quest/task IDs and additional editor settings. Preserve
+those live identities and settings in the repository; merge only the intended
+dialogue punctuation correction. The NPC index now uses the live task IDs. No
+completion data is reset or migrated.
+
+| Chapter | Chapter ID | Quest ID | Task ID |
+| --- | --- | --- | --- |
+| The Last Watchfire | 2474D4DE79696617 | 56A8B8E4A5BD30E2 | 15181E320ED101F5 |
+| The Memory Beyond the Void | 1E041F21FDE723FD | 4F59A83257C7A347 | 4D29991471AED19B |
