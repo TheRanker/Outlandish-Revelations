@@ -10,6 +10,7 @@
     "distance": 64,
     "spread": 3,
     "count": 128,
-    "preferred_biomes": "#outlandish:aura_outer_islands"
+    "preferred_biomes": "#outlandish:aura_outer_islands",
+    "salt": 19408352
   }
 }

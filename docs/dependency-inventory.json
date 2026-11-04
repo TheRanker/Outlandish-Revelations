@@ -24,10 +24,10 @@
     "fileID": 8980386
   },
   {
-    "filename": "accessories-neoforge-1.0.0-beta.46+1.20.1.jar",
+    "filename": "accessories-neoforge-1.0.0-beta.48+1.20.1.jar",
     "category": "mods",
     "projectID": 938917,
-    "fileID": 6201361
+    "fileID": 7164863
   },
   {
     "filename": "accessories_cclayer-7.4.0-beta.18+1.20.1.jar",
@@ -342,10 +342,10 @@
     "fileID": 8491810
   },
   {
-    "filename": "collective-1.20.1-8.72.jar",
+    "filename": "collective-1.20.1-8.76.jar",
     "category": "mods",
     "projectID": 342584,
-    "fileID": 9383865
+    "fileID": 9423082
   },
   {
     "filename": "comforts-forge-6.4.0+1.20.1.jar",
@@ -534,10 +534,10 @@
     "fileID": 7603861
   },
   {
-    "filename": "easy_npc-forge-1.20.1-7.17.1.jar",
+    "filename": "easy_npc-forge-1.20.1-7.18.0.jar",
     "category": "mods",
     "projectID": 1308987,
-    "fileID": 9310585
+    "fileID": 9411416
   },
   {
     "filename": "eccentrictome-1.20.1-1.10.4.jar",
@@ -612,10 +612,10 @@
     "fileID": 9188522
   },
   {
-    "filename": "entity_texture_features-7.2.6-1.20.1-forge.jar",
+    "filename": "entity_texture_features-7.2.7-1.20.1-forge.jar",
     "category": "mods",
     "projectID": 568563,
-    "fileID": 9188405
+    "fileID": 9420328
   },
   {
     "filename": "entityculling-forge-1.11.3-mc1.20.1.jar",
@@ -672,10 +672,10 @@
     "fileID": 6241090
   },
   {
-    "filename": "FallingTree-1.20.1-4.3.4.jar",
+    "filename": "FallingTree-1.20.1-4.3.6.jar",
     "category": "mods",
     "projectID": 349559,
-    "fileID": 5010620
+    "fileID": 9396779
   },
   {
     "filename": "fancymenu_forge_3.9.14_MC_1.20.1.jar",
@@ -984,22 +984,28 @@
     "fileID": 8155852
   },
   {
-    "filename": "jei-1.20.1-forge-15.74.0.229.jar",
+    "filename": "jei-1.20.1-forge-15.74.0.234.jar",
     "category": "mods",
     "projectID": 238222,
-    "fileID": 9298209
+    "fileID": 9394360
+  },
+  {
+    "filename": "jei_biome-1.20.1-forge-1.11fix.jar",
+    "category": "mods",
+    "projectID": 1598029,
+    "fileID": 9406073
+  },
+  {
+    "filename": "jei_structures-3.1fix.jar",
+    "category": "mods",
+    "projectID": 1568462,
+    "fileID": 9406069
   },
   {
     "filename": "jeiintegration_1.20.1-10.0.0.jar",
     "category": "mods",
     "projectID": 265917,
     "fileID": 4999754
-  },
-  {
-    "filename": "jeioptimizer-1.20.1-1.2.5-15.74.jar",
-    "category": "mods",
-    "projectID": 1570444,
-    "fileID": 9318470
   },
   {
     "filename": "JsonThings-1.20.1-0.9.13.jar",
@@ -1248,10 +1254,10 @@
     "fileID": 8649940
   },
   {
-    "filename": "minecolonies-1.20.1-1.1.1305-snapshot.jar",
+    "filename": "minecolonies-1.20.1-1.1.1308-snapshot.jar",
     "category": "mods",
     "projectID": 245506,
-    "fileID": 9373584
+    "fileID": 9394392
   },
   {
     "filename": "minecolonies-jei-fix-1.0.0.jar",
@@ -1350,10 +1356,10 @@
     "fileID": 4939735
   },
   {
-    "filename": "netherportalspread-1.20.1-8.6.jar",
+    "filename": "netherportalspread-1.20.1-8.7.jar",
     "category": "mods",
     "projectID": 342097,
-    "fileID": 9224169
+    "fileID": 9399073
   },
   {
     "filename": "NoChatReports-FORGE-1.20.1-v2.2.3.jar",
@@ -1386,10 +1392,11 @@
     "fileID": 6020952
   },
   {
-    "filename": "outlandish-compatibility-fixes-1.2.6.jar",
+    "filename": "outlandish-compatibility-fixes-1.2.8.jar",
     "category": "mods",
-    "projectID": 1769793,
-    "fileID": 9365934
+    "distribution": "bundled_override",
+    "sha256": "ef56148e46495b11f18629734da023f0d71f775e001fade7d1571a3264c293ca",
+    "replacesProjectID": 1769793
   },
   {
     "filename": "packetfixer-3.3.2-1.18-1.20.4-merged.jar",
@@ -1716,16 +1723,16 @@
     "fileID": 9385316
   },
   {
-    "filename": "sophisticatedcore-1.20.1-1.5.21.2444.jar",
+    "filename": "sophisticatedcore-1.20.1-1.5.24.2453.jar",
     "category": "mods",
     "projectID": 618298,
-    "fileID": 9385244
+    "fileID": 9409259
   },
   {
-    "filename": "sophisticatedstorage-1.20.1-1.5.13.2212.jar",
+    "filename": "sophisticatedstorage-1.20.1-1.5.15.2220.jar",
     "category": "mods",
     "projectID": 619320,
-    "fileID": 9385402
+    "fileID": 9409332
   },
   {
     "filename": "spark-1.10.53-forge.jar",

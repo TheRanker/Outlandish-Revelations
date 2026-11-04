@@ -20,6 +20,8 @@
 			description: [
 				"Create machines use rotational power. Begin with Andesite Alloy, shafts and a water wheel, then add processing and item transport. Use Ponder on components to see how they connect."
 				"Create materials also support Tinkers and Botania. Follow Steam Power for your first GregTech power system, and check JEI when the workshops share ingredients."
+				"Early ore processing is deliberately straightforward. Crushing Wheels turn one raw iron, copper, gold, silver, tin, lead, zinc, nickel or platinum into one matching dust. This is a basic conversion, not ore doubling. Use JEI to check the material; a Millstone does not use these Crushing Wheel recipes."
+				"Ore Clusters, Shards, Crystals and Clumps are optional later upgrades. You do not need them to begin Create or Steam progression. Better technology and supporting fluids let you recover more useful material later."
 			]
 			extraquests_calendar: {
 				active_quests: 3

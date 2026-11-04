@@ -1,5 +1,6 @@
 // Client-only text rendering. The server supplies only this viewer's inscription.
 (function () {
+  var Native=Java.loadClass('com.theranker.creativeguard.WorldRemembersBridge');
   var Minecraft=Java.loadClass('net.minecraft.client.Minecraft');
   var Stage=Java.loadClass('net.minecraftforge.client.event.RenderLevelStageEvent$Stage');
   var DisplayMode=Java.loadClass('net.minecraft.client.gui.Font$DisplayMode');
@@ -18,7 +19,7 @@
   global.ORWorldRemembersRender=function(event) {
     if(event.getStage()!==Stage.AFTER_TRANSLUCENT_BLOCKS || !state)return;
     var mc=Minecraft.getInstance();
-    if(!mc.player || !mc.level || String(mc.player.getUUID())!==state.playerUuid)return;
+    if(!mc.player || !mc.level || String(Native.uuid(mc.player))!==state.playerUuid)return;
     // Use the same KubeJS dimension property as the pack's existing level code.
     var dimension=String(mc.level.dimension),camera=event.getCamera().getPosition();
     var pose=event.getPoseStack(),buffer=mc.renderBuffers().bufferSource(),drew=false;

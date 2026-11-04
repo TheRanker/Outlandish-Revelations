@@ -1474,6 +1474,8 @@
 				"There are many ways to automate this setup, so it is left as an exercise for the reader"
 				""
 				"[ \"\", { \"text\": \"Note: \", \"color\":\"#FFFF55\", \"bold\":\"true\" }, { \"text\": \"The Ore Washer requires \" }, { \"text\": \"water\", \"color\":\"#5555FF\" }, { \"text\": \" and a \" }, { \"text\":\"Programmed Circuit\", \"color\":\"#FFAA00\", \"clickEvent\": { \"action\":\"change_page\", \"value\":\"4875FB6628C1FCDC\" }, \"underlined\":\"true\", \"hoverEvent\": { \"action\":\"show_text\", \"contents\": { \"text\":\"Click here for a reminder\" } } }, { \"text\":\" setting to run\" } ]"
+				"The pack also offers a separate optional ore-enhancement branch. Its custom Clusters are processed in an LV Macerator, but their current source begins with an MV Chemical Reactor. An LV machine requirement does not mean the whole branch is available at LV."
+				"Keep using ordinary ore processing while developing the next tier. Custom Shards, Crystals and Clumps reward later investment; they are not required opening steps."
 			]
 			extraquests_calendar: {
 				active_quests: 3

@@ -14,7 +14,19 @@
     },
     {
       "type": "patchouli:text",
-      "text": "The memorial awakening is still being developed in this version. The Promise Fulfilled is reserved for your own successful ceremony once that integration is available. Possessing the sword, visiting a memorial or sharing a team does not award it. There is currently no playable awakening ceremony to complete."
+      "text": "Relic awakening is experimental in this development build and is disabled in standard downloads. Where enabled for testing by the world or server owner, you must personally finish all twelve NPC stories and bring both relics to a valid Ranker’s Memorial. Defeat a Warden to obtain the Ring of Ranker; the sword comes from the Inferno victory reward."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Use the memorial plaque to make three separate offerings of 10,000 LP from its Tier 1 Blood Altar: 30,000 LP actually consumed. Refill between offerings. During the final stage, make your own successful Sacrificial Knife offering at that altar, then offer the last full basin. Friends may supply LP, but cannot make your personal sacrifice. No altar upgrades or extra offering items are required."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "A successful ceremony awakens both original relics and soulbinds their awakened powers to you. Keep your own enchantments and upgrades; awakening does not replace the items. The sword gains Resonant Fracture, Echo of the Fallen and resonance. The equipped awakened ring adds Last Stand and creative-style flight; both awakened relics enable an aerial Skybreaker attack."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "The Promise Fulfilled records your own completion, even when you share an FTB team. Each viewer sees their own memorial inscription and current username. The optional relic HUD shows resonance and cooldowns; use /orrelichud hide or /orrelichud show. Sword recognition remains available through the NPCs’ optional Listen replies. These new powers and the cinematic still need gameplay testing."
     }
   ]
 }

@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "purpose": "Preserve original relic artwork, animation and sonic behavior while adding the approved relic system.",
+  "sha256": {
+    "kubejs/assets/kubejs/textures/item/rankers_sword.png": "a68cd08a8656ff8d113517207812cf51737adb72b44560f8c30c26f511e3303c",
+    "kubejs/assets/kubejs/textures/item/rankers_sword.png.mcmeta": "002df9d8578f311ba3158da3508d8512f835d58dc9342fc0e67158c1dbe963cf",
+    "kubejs/assets/kubejs/textures/item/rankers_ring.png": "749032fe21136785460c643e22edfe718e218a355d55eb447e2722943ac800be",
+    "kubejs/server_scripts/outlandish_ranker_sword.js": "8bba64737d3a97340b6f04d57ee99a80fe83282de9bf9bc39d6ad814d9f2b944"
+  }
+}

@@ -1,39 +1,62 @@
 {
-  id: "A07A000000000001"
-  filename: "the_memory_beyond_the_void"
-  group: "671F319DF12B461D"
-  order_index: 11
-  title: "The Memory Beyond the Void"
-  quests: [{
-    id: "A07A000000000002"
-    title: "A Record Returned to the Living"
-    description: [
-  "Search the End's outer islands for A.U.R.A.'s research station, away from the central dragon island. End access still requires your team's qualifying Wither victory.",
-  "",
-  "Use a Quest Scroll to speak with A.U.R.A.. Complete this NPC's 7 deliveries in Quest Giver; this FTB quest tracks the final personal completion advancement.",
-  "Give the requested materials to the named NPC one at a time. Each accepted delivery repairs part of that nearby building. A player-placed block at a repair site is preserved.",
-  "",
-  "Deliveries, in order:",
-  "1. A Platform for the Record: 16 End Stone Bricks.",
-  "2. The Frame That Remains: 16 Purpur Block.",
-  "3. Windows Into the Work: 8 Glass.",
-  "4. Contacts Before Conclusions: 8 Gold Ingot.",
-  "5. Memory in Working Order: 12 Redstone Dust.",
-  "6. The Record We Can Carry: 12 Paper.",
-  "7. The Memory Beyond the Void: 4 Amethyst Shard.",
-  "",
-  "Each storyline is one-time per player across every copy of that NPC. Finding another building does not restart it. If you change buildings midway, earlier repairs do not move to the new copy.",
-  "Story benefits: restore the building, hear the next part of The Unfinished Promise and record your personal completion. This FTB entry adds no separate item reward. Existing FTB team sharing may complete the tracker for teammates; their personal NPC history remains separate.",
-  "Next story lead: Elyndra. Follow the existing dimension requirements when travelling onward; the story does not unlock dimensions."
-]
-    icon: "minecraft:end_crystal"
-    x: 0.0d
-    y: 0.0d
-    tasks: [{
-      id: "A07A000000000003"
-      type: "advancement"
-      advancement: "outlandish:story/aura_completed"
-      criterion: ""
-    }]
-  }]
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_memory_beyond_the_void"
+	group: "671F319DF12B461D"
+	id: "1E041F21FDE723FD"
+	order_index: 11
+	quest_links: [ ]
+	quests: [{
+		description: [
+			"Search the End's outer islands for A.U.R.A.'s research station, away from the central dragon island. End access still requires your team's qualifying Wither victory."
+			""
+			"Use a Quest Scroll to speak with A.U.R.A. Complete this NPC's 7 deliveries in Quest Giver; this FTB quest tracks the final personal completion advancement."
+			"Give the requested materials to the named NPC one at a time. Each accepted delivery repairs part of that nearby building. A player-placed block at a repair site is preserved."
+			""
+			"Deliveries, in order:"
+			"1. A Platform for the Record: 16 End Stone Bricks."
+			"2. The Frame That Remains: 16 Purpur Block."
+			"3. Windows Into the Work: 8 Glass."
+			"4. Contacts Before Conclusions: 8 Gold Ingot."
+			"5. Memory in Working Order: 12 Redstone Dust."
+			"6. The Record We Can Carry: 12 Paper."
+			"7. The Memory Beyond the Void: 4 Amethyst Shard."
+			""
+			"Each storyline is one-time per player across every copy of that NPC. Finding another building does not restart it. If you change buildings midway, earlier repairs do not move to the new copy."
+			"Story benefits: restore the building, hear the next part of The Unfinished Promise and record your personal completion. This FTB entry adds no separate item reward. Existing FTB team sharing may complete the tracker for teammates; their personal NPC history remains separate."
+			"Next story lead: Elyndra. Follow the existing dimension requirements when travelling onward; the story does not unlock dimensions."
+		]
+		extraquests_calendar: {
+			active_quests: 3
+			enabled: 0b
+			pool: ""
+			reset_time: "06:00"
+			timezone: "UTC"
+			weekday: 1
+			weekly: 0b
+		}
+		icon: "minecraft:end_crystal"
+		id: "4F59A83257C7A347"
+		tasks: [{
+			advancement: "outlandish:story/aura_completed"
+			criterion: ""
+			extraquests_options: {
+				aggregation: "AUTO"
+				duration: 600L
+				minimum_contribution: 0L
+				reset_damage: 0b
+				reset_death: 1b
+				reset_logout: 0b
+				shared: 0b
+				timer_enabled: 0b
+				timer_start: "FIRST_PROGRESS"
+			}
+			id: "4D29991471AED19B"
+			type: "advancement"
+		}]
+		title: "A Record Returned to the Living"
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "The Memory Beyond the Void"
 }

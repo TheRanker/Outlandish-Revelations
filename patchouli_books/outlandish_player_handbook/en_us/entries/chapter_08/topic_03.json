@@ -11,6 +11,10 @@
     {
       "type": "patchouli:text",
       "text": "PBI — Several intermediate reactions and suitable advanced chemical equipment$(br2)The quest chapters suggest a useful order for developing these lines. JEI gives the exact machine and voltage for each recipe, including any alternative route your factory can support."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "PBI needs more than an IV single-block reactor. Diaminobenzidine and Diphenyl Isophthalate require a Large Chemical Reactor with IV-capable power. The Zinc catalyst in the Diaminobenzidine recipe is not consumed.$(br2)Final polymerization uses IV-capable chemical processing. The chemistry quests consume their 1,000 mB samples, so make extra for production."
     }
   ]
 }

@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "outlandish:ranker_memorial",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 100,
+    "separation": 60,
+    "salt": 1376020943
+  }
+}

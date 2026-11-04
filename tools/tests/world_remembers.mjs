@@ -22,7 +22,7 @@ class Player{
     this.slots=Array.from({length:36},(_,i)=>({id:i===swordSlot?'kubejs:rankers_sword':'minecraft:air',isEmpty(){return this.id==='minecraft:air';}}));
     this.offhand=[{id:'minecraft:air',isEmpty(){return this.id==='minecraft:air';}}];
     this.level={dimension:'minecraft:overworld',getEntity:id=>server.entities[id],anchorBlockId:'minecraft:lodestone',getBlockState(){return {getBlock:()=>this.anchorBlockId};}};}
-  getUUID(){return this.uuid;}getGameProfile(){return {getName:()=>this.name};}
+  get username(){return this.name;}
   getInventory(){return {items:new List(this.slots),offhand:new List(this.offhand)};}getItemInHand(){return {id:'quest_giver:quest_scroll'};}
   distanceToSqr(target){return (this.x-target.x)**2+(this.y-target.y)**2+(this.z-target.z)**2;}
   getAdvancements(){return {award:(adv,criterion)=>this.awards.push({adv,criterion})};}
@@ -33,7 +33,7 @@ class Literal{
   constructor(name){this.name=name;this.children=[];}executes(handler){this.handler=handler;return this;}
   requires(requirement){this.requirement=requirement;return this;}then(child){this.children.push(child);return this;}
 }
-function makeEnvironment(enabled=false,saved={},requireAnchor=false){
+function makeEnvironment(enabled=false,saved={},requireAnchor=false,clientSide=false){
   const settings=structuredClone(config);settings.ceremonyIntegrationEnabled=enabled;
   settings.memorials=[{id:'test_only',dimension:'minecraft:overworld',anchor:{x:0,y:60,z:0},interaction:{x:0,y:61,z:0},plaque:{x:0.5,y:61.5,z:0.01,yaw:0,scale:0.01}}];
   if(requireAnchor)settings.memorials[0].anchor.requiredBlockId='minecraft:lodestone';
@@ -41,7 +41,15 @@ function makeEnvironment(enabled=false,saved={},requireAnchor=false){
   const hooks={login:null,block:null,command:null,nativeListeners:[],clientEvents:[]};
   const logs=[];const packets=[];const classLoads=[];
   const clock={value:'2026-11-03T12:00:00Z'};
+  const native={
+    uuid:entity=>entity.uuid,username:player=>player.username,
+    hasSword:player=>[...player.slots,...player.offhand].some(stack=>stack.id==='kubejs:rankers_sword'),
+    installConversation:callback=>hooks.nativeListeners.push(['LOWEST',true,'entity-interact-specific-class',callback]),
+    installRenderer:callback=>{if(clientSide)hooks.clientEvents.push(['net.minecraftforge.client.event.RenderLevelStageEvent',callback]);}
+  };
   const java={
+    'com.theranker.creativeguard.WorldRemembersBridge':native,
+    'com.theranker.creativeguard.relics.RelicSystem':{setCompletionCallback:fn=>hooks.nativeCompletion=fn,completedPlaqueRecord:player=>player.nativeRecord??''},
     'java.time.Instant':{now:()=>({toString:()=>clock.value})},
     'java.util.UUID':{fromString:value=>value},
     'net.minecraft.resources.ResourceLocation':class{constructor(value){this.value=value;}},
@@ -54,10 +62,9 @@ function makeEnvironment(enabled=false,saved={},requireAnchor=false){
     'com.saphienyako.quest_giver.quest.QuestLinkManager':{getMatchingLink:target=>target.link},
     'net.minecraftforge.common.MinecraftForge':{EVENT_BUS:{addListener:(...args)=>hooks.nativeListeners.push(args)}},
     'net.minecraftforge.eventbus.api.EventPriority':{LOWEST:'LOWEST'},
-    'java.lang.Class':{forName:value=>value},
-    'net.minecraftforge.fml.loading.FMLEnvironment':{dist:{isClient:()=>false}}
+    'net.minecraftforge.event.entity.player.PlayerInteractEvent$EntityInteractSpecific':{__javaObject__:'entity-interact-specific-class'}
   };
-  const sandbox={global:{},console:{error:value=>logs.push(value)},Java:{loadClass(name){classLoads.push(name);if(!(name in java))throw Error('Unexpected class: '+name);return java[name];}},
+  const sandbox={global:{},Platform:{isClientEnvironment:()=>clientSide},console:{error:value=>logs.push(value)},Java:{loadClass(name){classLoads.push(name);if(!(name in java))throw Error('Unexpected class: '+name);return java[name];}},
     JsonIO:{readString:()=>JSON.stringify(settings)},Text:{of:text},
     ForgeEvents:{onEvent:(...args)=>hooks.clientEvents.push(args)},
     BlockEvents:{rightClicked:fn=>hooks.block=fn},PlayerEvents:{loggedIn:fn=>hooks.login=fn},
@@ -68,20 +75,30 @@ function makeEnvironment(enabled=false,saved={},requireAnchor=false){
   server.players=[alice,bob];
   return {sandbox,server,hooks,logs,packets,classLoads,alice,bob,settings,context,clock,api:sandbox.global.ORWorldRemembers};
 }
-function receipt(uuid=aliceId){return {version:1,success:true,ceremonyId:'outlandish:tier1_three_offerings',altarTier:1,acceptedOfferings:3,
+function receipt(uuid=aliceId){return {version:2,success:true,ceremonyId:'outlandish:tier1_three_offerings',altarTier:1,lpConsumed:30000,lpCharges:[10000,10000,10000],
   playerUuid:uuid,bindingOwnerUuid:uuid,relicId:'kubejs:rankers_sword',transactionId:'test-only-transaction-0001'};}
 const disabled=makeEnvironment();
 check('Distributed ceremony hook refuses completion',disabled.api.completeAwakening(disabled.alice,receipt()).reason==='ceremony_integration_not_connected');
 check('Disabled hook creates no records or achievements',Object.keys(disabled.server.values).length===0 && disabled.alice.awards.length===0);
 check('Dedicated-server bridge registers no render event',disabled.hooks.clientEvents.length===0);
+const clientBridge=makeEnvironment(false,{},false,true);
+check('Client bridge registers the render observer',clientBridge.hooks.clientEvents.length===1 && clientBridge.hooks.clientEvents[0][0]==='net.minecraftforge.client.event.RenderLevelStageEvent');
+check('Side checks never load filtered FML classes',![...disabled.classLoads,...clientBridge.classLoads].some(name=>name.startsWith('net.minecraftforge.fml.loading.')));
 check('Dedicated-server path loads no client rendering classes',!disabled.classLoads.some(n=>n.startsWith('net.minecraft.client.')||n.startsWith('net.minecraftforge.client.')));
 check('Conversation observer receives canceled events at LOWEST',disabled.hooks.nativeListeners[0][0]==='LOWEST' && disabled.hooks.nativeListeners[0][1]===true);
+check('Observer uses the loaded event Class without forbidden reflection',disabled.hooks.nativeListeners[0][2]==='entity-interact-specific-class' && !disabled.classLoads.includes('java.lang.Class'));
 
 const env=makeEnvironment(true);
 for(const [label,alter] of [
   ['unsuccessful',r=>r.success=false],['wrong player',r=>r.playerUuid=bobId],['wrong binding',r=>r.bindingOwnerUuid=bobId],
-  ['wrong tier',r=>r.altarTier=2],['missing offering',r=>r.acceptedOfferings=2],['wrong relic',r=>r.relicId='kubejs:rankers_ring'],
-  ['missing transaction',r=>delete r.transactionId]
+  ['wrong tier',r=>r.altarTier=2],['incomplete LP charge',r=>r.lpCharges.pop()],['wrong relic',r=>r.relicId='kubejs:rankers_ring'],
+  ['missing transaction',r=>delete r.transactionId],['missing LP total',r=>delete r.lpConsumed],
+  ['short LP payment',r=>r.lpConsumed=29999],['excess LP payment',r=>r.lpConsumed=30001],
+  ['LP total as text',r=>r.lpConsumed='30000'],['missing charge record',r=>delete r.lpCharges],
+  ['one aggregate charge',r=>r.lpCharges=[30000]],['unequal charges',r=>r.lpCharges=[5000,10000,15000]],
+  ['negative charge',r=>r.lpCharges=[-10000,20000,20000]],
+  ['legacy count-only receipt',r=>{r.version=1;r.acceptedOfferings=3;delete r.lpConsumed;delete r.lpCharges;}],
+  ['count without LP payment',r=>{r.acceptedOfferings=3;delete r.lpConsumed;delete r.lpCharges;}]
 ]){const r=receipt();alter(r);check('Completion rejects '+label,env.api.completeAwakening(env.alice,r).ok===false);}
 check('Rejected receipts never mutate personal data',Object.keys(env.server.values).length===0);
 const result=env.api.completeAwakening(env.alice,receipt());
@@ -89,6 +106,12 @@ check('Valid trusted completion with sword in slot 35 succeeds',result.ok && !re
 check('Only completing player earns achievement',env.alice.awards.length===1 && env.bob.awards.length===0);
 check('Completion is UUID-owned, not team-owned',env.api.getPersonalRecord(env.alice).playerUuid===aliceId && env.api.getPersonalRecord(env.bob)===null);
 check('Completion stores its original UTC timestamp',env.api.getPersonalRecord(env.alice).completedAtUtc==='2026-11-03T12:00:00Z');
+check('New sword record retains 30,000 LP in three full charges',env.api.getPersonalRecord(env.alice).version===2 && env.api.getPersonalRecord(env.alice).lpConsumed===30000 && env.api.getPersonalRecord(env.alice).lpCharges.join(',')==='10000,10000,10000');
+const recordCore=env.sandbox.global.ORWorldRemembersCore;
+const invalidPaymentRecord=JSON.parse(JSON.stringify(env.api.getPersonalRecord(env.alice)));invalidPaymentRecord.lpConsumed=20000;
+check('Corrupt version 2 LP record is rejected',!recordCore.validRecord(invalidPaymentRecord,aliceId));
+const ringPaymentRecord=JSON.parse(JSON.stringify(env.api.getPersonalRecord(env.alice)));ringPaymentRecord.relicId='kubejs:rankers_ring';
+check('Ring record cannot qualify as sword awakening',!recordCore.validRecord(ringPaymentRecord,aliceId));
 check('Hook is idempotent',env.api.completeAwakening(env.alice,receipt()).alreadyComplete===true);
 env.clock.value='2027-02-01T09:00:00Z';env.api.completeAwakening(env.alice,receipt());
 check('Replay never overwrites the completion date',env.api.getPersonalRecord(env.alice).completedAtUtc==='2026-11-03T12:00:00Z');
@@ -105,9 +128,37 @@ env.hooks.login({player:deadReplacement});
 check('Death/replacement player keeps UUID record without carrying sword',env.api.getPersonalRecord(deadReplacement).completedAtUtc===result.completedAtUtc);
 const restarted=makeEnvironment(true,JSON.parse(JSON.stringify(env.server.values)));
 check('Serialized server restart restores record',restarted.api.getPersonalRecord(restarted.alice).completedAtUtc===result.completedAtUtc);
+const legacy={version:1,playerUuid:aliceId,usernameAtCompletion:'LegacyName',completedAtUtc:'2025-01-02T03:04:05Z',ceremonyId:'outlandish:tier1_three_offerings',transactionId:'legacy-transaction-0001',relicId:'kubejs:rankers_sword'};
+const legacyEnv=makeEnvironment(true,{['or_world_remembers_v1_'+aliceId]:JSON.stringify(legacy)});
+legacyEnv.hooks.login({player:legacyEnv.alice});
+check('Legacy UUID/date record remains readable without new payment fields',legacyEnv.api.getPersonalRecord(legacyEnv.alice).completedAtUtc===legacy.completedAtUtc && legacyEnv.alice.awards.length===1);
+legacyEnv.api.completeAwakening(legacyEnv.alice,receipt());
+check('Legacy record is not rewritten or charged by the record hook',legacyEnv.api.getPersonalRecord(legacyEnv.alice).version===1 && legacyEnv.api.getPersonalRecord(legacyEnv.alice).completedAtUtc===legacy.completedAtUtc);
 
-const target={x:1,y:61,z:0,link:{questLineId:'garrick_ashford'},getUUID:()=> '33333333-3333-4333-8333-333333333333',getId:()=>42,isAlive:()=>true};
-env.server.entities[target.getUUID()]=target;
+// Display mirroring of a native result, using a stub authority. These are not ceremony tests.
+const nativeEnv=makeEnvironment(false);
+nativeEnv.hooks.nativeCompletion(nativeEnv.alice);
+check('Native callback with no completed journal grants nothing',nativeEnv.alice.awards.length===0);
+const nativeRecord={...env.api.getPersonalRecord(env.alice),jointAwakening:true,personalKnifeVerified:true};
+for(const [label,alter] of [
+  ['foreign UUID',r=>r.playerUuid=bobId],['missing joint binding',r=>delete r.jointAwakening],
+  ['missing personal sacrifice',r=>delete r.personalKnifeVerified]
+]){
+  const value=structuredClone(nativeRecord);alter(value);nativeEnv.alice.nativeRecord=JSON.stringify(value);
+  nativeEnv.hooks.nativeCompletion(nativeEnv.alice);
+  check('Native display callback rejects '+label,nativeEnv.alice.awards.length===0 && nativeEnv.api.getPersonalRecord(nativeEnv.alice)===null);
+}
+nativeEnv.alice.nativeRecord=JSON.stringify(nativeRecord);nativeEnv.hooks.nativeCompletion(nativeEnv.alice);
+check('Native completed journal mirrors while obsolete LP-only hook stays disabled',nativeEnv.api.getPersonalRecord(nativeEnv.alice).jointAwakening===true && nativeEnv.alice.awards.length===1);
+check('Native callback grants no teammate record or achievement',nativeEnv.api.getPersonalRecord(nativeEnv.bob)===null && nativeEnv.bob.awards.length===0);
+const nativeDate=nativeEnv.api.getPersonalRecord(nativeEnv.alice).completedAtUtc;
+nativeEnv.alice.nativeRecord=JSON.stringify({...nativeRecord,completedAtUtc:'2028-01-01T00:00:00Z'});nativeEnv.hooks.nativeCompletion(nativeEnv.alice);
+check('Native callback replay preserves the first display-record date',nativeEnv.api.getPersonalRecord(nativeEnv.alice).completedAtUtc===nativeDate);
+legacyEnv.alice.nativeRecord=JSON.stringify(nativeRecord);legacyEnv.hooks.nativeCompletion(legacyEnv.alice);
+check('Native mirroring preserves pre-existing legacy UUID/date records',legacyEnv.api.getPersonalRecord(legacyEnv.alice).version===1 && legacyEnv.api.getPersonalRecord(legacyEnv.alice).completedAtUtc===legacy.completedAtUtc);
+
+const target={x:1,y:61,z:0,link:{questLineId:'garrick_ashford'},uuid:'33333333-3333-4333-8333-333333333333',getId:()=>42,isAlive:()=>true};
+env.server.entities[target.uuid]=target;
 let canceled=false;
 const conversation={getEntity:()=>env.alice,getHand:()=> 'MAIN_HAND',getTarget:()=>target,setCanceled:()=>canceled=true};
 const previousChat=env.alice.chat.length;
@@ -127,7 +178,7 @@ check('Congratulations do not grant another completion record',env.api.getPerson
 const names=[];function collect(node){names.push(node.name);node.children.forEach(collect);}collect(command);
 check('No completion grant/revoke command exposed',!names.some(n=>['grant','complete','awaken','revoke'].includes(n)));
 for(const npc of config.npcs){
-  const actor={...target,link:{questLineId:npc.id},getUUID:()=>target.getUUID()};env.server.entities[actor.getUUID()]=actor;
+  const actor={...target,link:{questLineId:npc.id},uuid:target.uuid};env.server.entities[actor.uuid]=actor;
   const interaction={...conversation,getEntity:()=>env.bob,getTarget:()=>actor};
   env.sandbox.global.ORWorldRemembersConversation(interaction);
   const count=env.packets.length;
@@ -152,9 +203,9 @@ check('Corrupt personal data does not grant completion',corrupted.alice.awards.l
 function drawSnapshot(packet,uuid,anchorBlockId='minecraft:lodestone'){
   const drawn=[];let receiver;let logout;
   const pose={pushPose(){},popPose(){},translate(){},mulPose(){},scale(){},last:()=>({pose:()=>({})})};
-  const mc={player:{getUUID:()=>uuid},level:{dimension:'minecraft:overworld',getBlockState:()=>({getBlock:()=>anchorBlockId})},
+  const mc={player:{uuid},level:{dimension:'minecraft:overworld',getBlockState:()=>({getBlock:()=>anchorBlockId})},
     font:{width:t=>t.value.length,drawInBatch:(t,x,y,color)=>{if(!Number.isInteger(color)||color>2147483647||color< -2147483648)throw Error('Java ARGB int overflow');drawn.push(t.value);}},renderBuffers:()=>({bufferSource:()=>({endBatch(){}})})};
-  const classes={'net.minecraft.client.Minecraft':{getInstance:()=>mc},'net.minecraftforge.client.event.RenderLevelStageEvent$Stage':{AFTER_TRANSLUCENT_BLOCKS:'after'},
+  const classes={'com.theranker.creativeguard.WorldRemembersBridge':{uuid:entity=>entity.uuid},'net.minecraft.client.Minecraft':{getInstance:()=>mc},'net.minecraftforge.client.event.RenderLevelStageEvent$Stage':{AFTER_TRANSLUCENT_BLOCKS:'after'},
     'net.minecraft.client.gui.Font$DisplayMode':{NORMAL:'normal'},'com.mojang.math.Axis':{YP:{rotationDegrees:value=>value}},
     'net.minecraft.core.BlockPos':class{},'net.minecraftforge.registries.ForgeRegistries':{BLOCKS:{getKey:block=>block}}};
   const sandbox={global:{},Java:{loadClass:name=>classes[name]},Text:{of:text},console,

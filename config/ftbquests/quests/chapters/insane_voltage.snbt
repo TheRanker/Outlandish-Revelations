@@ -428,7 +428,11 @@
 				"533DB1666B11489A"
 				"12905D5778274DEE"
 			]
-			description: ["With 16 of these on your &eElectric Blast Furnace&r you can cook recipes up to &c4500 Kelvin&r! That's 4227 Celsius or 7640 Fahrenheit!"]
+			description: [
+				"RTM Alloy Coils are the next upgrade after Nichrome. Prepare RTM Alloy from Ruthenium, Tungsten and Molybdenum in the EV Mixer, then follow JEI for smelting, cooling and wire processing."
+				"Each coil uses 8 Double RTM Alloy Wires, 8 Vanadium Steel Foils and 144 mB molten Nichrome in an EV-capable Assembler. The full Electric Blast Furnace needs 16 matching coils."
+				"This item task records one coil as a supply milestone. A complete RTM coil set has a base temperature of 4500 K; check the formed furnace, recipe voltage and remaining operating requirements before processing."
+			]
 			extraquests_calendar: {
 				active_quests: 3
 				enabled: 0b
@@ -1380,7 +1384,7 @@
 			description: [
 				"If you didn't make the &5EV Assembler&r before now, then now is the time to do it!"
 				""
-				"You'll use this to make the &9Tungstensteel Coil&r for your &aEBF&r"
+				"You'll use this to assemble RTM Alloy Coil Blocks for your Electric Blast Furnace. Their recipe uses Double RTM Alloy Wires, Vanadium Steel Foils and molten Nichrome; check JEI for the exact forms and amounts."
 			]
 			extraquests_calendar: {
 				active_quests: 3
@@ -1433,9 +1437,8 @@
 		{
 			dependencies: ["41EE8B40BA43DADE"]
 			description: [
-				"You'll smelt this and flatten it into &bFoils&r to make the delicate layers that comprise the &dAdvanced SMD Capacitor&r"
-				""
-				"If you're having a hard time finding &aIridium&r, you can get a head start on the &ePlatLine™&r which won't be covered until the next chapter because this one is already quite full"
+				"Follow JEI for HSS-S mixing, blast-furnace requirements and cooling, then prepare the foils needed for Advanced SMD Capacitors."
+				"If Iridium is limiting production, inspect the platinum-group metal processing routes in JEI. This questbook has no separate later platinum-line chapter; plan the required machines, reagents and byproduct handling from the installed recipes."
 			]
 			extraquests_calendar: {
 				active_quests: 3
@@ -1596,11 +1599,8 @@
 		}
 		{
 			description: [
-				"&aOre Processing&r Pyrochlore, Pyrolusite, and Tantalite all give Niobium as byproducts"
-				""
-				"You could also &eElectrolyze&r the Pyrochlore for guaranteed Niobium!"
-				""
-				"Be sure to stockpile this stuff, you'll use a lot of it in &dFoil&r and &2Fine Wire&r forms as you progress"
+				"Prepare Niobium and Titanium Dust, then combine one of each in an IV-capable Mixer on circuit 1 to make 2 Niobium-Titanium Dust. The alloy needs this machine tier even if you gathered its materials earlier."
+				"Check JEI for Niobium sources and the alloy's later smelting and processing steps. Keep a supply for the foils and fine wires used in advanced components."
 			]
 			extraquests_calendar: {
 				active_quests: 3
@@ -3332,11 +3332,8 @@
 		}
 		{
 			description: [
-				"There are two main ways to acquire &dRadon Gas&r"
-				""
-				"The best (because of the other outputs) is to use an &6HV&r &eGas Collector&r in &bThe End&r dimension, &aVacuum Freezer&r the collected &eEnder Air&r into &9Liquid Ender Air&r at &1IV&r, and then run that through a &aDistillation Tower&r at IV and receive Radon Gas"
-				""
-				"The alternative is to create the &aLarge Chemical Reactor&r and just react &3Air&r with some Uranium Dust and Plutonium Ingots - you even get the plutonium back!"
+				"Ender Air collection, cooling and distillation can supply Radon along with other useful gases. Check JEI for the collector's End requirement and the IV-capable cooling and distillation setup."
+				"An alternative Large Chemical Reactor recipe uses Air, Uranium-238 Dust and Plutonium-239 Ingots. It returns the plutonium as dust, not ingots. Plan its conversion back to ingots before treating this as a repeatable supply line."
 			]
 			extraquests_calendar: {
 				active_quests: 3

@@ -2,24 +2,32 @@
 (function () {
   var UUID = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/;
   function uuid(value) { var id = String(value).toLowerCase(); if (!UUID.test(id)) throw Error('Invalid player UUID'); return id; }
+  function validLpPayment(value) {
+    return value.lpConsumed === 30000 && Array.isArray(value.lpCharges) && value.lpCharges.length === 3 &&
+      value.lpCharges.every(function (charge) { return charge === 10000; });
+  }
   function validRecord(record, id) {
-    return !!record && record.version === 1 && record.playerUuid === uuid(id) &&
+    // Preserve existing UUID/date records; new records also retain LP payment details.
+    return !!record && (record.version === 1 || record.version === 2) && record.playerUuid === uuid(id) &&
       record.ceremonyId === 'outlandish:tier1_three_offerings' &&
+      (record.version === 1 || (record.relicId === 'kubejs:rankers_sword' && validLpPayment(record))) &&
       /^\d{4}-\d{2}-\d{2}T/.test(String(record.completedAtUtc));
   }
   function validateReceipt(id, receipt, enabled) {
     id = uuid(id);
     if (!enabled) return 'ceremony_integration_not_connected';
-    if (!receipt || receipt.version !== 1 || receipt.success !== true) return 'unsuccessful_receipt';
-    if (receipt.ceremonyId !== 'outlandish:tier1_three_offerings' || receipt.altarTier !== 1 || receipt.acceptedOfferings !== 3) return 'wrong_ceremony';
+    if (!receipt || receipt.version !== 2 || receipt.success !== true) return 'unsuccessful_receipt';
+    if (receipt.ceremonyId !== 'outlandish:tier1_three_offerings' || receipt.altarTier !== 1) return 'wrong_ceremony';
     if (receipt.playerUuid !== id || receipt.bindingOwnerUuid !== id) return 'wrong_owner';
     if (receipt.relicId !== 'kubejs:rankers_sword') return 'wrong_relic';
+    if (!validLpPayment(receipt)) return 'incomplete_lp_payment';
     if (typeof receipt.transactionId !== 'string' || !/^[a-zA-Z0-9:_-]{8,128}$/.test(receipt.transactionId)) return 'missing_transaction';
     return null;
   }
   function makeRecord(id, name, receipt, timestamp) {
-    return { version: 1, playerUuid: uuid(id), usernameAtCompletion: String(name), completedAtUtc: String(timestamp),
-      ceremonyId: receipt.ceremonyId, transactionId: receipt.transactionId, relicId: receipt.relicId };
+    return { version: 2, playerUuid: uuid(id), usernameAtCompletion: String(name), completedAtUtc: String(timestamp),
+      ceremonyId: receipt.ceremonyId, transactionId: receipt.transactionId, relicId: receipt.relicId,
+      lpConsumed: receipt.lpConsumed, lpCharges: receipt.lpCharges.slice() };
   }
   function inscription(record, name, original) {
     if (!record) return original.map(function (text) { return { text: String(text), italic: false }; });

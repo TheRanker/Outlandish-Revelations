@@ -39,6 +39,11 @@
       "output": "gtceu:nickel_dust",
       "input": "#forge:raw_materials/nickel",
       "processingTime": 100
+    },
+    {
+      "output": "gtceu:platinum_dust",
+      "input": "#forge:raw_materials/platinum",
+      "processingTime": 100
     }
   ],
   "removedOutputs": [

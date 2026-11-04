@@ -1,6 +1,7 @@
 // UUID-owned world record; no FTB Teams, item mutations, ceremony simulation or ticks.
 (function () {
   var Core = global.ORWorldRemembersCore;
+  var Native = Java.loadClass('com.theranker.creativeguard.WorldRemembersBridge');
   var Instant = Java.loadClass('java.time.Instant');
   var UUID = Java.loadClass('java.util.UUID');
   var Location = Java.loadClass('net.minecraft.resources.ResourceLocation');
@@ -15,8 +16,8 @@
   function error(failure) { var message=String(failure); if (!lastErrors[message]) { lastErrors[message]=true; console.error('[The World Remembers] '+message); } }
   function reload() { config=Core.validateConfig(JSON.parse(String(JsonIO.readString('kubejs/outlandish/world_remembers.json')))); }
   reload();
-  function id(player) { return Core.uuid(player.getUUID()); }
-  function name(player) { return String(player.getGameProfile().getName()); }
+  function id(player) { return Core.uuid(Native.uuid(player)); }
+  function name(player) { return String(Native.username(player)); }
   function read(player) {
     var raw=String(player.server.persistentData.getString('or_world_remembers_v1_'+id(player)));
     if (!raw) return null;
@@ -24,13 +25,8 @@
     if (!Core.validRecord(record,id(player))) throw Error('Invalid personal memorial record for '+id(player));
     return record;
   }
-  function hasSword(player) {
-    var inventory=player.getInventory(),groups=[inventory.items,inventory.offhand],ids=[];
-    // Vanilla hotbar, storage and offhand, only during this interaction/hook.
-    // Curios, backpacks and remote storage are deliberately outside normal inventory.
-    groups.forEach(function(items) { for(var i=0;i<items.size();i++) if(!items.get(i).isEmpty())ids.push(String(items.get(i).id)); });
-    return Core.hasSword(ids);
-  }
+  // Native checks only hotbar, storage and offhand when an interaction/hook needs it.
+  function hasSword(player) { return Native.hasSword(player); }
   function award(player) {
     var advancement=player.server.getAdvancements().getAdvancement(new Location('outlandish:the_promise_fulfilled'));
     if (!advancement) throw Error('Personal achievement resource missing');
@@ -48,9 +44,9 @@
     var previous=read(player);
     if (previous) { award(player); sync(player); return {ok:true,alreadyComplete:true,completedAtUtc:previous.completedAtUtc}; }
     if (!hasSword(player)) return {ok:false,reason:'sword_not_in_normal_inventory'};
-    // The trusted ceremony caller MUST already have consumed its three offerings,
-    // verified a Tier 1 altar, and applied individual soulbinding before calling.
-    // Disabled in the distributed config until that real integration exists.
+    // Legacy LP-only server hook remains disabled in distributed configuration.
+    // Actual paired awakening uses the verified native callback below; LP receipt
+    // fields alone do not prove stories, both relics, personal sacrifice or a debit.
     var record=Core.makeRecord(id(player),name(player),receipt,Instant.now().toString());
     player.server.persistentData.putString('or_world_remembers_v1_'+id(player),JSON.stringify(record));
     award(player); sync(player);
@@ -58,6 +54,20 @@
   }
   // Server-script integration only. No command or client packet can call this.
   global.ORWorldRemembers={completeAwakening:completeAwakening,getPersonalRecord:read};
+  // Native completion is authoritative; the display record remains at its existing UUID key.
+  // No client packet or public command invokes this callback.
+  var Relics = Java.loadClass('com.theranker.creativeguard.relics.RelicSystem');
+  Relics.setCompletionCallback(function(player) {
+    try {
+      var raw=String(Relics.completedPlaqueRecord(player));
+      if(!raw)return;
+      var record=JSON.parse(raw);
+      if(!Core.validRecord(record,id(player)) || record.jointAwakening!==true || record.personalKnifeVerified!==true)throw Error('Invalid native joint-awakening record');
+      // Preserve an existing completion's original date and identity.
+      if(!read(player))player.server.persistentData.putString('or_world_remembers_v1_'+id(player),JSON.stringify(record));
+      award(player);sync(player);
+    }catch(failure){error(failure);}
+  });
   function npcById(npcId) { return config.npcs.filter(function (npc) { return npc.id===npcId; })[0]; }
   function linkId(target) { var link=QuestLinks.getMatchingLink(target); return link?String(link.questLineId):null; }
   function flags(player) {
@@ -72,7 +82,7 @@
       var target=event.getTarget(),npc=npcById(linkId(target));
       if (!npc || !hasSword(player) || player.distanceToSqr(target)>64) return;
       var personal=flags(player);
-      contexts[id(player)+':'+npc.id]={entityUuid:String(target.getUUID()),dimension:String(player.level.dimension)};
+      contexts[id(player)+':'+npc.id]={entityUuid:String(Native.uuid(target)),dimension:String(player.level.dimension)};
       if (personal[npc.id]) return;
       player.tell(Text.of(npc.displayName+' recognizes Tears for Fears. ').append(
         Text.of('[Listen]').gold().clickRunCommand('/orremembers greet '+npc.id)));
