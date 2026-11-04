@@ -23,7 +23,7 @@
 				""
 				"The guidebook contains all of the information about the mod if you ever need any help."
 				""
-				"Your first altar uses Create components. Continue with GregTech LV for altar Tier 2, MV for Tier 3, HV for Tier 4 and EV for Tier 5."
+				"Your first altar uses Create components. Use GregTech LV preparation for Tier 2 slate/orb recipes, MV for Tier 3, HV for Tier 4 and EV for Tier 5. Physical altar construction and these recipe requirements are separate checks."
 				"Use Mechanical Crafters with a Steam Engine and Precision Mechanism to prepare your first altar. Check the arrangement in JEI."
 				"Use GregTech EU for the new machines. Blood is a crafting resource, not a power source."
 			]
@@ -2098,6 +2098,7 @@
 				"Use stainless steel plates to prepare Imbued Slates; infuse those prepared slates here for Demonic Slates."
 				"The Master Orb uses an HV Blood Orb Core: Weak Blood Shard, HV Blood-Infused Circuit and Imbued Slate."
 				"Establish sustainable blood collection before scaling chemical catalysts; the Well of Suffering is one option at this stage."
+				"The 48-rune inventory task below is a supply milestone, not a check of your assembled altar. The full Tier 4 structure uses 56 runes total, including the earlier layers. Confirm the actual tier with the Divination Sigil or guidebook."
 			]
 			extraquests_calendar: {
 				active_quests: 3
@@ -2534,6 +2535,7 @@
 				"Use titanium plates to prepare Demonic Slates; infuse those prepared slates here for Ethereal Slates."
 				"The Archmage Orb uses an EV Blood Orb Core: Hellforged Block, EV Blood-Infused Circuit and Demonic Slate."
 				"Use the Sanguine Scientiem to check each altar structure before preparing the materials for the next tier."
+				"The 64-rune inventory task below is a supply milestone, not proof of a complete structure. A full Tier 5 altar uses 108 runes total, including previous layers, plus its required caps. Confirm the actual tier with the Divination Sigil or guidebook."
 			]
 			extraquests_calendar: {
 				active_quests: 3

@@ -1392,10 +1392,10 @@
     "fileID": 6020952
   },
   {
-    "filename": "outlandish-compatibility-fixes-1.2.7.jar",
+    "filename": "outlandish-compatibility-fixes-1.2.8.jar",
     "category": "mods",
     "distribution": "bundled_override",
-    "sha256": "d56e4824219902b2b79706142133398d2d6ac6a1d677d79c096d77d6c4319fa9",
+    "sha256": "c02e1e37dffb37dcad7571a228c870f4bf7e69a0d91b00a96f87c130f58bc968",
     "replacesProjectID": 1769793
   },
   {

@@ -7,6 +7,10 @@
     {
       "type": "patchouli:text",
       "text": "IV supports Wyvern equipment and further advanced manufacturing. Later Draconic projects lead through LuV, ZPM and UV, bringing increasingly demanding materials, equipment and processing.$(br2)At this point, a new tier should be a working section of your factory. Build the ability to repeat important recipes, replenish its inputs and handle its outputs."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "The next EBF coil upgrade after Nichrome is RTM Alloy. Prepare Ruthenium, Tungsten and Molybdenum, then follow JEI for alloy processing.$(br2)Assembling the coils needs Double RTM Alloy Wires, Vanadium Steel Foils and molten Nichrome. The full furnace uses 16 matching coils with a base temperature of 4500 K. An item milestone does not verify the assembled furnace."
     }
   ]
 }

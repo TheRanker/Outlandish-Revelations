@@ -19,6 +19,14 @@ jobs:
         run: python tools/validate_pack.py
       - name: Audit NPC requests and storyline links
         run: python tools/audit_npc_requests.py
+      - name: Audit Blood Magic and early quest rewards
+        run: python tools/audit_blood_progression.py
+      - name: Audit late progression and finale rewards
+        run: python tools/audit_late_progression.py
+      - name: Preserve original legendary relic assets and behavior
+        run: python tools/audit_relic_preservation.py
+      - name: Check native relic packaging and memorial data
+        run: python tools/audit_legendary_relics.py
       - name: Test personal World Remembers behavior
         run: node tools/tests/world_remembers.mjs
       - name: Check local development archive

@@ -1,0 +1,19 @@
+{
+  "enabled": false,
+  "skinTexture": "outlandish:textures/entity/the_ranker.png",
+  "slimSkin": false,
+  "npcAdvancements": {
+    "garrick_ashford": "outlandish:garrick_completed",
+    "alden_voss": "outlandish:story/alden_voss_completed",
+    "mara_coppersmith": "outlandish:story/mara_coppersmith_completed",
+    "edda_thorne": "outlandish:story/edda_thorne_completed",
+    "ysra_vale": "outlandish:story/ysra_vale_completed",
+    "darius_emberwright": "outlandish:story/darius_emberwright_completed",
+    "seraphine_blackveil": "outlandish:story/seraphine_blackveil_completed",
+    "malric_vane": "outlandish:story/malric_vane_completed",
+    "cassian_ashfall": "outlandish:story/cassian_ashfall_completed",
+    "valen_cinderwatch": "outlandish:story/valen_cinderwatch_completed",
+    "aura": "outlandish:story/aura_completed",
+    "elyndra": "outlandish:story/elyndra_completed"
+  }
+}

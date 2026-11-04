@@ -25,11 +25,11 @@ public class BridgeTest {static int checks;static void check(boolean ok){if(!ok)
 """,
 'ServerIsolationTest.java':'import com.theranker.creativeguard.WorldRemembersBridge;public class ServerIsolationTest {public static void main(String[] a){WorldRemembersBridge.installRenderer(e->{throw new AssertionError();});WorldRemembersBridge.installConversation(e->{});System.out.println("Dedicated-side JVM loaded bridge with client bridge/event classes absent.");}}'
 }
-def test(java,compiler):
+def test(java,compiler,jar=None):
     build=ROOT/'build/native-bridge/test';src=build/'src';classes=build/'classes';classes.mkdir(parents=True,exist_ok=True)
     for name,code in FIXTURES.items():
         p=src/name;p.parent.mkdir(parents=True,exist_ok=True);p.write_text(code,encoding='utf-8')
-    jar=ROOT/'build/native-bridge/outlandish-compatibility-fixes-1.2.7.jar'
+    jar=jar or ROOT/'build/native-bridge/outlandish-compatibility-fixes-1.2.7.jar'
     args=['-source','17','-target','17','-encoding','UTF-8','-proc:none','-classpath',str(jar),'-d',str(classes)]+[str(p) for p in src.rglob('*.java')]
     argfile=build/'test.args';argfile.write_text('\n'.join('"'+a.replace('\\','/')+'"' for a in args),encoding='utf-8')
     subprocess.run([str(java),'-jar',str(compiler),'@'+str(argfile)],check=True)
@@ -42,4 +42,4 @@ def test(java,compiler):
         with zipfile.ZipFile(jar) as original:z.writestr('com/theranker/creativeguard/WorldRemembersBridge.class',original.read('com/theranker/creativeguard/WorldRemembersBridge.class'))
     subprocess.run([str(java),'-Xverify:all','-cp',str(isolated),'ServerIsolationTest'],check=True)
 if __name__=='__main__':
-    p=argparse.ArgumentParser();p.add_argument('--java',type=Path,required=True);p.add_argument('--compiler',type=Path,required=True);a=p.parse_args();test(a.java,a.compiler)
+    p=argparse.ArgumentParser();p.add_argument('--java',type=Path,required=True);p.add_argument('--compiler',type=Path,required=True);p.add_argument('--jar',type=Path);a=p.parse_args();test(a.java,a.compiler,a.jar)

@@ -1,29 +1,70 @@
-# Native story bridge — compatibility mod 1.2.7
+# Compatibility mod 1.2.8 — native relics and story bridge
 
-This is an additive update of the installed 1.2.6 compatibility mod, not an additional mod. Existing classes, coremods, bundled libraries and resources are byte-identical; only version metadata changes and two bridge classes are added. `native-artifact.json` records the input/output hashes. The root manifest excludes the old compatibility download; the export tool bundles this custom JAR under overrides/mods, so launchers install only one version. Input provenance is recorded in native-artifact.json.
+This replaces the existing compatibility JAR, adding the approved relic system
+inside the same mod. It adds no mod dependency to the pack. Every prior class and
+resource is preserved byte-for-byte except version metadata and the additive
+coremods map. The original 1.2.7 artifact is retained for rollback. Only the pinned
+1.2.8 is exported; the old CurseForge download is excluded to avoid duplicates.
 
-Native code owns canceled-conversation observation, one-time event registration, physical client isolation, UUID/username access and normal-inventory sword detection. Callback replacement prevents duplicate listeners after startup reloads. Rendering dispatch occurs only at AFTER_TRANSLUCENT_BLOCKS. No ticks, timers, background scans, world writes, new packets, ceremony grants or sword changes were introduced.
+The existing WorldRemembersBridge still owns stable conversation/render
+registration, UUID/username access and normal-inventory sword recognition.
+Editable scripts retain character dialogue and the old personal display key.
+The new native package owns eligibility, LP transactions/recovery, paired
+ownership, combat, equipment flight, personal completion and display networking.
+Client rendering is isolated. Full details and exact files are in
+[the implementation report](../docs/LEGENDARY_RELICS_IMPLEMENTATION.md).
 
-Scripts still own dialogue/configuration, personal-record persistence, receipt validation, commands and plaque drawing. Their existing keys, dates and per-player rules are preserved. This first migration addresses the fragile API boundary; it does not claim a full Java rewrite or a measured TPS/startup improvement. Existing scripts can still need mapping corrections in other paths; gameplay verification remains required.
+## Offline build
 
-## Build and verification
+The input is the hash-verified original 1.2.6 compatibility JAR. Build tools use
+installed MC 1.20.1/Forge 47.4.28, Blood Magic 3.3.8-50, Curios 5.14.1, Caelus 3.2.0,
+Java and ECJ 3.38.0; no game dependency is downloaded or redistributed. The older
+bridge is compiled directly with SRG names. New relic sources use Mojang member
+names, a locally remapped compile classpath and our ASM remapper back to SRG.
+Official mapping data and Minecraft binaries remain under ignored build output.
 
-The source deliberately uses production SRG Minecraft names, verified against Forge 1.20.1 / 47.4.28. No remapping step or handwritten Minecraft classes are used for the production build. The build requires the exact 1.2.6 input JAR, installed libraries, Java and an Eclipse compiler JAR (tested ecj 3.38.0).
+Local defaults in `tools/relic_build_env.py` match the creator's installation.
+Other machines can set `OR_MC_INSTALL`, `OR_MC_INSTANCE`, `OR_JAVA`, `OR_ECJ`.
+They still need the exact installed game/mod libraries. Portable CI checks need
+only the checked-in custom artifact, Python and Node; a Codex cloud checkout need
+not download the whole game to inspect quests or validate packaging.
 
-```
-python tools/build_native_bridge.py --instance INSTANCE --install LAUNCHER_INSTALL --java JAVA_EXE --compiler ECJ_JAR --base ORIGINAL_1_2_6_JAR
-python tools/test_native_bridge.py --java JAVA_EXE --compiler ECJ_JAR
-python tools/validate_pack.py
+```text
+python tools/build_relics.py --base ORIGINAL_1_2_6_JAR
+python tools/audit_relic_linkage.py
+python tools/test_relics.py
+python tools/test_native_bridge.py --java JAVA_EXE --compiler ECJ_JAR --jar build/relics/outlandish-compatibility-fixes-1.2.8.jar
+python tools/audit_relic_preservation.py
+python tools/audit_legendary_relics.py
 node tools/tests/world_remembers.mjs
+python tools/validate_pack.py
 python tools/build_pack.py
+python tools/build_relics_test_patch.py
 ```
 
-The JVM fixture test exercises the actual built bridge bytecode against minimal fake API classes; it is not a Minecraft test. It checks inventory boundaries, UUID stability, callback replacement, duplicate prevention, canceled-event subscription, client stage filtering, and a server classpath without the client bridge/render event. Production compilation uses real installed libraries. Regenerating the artifact requires updating its pinned SHA256 after review. Build output/compilers are ignored; only the custom artifact and our source are retained for the batch.
+After a reviewed rebuild, copy only the custom output into `compat/artifacts`,
+update `native-artifact.json` SHA256 and the sole bundled dependency-inventory
+entry, then run packaging checks. ZIP metadata can change the hash on rebuild;
+the builder checks preservation by entry content.
 
-## Deployment / rollback
+Production rule/journal tests and actual remapped binding bytecode run in a JVM
+with controlled fixtures. The coremod test evaluates the actual JavaScript against
+installed Blood Magic method instructions. API linkage and common/client boundary
+checks are static. None starts Minecraft. The old bridge's server-only fixture
+is not a full dedicated Forge test of the new relic system.
 
-Close Minecraft first. Back up the old mod and three script files. Replace the old JAR with 1.2.7 and install the matching startup/server/client World Remembers scripts together. Never leave both mod JARs installed. Rolling back requires both the old JAR and old scripts. No saved-data migration or world deletion is required.
+## Installation and rollback
 
-On restart verify all startup/client/server scripts load, login has no UUID errors, `/orremembers` reports status without granting completion, and a Quest Scroll conversation while carrying the sword offers recognition without interrupting quests. Check each inventory region and normal NPC deliveries. No live memorial rendering test is possible until an anchor is configured; ceremony integration remains disabled. Dedicated Forge and two-player tests are still pending.
+Follow [the test checklist](../docs/LEGENDARY_RELICS_TESTING.md). Install matching
+scripts/configuration and exactly one new JAR in a backed-up test copy, with
+Minecraft closed. Gameplay ships disabled; enable only `legendary_relics.json`
+for testing and leave the obsolete LP-only hook disabled. Native worldgen is
+registered even when gameplay is off. There is no world deletion or automatic
+progress migration. Rollback uses the matching old JAR/scripts and pre-test save
+backup; do not discard a player's journal to reset a cooldown or stage.
 
-After deployment, use `--base` to point to the preserved original 1.2.6 JAR in the rollback backup; the build verifies its recorded SHA256 before adding anything.
+The creator's exact 64 × 64 Ranker skin is bundled unchanged with the classic arm
+model. `tools/data/ranker_skin.json` pins its checksum, and the portable audit
+checks the source/configuration and packaged resource. Dedicated Forge, real LP/save,
+combat, rendering and multiplayer acceptance are still pending. No measured
+startup or TPS improvement is claimed.

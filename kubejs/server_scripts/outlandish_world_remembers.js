@@ -44,9 +44,9 @@
     var previous=read(player);
     if (previous) { award(player); sync(player); return {ok:true,alreadyComplete:true,completedAtUtc:previous.completedAtUtc}; }
     if (!hasSword(player)) return {ok:false,reason:'sword_not_in_normal_inventory'};
-    // The trusted ceremony caller MUST already have consumed its three offerings,
-    // verified a Tier 1 altar, and applied individual soulbinding before calling.
-    // Disabled in the distributed config until that real integration exists.
+    // Legacy LP-only server hook remains disabled in distributed configuration.
+    // Actual paired awakening uses the verified native callback below; LP receipt
+    // fields alone do not prove stories, both relics, personal sacrifice or a debit.
     var record=Core.makeRecord(id(player),name(player),receipt,Instant.now().toString());
     player.server.persistentData.putString('or_world_remembers_v1_'+id(player),JSON.stringify(record));
     award(player); sync(player);
@@ -54,6 +54,20 @@
   }
   // Server-script integration only. No command or client packet can call this.
   global.ORWorldRemembers={completeAwakening:completeAwakening,getPersonalRecord:read};
+  // Native completion is authoritative; the display record remains at its existing UUID key.
+  // No client packet or public command invokes this callback.
+  var Relics = Java.loadClass('com.theranker.creativeguard.relics.RelicSystem');
+  Relics.setCompletionCallback(function(player) {
+    try {
+      var raw=String(Relics.completedPlaqueRecord(player));
+      if(!raw)return;
+      var record=JSON.parse(raw);
+      if(!Core.validRecord(record,id(player)) || record.jointAwakening!==true || record.personalKnifeVerified!==true)throw Error('Invalid native joint-awakening record');
+      // Preserve an existing completion's original date and identity.
+      if(!read(player))player.server.persistentData.putString('or_world_remembers_v1_'+id(player),JSON.stringify(record));
+      award(player);sync(player);
+    }catch(failure){error(failure);}
+  });
   function npcById(npcId) { return config.npcs.filter(function (npc) { return npc.id===npcId; })[0]; }
   function linkId(target) { var link=QuestLinks.getMatchingLink(target); return link?String(link.questLineId):null; }
   function flags(player) {
