@@ -47,6 +47,12 @@ compatibility JAR with its matching pack scripts; replace older versions.
 - Existing NPC quests, repairs, ordinary altar crafting, boss rewards and team
   dimension gates. No new mod or optional Legacy Challenge was added.
 
+### Packaging
+
+- Canonicalize native JSON/JavaScript resource line endings to match Git's LF
+  checkout on Windows and Linux. The correction changes no native classes,
+  resource values, original relic files or skin bytes.
+
 ### Validation and availability
 
 Java 17 compilation/SRG mapping, 435 installed API references, 53 rule/journal

@@ -45,7 +45,9 @@ python tools/build_relics_test_patch.py
 After a reviewed rebuild, copy only the custom output into `compat/artifacts`,
 update `native-artifact.json` SHA256 and the sole bundled dependency-inventory
 entry, then run packaging checks. ZIP metadata can change the hash on rebuild;
-the builder checks preservation by entry content.
+the builder checks preservation by entry content. Own JSON/JavaScript resources
+are stored with LF line endings so Windows builds match clean Git/Linux checkouts;
+binary assets retain their exact bytes.
 
 Production rule/journal tests and actual remapped binding bytecode run in a JVM
 with controlled fixtures. The coremod test evaluates the actual JavaScript against

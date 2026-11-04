@@ -77,7 +77,10 @@ def audit():
     with zipfile.ZipFile(artifact) as jar:
         assert jar.testzip() is None and len(jar.namelist()) == len(set(jar.namelist()))
         for p in resources:
-            assert jar.read(p.relative_to(RESOURCES).as_posix()) == p.read_bytes(), p
+            expected = p.read_bytes()
+            if p.suffix in {'.json', '.js'}:
+                expected = expected.replace(b'\r\n', b'\n')
+            assert jar.read(p.relative_to(RESOURCES).as_posix()) == expected, p
         assert b'version="1.2.8"' in jar.read('META-INF/mods.toml')
         coremods = json.loads(jar.read('META-INF/coremods.json'))
         assert coremods['outlandish_legendary_knife'] == 'coremods/legendary_knife.js'

@@ -24,7 +24,10 @@ def build_relics(base):
             dst.writestr(info,data)
         for name in sorted(native.namelist()):dst.writestr(name,native.read(name))
         for path in sorted(resources.rglob('*')):
-            if path.is_file():dst.write(path,path.relative_to(resources).as_posix())
+            if path.is_file():
+                data=path.read_bytes()
+                if path.suffix in {'.json','.js'}:data=data.replace(b'\r\n',b'\n')
+                dst.writestr(path.relative_to(resources).as_posix(),data)
     with zipfile.ZipFile(old) as original,zipfile.ZipFile(output) as dst:
         for name in original.namelist():
             if name not in ['META-INF/mods.toml','META-INF/coremods.json']:assert original.read(name)==dst.read(name),name

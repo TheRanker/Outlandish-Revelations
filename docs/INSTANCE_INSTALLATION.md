@@ -28,6 +28,15 @@ matching old files/JAR and removing the new files identified by that manifest.
 No world rollback is needed for this file-only installation; future gameplay
 requires its own pre-test world backup.
 
+## Packaging verification follow-up
+
+The installed 1.2.8 JAR was refreshed after canonicalizing eight native text
+resource line endings to match Git/Linux checkouts. All native class bytes,
+resource values and binary assets remain unchanged. The earlier 1.2.8 JAR is
+additionally backed up under `backups/native_relics_1.2.8_20261104_084653_118043/`.
+The original full rollback snapshot above still restores pre-installation 1.2.7
+and its matching files. All fifteen final installed checksums were reverified.
+
 ## Changelogs and testing
 
 - [Compatibility JAR history](../compat/CHANGELOG.md).
