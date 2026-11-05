@@ -26,9 +26,6 @@ Outlandish Revelations
 
 Invites YOU to explore a modern Minecraft theme where the influences of GregTech, Create, and AE2 converge in a world shaped by nature and innovation with Technology and Magic. Its diverse biomes and seamless integration of advanced technologies, the landscape encourages players to embark on a journey of exploration and creativity.
 
-
-![Outlandish Revelations](https://bisecthosting.com/images/CF/Outlandish_Revelations/BH_OR_promo.webp)
-
 Discord
 https://discord.gg/qhM8gb7QtM
 
