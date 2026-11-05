@@ -3,23 +3,11 @@
 	loot_size: 1
 	order_index: 31
 	rewards: [
-  {
-    "count": 8,
-    "item": "minecraft:gold_ingot"
-  },
-  {
-    "count": 16,
-    "item": "minecraft:lapis_lazuli"
-  },
-  {
-    "count": 8,
-    "item": "minecraft:amethyst_shard"
-  },
-  {
-    "count": 24,
-    "item": "minecraft:bone_meal"
-  }
-]
+		{ count: 8, item: "minecraft:gold_ingot" }
+		{ count: 16, item: "minecraft:lapis_lazuli" }
+		{ count: 8, item: "minecraft:amethyst_shard" }
+		{ count: 24, item: "minecraft:bone_meal" }
+	]
 	title: "&6Mana Workshop Reserve&r"
 	use_title: true
 }

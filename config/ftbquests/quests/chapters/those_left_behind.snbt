@@ -1,39 +1,70 @@
 {
-  id: "5E7A000000000001"
-  filename: "those_left_behind"
-  group: "671F319DF12B461D"
-  order_index: 7
-  title: "Those Left Behind"
-  quests: [{
-    id: "5E7A000000000002"
-    title: "An Account Worth Hearing"
-    description: [
-  "Search Incendium Nether biomes outside the Infernal Dunes. Nether access still requires your team to trigger and defeat the same Warden.",
-  "",
-  "Use a Quest Scroll to speak with Seraphine Blackveil. Complete this NPC's 7 deliveries in Quest Giver; this FTB quest tracks the final personal completion advancement.",
-  "Give the requested materials to the named NPC one at a time. Each accepted delivery repairs part of that nearby building. A player-placed block at a repair site is preserved.",
-  "",
-  "Deliveries, in order:",
-  "1. Somewhere to Return: 16 Blackstone.",
-  "2. A Shelter of Our Own: 16 Warped Planks.",
-  "3. An Open Refuge: 12 Iron Ingot.",
-  "4. The People Who Survived: 8 White Wool.",
-  "5. A Seal We Choose: 4 Gold Ingot.",
-  "6. The Missing Account: 12 Paper.",
-  "7. Those Left Behind: 4 Soul Lantern.",
-  "",
-  "Each storyline is one-time per player across every copy of that NPC. Finding another building does not restart it. If you change buildings midway, earlier repairs do not move to the new copy.",
-  "Story benefits: restore the building, hear the next part of The Unfinished Promise and record your personal completion. This FTB entry adds no separate item reward. Existing FTB team sharing may complete the tracker for teammates; their personal NPC history remains separate.",
-  "Next story lead: Malric Vane. Follow the existing dimension requirements when travelling onward; the story does not unlock dimensions."
-]
-    icon: "minecraft:crossbow"
-    x: 0.0d
-    y: 0.0d
-    tasks: [{
-      id: "5E7A000000000003"
-      type: "advancement"
-      advancement: "outlandish:story/seraphine_blackveil_completed"
-      criterion: ""
-    }]
-  }]
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "those_left_behind"
+	group: "671F319DF12B461D"
+	id: "5E7A000000000001"
+	order_index: 7
+	quest_links: [ ]
+	quests: [{
+		description: [
+			"Search Incendium Nether biomes outside the Infernal Dunes. Nether access still requires your team to trigger and defeat the same Warden."
+			""
+			"Seraphine's people supplied shelter and escorts while their own refuge waited for promised help. Restore it and hear the cost of The Ranker's increasingly impatient pursuit of enemy powers."
+			""
+			"Use a Quest Scroll to speak with Seraphine Blackveil. Complete this NPC's 7 deliveries in Quest Giver; this FTB quest tracks the final personal completion advancement."
+			"Give the requested materials to the named NPC one at a time. Each accepted delivery repairs part of that nearby building. A player-placed block at a repair site is preserved."
+			""
+			"Deliveries, in order:"
+			"1. Somewhere to Return: 16 Blackstone."
+			"2. A Shelter of Our Own: 16 Warped Planks."
+			"3. An Open Refuge: 12 Iron Ingot."
+			"4. The People Who Survived: 8 White Wool."
+			"5. A Seal We Choose: 4 Gold Ingot."
+			"6. The Missing Account: 12 Paper."
+			"7. Those Left Behind: 4 Soul Lantern."
+			""
+			"Each storyline is one-time per player across every copy of that NPC. Finding another building does not restart it. If you change buildings midway, earlier repairs do not move to the new copy."
+			"Story benefits: restore the building, hear the next part of The Unfinished Promise and record your personal completion. This FTB entry adds no separate item reward. Existing FTB team sharing may complete the tracker for teammates; their personal NPC history remains separate."
+			"Next story lead: Malric Vane. Follow the existing dimension requirements when travelling onward; the story does not unlock dimensions."
+		]
+		extraquests_calendar: {
+			active_quests: 3
+			enabled: 0b
+			pool: ""
+			reset_time: "06:00"
+			timezone: "UTC"
+			weekday: 1
+			weekly: 0b
+		}
+		icon: {
+			Count: 1
+			id: "minecraft:crossbow"
+			tag: {
+				Damage: 0
+			}
+		}
+		id: "5E7A000000000002"
+		tasks: [{
+			advancement: "outlandish:story/seraphine_blackveil_completed"
+			criterion: ""
+			extraquests_options: {
+				aggregation: "AUTO"
+				duration: 600L
+				minimum_contribution: 0L
+				reset_damage: 0b
+				reset_death: 1b
+				reset_logout: 0b
+				shared: 0b
+				timer_enabled: 0b
+				timer_start: "FIRST_PROGRESS"
+			}
+			id: "5E7A000000000003"
+			type: "advancement"
+		}]
+		title: "An Account Worth Hearing"
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Those Left Behind"
 }

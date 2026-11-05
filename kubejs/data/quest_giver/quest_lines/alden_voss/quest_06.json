@@ -4,10 +4,10 @@
   "icon": "minecraft:amethyst_shard",
   "start": {
     "title": {
-      "translate": "The Bell Beneath the Earth"
+      "translate": "The Resonance We Measured"
     },
     "description": {
-      "translate": "Four amethyst shards should let me finish the listening apparatus. We will listen first. No ignition, no grand demonstration, and no promises that we understand more than we do. Hand the materials to me one at a time."
+      "translate": "Four amethyst shards will restore the comparison apparatus. We can preserve the recorded resonance without amplifying another sonic blast. Safe measurements first. Hand the materials to me one at a time."
     }
   },
   "tasks": [
@@ -23,10 +23,10 @@
   ],
   "complete": {
     "title": {
-      "translate": "The Bell Beneath the Earth"
+      "translate": "The Resonance We Measured"
     },
     "description": {
-      "translate": "There it is. The same interval, quieter than before. Mara Coppersmith may recognize the industrial markings in these records. Find her. Tell her we are rebuilding the evidence, not the engine."
+      "translate": "The comparison is clear. Mara Coppersmith can match these vibration readings to the failed coupling in the drawings. Find her and take the record. We are preserving what went wrong so the next experiment can be prepared properly."
     }
   },
   "rewards": [

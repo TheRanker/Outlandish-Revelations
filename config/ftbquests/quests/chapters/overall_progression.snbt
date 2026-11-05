@@ -22,9 +22,9 @@
 				"47F3797EACBCE233"
 			]
 			description: [
-  "Combine copper dust and tin dust using the bronze recipe shown in JEI. Check its ingredient amounts and output before batching supplies; the pack's installed recipes are the authority.",
-  "Bronze supports early GTCEu Steam progress. Make a reserve for machine parts and keep your Create workshop developing alongside it."
-]
+				"Combine copper dust and tin dust using the bronze recipe shown in JEI. Check its ingredient amounts and output before batching supplies; the pack's installed recipes are the authority."
+				"Bronze supports early GTCEu Steam progress. Make a reserve for machine parts and keep your Create workshop developing alongside it."
+			]
 			extraquests_calendar: {
 				active_quests: 3
 				enabled: 0b

@@ -3,23 +3,11 @@
 	loot_size: 1
 	order_index: 23
 	rewards: [
-  {
-    "count": 12,
-    "item": "minecraft:bone_meal"
-  },
-  {
-    "count": 16,
-    "item": "minecraft:clay_ball"
-  },
-  {
-    "count": 12,
-    "item": "minecraft:redstone"
-  },
-  {
-    "count": 16,
-    "item": "minecraft:paper"
-  }
-]
+		{ count: 12, item: "minecraft:bone_meal" }
+		{ count: 16, item: "minecraft:clay_ball" }
+		{ count: 12, item: "minecraft:redstone" }
+		{ count: 16, item: "minecraft:paper" }
+	]
 	title: "&9Rune Study Supplies&r"
 	use_title: true
 }

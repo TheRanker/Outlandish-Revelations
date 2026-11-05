@@ -3,23 +3,11 @@
 	loot_size: 1
 	order_index: 15
 	rewards: [
-  {
-    "count": 8,
-    "item": "minecraft:lapis_lazuli"
-  },
-  {
-    "count": 4,
-    "item": "minecraft:amethyst_shard"
-  },
-  {
-    "count": 16,
-    "item": "minecraft:paper"
-  },
-  {
-    "count": 4,
-    "item": "minecraft:gold_ingot"
-  }
-]
+		{ count: 8, item: "minecraft:lapis_lazuli" }
+		{ count: 4, item: "minecraft:amethyst_shard" }
+		{ count: 16, item: "minecraft:paper" }
+		{ count: 4, item: "minecraft:gold_ingot" }
+	]
 	title: "Ars Nouveau Study Supplies"
 	use_title: true
 }

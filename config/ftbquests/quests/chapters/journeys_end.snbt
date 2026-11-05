@@ -24,10 +24,11 @@
 	quests: [{
 		dependencies: ["06DABBCE6668C79A"]
 		description: [
-  "You began with a handful of materials and built a world of workshops, machines and discoveries. Defeating the Hovering Inferno and receiving Tears for Fears marks the main combat finale of Outlandish Revelations. Congratulations!",
-  "The Unfinished Promise runs alongside the main progression. Owning the sword does not automatically finish the twelve NPC stories. Return to the people whose stories you still want to hear; each FTB story entry tracks its corresponding NPC completion.",
-  "Thank you for playing and helping the pack improve. If something fails, report what happened, how to reproduce it and the relevant log. Finish your factory, explore somewhere new, or help your teammates reach their own milestones."
-]
+			"You began with a handful of materials and built a world of workshops, machines and discoveries. Defeating the Hovering Inferno and receiving Tears for Fears marks the main combat finale of Outlandish Revelations. Congratulations!"
+			"The Unfinished Promise continues alongside that victory. Finish the help owed to twelve companions and learn how enemy abilities were bound to the relics. Recover the lost ring through a Warden victory. With all twelve personal stories complete, find The Ranker's Memorial with the Explorer's Compass."
+			"Right-click the memorial Blood Altar with Tears for Fears in hand, then do the same with the Ring of Ranker. Leave both on the altar. Stay nearby and fill it to 10,000 LP three times. Each full basin drains and counts as an offering. Use your own Sacrificial Knife at this altar during the third fill. Right-click with an empty main hand to retrieve each awakened relic."
+			"Thank you for playing and helping the pack improve. If something fails, report what happened, how to reproduce it and the relevant log. Finish your factory, explore somewhere new, or help your teammates reach their own milestones."
+		]
 		extraquests_calendar: {
 			active_quests: 3
 			enabled: 0b

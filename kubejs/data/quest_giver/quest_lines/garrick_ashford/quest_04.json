@@ -1,4 +1,3 @@
-
 {
   "parent": "quest_giver:quest_03",
   "icon": "minecraft:copper_ingot",
@@ -24,7 +23,7 @@
       "translate": "A New Kind of Fire"
     },
     "description": {
-      "translate": "Good copper. That's a start. There was a professor who came through here months ago, asking about strange underground signals. I laughed him out of the workshop. I'm beginning to think I owe the man an apology."
+      "translate": "Good copper. That's a start. Professor Voss warned me that the blade's sonic vibration could break the test fittings even with the furnace cooling. I laughed at the warning. After that accident, I owed him an apology. Ask him to show you the readings."
     }
   },
   "rewards": [

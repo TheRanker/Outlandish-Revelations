@@ -8,23 +8,25 @@
 	quest_links: [ ]
 	quests: [{
 		description: [
-  "Search the Overworld for Professor Alden Voss's own building.",
-  "",
-  "Use a Quest Scroll to speak with Professor Alden Voss. Complete this NPC's 6 deliveries in Quest Giver; this FTB quest tracks the final personal completion advancement.",
-  "Give the requested materials to the named NPC one at a time. Each accepted delivery repairs part of that nearby building. A player-placed block at a repair site is preserved.",
-  "",
-  "Deliveries, in order:",
-  "1. Shelter for the Truth: 16 Oak Planks.",
-  "2. What the Foundations Remember: 12 Stone Bricks.",
-  "3. A Clearer View: 8 Glass.",
-  "4. An Instrument Worth Trusting: 12 Copper Ingot.",
-  "5. The Pages We Kept: 12 Paper.",
-  "6. The Bell Beneath the Earth: 4 Amethyst Shard.",
-  "",
-  "Each storyline is one-time per player across every copy of that NPC. Finding another building does not restart it. If you change buildings midway, earlier repairs do not move to the new copy.",
-  "Story benefits: restore the building, hear the next part of The Unfinished Promise and record your personal completion. This FTB entry adds no separate item reward. Existing FTB team sharing may complete the tracker for teammates; their personal NPC history remains separate.",
-  "Next story lead: Mara Coppersmith. Follow the existing dimension requirements when travelling onward; the story does not unlock dimensions."
-]
+			"Search the Overworld for Professor Alden Voss's own building."
+			""
+			"Voss recorded the failed test of the sword's captured Warden call. His readings establish the overload; Mara's inspection explains the broken coupling. Restore the research equipment and finish the help The Ranker left waiting."
+			""
+			"Use a Quest Scroll to speak with Professor Alden Voss. Complete this NPC's 6 deliveries in Quest Giver; this FTB quest tracks the final personal completion advancement."
+			"Give the requested materials to the named NPC one at a time. Each accepted delivery repairs part of that nearby building. A player-placed block at a repair site is preserved."
+			""
+			"Deliveries, in order:"
+			"1. Shelter for the Truth: 16 Oak Planks."
+			"2. What the Foundations Remember: 12 Stone Bricks."
+			"3. A Clearer View: 8 Glass."
+			"4. An Instrument Worth Trusting: 12 Copper Ingot."
+			"5. The Pages We Kept: 12 Paper."
+			"6. The Resonance We Measured: 4 Amethyst Shard."
+			""
+			"Each storyline is one-time per player across every copy of that NPC. Finding another building does not restart it. If you change buildings midway, earlier repairs do not move to the new copy."
+			"Story benefits: restore the building, hear the next part of The Unfinished Promise and record your personal completion. This FTB entry adds no separate item reward. Existing FTB team sharing may complete the tracker for teammates; their personal NPC history remains separate."
+			"Next story lead: Mara Coppersmith. Follow the existing dimension requirements when travelling onward; the story does not unlock dimensions."
+		]
 		extraquests_calendar: {
 			active_quests: 3
 			enabled: 0b

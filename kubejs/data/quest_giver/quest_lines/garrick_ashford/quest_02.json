@@ -1,4 +1,3 @@
-
 {
   "parent": "quest_giver:quest_01",
   "icon": "minecraft:flint",
@@ -24,7 +23,7 @@
       "translate": "Tools of a Forgotten Trade"
     },
     "description": {
-      "translate": "Not bad. You've got the patience for proper toolmaking. I once thought that was all anyone needed. Then I built something that proved me wrong."
+      "translate": "Not bad. You've got the patience for proper toolmaking. The Ranker asked me to forge a sword that could hold an enemy's power. Tears for Fears was that sword. He promised to help restore this forge when the research was finished. You are doing the work he left waiting."
     }
   },
   "rewards": [

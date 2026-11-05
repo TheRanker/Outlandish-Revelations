@@ -20,6 +20,10 @@
 		"//": "Enables pets for Patrons. Will be added in a future release.",
 		"value": true
 	},
+	"commandsAskForConfirmation": {
+		"//": "Whether commands of Serilum's mods that overwrite or change a lot at once first ask you to click [Confirm].",
+		"value": true
+	},
 	"downloadNonEnglishTranslations": {
 		"//": "Whether Collective should attempt to download translations if the client language is set to something other than English. Uses files from https://github.com/Serilum/.translations, downloaded via https://translations.serilum.com/. Hosted via CloudFlare Pages.",
 		"value": true

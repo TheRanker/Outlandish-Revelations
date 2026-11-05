@@ -19,14 +19,15 @@
 	quests: [
 		{
 			description: [
-  "Welcome to Outlandish Revelations! Start with shelter, food and a small workshop. Keep the scanner close: GregTech deposits form large veins, so finding the right deposit matters more than digging at random.",
-  "Develop your Create workshop alongside early GTCEu Stone and Steam work. Follow Starter Progression for copper, tin and bronze, then build reliable steam machines. JEI is the source for the current recipes, processing methods and ingredient alternatives.",
-  "Steam leads into Low Voltage (LV), then MV, HV, EV and IV. Each tier brings new materials and automation. Later chapters continue into advanced Draconic equipment and space travel.",
-  "The Unfinished Promise is the parallel storyline: twelve people across the Overworld, Nether, End and Twilight Forest. Claim a Quest Scroll from A Traveler's Invitation, then begin with Garrick Ashford. NPC stories accompany your progress; they do not replace technology recipes or dimension requirements.",
-  "Your FTB team must trigger a naturally generated Warden and defeat that same Warden for Nether access. Summon and defeat your team's same Wither for End access. Entering the End unlocks Twilight Forest for the team. Follow the dimensional quests for the full encounter rules.",
-  "The Hovering Inferno is the intended final combat challenge back in the Nether. Find an Infernal Altar in the Infernal Dunes and use a Nether Star to summon it when prepared. No extra NPC story gate is imposed.",
-  "Magic, exploration and technology support one another. Use the chapter connections for your next project, and keep dependable supplies of the parts you use most."
-]
+				"Welcome to Outlandish Revelations! Start with shelter, food and a small workshop. Keep the scanner close: GregTech deposits form large veins, so finding the right deposit matters more than digging at random."
+				"Develop your Create workshop alongside early GTCEu Stone and Steam work. Follow Starter Progression for copper, tin and bronze, then build reliable steam machines. JEI is the source for the current recipes, processing methods and ingredient alternatives."
+				"Steam leads into Low Voltage (LV), then MV, HV, EV and IV. Each tier brings new materials and automation. Later chapters continue into advanced Draconic equipment and space travel."
+				"The Unfinished Promise retraces The Ranker's research into captured enemy powers and the help he left unfinished for twelve companions. Claim a Quest Scroll from A Traveler's Invitation, then begin with Garrick Ashford. Restore their homes alongside your technology and adventure progression."
+				"Your FTB team must trigger a naturally generated Warden and defeat that same Warden for Nether access. Summon and defeat your team's same Wither for End access. Entering the End unlocks Twilight Forest for the team. Follow the dimensional quests for the full encounter rules."
+				"The Hovering Inferno is the intended final combat challenge back in the Nether. Find an Infernal Altar in the Infernal Dunes and use a Nether Star to summon it when prepared. No extra NPC story gate is imposed."
+				"Magic, exploration and technology support one another. Use the chapter connections for your next project, and keep dependable supplies of the parts you use most."
+				"Where native relic testing is enabled, a player-attributed Warden kill yields the lost Ring of Ranker. It offers dormant protection; its captured dragon flight requires the later personal memorial awakening. The dragon does not award another ring or unlock its flight."
+			]
 			extraquests_calendar: {
 				active_quests: 3
 				enabled: 0b

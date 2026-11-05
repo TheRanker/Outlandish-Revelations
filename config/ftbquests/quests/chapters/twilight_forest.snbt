@@ -760,11 +760,8 @@
 		{
 			dependencies: ["04440BB2EFFD6DD9"]
 			description: [
-				"The infamous multi-headed beast from Greek Mythology."
-				""
-				"Ranged attacks aren't as effective, meaning you'll need to get up close and personal."
-				""
-				"Once defeated, you'll be able to find the next boss in the Dark Forest."
+				"The Hydra is the Fire Swamp's multi-headed boss. Ranged attacks are less effective; prepare for a close fight."
+				"Story: The Ranker captured the Hydra's regenerative vitality in his ring. That stored power later supports Guardian's Last Stand after the personal memorial awakening. This quest adds no ring drop or new awakening requirement."
 			]
 			extraquests_calendar: {
 				active_quests: 3
@@ -939,12 +936,7 @@
 		{
 			dependencies: ["688C911ECFB2F134"]
 			description: [
-				"After defeating the Ur-Ghast, you'll unlock the Snowy Forest biomes."
-				""
-				"There are many creatures to fight, but to continue your progression, you'll need to kill the Alpha Yeti."
-				""
-				"You can find the Alpha Yeti in a massive Yeti cave. Defeat it to move on."
-				""
+				"The Snowy Forest route follows the Lich milestone in Twilight Forest's own progression. Follow the existing questbook sequence as well. Find the Alpha Yeti in a large Yeti cave and defeat it to continue toward the Glacier and Snow Queen."
 			]
 			extraquests_calendar: {
 				active_quests: 3
@@ -998,15 +990,8 @@
 		{
 			dependencies: ["31BB7EB95CE73C1A"]
 			description: [
-				"Defeating the Alpha Yeti unlocks the Glacier biome. Here, you'll find cute little penguins and the Snow Queen."
-				""
-				"At the top of the Aurora Palace, the Snow Queen will summon ice crystals to protect herself."
-				""
-				"She'll also slam ice blocks down that destroy the floor and deal massive damage."
-				""
-				"You'll only be able to hit her top half, as she's protected by ice blocks."
-				""
-				"After defeating the Snow Queen, you'll unlock access to the Highlands."
+				"Defeating the Alpha Yeti opens the Glacier route. At the top of the Aurora Palace, the Snow Queen summons Ice Crystals and attacks from behind her ice shield. The Hydra, Ur-Ghast and Snow Queen milestones together open the Highlands; this does not change the questbook's existing dependencies."
+				"Story: The Ranker captured the Snow Queen's shielding for the ring's protective ward. Edda's engraving made that basic protection usable. The forest's Final Castle boss is not implemented in this installed version; no missing boss is needed for this history."
 			]
 			extraquests_calendar: {
 				active_quests: 3

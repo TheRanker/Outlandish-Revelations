@@ -1,39 +1,64 @@
 {
-  id: "E17D000000000001"
-  filename: "a_promise_freely_given"
-  group: "671F319DF12B461D"
-  order_index: 12
-  title: "A Promise Freely Given"
-  quests: [{
-    id: "E17D000000000002"
-    title: "The Choice Remains Yours"
-    description: [
-  "Search Twilight Forest's clearings and ordinary woodland biomes for Elyndra's refuge. A team member entering the End unlocks access; Twilight's own boss progression still applies.",
-  "",
-  "Use a Quest Scroll to speak with Elyndra. Complete this NPC's 7 deliveries in Quest Giver; this FTB quest tracks the final personal completion advancement.",
-  "Give the requested materials to the named NPC one at a time. Each accepted delivery repairs part of that nearby building. A player-placed block at a repair site is preserved.",
-  "",
-  "Deliveries, in order:",
-  "1. Roots Beneath the Refuge: 16 Mossy Stone Bricks.",
-  "2. A Roof Among the Leaves: 16 Oak Planks.",
-  "3. Room for Something Living: 6 Azalea.",
-  "4. Rest Without a Price: 8 White Wool.",
-  "5. A Clear Place to Read: 8 Glass.",
-  "6. Keep the Meaning With the Words: 12 Paper.",
-  "7. A Promise Freely Given: 4 Lantern.",
-  "",
-  "Each storyline is one-time per player across every copy of that NPC. Finding another building does not restart it. If you change buildings midway, earlier repairs do not move to the new copy.",
-  "Story benefits: restore the building, hear the next part of The Unfinished Promise and record your personal completion. This FTB entry adds no separate item reward. Existing FTB team sharing may complete the tracker for teammates; their personal NPC history remains separate.",
-  "When ready, face the Hovering Inferno in the Infernal Dunes and recover Tears for Fears. This restoration does not perform a sword awakening or award the ring."
-]
-    icon: "minecraft:azalea"
-    x: 0.0d
-    y: 0.0d
-    tasks: [{
-      id: "E17D000000000003"
-      type: "advancement"
-      advancement: "outlandish:story/elyndra_completed"
-      criterion: ""
-    }]
-  }]
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "a_promise_freely_given"
+	group: "671F319DF12B461D"
+	id: "03AF93DA658BF28E"
+	order_index: 12
+	quest_links: [ ]
+	quests: [{
+		description: [
+			"Search Twilight Forest's clearings and ordinary woodland biomes for Elyndra's refuge. A team member entering the End unlocks access; Twilight's own boss progression still applies."
+			""
+			"Elyndra explains the bond that awakens the ring's sealed Hydra vitality as Last Stand and unlocks its dragon flight. Complete all twelve personal stories, then right-click the memorial Blood Altar with each relic to place both on it. Fill the altar to 10,000 LP three times. The altar drains and counts each offering. Use your own Sacrificial Knife here during the third fill."
+			""
+			"Use a Quest Scroll to speak with Elyndra. Complete this NPC's 7 deliveries in Quest Giver; this FTB quest tracks the final personal completion advancement."
+			"Give the requested materials to the named NPC one at a time. Each accepted delivery repairs part of that nearby building. A player-placed block at a repair site is preserved."
+			""
+			"Deliveries, in order:"
+			"1. Roots Beneath the Refuge: 16 Mossy Stone Bricks."
+			"2. A Roof Among the Leaves: 16 Oak Planks."
+			"3. Room for Something Living: 6 Azalea."
+			"4. Rest Without a Price: 8 White Wool."
+			"5. A Clear Place to Read: 8 Glass."
+			"6. Keep the Meaning With the Words: 12 Paper."
+			"7. A Promise Freely Given: 4 Lantern."
+			""
+			"Each storyline is one-time per player across every copy of that NPC. Finding another building does not restart it. If you change buildings midway, earlier repairs do not move to the new copy."
+			"Story benefits: restore the building, hear the next part of The Unfinished Promise and record your personal completion. This FTB entry adds no separate item reward. Existing FTB team sharing may complete the tracker for teammates; their personal NPC history remains separate."
+			"When ready, face the Hovering Inferno in the Infernal Dunes and recover Tears for Fears. This restoration does not perform a sword awakening or award the ring."
+		]
+		extraquests_calendar: {
+			active_quests: 3
+			enabled: 0b
+			pool: ""
+			reset_time: "06:00"
+			timezone: "UTC"
+			weekday: 1
+			weekly: 0b
+		}
+		icon: "minecraft:azalea"
+		id: "21059C13EC59302D"
+		tasks: [{
+			advancement: "outlandish:story/elyndra_completed"
+			criterion: ""
+			extraquests_options: {
+				aggregation: "AUTO"
+				duration: 600L
+				minimum_contribution: 0L
+				reset_damage: 0b
+				reset_death: 1b
+				reset_logout: 0b
+				shared: 0b
+				timer_enabled: 0b
+				timer_start: "FIRST_PROGRESS"
+			}
+			id: "7E59184B059DB8A6"
+			type: "advancement"
+		}]
+		title: "The Choice Remains Yours"
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "A Promise Freely Given"
 }

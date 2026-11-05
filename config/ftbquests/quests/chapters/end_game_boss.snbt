@@ -16,11 +16,12 @@
 	quest_links: [ ]
 	quests: [{
 		description: [
-  "Your final challenge waits in Incendium’s Infernal Dunes. Find an Infernal Altar and drop a Nether Star at its center to summon the Hovering Inferno.",
-  "Bring your best equipment, food and protection. You can attempt the summon whenever you can reach it, but this fight is intended for a fully prepared endgame player.",
-  "Defeat the first health bar, then survive the final spell while the Inferno is invulnerable. Stay with the encounter until it awards the Fallen to Ashes victory advancement.",
-  "Claim this quest's victory rewards for Tears for Fears (kubejs:rankers_sword) and four Potions of Radiation. Radiation is harmful. This quest does not award the Ring of Ranker or perform a later sword awakening."
-]
+			"Your final challenge waits in Incendium’s Infernal Dunes. Find an Infernal Altar and drop a Nether Star at its center to summon the Hovering Inferno."
+			"Bring your best equipment, food and protection. You can attempt the summon whenever you can reach it, but this fight is intended for a fully prepared endgame player."
+			"Defeat the first health bar, then survive the final spell while the Inferno is invulnerable. Stay with the encounter until it awards the Fallen to Ashes victory advancement."
+			"Claim this quest's victory rewards for the sword Tears for Fears (kubejs:rankers_sword) and four Potions of Radiation. Radiation is harmful. This recovers the original blade and its captured Warden call; the Ring of Ranker comes from a Warden. The later memorial ceremony awakens both relics."
+			"The Ranker challenged the Inferno to capture its power and died before succeeding. Prepare before repeating that battle. The twelve NPC stories run in parallel; they do not add a boss-summoning gate."
+		]
 		extraquests_calendar: {
 			active_quests: 3
 			enabled: 0b

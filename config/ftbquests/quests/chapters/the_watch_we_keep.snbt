@@ -8,24 +8,26 @@
 	quest_links: [ ]
 	quests: [{
 		description: [
-  "Search the Overworld for Captain Edda Thorne's own building.",
-  "",
-  "Use a Quest Scroll to speak with Captain Edda Thorne. Complete this NPC's 7 deliveries in Quest Giver; this FTB quest tracks the final personal completion advancement.",
-  "Give the requested materials to the named NPC one at a time. Each accepted delivery repairs part of that nearby building. A player-placed block at a repair site is preserved.",
-  "",
-  "Deliveries, in order:",
-  "1. Walls Worth Standing Behind: 16 Stone Bricks.",
-  "2. A Sound Place to Stand: 16 Spruce Planks.",
-  "3. Protection Without a Cage: 12 Iron Ingot.",
-  "4. Room for the Weary: 8 White Wool.",
-  "5. A Signal Through the Storm: 8 Copper Ingot.",
-  "6. Names Before Numbers: 12 Paper.",
-  "7. The Watch We Keep: 4 Lantern.",
-  "",
-  "Each storyline is one-time per player across every copy of that NPC. Finding another building does not restart it. If you change buildings midway, earlier repairs do not move to the new copy.",
-  "Story benefits: restore the building, hear the next part of The Unfinished Promise and record your personal completion. This FTB entry adds no separate item reward. Existing FTB team sharing may complete the tracker for teammates; their personal NPC history remains separate.",
-  "Next story lead: Sister Ysra Vale. Follow the existing dimension requirements when travelling onward; the story does not unlock dimensions."
-]
+			"Search the Overworld for Captain Edda Thorne's own building."
+			""
+			"Edda engraved the ring holding dragon flight, the Snow Queen's shielding and the Hydra's vitality. She lost it escaping a Warden in an Ancient City. Its basic ward works; flight and Last Stand require the later personal memorial awakening."
+			""
+			"Use a Quest Scroll to speak with Captain Edda Thorne. Complete this NPC's 7 deliveries in Quest Giver; this FTB quest tracks the final personal completion advancement."
+			"Give the requested materials to the named NPC one at a time. Each accepted delivery repairs part of that nearby building. A player-placed block at a repair site is preserved."
+			""
+			"Deliveries, in order:"
+			"1. Walls Worth Standing Behind: 16 Stone Bricks."
+			"2. A Sound Place to Stand: 16 Spruce Planks."
+			"3. Protection Without a Cage: 12 Iron Ingot."
+			"4. Room for the Weary: 8 White Wool."
+			"5. A Signal Through the Storm: 8 Copper Ingot."
+			"6. Names Before Numbers: 12 Paper."
+			"7. The Watch We Keep: 4 Lantern."
+			""
+			"Each storyline is one-time per player across every copy of that NPC. Finding another building does not restart it. If you change buildings midway, earlier repairs do not move to the new copy."
+			"Story benefits: restore the building, hear the next part of The Unfinished Promise and record your personal completion. This FTB entry adds no separate item reward. Existing FTB team sharing may complete the tracker for teammates; their personal NPC history remains separate."
+			"Next story lead: Sister Ysra Vale. Follow the existing dimension requirements when travelling onward; the story does not unlock dimensions."
+		]
 		extraquests_calendar: {
 			active_quests: 3
 			enabled: 0b

@@ -8,24 +8,26 @@
 	quest_links: [ ]
 	quests: [{
 		description: [
-  "Search the Overworld for Sister Ysra Vale's own building.",
-  "",
-  "Use a Quest Scroll to speak with Sister Ysra Vale. Complete this NPC's 7 deliveries in Quest Giver; this FTB quest tracks the final personal completion advancement.",
-  "Give the requested materials to the named NPC one at a time. Each accepted delivery repairs part of that nearby building. A player-placed block at a repair site is preserved.",
-  "",
-  "Deliveries, in order:",
-  "1. Stone Beneath the Shelter: 16 Stone Bricks.",
-  "2. Shelter Before Sermons: 16 Birch Planks.",
-  "3. Light Without Exposure: 8 Glass.",
-  "4. A Place to Recover: 8 White Wool.",
-  "5. Something Living: 8 Poppy.",
-  "6. The Names We Tend: 12 Paper.",
-  "7. What We Give Freely: 4 Lantern.",
-  "",
-  "Each storyline is one-time per player across every copy of that NPC. Finding another building does not restart it. If you change buildings midway, earlier repairs do not move to the new copy.",
-  "Story benefits: restore the building, hear the next part of The Unfinished Promise and record your personal completion. This FTB entry adds no separate item reward. Existing FTB team sharing may complete the tracker for teammates; their personal NPC history remains separate.",
-  "Next story lead: Darius Emberwright. Follow the existing dimension requirements when travelling onward; the story does not unlock dimensions."
-]
+			"Search the Overworld for Sister Ysra Vale's own building."
+			""
+			"Ysra studied the willing personal offering needed to bind captured power to a bearer. Restore her sanctuary and learn why friends can help with LP while each person must make their own final sacrifice."
+			""
+			"Use a Quest Scroll to speak with Sister Ysra Vale. Complete this NPC's 7 deliveries in Quest Giver; this FTB quest tracks the final personal completion advancement."
+			"Give the requested materials to the named NPC one at a time. Each accepted delivery repairs part of that nearby building. A player-placed block at a repair site is preserved."
+			""
+			"Deliveries, in order:"
+			"1. Stone Beneath the Shelter: 16 Stone Bricks."
+			"2. Shelter Before Sermons: 16 Birch Planks."
+			"3. Light Without Exposure: 8 Glass."
+			"4. A Place to Recover: 8 White Wool."
+			"5. Something Living: 8 Poppy."
+			"6. The Names We Tend: 12 Paper."
+			"7. What We Give Freely: 4 Lantern."
+			""
+			"Each storyline is one-time per player across every copy of that NPC. Finding another building does not restart it. If you change buildings midway, earlier repairs do not move to the new copy."
+			"Story benefits: restore the building, hear the next part of The Unfinished Promise and record your personal completion. This FTB entry adds no separate item reward. Existing FTB team sharing may complete the tracker for teammates; their personal NPC history remains separate."
+			"Next story lead: Darius Emberwright. Follow the existing dimension requirements when travelling onward; the story does not unlock dimensions."
+		]
 		extraquests_calendar: {
 			active_quests: 3
 			enabled: 0b

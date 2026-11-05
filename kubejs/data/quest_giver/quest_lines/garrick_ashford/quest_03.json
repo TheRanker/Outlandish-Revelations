@@ -1,4 +1,3 @@
-
 {
   "parent": "quest_giver:quest_02",
   "icon": "minecraft:brick",
@@ -24,7 +23,7 @@
       "translate": "The Furnace That Failed"
     },
     "description": {
-      "translate": "These will do. Here's what bothers me: the fire was nearly out when the machinery started shaking. Then came a sound like someone striking a bell underground. A moment later, everything went sideways."
+      "translate": "These will do. We were testing the Warden's call stored in Tears for Fears. The Ranker pushed the apparatus past Voss's marked limit. The fire was nearly out when the fittings began to shake; then the test frame buckled into the furnace. That force came from the blade. Voss kept the readings."
     }
   },
   "rewards": [

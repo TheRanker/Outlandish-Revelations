@@ -3,22 +3,10 @@
 	loot_size: 1
 	order_index: 0
 	rewards: [
-  {
-    "count": 4,
-    "item": "botania:white_mystical_flower"
-  },
-  {
-    "count": 4,
-    "item": "botania:light_blue_mystical_flower"
-  },
-  {
-    "count": 4,
-    "item": "botania:yellow_mystical_flower"
-  },
-  {
-    "count": 4,
-    "item": "botania:red_mystical_flower"
-  }
-]
+		{ count: 4, item: "botania:white_mystical_flower" }
+		{ count: 4, item: "botania:light_blue_mystical_flower" }
+		{ count: 4, item: "botania:yellow_mystical_flower" }
+		{ count: 4, item: "botania:red_mystical_flower" }
+	]
 	title: "Botania Flowers"
 }

@@ -1,5 +1,5 @@
 {
-  "enabled": false,
+  "enabled": true,
   "skinTexture": "outlandish:textures/entity/the_ranker.png",
   "slimSkin": false,
   "npcAdvancements": {

@@ -1,0 +1,17 @@
+# JEI Biome 功能开关 / JEI Biome feature toggles
+# 修改后需要重启游戏才能生效 / Restart the game after changing these options
+
+# 是否显示群系自身/地表候选方块 / Whether to display biome terrain/surface candidate blocks
+show_terrain_blocks=true
+
+# 是否显示地表地物方块 / Whether to display surface feature blocks
+show_surface_feature_blocks=true
+
+# 是否显示地下地物方块 / Whether to display underground feature blocks
+show_underground_feature_blocks=true
+
+# 是否显示矿石方块及矿物分布提示 / Whether to display ore blocks and ore distribution tooltips
+show_ore_blocks=true
+
+# 是否显示生物生成分类、刷怪蛋和生物掉落物 / Whether to display mob spawning, spawn eggs, and mob drops
+show_mob_spawns=true

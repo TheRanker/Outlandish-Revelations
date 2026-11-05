@@ -3,23 +3,11 @@
 	loot_size: 1
 	order_index: 16
 	rewards: [
-  {
-    "count": 24,
-    "item": "minecraft:torch"
-  },
-  {
-    "count": 12,
-    "item": "minecraft:baked_potato"
-  },
-  {
-    "count": 24,
-    "item": "minecraft:oak_planks"
-  },
-  {
-    "count": 16,
-    "item": "minecraft:paper"
-  }
-]
+		{ count: 24, item: "minecraft:torch" }
+		{ count: 12, item: "minecraft:baked_potato" }
+		{ count: 24, item: "minecraft:oak_planks" }
+		{ count: 16, item: "minecraft:paper" }
+	]
 	title: "Twilight Expedition Supplies"
 	use_title: true
 }

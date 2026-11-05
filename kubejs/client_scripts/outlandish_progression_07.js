@@ -246,7 +246,7 @@ Ponder.registry(event => {
         );
 
         tell(scene,
-          'Visit the Nether progression chapter to confirm your objective before entering.'
+          'Visit the Nether progression chapter to confirm your objective. With native relic testing enabled, a player-attributed Warden kill also yields the lost Ring of Ranker. Its flight remains sealed until the personal memorial awakening.'
         );
 
         tell(scene,
@@ -338,7 +338,7 @@ Ponder.registry(event => {
         );
 
         tell(scene,
-          'The Ender Dragon awaits after the Wither milestone.'
+          'The Ender Dragon awaits after the Wither milestone. In the story, The Ranker captured its flight in his ring; your own dragon victory does not awaken that ring.'
         );
 
         tell(scene,

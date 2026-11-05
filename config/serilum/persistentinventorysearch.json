@@ -1,0 +1,23 @@
+{
+	"//": "These settings are easier to change in-game! Mod List -> Persistent Inventory Search -> Config",
+	"Enable Persistent Inventory Search": {
+		"//": "Whether Persistent Inventory Search is enabled. When disabled, none of its features run and its other settings are hidden. Takes effect after a restart.",
+		"value": true
+	},
+	"keepSearchQuery": {
+		"//": "Whether the creative search query is kept when switching tabs or closing the inventory.",
+		"value": true
+	},
+	"selectKeptSearchQuery": {
+		"//": "Whether the kept search query is selected, so typing a new search replaces it.",
+		"value": true
+	},
+	"keepSearchTabScrollPosition": {
+		"//": "Whether the search tab keeps its scroll position.",
+		"value": true
+	},
+	"keepOtherTabsScrollPosition": {
+		"//": "Whether the other creative tabs keep their scroll position.",
+		"value": true
+	}
+}

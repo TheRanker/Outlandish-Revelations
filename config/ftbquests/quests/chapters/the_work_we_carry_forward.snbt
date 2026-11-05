@@ -8,24 +8,26 @@
 	quest_links: [ ]
 	quests: [{
 		description: [
-  "Search the Overworld for Mara Coppersmith's own building.",
-  "",
-  "Use a Quest Scroll to speak with Mara Coppersmith. Complete this NPC's 7 deliveries in Quest Giver; this FTB quest tracks the final personal completion advancement.",
-  "Give the requested materials to the named NPC one at a time. Each accepted delivery repairs part of that nearby building. A player-placed block at a repair site is preserved.",
-  "",
-  "Deliveries, in order:",
-  "1. A Roof Over Honest Work: 16 Spruce Planks.",
-  "2. A Steady Footing: 12 Stone Bricks.",
-  "3. The Shape of Useful Things: 8 Andesite Alloy.",
-  "4. A Line Worth Following: 4 Create Shafts.",
-  "5. Teeth That Meet: 4 Create Cogwheels.",
-  "6. Pressure Needs Restraint: 12 Bronze Ingots.",
-  "7. The Work We Carry Forward: 12 Paper.",
-  "",
-  "Each storyline is one-time per player across every copy of that NPC. Finding another building does not restart it. If you change buildings midway, earlier repairs do not move to the new copy.",
-  "Story benefits: restore the building, hear the next part of The Unfinished Promise and record your personal completion. This FTB entry adds no separate item reward. Existing FTB team sharing may complete the tracker for teammates; their personal NPC history remains separate.",
-  "Next story lead: Captain Edda Thorne. Follow the existing dimension requirements when travelling onward; the story does not unlock dimensions."
-]
+			"Search the Overworld for Mara Coppersmith's own building."
+			""
+			"Mara maintained machinery supporting the artifact experiments. Her workshop connects careful construction and your growing industry with the unfinished help The Ranker owed his companions."
+			""
+			"Use a Quest Scroll to speak with Mara Coppersmith. Complete this NPC's 7 deliveries in Quest Giver; this FTB quest tracks the final personal completion advancement."
+			"Give the requested materials to the named NPC one at a time. Each accepted delivery repairs part of that nearby building. A player-placed block at a repair site is preserved."
+			""
+			"Deliveries, in order:"
+			"1. A Roof Over Honest Work: 16 Spruce Planks."
+			"2. A Steady Footing: 12 Stone Bricks."
+			"3. The Shape of Useful Things: 8 Andesite Alloy."
+			"4. A Line Worth Following: 4 Create Shafts."
+			"5. Teeth That Meet: 4 Create Cogwheels."
+			"6. Pressure Needs Restraint: 12 Bronze Ingots."
+			"7. The Work We Carry Forward: 12 Paper."
+			""
+			"Each storyline is one-time per player across every copy of that NPC. Finding another building does not restart it. If you change buildings midway, earlier repairs do not move to the new copy."
+			"Story benefits: restore the building, hear the next part of The Unfinished Promise and record your personal completion. This FTB entry adds no separate item reward. Existing FTB team sharing may complete the tracker for teammates; their personal NPC history remains separate."
+			"Next story lead: Captain Edda Thorne. Follow the existing dimension requirements when travelling onward; the story does not unlock dimensions."
+		]
 		extraquests_calendar: {
 			active_quests: 3
 			enabled: 0b

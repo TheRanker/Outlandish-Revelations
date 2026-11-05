@@ -8,24 +8,26 @@
 	quest_links: [ ]
 	quests: [{
 		description: [
-  "Search Incendium Nether biomes outside the Infernal Dunes. Nether access still requires your team to trigger and defeat the same Warden.",
-  "",
-  "Use a Quest Scroll to speak with Darius Emberwright. Complete this NPC's 7 deliveries in Quest Giver; this FTB quest tracks the final personal completion advancement.",
-  "Give the requested materials to the named NPC one at a time. Each accepted delivery repairs part of that nearby building. A player-placed block at a repair site is preserved.",
-  "",
-  "Deliveries, in order:",
-  "1. A Foundation Above the Fire: 16 Polished Blackstone Bricks.",
-  "2. Shelter That Will Not Burn: 16 Crimson Planks.",
-  "3. Tools Before Ambition: 12 Iron Ingot.",
-  "4. A Bench Fit for Work: 8 Steel Ingots.",
-  "5. The Marks We Can Read: 12 Nether Quartz.",
-  "6. A Record Beyond Ash: 12 Paper.",
-  "7. Embers of the Concord: 4 Soul Lantern.",
-  "",
-  "Each storyline is one-time per player across every copy of that NPC. Finding another building does not restart it. If you change buildings midway, earlier repairs do not move to the new copy.",
-  "Story benefits: restore the building, hear the next part of The Unfinished Promise and record your personal completion. This FTB entry adds no separate item reward. Existing FTB team sharing may complete the tracker for teammates; their personal NPC history remains separate.",
-  "Next story lead: Seraphine Blackveil. Follow the existing dimension requirements when travelling onward; the story does not unlock dimensions."
-]
+			"Search Incendium Nether biomes outside the Infernal Dunes. Nether access still requires your team to trigger and defeat the same Warden."
+			""
+			"Darius supplied tools and fittings for The Ranker's experiments. The outpost repairs fulfil help promised in return and reveal how the research depended on people keeping ordinary equipment working."
+			""
+			"Use a Quest Scroll to speak with Darius Emberwright. Complete this NPC's 7 deliveries in Quest Giver; this FTB quest tracks the final personal completion advancement."
+			"Give the requested materials to the named NPC one at a time. Each accepted delivery repairs part of that nearby building. A player-placed block at a repair site is preserved."
+			""
+			"Deliveries, in order:"
+			"1. A Foundation Above the Fire: 16 Polished Blackstone Bricks."
+			"2. Shelter That Will Not Burn: 16 Crimson Planks."
+			"3. Tools Before Ambition: 12 Iron Ingot."
+			"4. A Bench Fit for Work: 8 Steel Ingots."
+			"5. The Marks We Can Read: 12 Nether Quartz."
+			"6. A Record Beyond Ash: 12 Paper."
+			"7. Embers of the Concord: 4 Soul Lantern."
+			""
+			"Each storyline is one-time per player across every copy of that NPC. Finding another building does not restart it. If you change buildings midway, earlier repairs do not move to the new copy."
+			"Story benefits: restore the building, hear the next part of The Unfinished Promise and record your personal completion. This FTB entry adds no separate item reward. Existing FTB team sharing may complete the tracker for teammates; their personal NPC history remains separate."
+			"Next story lead: Seraphine Blackveil. Follow the existing dimension requirements when travelling onward; the story does not unlock dimensions."
+		]
 		extraquests_calendar: {
 			active_quests: 3
 			enabled: 0b

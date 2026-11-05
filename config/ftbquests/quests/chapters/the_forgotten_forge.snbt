@@ -42,6 +42,11 @@
 			y: 0.0d
 		}
 		{
+			description: [
+				"Garrick forged Tears for Fears, the sword used in The Ranker's captured-power research. Restoring his forge fulfils work The Ranker left unfinished and begins the trail to Voss."
+				"Use a Quest Scroll and finish his five existing deliveries. This entry tracks Garrick's personal completion advancement."
+				"Next story lead: Professor Alden Voss. Your personal NPC history remains separate from shared FTB team progress."
+			]
 			dependencies: ["341AEEC2E66EFB35"]
 			extraquests_calendar: {
 				active_quests: 3
@@ -83,25 +88,19 @@
 		}
 		{
 			description: [
-				"Long ago, a great engineer and warrior known as The Ranker sought to protect a world on the brink of destruction."
+				"The Ranker was an engineer and warrior who learned to capture enemy abilities and bind them to equipment. He forged a sword called Tears for Fears and developed the Ring of Ranker."
 				""
-				"He built magnificent machines, united the finest minds of his age, and forged a legendary sword called Tears for Fears."
+				"A Warden's defeated call became the sword's shout. Each success drove him toward another experiment, supported by the craftsmen, researchers and travellers of the Brass Concord."
 				""
-				"But his final journey ended in tragedy."
+				"They helped him, and he promised help in return. Twelve people were still waiting when he rushed to face the Hovering Inferno, hoping to capture its power before his preparations and greater awakening were complete."
 				""
-				"Deep within the Nether, the Hovering Inferno defeated The Ranker and claimed his unfinished weapon. His allies scattered, his great inventions were forgotten, and the world slowly lost hope."
+				"The Inferno killed him and kept his sword. His companions were left with damaged homes, scattered research and promises unfinished."
 				""
-				"Yet not everyone has forgotten."
+				"Begin at Garrick Ashford's forge. Restore what he left waiting, hear the witnesses and retrace the craftsmanship, machinery and willing sacrifices behind the relics."
 				""
-				"Across the Overworld and distant dimensions, remnants of an old alliance still remain. Some seek answers. Some seek forgiveness. Others have spent their lives waiting for revenge."
+				"These stories accompany your Create and GregTech progression. Your team's dimension encounters still govern travel. Recovering a relic and awakening its greater powers are separate milestones."
 				""
-				"Find these forgotten souls. Hear their stories. Restore what was lost and uncover the truth behind The Ranker's final battle."
-				""
-				"But remember, traveller..."
-				""
-				"The greatest power is not always found in the strongest weapon. Sometimes, it is found in what you choose to protect."
-				""
-				"Your story begins among the ruins of an old blacksmith's forge."
+				"The twelve restorations are personal. Each home you repair fulfils another part of The Unfinished Promise."
 			]
 			extraquests_calendar: {
 				active_quests: 3
@@ -113,7 +112,7 @@
 				weekly: 0b
 			}
 			id: "440515863C1CCFA9"
-			subtitle: "He forged a sword to end a war. You will forge the future he never lived to see."
+			subtitle: "He captured enemy powers. You will finish the promises he left behind."
 			tasks: [{
 				extraquests_options: {
 					aggregation: "AUTO"

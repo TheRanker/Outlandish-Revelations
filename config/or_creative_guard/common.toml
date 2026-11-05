@@ -1,0 +1,48 @@
+
+[relics]
+	#Enable relic gameplay with the matching Outlandish Revelations pack data.
+	#Restart the game or server after editing this file.
+	enabled = true
+
+[sword]
+	#Bonus damage as a percent of the follow-up hit. Capped at 12 HP.
+	#Range: 0 ~ 100
+	fractureBonusPercent = 35
+	#Echo damage as a percent of the triggering hit. Capped at 14 HP.
+	#Range: 1 ~ 100
+	echoDamagePercent = 40
+	#Resonance spent on Echo of the Fallen.
+	#Range: 1 ~ 100
+	echoResonanceCost = 45
+	#Seconds between Echo activations.
+	#Range: 1 ~ 3600
+	echoCooldownSeconds = 12
+	#Resonance spent on Skybreaker.
+	#Range: 1 ~ 100
+	skybreakerResonanceCost = 75
+	#Seconds between Skybreaker activations.
+	#Range: 1 ~ 3600
+	skybreakerCooldownSeconds = 20
+	#Skybreaker damage per target in HP. Two HP equal one heart.
+	#Range: 1 ~ 12
+	skybreakerDamage = 12
+
+[ring]
+	#A player-attributed Warden kill drops the Ring of Ranker.
+	#Provide another acquisition route if you disable this and keep awakening enabled.
+	wardenRingDrop = true
+	#The equipped awakened ring grants Creative-style flight in Survival.
+	creativeFlight = true
+	#Seconds between Guardian's Protection activations.
+	#Range: 1 ~ 3600
+	protectionCooldownSeconds = 90
+	#Seconds between Guardian's Last Stand activations.
+	#Range: 1 ~ 86400
+	lastStandCooldownSeconds = 600
+
+[questbook]
+	#Starting zoom for a new FTB Quests view. 16 is the original FTB value.
+	#A saved questbook view takes precedence.
+	#Range: 4 ~ 28
+	initialZoom = 8
+
