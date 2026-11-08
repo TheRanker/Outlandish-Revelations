@@ -3,16 +3,60 @@
 	default_quest_shape: ""
 	filename: "lv_chemistry"
 	group: "751F9FCD5495C55F"
-	icon: "gtceu:rubber_ingot"
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "outlandish_revelations:textures/questbook/icons/lv_chemistry.png"
+		}
+	}
 	id: "74B01D89D3DD7555"
-	images: [{
-		height: 3.0d
-		image: "minecraft:textures/item/book.png"
-		rotation: 0.0d
-		width: 3.0d
-		x: 3.0d
-		y: -3.5d
-	}]
+	images: [
+		{
+			height: 3.0d
+			image: "minecraft:textures/item/book.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 3.0d
+			y: -3.5d
+		}
+		{
+			height: 1.625d
+			image: "outlandish_revelations:textures/questbook/landmarks/lv_chemistry/header.png"
+			order: -1
+			rotation: 0.0d
+			width: 7.5d
+			x: 4.5d
+			y: -5.9107d
+		}
+		{
+			height: 1.3d
+			image: "outlandish_revelations:textures/questbook/landmarks/lv_chemistry/sulfur_and_acids.png"
+			order: -1
+			rotation: 0.0d
+			width: 7.6d
+			x: 10.6371d
+			y: -3.4714d
+		}
+		{
+			height: 1.3d
+			image: "outlandish_revelations:textures/questbook/landmarks/lv_chemistry/water_electrolysis.png"
+			order: -1
+			rotation: 0.0d
+			width: 8.4d
+			x: 6.5d
+			y: 3.3714d
+		}
+		{
+			height: 1.3d
+			image: "outlandish_revelations:textures/questbook/landmarks/lv_chemistry/chlorine_supply.png"
+			order: -1
+			rotation: 0.0d
+			width: 7.2d
+			x: 12.2029d
+			y: -1.5d
+		}
+	]
 	order_index: 0
 	quest_links: [ ]
 	quests: [

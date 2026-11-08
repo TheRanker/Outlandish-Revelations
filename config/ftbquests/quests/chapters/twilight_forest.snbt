@@ -3,16 +3,87 @@
 	default_quest_shape: ""
 	filename: "twilight_forest"
 	group: "610F012654EDDFE3"
-	icon: "twilightforest:twilight_portal_miniature_structure"
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "outlandish_revelations:textures/questbook/icons/twilight_forest.png"
+		}
+	}
 	id: "7732CF7AAA63DB3A"
-	images: [{
-		height: 3.0d
-		image: "minecraft:textures/item/book.png"
-		rotation: 0.0d
-		width: 3.0d
-		x: -6.0d
-		y: 6.0d
-	}]
+	images: [
+		{
+			height: 3.0d
+			image: "minecraft:textures/item/book.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: -6.0d
+			y: 6.0d
+		}
+		{
+			height: 1.625d
+			image: "outlandish_revelations:textures/questbook/landmarks/twilight_forest/header.png"
+			order: -1
+			rotation: 0.0d
+			width: 9.0d
+			x: -2.9643d
+			y: -4.5536d
+		}
+		{
+			height: 1.3d
+			image: "outlandish_revelations:textures/questbook/landmarks/twilight_forest/portal_and_maps.png"
+			order: -1
+			rotation: 0.0d
+			width: 7.2d
+			x: -15.0d
+			y: 0.3971d
+		}
+		{
+			height: 1.3d
+			image: "outlandish_revelations:textures/questbook/landmarks/twilight_forest/naga_and_lich.png"
+			order: -1
+			rotation: 0.0d
+			width: 6.4d
+			x: -4.5d
+			y: -1.8714d
+		}
+		{
+			height: 1.3d
+			image: "outlandish_revelations:textures/questbook/landmarks/twilight_forest/swamp_and_hydra.png"
+			order: -1
+			rotation: 0.0d
+			width: 7.2d
+			x: 2.3d
+			y: -2.72d
+		}
+		{
+			height: 1.3d
+			image: "outlandish_revelations:textures/questbook/landmarks/twilight_forest/dark_forest.png"
+			order: -1
+			rotation: 0.0d
+			width: 5.6d
+			x: 10.9971d
+			y: 1.0d
+		}
+		{
+			height: 1.3d
+			image: "outlandish_revelations:textures/questbook/landmarks/twilight_forest/snow_biomes.png"
+			order: -1
+			rotation: 0.0d
+			width: 5.6d
+			x: 4.9829d
+			y: 5.2d
+		}
+		{
+			height: 1.3d
+			image: "outlandish_revelations:textures/questbook/landmarks/twilight_forest/final_plateau.png"
+			order: -1
+			rotation: 0.0d
+			width: 6.4d
+			x: 2.0d
+			y: 10.1743d
+		}
+	]
 	order_index: 2
 	quest_links: [ ]
 	quests: [
@@ -935,9 +1006,7 @@
 		}
 		{
 			dependencies: ["688C911ECFB2F134"]
-			description: [
-				"The Snowy Forest route follows the Lich milestone in Twilight Forest's own progression. Follow the existing questbook sequence as well. Find the Alpha Yeti in a large Yeti cave and defeat it to continue toward the Glacier and Snow Queen."
-			]
+			description: ["The Snowy Forest route follows the Lich milestone in Twilight Forest's own progression. Follow the existing questbook sequence as well. Find the Alpha Yeti in a large Yeti cave and defeat it to continue toward the Glacier and Snow Queen."]
 			extraquests_calendar: {
 				active_quests: 3
 				enabled: 0b

@@ -3,16 +3,87 @@
 	default_quest_shape: ""
 	filename: "create"
 	group: "290BD65C3C52540C"
-	icon: "create:large_cogwheel"
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "outlandish_revelations:textures/questbook/icons/create.png"
+		}
+	}
 	id: "290E7A54FDBF199B"
-	images: [{
-		height: 3.0d
-		image: "minecraft:textures/item/book.png"
-		rotation: 0.0d
-		width: 3.0d
-		x: 4.5d
-		y: -5.5d
-	}]
+	images: [
+		{
+			height: 3.0d
+			image: "minecraft:textures/item/book.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 4.5d
+			y: -5.5d
+		}
+		{
+			height: 1.625d
+			image: "outlandish_revelations:textures/questbook/landmarks/create/header.png"
+			order: -1
+			rotation: 0.0d
+			width: 5.5d
+			x: -0.5d
+			y: -12.0d
+		}
+		{
+			height: 1.3d
+			image: "outlandish_revelations:textures/questbook/landmarks/create/kinetic_power.png"
+			order: -1
+			rotation: 0.0d
+			width: 6.4d
+			x: -6.86d
+			y: -7.2d
+		}
+		{
+			height: 1.3d
+			image: "outlandish_revelations:textures/questbook/landmarks/create/shafts_and_gears.png"
+			order: -1
+			rotation: 0.0d
+			width: 7.6d
+			x: -0.5d
+			y: -10.5d
+		}
+		{
+			height: 1.3d
+			image: "outlandish_revelations:textures/questbook/landmarks/create/mechanical_press.png"
+			order: -1
+			rotation: 0.0d
+			width: 7.6d
+			x: -8.8743d
+			y: -5.7d
+		}
+		{
+			height: 1.3d
+			image: "outlandish_revelations:textures/questbook/landmarks/create/andesite_machines.png"
+			order: -1
+			rotation: 0.0d
+			width: 8.0d
+			x: -0.0257d
+			y: 1.4d
+		}
+		{
+			height: 1.3d
+			image: "outlandish_revelations:textures/questbook/landmarks/create/brass_automation.png"
+			order: -1
+			rotation: 0.0d
+			width: 7.6d
+			x: 10.5d
+			y: -10.5d
+		}
+		{
+			height: 1.3d
+			image: "outlandish_revelations:textures/questbook/landmarks/create/copper_components.png"
+			order: -1
+			rotation: 0.0d
+			width: 8.0d
+			x: -7.7429d
+			y: -1.5d
+		}
+	]
 	order_index: 5
 	quest_links: [ ]
 	quests: [

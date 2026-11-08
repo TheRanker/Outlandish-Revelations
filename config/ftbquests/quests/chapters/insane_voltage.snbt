@@ -3,16 +3,97 @@
 	default_quest_shape: ""
 	filename: "insane_voltage"
 	group: "0BA74938AD86532B"
-	icon: "gtceu:micro_processor_mainframe"
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "outlandish_revelations:textures/questbook/icons/insane_voltage.png"
+		}
+	}
 	id: "00E59A3B38CB7EEA"
-	images: [{
-		height: 3.0d
-		image: "minecraft:textures/item/book.png"
-		rotation: 0.0d
-		width: 3.0d
-		x: 0.0d
-		y: -5.0d
-	}]
+	images: [
+		{
+			height: 3.0d
+			image: "minecraft:textures/item/book.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: -5.1643d
+			y: -4.2d
+		}
+		{
+			height: 1.625d
+			image: "outlandish_revelations:textures/questbook/landmarks/insane_voltage/header.png"
+			order: -1
+			rotation: 0.0d
+			width: 8.0d
+			x: 0.0d
+			y: -4.2d
+		}
+		{
+			height: 1.0092d
+			image: "outlandish_revelations:textures/questbook/landmarks/metallurgy/hover_for_shared_links.png"
+			order: -1
+			rotation: 0.0d
+			width: 11.8d
+			x: 0.0d
+			y: -1.95d
+		}
+		{
+			click: "#1D9194E89D14BA85"
+			height: 1.3d
+			hover: ["PBI Plastics"]
+			image: "outlandish_revelations:textures/questbook/landmarks/insane_voltage/pbi_plastics.png"
+			order: -1
+			rotation: 0.0d
+			width: 6.0d
+			x: -12.184d
+			y: 13.7152d
+		}
+		{
+			click: "#64F77D41B2D057B8"
+			height: 1.3d
+			hover: ["IV Mainframes"]
+			image: "outlandish_revelations:textures/questbook/landmarks/insane_voltage/iv_mainframes.png"
+			order: -1
+			rotation: 0.0d
+			width: 6.4d
+			x: 19.4166d
+			y: 18.0101d
+		}
+		{
+			click: "#4838AD09C9590D2F"
+			height: 1.3d
+			hover: ["Wafer Processing"]
+			image: "outlandish_revelations:textures/questbook/landmarks/insane_voltage/wafer_processing.png"
+			order: -1
+			rotation: 0.0d
+			width: 7.6d
+			x: -20.4734d
+			y: 31.817d
+		}
+		{
+			click: "#239E32216382AA5D"
+			height: 1.3d
+			hover: ["Advanced Components"]
+			image: "outlandish_revelations:textures/questbook/landmarks/insane_voltage/advanced_components.png"
+			order: -1
+			rotation: 0.0d
+			width: 8.8d
+			x: 26.5737d
+			y: 15.6802d
+		}
+		{
+			click: "#45D9E32D75F5ACAE"
+			height: 1.3d
+			hover: ["IV Assembly"]
+			image: "outlandish_revelations:textures/questbook/landmarks/insane_voltage/iv_assembly.png"
+			order: -1
+			rotation: 0.0d
+			width: 5.6d
+			x: 25.2023d
+			y: 25.6829d
+		}
+	]
 	order_index: 4
 	quest_links: [ ]
 	quests: [
@@ -69,8 +150,8 @@
 				item: "gtceu:micro_processor_mainframe"
 				type: "item"
 			}]
-			x: -7.0d
-			y: 3.0d
+			x: 14.9937d
+			y: 18.0101d
 		}
 		{
 			dependencies: [
@@ -132,8 +213,8 @@
 				item: "gtceu:nano_processor"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 0.7999999999999954d
+			x: -3.7766d
+			y: 17.3822d
 		}
 		{
 			dependencies: [
@@ -188,8 +269,8 @@
 				item: "gtceu:nano_processor_assembly"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 0.7999999999999954d
+			x: 12.3786d
+			y: 17.1752d
 		}
 		{
 			dependencies: [
@@ -244,8 +325,8 @@
 				item: "gtceu:nano_processor_computer"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 0.7999999999999954d
+			x: 0.9418d
+			y: 18.6035d
 		}
 		{
 			dependencies: [
@@ -299,8 +380,8 @@
 				item: "gtceu:nano_processor_mainframe"
 				type: "item"
 			}]
-			x: 9.999999999999998d
-			y: 3.0d
+			x: 0.0368d
+			y: 20.5827d
 		}
 		{
 			dependencies: [
@@ -360,8 +441,8 @@
 				item: "gtceu:tungsten_steel_ingot"
 				type: "item"
 			}]
-			x: -7.0d
-			y: 0.8000000000000003d
+			x: -0.0552d
+			y: 31.9113d
 		}
 		{
 			dependencies: ["540B4CE165EE4D5B"]
@@ -420,8 +501,8 @@
 				title: "Tungsten Ingot"
 				type: "item"
 			}]
-			x: -9.67142857142858d
-			y: 2.3392857142857153d
+			x: 0.1426d
+			y: 27.2676d
 		}
 		{
 			dependencies: [
@@ -478,8 +559,8 @@
 				item: "gtceu:rtm_alloy_coil_block"
 				type: "item"
 			}]
-			x: -4.800000000000001d
-			y: 0.7999999999999998d
+			x: -6.846d
+			y: 30.8407d
 		}
 		{
 			dependencies: [
@@ -540,8 +621,8 @@
 				item: "gtceu:polybenzimidazole_bucket"
 				type: "item"
 			}]
-			x: -0.5d
-			y: -4.200000000000005d
+			x: -8.6054d
+			y: 11.7438d
 		}
 		{
 			dependencies: [
@@ -598,8 +679,8 @@
 				item: "gtceu:ev_circuit_assembler"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 3.0d
+			x: -5.7983d
+			y: 23.713d
 		}
 		{
 			dependencies: [
@@ -689,8 +770,8 @@
 				}
 			]
 			title: "Parallel Processing"
-			x: -7.0d
-			y: 5.5d
+			x: 4.4827d
+			y: 25.3299d
 		}
 		{
 			dependencies: [
@@ -745,8 +826,8 @@
 				item: "gtceu:advanced_smd_transistor"
 				type: "item"
 			}]
-			x: 5.5d
-			y: -1.5d
+			x: 5.5453d
+			y: 13.9644d
 		}
 		{
 			dependencies: [
@@ -803,8 +884,8 @@
 				item: "gtceu:advanced_smd_resistor"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -1.5d
+			x: -8.4065d
+			y: 19.3855d
 		}
 		{
 			dependencies: [
@@ -862,8 +943,8 @@
 				item: "gtceu:advanced_smd_capacitor"
 				type: "item"
 			}]
-			x: 7.0d
-			y: -1.5d
+			x: 7.4416d
+			y: 15.6802d
 		}
 		{
 			dependencies: [
@@ -922,8 +1003,8 @@
 				item: "gtceu:advanced_smd_diode"
 				type: "item"
 			}]
-			x: 10.0d
-			y: -1.5d
+			x: -1.6963d
+			y: 18.7473d
 		}
 		{
 			dependencies: [
@@ -978,8 +1059,8 @@
 				item: "gtceu:advanced_smd_inductor"
 				type: "item"
 			}]
-			x: 8.5d
-			y: -1.5d
+			x: 10.9468d
+			y: 6.6907d
 		}
 		{
 			description: [
@@ -1041,8 +1122,8 @@
 				title: "Palladium Dust"
 				type: "item"
 			}]
-			x: 8.5d
-			y: -5.0d
+			x: 12.9582d
+			y: 10.4316d
 		}
 		{
 			dependencies: ["64F77D41B2D057B8"]
@@ -1092,8 +1173,8 @@
 				item: "gtceu:phosphorus_boule"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 4.0d
+			x: -8.8285d
+			y: 27.6897d
 		}
 		{
 			dependencies: ["2CC82170BCE61940"]
@@ -1147,8 +1228,8 @@
 				item: "gtceu:phosphorus_wafer"
 				type: "item"
 			}]
-			x: -0.5d
-			y: 4.0d
+			x: -13.3216d
+			y: 26.1061d
 		}
 		{
 			dependencies: ["5F270891C953486E"]
@@ -1274,8 +1355,8 @@
 				}
 			]
 			title: "System on Chip"
-			x: 0.5d
-			y: 4.0d
+			x: -7.3646d
+			y: 25.4955d
 		}
 		{
 			dependencies: [
@@ -1317,8 +1398,8 @@
 				item: "gtceu:microchip_processor"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 4.0d
+			x: -3.3338d
+			y: 24.3478d
 		}
 		{
 			dependencies: ["62F4355AE3E08FD9"]
@@ -1376,8 +1457,8 @@
 				item: "gtceu:polytetrafluoroethylene_bucket"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -3.700000000000001d
+			x: 2.2344d
+			y: 8.157d
 		}
 		{
 			dependencies: ["64F77D41B2D057B8"]
@@ -1431,8 +1512,8 @@
 				item: "gtceu:ev_assembler"
 				type: "item"
 			}]
-			x: -4.800000000000001d
-			y: 2.0d
+			x: -6.1283d
+			y: 27.6701d
 		}
 		{
 			dependencies: ["41EE8B40BA43DADE"]
@@ -1485,8 +1566,8 @@
 				item: "gtceu:hsss_dust"
 				type: "item"
 			}]
-			x: 7.0d
-			y: -3.0d
+			x: 7.6394d
+			y: 10.3534d
 		}
 		{
 			dependencies: ["6517B8748E3A6831"]
@@ -1536,8 +1617,8 @@
 				item: "gtceu:hssg_dust"
 				type: "item"
 			}]
-			x: 5.5d
-			y: -5.0d
+			x: 6.6585d
+			y: 5.8834d
 		}
 		{
 			dependencies: [
@@ -1594,8 +1675,8 @@
 				item: "gtceu:iv_mixer"
 				type: "item"
 			}]
-			x: 5.5d
-			y: -6.5d
+			x: 14.1013d
+			y: 4.3136d
 		}
 		{
 			description: [
@@ -1647,8 +1728,8 @@
 				item: "gtceu:niobium_titanium_dust"
 				type: "item"
 			}]
-			x: 11.3d
-			y: -2.6000000000000014d
+			x: -3.3764d
+			y: 20.3182d
 		}
 		{
 			dependencies: ["17C2D1915C2D0B4C"]
@@ -1703,8 +1784,8 @@
 				item: "gtceu:indium_gallium_phosphide_dust"
 				type: "item"
 			}]
-			x: 10.0d
-			y: -2.5999999999999996d
+			x: 0.0d
+			y: 51.0013d
 		}
 		{
 			dependencies: ["677B8753B7904E95"]
@@ -1758,8 +1839,8 @@
 				item: "gtceu:indium_dust"
 				type: "item"
 			}]
-			x: 10.0d
-			y: -3.6999999999999993d
+			x: 0.0d
+			y: 48.7013d
 		}
 		{
 			dependencies: ["41EE8B40BA43DADE"]
@@ -1813,8 +1894,8 @@
 				item: "gtceu:hsse_dust"
 				type: "item"
 			}]
-			x: 7.0d
-			y: -5.0d
+			x: 8.587d
+			y: 7.6877d
 		}
 		{
 			description: [
@@ -1868,8 +1949,8 @@
 				item: "gtceu:indium_concentrate_bucket"
 				type: "item"
 			}]
-			x: 10.0d
-			y: -5.0d
+			x: 0.0d
+			y: 46.4013d
 		}
 		{
 			dependencies: [
@@ -1909,8 +1990,8 @@
 				item: "gtceu:tetrafluoroethylene_bucket"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -5.200000000000001d
+			x: 0.4255d
+			y: 9.8037d
 		}
 		{
 			description: ["&3Chlorine&r and &cMethane&r together in a &eChemical Reactor&r on &aProgram 1&r makes &5Chloroform&r"]
@@ -1946,8 +2027,8 @@
 				item: "gtceu:chloroform_bucket"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -5.200000000000001d
+			x: -2.0102d
+			y: 9.7094d
 		}
 		{
 			dependencies: ["43EBA1D735267C85"]
@@ -1988,8 +2069,8 @@
 				item: "gtceu:hydrofluoric_acid_bucket"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -6.200000000000001d
+			x: -3.5753d
+			y: 11.8323d
 		}
 		{
 			description: ["My favorite source of Fluorine Gas? Easy, &eElectrolyzing&r &2Fluorite Dust&r"]
@@ -2038,8 +2119,8 @@
 				item: "gtceu:fluorine_bucket"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -7.200000000000001d
+			x: -6.0686d
+			y: 12.1739d
 		}
 		{
 			dependencies: ["62E7B8817D22678F"]
@@ -2089,8 +2170,8 @@
 				item: "gtceu:epoxy_printed_circuit_board"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 0.7999999999999954d
+			x: 2.0217d
+			y: 13.6424d
 		}
 		{
 			dependencies: ["56B7CC072B8E9B48"]
@@ -2144,8 +2225,8 @@
 				item: "gtceu:epoxy_circuit_board"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 0.7999999999999954d
+			x: 3.3787d
+			y: 11.4114d
 		}
 		{
 			dependencies: [
@@ -2204,8 +2285,8 @@
 				item: "gtceu:epoxy_plate"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 0.7999999999999954d
+			x: -6.3077d
+			y: 14.6763d
 		}
 		{
 			dependencies: [
@@ -2249,8 +2330,8 @@
 				item: "gtceu:bisphenol_a_bucket"
 				type: "item"
 			}]
-			x: 0.5d
-			y: -0.20000000000000462d
+			x: -16.3461d
+			y: 9.2253d
 		}
 		{
 			dependencies: ["32E9B33C9D7981ED"]
@@ -2291,8 +2372,8 @@
 				item: "gtceu:epichlorohydrin_bucket"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -0.20000000000000462d
+			x: 4.6448d
+			y: 9.2011d
 		}
 		{
 			dependencies: ["47871110028991D3"]
@@ -2348,8 +2429,8 @@
 				item: "gtceu:glycerol_bucket"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -1.2000000000000046d
+			x: 3.7927d
+			y: 6.1548d
 		}
 		{
 			dependencies: ["329916B2CB8342B2"]
@@ -2426,8 +2507,8 @@
 					type: "custom"
 				}
 			]
-			x: 2.0d
-			y: -2.200000000000001d
+			x: 1.4087d
+			y: 5.3429d
 		}
 		{
 			dependencies: ["6AD5F24DA80B93A8"]
@@ -2468,8 +2549,8 @@
 				item: "gtceu:phenol_bucket"
 				type: "item"
 			}]
-			x: -0.5d
-			y: -0.7000000000000046d
+			x: -5.6108d
+			y: 3.7386d
 		}
 		{
 			dependencies: ["646918F4D700749B"]
@@ -2506,8 +2587,8 @@
 				item: "gtceu:acetone_bucket"
 				type: "item"
 			}]
-			x: -0.5d
-			y: 0.2999999999999954d
+			x: -13.5838d
+			y: 6.0766d
 		}
 		{
 			dependencies: [
@@ -2561,8 +2642,8 @@
 				item: "gtceu:diphenyl_isophthalate_bucket"
 				type: "item"
 			}]
-			x: -0.5d
-			y: -2.2000000000000046d
+			x: -11.2919d
+			y: 8.2869d
 		}
 		{
 			dependencies: [
@@ -2622,8 +2703,8 @@
 				item: "gtceu:diaminobenzidine_bucket"
 				type: "item"
 			}]
-			x: 0.7000000000000006d
-			y: -3.3000000000000043d
+			x: -0.2898d
+			y: 7.2898d
 		}
 		{
 			dependencies: ["2483DD28AC6E7EA2"]
@@ -2664,8 +2745,8 @@
 				item: "gtceu:dichlorobenzidine_bucket"
 				type: "item"
 			}]
-			x: 0.6999999999999997d
-			y: -4.400000000000002d
+			x: -1.15d
+			y: 4.9323d
 		}
 		{
 			dependencies: [
@@ -2709,8 +2790,8 @@
 				item: "gtceu:nitrochlorobenzene_bucket"
 				type: "item"
 			}]
-			x: 0.7000000000000002d
-			y: -5.600000000000001d
+			x: -2.7577d
+			y: 6.9632d
 		}
 		{
 			dependencies: ["39B625FA20EAA025"]
@@ -2747,8 +2828,8 @@
 				item: "gtceu:nitration_mixture_bucket"
 				type: "item"
 			}]
-			x: 0.6999999999999997d
-			y: -6.800000000000001d
+			x: -6.3503d
+			y: 8.8906d
 		}
 		{
 			description: [
@@ -2801,8 +2882,8 @@
 				item: "gtceu:nitric_acid_bucket"
 				type: "item"
 			}]
-			x: 0.6999999999999997d
-			y: -8.0d
+			x: -8.8987d
+			y: 9.0056d
 		}
 		{
 			description: [
@@ -2855,8 +2936,8 @@
 				item: "gtceu:chlorobenzene_bucket"
 				type: "item"
 			}]
-			x: -0.5d
-			y: -5.600000000000005d
+			x: -5.2095d
+			y: 6.6493d
 		}
 		{
 			dependencies: ["7E407CDBFD85E65F"]
@@ -2906,8 +2987,8 @@
 				item: "gtceu:dissolved_calcium_acetate_bucket"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 0.30000000000000004d
+			x: -10.7812d
+			y: 2.9716d
 		}
 		{
 			description: ["Running low on &0Benzene&r? A good source can come from &aDistilling&r &6Severely Steam Cracked Heavy Fuel&r"]
@@ -2956,8 +3037,8 @@
 				item: "gtceu:dichlorobenzene_bucket"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -0.7000000000000046d
+			x: -8.104d
+			y: 3.3039d
 		}
 		{
 			dependencies: ["6A86F8FB2B3A3425"]
@@ -3013,8 +3094,8 @@
 				item: "gtceu:soldering_alloy_dust"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -0.5d
+			x: -1.4421d
+			y: 14.3807d
 		}
 		{
 			description: [
@@ -3077,8 +3158,8 @@
 				title: "Antimony Dust"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -1.5d
+			x: -3.9123d
+			y: 15.2881d
 		}
 		{
 			dependencies: [
@@ -3144,8 +3225,8 @@
 				title: "Tungsten Dust"
 				type: "item"
 			}]
-			x: -9.7d
-			y: 0.8d
+			x: 0.1875d
+			y: 29.4584d
 		}
 		{
 			dependencies: [
@@ -3202,8 +3283,8 @@
 				item: "gtceu:tungstic_acid_dust"
 				type: "item"
 			}]
-			x: -9.700000000000001d
-			y: -2.0d
+			x: -2.2724d
+			y: 29.8482d
 		}
 		{
 			description: [
@@ -3272,8 +3353,8 @@
 				title: "Tungstate or Scheelite Dust"
 				type: "item"
 			}]
-			x: -9.7d
-			y: -3.5d
+			x: -4.6552d
+			y: 29.5745d
 		}
 		{
 			dependencies: ["19BA973FECFA3B06"]
@@ -3327,8 +3408,8 @@
 				item: "gtceu:quantum_eye"
 				type: "item"
 			}]
-			x: 6.5d
-			y: 4.0d
+			x: -9.5128d
+			y: 21.6464d
 		}
 		{
 			description: [
@@ -3381,8 +3462,8 @@
 				item: "gtceu:radon_bucket"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 4.0d
+			x: -6.7528d
+			y: 21.3313d
 		}
 		{
 			dependencies: ["64F77D41B2D057B8"]
@@ -3432,8 +3513,8 @@
 				item: "gtceu:ev_chemical_bath"
 				type: "item"
 			}]
-			x: -8.2d
-			y: -2.0d
+			x: -3.1614d
+			y: 27.3585d
 		}
 		{
 			dependencies: ["64F77D41B2D057B8"]
@@ -3483,8 +3564,8 @@
 				item: "gtceu:ev_electrolyzer"
 				type: "item"
 			}]
-			x: -11.3d
-			y: 0.7999999999999999d
+			x: 2.3517d
+			y: 28.1796d
 		}
 		{
 			dependencies: ["64F77D41B2D057B8"]
@@ -3535,8 +3616,8 @@
 				item: "gtceu:ev_mixer"
 				type: "item"
 			}]
-			x: -7.0d
-			y: -1.1999999999999993d
+			x: -0.6693d
+			y: 34.2631d
 		}
 		{
 			dependencies: ["175B7F7D98D45208"]
@@ -3588,8 +3669,8 @@
 				item: "gtceu:ev_energy_input_hatch"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 5.0d
+			x: -11.8599d
+			y: 31.487d
 		}
 		{
 			dependencies: ["4B16C957EADC183B"]
@@ -3641,8 +3722,8 @@
 				item: "gtceu:iv_energy_input_hatch"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 7.0d
+			x: -12.7673d
+			y: 35.2544d
 		}
 		{
 			dependencies: ["273DC98BA2785BD6"]
@@ -3694,8 +3775,8 @@
 				item: "gtceu:ev_energy_input_hatch_4a"
 				type: "item"
 			}]
-			x: 3.5d
-			y: 5.0d
+			x: -13.8632d
+			y: 30.084d
 		}
 		{
 			dependencies: ["2F1DF3971B75E63C"]
@@ -3747,8 +3828,8 @@
 				item: "gtceu:iv_energy_input_hatch_4a"
 				type: "item"
 			}]
-			x: 3.5d
-			y: 7.0d
+			x: -12.1497d
+			y: 37.7867d
 		}
 		{
 			dependencies: ["692C9BA71EA0F0A7"]
@@ -3806,8 +3887,8 @@
 				item: "gtceu:vanadium_gallium_dust"
 				type: "item"
 			}]
-			x: -4.800000000000001d
-			y: -1.1999999999999993d
+			x: -5.5453d
+			y: 33.1234d
 		}
 		{
 			dependencies: ["5F270891C953486E"]
@@ -3875,8 +3956,8 @@
 					type: "item"
 				}
 			]
-			x: 0.5d
-			y: 5.0d
+			x: -16.5991d
+			y: 31.817d
 		}
 		{
 			dependencies: ["64F77D41B2D057B8"]
@@ -3926,8 +4007,8 @@
 				item: "gtceu:ev_cutter"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 6.0d
+			x: -0.8579d
+			y: 36.5803d
 		}
 		{
 			dependencies: [
@@ -3980,8 +4061,8 @@
 				item: "gtceu:mpic_chip"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 5.0d
+			x: -8.6641d
+			y: 33.81d
 		}
 		{
 			dependencies: [
@@ -4035,8 +4116,8 @@
 				item: "gtceu:vanadium_gallium_ingot"
 				type: "item"
 			}]
-			x: -3.3999999999999995d
-			y: -0.19999999999999973d
+			x: -9.3d
+			y: 31.3835d
 		}
 		{
 			dependencies: [
@@ -4091,8 +4172,8 @@
 				item: "gtceu:hpic_wafer"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 7.0d
+			x: -1.1776d
+			y: 38.8596d
 		}
 		{
 			dependencies: ["64F77D41B2D057B8"]
@@ -4146,8 +4227,8 @@
 				item: "gtceu:iv_chemical_reactor"
 				type: "item"
 			}]
-			x: -0.5d
-			y: 7.0d
+			x: 7.9787d
+			y: 28.8523d
 		}
 		{
 			dependencies: ["0907800ED4793F96"]
@@ -4201,8 +4282,8 @@
 				item: "gtceu:iv_cutter"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 8.0d
+			x: 16.5991d
+			y: 21.137d
 		}
 		{
 			dependencies: ["2D3A6B7907FDB9B1"]
@@ -4256,8 +4337,8 @@
 				item: "gtceu:laminated_glass"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 8.0d
+			x: 16.4703d
+			y: 3.481d
 		}
 		{
 			dependencies: [
@@ -4297,8 +4378,8 @@
 				item: "gtceu:polyvinyl_butyral_bucket"
 				type: "item"
 			}]
-			x: -0.5d
-			y: 8.0d
+			x: 7.8246d
+			y: 0.6072d
 		}
 		{
 			dependencies: ["5C38DAD6BA43A7F1"]
@@ -4342,8 +4423,8 @@
 				item: "gtceu:polyvinyl_acetate_bucket"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 7.0d
+			x: 2.5242d
+			y: 0.0d
 		}
 		{
 			description: [
@@ -4385,8 +4466,8 @@
 				item: "gtceu:butyraldehyde_bucket"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 8.0d
+			x: 4.6414d
+			y: 1.8917d
 		}
 		{
 			dependencies: ["7E407CDBFD85E65F"]
@@ -4423,8 +4504,8 @@
 				item: "gtceu:vinyl_acetate_bucket"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 7.0d
+			x: -2.2551d
+			y: 0.3852d
 		}
 		{
 			description: ["Oxygen + Ethylene on &aProgram 2&r in your &eChemical Reactor&r is one way to make Acetic Acid"]
@@ -4460,8 +4541,8 @@
 				item: "gtceu:acetic_acid_bucket"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 7.0d
+			x: -6.9253d
+			y: 0.828d
 		}
 		{
 			dependencies: ["5F270891C953486E"]
@@ -4530,8 +4611,8 @@
 					type: "item"
 				}
 			]
-			x: -0.5d
-			y: 5.5d
+			x: -11.9703d
+			y: 23.6371d
 		}
 		{
 			dependencies: ["5F270891C953486E"]
@@ -4600,8 +4681,8 @@
 					type: "item"
 				}
 			]
-			x: -1.5d
-			y: 5.0d
+			x: -9.4611d
+			y: 24.1155d
 		}
 		{
 			dependencies: [
@@ -4654,8 +4735,8 @@
 				item: "gtceu:hpic_chip"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 7.0d
+			x: -0.3565d
+			y: 41.2263d
 		}
 		{
 			dependencies: ["13BAD4B9C69117C6"]
@@ -4709,8 +4790,8 @@
 				item: "gtceu:nano_cpu_wafer"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 2.0d
+			x: -7.1047d
+			y: 17.1684d
 		}
 		{
 			dependencies: ["56B7CC072B8E9B48"]
@@ -4766,8 +4847,8 @@
 				item: "gtceu:carbon_fibers"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 2.0d
+			x: -8.9263d
+			y: 15.3272d
 		}
 		{
 			dependencies: ["47871110028991D3"]
@@ -4823,8 +4904,8 @@
 				item: "gtceu:phthalic_acid_bucket"
 				type: "item"
 			}]
-			x: 0.7d
-			y: -2.2d
+			x: -0.1667d
+			y: 2.5323d
 		}
 		{
 			dependencies: ["64F77D41B2D057B8"]
@@ -4879,8 +4960,8 @@
 				item: "gtceu:iv_assembler"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -3.5d
+			x: 2.0953d
+			y: 25.6829d
 		}
 	]
 	title: "Metallurgy IV+"

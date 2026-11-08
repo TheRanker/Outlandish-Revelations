@@ -3,11 +3,235 @@
 	default_quest_shape: ""
 	filename: "to_start"
 	group: "671F319DF12B461D"
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "outlandish_revelations:textures/questbook/icons/to_start.png"
+		}
+	}
 	id: "0D451FD02314CA9F"
+	images: [
+		{
+			height: 2.3516d
+			image: "outlandish_revelations:textures/questbook/story/index_title.png"
+			rotation: 0.0d
+			width: 21.5d
+			x: 0.0d
+			y: -5.95d
+		}
+		{
+			height: 11.1979d
+			image: "outlandish_revelations:textures/questbook/story/index.png"
+			order: -2
+			rotation: 0.0d
+			width: 21.5d
+			x: 0.0d
+			y: 0.35d
+		}
+		{
+			click: "#5A34DFABE4AC44E0"
+			height: 0.9982d
+			hover: ["Get a Quest Scroll"]
+			image: "outlandish_revelations:textures/questbook/story/scroll.png"
+			rotation: 0.0d
+			width: 4.3d
+			x: -0.4d
+			y: 6.25d
+		}
+		{
+			height: 0.693d
+			image: "outlandish_revelations:textures/questbook/story/realm_overworld.png"
+			rotation: 0.0d
+			width: 4.65d
+			x: -6.75d
+			y: -3.8d
+		}
+		{
+			click: "#00084033E0FBBB12"
+			height: 0.693d
+			hover: [
+				"Garrick Ashford"
+				"The Forgotten Forge"
+			]
+			image: "outlandish_revelations:textures/questbook/story/the_forgotten_forge_link.png"
+			rotation: 0.0d
+			width: 4.65d
+			x: -6.75d
+			y: -2.72d
+		}
+		{
+			click: "#5777245DC2D00F09"
+			height: 0.693d
+			hover: [
+				"Professor Alden Voss"
+				"Voss Cottage"
+			]
+			image: "outlandish_revelations:textures/questbook/story/the_burden_of_knowledge_link.png"
+			rotation: 0.0d
+			width: 4.65d
+			x: -6.75d
+			y: -1.67d
+		}
+		{
+			click: "#67E6D9C471C97BBC"
+			height: 0.693d
+			hover: [
+				"Mara Coppersmith"
+				"Coppersmith Workshop"
+			]
+			image: "outlandish_revelations:textures/questbook/story/the_work_we_carry_forward_link.png"
+			rotation: 0.0d
+			width: 4.65d
+			x: -6.75d
+			y: -0.62d
+		}
+		{
+			click: "#30D4E63A2C37CC1F"
+			height: 0.693d
+			hover: [
+				"Captain Edda Thorne"
+				"Edda Watchpost"
+			]
+			image: "outlandish_revelations:textures/questbook/story/the_watch_we_keep_link.png"
+			rotation: 0.0d
+			width: 4.65d
+			x: -6.75d
+			y: 0.43d
+		}
+		{
+			click: "#237A375536A2F5E7"
+			height: 0.693d
+			hover: [
+				"Sister Ysra Vale"
+				"Ysra Sanctuary"
+			]
+			image: "outlandish_revelations:textures/questbook/story/what_we_give_freely_link.png"
+			rotation: 0.0d
+			width: 4.65d
+			x: -6.75d
+			y: 1.48d
+		}
+		{
+			height: 0.693d
+			image: "outlandish_revelations:textures/questbook/story/realm_nether.png"
+			rotation: 0.0d
+			width: 4.65d
+			x: -2.25d
+			y: -3.8d
+		}
+		{
+			click: "#2E6D2A9B87488962"
+			height: 0.693d
+			hover: [
+				"Darius Emberwright"
+				"Emberwright Outpost"
+			]
+			image: "outlandish_revelations:textures/questbook/story/embers_of_the_concord_link.png"
+			rotation: 0.0d
+			width: 4.65d
+			x: -2.25d
+			y: -2.72d
+		}
+		{
+			click: "#5E7A000000000001"
+			height: 0.693d
+			hover: [
+				"Seraphine Blackveil"
+				"Blackveil Hideout"
+			]
+			image: "outlandish_revelations:textures/questbook/story/those_left_behind_link.png"
+			rotation: 0.0d
+			width: 4.65d
+			x: -2.25d
+			y: -1.67d
+		}
+		{
+			click: "#1D28A103A316932A"
+			height: 0.693d
+			hover: [
+				"Malric Vane"
+				"Malric Archive"
+			]
+			image: "outlandish_revelations:textures/questbook/story/the_altered_record_link.png"
+			rotation: 0.0d
+			width: 4.65d
+			x: -2.25d
+			y: -0.62d
+		}
+		{
+			click: "#1889A52C408003B7"
+			height: 0.693d
+			hover: [
+				"Cassian Ashfall"
+				"Ashfall Study"
+			]
+			image: "outlandish_revelations:textures/questbook/story/a_blade_still_unfinished_link.png"
+			rotation: 0.0d
+			width: 4.65d
+			x: -2.25d
+			y: 0.43d
+		}
+		{
+			click: "#2474D4DE79696617"
+			height: 0.693d
+			hover: [
+				"Valen Cinderwatch"
+				"Valen Watchfire"
+			]
+			image: "outlandish_revelations:textures/questbook/story/the_last_watchfire_link.png"
+			rotation: 0.0d
+			width: 4.65d
+			x: -2.25d
+			y: 1.48d
+		}
+		{
+			height: 0.693d
+			image: "outlandish_revelations:textures/questbook/story/realm_end.png"
+			rotation: 0.0d
+			width: 4.65d
+			x: 2.25d
+			y: -3.8d
+		}
+		{
+			click: "#1E041F21FDE723FD"
+			height: 0.693d
+			hover: [
+				"A.U.R.A."
+				"Outer End Research Station"
+			]
+			image: "outlandish_revelations:textures/questbook/story/the_memory_beyond_the_void_link.png"
+			rotation: 0.0d
+			width: 4.65d
+			x: 2.25d
+			y: -2.72d
+		}
+		{
+			height: 0.693d
+			image: "outlandish_revelations:textures/questbook/story/realm_twilight.png"
+			rotation: 0.0d
+			width: 4.65d
+			x: 6.75d
+			y: -3.8d
+		}
+		{
+			click: "#03AF93DA658BF28E"
+			height: 0.693d
+			hover: [
+				"Elyndra, Keeper of the Veil"
+				"Elyndra Refuge"
+			]
+			image: "outlandish_revelations:textures/questbook/story/a_promise_freely_given_link.png"
+			rotation: 0.0d
+			width: 4.65d
+			x: 6.75d
+			y: -2.72d
+		}
+	]
 	order_index: 0
 	quest_links: [ ]
 	quests: [{
-		can_repeat: 1b
+		can_repeat: true
 		description: [
 			"Not every stranger is willing to speak freely. Some carry stories, others carry secrets, and a few are waiting for someone willing to help."
 			""
@@ -55,8 +279,8 @@
 			type: "checkmark"
 		}]
 		title: "A Traveler's Invitation"
-		x: 0.0d
-		y: 0.0d
+		x: 2.1d
+		y: 6.25d
 	}]
 	title: "A Traveler's Invitation"
 }

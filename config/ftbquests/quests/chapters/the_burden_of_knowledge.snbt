@@ -3,7 +3,67 @@
 	default_quest_shape: ""
 	filename: "the_burden_of_knowledge"
 	group: "671F319DF12B461D"
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "outlandish_revelations:textures/questbook/icons/the_burden_of_knowledge.png"
+		}
+	}
 	id: "5777245DC2D00F09"
+	images: [
+		{
+			height: 1.05625d
+			image: "outlandish_revelations:textures/questbook/story/the_burden_of_knowledge_title.png"
+			rotation: 0.0d
+			width: 13.0d
+			x: 0.0d
+			y: -4.05d
+		}
+		{
+			click: "#1D798D2B7B33018C"
+			height: 6.0d
+			hover: [
+				"Professor Alden Voss"
+				"Voss Cottage"
+				"Open the promise"
+			]
+			image: "outlandish_revelations:textures/questbook/story/the_burden_of_knowledge.png"
+			rotation: 0.0d
+			width: 9.6d
+			x: -2.02d
+			y: -0.42d
+		}
+		{
+			height: 6.0d
+			image: "outlandish_revelations:textures/questbook/story/rail.png"
+			order: -1
+			rotation: 0.0d
+			width: 3.2d
+			x: 4.62d
+			y: -0.42d
+		}
+		{
+			click: "#0D451FD02314CA9F"
+			height: 0.975d
+			hover: ["Return to the story index"]
+			image: "outlandish_revelations:textures/questbook/story/back.png"
+			rotation: 0.0d
+			width: 4.2d
+			x: 0.0d
+			y: 3.36d
+		}
+		{
+			dependency: "1D798D2B7B33018C"
+			height: 0.65d
+			image: "outlandish_revelations:textures/questbook/story/recorded.png"
+			order: 1
+			rotation: 0.0d
+			width: 4.4d
+			x: 0.2d
+			y: -2.97d
+		}
+	]
 	order_index: 2
 	quest_links: [ ]
 	quests: [{
@@ -36,7 +96,13 @@
 			weekday: 1
 			weekly: 0b
 		}
-		icon: "minecraft:book"
+		icon: {
+			Count: 1
+			id: "ftbquests:custom_icon"
+			tag: {
+				Icon: "outlandish_revelations:textures/questbook/icons/the_burden_of_knowledge.png"
+			}
+		}
 		id: "1D798D2B7B33018C"
 		tasks: [{
 			advancement: "outlandish:story/alden_voss_completed"
@@ -56,8 +122,8 @@
 			type: "advancement"
 		}]
 		title: "A Record That Endures"
-		x: 0.0d
-		y: 0.0d
+		x: 4.62d
+		y: -0.42d
 	}]
 	title: "The Burden of Knowledge"
 }

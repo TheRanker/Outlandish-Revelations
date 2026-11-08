@@ -3,16 +3,60 @@
 	default_quest_shape: ""
 	filename: "ev_chemistry"
 	group: "751F9FCD5495C55F"
-	icon: "gtceu:ev_chemical_reactor"
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "outlandish_revelations:textures/questbook/icons/ev_chemistry.png"
+		}
+	}
 	id: "2EDEFDBF36BCDB34"
-	images: [{
-		height: 3.0d
-		image: "minecraft:textures/item/book.png"
-		rotation: 0.0d
-		width: 3.0d
-		x: 7.0d
-		y: -10.0d
-	}]
+	images: [
+		{
+			height: 3.0d
+			image: "minecraft:textures/item/book.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 7.0d
+			y: -10.0d
+		}
+		{
+			height: 1.625d
+			image: "outlandish_revelations:textures/questbook/landmarks/ev_chemistry/header.png"
+			order: -1
+			rotation: 0.0d
+			width: 7.5d
+			x: 9.5d
+			y: -12.4107d
+		}
+		{
+			height: 1.3d
+			image: "outlandish_revelations:textures/questbook/landmarks/ev_chemistry/epoxy_feedstocks.png"
+			order: -1
+			rotation: 0.0d
+			width: 7.6d
+			x: 11.8743d
+			y: -6.9714d
+		}
+		{
+			height: 1.3d
+			image: "outlandish_revelations:textures/questbook/landmarks/ev_chemistry/epoxy_resin.png"
+			order: -1
+			rotation: 0.0d
+			width: 5.6d
+			x: 12.4714d
+			y: -3.8257d
+		}
+		{
+			height: 1.3d
+			image: "outlandish_revelations:textures/questbook/landmarks/ev_chemistry/shape_epoxy.png"
+			order: -1
+			rotation: 0.0d
+			width: 5.6d
+			x: 16.5171d
+			y: -5.3d
+		}
+	]
 	order_index: 3
 	quest_links: [ ]
 	quests: [

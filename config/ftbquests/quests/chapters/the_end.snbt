@@ -3,16 +3,60 @@
 	default_quest_shape: ""
 	filename: "the_end"
 	group: "610F012654EDDFE3"
-	icon: "minecraft:end_stone"
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "outlandish_revelations:textures/questbook/icons/the_end.png"
+		}
+	}
 	id: "371135369E02E255"
-	images: [{
-		height: 3.0d
-		image: "minecraft:textures/item/ender_eye.png"
-		rotation: 0.0d
-		width: 3.0d
-		x: 9.0d
-		y: -9.5d
-	}]
+	images: [
+		{
+			height: 3.0d
+			image: "minecraft:textures/item/ender_eye.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 9.0d
+			y: -9.5d
+		}
+		{
+			height: 1.625d
+			image: "outlandish_revelations:textures/questbook/landmarks/the_end/header.png"
+			order: -1
+			rotation: 0.0d
+			width: 5.5d
+			x: 9.5d
+			y: -11.9107d
+		}
+		{
+			height: 1.3d
+			image: "outlandish_revelations:textures/questbook/landmarks/the_end/wither_and_end_access.png"
+			order: -1
+			rotation: 0.0d
+			width: 9.6d
+			x: 13.7314d
+			y: -7.0d
+		}
+		{
+			height: 1.3d
+			image: "outlandish_revelations:textures/questbook/landmarks/the_end/ender_dragon.png"
+			order: -1
+			rotation: 0.0d
+			width: 6.0d
+			x: 12.1886d
+			y: -4.0d
+		}
+		{
+			height: 1.3d
+			image: "outlandish_revelations:textures/questbook/landmarks/the_end/outer_island_rewards.png"
+			order: -1
+			rotation: 0.0d
+			width: 9.2d
+			x: 14.56d
+			y: -2.5d
+		}
+	]
 	order_index: 1
 	quest_links: [ ]
 	quests: [

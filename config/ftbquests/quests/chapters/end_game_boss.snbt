@@ -3,15 +3,33 @@
 	default_quest_shape: ""
 	filename: "end_game_boss"
 	group: "003D792941648271"
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "outlandish_revelations:textures/questbook/icons/end_game_boss.png"
+		}
+	}
 	id: "34896ABC71F259BA"
-	images: [{
-		height: 3.0d
-		image: "minecraft:textures/item/blaze_rod.png"
-		rotation: 0.0d
-		width: 3.0d
-		x: 0.0d
-		y: -5.0d
-	}]
+	images: [
+		{
+			height: 3.0d
+			image: "minecraft:textures/item/blaze_rod.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			height: 1.625d
+			image: "outlandish_revelations:textures/questbook/landmarks/end_game_boss/header.png"
+			order: -1
+			rotation: 0.0d
+			width: 11.5d
+			x: 0.0d
+			y: -7.4107d
+		}
+	]
 	order_index: 0
 	quest_links: [ ]
 	quests: [{

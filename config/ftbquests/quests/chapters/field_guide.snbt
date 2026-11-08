@@ -3,8 +3,79 @@
 	default_quest_shape: ""
 	filename: "field_guide"
 	group: "290BD65C3C52540C"
-	icon: "minecraft:compass"
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "outlandish_revelations:textures/questbook/icons/field_guide.png"
+		}
+	}
 	id: "6677BACD52A30B61"
+	images: [
+		{
+			height: 1.625d
+			image: "outlandish_revelations:textures/questbook/landmarks/field_guide/header.png"
+			order: -1
+			rotation: 0.0d
+			width: 10.5d
+			x: 6.0d
+			y: -8.0d
+		}
+		{
+			height: 1.3d
+			image: "outlandish_revelations:textures/questbook/landmarks/field_guide/player_handbook.png"
+			order: -1
+			rotation: 0.0d
+			width: 7.2d
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			height: 1.3d
+			image: "outlandish_revelations:textures/questbook/landmarks/field_guide/explore_the_world.png"
+			order: -1
+			rotation: 0.0d
+			width: 8.0d
+			x: 6.0d
+			y: -6.5d
+		}
+		{
+			height: 1.3d
+			image: "outlandish_revelations:textures/questbook/landmarks/field_guide/boss_encounters.png"
+			order: -1
+			rotation: 0.0d
+			width: 7.2d
+			x: 11.21d
+			y: 1.95d
+		}
+		{
+			height: 1.3d
+			image: "outlandish_revelations:textures/questbook/landmarks/field_guide/horses_and_stables.png"
+			order: -1
+			rotation: 0.0d
+			width: 8.4d
+			x: 11.4957d
+			y: 4.55d
+		}
+		{
+			height: 1.3d
+			image: "outlandish_revelations:textures/questbook/landmarks/field_guide/mining_and_veins.png"
+			order: -1
+			rotation: 0.0d
+			width: 7.6d
+			x: 10.6d
+			y: -1.3029d
+		}
+		{
+			height: 1.3d
+			image: "outlandish_revelations:textures/questbook/landmarks/field_guide/locks_and_loot.png"
+			order: -1
+			rotation: 0.0d
+			width: 6.8d
+			x: 18.66d
+			y: 0.0d
+		}
+	]
 	order_index: 0
 	quest_links: [ ]
 	quests: [

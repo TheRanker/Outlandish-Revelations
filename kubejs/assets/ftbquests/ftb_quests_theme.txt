@@ -1,0 +1,20 @@
+[*]
+background:                          outlandish_revelations:textures/questbook/theme/background.png; tile_size=96
+modpack_icon:                        outlandish_revelations:textures/questbook/icons/welcome_to_interactions.png
+text_color:                          #EBF7E7
+hover_text_color:                    #C4FBD9
+disabled_text_color:                 #A9BFBD
+selected_chapter_highlight_1:         #9043AC97
+selected_chapter_highlight_2:         #5043AC97
+widget_border:                       #264957
+widget_background:                   #B01B3645
+context_menu:                        hollow_rectangle:{{widget_border}} + #F20F2432; padding=1
+quest_view_border:                   #5FAE98
+quest_view_title:                    #DCFAE4
+quest_completed_color:               #D67EDFB2
+quest_started_color:                 #D0F3CE96
+quest_locked_color:                  #FF8F9DAD
+dependency_line_completed_color:     #86DFC1
+dependency_line_uncompleted_color:   #607A99
+dependency_line_requires_color:      #F7D89B
+dependency_line_required_for_color:  #A9F9D3

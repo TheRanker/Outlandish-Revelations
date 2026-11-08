@@ -3,7 +3,67 @@
 	default_quest_shape: ""
 	filename: "a_promise_freely_given"
 	group: "671F319DF12B461D"
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "outlandish_revelations:textures/questbook/icons/a_promise_freely_given.png"
+		}
+	}
 	id: "03AF93DA658BF28E"
+	images: [
+		{
+			height: 1.05625d
+			image: "outlandish_revelations:textures/questbook/story/a_promise_freely_given_title.png"
+			rotation: 0.0d
+			width: 13.0d
+			x: 0.0d
+			y: -4.05d
+		}
+		{
+			click: "#21059C13EC59302D"
+			height: 6.0d
+			hover: [
+				"Elyndra, Keeper of the Veil"
+				"Elyndra Refuge"
+				"Open the promise"
+			]
+			image: "outlandish_revelations:textures/questbook/story/a_promise_freely_given.png"
+			rotation: 0.0d
+			width: 9.6d
+			x: -2.02d
+			y: -0.42d
+		}
+		{
+			height: 6.0d
+			image: "outlandish_revelations:textures/questbook/story/rail.png"
+			order: -1
+			rotation: 0.0d
+			width: 3.2d
+			x: 4.62d
+			y: -0.42d
+		}
+		{
+			click: "#0D451FD02314CA9F"
+			height: 0.975d
+			hover: ["Return to the story index"]
+			image: "outlandish_revelations:textures/questbook/story/back.png"
+			rotation: 0.0d
+			width: 4.2d
+			x: 0.0d
+			y: 3.36d
+		}
+		{
+			dependency: "21059C13EC59302D"
+			height: 0.65d
+			image: "outlandish_revelations:textures/questbook/story/recorded.png"
+			order: 1
+			rotation: 0.0d
+			width: 4.4d
+			x: 0.2d
+			y: -2.97d
+		}
+	]
 	order_index: 12
 	quest_links: [ ]
 	quests: [{
@@ -37,7 +97,13 @@
 			weekday: 1
 			weekly: 0b
 		}
-		icon: "minecraft:azalea"
+		icon: {
+			Count: 1
+			id: "ftbquests:custom_icon"
+			tag: {
+				Icon: "outlandish_revelations:textures/questbook/icons/a_promise_freely_given.png"
+			}
+		}
 		id: "21059C13EC59302D"
 		tasks: [{
 			advancement: "outlandish:story/elyndra_completed"
@@ -57,8 +123,8 @@
 			type: "advancement"
 		}]
 		title: "The Choice Remains Yours"
-		x: 0.0d
-		y: 0.0d
+		x: 4.62d
+		y: -0.42d
 	}]
 	title: "A Promise Freely Given"
 }

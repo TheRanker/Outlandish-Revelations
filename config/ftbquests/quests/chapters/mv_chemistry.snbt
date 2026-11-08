@@ -3,16 +3,60 @@
 	default_quest_shape: ""
 	filename: "mv_chemistry"
 	group: "751F9FCD5495C55F"
-	icon: "gtceu:polyethylene_plate"
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "outlandish_revelations:textures/questbook/icons/mv_chemistry.png"
+		}
+	}
 	id: "53EFEF5A7973E522"
-	images: [{
-		height: 3.0d
-		image: "minecraft:textures/item/book.png"
-		rotation: 0.0d
-		width: 3.0d
-		x: -0.5d
-		y: -9.5d
-	}]
+	images: [
+		{
+			height: 3.0d
+			image: "minecraft:textures/item/book.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: -0.5d
+			y: -9.5d
+		}
+		{
+			height: 1.625d
+			image: "outlandish_revelations:textures/questbook/landmarks/mv_chemistry/header.png"
+			order: -1
+			rotation: 0.0d
+			width: 7.5d
+			x: -2.25d
+			y: -11.9107d
+		}
+		{
+			height: 1.3d
+			image: "outlandish_revelations:textures/questbook/landmarks/mv_chemistry/polyethylene_line.png"
+			order: -1
+			rotation: 0.0d
+			width: 8.0d
+			x: -12.0457d
+			y: -3.0d
+		}
+		{
+			height: 1.3d
+			image: "outlandish_revelations:textures/questbook/landmarks/mv_chemistry/ethylene_feedstock.png"
+			order: -1
+			rotation: 0.0d
+			width: 8.4d
+			x: -2.0d
+			y: 2.6743d
+		}
+		{
+			height: 1.3d
+			image: "outlandish_revelations:textures/questbook/landmarks/mv_chemistry/pvc_production.png"
+			order: -1
+			rotation: 0.0d
+			width: 6.8d
+			x: 7.0314d
+			y: -3.0d
+		}
+	]
 	order_index: 1
 	quest_links: [ ]
 	quests: [

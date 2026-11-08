@@ -3,8 +3,70 @@
 	default_quest_shape: ""
 	filename: "colony_life"
 	group: "290BD65C3C52540C"
-	icon: "minecraft:bell"
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "outlandish_revelations:textures/questbook/icons/colony_life.png"
+		}
+	}
 	id: "3A2E82FDB5E307FC"
+	images: [
+		{
+			height: 1.625d
+			image: "outlandish_revelations:textures/questbook/landmarks/colony_life/header.png"
+			order: -1
+			rotation: 0.0d
+			width: 10.0d
+			x: 7.5d
+			y: -10.0d
+		}
+		{
+			height: 1.3d
+			image: "outlandish_revelations:textures/questbook/landmarks/colony_life/camp_and_town_hall.png"
+			order: -1
+			rotation: 0.0d
+			width: 8.4d
+			x: 11.4957d
+			y: -3.25d
+		}
+		{
+			height: 1.3d
+			image: "outlandish_revelations:textures/questbook/landmarks/colony_life/homes_and_citizens.png"
+			order: -1
+			rotation: 0.0d
+			width: 8.4d
+			x: 10.8757d
+			y: 0.2429d
+		}
+		{
+			height: 1.3d
+			image: "outlandish_revelations:textures/questbook/landmarks/colony_life/builder_and_supplies.png"
+			order: -1
+			rotation: 0.0d
+			width: 9.2d
+			x: 15.2329d
+			y: -1.3d
+		}
+		{
+			height: 1.3d
+			image: "outlandish_revelations:textures/questbook/landmarks/colony_life/storehouse_and_research.png"
+			order: -1
+			rotation: 0.0d
+			width: 10.4d
+			x: 1.9471d
+			y: 1.95d
+		}
+		{
+			height: 1.3d
+			image: "outlandish_revelations:textures/questbook/landmarks/colony_life/workers_and_logistics.png"
+			order: -1
+			rotation: 0.0d
+			width: 9.6d
+			x: 12.01d
+			y: 5.2d
+		}
+	]
 	order_index: 9
 	quest_links: [ ]
 	quests: [

@@ -3,8 +3,61 @@
 	default_quest_shape: ""
 	filename: "portable_storage"
 	group: "290BD65C3C52540C"
-	icon: "minecraft:chest"
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "outlandish_revelations:textures/questbook/icons/portable_storage.png"
+		}
+	}
 	id: "65612656BD39E687"
+	images: [
+		{
+			height: 1.625d
+			image: "outlandish_revelations:textures/questbook/landmarks/portable_storage/header.png"
+			order: -1
+			rotation: 0.0d
+			width: 14.5d
+			x: 9.0d
+			y: -5.5d
+		}
+		{
+			height: 1.3d
+			image: "outlandish_revelations:textures/questbook/landmarks/portable_storage/choose_your_storage.png"
+			order: -1
+			rotation: 0.0d
+			width: 8.8d
+			x: 3.8314d
+			y: 0.0d
+		}
+		{
+			height: 1.3d
+			image: "outlandish_revelations:textures/questbook/landmarks/portable_storage/backpack_upgrades.png"
+			order: -1
+			rotation: 0.0d
+			width: 8.0d
+			x: -0.5571d
+			y: -3.9d
+		}
+		{
+			height: 1.3d
+			image: "outlandish_revelations:textures/questbook/landmarks/portable_storage/dank_upgrades.png"
+			order: -1
+			rotation: 0.0d
+			width: 6.4d
+			x: 3.9d
+			y: 5.2029d
+		}
+		{
+			height: 1.3d
+			image: "outlandish_revelations:textures/questbook/landmarks/portable_storage/travel_upgrades.png"
+			order: -1
+			rotation: 0.0d
+			width: 7.2d
+			x: 4.0d
+			y: -2.5d
+		}
+	]
 	order_index: 1
 	quest_links: [ ]
 	quests: [

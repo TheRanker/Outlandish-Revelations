@@ -3,16 +3,77 @@
 	default_quest_shape: ""
 	filename: "high_voltage"
 	group: "0BA74938AD86532B"
-	icon: "gtceu:advanced_integrated_circuit"
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "outlandish_revelations:textures/questbook/icons/high_voltage.png"
+		}
+	}
 	id: "37A5A4A81CCB67E5"
-	images: [{
-		height: 3.0d
-		image: "minecraft:textures/item/book.png"
-		rotation: 0.0d
-		width: 3.0d
-		x: 0.0d
-		y: -5.0d
-	}]
+	images: [
+		{
+			height: 3.0d
+			image: "minecraft:textures/item/book.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: -5.1643d
+			y: -2.9d
+		}
+		{
+			height: 1.625d
+			image: "outlandish_revelations:textures/questbook/landmarks/high_voltage/header.png"
+			order: -1
+			rotation: 0.0d
+			width: 8.0d
+			x: 0.0d
+			y: -2.9d
+		}
+		{
+			click: "#0115271C840CD387"
+			height: 1.3d
+			hover: ["HV Power"]
+			image: "outlandish_revelations:textures/questbook/landmarks/high_voltage/hv_power.png"
+			order: -1
+			rotation: 0.0d
+			width: 4.4d
+			x: 9.5489d
+			y: 1.0341d
+		}
+		{
+			click: "#70C952B8FF3418F6"
+			height: 1.3d
+			hover: ["Integrated Circuits"]
+			image: "outlandish_revelations:textures/questbook/landmarks/high_voltage/integrated_circuits.png"
+			order: -1
+			rotation: 0.0d
+			width: 8.8d
+			x: -0.6883d
+			y: 0.6326d
+		}
+		{
+			click: "#5FAA73C52082DC48"
+			height: 1.3d
+			hover: ["Plastic Circuit Boards"]
+			image: "outlandish_revelations:textures/questbook/landmarks/high_voltage/plastic_circuit_boards.png"
+			order: -1
+			rotation: 0.0d
+			width: 10.0d
+			x: -0.8671d
+			y: 19.9768d
+		}
+		{
+			click: "#19DB4970B3D11C1B"
+			height: 1.3d
+			hover: ["Processors"]
+			image: "outlandish_revelations:textures/questbook/landmarks/high_voltage/processors.png"
+			order: -1
+			rotation: 0.0d
+			width: 5.2d
+			x: -9.5418d
+			y: 10.14d
+		}
+	]
 	order_index: 2
 	quest_links: [ ]
 	quests: [
@@ -69,8 +130,8 @@
 				item: "gtceu:advanced_integrated_circuit"
 				type: "item"
 			}]
-			x: -7.5d
-			y: 0.0d
+			x: 3.9146d
+			y: 0.9326d
 		}
 		{
 			dependencies: [
@@ -129,8 +190,8 @@
 				item: "gtceu:nand_chip"
 				type: "item"
 			}]
-			x: -3.0d
-			y: -2.0d
+			x: 5.0151d
+			y: 15.2731d
 		}
 		{
 			dependencies: [
@@ -190,8 +251,8 @@
 				item: "gtceu:microchip_processor"
 				type: "item"
 			}]
-			x: -0.5d
-			y: -1.5d
+			x: -2.1183d
+			y: 13.5838d
 		}
 		{
 			dependencies: [
@@ -249,8 +310,8 @@
 				item: "gtceu:micro_processor"
 				type: "item"
 			}]
-			x: 5.0d
-			y: -1.0d
+			x: -4.4332d
+			y: 11.6829d
 		}
 		{
 			dependencies: [
@@ -310,8 +371,8 @@
 				item: "gtceu:micro_processor_assembly"
 				type: "item"
 			}]
-			x: 6.5d
-			y: 0.0d
+			x: -6.172d
+			y: 11.1699d
 		}
 		{
 			dependencies: [
@@ -368,8 +429,8 @@
 				item: "gtceu:micro_processor_computer"
 				type: "item"
 			}]
-			x: 12.75d
-			y: 0.0d
+			x: -9.3046d
+			y: 15.0949d
 		}
 		{
 			dependencies: ["70C952B8FF3418F6"]
@@ -423,8 +484,8 @@
 				item: "gtceu:mv_circuit_assembler"
 				type: "item"
 			}]
-			x: -3.5d
-			y: 0.0d
+			x: -1.8745d
+			y: 6.1571d
 		}
 		{
 			dependencies: [
@@ -513,8 +574,8 @@
 					type: "custom"
 				}
 			]
-			x: 0.5d
-			y: 4.5d
+			x: -4.2389d
+			y: 4.7242d
 		}
 		{
 			dependencies: ["681110DE6B4E6ED8"]
@@ -555,8 +616,8 @@
 				item: "gtceu:plascrete"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 6.5d
+			x: -5.6407d
+			y: 3.5477d
 		}
 		{
 			description: ["Cleanroom Glass can be used for the walls in place of the Plascrete, just not the edges or floor"]
@@ -593,8 +654,8 @@
 				item: "gtceu:cleanroom_glass"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 5.5d
+			x: -4.1837d
+			y: 2.239d
 		}
 		{
 			dependencies: [
@@ -650,8 +711,8 @@
 				item: "gtceu:stainless_steel_ingot"
 				type: "item"
 			}]
-			x: -7.5d
-			y: -3.95d
+			x: 3.5236d
+			y: 3.4028d
 		}
 		{
 			dependencies: ["4E5FE40373675AED"]
@@ -710,8 +771,8 @@
 				item: "gtceu:mv_energy_input_hatch"
 				type: "item"
 			}]
-			x: -9.0d
-			y: -4.0d
+			x: 4.2424d
+			y: 6.1364d
 		}
 		{
 			dependencies: ["5B92DA55541B168B"]
@@ -748,8 +809,8 @@
 				item: "gtceu:ulpic_chip"
 				type: "item"
 			}]
-			x: -10.0d
-			y: -4.0d
+			x: 6.5584d
+			y: 7.0886d
 		}
 		{
 			dependencies: ["20A0A574F51EEF74"]
@@ -799,8 +860,8 @@
 				item: "gtceu:ulpic_wafer"
 				type: "item"
 			}]
-			x: -11.0d
-			y: -4.0d
+			x: 6.448d
+			y: 8.9137d
 		}
 		{
 			description: [
@@ -843,8 +904,8 @@
 				item: "gtceu:sapphire_lens"
 				type: "item"
 			}]
-			x: -11.0d
-			y: -3.0d
+			x: 4.8748d
+			y: 7.8418d
 		}
 		{
 			dependencies: [
@@ -901,8 +962,8 @@
 				item: "gtceu:plastic_printed_circuit_board"
 				type: "item"
 			}]
-			x: 4.5d
-			y: -5.5d
+			x: -0.8671d
+			y: 18.8025d
 		}
 		{
 			dependencies: ["54BEC01D84237DBC"]
@@ -960,8 +1021,8 @@
 				item: "gtceu:iron_iii_chloride_bucket"
 				type: "item"
 			}]
-			x: 5.5d
-			y: -7.0d
+			x: -0.7164d
+			y: 14.7729d
 		}
 		{
 			description: [
@@ -1018,8 +1079,8 @@
 				item: "gtceu:capacitor"
 				type: "item"
 			}]
-			x: 7.5d
-			y: -1.0d
+			x: -5.8811d
+			y: 13.6574d
 		}
 		{
 			dependencies: ["12F24C9C6D2AF887"]
@@ -1076,8 +1137,8 @@
 				item: "gtceu:inductor"
 				type: "item"
 			}]
-			x: 5.5d
-			y: 1.0d
+			x: -7.3876d
+			y: 14.6073d
 		}
 		{
 			description: [
@@ -1166,8 +1227,8 @@
 				}
 			]
 			title: "CPU Chip"
-			x: 3.2d
-			y: -1.7999999999999998d
+			x: -2.9601d
+			y: 10.9767d
 		}
 		{
 			dependencies: ["0B54990168F9B136"]
@@ -1204,8 +1265,8 @@
 				item: "gtceu:simple_soc"
 				type: "item"
 			}]
-			x: -1.0d
-			y: -3.0d
+			x: 4.6483d
+			y: 12.7225d
 		}
 		{
 			dependencies: ["16154B77454631F4"]
@@ -1261,8 +1322,8 @@
 				item: "gtceu:simple_soc_wafer"
 				type: "item"
 			}]
-			x: -0.5d
-			y: -5.0d
+			x: 4.247d
+			y: 10.2465d
 		}
 		{
 			dependencies: ["62161044F3F3AB87"]
@@ -1299,8 +1360,8 @@
 				item: "gtceu:cyan_glass_lens"
 				type: "item"
 			}]
-			x: -2.5d
-			y: -3.5d
+			x: 3.0624d
+			y: 7.4888d
 		}
 		{
 			dependencies: ["78DC12C2EB504E56"]
@@ -1337,8 +1398,8 @@
 				item: "gtceu:glass_lens"
 				type: "item"
 			}]
-			x: -3.5d
-			y: -5.5d
+			x: 0.1794d
+			y: 6.7424d
 		}
 		{
 			description: [
@@ -1396,8 +1457,8 @@
 				item: "gtceu:glass_plate"
 				type: "item"
 			}]
-			x: -3.5d
-			y: -7.0d
+			x: 1.0925d
+			y: 8.3593d
 		}
 		{
 			dependencies: ["503E5B82A6C89278"]
@@ -1453,8 +1514,8 @@
 				item: "gtceu:plastic_circuit_board"
 				type: "item"
 			}]
-			x: 3.5d
-			y: -7.0d
+			x: 2.5404d
+			y: 15.4698d
 		}
 		{
 			dependencies: ["68526BA198AADD8E"]
@@ -1508,8 +1569,8 @@
 				item: "gtceu:blue_alloy_dust"
 				type: "item"
 			}]
-			x: 11.5d
-			y: -1.5d
+			x: -6.3814d
+			y: 17.7422d
 		}
 		{
 			description: ["If you cannot find &belectrotine&r in the Nether, you can create it by mixing electrum and redstone in a &eMixer&r on &aProgram 1&r"]
@@ -1559,8 +1620,8 @@
 				item: "gtceu:electrotine_dust"
 				type: "item"
 			}]
-			x: 11.5d
-			y: -3.0d
+			x: -8.211d
+			y: 17.8629d
 		}
 		{
 			dependencies: ["6A243EDB2A99C76D"]
@@ -1597,8 +1658,8 @@
 				item: "gtceu:nickel_zinc_ferrite_ingot"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 1.0d
+			x: -5.6545d
+			y: 15.5089d
 		}
 		{
 			description: [
@@ -1638,8 +1699,8 @@
 				item: "gtceu:ferrite_mixture_dust"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 1.0d
+			x: -3.8398d
+			y: 16.338d
 		}
 		{
 			dependencies: ["70C952B8FF3418F6"]
@@ -1719,8 +1780,8 @@
 				title: "Any HV Energy Converter"
 				type: "item"
 			}]
-			x: -9.5d
-			y: 1.0d
+			x: 5.0577d
+			y: 4.4356d
 		}
 		{
 			description: [
@@ -1776,8 +1837,8 @@
 				item: "gtceu:filter_casing"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 3.0d
+			x: -6.0019d
+			y: 5.5119d
 		}
 		{
 			dependencies: ["0115271C840CD387"]
@@ -1828,8 +1889,8 @@
 				item: "gtceu:steel_large_boiler"
 				type: "item"
 			}]
-			x: -11.5d
-			y: -1.0d
+			x: 9.3046d
+			y: 2.4621d
 		}
 		{
 			dependencies: ["70C952B8FF3418F6"]
@@ -1881,8 +1942,8 @@
 				item: "gtceu:hv_steam_turbine"
 				type: "item"
 			}]
-			x: -9.5d
-			y: -1.0d
+			x: 7.046d
+			y: 1.6341d
 		}
 		{
 			description: [
@@ -1972,8 +2033,8 @@
 					type: "item"
 				}
 			]
-			x: -5.5d
-			y: -5.5d
+			x: 2.6254d
+			y: 9.3828d
 		}
 		{
 			dependencies: ["1957A39483E15508"]
@@ -2027,8 +2088,8 @@
 				item: "gtceu:polyvinyl_chloride_bucket"
 				type: "item"
 			}]
-			x: 3.5d
-			y: -8.0d
+			x: 2.1976d
+			y: 13.6896d
 		}
 		{
 			dependencies: ["6A2D7380E340B77D"]
@@ -2082,8 +2143,8 @@
 				item: "gtceu:vinyl_chloride_bucket"
 				type: "item"
 			}]
-			x: 3.5d
-			y: -9.0d
+			x: 0.782d
+			y: 15.7205d
 		}
 		{
 			description: [
@@ -2140,8 +2201,8 @@
 				item: "gtceu:chlorine_bucket"
 				type: "item"
 			}]
-			x: 5.0d
-			y: -9.0d
+			x: 1.3236d
+			y: 12.0808d
 		}
 		{
 			dependencies: [
@@ -2195,8 +2256,8 @@
 				item: "gtceu:hv_chemical_bath"
 				type: "item"
 			}]
-			x: -4.5d
-			y: -3.5d
+			x: 0.9407d
+			y: 5.0531d
 		}
 		{
 			dependencies: [
@@ -2249,8 +2310,8 @@
 				item: "gtceu:hydrochloric_acid_bucket"
 				type: "item"
 			}]
-			x: 5.5d
-			y: -8.0d
+			x: -1.0511d
+			y: 11.9025d
 		}
 		{
 			description: [
@@ -2306,8 +2367,8 @@
 				item: "gtceu:hydrogen_bucket"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -9.0d
+			x: 0.161d
+			y: 13.2353d
 		}
 		{
 			description: [
@@ -2348,8 +2409,8 @@
 				item: "gtceu:concrete_bucket"
 				type: "item"
 			}]
-			x: -0.5d
-			y: 5.5d
+			x: -7.4175d
+			y: 4.3297d
 		}
 		{
 			description: [
@@ -2407,8 +2468,8 @@
 				item: "gtceu:stainless_steel_dust"
 				type: "item"
 			}]
-			x: -7.5d
-			y: -5.5d
+			x: 2.8014d
+			y: 5.0623d
 		}
 		{
 			dependencies: [
@@ -2469,8 +2530,8 @@
 				item: "gtceu:prospector.hv"
 				type: "item"
 			}]
-			x: -7.5d
-			y: 3.5d
+			x: 8.5767d
+			y: 5.3682d
 		}
 		{
 			dependencies: ["70C952B8FF3418F6"]
@@ -2522,8 +2583,8 @@
 				item: "gtceu:hv_emitter"
 				type: "item"
 			}]
-			x: -6.5d
-			y: 2.5d
+			x: 7.6072d
+			y: 3.366d
 		}
 		{
 			dependencies: ["70C952B8FF3418F6"]
@@ -2599,8 +2660,8 @@
 					type: "item"
 				}
 			]
-			x: -8.5d
-			y: 2.5d
+			x: 6.7942d
+			y: 5.0106d
 		}
 		{
 			dependencies: ["70C952B8FF3418F6"]
@@ -2695,8 +2756,8 @@
 				}
 			]
 			title: "Ore Processing Upgrade"
-			x: -7.5d
-			y: 2.5d
+			x: 6.1134d
+			y: 0.0d
 		}
 	]
 	title: "Metallurgy HV+"

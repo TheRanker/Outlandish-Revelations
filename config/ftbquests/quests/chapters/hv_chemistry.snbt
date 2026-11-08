@@ -3,16 +3,60 @@
 	default_quest_shape: ""
 	filename: "hv_chemistry"
 	group: "751F9FCD5495C55F"
-	icon: "gtceu:polytetrafluoroethylene_foil"
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "outlandish_revelations:textures/questbook/icons/hv_chemistry.png"
+		}
+	}
 	id: "7113D04D005A1EE0"
-	images: [{
-		height: 3.0d
-		image: "minecraft:textures/item/book.png"
-		rotation: 0.0d
-		width: 3.0d
-		x: 9.0d
-		y: -12.5d
-	}]
+	images: [
+		{
+			height: 3.0d
+			image: "minecraft:textures/item/book.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 9.0d
+			y: -12.5d
+		}
+		{
+			height: 1.625d
+			image: "outlandish_revelations:textures/questbook/landmarks/hv_chemistry/header.png"
+			order: -1
+			rotation: 0.0d
+			width: 7.5d
+			x: 8.5d
+			y: -14.9107d
+		}
+		{
+			height: 1.3d
+			image: "outlandish_revelations:textures/questbook/landmarks/hv_chemistry/fluorine_feedstocks.png"
+			order: -1
+			rotation: 0.0d
+			width: 8.8d
+			x: 0.1114d
+			y: -8.0d
+		}
+		{
+			height: 1.3d
+			image: "outlandish_revelations:textures/questbook/landmarks/hv_chemistry/rubber_production.png"
+			order: -1
+			rotation: 0.0d
+			width: 8.0d
+			x: 14.5457d
+			y: -6.8d
+		}
+		{
+			height: 1.3d
+			image: "outlandish_revelations:textures/questbook/landmarks/hv_chemistry/ptfe_for_machines.png"
+			order: -1
+			rotation: 0.0d
+			width: 8.0d
+			x: 13.0457d
+			y: -4.5d
+		}
+	]
 	order_index: 2
 	quest_links: [ ]
 	quests: [

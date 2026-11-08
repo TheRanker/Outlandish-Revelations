@@ -1,0 +1,16 @@
+{
+  "name": "A promise alongside your progress",
+  "category": "patchouli:chapter_22",
+  "icon": "minecraft:writable_book",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The Ranker researched ways to capture enemy abilities and bind them to equipment. His sword, $(bold)Tears for Fears$(), trapped a Warden's call. People across the Brass Concord helped his experiments; he promised help in return. Twelve were still waiting when he died pursuing the Hovering Inferno's power."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Restore those twelve homes, hear the witnesses and retrace the work behind his strength. Your Create and GTCEu Stone/Steam, LV, MV, HV, EV and IV journey continues alongside these stories. Team dimension encounters still govern travel. The research and lost-ring entries explain the lore; they introduce no additional crafting requirements."
+    }
+  ]
+}

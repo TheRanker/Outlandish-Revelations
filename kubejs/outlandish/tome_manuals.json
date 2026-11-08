@@ -36,6 +36,13 @@
     "bookId": null
   },
   {
+    "group": "feywild",
+    "item": "feywild:feywild_lexicon",
+    "count": 1,
+    "nbt": {},
+    "bookId": null
+  },
+  {
     "group": "ftbquests",
     "item": "ftbquests:book",
     "count": 1,
@@ -111,6 +118,13 @@
       "patchouli:book": "patchouli:outlandish_player_handbook"
     },
     "bookId": "patchouli:outlandish_player_handbook"
+  },
+  {
+    "group": "tconstruct",
+    "item": "tconstruct:materials_and_you",
+    "count": 1,
+    "nbt": {},
+    "bookId": null
   },
   {
     "group": "vestiges",

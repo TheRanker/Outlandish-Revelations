@@ -1,0 +1,28 @@
+{
+  "name": "Relic Abilities and Controls",
+  "category": "patchouli:chapter_22",
+  "icon": "kubejs:rankers_sword",
+  "sortnum": 9,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Warden Shout$()$(br2)Hold Tears for Fears in your main hand and aim at a mob. Press Use Item (right-click by default) to release the Shout after a brief charge. It works before awakening and has a 10-second cooldown. Hold Shift over either relic to see its controls."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Resonant Fracture$()$(br2)With the awakened sword, land a Shout on a hostile mob, then strike the same target within 3 seconds of the sonic hit. The melee hit deals extra damage.$(br2)A landed Shout earns 15 Resonance. Charged melee hits earn 8, at most twice per second. Let the attack meter refill between hits."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Echo of the Fallen$()$(br2)A charged melee hit automatically spends Resonance to strike again after a short delay. The defaults are 45 Resonance and a 12-second cooldown.$(br2)$(bold)Skybreaker$()$(br2)Equip your awakened ring and land a charged sword hit while airborne. Skybreaker takes priority over Echo when ready. It costs 75 Resonance by default, with a 20-second cooldown."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Guardian's Protection$()$(br2)Equip the ring in an Accessories ring slot. A hit that would deal at least 30% of your maximum health is reduced by 25%, even before awakening. The default cooldown is 90 seconds.$(br2)$(bold)Guardian's Last Stand$()$(br2)The awakened ring can save you from a fatal hit and knock back nearby hostile mobs. Its default cooldown is 10 minutes."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Flight and the HUD$()$(br2)With your awakened ring equipped, double-tap Jump to fly in Survival if flight is enabled. Jump ascends and Sneak descends.$(br2)Use /orrelichud show or /orrelichud hide to control the HUD. The world or server owner can tune abilities in config/or_creative_guard/common.toml."
+    }
+  ]
+}

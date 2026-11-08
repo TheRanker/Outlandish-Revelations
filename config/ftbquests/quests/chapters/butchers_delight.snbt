@@ -3,15 +3,61 @@
 	default_quest_shape: ""
 	filename: "butchers_delight"
 	group: "290BD65C3C52540C"
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "outlandish_revelations:textures/questbook/icons/butchers_delight.png"
+		}
+	}
 	id: "58C555D330796599"
-	images: [{
-		height: 3.0d
-		image: "minecraft:textures/item/book.png"
-		rotation: 0.0d
-		width: 3.0d
-		x: -4.0d
-		y: -9.0d
-	}]
+	images: [
+		{
+			height: 1.625d
+			image: "outlandish_revelations:textures/questbook/landmarks/butchers_delight/header.png"
+			order: -1
+			rotation: 0.0d
+			width: 9.5d
+			x: -7.0d
+			y: -13.5d
+		}
+		{
+			height: 1.3d
+			image: "outlandish_revelations:textures/questbook/landmarks/butchers_delight/butchering_tools.png"
+			order: -1
+			rotation: 0.0d
+			width: 7.6d
+			x: -10.8743d
+			y: -10.0d
+		}
+		{
+			height: 1.3d
+			image: "outlandish_revelations:textures/questbook/landmarks/butchers_delight/hang_and_process.png"
+			order: -1
+			rotation: 0.0d
+			width: 7.6d
+			x: -10.8743d
+			y: -8.0d
+		}
+		{
+			height: 1.3d
+			image: "outlandish_revelations:textures/questbook/landmarks/butchers_delight/roasting.png"
+			order: -1
+			rotation: 0.0d
+			width: 4.4d
+			x: -4.5d
+			y: -6.0d
+		}
+		{
+			height: 1.3d
+			image: "outlandish_revelations:textures/questbook/landmarks/butchers_delight/cooked_cuts.png"
+			order: -1
+			rotation: 0.0d
+			width: 5.6d
+			x: -7.0d
+			y: 0.0d
+		}
+	]
 	order_index: 6
 	quest_links: [ ]
 	quests: [

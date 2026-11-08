@@ -1,20 +1,254 @@
 {
+	autofocus_id: "0819ED9AE0A4A2B4"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "draconic_evolution"
 	group: "58A75D3AE27EE52B"
-	icon: "draconicevolution:awakened_core"
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "outlandish_revelations:textures/questbook/icons/draconic_evolution.png"
+		}
+	}
 	id: "6D65C54C55361111"
-	images: [{
-		height: 1.0d
-		image: "draconicevolution:block/awakened_draconium_block_side"
-		rotation: 0.0d
-		width: 1.0d
-		x: -1.5d
-		y: -5.0d
-	}]
+	images: [
+		{
+			height: 1.0d
+			image: "draconicevolution:block/awakened_draconium_block_side"
+			rotation: 0.0d
+			width: 1.0d
+			x: -13.2d
+			y: -6.25d
+		}
+		{
+			height: 1.2797d
+			image: "outlandish_revelations:textures/questbook/draconic_evolution/overview.png"
+			order: -1
+			rotation: 0.0d
+			width: 12.6d
+			x: -7.0d
+			y: -6.25d
+		}
+		{
+			height: 1.1375d
+			image: "outlandish_revelations:textures/questbook/draconic_evolution/previews.png"
+			order: -1
+			rotation: 0.0d
+			width: 11.2d
+			x: 6.5d
+			y: -6.25d
+		}
+		{
+			height: 1.612d
+			image: "outlandish_revelations:textures/questbook/draconic_evolution/workshop.png"
+			order: -1
+			rotation: 0.0d
+			width: 24.8d
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			height: 0.9953d
+			image: "outlandish_revelations:textures/questbook/draconic_evolution/equipment.png"
+			order: -1
+			rotation: 0.0d
+			width: 7.35d
+			x: -7.0d
+			y: 1.85d
+		}
+		{
+			height: 0.9953d
+			image: "outlandish_revelations:textures/questbook/draconic_evolution/modules.png"
+			order: -1
+			rotation: 0.0d
+			width: 7.35d
+			x: 1.0d
+			y: 1.85d
+		}
+		{
+			height: 0.9953d
+			image: "outlandish_revelations:textures/questbook/draconic_evolution/machines.png"
+			order: -1
+			rotation: 0.0d
+			width: 7.35d
+			x: 9.0d
+			y: 1.85d
+		}
+		{
+			height: 1.612d
+			image: "outlandish_revelations:textures/questbook/draconic_evolution/iv.png"
+			order: -1
+			rotation: 0.0d
+			width: 24.8d
+			x: 1.0d
+			y: 10.85d
+		}
+		{
+			height: 0.9953d
+			image: "outlandish_revelations:textures/questbook/draconic_evolution/equipment.png"
+			order: -1
+			rotation: 0.0d
+			width: 7.35d
+			x: -7.0d
+			y: 12.7d
+		}
+		{
+			height: 0.9953d
+			image: "outlandish_revelations:textures/questbook/draconic_evolution/modules.png"
+			order: -1
+			rotation: 0.0d
+			width: 7.35d
+			x: 1.0d
+			y: 12.7d
+		}
+		{
+			height: 0.9953d
+			image: "outlandish_revelations:textures/questbook/draconic_evolution/machines.png"
+			order: -1
+			rotation: 0.0d
+			width: 7.35d
+			x: 9.0d
+			y: 12.7d
+		}
+		{
+			height: 1.612d
+			image: "outlandish_revelations:textures/questbook/draconic_evolution/luv.png"
+			order: -1
+			rotation: 0.0d
+			width: 24.8d
+			x: 1.0d
+			y: 24.8d
+		}
+		{
+			height: 0.9953d
+			image: "outlandish_revelations:textures/questbook/draconic_evolution/equipment.png"
+			order: -1
+			rotation: 0.0d
+			width: 7.35d
+			x: -7.0d
+			y: 26.65d
+		}
+		{
+			height: 0.9953d
+			image: "outlandish_revelations:textures/questbook/draconic_evolution/modules.png"
+			order: -1
+			rotation: 0.0d
+			width: 7.35d
+			x: 1.0d
+			y: 26.65d
+		}
+		{
+			height: 0.9953d
+			image: "outlandish_revelations:textures/questbook/draconic_evolution/machines.png"
+			order: -1
+			rotation: 0.0d
+			width: 7.35d
+			x: 9.0d
+			y: 26.65d
+		}
+		{
+			height: 1.612d
+			image: "outlandish_revelations:textures/questbook/draconic_evolution/zpm.png"
+			order: -1
+			rotation: 0.0d
+			width: 24.8d
+			x: 1.0d
+			y: 37.2d
+		}
+		{
+			height: 0.9953d
+			image: "outlandish_revelations:textures/questbook/draconic_evolution/equipment.png"
+			order: -1
+			rotation: 0.0d
+			width: 7.35d
+			x: -7.0d
+			y: 39.05d
+		}
+		{
+			height: 0.9953d
+			image: "outlandish_revelations:textures/questbook/draconic_evolution/modules.png"
+			order: -1
+			rotation: 0.0d
+			width: 7.35d
+			x: 1.0d
+			y: 39.05d
+		}
+		{
+			height: 0.9953d
+			image: "outlandish_revelations:textures/questbook/draconic_evolution/machines.png"
+			order: -1
+			rotation: 0.0d
+			width: 7.35d
+			x: 9.0d
+			y: 39.05d
+		}
+		{
+			height: 1.612d
+			image: "outlandish_revelations:textures/questbook/draconic_evolution/uv.png"
+			order: -1
+			rotation: 0.0d
+			width: 24.8d
+			x: 1.0d
+			y: 48.05d
+		}
+		{
+			height: 0.9953d
+			image: "outlandish_revelations:textures/questbook/draconic_evolution/equipment.png"
+			order: -1
+			rotation: 0.0d
+			width: 7.35d
+			x: -7.0d
+			y: 49.9d
+		}
+		{
+			height: 0.9953d
+			image: "outlandish_revelations:textures/questbook/draconic_evolution/machines.png"
+			order: -1
+			rotation: 0.0d
+			width: 7.35d
+			x: 9.0d
+			y: 49.9d
+		}
+	]
 	order_index: 2
-	quest_links: [ ]
+	quest_links: [
+		{
+			id: "56486DB10FAF0A99"
+			linked_quest: "320D6C82CCFF6F04"
+			size: 1.5d
+			x: -12.5d
+			y: 3.4d
+		}
+		{
+			id: "5E8F7AEE2BE512E1"
+			linked_quest: "2DF60A8C441399AE"
+			size: 1.5d
+			x: -12.5d
+			y: 14.25d
+		}
+		{
+			id: "50AB0C87B64F7113"
+			linked_quest: "625591F640326A5B"
+			size: 1.5d
+			x: -12.5d
+			y: 28.2d
+		}
+		{
+			id: "5718C68CEEC1347E"
+			linked_quest: "5FCC310D019D7B3B"
+			size: 1.5d
+			x: -12.5d
+			y: 40.6d
+		}
+		{
+			id: "5E5D630A2E7EF697"
+			linked_quest: "3C322C4843619467"
+			size: 1.5d
+			x: -12.5d
+			y: 51.45d
+		}
+	]
 	quests: [
 		{
 			description: [
@@ -73,8 +307,8 @@
 				title: "Draconic Evolution"
 				type: "checkmark"
 			}]
-			x: -1.5d
-			y: -2.5d
+			x: -3.5d
+			y: -3.65d
 		}
 		{
 			dependencies: ["0819ED9AE0A4A2B4"]
@@ -125,8 +359,8 @@
 				item: "draconicevolution:draconium_dust"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 0.5d
+			x: -1.55d
+			y: -3.65d
 		}
 		{
 			description: ["Follow the tasks shown here and use the connected quests to plan your next step. Check JEI for recipes and ingredient alternatives."]
@@ -162,8 +396,8 @@
 				title: "Section is WIP"
 				type: "checkmark"
 			}]
-			x: -1.5d
-			y: 2.5d
+			x: -8.25d
+			y: -3.65d
 		}
 		{
 			description: ["Craft Wyvern Chestpiece for your Draconic workshop. Use JEI for its ingredients and energy requirements, and follow Draconic Industry for the matrix and injector tier. Charge powered equipment before use."]
@@ -232,8 +466,8 @@
 				}
 				type: "item"
 			}]
-			x: 5.0d
-			y: -2.0d
+			x: 3.5d
+			y: -4.6d
 		}
 		{
 			description: ["Craft Draconic Chestpiece for your Draconic workshop. Use JEI for its ingredients and energy requirements, and follow Draconic Industry for the matrix and injector tier. Charge powered equipment before use."]
@@ -302,8 +536,8 @@
 				}
 				type: "item"
 			}]
-			x: 5.0d
-			y: 0.0d
+			x: 6.5d
+			y: -4.6d
 		}
 		{
 			description: ["Craft Chaotic Chestpiece for your Draconic workshop. Use JEI for its ingredients and energy requirements, and follow Draconic Industry for the matrix and injector tier. Charge powered equipment before use."]
@@ -372,8 +606,8 @@
 				}
 				type: "item"
 			}]
-			x: 5.0d
-			y: 1.5d
+			x: 9.5d
+			y: -4.6d
 		}
 		{
 			description: ["Craft Wyvern Sword for your Draconic workshop. Use JEI for its ingredients and energy requirements, and follow Draconic Industry for the matrix and injector tier. Charge powered equipment before use."]
@@ -442,8 +676,8 @@
 				}
 				type: "item"
 			}]
-			x: 6.0d
-			y: -2.0d
+			x: 3.5d
+			y: -2.8d
 		}
 		{
 			description: ["Craft Draconic Sword for your Draconic workshop. Use JEI for its ingredients and energy requirements, and follow Draconic Industry for the matrix and injector tier. Charge powered equipment before use."]
@@ -512,8 +746,8 @@
 				}
 				type: "item"
 			}]
-			x: 6.0d
-			y: 0.0d
+			x: 6.5d
+			y: -2.8d
 		}
 		{
 			description: ["Craft Chaotic Sword for your Draconic workshop. Use JEI for its ingredients and energy requirements, and follow Draconic Industry for the matrix and injector tier. Charge powered equipment before use."]
@@ -582,8 +816,8 @@
 				}
 				type: "item"
 			}]
-			x: 6.0d
-			y: 1.5d
+			x: 9.5d
+			y: -2.8d
 		}
 		{
 			dependencies: ["3C322C4843619467"]
@@ -636,8 +870,8 @@
 				type: "item"
 			}]
 			title: "Chaos Crystalizer"
-			x: 0.0d
-			y: 8.5d
+			x: 7.52d
+			y: 51.45d
 		}
 		{
 			dependencies: ["3C322C4843619467"]
@@ -690,8 +924,8 @@
 				type: "item"
 			}]
 			title: "Chaos Extractor"
-			x: 3.5d
-			y: 8.5d
+			x: 9.0d
+			y: 51.45d
 		}
 		{
 			dependencies: ["3C322C4843619467"]
@@ -744,8 +978,8 @@
 				type: "item"
 			}]
 			title: "Chaos Infuser"
-			x: 7.0d
-			y: 8.5d
+			x: 10.48d
+			y: 51.45d
 		}
 		{
 			dependencies: ["5FCC310D019D7B3B"]
@@ -818,8 +1052,8 @@
 				type: "item"
 			}]
 			title: "Chaotic Necklace"
-			x: 10.5d
-			y: 8.5d
+			x: -9.22d
+			y: 42.15d
 		}
 		{
 			dependencies: ["625591F640326A5B"]
@@ -892,8 +1126,8 @@
 				type: "item"
 			}]
 			title: "Draconic Necklace"
-			x: 14.0d
-			y: 8.5d
+			x: -9.22d
+			y: 29.75d
 		}
 		{
 			dependencies: ["3C322C4843619467"]
@@ -966,8 +1200,8 @@
 				type: "item"
 			}]
 			title: "Chaos Container"
-			x: 17.5d
-			y: 8.5d
+			x: 6.04d
+			y: 51.45d
 		}
 		{
 			dependencies: ["5FCC310D019D7B3B"]
@@ -1059,8 +1293,8 @@
 				type: "item"
 			}]
 			title: "Chaotic Harness"
-			x: 21.0d
-			y: 8.5d
+			x: -5.52d
+			y: 40.6d
 		}
 		{
 			dependencies: ["625591F640326A5B"]
@@ -1152,8 +1386,8 @@
 				type: "item"
 			}]
 			title: "Draconic Harness"
-			x: 24.5d
-			y: 8.5d
+			x: -5.52d
+			y: 28.2d
 		}
 		{
 			dependencies: ["3C322C4843619467"]
@@ -1223,8 +1457,8 @@
 				type: "item"
 			}]
 			title: "hermal"
-			x: 0.0d
-			y: 12.0d
+			x: 11.96d
+			y: 51.45d
 		}
 		{
 			dependencies: ["3C322C4843619467"]
@@ -1301,8 +1535,8 @@
 				type: "item"
 			}]
 			title: "Infused Potato Boots"
-			x: 3.5d
-			y: 12.0d
+			x: -9.22d
+			y: 51.45d
 		}
 		{
 			dependencies: ["3C322C4843619467"]
@@ -1409,8 +1643,8 @@
 				type: "item"
 			}]
 			title: "Infused Potato Chestplate"
-			x: 7.0d
-			y: 12.0d
+			x: -7.74d
+			y: 51.45d
 		}
 		{
 			dependencies: ["3C322C4843619467"]
@@ -1487,8 +1721,8 @@
 				type: "item"
 			}]
 			title: "Infused Potato Helmet"
-			x: 10.5d
-			y: 12.0d
+			x: -6.26d
+			y: 51.45d
 		}
 		{
 			dependencies: ["3C322C4843619467"]
@@ -1565,8 +1799,8 @@
 				type: "item"
 			}]
 			title: "Infused Potato Leggings"
-			x: 14.0d
-			y: 12.0d
+			x: -4.78d
+			y: 51.45d
 		}
 		{
 			dependencies: ["2DF60A8C441399AE"]
@@ -1658,8 +1892,8 @@
 				type: "item"
 			}]
 			title: "Wyvern Harness"
-			x: 17.5d
-			y: 12.0d
+			x: -4.04d
+			y: 14.25d
 		}
 		{
 			dependencies: ["2DF60A8C441399AE"]
@@ -1732,8 +1966,8 @@
 				type: "item"
 			}]
 			title: "Wyvern Necklace"
-			x: 21.0d
-			y: 12.0d
+			x: -7.74d
+			y: 15.8d
 		}
 		{
 			dependencies: ["3C322C4843619467"]
@@ -1786,8 +2020,8 @@
 				type: "item"
 			}]
 			title: "Chaos Injector"
-			x: 24.5d
-			y: 12.0d
+			x: 6.04d
+			y: 53.0d
 		}
 		{
 			dependencies: ["5FCC310D019D7B3B"]
@@ -1840,8 +2074,8 @@
 				type: "item"
 			}]
 			title: "Chaotic Auto Feed Module"
-			x: 0.0d
-			y: 15.5d
+			x: -0.48d
+			y: 40.6d
 		}
 		{
 			dependencies: ["3C322C4843619467"]
@@ -1894,8 +2128,8 @@
 				type: "item"
 			}]
 			title: "Chaotic Tick Accelerator"
-			x: 3.5d
-			y: 15.5d
+			x: 7.52d
+			y: 53.0d
 		}
 		{
 			dependencies: ["3C322C4843619467"]
@@ -1948,8 +2182,8 @@
 				type: "item"
 			}]
 			title: "Draconic Tick Accelerator"
-			x: 7.0d
-			y: 15.5d
+			x: 9.0d
+			y: 53.0d
 		}
 		{
 			dependencies: ["3C322C4843619467"]
@@ -2002,8 +2236,8 @@
 				type: "item"
 			}]
 			title: "Semi-Stable Chaos Holder"
-			x: 10.5d
-			y: 15.5d
+			x: 10.48d
+			y: 53.0d
 		}
 		{
 			dependencies: ["3C322C4843619467"]
@@ -2056,8 +2290,8 @@
 				type: "item"
 			}]
 			title: "Stable Chaos Holder"
-			x: 14.0d
-			y: 15.5d
+			x: 11.96d
+			y: 53.0d
 		}
 		{
 			dependencies: ["3C322C4843619467"]
@@ -2110,8 +2344,8 @@
 				type: "item"
 			}]
 			title: "Unstable Chaos Holder"
-			x: 17.5d
-			y: 15.5d
+			x: 6.04d
+			y: 54.55d
 		}
 		{
 			dependencies: ["625591F640326A5B"]
@@ -2164,8 +2398,8 @@
 				type: "item"
 			}]
 			title: "Awakened Draconium Block"
-			x: 21.0d
-			y: 15.5d
+			x: 7.52d
+			y: 28.2d
 		}
 		{
 			dependencies: ["625591F640326A5B"]
@@ -2218,8 +2452,8 @@
 				type: "item"
 			}]
 			title: "Celestial Manipulator"
-			x: 24.5d
-			y: 15.5d
+			x: 9.0d
+			y: 28.2d
 		}
 		{
 			dependencies: ["625591F640326A5B"]
@@ -2272,8 +2506,8 @@
 				type: "item"
 			}]
 			title: "Draconic Core"
-			x: 0.0d
-			y: 19.0d
+			x: 6.04d
+			y: 28.2d
 		}
 		{
 			dependencies: ["5FCC310D019D7B3B"]
@@ -2326,8 +2560,8 @@
 				type: "item"
 			}]
 			title: "Chaotic Core"
-			x: 3.5d
-			y: 19.0d
+			x: 8.26d
+			y: 40.6d
 		}
 		{
 			dependencies: ["5FCC310D019D7B3B"]
@@ -2380,8 +2614,8 @@
 				type: "item"
 			}]
 			title: "Chaotic Energy Controller"
-			x: 7.0d
-			y: 19.0d
+			x: 9.74d
+			y: 40.6d
 		}
 		{
 			dependencies: ["625591F640326A5B"]
@@ -2434,8 +2668,8 @@
 				type: "item"
 			}]
 			title: "Draconic Energy Controller"
-			x: 10.5d
-			y: 19.0d
+			x: 10.48d
+			y: 28.2d
 		}
 		{
 			dependencies: ["2DF60A8C441399AE"]
@@ -2488,8 +2722,8 @@
 				type: "item"
 			}]
 			title: "Wyvern Core"
-			x: 14.0d
-			y: 19.0d
+			x: 7.52d
+			y: 15.8d
 		}
 		{
 			dependencies: ["2DF60A8C441399AE"]
@@ -2542,8 +2776,8 @@
 				type: "item"
 			}]
 			title: "Wyvern Energy Controller"
-			x: 17.5d
-			y: 19.0d
+			x: 9.0d
+			y: 15.8d
 		}
 		{
 			dependencies: ["320D6C82CCFF6F04"]
@@ -2596,8 +2830,8 @@
 				type: "item"
 			}]
 			title: "Disenchanter"
-			x: 21.0d
-			y: 19.0d
+			x: 10.48d
+			y: 3.4d
 		}
 		{
 			dependencies: ["320D6C82CCFF6F04"]
@@ -2650,8 +2884,8 @@
 				type: "item"
 			}]
 			title: "Dislocation Normalization Field Projector"
-			x: 24.5d
-			y: 19.0d
+			x: 11.96d
+			y: 3.4d
 		}
 		{
 			dependencies: ["320D6C82CCFF6F04"]
@@ -2704,8 +2938,8 @@
 				type: "item"
 			}]
 			title: "Dislocator Pedestal"
-			x: 0.0d
-			y: 22.5d
+			x: 6.04d
+			y: 4.95d
 		}
 		{
 			dependencies: ["320D6C82CCFF6F04"]
@@ -2758,8 +2992,8 @@
 				type: "item"
 			}]
 			title: "Dislocator Receptacle"
-			x: 3.5d
-			y: 22.5d
+			x: 7.52d
+			y: 4.95d
 		}
 		{
 			dependencies: ["320D6C82CCFF6F04"]
@@ -2812,8 +3046,8 @@
 				type: "item"
 			}]
 			title: "Entity Detector"
-			x: 7.0d
-			y: 22.5d
+			x: 10.48d
+			y: 4.95d
 		}
 		{
 			dependencies: ["2DF60A8C441399AE"]
@@ -2866,8 +3100,8 @@
 				type: "item"
 			}]
 			title: "Advanced Entity Detector"
-			x: 10.5d
-			y: 22.5d
+			x: 11.96d
+			y: 14.25d
 		}
 		{
 			dependencies: ["320D6C82CCFF6F04"]
@@ -2920,8 +3154,8 @@
 				type: "item"
 			}]
 			title: "Fluid Gate"
-			x: 14.0d
-			y: 22.5d
+			x: 11.96d
+			y: 4.95d
 		}
 		{
 			dependencies: ["320D6C82CCFF6F04"]
@@ -2974,8 +3208,8 @@
 				type: "item"
 			}]
 			title: "Flux Gate"
-			x: 17.5d
-			y: 22.5d
+			x: 6.04d
+			y: 6.5d
 		}
 		{
 			dependencies: ["320D6C82CCFF6F04"]
@@ -3028,8 +3262,8 @@
 				type: "item"
 			}]
 			title: "Draconium Infused Obsidian"
-			x: 21.0d
-			y: 22.5d
+			x: 7.52d
+			y: 6.5d
 		}
 		{
 			dependencies: ["320D6C82CCFF6F04"]
@@ -3082,8 +3316,8 @@
 				type: "item"
 			}]
 			title: "Basic Energy Relay Crystal"
-			x: 24.5d
-			y: 22.5d
+			x: 6.04d
+			y: 3.4d
 		}
 		{
 			dependencies: ["320D6C82CCFF6F04"]
@@ -3136,8 +3370,8 @@
 				type: "item"
 			}]
 			title: "Basic Wireless Energy Crystal"
-			x: 0.0d
-			y: 26.0d
+			x: 7.52d
+			y: 3.4d
 		}
 		{
 			dependencies: ["625591F640326A5B"]
@@ -3190,8 +3424,8 @@
 				type: "item"
 			}]
 			title: "Draconic Energy Relay Crystal"
-			x: 3.5d
-			y: 26.0d
+			x: 11.96d
+			y: 28.2d
 		}
 		{
 			dependencies: ["625591F640326A5B"]
@@ -3244,8 +3478,8 @@
 				type: "item"
 			}]
 			title: "Draconic Wireless Energy Crystal"
-			x: 7.0d
-			y: 26.0d
+			x: 9.0d
+			y: 29.75d
 		}
 		{
 			dependencies: ["320D6C82CCFF6F04"]
@@ -3298,8 +3532,8 @@
 				type: "item"
 			}]
 			title: "Draconium Chest"
-			x: 10.5d
-			y: 26.0d
+			x: 9.0d
+			y: 4.95d
 		}
 		{
 			dependencies: ["2DF60A8C441399AE"]
@@ -3352,8 +3586,8 @@
 				type: "item"
 			}]
 			title: "Energy Core"
-			x: 14.0d
-			y: 26.0d
+			x: 6.04d
+			y: 14.25d
 		}
 		{
 			dependencies: ["2DF60A8C441399AE"]
@@ -3406,8 +3640,8 @@
 				type: "item"
 			}]
 			title: "Energy Core Stabilizer"
-			x: 17.5d
-			y: 26.0d
+			x: 7.52d
+			y: 14.25d
 		}
 		{
 			dependencies: ["2DF60A8C441399AE"]
@@ -3460,8 +3694,8 @@
 				type: "item"
 			}]
 			title: "Energy Pylon"
-			x: 21.0d
-			y: 26.0d
+			x: 9.0d
+			y: 14.25d
 		}
 		{
 			dependencies: ["2DF60A8C441399AE"]
@@ -3514,8 +3748,8 @@
 				type: "item"
 			}]
 			title: "Energy Transfuser"
-			x: 24.5d
-			y: 26.0d
+			x: 10.48d
+			y: 14.25d
 		}
 		{
 			dependencies: ["2DF60A8C441399AE"]
@@ -3568,8 +3802,8 @@
 				type: "item"
 			}]
 			title: "Mob Grinder"
-			x: 0.0d
-			y: 29.5d
+			x: 6.04d
+			y: 15.8d
 		}
 		{
 			dependencies: ["320D6C82CCFF6F04"]
@@ -3622,8 +3856,8 @@
 				type: "item"
 			}]
 			title: "Particle Generator"
-			x: 3.5d
-			y: 29.5d
+			x: 10.48d
+			y: 6.5d
 		}
 		{
 			dependencies: ["320D6C82CCFF6F04"]
@@ -3676,8 +3910,8 @@
 				type: "item"
 			}]
 			title: "Potentiometer"
-			x: 7.0d
-			y: 29.5d
+			x: 11.96d
+			y: 6.5d
 		}
 		{
 			dependencies: ["3C322C4843619467"]
@@ -3730,8 +3964,8 @@
 				type: "item"
 			}]
 			title: "Reactor Energy Injector"
-			x: 10.5d
-			y: 29.5d
+			x: 7.52d
+			y: 54.55d
 		}
 		{
 			dependencies: ["3C322C4843619467"]
@@ -3784,8 +4018,8 @@
 				type: "item"
 			}]
 			title: "Reactor Stabilizer Focus Ring"
-			x: 14.0d
-			y: 29.5d
+			x: 9.0d
+			y: 54.55d
 		}
 		{
 			dependencies: ["3C322C4843619467"]
@@ -3838,8 +4072,8 @@
 				type: "item"
 			}]
 			title: "Reactor Stabilizer Inner Rotor"
-			x: 17.5d
-			y: 29.5d
+			x: 10.48d
+			y: 54.55d
 		}
 		{
 			dependencies: ["3C322C4843619467"]
@@ -3892,8 +4126,8 @@
 				type: "item"
 			}]
 			title: "Reactor Stabilizer Outer Rotor"
-			x: 21.0d
-			y: 29.5d
+			x: 11.96d
+			y: 54.55d
 		}
 		{
 			dependencies: ["3C322C4843619467"]
@@ -3946,8 +4180,8 @@
 				type: "item"
 			}]
 			title: "Reactor Stabilizer Rotor Assembly"
-			x: 24.5d
-			y: 29.5d
+			x: 7.52d
+			y: 56.1d
 		}
 		{
 			dependencies: ["3C322C4843619467"]
@@ -4000,8 +4234,8 @@
 				type: "item"
 			}]
 			title: "Reactor Stabilizer Frame"
-			x: 0.0d
-			y: 33.0d
+			x: 9.0d
+			y: 56.1d
 		}
 		{
 			dependencies: ["3C322C4843619467"]
@@ -4054,8 +4288,8 @@
 				type: "item"
 			}]
 			title: "Reactor Stabilizer"
-			x: 3.5d
-			y: 33.0d
+			x: 10.48d
+			y: 56.1d
 		}
 		{
 			dependencies: ["2DF60A8C441399AE"]
@@ -4108,8 +4342,8 @@
 				type: "item"
 			}]
 			title: "Wyvern Energy Relay Crystal"
-			x: 7.0d
-			y: 33.0d
+			x: 10.48d
+			y: 15.8d
 		}
 		{
 			dependencies: ["2DF60A8C441399AE"]
@@ -4162,8 +4396,8 @@
 				type: "item"
 			}]
 			title: "Wyvern Wireless Energy Crystal"
-			x: 10.5d
-			y: 33.0d
+			x: 11.96d
+			y: 15.8d
 		}
 		{
 			dependencies: ["5FCC310D019D7B3B"]
@@ -4219,8 +4453,8 @@
 				type: "item"
 			}]
 			title: "Chaotic AOE Module"
-			x: 14.0d
-			y: 33.0d
+			x: -1.96d
+			y: 40.6d
 		}
 		{
 			dependencies: ["5FCC310D019D7B3B"]
@@ -4273,8 +4507,8 @@
 				type: "item"
 			}]
 			title: "Chaotic Damage Module"
-			x: 17.5d
-			y: 33.0d
+			x: 1.0d
+			y: 40.6d
 		}
 		{
 			dependencies: ["5FCC310D019D7B3B"]
@@ -4330,8 +4564,8 @@
 				type: "item"
 			}]
 			title: "Chaotic Energy Module"
-			x: 21.0d
-			y: 33.0d
+			x: 2.48d
+			y: 40.6d
 		}
 		{
 			dependencies: ["5FCC310D019D7B3B"]
@@ -4387,8 +4621,8 @@
 				type: "item"
 			}]
 			title: "Chaos-Entangled Quantum Energy Tunnel"
-			x: 24.5d
-			y: 33.0d
+			x: 3.96d
+			y: 40.6d
 		}
 		{
 			dependencies: ["5FCC310D019D7B3B"]
@@ -4444,8 +4678,8 @@
 				type: "item"
 			}]
 			title: "Chaotic Flight Module"
-			x: 0.0d
-			y: 36.5d
+			x: -1.96d
+			y: 42.15d
 		}
 		{
 			dependencies: ["5FCC310D019D7B3B"]
@@ -4498,8 +4732,8 @@
 				type: "item"
 			}]
 			title: "Chaotic Jump Module"
-			x: 3.5d
-			y: 36.5d
+			x: -0.48d
+			y: 42.15d
 		}
 		{
 			dependencies: ["5FCC310D019D7B3B"]
@@ -4555,8 +4789,8 @@
 				type: "item"
 			}]
 			title: "Chaotic Large Shield Capacity Module"
-			x: 7.0d
-			y: 36.5d
+			x: 1.0d
+			y: 42.15d
 		}
 		{
 			dependencies: ["5FCC310D019D7B3B"]
@@ -4609,8 +4843,8 @@
 				type: "item"
 			}]
 			title: "Chaotic Projectile Accuracy Module"
-			x: 10.5d
-			y: 36.5d
+			x: 2.48d
+			y: 42.15d
 		}
 		{
 			dependencies: ["5FCC310D019D7B3B"]
@@ -4663,8 +4897,8 @@
 				type: "item"
 			}]
 			title: "Chaotic Projectile Damage Module"
-			x: 14.0d
-			y: 36.5d
+			x: 3.96d
+			y: 42.15d
 		}
 		{
 			dependencies: ["5FCC310D019D7B3B"]
@@ -4717,8 +4951,8 @@
 				type: "item"
 			}]
 			title: "Chaotic Projectile Gravity Compensation Module"
-			x: 17.5d
-			y: 36.5d
+			x: -1.96d
+			y: 43.7d
 		}
 		{
 			dependencies: ["5FCC310D019D7B3B"]
@@ -4771,8 +5005,8 @@
 				type: "item"
 			}]
 			title: "Chaotic Projectile Penetration Module"
-			x: 21.0d
-			y: 36.5d
+			x: -0.48d
+			y: 43.7d
 		}
 		{
 			dependencies: ["5FCC310D019D7B3B"]
@@ -4825,8 +5059,8 @@
 				type: "item"
 			}]
 			title: "Chaotic Projectile Velocity Module"
-			x: 24.5d
-			y: 36.5d
+			x: 1.0d
+			y: 43.7d
 		}
 		{
 			dependencies: ["5FCC310D019D7B3B"]
@@ -4882,8 +5116,8 @@
 				type: "item"
 			}]
 			title: "Chaotic Shield Capacity Module"
-			x: 0.0d
-			y: 40.0d
+			x: 2.48d
+			y: 43.7d
 		}
 		{
 			dependencies: ["5FCC310D019D7B3B"]
@@ -4939,8 +5173,8 @@
 				type: "item"
 			}]
 			title: "Chaotic Shield Control Module"
-			x: 3.5d
-			y: 40.0d
+			x: 3.96d
+			y: 43.7d
 		}
 		{
 			dependencies: ["5FCC310D019D7B3B"]
@@ -4996,8 +5230,8 @@
 				type: "item"
 			}]
 			title: "Chaotic Shield Recovery Module"
-			x: 7.0d
-			y: 40.0d
+			x: -1.22d
+			y: 45.25d
 		}
 		{
 			dependencies: ["5FCC310D019D7B3B"]
@@ -5053,8 +5287,8 @@
 				type: "item"
 			}]
 			title: "Chaotic Speed Module"
-			x: 10.5d
-			y: 40.0d
+			x: 0.26d
+			y: 45.25d
 		}
 		{
 			dependencies: ["5FCC310D019D7B3B"]
@@ -5107,8 +5341,8 @@
 				type: "item"
 			}]
 			title: "Chaotic Deforestation Module"
-			x: 14.0d
-			y: 40.0d
+			x: 1.74d
+			y: 45.25d
 		}
 		{
 			dependencies: ["5FCC310D019D7B3B"]
@@ -5164,8 +5398,8 @@
 				type: "item"
 			}]
 			title: "Chaotic Undying Module"
-			x: 17.5d
-			y: 40.0d
+			x: 3.22d
+			y: 45.25d
 		}
 		{
 			dependencies: ["625591F640326A5B"]
@@ -5221,8 +5455,8 @@
 				type: "item"
 			}]
 			title: "Draconic AOE Module"
-			x: 21.0d
-			y: 40.0d
+			x: -1.96d
+			y: 28.2d
 		}
 		{
 			dependencies: ["625591F640326A5B"]
@@ -5275,8 +5509,8 @@
 				type: "item"
 			}]
 			title: "Draconic Auto Feed Module"
-			x: 24.5d
-			y: 40.0d
+			x: -0.48d
+			y: 28.2d
 		}
 		{
 			dependencies: ["625591F640326A5B"]
@@ -5329,8 +5563,8 @@
 				type: "item"
 			}]
 			title: "Draconic Damage Module"
-			x: 0.0d
-			y: 43.5d
+			x: 1.0d
+			y: 28.2d
 		}
 		{
 			dependencies: ["625591F640326A5B"]
@@ -5383,8 +5617,8 @@
 				type: "item"
 			}]
 			title: "Filterable Ender Collection Module"
-			x: 3.5d
-			y: 43.5d
+			x: 2.48d
+			y: 28.2d
 		}
 		{
 			dependencies: ["625591F640326A5B"]
@@ -5440,8 +5674,8 @@
 				type: "item"
 			}]
 			title: "Draconic Energy Module"
-			x: 7.0d
-			y: 43.5d
+			x: 3.96d
+			y: 28.2d
 		}
 		{
 			dependencies: ["625591F640326A5B"]
@@ -5497,8 +5731,8 @@
 				type: "item"
 			}]
 			title: "Quantum Energy Tunnel"
-			x: 10.5d
-			y: 43.5d
+			x: -1.96d
+			y: 29.75d
 		}
 		{
 			dependencies: ["625591F640326A5B"]
@@ -5554,8 +5788,8 @@
 				type: "item"
 			}]
 			title: "Draconic Flight Module"
-			x: 14.0d
-			y: 43.5d
+			x: -0.48d
+			y: 29.75d
 		}
 		{
 			dependencies: ["625591F640326A5B"]
@@ -5608,8 +5842,8 @@
 				type: "item"
 			}]
 			title: "Draconic Jump Module"
-			x: 17.5d
-			y: 43.5d
+			x: 1.0d
+			y: 29.75d
 		}
 		{
 			dependencies: ["625591F640326A5B"]
@@ -5665,8 +5899,8 @@
 				type: "item"
 			}]
 			title: "Draconic Large Shield Capacity Module"
-			x: 21.0d
-			y: 43.5d
+			x: 2.48d
+			y: 29.75d
 		}
 		{
 			dependencies: ["625591F640326A5B"]
@@ -5719,8 +5953,8 @@
 				type: "item"
 			}]
 			title: "Draconic Projectile Accuracy Module"
-			x: 24.5d
-			y: 43.5d
+			x: 3.96d
+			y: 29.75d
 		}
 		{
 			dependencies: ["625591F640326A5B"]
@@ -5773,8 +6007,8 @@
 				type: "item"
 			}]
 			title: "Projectile Immunity Cancellation Module"
-			x: 0.0d
-			y: 47.0d
+			x: -1.96d
+			y: 31.3d
 		}
 		{
 			dependencies: ["625591F640326A5B"]
@@ -5827,8 +6061,8 @@
 				type: "item"
 			}]
 			title: "Draconic Projectile Damage Module"
-			x: 3.5d
-			y: 47.0d
+			x: -0.48d
+			y: 31.3d
 		}
 		{
 			dependencies: ["625591F640326A5B"]
@@ -5881,8 +6115,8 @@
 				type: "item"
 			}]
 			title: "Draconic Projectile Gravity Compensation Module"
-			x: 7.0d
-			y: 47.0d
+			x: 1.0d
+			y: 31.3d
 		}
 		{
 			dependencies: ["625591F640326A5B"]
@@ -5935,8 +6169,8 @@
 				type: "item"
 			}]
 			title: "Draconic Projectile Penetration Module"
-			x: 10.5d
-			y: 47.0d
+			x: 2.48d
+			y: 31.3d
 		}
 		{
 			dependencies: ["625591F640326A5B"]
@@ -5989,8 +6223,8 @@
 				type: "item"
 			}]
 			title: "Draconic Projectile Velocity Module"
-			x: 14.0d
-			y: 47.0d
+			x: 3.96d
+			y: 31.3d
 		}
 		{
 			dependencies: ["625591F640326A5B"]
@@ -6046,8 +6280,8 @@
 				type: "item"
 			}]
 			title: "Draconic Shield Capacity Module"
-			x: 17.5d
-			y: 47.0d
+			x: -1.96d
+			y: 32.85d
 		}
 		{
 			dependencies: ["625591F640326A5B"]
@@ -6103,8 +6337,8 @@
 				type: "item"
 			}]
 			title: "Draconic Shield Control Module"
-			x: 21.0d
-			y: 47.0d
+			x: -0.48d
+			y: 32.85d
 		}
 		{
 			dependencies: ["625591F640326A5B"]
@@ -6160,8 +6394,8 @@
 				type: "item"
 			}]
 			title: "Draconic Shield Recovery Module"
-			x: 24.5d
-			y: 47.0d
+			x: 1.0d
+			y: 32.85d
 		}
 		{
 			dependencies: ["625591F640326A5B"]
@@ -6217,8 +6451,8 @@
 				type: "item"
 			}]
 			title: "Draconic Speed Module"
-			x: 0.0d
-			y: 50.5d
+			x: 2.48d
+			y: 32.85d
 		}
 		{
 			dependencies: ["625591F640326A5B"]
@@ -6271,8 +6505,8 @@
 				type: "item"
 			}]
 			title: "Draconic Forest Reduction Assistant"
-			x: 3.5d
-			y: 50.5d
+			x: 3.96d
+			y: 32.85d
 		}
 		{
 			dependencies: ["625591F640326A5B"]
@@ -6328,8 +6562,8 @@
 				type: "item"
 			}]
 			title: "Draconic Undying Module"
-			x: 7.0d
-			y: 50.5d
+			x: 1.0d
+			y: 34.4d
 		}
 		{
 			dependencies: ["320D6C82CCFF6F04"]
@@ -6385,8 +6619,8 @@
 				type: "item"
 			}]
 			title: "AOE Module"
-			x: 10.5d
-			y: 50.5d
+			x: -1.96d
+			y: 3.4d
 		}
 		{
 			dependencies: ["320D6C82CCFF6F04"]
@@ -6439,8 +6673,8 @@
 				type: "item"
 			}]
 			title: "Auto Feed Module"
-			x: 14.0d
-			y: 50.5d
+			x: -0.48d
+			y: 3.4d
 		}
 		{
 			dependencies: ["320D6C82CCFF6F04"]
@@ -6493,8 +6727,8 @@
 				type: "item"
 			}]
 			title: "Damage Module"
-			x: 17.5d
-			y: 50.5d
+			x: 1.0d
+			y: 3.4d
 		}
 		{
 			dependencies: ["320D6C82CCFF6F04"]
@@ -6550,8 +6784,8 @@
 				type: "item"
 			}]
 			title: "Energy Module"
-			x: 21.0d
-			y: 50.5d
+			x: 2.48d
+			y: 3.4d
 		}
 		{
 			dependencies: ["320D6C82CCFF6F04"]
@@ -6604,8 +6838,8 @@
 				type: "item"
 			}]
 			title: "Jump Module"
-			x: 24.5d
-			y: 50.5d
+			x: 3.96d
+			y: 3.4d
 		}
 		{
 			dependencies: ["320D6C82CCFF6F04"]
@@ -6661,8 +6895,8 @@
 				type: "item"
 			}]
 			title: "Speed Module"
-			x: 0.0d
-			y: 54.0d
+			x: 1.0d
+			y: 4.95d
 		}
 		{
 			dependencies: ["2DF60A8C441399AE"]
@@ -6718,8 +6952,8 @@
 				type: "item"
 			}]
 			title: "Wyvern AOE Module"
-			x: 3.5d
-			y: 54.0d
+			x: -1.96d
+			y: 14.25d
 		}
 		{
 			dependencies: ["2DF60A8C441399AE"]
@@ -6772,8 +7006,8 @@
 				type: "item"
 			}]
 			title: "Aqua Adapt Module"
-			x: 7.0d
-			y: 54.0d
+			x: -0.48d
+			y: 14.25d
 		}
 		{
 			dependencies: ["2DF60A8C441399AE"]
@@ -6826,8 +7060,8 @@
 				type: "item"
 			}]
 			title: "Wyvern Auto Feed Module"
-			x: 10.5d
-			y: 54.0d
+			x: 1.0d
+			y: 14.25d
 		}
 		{
 			dependencies: ["2DF60A8C441399AE"]
@@ -6880,8 +7114,8 @@
 				type: "item"
 			}]
 			title: "Auto Fire Module"
-			x: 14.0d
-			y: 54.0d
+			x: 2.48d
+			y: 14.25d
 		}
 		{
 			dependencies: ["2DF60A8C441399AE"]
@@ -6934,8 +7168,8 @@
 				type: "item"
 			}]
 			title: "Wyvern Damage Module"
-			x: 17.5d
-			y: 54.0d
+			x: 3.96d
+			y: 14.25d
 		}
 		{
 			dependencies: ["2DF60A8C441399AE"]
@@ -6988,8 +7222,8 @@
 				type: "item"
 			}]
 			title: "Ender Collection Module"
-			x: 21.0d
-			y: 54.0d
+			x: -1.96d
+			y: 15.8d
 		}
 		{
 			dependencies: ["2DF60A8C441399AE"]
@@ -7045,8 +7279,8 @@
 				type: "item"
 			}]
 			title: "Wyvern Energy Module"
-			x: 24.5d
-			y: 54.0d
+			x: -0.48d
+			y: 15.8d
 		}
 		{
 			dependencies: ["2DF60A8C441399AE"]
@@ -7102,8 +7336,8 @@
 				type: "item"
 			}]
 			title: "Wireless Energy Link"
-			x: 0.0d
-			y: 57.5d
+			x: 1.0d
+			y: 15.8d
 		}
 		{
 			dependencies: ["2DF60A8C441399AE"]
@@ -7159,8 +7393,8 @@
 				type: "item"
 			}]
 			title: "Wyvern Flight Module"
-			x: 3.5d
-			y: 57.5d
+			x: 2.48d
+			y: 15.8d
 		}
 		{
 			dependencies: ["2DF60A8C441399AE"]
@@ -7213,8 +7447,8 @@
 				type: "item"
 			}]
 			title: "Hill Step Module"
-			x: 7.0d
-			y: 57.5d
+			x: 3.96d
+			y: 15.8d
 		}
 		{
 			dependencies: ["2DF60A8C441399AE"]
@@ -7267,8 +7501,8 @@
 				type: "item"
 			}]
 			title: "Wyvern Jump Module"
-			x: 10.5d
-			y: 57.5d
+			x: -1.96d
+			y: 17.35d
 		}
 		{
 			dependencies: ["2DF60A8C441399AE"]
@@ -7321,8 +7555,8 @@
 				type: "item"
 			}]
 			title: "Selective Incineration Module"
-			x: 14.0d
-			y: 57.5d
+			x: -0.48d
+			y: 17.35d
 		}
 		{
 			dependencies: ["2DF60A8C441399AE"]
@@ -7378,8 +7612,8 @@
 				type: "item"
 			}]
 			title: "Wyvern Large Shield Capacity Module"
-			x: 17.5d
-			y: 57.5d
+			x: 1.0d
+			y: 17.35d
 		}
 		{
 			dependencies: ["2DF60A8C441399AE"]
@@ -7432,8 +7666,8 @@
 				type: "item"
 			}]
 			title: "Mining Stabilizer Module"
-			x: 21.0d
-			y: 57.5d
+			x: 2.48d
+			y: 17.35d
 		}
 		{
 			dependencies: ["2DF60A8C441399AE"]
@@ -7486,8 +7720,8 @@
 				type: "item"
 			}]
 			title: "Night Vision Module"
-			x: 24.5d
-			y: 57.5d
+			x: 3.96d
+			y: 17.35d
 		}
 		{
 			dependencies: ["2DF60A8C441399AE"]
@@ -7540,8 +7774,8 @@
 				type: "item"
 			}]
 			title: "Wyvern Projectile Accuracy Module"
-			x: 0.0d
-			y: 61.0d
+			x: -1.96d
+			y: 18.9d
 		}
 		{
 			dependencies: ["2DF60A8C441399AE"]
@@ -7594,8 +7828,8 @@
 				type: "item"
 			}]
 			title: "Wyvern Projectile Damage Module"
-			x: 3.5d
-			y: 61.0d
+			x: -0.48d
+			y: 18.9d
 		}
 		{
 			dependencies: ["2DF60A8C441399AE"]
@@ -7648,8 +7882,8 @@
 				type: "item"
 			}]
 			title: "Wyvern Projectile Gravity Compensation Module"
-			x: 7.0d
-			y: 61.0d
+			x: 1.0d
+			y: 18.9d
 		}
 		{
 			dependencies: ["2DF60A8C441399AE"]
@@ -7702,8 +7936,8 @@
 				type: "item"
 			}]
 			title: "Wyvern Projectile Penetration Module"
-			x: 10.5d
-			y: 61.0d
+			x: 2.48d
+			y: 18.9d
 		}
 		{
 			dependencies: ["2DF60A8C441399AE"]
@@ -7756,8 +7990,8 @@
 				type: "item"
 			}]
 			title: "Wyvern Projectile Velocity Module"
-			x: 14.0d
-			y: 61.0d
+			x: 3.96d
+			y: 18.9d
 		}
 		{
 			dependencies: ["2DF60A8C441399AE"]
@@ -7813,8 +8047,8 @@
 				type: "item"
 			}]
 			title: "Wyvern Shield Capacity Module"
-			x: 17.5d
-			y: 61.0d
+			x: -1.96d
+			y: 20.45d
 		}
 		{
 			dependencies: ["2DF60A8C441399AE"]
@@ -7870,8 +8104,8 @@
 				type: "item"
 			}]
 			title: "Wyvern Shield Control Module"
-			x: 21.0d
-			y: 61.0d
+			x: -0.48d
+			y: 20.45d
 		}
 		{
 			dependencies: ["2DF60A8C441399AE"]
@@ -7927,8 +8161,8 @@
 				type: "item"
 			}]
 			title: "Wyvern Shield Recovery Module"
-			x: 24.5d
-			y: 61.0d
+			x: 1.0d
+			y: 20.45d
 		}
 		{
 			dependencies: ["2DF60A8C441399AE"]
@@ -7984,8 +8218,8 @@
 				type: "item"
 			}]
 			title: "Wyvern Speed Module"
-			x: 0.0d
-			y: 64.5d
+			x: 2.48d
+			y: 20.45d
 		}
 		{
 			dependencies: ["2DF60A8C441399AE"]
@@ -8038,8 +8272,8 @@
 				type: "item"
 			}]
 			title: "Wyvern Tree Harvester"
-			x: 3.5d
-			y: 64.5d
+			x: 3.96d
+			y: 20.45d
 		}
 		{
 			dependencies: ["2DF60A8C441399AE"]
@@ -8095,8 +8329,8 @@
 				type: "item"
 			}]
 			title: "Wyvern Undying Module"
-			x: 7.0d
-			y: 64.5d
+			x: 1.0d
+			y: 22.0d
 		}
 		{
 			dependencies: ["320D6C82CCFF6F04"]
@@ -8149,8 +8383,8 @@
 				type: "item"
 			}]
 			title: "Module Core"
-			x: 10.5d
-			y: 64.5d
+			x: 9.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["320D6C82CCFF6F04"]
@@ -8203,8 +8437,8 @@
 				type: "item"
 			}]
 			title: "Rain Sensor"
-			x: 14.0d
-			y: 64.5d
+			x: 9.0d
+			y: 8.05d
 		}
 		{
 			dependencies: ["2DF60A8C441399AE"]
@@ -8257,8 +8491,8 @@
 				type: "item"
 			}]
 			title: "Advanced Dislocator"
-			x: 17.5d
-			y: 64.5d
+			x: -9.96d
+			y: 14.25d
 		}
 		{
 			dependencies: ["2DF60A8C441399AE"]
@@ -8311,8 +8545,8 @@
 				type: "item"
 			}]
 			title: "Awakened Item Dislocator"
-			x: 21.0d
-			y: 64.5d
+			x: -8.48d
+			y: 14.25d
 		}
 		{
 			dependencies: ["5FCC310D019D7B3B"]
@@ -8390,8 +8624,8 @@
 				type: "item"
 			}]
 			title: "Chaotic Axe"
-			x: 24.5d
-			y: 64.5d
+			x: -9.96d
+			y: 40.6d
 		}
 		{
 			dependencies: ["5FCC310D019D7B3B"]
@@ -8464,8 +8698,8 @@
 				type: "item"
 			}]
 			title: "Chaotic Bow"
-			x: 0.0d
-			y: 68.0d
+			x: -8.48d
+			y: 40.6d
 		}
 		{
 			dependencies: ["5FCC310D019D7B3B"]
@@ -8554,8 +8788,8 @@
 				type: "item"
 			}]
 			title: "Chaotic Capacitor"
-			x: 3.5d
-			y: 68.0d
+			x: -7.0d
+			y: 40.6d
 		}
 		{
 			dependencies: ["5FCC310D019D7B3B"]
@@ -8628,8 +8862,8 @@
 				type: "item"
 			}]
 			title: "Chaotic Hoe"
-			x: 7.0d
-			y: 68.0d
+			x: -4.04d
+			y: 40.6d
 		}
 		{
 			dependencies: ["5FCC310D019D7B3B"]
@@ -8707,8 +8941,8 @@
 				type: "item"
 			}]
 			title: "Chaotic Pickaxe"
-			x: 10.5d
-			y: 68.0d
+			x: -7.74d
+			y: 42.15d
 		}
 		{
 			dependencies: ["5FCC310D019D7B3B"]
@@ -8786,8 +9020,8 @@
 				type: "item"
 			}]
 			title: "Chaotic Shovel"
-			x: 14.0d
-			y: 68.0d
+			x: -6.26d
+			y: 42.15d
 		}
 		{
 			dependencies: ["5FCC310D019D7B3B"]
@@ -8865,8 +9099,8 @@
 				type: "item"
 			}]
 			title: "Chaotic Staff of Power"
-			x: 17.5d
-			y: 68.0d
+			x: -4.78d
+			y: 42.15d
 		}
 		{
 			dependencies: ["320D6C82CCFF6F04"]
@@ -8919,8 +9153,8 @@
 				type: "item"
 			}]
 			title: "Crystal Binder"
-			x: 21.0d
-			y: 68.0d
+			x: 9.0d
+			y: 3.4d
 		}
 		{
 			dependencies: ["320D6C82CCFF6F04"]
@@ -8985,8 +9219,8 @@
 				type: "item"
 			}]
 			title: "Dislocator"
-			x: 24.5d
-			y: 68.0d
+			x: -9.22d
+			y: 3.4d
 		}
 		{
 			dependencies: ["625591F640326A5B"]
@@ -9064,8 +9298,8 @@
 				type: "item"
 			}]
 			title: "Draconic Axe"
-			x: 0.0d
-			y: 71.5d
+			x: -9.96d
+			y: 28.2d
 		}
 		{
 			dependencies: ["625591F640326A5B"]
@@ -9138,8 +9372,8 @@
 				type: "item"
 			}]
 			title: "Draconic Bow"
-			x: 3.5d
-			y: 71.5d
+			x: -8.48d
+			y: 28.2d
 		}
 		{
 			dependencies: ["625591F640326A5B"]
@@ -9228,8 +9462,8 @@
 				type: "item"
 			}]
 			title: "Draconic Capacitor"
-			x: 7.0d
-			y: 71.5d
+			x: -7.0d
+			y: 28.2d
 		}
 		{
 			dependencies: ["625591F640326A5B"]
@@ -9302,8 +9536,8 @@
 				type: "item"
 			}]
 			title: "Draconic Hoe"
-			x: 10.5d
-			y: 71.5d
+			x: -4.04d
+			y: 28.2d
 		}
 		{
 			dependencies: ["625591F640326A5B"]
@@ -9381,8 +9615,8 @@
 				type: "item"
 			}]
 			title: "Draconic Pickaxe"
-			x: 14.0d
-			y: 71.5d
+			x: -7.74d
+			y: 29.75d
 		}
 		{
 			dependencies: ["625591F640326A5B"]
@@ -9460,8 +9694,8 @@
 				type: "item"
 			}]
 			title: "Draconic Shovel"
-			x: 17.5d
-			y: 71.5d
+			x: -6.26d
+			y: 29.75d
 		}
 		{
 			dependencies: ["625591F640326A5B"]
@@ -9539,8 +9773,8 @@
 				type: "item"
 			}]
 			title: "Draconic Staff of Power"
-			x: 21.0d
-			y: 71.5d
+			x: -4.78d
+			y: 29.75d
 		}
 		{
 			dependencies: ["320D6C82CCFF6F04"]
@@ -9593,8 +9827,8 @@
 				type: "item"
 			}]
 			title: "Item Dislocator"
-			x: 24.5d
-			y: 71.5d
+			x: -7.74d
+			y: 3.4d
 		}
 		{
 			dependencies: ["320D6C82CCFF6F04"]
@@ -9647,8 +9881,8 @@
 				type: "item"
 			}]
 			title: "Un-Bound Dislocator (Point-to-Point)"
-			x: 0.0d
-			y: 75.0d
+			x: -6.26d
+			y: 3.4d
 		}
 		{
 			dependencies: ["320D6C82CCFF6F04"]
@@ -9701,8 +9935,8 @@
 				type: "item"
 			}]
 			title: "Un-Bound Dislocator (Player)"
-			x: 3.5d
-			y: 75.0d
+			x: -4.78d
+			y: 3.4d
 		}
 		{
 			dependencies: ["2DF60A8C441399AE"]
@@ -9780,8 +10014,8 @@
 				type: "item"
 			}]
 			title: "Wyvern Axe"
-			x: 7.0d
-			y: 75.0d
+			x: -7.0d
+			y: 14.25d
 		}
 		{
 			dependencies: ["2DF60A8C441399AE"]
@@ -9854,8 +10088,8 @@
 				type: "item"
 			}]
 			title: "Wyvern Bow"
-			x: 10.5d
-			y: 75.0d
+			x: -5.52d
+			y: 14.25d
 		}
 		{
 			dependencies: ["2DF60A8C441399AE"]
@@ -9928,8 +10162,8 @@
 				type: "item"
 			}]
 			title: "Wyvern Hoe"
-			x: 14.0d
-			y: 75.0d
+			x: -9.22d
+			y: 15.8d
 		}
 		{
 			dependencies: ["2DF60A8C441399AE"]
@@ -10007,8 +10241,8 @@
 				type: "item"
 			}]
 			title: "Wyvern Pickaxe"
-			x: 17.5d
-			y: 75.0d
+			x: -6.26d
+			y: 15.8d
 		}
 		{
 			dependencies: ["2DF60A8C441399AE"]
@@ -10086,8 +10320,8 @@
 				type: "item"
 			}]
 			title: "Wyvern Shovel"
-			x: 21.0d
-			y: 75.0d
+			x: -4.78d
+			y: 15.8d
 		}
 	]
 	title: "Draconic Evolution"

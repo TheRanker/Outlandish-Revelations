@@ -4,16 +4,96 @@
 	default_quest_shape: ""
 	filename: "botania"
 	group: "675002AB46E64298"
-	icon: "botania:lexicon"
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "outlandish_revelations:textures/questbook/icons/botania.png"
+		}
+	}
 	id: "1883B79BDB2AAE5D"
-	images: [{
-		height: 3.0d
-		image: "minecraft:textures/item/book.png"
-		rotation: 0.0d
-		width: 3.0d
-		x: 0.0d
-		y: -5.0d
-	}]
+	images: [
+		{
+			height: 3.0d
+			image: "minecraft:textures/item/book.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			height: 1.625d
+			image: "outlandish_revelations:textures/questbook/landmarks/botania/header.png"
+			order: -1
+			rotation: 0.0d
+			width: 5.5d
+			x: 11.5d
+			y: -7.4107d
+		}
+		{
+			height: 1.3d
+			image: "outlandish_revelations:textures/questbook/landmarks/botania/generating_flowers.png"
+			order: -1
+			rotation: 0.0d
+			width: 8.4d
+			x: 4.5429d
+			y: 5.3714d
+		}
+		{
+			height: 1.1304d
+			image: "outlandish_revelations:textures/questbook/landmarks/botania/mana_production.png"
+			order: -1
+			rotation: 0.0d
+			width: 6.2609d
+			x: 10.9714d
+			y: -2.803d
+		}
+		{
+			height: 1.3d
+			image: "outlandish_revelations:textures/questbook/landmarks/botania/manasteel_gear.png"
+			order: -1
+			rotation: 0.0d
+			width: 6.8d
+			x: 12.5d
+			y: -4.22d
+		}
+		{
+			height: 1.3d
+			image: "outlandish_revelations:textures/questbook/landmarks/botania/terrasteel.png"
+			order: -1
+			rotation: 0.0d
+			width: 5.2d
+			x: 16.5d
+			y: 5.8686d
+		}
+		{
+			height: 1.3d
+			image: "outlandish_revelations:textures/questbook/landmarks/botania/elementium_gear.png"
+			order: -1
+			rotation: 0.0d
+			width: 7.2d
+			x: 24.2029d
+			y: -2.4714d
+		}
+		{
+			height: 1.3d
+			image: "outlandish_revelations:textures/questbook/landmarks/botania/gaia_ritual.png"
+			order: -1
+			rotation: 0.0d
+			width: 5.6d
+			x: 23.7d
+			y: 5.3714d
+		}
+		{
+			height: 1.3d
+			image: "outlandish_revelations:textures/questbook/landmarks/botania/mana_spreaders.png"
+			order: -1
+			rotation: 0.0d
+			width: 6.8d
+			x: 6.7743d
+			y: 8.0d
+		}
+	]
 	order_index: 0
 	progression_mode: "flexible"
 	quest_links: [ ]

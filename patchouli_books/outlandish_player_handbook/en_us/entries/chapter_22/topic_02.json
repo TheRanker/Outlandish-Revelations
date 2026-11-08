@@ -1,0 +1,16 @@
+{
+  "name": "Five voices in the Overworld",
+  "category": "patchouli:chapter_22",
+  "icon": "minecraft:compass",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Look for Garrick Ashford, Professor Alden Voss, Mara Coppersmith, Captain Edda Thorne and Sister Ysra Vale in their distinct generated homes and work sites. These are separate characters with their own requests, rather than interchangeable quest stations."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Garrick forged the blade; Voss measured its resonance; Mara supported the machinery. Edda engraved the ring and lost it during her Ancient City research. Ysra studied willing personal offerings. Restore their work sites and learn what each contributed, then follow their leads onward."
+    }
+  ]
+}

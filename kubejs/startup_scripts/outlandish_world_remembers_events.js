@@ -2,6 +2,7 @@
 (function () {
   var Native = Java.loadClass('com.theranker.creativeguard.WorldRemembersBridge');
   Native.installConversation(function(event) {
+    if (global.ORRecordDeliveryVisit) global.ORRecordDeliveryVisit(event);
     if (global.ORWorldRemembersConversation) global.ORWorldRemembersConversation(event);
   });
   // Native code checks physical side before resolving the separate client-only bridge.

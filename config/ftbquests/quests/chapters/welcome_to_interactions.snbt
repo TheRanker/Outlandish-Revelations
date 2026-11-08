@@ -4,16 +4,60 @@
 	default_quest_shape: ""
 	filename: "welcome_to_interactions"
 	group: ""
-	icon: "minecraft:book"
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "outlandish_revelations:textures/questbook/icons/welcome_to_interactions.png"
+		}
+	}
 	id: "125A812BF384E9CD"
-	images: [{
-		height: 4.5d
-		image: "outlandish_revelations:textures/title.png"
-		rotation: 0.0d
-		width: 20.0d
-		x: 0.0d
-		y: -9.0d
-	}]
+	images: [
+		{
+			height: 4.5d
+			image: "outlandish_revelations:textures/title.png"
+			rotation: 0.0d
+			width: 20.0d
+			x: 0.0d
+			y: -9.0d
+		}
+		{
+			height: 1.3d
+			image: "outlandish_revelations:textures/questbook/landmarks/welcome_to_interactions/first_steps.png"
+			order: -1
+			rotation: 0.0d
+			width: 5.6d
+			x: -3.5314d
+			y: 0.1d
+		}
+		{
+			height: 1.3d
+			image: "outlandish_revelations:textures/questbook/landmarks/welcome_to_interactions/find_recipes_in_jei.png"
+			order: -1
+			rotation: 0.0d
+			width: 8.8d
+			x: 0.0d
+			y: -5.2029d
+		}
+		{
+			height: 1.3d
+			image: "outlandish_revelations:textures/questbook/landmarks/welcome_to_interactions/ore_scanner.png"
+			order: -1
+			rotation: 0.0d
+			width: 5.6d
+			x: -3.1457d
+			y: 2.6d
+		}
+		{
+			height: 1.3d
+			image: "outlandish_revelations:textures/questbook/landmarks/welcome_to_interactions/lockpicks.png"
+			order: -1
+			rotation: 0.0d
+			width: 4.8d
+			x: 3.9d
+			y: -2.6029d
+		}
+	]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
@@ -66,7 +110,7 @@
 			}]
 			title: "Your First Steps"
 			x: 0.0d
-			y: -4.0d
+			y: -1.1d
 		}
 		{
 			dependencies: ["239EC20EDCBDF9E7"]
@@ -126,8 +170,8 @@
 				title: "Important Information"
 				type: "checkmark"
 			}]
-			x: -4.0d
-			y: 1.0d
+			x: -3.9000000000000004d
+			y: -1.3d
 		}
 		{
 			dependencies: ["239EC20EDCBDF9E7"]
@@ -173,7 +217,7 @@
 			}]
 			title: "Find Your Next Recipe with JEI"
 			x: 0.0d
-			y: 1.0d
+			y: -3.9000000000000004d
 		}
 		{
 			dependencies: ["239EC20EDCBDF9E7"]
@@ -227,8 +271,8 @@
 				only_from_crafting: true
 				type: "item"
 			}]
-			x: 4.0d
-			y: 1.0d
+			x: 3.9000000000000004d
+			y: -1.3d
 		}
 		{
 			dependencies: ["239EC20EDCBDF9E7"]
@@ -274,8 +318,8 @@
 				item: "scannable:scanner"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 1.0d
+			x: 0.0d
+			y: 2.6d
 		}
 	]
 	title: "Welcome to Outlandish Revelations!"

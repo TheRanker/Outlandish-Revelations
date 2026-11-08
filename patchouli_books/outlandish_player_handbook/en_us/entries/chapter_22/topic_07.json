@@ -1,0 +1,40 @@
+{
+  "name": "The research behind the relics",
+  "category": "patchouli:chapter_22",
+  "icon": "kubejs:rankers_sword",
+  "sortnum": 7,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Story background$()$(br2)The Ranker studied enemies to learn how their abilities could be captured in artifacts. Forging, machinery, measurements and repeated experiments supported that goal. Tears for Fears is the sword he forged; it retains that name throughout the story."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "After defeating a Warden, the sword absorbed its sonic call. The ring later captured the Ender Dragon's flight, the Snow Queen's shielding and the Hydra's vitality. Edda's engraving made basic protection usable. Flight and the greater recovery remained sealed until awakening."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "The Snow Queen fights behind an ice shield. The Ranker captured its shielding for the ring's Guardian's Protection. The Hydra regenerates and regrows heads; its captured vitality becomes the awakened ring's emergency Last Stand. These are the history of existing powers, not new boss drops or additional awakening requirements."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Garrick's forge was damaged during a test of the captured Warden call. The Ranker exceeded Voss's marked limit. Sonic vibration broke a coupling and buckled the frame into the furnace. Voss's readings and Mara's inspection establish that cause. Your repairs complete the practical help he left unfinished."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Craftsmen, researchers, guards and travellers helped his work. In return, he promised help with their workshops and shelters. His growing pursuit of power left twelve of those promises unfinished. Your deliveries restore those existing places and let each witness explain their part."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "The Hovering Inferno was the next power he wanted to capture. Overconfident in earlier successes, he departed before his preparations were complete. He died before capturing it. Valen remembers both that decision and his courage covering the retreat. The Inferno kept the sword."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Malric's records prove that expedition dispatches were altered. The culprit remains unknown. You preserve the evidence and complete the help owed to the survivors. Recovering the artifacts and your later memorial awakening bring the main promise to its conclusion."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "The sword and ring are recovered through your existing Warden and Inferno objectives. These historical experiments do not create new boss ingredients or a second crafting route. The twelve personal stories and memorial ceremony govern awakening; the established team encounters govern dimensions."
+    }
+  ]
+}

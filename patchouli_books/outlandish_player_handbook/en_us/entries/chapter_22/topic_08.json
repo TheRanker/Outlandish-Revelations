@@ -1,0 +1,28 @@
+{
+  "name": "The lost ring and sealed flight",
+  "category": "patchouli:chapter_22",
+  "icon": "kubejs:rankers_ring",
+  "sortnum": 8,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Edda's account$()$(br2)The ring contained the dragon's flight, the Snow Queen's shielding and the Hydra's vitality. Edda's protective engraving made its basic ward usable. Flight and the greater recovery remained sealed while she worked on safely containing and binding those powers."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Edda carried the unfinished ring into an Ancient City. She hoped the city's inscriptions would help her contain its power safely. A Warden cornered her in the Deep Dark. The protective ward helped her survive; she lost the ring escaping. Sealed flight could not carry her out."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "By the time she returned, The Ranker had departed to face the Inferno. Her engraving research and his promised help with her watchpost were unfinished. Hear her account through the existing restoration requests; the expedition is part of the past."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "A player-attributed Warden kill yields the recovered ring where native relic testing is enabled. Equip it for dormant protection. The dragon's captured power is already inside it: defeating the dragon yourself does not switch on flight or award a second ring."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Finish all twelve personal stories. At The Ranker's Memorial, place both relics on the Blood Altar, fill it three times, and make your own knife sacrifice during the third fill. When the altar has counted all three offerings, collect your awakened relics. Equip the ring to use its flight."
+    }
+  ]
+}

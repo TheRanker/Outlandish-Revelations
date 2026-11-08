@@ -5,9 +5,9 @@
 	group: "675002AB46E64298"
 	icon: {
 		Count: 1
-		id: "patchouli:guide_book"
+		id: "ftbquests:custom_icon"
 		tag: {
-			"patchouli:book": "productivebees:guide"
+			Icon: "outlandish_revelations:textures/questbook/icons/productive_bees.png"
 		}
 	}
 	id: "26E6ED94168A05C4"
@@ -27,6 +27,51 @@
 			width: 2.0d
 			x: 5.0d
 			y: -7.0d
+		}
+		{
+			height: 1.625d
+			image: "outlandish_revelations:textures/questbook/landmarks/productive_bees/header.png"
+			order: -1
+			rotation: 0.0d
+			width: 9.0d
+			x: 0.5d
+			y: -8.9821d
+		}
+		{
+			height: 1.3d
+			image: "outlandish_revelations:textures/questbook/landmarks/productive_bees/catch_bees.png"
+			order: -1
+			rotation: 0.0d
+			width: 5.2d
+			x: -1.8457d
+			y: -3.8d
+		}
+		{
+			height: 1.3d
+			image: "outlandish_revelations:textures/questbook/landmarks/productive_bees/first_hives.png"
+			order: -1
+			rotation: 0.0d
+			width: 5.6d
+			x: 5.1486d
+			y: -1.8d
+		}
+		{
+			height: 1.3d
+			image: "outlandish_revelations:textures/questbook/landmarks/productive_bees/bee_nests.png"
+			order: -1
+			rotation: 0.0d
+			width: 4.8d
+			x: -4.0d
+			y: 6.74d
+		}
+		{
+			height: 1.3d
+			image: "outlandish_revelations:textures/questbook/landmarks/productive_bees/breed_and_convert_bees.png"
+			order: -1
+			rotation: 0.0d
+			width: 10.0d
+			x: 5.9029d
+			y: 7.2d
 		}
 	]
 	order_index: 2

@@ -3,7 +3,13 @@
 	default_quest_shape: ""
 	filename: "minecolonies"
 	group: "290BD65C3C52540C"
-	icon: "minecolonies:supplycampdeployer"
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "outlandish_revelations:textures/questbook/icons/minecolonies.png"
+		}
+	}
 	id: "0E21FB2EFB41A583"
 	images: [
 		{
@@ -61,6 +67,24 @@
 			width: 2.880952380952381d
 			x: 5.5d
 			y: -1.0d
+		}
+		{
+			height: 1.3d
+			image: "outlandish_revelations:textures/questbook/landmarks/minecolonies/town_hall.png"
+			order: -1
+			rotation: 0.0d
+			width: 4.8d
+			x: -0.6d
+			y: -9.74d
+		}
+		{
+			height: 1.3d
+			image: "outlandish_revelations:textures/questbook/landmarks/minecolonies/supply_camp.png"
+			order: -1
+			rotation: 0.0d
+			width: 5.6d
+			x: -1.0171d
+			y: -11.5286d
 		}
 	]
 	order_index: 10

@@ -1,0 +1,32 @@
+{
+  "name": "Tears for Fears and remembrance",
+  "category": "patchouli:chapter_22",
+  "icon": "minecraft:book",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The Inferno victory recovers the sword Tears for Fears and awards four Radiation potions through FTB Quests. Its Warden shout already works. A player-attributed Warden kill yields the lost Ring of Ranker where native relic testing is enabled. Equipped dormant protection can soften a dangerous hit; flight remains sealed."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "After recovering Tears for Fears, carry it in your normal inventory when speaking with a story NPC. It can be in your hotbar, main inventory or offhand; it need not be selected. A contextual Listen prompt offers their recognition while preserving ordinary quest conversations. A sword inside a backpack or other container is not in your normal inventory."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Relic awakening is experimental in this development build and is disabled in standard downloads. Where enabled for testing by the world or server owner, you must personally finish all twelve NPC stories and bring both relics to a valid Ranker’s Memorial. Defeat a Warden to obtain the Ring of Ranker; the sword comes from the Inferno victory reward."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "At the memorial, right-click its Tier 1 Blood Altar while holding Tears for Fears. Then hold the Ring of Ranker and right-click the same altar. Both relics rest on it. Stay nearby and fill the altar to 10,000 LP. The altar drains each full basin and tells you how many offerings it has counted. Fill it three times for 30,000 LP total."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "During the third fill, use your own Sacrificial Knife near the altar so that it receives your sacrifice. Friends can help fill the basin. Once the third offering counts, right-click the altar twice with an empty main hand, clearing your hand between clicks, to collect your awakened relics."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "The Ranker’s spirit can finally leave the Spirit World to rest in Heaven. The Promise Fulfilled records your completion and date. Read your own inscription on the plaque. Tears for Fears keeps its Warden shout and gains Fracture and Echo. Equip your awakened ring for Last Stand and flight. Both awakened relics enable Skybreaker. Use /orrelichud hide or show for the optional HUD."
+    }
+  ]
+}

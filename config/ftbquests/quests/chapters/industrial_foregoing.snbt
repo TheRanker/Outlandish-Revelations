@@ -3,16 +3,87 @@
 	default_quest_shape: ""
 	filename: "industrial_foregoing"
 	group: "58A75D3AE27EE52B"
-	icon: "industrialforegoing:common_black_hole_unit"
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "outlandish_revelations:textures/questbook/icons/industrial_foregoing.png"
+		}
+	}
 	id: "193F91842D2ED7D9"
-	images: [{
-		height: 3.0d
-		image: "minecraft:textures/item/book.png"
-		rotation: 0.0d
-		width: 3.0d
-		x: 0.0d
-		y: -5.0d
-	}]
+	images: [
+		{
+			height: 3.0d
+			image: "minecraft:textures/item/book.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			height: 1.625d
+			image: "outlandish_revelations:textures/questbook/landmarks/industrial_foregoing/header.png"
+			order: -1
+			rotation: 0.0d
+			width: 11.5d
+			x: 8.8214d
+			y: -7.4107d
+		}
+		{
+			height: 1.3d
+			image: "outlandish_revelations:textures/questbook/landmarks/industrial_foregoing/latex_and_plastic.png"
+			order: -1
+			rotation: 0.0d
+			width: 8.0d
+			x: 14.6571d
+			y: -1.2d
+		}
+		{
+			height: 1.3d
+			image: "outlandish_revelations:textures/questbook/landmarks/industrial_foregoing/simple_machines.png"
+			order: -1
+			rotation: 0.0d
+			width: 7.2d
+			x: 6.3d
+			y: 5.3057d
+		}
+		{
+			height: 1.3d
+			image: "outlandish_revelations:textures/questbook/landmarks/industrial_foregoing/advanced_machines.png"
+			order: -1
+			rotation: 0.0d
+			width: 8.0d
+			x: 15.0457d
+			y: 5.4d
+		}
+		{
+			height: 1.3d
+			image: "outlandish_revelations:textures/questbook/landmarks/industrial_foregoing/farming_automation.png"
+			order: -1
+			rotation: 0.0d
+			width: 8.4d
+			x: 6.5d
+			y: -5.24d
+		}
+		{
+			height: 1.3d
+			image: "outlandish_revelations:textures/questbook/landmarks/industrial_foregoing/other_machines.png"
+			order: -1
+			rotation: 0.0d
+			width: 6.8d
+			x: 2.2714d
+			y: -2.8d
+		}
+		{
+			height: 1.3d
+			image: "outlandish_revelations:textures/questbook/landmarks/industrial_foregoing/slime_and_liquid_meat.png"
+			order: -1
+			rotation: 0.0d
+			width: 9.6d
+			x: 18.3429d
+			y: 0.3d
+		}
+	]
 	order_index: 1
 	quest_links: [ ]
 	quests: [

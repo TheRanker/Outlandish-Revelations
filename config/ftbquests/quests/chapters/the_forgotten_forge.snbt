@@ -3,7 +3,67 @@
 	default_quest_shape: ""
 	filename: "the_forgotten_forge"
 	group: "671F319DF12B461D"
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "outlandish_revelations:item/questbook/forge_embers"
+		}
+	}
 	id: "00084033E0FBBB12"
+	images: [
+		{
+			height: 1.05625d
+			image: "outlandish_revelations:textures/questbook/story/the_forgotten_forge_title.png"
+			rotation: 0.0d
+			width: 13.0d
+			x: 0.0d
+			y: -4.05d
+		}
+		{
+			click: "#1DF850DC20855200"
+			height: 6.0d
+			hover: [
+				"Garrick Ashford"
+				"The Forgotten Forge"
+				"Open the promise"
+			]
+			image: "outlandish_revelations:textures/questbook/story/the_forgotten_forge.png"
+			rotation: 0.0d
+			width: 9.6d
+			x: -2.02d
+			y: -0.42d
+		}
+		{
+			height: 6.0d
+			image: "outlandish_revelations:textures/questbook/story/rail.png"
+			order: -1
+			rotation: 0.0d
+			width: 3.2d
+			x: 4.62d
+			y: -0.42d
+		}
+		{
+			click: "#0D451FD02314CA9F"
+			height: 0.975d
+			hover: ["Return to the story index"]
+			image: "outlandish_revelations:textures/questbook/story/back.png"
+			rotation: 0.0d
+			width: 4.2d
+			x: 0.0d
+			y: 3.36d
+		}
+		{
+			dependency: "1DF850DC20855200"
+			height: 0.65d
+			image: "outlandish_revelations:textures/questbook/story/recorded.png"
+			order: 1
+			rotation: 0.0d
+			width: 4.4d
+			x: 0.2d
+			y: -2.97d
+		}
+	]
 	order_index: 1
 	quest_links: [ ]
 	quests: [
@@ -38,16 +98,16 @@
 				type: "structure"
 			}]
 			title: "Find The Forgotten Forge"
-			x: 0.0d
-			y: 0.0d
+			x: 4.62d
+			y: -0.42d
 		}
 		{
+			dependencies: ["341AEEC2E66EFB35"]
 			description: [
 				"Garrick forged Tears for Fears, the sword used in The Ranker's captured-power research. Restoring his forge fulfils work The Ranker left unfinished and begins the trail to Voss."
 				"Use a Quest Scroll and finish his five existing deliveries. This entry tracks Garrick's personal completion advancement."
 				"Next story lead: Professor Alden Voss. Your personal NPC history remains separate from shared FTB team progress."
 			]
-			dependencies: ["341AEEC2E66EFB35"]
 			extraquests_calendar: {
 				active_quests: 3
 				enabled: 0b
@@ -57,7 +117,13 @@
 				weekday: 1
 				weekly: 0b
 			}
-			icon: "bloodmagic:soulforge"
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "outlandish_revelations:textures/questbook/icons/the_forgotten_forge.png"
+				}
+			}
 			id: "1DF850DC20855200"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -83,8 +149,8 @@
 				title: "A Forge Remembered"
 				type: "advancement"
 			}]
-			x: 0.0d
-			y: 3.5d
+			x: 4.62d
+			y: 1.16d
 		}
 		{
 			description: [
@@ -129,8 +195,8 @@
 				title: "The Unfinished Promise"
 				type: "checkmark"
 			}]
-			x: 0.0d
-			y: -3.5d
+			x: 4.62d
+			y: -1.97d
 		}
 	]
 	title: "The Forgotten Forge"

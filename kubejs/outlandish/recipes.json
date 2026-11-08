@@ -4221,7 +4221,7 @@
   {
     "group": "ae2",
     "type": "cutter",
-    "id": "gtceu:ae2/network/parts/cable_anchor/StainlessSteeld",
+    "id": "gtceu:ae2/network/parts/cable_anchor/stainless_steeld",
     "inputs": [
       {
         "prefix": "ingot",
@@ -4248,7 +4248,7 @@
   {
     "group": "ae2",
     "type": "cutter",
-    "id": "gtceu:ae2/network/parts/cable_anchor/StainlessSteell",
+    "id": "gtceu:ae2/network/parts/cable_anchor/stainless_steell",
     "inputs": [
       {
         "prefix": "ingot",
@@ -4275,7 +4275,7 @@
   {
     "group": "ae2",
     "type": "cutter",
-    "id": "gtceu:ae2/network/parts/cable_anchor/StainlessSteelw",
+    "id": "gtceu:ae2/network/parts/cable_anchor/stainless_steelw",
     "inputs": [
       {
         "prefix": "ingot",

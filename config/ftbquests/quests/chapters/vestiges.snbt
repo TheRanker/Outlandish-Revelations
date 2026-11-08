@@ -3,8 +3,61 @@
 	default_quest_shape: ""
 	filename: "vestiges"
 	group: "290BD65C3C52540C"
-	icon: "minecraft:amethyst_shard"
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "outlandish_revelations:textures/questbook/icons/vestiges.png"
+		}
+	}
 	id: "0845D7FAFEC8C873"
+	images: [
+		{
+			height: 1.625d
+			image: "outlandish_revelations:textures/questbook/landmarks/vestiges/header.png"
+			order: -1
+			rotation: 0.0d
+			width: 13.0d
+			x: 10.0d
+			y: -5.0d
+		}
+		{
+			height: 1.3d
+			image: "outlandish_revelations:textures/questbook/landmarks/vestiges/learn_the_relics.png"
+			order: -1
+			rotation: 0.0d
+			width: 7.6d
+			x: 0.0d
+			y: -1.5171d
+		}
+		{
+			height: 1.3d
+			image: "outlandish_revelations:textures/questbook/landmarks/vestiges/ability_keys.png"
+			order: -1
+			rotation: 0.0d
+			width: 6.0d
+			x: 6.4329d
+			y: -1.5429d
+		}
+		{
+			height: 1.3d
+			image: "outlandish_revelations:textures/questbook/landmarks/vestiges/choose_a_challenge.png"
+			order: -1
+			rotation: 0.0d
+			width: 8.4d
+			x: 19.3457d
+			y: 0.0d
+		}
+		{
+			height: 1.3d
+			image: "outlandish_revelations:textures/questbook/landmarks/vestiges/seashell_defence.png"
+			order: -1
+			rotation: 0.0d
+			width: 7.6d
+			x: 9.75d
+			y: 4.5471d
+		}
+	]
 	order_index: 8
 	quest_links: [ ]
 	quests: [

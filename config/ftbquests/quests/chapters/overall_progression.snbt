@@ -3,16 +3,61 @@
 	default_quest_shape: ""
 	filename: "overall_progression"
 	group: "290BD65C3C52540C"
-	icon: "botania:smelt_rod"
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "outlandish_revelations:textures/questbook/icons/overall_progression.png"
+		}
+	}
 	id: "043609101C2421A7"
-	images: [{
-		height: 3.0d
-		image: "minecraft:textures/item/book.png"
-		rotation: 0.0d
-		width: 3.0d
-		x: -16.5d
-		y: -7.0d
-	}]
+	images: [
+		{
+			height: 1.625d
+			image: "outlandish_revelations:textures/questbook/landmarks/overall_progression/header.png"
+			order: -1
+			rotation: 0.0d
+			width: 11.0d
+			x: -19.8214d
+			y: -9.4107d
+		}
+		{
+			height: 1.3d
+			image: "outlandish_revelations:textures/questbook/landmarks/overall_progression/copper_and_tin.png"
+			order: -1
+			rotation: 0.0d
+			width: 6.8d
+			x: -27.0d
+			y: -7.1743d
+		}
+		{
+			height: 1.3d
+			image: "outlandish_revelations:textures/questbook/landmarks/overall_progression/bronze_dust.png"
+			order: -1
+			rotation: 0.0d
+			width: 5.6d
+			x: -19.5d
+			y: -6.0d
+		}
+		{
+			height: 1.3d
+			image: "outlandish_revelations:textures/questbook/landmarks/overall_progression/clay_and_brick.png"
+			order: -1
+			rotation: 0.0d
+			width: 6.8d
+			x: -19.5d
+			y: 2.6743d
+		}
+		{
+			height: 1.3d
+			image: "outlandish_revelations:textures/questbook/landmarks/overall_progression/first_steam_boiler.png"
+			order: -1
+			rotation: 0.0d
+			width: 8.4d
+			x: -13.5d
+			y: -3.5d
+		}
+	]
 	order_index: 3
 	quest_links: [ ]
 	quests: [

@@ -3,16 +3,70 @@
 	default_quest_shape: ""
 	filename: "botanical_field_industry"
 	group: ""
-	icon: "botania:runic_altar"
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "outlandish_revelations:textures/questbook/icons/botanical_field_industry.png"
+		}
+	}
 	id: "39F53BB405F4B7D2"
-	images: [{
-		height: 3.0d
-		image: "minecraft:textures/item/book.png"
-		rotation: 0.0d
-		width: 3.0d
-		x: 4.5d
-		y: -4.0d
-	}]
+	images: [
+		{
+			height: 1.625d
+			image: "outlandish_revelations:textures/questbook/landmarks/botanical_field_industry/header.png"
+			order: -1
+			rotation: 0.0d
+			width: 15.5d
+			x: 7.5d
+			y: -3.0d
+		}
+		{
+			height: 1.3d
+			image: "outlandish_revelations:textures/questbook/landmarks/botanical_field_industry/living_materials.png"
+			order: -1
+			rotation: 0.0d
+			width: 7.6d
+			x: 0.0d
+			y: -1.1743d
+		}
+		{
+			height: 1.3d
+			image: "outlandish_revelations:textures/questbook/landmarks/botanical_field_industry/runes_and_terrasteel.png"
+			order: -1
+			rotation: 0.0d
+			width: 9.2d
+			x: 7.2d
+			y: 1.1743d
+		}
+		{
+			height: 1.3d
+			image: "outlandish_revelations:textures/questbook/landmarks/botanical_field_industry/elves_and_gaia.png"
+			order: -1
+			rotation: 0.0d
+			width: 6.8d
+			x: 9.0d
+			y: -1.1743d
+		}
+		{
+			height: 1.3d
+			image: "outlandish_revelations:textures/questbook/landmarks/botanical_field_industry/field_security.png"
+			order: -1
+			rotation: 0.0d
+			width: 6.8d
+			x: 9.0d
+			y: 3.6743d
+		}
+		{
+			height: 1.3d
+			image: "outlandish_revelations:textures/questbook/landmarks/botanical_field_industry/relics_and_terra_blade.png"
+			order: -1
+			rotation: 0.0d
+			width: 10.0d
+			x: 15.6d
+			y: 1.1743d
+		}
+	]
 	order_index: 3
 	quest_links: [ ]
 	quests: [

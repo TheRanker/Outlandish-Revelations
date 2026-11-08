@@ -3,16 +3,78 @@
 	default_quest_shape: ""
 	filename: "ars_nouveau"
 	group: "675002AB46E64298"
-	icon: "ars_nouveau:creative_spell_book"
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "outlandish_revelations:textures/questbook/icons/ars_nouveau.png"
+		}
+	}
 	id: "6AEDA2F9BEB57759"
-	images: [{
-		height: 3.0d
-		image: "minecraft:textures/item/book.png"
-		rotation: 0.0d
-		width: 3.0d
-		x: 0.0d
-		y: -5.0d
-	}]
+	images: [
+		{
+			height: 3.0d
+			image: "minecraft:textures/item/book.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			height: 1.625d
+			image: "outlandish_revelations:textures/questbook/landmarks/ars_nouveau/header.png"
+			order: -1
+			rotation: 0.0d
+			width: 7.0d
+			x: 4.5179d
+			y: -16.0536d
+		}
+		{
+			height: 1.3d
+			image: "outlandish_revelations:textures/questbook/landmarks/ars_nouveau/tier_1_glyphs.png"
+			order: -1
+			rotation: 0.0d
+			width: 6.4d
+			x: -8.36d
+			y: -4.0d
+		}
+		{
+			height: 1.3d
+			image: "outlandish_revelations:textures/questbook/landmarks/ars_nouveau/tier_2_glyphs.png"
+			order: -1
+			rotation: 0.0d
+			width: 6.4d
+			x: 2.6429d
+			y: -2.0286d
+		}
+		{
+			height: 1.3d
+			image: "outlandish_revelations:textures/questbook/landmarks/ars_nouveau/tier_3_glyphs.png"
+			order: -1
+			rotation: 0.0d
+			width: 6.4d
+			x: 6.6429d
+			y: -4.3d
+		}
+		{
+			height: 1.3d
+			image: "outlandish_revelations:textures/questbook/landmarks/ars_nouveau/enchanting.png"
+			order: -1
+			rotation: 0.0d
+			width: 5.2d
+			x: 13.4529d
+			y: -1.2d
+		}
+		{
+			height: 1.3d
+			image: "outlandish_revelations:textures/questbook/landmarks/ars_nouveau/summoning.png"
+			order: -1
+			rotation: 0.0d
+			width: 4.8d
+			x: 7.8257d
+			y: -1.5d
+		}
+	]
 	order_index: 1
 	quest_links: [ ]
 	quests: [

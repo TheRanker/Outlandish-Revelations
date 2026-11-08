@@ -1,18 +1,432 @@
 {
+	autofocus_id: "355C84C7FFC0C1EF"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "tinkers_workshop"
 	group: "290BD65C3C52540C"
-	icon: "tconstruct:tinker_station"
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "outlandish_revelations:textures/questbook/icons/tinkers_workshop.png"
+		}
+	}
 	id: "0711F5D3B94585D5"
-	images: [{
-		height: 3.0d
-		image: "minecraft:textures/item/iron_pickaxe.png"
-		rotation: 0.0d
-		width: 3.0d
-		x: -8.0d
-		y: -4.5d
-	}]
+	images: [
+		{
+			height: 3.0d
+			image: "minecraft:textures/item/iron_pickaxe.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: -12.5d
+			y: -6.25d
+		}
+		{
+			height: 1.56d
+			image: "outlandish_revelations:textures/questbook/tinkers_workshop/title.png"
+			order: -1
+			rotation: 0.0d
+			width: 24.0d
+			x: 0.0d
+			y: -6.25d
+		}
+		{
+			height: 1.3d
+			image: "outlandish_revelations:textures/questbook/tinkers_workshop/setup.png"
+			order: -1
+			rotation: 0.0d
+			width: 10.4d
+			x: -5.2d
+			y: -4.0d
+		}
+		{
+			height: 0.8125d
+			image: "outlandish_revelations:textures/questbook/tinkers_workshop/shared.png"
+			order: -1
+			rotation: 0.0d
+			width: 12.0d
+			x: 6.0d
+			y: -3.55d
+		}
+		{
+			height: 1.4174d
+			image: "outlandish_revelations:textures/questbook/tinkers_workshop/cast_library.png"
+			order: -1
+			rotation: 0.0d
+			width: 15.7d
+			x: 2.2d
+			y: 0.2d
+		}
+		{
+			height: 1.612d
+			image: "outlandish_revelations:textures/questbook/tinkers_workshop/lv.png"
+			order: -1
+			rotation: 0.0d
+			width: 24.8d
+			x: 1.0d
+			y: 10.0d
+		}
+		{
+			height: 1.625d
+			image: "outlandish_revelations:textures/questbook/tinkers_workshop/materials.png"
+			order: -1
+			rotation: 0.0d
+			width: 12.0d
+			x: -1.1d
+			y: 11.55d
+		}
+		{
+			height: 1.0698d
+			image: "outlandish_revelations:textures/questbook/tinkers_workshop/upgrades.png"
+			order: -1
+			rotation: 0.0d
+			width: 7.9d
+			x: 9.15d
+			y: 11.55d
+		}
+		{
+			height: 1.612d
+			image: "outlandish_revelations:textures/questbook/tinkers_workshop/mv.png"
+			order: -1
+			rotation: 0.0d
+			width: 24.8d
+			x: 1.0d
+			y: 18.7d
+		}
+		{
+			height: 1.625d
+			image: "outlandish_revelations:textures/questbook/tinkers_workshop/materials.png"
+			order: -1
+			rotation: 0.0d
+			width: 12.0d
+			x: -1.1d
+			y: 20.25d
+		}
+		{
+			height: 1.0698d
+			image: "outlandish_revelations:textures/questbook/tinkers_workshop/upgrades.png"
+			order: -1
+			rotation: 0.0d
+			width: 7.9d
+			x: 9.15d
+			y: 20.25d
+		}
+		{
+			height: 1.612d
+			image: "outlandish_revelations:textures/questbook/tinkers_workshop/hv.png"
+			order: -1
+			rotation: 0.0d
+			width: 24.8d
+			x: 1.0d
+			y: 25.9d
+		}
+		{
+			height: 1.625d
+			image: "outlandish_revelations:textures/questbook/tinkers_workshop/materials.png"
+			order: -1
+			rotation: 0.0d
+			width: 12.0d
+			x: -1.1d
+			y: 27.45d
+		}
+		{
+			height: 1.0698d
+			image: "outlandish_revelations:textures/questbook/tinkers_workshop/upgrades.png"
+			order: -1
+			rotation: 0.0d
+			width: 7.9d
+			x: 9.15d
+			y: 27.45d
+		}
+		{
+			height: 1.612d
+			image: "outlandish_revelations:textures/questbook/tinkers_workshop/ev.png"
+			order: -1
+			rotation: 0.0d
+			width: 24.8d
+			x: 1.0d
+			y: 34.6d
+		}
+		{
+			height: 1.625d
+			image: "outlandish_revelations:textures/questbook/tinkers_workshop/materials.png"
+			order: -1
+			rotation: 0.0d
+			width: 12.0d
+			x: -1.1d
+			y: 36.15d
+		}
+		{
+			height: 1.0698d
+			image: "outlandish_revelations:textures/questbook/tinkers_workshop/upgrades.png"
+			order: -1
+			rotation: 0.0d
+			width: 7.9d
+			x: 9.15d
+			y: 36.15d
+		}
+		{
+			height: 2.106d
+			image: "outlandish_revelations:textures/questbook/tinkers_workshop/mining.png"
+			order: -1
+			rotation: 0.0d
+			width: 32.4d
+			x: 0.0d
+			y: 41.4d
+		}
+		{
+			height: 1.3812d
+			image: "outlandish_revelations:textures/questbook/tinkers_workshop/pickaxe.png"
+			order: -1
+			rotation: 0.0d
+			width: 10.2d
+			x: -9.6d
+			y: 43.4d
+		}
+		{
+			height: 1.3812d
+			image: "outlandish_revelations:textures/questbook/tinkers_workshop/pickadze.png"
+			order: -1
+			rotation: 0.0d
+			width: 10.2d
+			x: 0.0d
+			y: 43.4d
+		}
+		{
+			height: 1.3812d
+			image: "outlandish_revelations:textures/questbook/tinkers_workshop/vein_hammer.png"
+			order: -1
+			rotation: 0.0d
+			width: 10.2d
+			x: 9.6d
+			y: 43.4d
+		}
+		{
+			height: 1.3812d
+			image: "outlandish_revelations:textures/questbook/tinkers_workshop/sledge_hammer.png"
+			order: -1
+			rotation: 0.0d
+			width: 10.2d
+			x: -4.8d
+			y: 51.6d
+		}
+		{
+			height: 1.3812d
+			image: "outlandish_revelations:textures/questbook/tinkers_workshop/excavator.png"
+			order: -1
+			rotation: 0.0d
+			width: 10.2d
+			x: 4.8d
+			y: 51.6d
+		}
+		{
+			height: 2.106d
+			image: "outlandish_revelations:textures/questbook/tinkers_workshop/field.png"
+			order: -1
+			rotation: 0.0d
+			width: 32.4d
+			x: 0.0d
+			y: 59.9d
+		}
+		{
+			height: 1.3812d
+			image: "outlandish_revelations:textures/questbook/tinkers_workshop/hand_axe.png"
+			order: -1
+			rotation: 0.0d
+			width: 10.2d
+			x: -9.6d
+			y: 61.9d
+		}
+		{
+			height: 1.3812d
+			image: "outlandish_revelations:textures/questbook/tinkers_workshop/broad_axe.png"
+			order: -1
+			rotation: 0.0d
+			width: 10.2d
+			x: 0.0d
+			y: 61.9d
+		}
+		{
+			height: 1.3812d
+			image: "outlandish_revelations:textures/questbook/tinkers_workshop/kama.png"
+			order: -1
+			rotation: 0.0d
+			width: 10.2d
+			x: 9.6d
+			y: 61.9d
+		}
+		{
+			height: 1.3812d
+			image: "outlandish_revelations:textures/questbook/tinkers_workshop/mattock.png"
+			order: -1
+			rotation: 0.0d
+			width: 10.2d
+			x: -9.6d
+			y: 70.1d
+		}
+		{
+			height: 1.3812d
+			image: "outlandish_revelations:textures/questbook/tinkers_workshop/scythe.png"
+			order: -1
+			rotation: 0.0d
+			width: 10.2d
+			x: 0.0d
+			y: 70.1d
+		}
+		{
+			height: 1.3812d
+			image: "outlandish_revelations:textures/questbook/tinkers_workshop/fishing_rod.png"
+			order: -1
+			rotation: 0.0d
+			width: 10.2d
+			x: 9.6d
+			y: 70.1d
+		}
+		{
+			height: 2.106d
+			image: "outlandish_revelations:textures/questbook/tinkers_workshop/melee.png"
+			order: -1
+			rotation: 0.0d
+			width: 32.4d
+			x: 0.0d
+			y: 78.4d
+		}
+		{
+			height: 1.3812d
+			image: "outlandish_revelations:textures/questbook/tinkers_workshop/sword.png"
+			order: -1
+			rotation: 0.0d
+			width: 10.2d
+			x: -9.6d
+			y: 80.4d
+		}
+		{
+			height: 1.3812d
+			image: "outlandish_revelations:textures/questbook/tinkers_workshop/dagger.png"
+			order: -1
+			rotation: 0.0d
+			width: 10.2d
+			x: 0.0d
+			y: 80.4d
+		}
+		{
+			height: 1.3812d
+			image: "outlandish_revelations:textures/questbook/tinkers_workshop/cleaver.png"
+			order: -1
+			rotation: 0.0d
+			width: 10.2d
+			x: 9.6d
+			y: 80.4d
+		}
+		{
+			height: 1.3812d
+			image: "outlandish_revelations:textures/questbook/tinkers_workshop/javelin.png"
+			order: -1
+			rotation: 0.0d
+			width: 10.2d
+			x: -9.6d
+			y: 88.6d
+		}
+		{
+			height: 1.3812d
+			image: "outlandish_revelations:textures/questbook/tinkers_workshop/throwing_axe.png"
+			order: -1
+			rotation: 0.0d
+			width: 10.2d
+			x: 0.0d
+			y: 88.6d
+		}
+		{
+			height: 1.3812d
+			image: "outlandish_revelations:textures/questbook/tinkers_workshop/shuriken.png"
+			order: -1
+			rotation: 0.0d
+			width: 10.2d
+			x: 9.6d
+			y: 88.6d
+		}
+		{
+			height: 2.106d
+			image: "outlandish_revelations:textures/questbook/tinkers_workshop/ranged.png"
+			order: -1
+			rotation: 0.0d
+			width: 32.4d
+			x: 0.0d
+			y: 96.9d
+		}
+		{
+			height: 1.3812d
+			image: "outlandish_revelations:textures/questbook/tinkers_workshop/longbow.png"
+			order: -1
+			rotation: 0.0d
+			width: 10.2d
+			x: -9.6d
+			y: 98.9d
+		}
+		{
+			height: 1.3812d
+			image: "outlandish_revelations:textures/questbook/tinkers_workshop/crossbow.png"
+			order: -1
+			rotation: 0.0d
+			width: 10.2d
+			x: 0.0d
+			y: 98.9d
+		}
+		{
+			height: 1.3812d
+			image: "outlandish_revelations:textures/questbook/tinkers_workshop/arrow.png"
+			order: -1
+			rotation: 0.0d
+			width: 10.2d
+			x: 9.6d
+			y: 98.9d
+		}
+		{
+			height: 2.106d
+			image: "outlandish_revelations:textures/questbook/tinkers_workshop/armor.png"
+			order: -1
+			rotation: 0.0d
+			width: 32.4d
+			x: 0.0d
+			y: 107.2d
+		}
+		{
+			height: 1.3812d
+			image: "outlandish_revelations:textures/questbook/tinkers_workshop/plate_helmet.png"
+			order: -1
+			rotation: 0.0d
+			width: 10.2d
+			x: -9.6d
+			y: 109.2d
+		}
+		{
+			height: 1.3812d
+			image: "outlandish_revelations:textures/questbook/tinkers_workshop/plate_chestplate.png"
+			order: -1
+			rotation: 0.0d
+			width: 10.2d
+			x: 0.0d
+			y: 109.2d
+		}
+		{
+			height: 1.3812d
+			image: "outlandish_revelations:textures/questbook/tinkers_workshop/plate_leggings.png"
+			order: -1
+			rotation: 0.0d
+			width: 10.2d
+			x: 9.6d
+			y: 109.2d
+		}
+		{
+			height: 1.3812d
+			image: "outlandish_revelations:textures/questbook/tinkers_workshop/plate_boots.png"
+			order: -1
+			rotation: 0.0d
+			width: 10.2d
+			x: 0.0d
+			y: 117.4d
+		}
+	]
 	order_index: 7
 	quest_links: [ ]
 	quests: [
@@ -28,6 +442,7 @@
 				weekly: 0b
 			}
 			hide_dependency_lines: false
+			hide_dependent_lines: true
 			icon: "tconstruct:tinker_station"
 			id: "355C84C7FFC0C1EF"
 			rewards: [{
@@ -52,8 +467,8 @@
 				type: "item"
 			}]
 			title: "A Tool Worth Keeping"
-			x: 0.0d
-			y: 0.0d
+			x: -2.25d
+			y: -2.0d
 		}
 		{
 			dependencies: ["355C84C7FFC0C1EF"]
@@ -68,6 +483,7 @@
 				weekly: 0b
 			}
 			hide_dependency_lines: false
+			hide_dependent_lines: true
 			icon: "tconstruct:seared_melter"
 			id: "6BF6081B694E192C"
 			rewards: [
@@ -105,8 +521,8 @@
 				type: "item"
 			}]
 			title: "Your Casting Workshop"
-			x: 3.0d
-			y: 0.0d
+			x: -12.4d
+			y: 1.5d
 		}
 		{
 			dependencies: ["6BF6081B694E192C"]
@@ -158,8 +574,8 @@
 				type: "item"
 			}]
 			title: "Build a Smeltery"
-			x: 6.0d
-			y: 0.0d
+			x: -12.4d
+			y: 5.4d
 		}
 		{
 			dependencies: ["5A743790B7DE1F68"]
@@ -198,8 +614,8 @@
 				type: "item"
 			}]
 			title: "LV Toolmaking"
-			x: 9.0d
-			y: 0.0d
+			x: -12.4d
+			y: 13.0d
 		}
 		{
 			dependencies: ["7E70FB77FE0C6307"]
@@ -238,8 +654,8 @@
 				type: "item"
 			}]
 			title: "Prepared Steel"
-			x: 11.5d
-			y: 0.0d
+			x: -12.4d
+			y: 17.25d
 		}
 		{
 			dependencies: ["76A777BED9EA9778"]
@@ -278,8 +694,8 @@
 				type: "item"
 			}]
 			title: "MV Toolmaking"
-			x: 14.5d
-			y: 0.0d
+			x: -12.4d
+			y: 21.7d
 		}
 		{
 			dependencies: ["04CB33970520ACC1"]
@@ -319,8 +735,8 @@
 				type: "item"
 			}]
 			title: "Sanguine Steel"
-			x: 16.0d
-			y: -1.5d
+			x: 0.4d
+			y: 21.7d
 		}
 		{
 			dependencies: ["04CB33970520ACC1"]
@@ -359,8 +775,8 @@
 				type: "item"
 			}]
 			title: "HV Specialist Materials"
-			x: 22.5d
-			y: 0.0d
+			x: -12.4d
+			y: 28.9d
 		}
 		{
 			dependencies: ["775C951B7479BF95"]
@@ -399,8 +815,8 @@
 				type: "item"
 			}]
 			title: "EV Premium Toolmaking"
-			x: 23.5d
-			y: 1.5d
+			x: -12.4d
+			y: 37.6d
 		}
 		{
 			dependencies: ["04CB33970520ACC1"]
@@ -439,8 +855,8 @@
 				type: "item"
 			}]
 			title: "Plan Your Modifiers"
-			x: 13.0d
-			y: 1.5d
+			x: 9.9d
+			y: 21.7d
 		}
 		{
 			dependencies: ["355C84C7FFC0C1EF"]
@@ -480,8 +896,8 @@
 				type: "item"
 			}]
 			title: "Keep the Workshop Books"
-			x: -3.5d
-			y: -3.5d
+			x: -7.1d
+			y: -2.0d
 		}
 		{
 			dependencies: ["775C951B7479BF95"]
@@ -521,8 +937,8 @@
 				type: "item"
 			}]
 			title: "Prepare Neptunium"
-			x: 22.5d
-			y: -3.0d
+			x: 2.65d
+			y: 30.4d
 		}
 		{
 			dependencies: ["04CB33970520ACC1"]
@@ -562,8 +978,8 @@
 				type: "item"
 			}]
 			title: "Prepare Aluminum"
-			x: 14.0d
-			y: -1.5d
+			x: -2.6d
+			y: 21.7d
 		}
 		{
 			dependencies: ["7E70FB77FE0C6307"]
@@ -603,8 +1019,8 @@
 				type: "item"
 			}]
 			title: "Prepare Amethyst Bronze"
-			x: 8.5d
-			y: -1.5d
+			x: -6.35d
+			y: 13.0d
 		}
 		{
 			dependencies: ["2BAA2C6160129376"]
@@ -644,8 +1060,8 @@
 				type: "item"
 			}]
 			title: "Prepare Ancient"
-			x: 25.0d
-			y: 0.5d
+			x: -1.85d
+			y: 37.6d
 		}
 		{
 			dependencies: ["7E70FB77FE0C6307"]
@@ -685,8 +1101,8 @@
 				type: "item"
 			}]
 			title: "Prepare Blaze"
-			x: 7.5d
-			y: -1.5d
+			x: -4.85d
+			y: 13.0d
 		}
 		{
 			dependencies: ["775C951B7479BF95"]
@@ -726,8 +1142,8 @@
 				type: "item"
 			}]
 			title: "Prepare Blazewood"
-			x: 24.5d
-			y: -3.0d
+			x: -6.35d
+			y: 28.9d
 		}
 		{
 			dependencies: ["775C951B7479BF95"]
@@ -767,8 +1183,8 @@
 				type: "item"
 			}]
 			title: "Prepare Blazing Bone"
-			x: 23.5d
-			y: -3.0d
+			x: -4.85d
+			y: 28.9d
 		}
 		{
 			dependencies: ["7E70FB77FE0C6307"]
@@ -808,8 +1224,8 @@
 				type: "item"
 			}]
 			title: "Prepare Bronze"
-			x: 9.5d
-			y: -1.5d
+			x: -3.35d
+			y: 13.0d
 		}
 		{
 			dependencies: ["775C951B7479BF95"]
@@ -849,8 +1265,8 @@
 				type: "item"
 			}]
 			title: "Prepare Cinderslime"
-			x: 21.5d
-			y: -3.0d
+			x: -3.35d
+			y: 28.9d
 		}
 		{
 			dependencies: ["04CB33970520ACC1"]
@@ -890,8 +1306,8 @@
 				type: "item"
 			}]
 			title: "Prepare Cobalt"
-			x: 15.0d
-			y: -1.5d
+			x: -1.1d
+			y: 21.7d
 		}
 		{
 			dependencies: ["7E70FB77FE0C6307"]
@@ -931,8 +1347,8 @@
 				type: "item"
 			}]
 			title: "Prepare Constantan"
-			x: 7.5d
-			y: -2.5d
+			x: -1.85d
+			y: 13.0d
 		}
 		{
 			dependencies: ["775C951B7479BF95"]
@@ -972,8 +1388,8 @@
 				type: "item"
 			}]
 			title: "Prepare Dragon Scale"
-			x: 24.5d
-			y: -1.0d
+			x: -1.85d
+			y: 28.9d
 		}
 		{
 			dependencies: ["7E70FB77FE0C6307"]
@@ -1013,8 +1429,8 @@
 				type: "item"
 			}]
 			title: "Prepare Electrum"
-			x: 8.5d
-			y: -2.5d
+			x: -0.35d
+			y: 13.0d
 		}
 		{
 			dependencies: ["775C951B7479BF95"]
@@ -1054,8 +1470,8 @@
 				type: "item"
 			}]
 			title: "Prepare End Rod"
-			x: 20.5d
-			y: -1.0d
+			x: -0.35d
+			y: 28.9d
 		}
 		{
 			dependencies: ["7E70FB77FE0C6307"]
@@ -1095,8 +1511,8 @@
 				type: "item"
 			}]
 			title: "Prepare Ender Pearl"
-			x: 10.5d
-			y: -1.5d
+			x: 1.15d
+			y: 13.0d
 		}
 		{
 			dependencies: ["775C951B7479BF95"]
@@ -1136,8 +1552,8 @@
 				type: "item"
 			}]
 			title: "Prepare Enderslime"
-			x: 20.5d
-			y: -3.0d
+			x: 1.15d
+			y: 28.9d
 		}
 		{
 			dependencies: ["775C951B7479BF95"]
@@ -1177,8 +1593,8 @@
 				type: "item"
 			}]
 			title: "Prepare Enderslime Vine"
-			x: 23.5d
-			y: -1.0d
+			x: 2.65d
+			y: 28.9d
 		}
 		{
 			dependencies: ["775C951B7479BF95"]
@@ -1218,8 +1634,8 @@
 				type: "item"
 			}]
 			title: "Prepare Fiery"
-			x: 22.5d
-			y: -1.0d
+			x: 4.15d
+			y: 28.9d
 		}
 		{
 			dependencies: ["7E70FB77FE0C6307"]
@@ -1259,8 +1675,8 @@
 				type: "item"
 			}]
 			title: "Prepare Glowstone"
-			x: 8.5d
-			y: -3.5d
+			x: 2.65d
+			y: 13.0d
 		}
 		{
 			dependencies: ["775C951B7479BF95"]
@@ -1300,8 +1716,8 @@
 				type: "item"
 			}]
 			title: "Prepare Hepatizon"
-			x: 21.5d
-			y: -2.0d
+			x: -4.85d
+			y: 30.4d
 		}
 		{
 			dependencies: ["7E70FB77FE0C6307"]
@@ -1341,8 +1757,8 @@
 				type: "item"
 			}]
 			title: "Prepare Ice"
-			x: 7.5d
-			y: -3.5d
+			x: 4.15d
+			y: 13.0d
 		}
 		{
 			dependencies: ["7E70FB77FE0C6307"]
@@ -1382,8 +1798,8 @@
 				type: "item"
 			}]
 			title: "Prepare Ichor"
-			x: 9.5d
-			y: -3.5d
+			x: -6.35d
+			y: 14.5d
 		}
 		{
 			dependencies: ["7E70FB77FE0C6307"]
@@ -1423,8 +1839,8 @@
 				type: "item"
 			}]
 			title: "Prepare Invar"
-			x: 9.5d
-			y: -2.5d
+			x: -4.85d
+			y: 14.5d
 		}
 		{
 			dependencies: ["775C951B7479BF95"]
@@ -1464,8 +1880,8 @@
 				type: "item"
 			}]
 			title: "Prepare Knightly"
-			x: 21.5d
-			y: -1.0d
+			x: -3.35d
+			y: 30.4d
 		}
 		{
 			dependencies: ["775C951B7479BF95"]
@@ -1505,8 +1921,8 @@
 				type: "item"
 			}]
 			title: "Prepare Knightmetal"
-			x: 20.5d
-			y: -2.0d
+			x: -1.85d
+			y: 30.4d
 		}
 		{
 			dependencies: ["775C951B7479BF95"]
@@ -1546,8 +1962,8 @@
 				type: "item"
 			}]
 			title: "Prepare Knightslime"
-			x: 23.5d
-			y: -2.0d
+			x: -0.35d
+			y: 30.4d
 		}
 		{
 			dependencies: ["7E70FB77FE0C6307"]
@@ -1587,8 +2003,8 @@
 				type: "item"
 			}]
 			title: "Prepare Kobold"
-			x: 7.5d
-			y: 1.0d
+			x: -3.35d
+			y: 14.5d
 		}
 		{
 			dependencies: ["7E70FB77FE0C6307"]
@@ -1628,8 +2044,8 @@
 				type: "item"
 			}]
 			title: "Prepare Magma"
-			x: 8.5d
-			y: 1.0d
+			x: -1.85d
+			y: 14.5d
 		}
 		{
 			dependencies: ["7E70FB77FE0C6307"]
@@ -1669,8 +2085,8 @@
 				type: "item"
 			}]
 			title: "Prepare Magnetite"
-			x: 9.5d
-			y: 1.0d
+			x: -0.35d
+			y: 14.5d
 		}
 		{
 			dependencies: ["775C951B7479BF95"]
@@ -1710,8 +2126,8 @@
 				type: "item"
 			}]
 			title: "Prepare Manyullyn"
-			x: 24.5d
-			y: -2.0d
+			x: 1.15d
+			y: 30.4d
 		}
 		{
 			dependencies: ["7E70FB77FE0C6307"]
@@ -1751,8 +2167,8 @@
 				type: "item"
 			}]
 			title: "Prepare Nahuatl"
-			x: 10.5d
-			y: 1.0d
+			x: 1.15d
+			y: 14.5d
 		}
 		{
 			dependencies: ["7E70FB77FE0C6307"]
@@ -1792,8 +2208,8 @@
 				type: "item"
 			}]
 			title: "Prepare Necronium"
-			x: 10.5d
-			y: 3.0d
+			x: 2.65d
+			y: 14.5d
 		}
 		{
 			dependencies: ["775C951B7479BF95"]
@@ -1833,8 +2249,8 @@
 				type: "item"
 			}]
 			title: "Prepare Nicrosil"
-			x: 24.5d
-			y: -4.0d
+			x: 4.15d
+			y: 30.4d
 		}
 		{
 			dependencies: ["7E70FB77FE0C6307"]
@@ -1874,8 +2290,8 @@
 				type: "item"
 			}]
 			title: "Prepare Obsidian"
-			x: 7.5d
-			y: 2.0d
+			x: 4.15d
+			y: 14.5d
 		}
 		{
 			dependencies: ["7E70FB77FE0C6307"]
@@ -1915,8 +2331,8 @@
 				type: "item"
 			}]
 			title: "Prepare Pewter"
-			x: 8.5d
-			y: 2.0d
+			x: -6.35d
+			y: 16.0d
 		}
 		{
 			dependencies: ["7E70FB77FE0C6307"]
@@ -1956,8 +2372,8 @@
 				type: "item"
 			}]
 			title: "Prepare Pig Iron"
-			x: 9.5d
-			y: 2.0d
+			x: -4.85d
+			y: 16.0d
 		}
 		{
 			dependencies: ["7E70FB77FE0C6307"]
@@ -1997,8 +2413,8 @@
 				type: "item"
 			}]
 			title: "Prepare Plated Slimewood"
-			x: 10.5d
-			y: 2.0d
+			x: -3.35d
+			y: 16.0d
 		}
 		{
 			dependencies: ["7E70FB77FE0C6307"]
@@ -2038,8 +2454,8 @@
 				type: "item"
 			}]
 			title: "Prepare Quartz"
-			x: 10.5d
-			y: -3.5d
+			x: -1.85d
+			y: 16.0d
 		}
 		{
 			dependencies: ["775C951B7479BF95"]
@@ -2079,8 +2495,8 @@
 				type: "item"
 			}]
 			title: "Prepare Queens Slime"
-			x: 22.5d
-			y: -2.0d
+			x: -2.6d
+			y: 31.9d
 		}
 		{
 			dependencies: ["7E70FB77FE0C6307"]
@@ -2120,8 +2536,8 @@
 				type: "item"
 			}]
 			title: "Prepare Rose Gold"
-			x: 10.5d
-			y: -2.5d
+			x: -0.35d
+			y: 16.0d
 		}
 		{
 			dependencies: ["775C951B7479BF95"]
@@ -2161,8 +2577,8 @@
 				type: "item"
 			}]
 			title: "Prepare Shulker"
-			x: 23.5d
-			y: -4.0d
+			x: -1.1d
+			y: 31.9d
 		}
 		{
 			dependencies: ["7E70FB77FE0C6307"]
@@ -2202,8 +2618,8 @@
 				type: "item"
 			}]
 			title: "Prepare Slimesteel"
-			x: 7.5d
-			y: 3.0d
+			x: 2.65d
+			y: 16.0d
 		}
 		{
 			dependencies: ["7E70FB77FE0C6307"]
@@ -2243,8 +2659,8 @@
 				type: "item"
 			}]
 			title: "Prepare Steeleaf"
-			x: 8.5d
-			y: 3.0d
+			x: 4.15d
+			y: 16.0d
 		}
 		{
 			dependencies: ["775C951B7479BF95"]
@@ -2284,8 +2700,8 @@
 				type: "item"
 			}]
 			title: "Prepare Hematite"
-			x: 22.5d
-			y: -4.0d
+			x: -6.35d
+			y: 30.4d
 		}
 		{
 			dependencies: ["7E70FB77FE0C6307"]
@@ -2325,8 +2741,8 @@
 				type: "item"
 			}]
 			title: "Prepare Silky Cloth"
-			x: 9.5d
-			y: 3.0d
+			x: 1.15d
+			y: 16.0d
 		}
 		{
 			dependencies: ["775C951B7479BF95"]
@@ -2366,8 +2782,8 @@
 				type: "item"
 			}]
 			title: "Prepare Stainless Steel"
-			x: 21.5d
-			y: -4.0d
+			x: 0.4d
+			y: 31.9d
 		}
 		{
 			dependencies: ["2BAA2C6160129376"]
@@ -2407,8 +2823,8 @@
 				type: "item"
 			}]
 			title: "Prepare Titanium"
-			x: 25.0d
-			y: 2.5d
+			x: -0.35d
+			y: 37.6d
 		}
 		{
 			dependencies: ["775C951B7479BF95"]
@@ -2448,8 +2864,8 @@
 				type: "item"
 			}]
 			title: "Expanded Upgrade Component"
-			x: 22.5d
-			y: 1.5d
+			x: 7.65d
+			y: 28.9d
 		}
 		{
 			dependencies: ["04CB33970520ACC1"]
@@ -2489,8 +2905,8 @@
 				type: "item"
 			}]
 			title: "Silky Upgrade Component"
-			x: 14.0d
-			y: 1.5d
+			x: 9.15d
+			y: 23.2d
 		}
 		{
 			dependencies: ["2BAA2C6160129376"]
@@ -2530,8 +2946,8 @@
 				type: "item"
 			}]
 			title: "Unbreakable Upgrade Component"
-			x: 23.5d
-			y: 3.5d
+			x: 9.15d
+			y: 37.6d
 		}
 		{
 			dependencies: ["7E70FB77FE0C6307"]
@@ -2571,8 +2987,8 @@
 				type: "item"
 			}]
 			title: "Emerald Upgrade Component"
-			x: 8.5d
-			y: 4.5d
+			x: 9.15d
+			y: 13.0d
 		}
 		{
 			dependencies: ["775C951B7479BF95"]
@@ -2612,8 +3028,8 @@
 				type: "item"
 			}]
 			title: "Soulbound Upgrade Component"
-			x: 20.5d
-			y: 1.5d
+			x: 9.15d
+			y: 28.9d
 		}
 		{
 			dependencies: ["7E70FB77FE0C6307"]
@@ -2653,8 +3069,8 @@
 				type: "item"
 			}]
 			title: "Diamond Upgrade Component"
-			x: 9.5d
-			y: 4.5d
+			x: 7.65d
+			y: 13.0d
 		}
 		{
 			dependencies: ["04CB33970520ACC1"]
@@ -2694,8 +3110,8 @@
 				type: "item"
 			}]
 			title: "Netherite Upgrade Component"
-			x: 16.0d
-			y: 1.5d
+			x: 8.4d
+			y: 21.7d
 		}
 		{
 			dependencies: ["775C951B7479BF95"]
@@ -2735,8 +3151,8 @@
 				type: "item"
 			}]
 			title: "Soulbound Upgrade Component"
-			x: 21.5d
-			y: 1.5d
+			x: 10.65d
+			y: 28.9d
 		}
 		{
 			dependencies: ["04CB33970520ACC1"]
@@ -2776,8 +3192,8 @@
 				type: "item"
 			}]
 			title: "Reinforced Upgrade Component"
-			x: 15.0d
-			y: 1.5d
+			x: 11.4d
+			y: 21.7d
 		}
 		{
 			dependencies: ["6BF6081B694E192C"]
@@ -2817,8 +3233,8 @@
 				type: "item"
 			}]
 			title: "Adze Head Cast"
-			x: 1.0d
-			y: -1.5d
+			x: -3.8d
+			y: 2.1d
 		}
 		{
 			dependencies: ["6BF6081B694E192C"]
@@ -2858,8 +3274,8 @@
 				type: "item"
 			}]
 			title: "Arrow Cast"
-			x: 2.0d
-			y: -1.5d
+			x: -2.3d
+			y: 2.1d
 		}
 		{
 			dependencies: ["6BF6081B694E192C"]
@@ -2899,8 +3315,8 @@
 				type: "item"
 			}]
 			title: "Blank Sand Cast"
-			x: 3.0d
-			y: -1.5d
+			x: -0.8d
+			y: 2.1d
 		}
 		{
 			dependencies: ["6BF6081B694E192C"]
@@ -2940,8 +3356,8 @@
 				type: "item"
 			}]
 			title: "Boots Plating Cast"
-			x: 4.0d
-			y: -1.5d
+			x: 0.7d
+			y: 2.1d
 		}
 		{
 			dependencies: ["6BF6081B694E192C"]
@@ -2981,8 +3397,8 @@
 				type: "item"
 			}]
 			title: "Bow Grip Cast"
-			x: 5.0d
-			y: -1.5d
+			x: 2.2d
+			y: 2.1d
 		}
 		{
 			dependencies: ["6BF6081B694E192C"]
@@ -3022,8 +3438,8 @@
 				type: "item"
 			}]
 			title: "Bow Limb Cast"
-			x: 1.0d
-			y: -2.5d
+			x: 3.7d
+			y: 2.1d
 		}
 		{
 			dependencies: ["6BF6081B694E192C"]
@@ -3063,8 +3479,8 @@
 				type: "item"
 			}]
 			title: "Broad Axe Head Cast"
-			x: 2.0d
-			y: -2.5d
+			x: 5.2d
+			y: 2.1d
 		}
 		{
 			dependencies: ["6BF6081B694E192C"]
@@ -3104,8 +3520,8 @@
 				type: "item"
 			}]
 			title: "Broad Blade Cast"
-			x: 3.0d
-			y: -2.5d
+			x: 6.7d
+			y: 2.1d
 		}
 		{
 			dependencies: ["6BF6081B694E192C"]
@@ -3145,8 +3561,8 @@
 				type: "item"
 			}]
 			title: "Chestplate Plating Cast"
-			x: 1.0d
-			y: -3.5d
+			x: 8.2d
+			y: 2.1d
 		}
 		{
 			dependencies: ["6BF6081B694E192C"]
@@ -3186,8 +3602,8 @@
 				type: "item"
 			}]
 			title: "Coin Cast"
-			x: 2.0d
-			y: -3.5d
+			x: -3.8d
+			y: 3.6d
 		}
 		{
 			dependencies: ["6BF6081B694E192C"]
@@ -3227,8 +3643,8 @@
 				type: "item"
 			}]
 			title: "Gear Cast"
-			x: 3.0d
-			y: -3.5d
+			x: -2.3d
+			y: 3.6d
 		}
 		{
 			dependencies: ["6BF6081B694E192C"]
@@ -3268,8 +3684,8 @@
 				type: "item"
 			}]
 			title: "Gem Cast"
-			x: 4.0d
-			y: -3.5d
+			x: -0.8d
+			y: 3.6d
 		}
 		{
 			dependencies: ["6BF6081B694E192C"]
@@ -3322,8 +3738,8 @@
 				type: "item"
 			}]
 			title: "Hammer Head Cast"
-			x: 5.0d
-			y: -3.5d
+			x: 0.7d
+			y: 3.6d
 		}
 		{
 			dependencies: ["6BF6081B694E192C"]
@@ -3363,8 +3779,8 @@
 				type: "item"
 			}]
 			title: "Helmet Plating Cast"
-			x: 1.0d
-			y: -4.5d
+			x: 2.2d
+			y: 3.6d
 		}
 		{
 			dependencies: ["6BF6081B694E192C"]
@@ -3404,8 +3820,8 @@
 				type: "item"
 			}]
 			title: "Ingot Cast"
-			x: 5.0d
-			y: -2.5d
+			x: 3.7d
+			y: 3.6d
 		}
 		{
 			dependencies: ["6BF6081B694E192C"]
@@ -3445,8 +3861,8 @@
 				type: "item"
 			}]
 			title: "Large Plate Cast"
-			x: 4.0d
-			y: -2.5d
+			x: 5.2d
+			y: 3.6d
 		}
 		{
 			dependencies: ["6BF6081B694E192C"]
@@ -3486,8 +3902,8 @@
 				type: "item"
 			}]
 			title: "Leggings Plating Cast"
-			x: 3.0d
-			y: -4.5d
+			x: 6.7d
+			y: 3.6d
 		}
 		{
 			dependencies: ["6BF6081B694E192C"]
@@ -3527,8 +3943,8 @@
 				type: "item"
 			}]
 			title: "Maille Cast"
-			x: 5.0d
-			y: -4.5d
+			x: 8.2d
+			y: 3.6d
 		}
 		{
 			dependencies: ["6BF6081B694E192C"]
@@ -3568,8 +3984,8 @@
 				type: "item"
 			}]
 			title: "Nugget Cast"
-			x: 1.0d
-			y: -5.5d
+			x: -3.8d
+			y: 5.1d
 		}
 		{
 			dependencies: ["6BF6081B694E192C"]
@@ -3609,8 +4025,8 @@
 				type: "item"
 			}]
 			title: "Pick Head Cast"
-			x: 2.0d
-			y: -5.5d
+			x: -2.3d
+			y: 5.1d
 		}
 		{
 			dependencies: ["6BF6081B694E192C"]
@@ -3650,8 +4066,8 @@
 				type: "item"
 			}]
 			title: "Plate Cast"
-			x: 3.0d
-			y: -5.5d
+			x: -0.8d
+			y: 5.1d
 		}
 		{
 			dependencies: ["6BF6081B694E192C"]
@@ -3691,8 +4107,8 @@
 				type: "item"
 			}]
 			title: "Repair Kit Cast"
-			x: 4.0d
-			y: -5.5d
+			x: 0.7d
+			y: 5.1d
 		}
 		{
 			dependencies: ["6BF6081B694E192C"]
@@ -3732,8 +4148,8 @@
 				type: "item"
 			}]
 			title: "Rod Cast"
-			x: 4.0d
-			y: -6.5d
+			x: 2.2d
+			y: 5.1d
 		}
 		{
 			dependencies: ["6BF6081B694E192C"]
@@ -3773,8 +4189,8 @@
 				type: "item"
 			}]
 			title: "Small Axe Head Cast"
-			x: 5.0d
-			y: -6.5d
+			x: 3.7d
+			y: 5.1d
 		}
 		{
 			dependencies: ["6BF6081B694E192C"]
@@ -3814,8 +4230,8 @@
 				type: "item"
 			}]
 			title: "Small Blade Cast"
-			x: 2.0d
-			y: -4.5d
+			x: 5.2d
+			y: 5.1d
 		}
 		{
 			dependencies: ["6BF6081B694E192C"]
@@ -3855,8 +4271,8 @@
 				type: "item"
 			}]
 			title: "Tool Binding Cast"
-			x: 4.0d
-			y: -4.5d
+			x: 6.7d
+			y: 5.1d
 		}
 		{
 			dependencies: ["6BF6081B694E192C"]
@@ -3896,8 +4312,8 @@
 				type: "item"
 			}]
 			title: "Tool Handle Cast"
-			x: 1.0d
-			y: -6.5d
+			x: 8.2d
+			y: 5.1d
 		}
 		{
 			dependencies: ["6BF6081B694E192C"]
@@ -3937,8 +4353,8 @@
 				type: "item"
 			}]
 			title: "Tough Binding Cast"
-			x: 2.0d
-			y: -6.5d
+			x: 0.7d
+			y: 6.6d
 		}
 		{
 			dependencies: ["6BF6081B694E192C"]
@@ -3978,8 +4394,8 @@
 				type: "item"
 			}]
 			title: "Tough Handle Cast"
-			x: 5.0d
-			y: -5.5d
+			x: 2.2d
+			y: 6.6d
 		}
 		{
 			dependencies: ["6BF6081B694E192C"]
@@ -4019,8 +4435,8 @@
 				type: "item"
 			}]
 			title: "Wire Cast"
-			x: 3.0d
-			y: -6.5d
+			x: 3.7d
+			y: 6.6d
 		}
 		{
 			dependencies: ["355C84C7FFC0C1EF"]
@@ -4057,8 +4473,8 @@
 				type: "checkmark"
 			}]
 			title: "Plan a Plate Boots"
-			x: 13.0d
-			y: 15.0d
+			x: 0.0d
+			y: 119.05d
 		}
 		{
 			dependencies: ["7CF3CE7BB93E3609"]
@@ -4098,8 +4514,8 @@
 				type: "item"
 			}]
 			title: "Boots Plating for Plate Boots"
-			x: 16.5d
-			y: 16.0d
+			x: 0.83d
+			y: 121.55d
 		}
 		{
 			dependencies: [
@@ -4142,8 +4558,8 @@
 				type: "item"
 			}]
 			title: "Boots Plating Cast for Plate Boots"
-			x: 12.0d
-			y: 11.5d
+			x: -1.95d
+			y: 121.55d
 		}
 		{
 			dependencies: ["7CF3CE7BB93E3609"]
@@ -4183,8 +4599,8 @@
 				type: "item"
 			}]
 			title: "Maille for Plate Boots"
-			x: 12.0d
-			y: 17.5d
+			x: 1.95d
+			y: 121.55d
 		}
 		{
 			dependencies: [
@@ -4227,8 +4643,8 @@
 				type: "item"
 			}]
 			title: "Maille Cast for Plate Boots"
-			x: 11.0d
-			y: 12.0d
+			x: -0.83d
+			y: 121.55d
 		}
 		{
 			dependencies: [
@@ -4298,8 +4714,8 @@
 				type: "item"
 			}]
 			title: "Plate Boots"
-			x: 17.0d
-			y: 23.0d
+			x: 1.39d
+			y: 124.05d
 		}
 		{
 			dependencies: ["355C84C7FFC0C1EF"]
@@ -4336,8 +4752,8 @@
 				type: "checkmark"
 			}]
 			title: "Plan a Plate Chestplate"
-			x: -4.0d
-			y: 0.0d
+			x: 0.0d
+			y: 110.85d
 		}
 		{
 			dependencies: ["3BF229BD4E93D999"]
@@ -4377,8 +4793,8 @@
 				type: "item"
 			}]
 			title: "Chestplate Plating for Plate Chestplate"
-			x: -8.5d
-			y: 1.0d
+			x: 0.83d
+			y: 113.35d
 		}
 		{
 			dependencies: [
@@ -4421,8 +4837,8 @@
 				type: "item"
 			}]
 			title: "Chestplate Plating Cast for Plate Chestplate"
-			x: -3.0d
-			y: 1.5d
+			x: -1.95d
+			y: 113.35d
 		}
 		{
 			dependencies: ["3BF229BD4E93D999"]
@@ -4462,8 +4878,8 @@
 				type: "item"
 			}]
 			title: "Maille for Plate Chestplate"
-			x: -8.5d
-			y: 3.0d
+			x: 1.95d
+			y: 113.35d
 		}
 		{
 			dependencies: [
@@ -4506,8 +4922,8 @@
 				type: "item"
 			}]
 			title: "Maille Cast for Plate Chestplate"
-			x: -5.0d
-			y: 1.5d
+			x: -0.83d
+			y: 113.35d
 		}
 		{
 			dependencies: [
@@ -4577,8 +4993,8 @@
 				type: "item"
 			}]
 			title: "Plate Chestplate"
-			x: -10.0d
-			y: 2.0d
+			x: 1.39d
+			y: 115.85d
 		}
 		{
 			dependencies: ["355C84C7FFC0C1EF"]
@@ -4615,8 +5031,8 @@
 				type: "checkmark"
 			}]
 			title: "Plan a Plate Helmet"
-			x: 25.0d
-			y: 37.0d
+			x: -9.6d
+			y: 110.85d
 		}
 		{
 			dependencies: ["23CA93515471FE0D"]
@@ -4656,8 +5072,8 @@
 				type: "item"
 			}]
 			title: "Helmet Plating for Plate Helmet"
-			x: 26.5d
-			y: 39.0d
+			x: -8.77d
+			y: 113.35d
 		}
 		{
 			dependencies: [
@@ -4700,8 +5116,8 @@
 				type: "item"
 			}]
 			title: "Helmet Plating Cast for Plate Helmet"
-			x: 21.5d
-			y: 37.0d
+			x: -11.55d
+			y: 113.35d
 		}
 		{
 			dependencies: ["23CA93515471FE0D"]
@@ -4741,8 +5157,8 @@
 				type: "item"
 			}]
 			title: "Maille for Plate Helmet"
-			x: 25.0d
-			y: 39.5d
+			x: -7.65d
+			y: 113.35d
 		}
 		{
 			dependencies: [
@@ -4785,8 +5201,8 @@
 				type: "item"
 			}]
 			title: "Maille Cast for Plate Helmet"
-			x: 26.0d
-			y: 34.0d
+			x: -10.43d
+			y: 113.35d
 		}
 		{
 			dependencies: [
@@ -4856,8 +5272,8 @@
 				type: "item"
 			}]
 			title: "Plate Helmet"
-			x: 27.0d
-			y: 41.0d
+			x: -8.21d
+			y: 115.85d
 		}
 		{
 			dependencies: ["355C84C7FFC0C1EF"]
@@ -4894,8 +5310,8 @@
 				type: "checkmark"
 			}]
 			title: "Plan a Plate Leggings"
-			x: -3.5d
-			y: 33.0d
+			x: 9.6d
+			y: 110.85d
 		}
 		{
 			dependencies: ["499EFA08F6A7108A"]
@@ -4935,8 +5351,8 @@
 				type: "item"
 			}]
 			title: "Leggings Plating for Plate Leggings"
-			x: -3.0d
-			y: 38.0d
+			x: 10.43d
+			y: 113.35d
 		}
 		{
 			dependencies: [
@@ -4979,8 +5395,8 @@
 				type: "item"
 			}]
 			title: "Leggings Plating Cast for Plate Leggings"
-			x: -5.0d
-			y: 30.0d
+			x: 7.65d
+			y: 113.35d
 		}
 		{
 			dependencies: ["499EFA08F6A7108A"]
@@ -5020,8 +5436,8 @@
 				type: "item"
 			}]
 			title: "Maille for Plate Leggings"
-			x: -6.0d
-			y: 36.5d
+			x: 11.55d
+			y: 113.35d
 		}
 		{
 			dependencies: [
@@ -5064,8 +5480,8 @@
 				type: "item"
 			}]
 			title: "Maille Cast for Plate Leggings"
-			x: -1.5d
-			y: 31.0d
+			x: 8.77d
+			y: 113.35d
 		}
 		{
 			dependencies: [
@@ -5135,8 +5551,8 @@
 				type: "item"
 			}]
 			title: "Plate Leggings"
-			x: -6.0d
-			y: 42.0d
+			x: 10.99d
+			y: 115.85d
 		}
 		{
 			dependencies: ["355C84C7FFC0C1EF"]
@@ -5173,8 +5589,8 @@
 				type: "checkmark"
 			}]
 			title: "Plan a Arrow"
-			x: 30.0d
-			y: 22.5d
+			x: 9.6d
+			y: 100.55d
 		}
 		{
 			dependencies: ["55DBD947B6019068"]
@@ -5214,8 +5630,8 @@
 				type: "item"
 			}]
 			title: "Arrow Head for Arrow"
-			x: 35.0d
-			y: 24.0d
+			x: 8.48d
+			y: 103.05d
 		}
 		{
 			dependencies: ["55DBD947B6019068"]
@@ -5255,8 +5671,8 @@
 				type: "item"
 			}]
 			title: "Arrow Shaft for Arrow"
-			x: 32.0d
-			y: 26.0d
+			x: 9.6d
+			y: 103.05d
 		}
 		{
 			dependencies: ["55DBD947B6019068"]
@@ -5296,8 +5712,8 @@
 				type: "item"
 			}]
 			title: "Fletching for Arrow"
-			x: 29.0d
-			y: 27.5d
+			x: 10.72d
+			y: 103.05d
 		}
 		{
 			dependencies: [
@@ -5354,8 +5770,8 @@
 				type: "item"
 			}]
 			title: "Arrow"
-			x: 36.0d
-			y: 32.0d
+			x: 9.6d
+			y: 105.55d
 		}
 		{
 			dependencies: ["355C84C7FFC0C1EF"]
@@ -5392,8 +5808,8 @@
 				type: "checkmark"
 			}]
 			title: "Plan a Broad Axe"
-			x: -13.0d
-			y: 39.5d
+			x: 0.0d
+			y: 63.55d
 		}
 		{
 			dependencies: ["0223B4F5E772AD76"]
@@ -5433,8 +5849,8 @@
 				type: "item"
 			}]
 			title: "Broad Axe Head for Broad Axe"
-			x: -13.5d
-			y: 42.0d
+			x: 0.83d
+			y: 66.05d
 		}
 		{
 			dependencies: [
@@ -5477,8 +5893,8 @@
 				type: "item"
 			}]
 			title: "Broad Axe Head Cast for Broad Axe"
-			x: -10.0d
-			y: 37.5d
+			x: -4.19d
+			y: 66.05d
 		}
 		{
 			dependencies: ["0223B4F5E772AD76"]
@@ -5518,8 +5934,8 @@
 				type: "item"
 			}]
 			title: "Tough Handle for Broad Axe"
-			x: -11.0d
-			y: 42.0d
+			x: 1.95d
+			y: 66.05d
 		}
 		{
 			dependencies: [
@@ -5562,8 +5978,8 @@
 				type: "item"
 			}]
 			title: "Tough Handle Cast for Broad Axe"
-			x: -9.0d
-			y: 37.5d
+			x: -0.83d
+			y: 66.05d
 		}
 		{
 			dependencies: ["0223B4F5E772AD76"]
@@ -5603,8 +6019,8 @@
 				type: "item"
 			}]
 			title: "Pick Head for Broad Axe"
-			x: -18.0d
-			y: 42.0d
+			x: 3.07d
+			y: 66.05d
 		}
 		{
 			dependencies: [
@@ -5647,8 +6063,8 @@
 				type: "item"
 			}]
 			title: "Pick Head Cast for Broad Axe"
-			x: -11.0d
-			y: 37.5d
+			x: -3.07d
+			y: 66.05d
 		}
 		{
 			dependencies: ["0223B4F5E772AD76"]
@@ -5688,8 +6104,8 @@
 				type: "item"
 			}]
 			title: "Tough Binding for Broad Axe"
-			x: -16.0d
-			y: 42.0d
+			x: 4.19d
+			y: 66.05d
 		}
 		{
 			dependencies: [
@@ -5732,8 +6148,8 @@
 				type: "item"
 			}]
 			title: "Tough Binding Cast for Broad Axe"
-			x: -8.0d
-			y: 37.5d
+			x: -1.95d
+			y: 66.05d
 		}
 		{
 			dependencies: [
@@ -5805,8 +6221,8 @@
 				type: "item"
 			}]
 			title: "Broad Axe"
-			x: -12.5d
-			y: 51.5d
+			x: 2.51d
+			y: 68.55d
 		}
 		{
 			dependencies: ["355C84C7FFC0C1EF"]
@@ -5843,8 +6259,8 @@
 				type: "checkmark"
 			}]
 			title: "Plan a Cleaver"
-			x: -6.5d
-			y: 53.0d
+			x: 9.6d
+			y: 82.05d
 		}
 		{
 			dependencies: ["1043C8594DBC3ACC"]
@@ -5884,8 +6300,8 @@
 				type: "item"
 			}]
 			title: "Broad Blade for Cleaver"
-			x: -5.0d
-			y: 56.5d
+			x: 10.43d
+			y: 84.55d
 		}
 		{
 			dependencies: [
@@ -5928,8 +6344,8 @@
 				type: "item"
 			}]
 			title: "Broad Blade Cast for Cleaver"
-			x: -8.0d
-			y: 50.5d
+			x: 6.53d
+			y: 84.55d
 		}
 		{
 			dependencies: ["1043C8594DBC3ACC"]
@@ -5969,8 +6385,8 @@
 				type: "item"
 			}]
 			title: "Tough Handle for Cleaver"
-			x: -9.0d
-			y: 55.5d
+			x: 11.55d
+			y: 84.55d
 		}
 		{
 			dependencies: [
@@ -6013,8 +6429,8 @@
 				type: "item"
 			}]
 			title: "Tough Handle Cast for Cleaver"
-			x: -5.5d
-			y: 50.5d
+			x: 8.77d
+			y: 84.55d
 		}
 		{
 			dependencies: ["1043C8594DBC3ACC"]
@@ -6054,8 +6470,8 @@
 				type: "item"
 			}]
 			title: "Large Plate for Cleaver"
-			x: -7.0d
-			y: 55.5d
+			x: 12.67d
+			y: 84.55d
 		}
 		{
 			dependencies: [
@@ -6098,8 +6514,8 @@
 				type: "item"
 			}]
 			title: "Large Plate Cast for Cleaver"
-			x: -3.5d
-			y: 50.5d
+			x: 7.65d
+			y: 84.55d
 		}
 		{
 			dependencies: [
@@ -6170,8 +6586,8 @@
 				type: "item"
 			}]
 			title: "Cleaver"
-			x: -7.0d
-			y: 58.5d
+			x: 11.55d
+			y: 87.05d
 		}
 		{
 			dependencies: ["355C84C7FFC0C1EF"]
@@ -6208,8 +6624,8 @@
 				type: "checkmark"
 			}]
 			title: "Plan a Crossbow"
-			x: 24.5d
-			y: 57.0d
+			x: 0.0d
+			y: 100.55d
 		}
 		{
 			dependencies: ["181F43C28871572A"]
@@ -6249,8 +6665,8 @@
 				type: "item"
 			}]
 			title: "Bow Limb for Crossbow"
-			x: 26.0d
-			y: 59.5d
+			x: 0.27d
+			y: 103.05d
 		}
 		{
 			dependencies: [
@@ -6293,8 +6709,8 @@
 				type: "item"
 			}]
 			title: "Bow Limb Cast for Crossbow"
-			x: 24.5d
-			y: 53.0d
+			x: -1.39d
+			y: 103.05d
 		}
 		{
 			dependencies: ["181F43C28871572A"]
@@ -6334,8 +6750,8 @@
 				type: "item"
 			}]
 			title: "Bow Grip for Crossbow"
-			x: 28.0d
-			y: 58.5d
+			x: 1.39d
+			y: 103.05d
 		}
 		{
 			dependencies: [
@@ -6378,8 +6794,8 @@
 				type: "item"
 			}]
 			title: "Bow Grip Cast for Crossbow"
-			x: 21.5d
-			y: 55.5d
+			x: -2.51d
+			y: 103.05d
 		}
 		{
 			dependencies: ["181F43C28871572A"]
@@ -6419,8 +6835,8 @@
 				type: "item"
 			}]
 			title: "Bowstring for Crossbow"
-			x: 24.0d
-			y: 60.0d
+			x: 2.51d
+			y: 103.05d
 		}
 		{
 			dependencies: [
@@ -6491,8 +6907,8 @@
 				type: "item"
 			}]
 			title: "Crossbow"
-			x: 27.0d
-			y: 62.5d
+			x: 1.39d
+			y: 105.55d
 		}
 		{
 			dependencies: ["355C84C7FFC0C1EF"]
@@ -6529,8 +6945,8 @@
 				type: "checkmark"
 			}]
 			title: "Plan a Dagger"
-			x: 20.0d
-			y: 59.0d
+			x: 0.0d
+			y: 82.05d
 		}
 		{
 			dependencies: ["2BFD889354556A58"]
@@ -6570,8 +6986,8 @@
 				type: "item"
 			}]
 			title: "Small Blade for Dagger"
-			x: 20.0d
-			y: 60.5d
+			x: 0.83d
+			y: 84.55d
 		}
 		{
 			dependencies: [
@@ -6614,8 +7030,8 @@
 				type: "item"
 			}]
 			title: "Small Blade Cast for Dagger"
-			x: 20.0d
-			y: 56.5d
+			x: -1.95d
+			y: 84.55d
 		}
 		{
 			dependencies: ["2BFD889354556A58"]
@@ -6655,8 +7071,8 @@
 				type: "item"
 			}]
 			title: "Tool Handle for Dagger"
-			x: 21.5d
-			y: 60.5d
+			x: 1.95d
+			y: 84.55d
 		}
 		{
 			dependencies: [
@@ -6699,8 +7115,8 @@
 				type: "item"
 			}]
 			title: "Tool Handle Cast for Dagger"
-			x: 18.5d
-			y: 57.0d
+			x: -0.83d
+			y: 84.55d
 		}
 		{
 			dependencies: [
@@ -6770,8 +7186,8 @@
 				type: "item"
 			}]
 			title: "Dagger"
-			x: 21.0d
-			y: 62.5d
+			x: 1.39d
+			y: 87.05d
 		}
 		{
 			dependencies: ["355C84C7FFC0C1EF"]
@@ -6808,8 +7224,8 @@
 				type: "checkmark"
 			}]
 			title: "Plan a Excavator"
-			x: 20.0d
-			y: 68.0d
+			x: 4.8d
+			y: 53.25d
 		}
 		{
 			dependencies: ["4DCE5FADA7600F2A"]
@@ -6849,8 +7265,8 @@
 				type: "item"
 			}]
 			title: "Large Plate for Excavator"
-			x: 20.5d
-			y: 69.5d
+			x: 5.63d
+			y: 55.75d
 		}
 		{
 			dependencies: [
@@ -6893,8 +7309,8 @@
 				type: "item"
 			}]
 			title: "Large Plate Cast for Excavator"
-			x: 19.5d
-			y: 65.5d
+			x: 1.73d
+			y: 55.75d
 		}
 		{
 			dependencies: ["4DCE5FADA7600F2A"]
@@ -6934,8 +7350,8 @@
 				type: "item"
 			}]
 			title: "Tough Handle for Excavator"
-			x: 22.5d
-			y: 69.5d
+			x: 6.75d
+			y: 55.75d
 		}
 		{
 			dependencies: [
@@ -6978,8 +7394,8 @@
 				type: "item"
 			}]
 			title: "Tough Handle Cast for Excavator"
-			x: 20.5d
-			y: 65.5d
+			x: 3.97d
+			y: 55.75d
 		}
 		{
 			dependencies: ["4DCE5FADA7600F2A"]
@@ -7019,8 +7435,8 @@
 				type: "item"
 			}]
 			title: "Tough Binding for Excavator"
-			x: 24.0d
-			y: 69.0d
+			x: 7.87d
+			y: 55.75d
 		}
 		{
 			dependencies: [
@@ -7063,8 +7479,8 @@
 				type: "item"
 			}]
 			title: "Tough Binding Cast for Excavator"
-			x: 18.5d
-			y: 65.5d
+			x: 2.85d
+			y: 55.75d
 		}
 		{
 			dependencies: [
@@ -7135,8 +7551,8 @@
 				type: "item"
 			}]
 			title: "Excavator"
-			x: 23.0d
-			y: 72.0d
+			x: 6.75d
+			y: 58.25d
 		}
 		{
 			dependencies: ["355C84C7FFC0C1EF"]
@@ -7173,8 +7589,8 @@
 				type: "checkmark"
 			}]
 			title: "Plan a Fishing Rod"
-			x: -4.0d
-			y: 64.0d
+			x: 9.6d
+			y: 71.75d
 		}
 		{
 			dependencies: ["72D0B5CEBE17FBCF"]
@@ -7214,8 +7630,8 @@
 				type: "item"
 			}]
 			title: "Bow Limb for Fishing Rod"
-			x: -6.5d
-			y: 67.0d
+			x: 9.31d
+			y: 74.25d
 		}
 		{
 			dependencies: [
@@ -7258,8 +7674,8 @@
 				type: "item"
 			}]
 			title: "Bow Limb Cast for Fishing Rod"
-			x: -2.5d
-			y: 63.5d
+			x: 7.65d
+			y: 74.25d
 		}
 		{
 			dependencies: ["72D0B5CEBE17FBCF"]
@@ -7299,8 +7715,8 @@
 				type: "item"
 			}]
 			title: "Bowstring for Fishing Rod"
-			x: -4.5d
-			y: 66.0d
+			x: 10.43d
+			y: 74.25d
 		}
 		{
 			dependencies: ["72D0B5CEBE17FBCF"]
@@ -7340,8 +7756,8 @@
 				type: "item"
 			}]
 			title: "Arrow Head for Fishing Rod"
-			x: -4.0d
-			y: 68.0d
+			x: 11.55d
+			y: 74.25d
 		}
 		{
 			dependencies: [
@@ -7412,8 +7828,8 @@
 				type: "item"
 			}]
 			title: "Fishing Rod"
-			x: -6.0d
-			y: 69.0d
+			x: 10.43d
+			y: 76.75d
 		}
 		{
 			dependencies: ["355C84C7FFC0C1EF"]
@@ -7450,8 +7866,8 @@
 				type: "checkmark"
 			}]
 			title: "Plan a Hand Axe"
-			x: 31.0d
-			y: 67.0d
+			x: -9.6d
+			y: 63.55d
 		}
 		{
 			dependencies: ["791507911540E034"]
@@ -7491,8 +7907,8 @@
 				type: "item"
 			}]
 			title: "Small Axe Head for Hand Axe"
-			x: 30.5d
-			y: 70.0d
+			x: -8.77d
+			y: 66.05d
 		}
 		{
 			dependencies: [
@@ -7535,8 +7951,8 @@
 				type: "item"
 			}]
 			title: "Small Axe Head Cast for Hand Axe"
-			x: 29.0d
-			y: 65.0d
+			x: -12.67d
+			y: 66.05d
 		}
 		{
 			dependencies: ["791507911540E034"]
@@ -7576,8 +7992,8 @@
 				type: "item"
 			}]
 			title: "Tool Handle for Hand Axe"
-			x: 28.5d
-			y: 69.5d
+			x: -7.65d
+			y: 66.05d
 		}
 		{
 			dependencies: [
@@ -7620,8 +8036,8 @@
 				type: "item"
 			}]
 			title: "Tool Handle Cast for Hand Axe"
-			x: 31.0d
-			y: 64.5d
+			x: -10.43d
+			y: 66.05d
 		}
 		{
 			dependencies: ["791507911540E034"]
@@ -7661,8 +8077,8 @@
 				type: "item"
 			}]
 			title: "Tool Binding for Hand Axe"
-			x: 32.5d
-			y: 70.0d
+			x: -6.53d
+			y: 66.05d
 		}
 		{
 			dependencies: [
@@ -7705,8 +8121,8 @@
 				type: "item"
 			}]
 			title: "Tool Binding Cast for Hand Axe"
-			x: 32.5d
-			y: 64.5d
+			x: -11.55d
+			y: 66.05d
 		}
 		{
 			dependencies: [
@@ -7777,8 +8193,8 @@
 				type: "item"
 			}]
 			title: "Hand Axe"
-			x: 30.5d
-			y: 73.0d
+			x: -7.65d
+			y: 68.55d
 		}
 		{
 			dependencies: ["355C84C7FFC0C1EF"]
@@ -7815,8 +8231,8 @@
 				type: "checkmark"
 			}]
 			title: "Plan a Javelin"
-			x: 26.5d
-			y: 74.0d
+			x: -9.6d
+			y: 90.25d
 		}
 		{
 			dependencies: ["6F732792D1C1CCC7"]
@@ -7856,8 +8272,8 @@
 				type: "item"
 			}]
 			title: "Small Blade for Javelin"
-			x: 28.0d
-			y: 76.0d
+			x: -8.77d
+			y: 92.75d
 		}
 		{
 			dependencies: [
@@ -7900,8 +8316,8 @@
 				type: "item"
 			}]
 			title: "Small Blade Cast for Javelin"
-			x: 25.0d
-			y: 73.0d
+			x: -11.55d
+			y: 92.75d
 		}
 		{
 			dependencies: ["6F732792D1C1CCC7"]
@@ -7941,8 +8357,8 @@
 				type: "item"
 			}]
 			title: "Tool Handle for Javelin"
-			x: 23.5d
-			y: 75.0d
+			x: -7.65d
+			y: 92.75d
 		}
 		{
 			dependencies: [
@@ -7985,8 +8401,8 @@
 				type: "item"
 			}]
 			title: "Tool Handle Cast for Javelin"
-			x: 26.5d
-			y: 72.5d
+			x: -10.43d
+			y: 92.75d
 		}
 		{
 			dependencies: ["6F732792D1C1CCC7"]
@@ -8026,8 +8442,8 @@
 				type: "item"
 			}]
 			title: "Bow Limb for Javelin"
-			x: 25.0d
-			y: 75.5d
+			x: -6.53d
+			y: 92.75d
 		}
 		{
 			dependencies: [
@@ -8070,8 +8486,8 @@
 				type: "item"
 			}]
 			title: "Bow Limb Cast for Javelin"
-			x: 28.0d
-			y: 73.5d
+			x: -12.67d
+			y: 92.75d
 		}
 		{
 			dependencies: ["6F732792D1C1CCC7"]
@@ -8111,8 +8527,8 @@
 				type: "item"
 			}]
 			title: "Bow Grip for Javelin"
-			x: 26.5d
-			y: 75.5d
+			x: -5.41d
+			y: 92.75d
 		}
 		{
 			dependencies: [
@@ -8155,8 +8571,8 @@
 				type: "item"
 			}]
 			title: "Bow Grip Cast for Javelin"
-			x: 24.0d
-			y: 73.5d
+			x: -13.79d
+			y: 92.75d
 		}
 		{
 			dependencies: [
@@ -8228,8 +8644,8 @@
 				type: "item"
 			}]
 			title: "Javelin"
-			x: 25.5d
-			y: 78.5d
+			x: -7.09d
+			y: 95.25d
 		}
 		{
 			dependencies: ["355C84C7FFC0C1EF"]
@@ -8266,8 +8682,8 @@
 				type: "checkmark"
 			}]
 			title: "Plan a Kama"
-			x: -10.0d
-			y: 66.0d
+			x: 9.6d
+			y: 63.55d
 		}
 		{
 			dependencies: ["688F8E4433365AD7"]
@@ -8307,8 +8723,8 @@
 				type: "item"
 			}]
 			title: "Small Blade for Kama"
-			x: -11.0d
-			y: 66.5d
+			x: 10.43d
+			y: 66.05d
 		}
 		{
 			dependencies: [
@@ -8351,8 +8767,8 @@
 				type: "item"
 			}]
 			title: "Small Blade Cast for Kama"
-			x: -10.0d
-			y: 64.5d
+			x: 6.53d
+			y: 66.05d
 		}
 		{
 			dependencies: ["688F8E4433365AD7"]
@@ -8392,8 +8808,8 @@
 				type: "item"
 			}]
 			title: "Tool Handle for Kama"
-			x: -10.0d
-			y: 67.0d
+			x: 11.55d
+			y: 66.05d
 		}
 		{
 			dependencies: [
@@ -8436,8 +8852,8 @@
 				type: "item"
 			}]
 			title: "Tool Handle Cast for Kama"
-			x: -9.0d
-			y: 64.5d
+			x: 8.77d
+			y: 66.05d
 		}
 		{
 			dependencies: ["688F8E4433365AD7"]
@@ -8477,8 +8893,8 @@
 				type: "item"
 			}]
 			title: "Tool Binding for Kama"
-			x: -9.0d
-			y: 67.0d
+			x: 12.67d
+			y: 66.05d
 		}
 		{
 			dependencies: [
@@ -8521,8 +8937,8 @@
 				type: "item"
 			}]
 			title: "Tool Binding Cast for Kama"
-			x: -11.0d
-			y: 64.5d
+			x: 7.65d
+			y: 66.05d
 		}
 		{
 			dependencies: [
@@ -8593,8 +9009,8 @@
 				type: "item"
 			}]
 			title: "Kama"
-			x: -10.0d
-			y: 69.5d
+			x: 11.55d
+			y: 68.55d
 		}
 		{
 			dependencies: ["355C84C7FFC0C1EF"]
@@ -8631,8 +9047,8 @@
 				type: "checkmark"
 			}]
 			title: "Plan a Longbow"
-			x: 34.5d
-			y: 47.0d
+			x: -9.6d
+			y: 100.55d
 		}
 		{
 			dependencies: ["5C0BB9DA928B882A"]
@@ -8672,8 +9088,8 @@
 				type: "item"
 			}]
 			title: "Bow Limb for Longbow"
-			x: 34.0d
-			y: 49.5d
+			x: -9.33d
+			y: 103.05d
 		}
 		{
 			dependencies: [
@@ -8716,8 +9132,8 @@
 				type: "item"
 			}]
 			title: "Bow Limb Cast for Longbow"
-			x: 32.0d
-			y: 45.5d
+			x: -10.99d
+			y: 103.05d
 		}
 		{
 			dependencies: ["5C0BB9DA928B882A"]
@@ -8757,8 +9173,8 @@
 				type: "item"
 			}]
 			title: "Bow Grip for Longbow"
-			x: 35.0d
-			y: 49.5d
+			x: -8.21d
+			y: 103.05d
 		}
 		{
 			dependencies: [
@@ -8801,8 +9217,8 @@
 				type: "item"
 			}]
 			title: "Bow Grip Cast for Longbow"
-			x: 36.0d
-			y: 45.0d
+			x: -12.11d
+			y: 103.05d
 		}
 		{
 			dependencies: ["5C0BB9DA928B882A"]
@@ -8842,8 +9258,8 @@
 				type: "item"
 			}]
 			title: "Bowstring for Longbow"
-			x: 36.5d
-			y: 49.5d
+			x: -7.09d
+			y: 103.05d
 		}
 		{
 			dependencies: [
@@ -8914,8 +9330,8 @@
 				type: "item"
 			}]
 			title: "Longbow"
-			x: 35.0d
-			y: 51.5d
+			x: -8.21d
+			y: 105.55d
 		}
 		{
 			dependencies: ["355C84C7FFC0C1EF"]
@@ -8952,8 +9368,8 @@
 				type: "checkmark"
 			}]
 			title: "Plan a Mattock"
-			x: 3.5d
-			y: 96.0d
+			x: -9.6d
+			y: 71.75d
 		}
 		{
 			dependencies: ["5177D442A8DC892F"]
@@ -8993,8 +9409,8 @@
 				type: "item"
 			}]
 			title: "Small Axe Head for Mattock"
-			x: 7.0d
-			y: 96.0d
+			x: -8.77d
+			y: 74.25d
 		}
 		{
 			dependencies: [
@@ -9037,8 +9453,8 @@
 				type: "item"
 			}]
 			title: "Small Axe Head Cast for Mattock"
-			x: 10.5d
-			y: 96.0d
+			x: -11.55d
+			y: 74.25d
 		}
 		{
 			dependencies: ["5177D442A8DC892F"]
@@ -9078,8 +9494,8 @@
 				type: "item"
 			}]
 			title: "Tool Handle for Mattock"
-			x: 14.0d
-			y: 96.0d
+			x: -7.65d
+			y: 74.25d
 		}
 		{
 			dependencies: [
@@ -9122,8 +9538,8 @@
 				type: "item"
 			}]
 			title: "Tool Handle Cast for Mattock"
-			x: 17.5d
-			y: 96.0d
+			x: -10.43d
+			y: 74.25d
 		}
 		{
 			dependencies: ["5177D442A8DC892F"]
@@ -9163,8 +9579,8 @@
 				type: "item"
 			}]
 			title: "Adze Head for Mattock"
-			x: 21.0d
-			y: 96.0d
+			x: -6.53d
+			y: 74.25d
 		}
 		{
 			dependencies: [
@@ -9207,8 +9623,8 @@
 				type: "item"
 			}]
 			title: "Adze Head Cast for Mattock"
-			x: 24.5d
-			y: 96.0d
+			x: -12.67d
+			y: 74.25d
 		}
 		{
 			dependencies: [
@@ -9279,8 +9695,8 @@
 				type: "item"
 			}]
 			title: "Mattock"
-			x: 0.0d
-			y: 99.5d
+			x: -7.65d
+			y: 76.75d
 		}
 		{
 			dependencies: ["355C84C7FFC0C1EF"]
@@ -9317,8 +9733,8 @@
 				type: "checkmark"
 			}]
 			title: "Plan a Pickadze"
-			x: 3.5d
-			y: 99.5d
+			x: 0.0d
+			y: 45.05d
 		}
 		{
 			dependencies: ["3A760260A713BA7B"]
@@ -9358,8 +9774,8 @@
 				type: "item"
 			}]
 			title: "Pick Head for Pickadze"
-			x: 7.0d
-			y: 99.5d
+			x: 0.83d
+			y: 47.55d
 		}
 		{
 			dependencies: [
@@ -9402,8 +9818,8 @@
 				type: "item"
 			}]
 			title: "Pick Head Cast for Pickadze"
-			x: 10.5d
-			y: 99.5d
+			x: -1.95d
+			y: 47.55d
 		}
 		{
 			dependencies: ["3A760260A713BA7B"]
@@ -9443,8 +9859,8 @@
 				type: "item"
 			}]
 			title: "Tool Handle for Pickadze"
-			x: 14.0d
-			y: 99.5d
+			x: 1.95d
+			y: 47.55d
 		}
 		{
 			dependencies: [
@@ -9487,8 +9903,8 @@
 				type: "item"
 			}]
 			title: "Tool Handle Cast for Pickadze"
-			x: 17.5d
-			y: 99.5d
+			x: -0.83d
+			y: 47.55d
 		}
 		{
 			dependencies: ["3A760260A713BA7B"]
@@ -9528,8 +9944,8 @@
 				type: "item"
 			}]
 			title: "Adze Head for Pickadze"
-			x: 21.0d
-			y: 99.5d
+			x: 3.07d
+			y: 47.55d
 		}
 		{
 			dependencies: [
@@ -9572,8 +9988,8 @@
 				type: "item"
 			}]
 			title: "Adze Head Cast for Pickadze"
-			x: 24.5d
-			y: 99.5d
+			x: -3.07d
+			y: 47.55d
 		}
 		{
 			dependencies: [
@@ -9644,8 +10060,8 @@
 				type: "item"
 			}]
 			title: "Pickadze"
-			x: 0.0d
-			y: 103.0d
+			x: 1.95d
+			y: 50.05d
 		}
 		{
 			dependencies: ["355C84C7FFC0C1EF"]
@@ -9682,8 +10098,8 @@
 				type: "checkmark"
 			}]
 			title: "Plan a Pickaxe"
-			x: 3.5d
-			y: 103.0d
+			x: -9.6d
+			y: 45.05d
 		}
 		{
 			dependencies: ["5F92B51B3122C088"]
@@ -9723,8 +10139,8 @@
 				type: "item"
 			}]
 			title: "Pick Head for Pickaxe"
-			x: 7.0d
-			y: 103.0d
+			x: -8.77d
+			y: 47.55d
 		}
 		{
 			dependencies: [
@@ -9767,8 +10183,8 @@
 				type: "item"
 			}]
 			title: "Pick Head Cast for Pickaxe"
-			x: 10.5d
-			y: 103.0d
+			x: -12.67d
+			y: 47.55d
 		}
 		{
 			dependencies: ["5F92B51B3122C088"]
@@ -9808,8 +10224,8 @@
 				type: "item"
 			}]
 			title: "Tool Handle for Pickaxe"
-			x: 14.0d
-			y: 103.0d
+			x: -7.65d
+			y: 47.55d
 		}
 		{
 			dependencies: [
@@ -9852,8 +10268,8 @@
 				type: "item"
 			}]
 			title: "Tool Handle Cast for Pickaxe"
-			x: 17.5d
-			y: 103.0d
+			x: -10.43d
+			y: 47.55d
 		}
 		{
 			dependencies: ["5F92B51B3122C088"]
@@ -9893,8 +10309,8 @@
 				type: "item"
 			}]
 			title: "Tool Binding for Pickaxe"
-			x: 21.0d
-			y: 103.0d
+			x: -6.53d
+			y: 47.55d
 		}
 		{
 			dependencies: [
@@ -9937,8 +10353,8 @@
 				type: "item"
 			}]
 			title: "Tool Binding Cast for Pickaxe"
-			x: 24.5d
-			y: 103.0d
+			x: -11.55d
+			y: 47.55d
 		}
 		{
 			dependencies: [
@@ -10009,8 +10425,8 @@
 				type: "item"
 			}]
 			title: "Pickaxe"
-			x: 0.0d
-			y: 106.5d
+			x: -7.65d
+			y: 50.05d
 		}
 		{
 			dependencies: ["355C84C7FFC0C1EF"]
@@ -10047,8 +10463,8 @@
 				type: "checkmark"
 			}]
 			title: "Plan a Scythe"
-			x: 3.5d
-			y: 106.5d
+			x: 0.0d
+			y: 71.75d
 		}
 		{
 			dependencies: ["6763D8DED8FC2818"]
@@ -10088,8 +10504,8 @@
 				type: "item"
 			}]
 			title: "Broad Blade for Scythe"
-			x: 7.0d
-			y: 106.5d
+			x: 0.83d
+			y: 74.25d
 		}
 		{
 			dependencies: [
@@ -10132,8 +10548,8 @@
 				type: "item"
 			}]
 			title: "Broad Blade Cast for Scythe"
-			x: 10.5d
-			y: 106.5d
+			x: -3.07d
+			y: 74.25d
 		}
 		{
 			dependencies: ["6763D8DED8FC2818"]
@@ -10173,8 +10589,8 @@
 				type: "item"
 			}]
 			title: "Tough Handle for Scythe"
-			x: 14.0d
-			y: 106.5d
+			x: 1.95d
+			y: 74.25d
 		}
 		{
 			dependencies: [
@@ -10217,8 +10633,8 @@
 				type: "item"
 			}]
 			title: "Tough Handle Cast for Scythe"
-			x: 17.5d
-			y: 106.5d
+			x: -0.83d
+			y: 74.25d
 		}
 		{
 			dependencies: ["6763D8DED8FC2818"]
@@ -10258,8 +10674,8 @@
 				type: "item"
 			}]
 			title: "Tough Binding for Scythe"
-			x: 21.0d
-			y: 106.5d
+			x: 3.07d
+			y: 74.25d
 		}
 		{
 			dependencies: [
@@ -10302,8 +10718,8 @@
 				type: "item"
 			}]
 			title: "Tough Binding Cast for Scythe"
-			x: 24.5d
-			y: 106.5d
+			x: -1.95d
+			y: 74.25d
 		}
 		{
 			dependencies: [
@@ -10374,8 +10790,8 @@
 				type: "item"
 			}]
 			title: "Scythe"
-			x: 0.0d
-			y: 110.0d
+			x: 1.95d
+			y: 76.75d
 		}
 		{
 			dependencies: ["355C84C7FFC0C1EF"]
@@ -10412,8 +10828,8 @@
 				type: "checkmark"
 			}]
 			title: "Plan a Shuriken"
-			x: 3.5d
-			y: 110.0d
+			x: 9.6d
+			y: 90.25d
 		}
 		{
 			dependencies: ["5E4677AFD23EB507"]
@@ -10453,8 +10869,8 @@
 				type: "item"
 			}]
 			title: "Arrow Head for Shuriken"
-			x: 7.0d
-			y: 110.0d
+			x: 9.6d
+			y: 92.75d
 		}
 		{
 			dependencies: ["0E1B1F5CFB471E11"]
@@ -10507,8 +10923,8 @@
 				type: "item"
 			}]
 			title: "Shuriken"
-			x: 10.5d
-			y: 110.0d
+			x: 9.6d
+			y: 95.25d
 		}
 		{
 			dependencies: ["355C84C7FFC0C1EF"]
@@ -10545,8 +10961,8 @@
 				type: "checkmark"
 			}]
 			title: "Plan a Sledge Hammer"
-			x: 14.0d
-			y: 110.0d
+			x: -4.8d
+			y: 53.25d
 		}
 		{
 			dependencies: ["4FA3B51C3A373C36"]
@@ -10599,8 +11015,8 @@
 				type: "item"
 			}]
 			title: "Hammer Head for Sledge Hammer"
-			x: 17.5d
-			y: 110.0d
+			x: -3.97d
+			y: 55.75d
 		}
 		{
 			dependencies: [
@@ -10656,8 +11072,8 @@
 				type: "item"
 			}]
 			title: "Hammer Head Cast for Sledge Hammer"
-			x: 21.0d
-			y: 110.0d
+			x: -7.87d
+			y: 55.75d
 		}
 		{
 			dependencies: ["4FA3B51C3A373C36"]
@@ -10697,8 +11113,8 @@
 				type: "item"
 			}]
 			title: "Tough Handle for Sledge Hammer"
-			x: 24.5d
-			y: 110.0d
+			x: -2.85d
+			y: 55.75d
 		}
 		{
 			dependencies: [
@@ -10741,8 +11157,8 @@
 				type: "item"
 			}]
 			title: "Tough Handle Cast for Sledge Hammer"
-			x: 0.0d
-			y: 113.5d
+			x: -5.63d
+			y: 55.75d
 		}
 		{
 			dependencies: ["4FA3B51C3A373C36"]
@@ -10782,8 +11198,8 @@
 				type: "item"
 			}]
 			title: "Large Plate for Sledge Hammer"
-			x: 3.5d
-			y: 113.5d
+			x: -1.73d
+			y: 55.75d
 		}
 		{
 			dependencies: [
@@ -10826,8 +11242,8 @@
 				type: "item"
 			}]
 			title: "Large Plate Cast for Sledge Hammer"
-			x: 7.0d
-			y: 113.5d
+			x: -6.75d
+			y: 55.75d
 		}
 		{
 			dependencies: [
@@ -10898,8 +11314,8 @@
 				type: "item"
 			}]
 			title: "Sledge Hammer"
-			x: 10.5d
-			y: 113.5d
+			x: -2.85d
+			y: 58.25d
 		}
 		{
 			dependencies: ["355C84C7FFC0C1EF"]
@@ -10936,8 +11352,8 @@
 				type: "checkmark"
 			}]
 			title: "Plan a Sword"
-			x: 14.0d
-			y: 113.5d
+			x: -9.6d
+			y: 82.05d
 		}
 		{
 			dependencies: ["0D527F0C0A07F80A"]
@@ -10977,8 +11393,8 @@
 				type: "item"
 			}]
 			title: "Small Blade for Sword"
-			x: 17.5d
-			y: 113.5d
+			x: -8.77d
+			y: 84.55d
 		}
 		{
 			dependencies: [
@@ -11021,8 +11437,8 @@
 				type: "item"
 			}]
 			title: "Small Blade Cast for Sword"
-			x: 21.0d
-			y: 113.5d
+			x: -11.55d
+			y: 84.55d
 		}
 		{
 			dependencies: ["0D527F0C0A07F80A"]
@@ -11062,8 +11478,8 @@
 				type: "item"
 			}]
 			title: "Tool Handle for Sword"
-			x: 24.5d
-			y: 113.5d
+			x: -7.65d
+			y: 84.55d
 		}
 		{
 			dependencies: [
@@ -11106,8 +11522,8 @@
 				type: "item"
 			}]
 			title: "Tool Handle Cast for Sword"
-			x: 0.0d
-			y: 117.0d
+			x: -10.43d
+			y: 84.55d
 		}
 		{
 			dependencies: [
@@ -11177,8 +11593,8 @@
 				type: "item"
 			}]
 			title: "Sword"
-			x: 3.5d
-			y: 117.0d
+			x: -8.21d
+			y: 87.05d
 		}
 		{
 			dependencies: ["355C84C7FFC0C1EF"]
@@ -11215,8 +11631,8 @@
 				type: "checkmark"
 			}]
 			title: "Plan a Throwing Axe"
-			x: 7.0d
-			y: 117.0d
+			x: 0.0d
+			y: 90.25d
 		}
 		{
 			dependencies: ["631FFA6EE0CBC888"]
@@ -11256,8 +11672,8 @@
 				type: "item"
 			}]
 			title: "Arrow Head for Throwing Axe"
-			x: 10.5d
-			y: 117.0d
+			x: -0.56d
+			y: 92.75d
 		}
 		{
 			dependencies: ["631FFA6EE0CBC888"]
@@ -11297,8 +11713,8 @@
 				type: "item"
 			}]
 			title: "Arrow Shaft for Throwing Axe"
-			x: 14.0d
-			y: 117.0d
+			x: 0.56d
+			y: 92.75d
 		}
 		{
 			dependencies: [
@@ -11354,8 +11770,8 @@
 				type: "item"
 			}]
 			title: "Throwing Axe"
-			x: 17.5d
-			y: 117.0d
+			x: 0.0d
+			y: 95.25d
 		}
 		{
 			dependencies: ["355C84C7FFC0C1EF"]
@@ -11392,8 +11808,8 @@
 				type: "checkmark"
 			}]
 			title: "Plan a Vein Hammer"
-			x: -1.0d
-			y: 122.0d
+			x: 9.6d
+			y: 45.05d
 		}
 		{
 			dependencies: ["5BAE44D6D74A1067"]
@@ -11446,8 +11862,8 @@
 				type: "item"
 			}]
 			title: "Hammer Head for Vein Hammer"
-			x: -4.5d
-			y: 123.0d
+			x: 10.43d
+			y: 47.55d
 		}
 		{
 			dependencies: [
@@ -11503,8 +11919,8 @@
 				type: "item"
 			}]
 			title: "Hammer Head Cast for Vein Hammer"
-			x: -4.5d
-			y: 120.5d
+			x: 5.41d
+			y: 47.55d
 		}
 		{
 			dependencies: ["5BAE44D6D74A1067"]
@@ -11544,8 +11960,8 @@
 				type: "item"
 			}]
 			title: "Tough Handle for Vein Hammer"
-			x: 1.0d
-			y: 124.5d
+			x: 11.55d
+			y: 47.55d
 		}
 		{
 			dependencies: [
@@ -11588,8 +12004,8 @@
 				type: "item"
 			}]
 			title: "Tough Handle Cast for Vein Hammer"
-			x: 1.5d
-			y: 121.0d
+			x: 8.77d
+			y: 47.55d
 		}
 		{
 			dependencies: ["5BAE44D6D74A1067"]
@@ -11629,8 +12045,8 @@
 				type: "item"
 			}]
 			title: "Tough Binding for Vein Hammer"
-			x: -2.5d
-			y: 124.5d
+			x: 12.67d
+			y: 47.55d
 		}
 		{
 			dependencies: [
@@ -11673,8 +12089,8 @@
 				type: "item"
 			}]
 			title: "Tough Binding Cast for Vein Hammer"
-			x: -2.0d
-			y: 119.0d
+			x: 7.65d
+			y: 47.55d
 		}
 		{
 			dependencies: ["5BAE44D6D74A1067"]
@@ -11714,8 +12130,8 @@
 				type: "item"
 			}]
 			title: "Large Plate for Vein Hammer"
-			x: 3.0d
-			y: 123.0d
+			x: 13.79d
+			y: 47.55d
 		}
 		{
 			dependencies: [
@@ -11758,8 +12174,8 @@
 				type: "item"
 			}]
 			title: "Large Plate Cast for Vein Hammer"
-			x: 0.0d
-			y: 120.0d
+			x: 6.53d
+			y: 47.55d
 		}
 		{
 			dependencies: [
@@ -11831,8 +12247,8 @@
 				type: "item"
 			}]
 			title: "Vein Hammer"
-			x: -0.5d
-			y: 131.5d
+			x: 12.11d
+			y: 50.05d
 		}
 		{
 			dependencies: ["355C84C7FFC0C1EF"]
@@ -11872,8 +12288,8 @@
 				type: "item"
 			}]
 			title: "Part Builder"
-			x: -1.0d
-			y: -5.5d
+			x: -4.65d
+			y: -2.0d
 		}
 		{
 			dependencies: ["6BF6081B694E192C"]
@@ -11926,8 +12342,8 @@
 				type: "item"
 			}]
 			title: "Seared Heater"
-			x: 1.0d
-			y: -8.5d
+			x: -8.4d
+			y: 1.5d
 		}
 		{
 			dependencies: ["7E70FB77FE0C6307"]
@@ -11980,8 +12396,8 @@
 				type: "item"
 			}]
 			title: "Tinkers Anvil"
-			x: 9.0d
-			y: 6.0d
+			x: 10.65d
+			y: 13.0d
 		}
 		{
 			dependencies: ["04CB33970520ACC1"]
@@ -12034,8 +12450,8 @@
 				type: "item"
 			}]
 			title: "Foundry Controller"
-			x: 13.0d
-			y: -1.5d
+			x: 6.9d
+			y: 21.7d
 		}
 	]
 	title: "Tinkers Workshop"

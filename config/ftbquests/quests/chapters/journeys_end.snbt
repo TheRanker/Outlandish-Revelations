@@ -11,14 +11,25 @@
 		}
 	}
 	id: "64001D940DA4531D"
-	images: [{
-		height: 3.6d
-		image: "outlandish_revelations:textures/title.png"
-		rotation: 0.0d
-		width: 16.0d
-		x: 0.0d
-		y: -5.0d
-	}]
+	images: [
+		{
+			height: 3.6d
+			image: "outlandish_revelations:textures/title.png"
+			rotation: 0.0d
+			width: 16.0d
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			height: 1.625d
+			image: "outlandish_revelations:textures/questbook/landmarks/journeys_end/header.png"
+			order: -1
+			rotation: 0.0d
+			width: 12.0d
+			x: 0.0d
+			y: -7.6679d
+		}
+	]
 	order_index: 2
 	quest_links: [ ]
 	quests: [{

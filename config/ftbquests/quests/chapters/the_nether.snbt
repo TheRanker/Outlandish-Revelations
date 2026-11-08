@@ -3,16 +3,69 @@
 	default_quest_shape: ""
 	filename: "the_nether"
 	group: "610F012654EDDFE3"
-	icon: "minecraft:nether_wart_block"
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "outlandish_revelations:textures/questbook/icons/the_nether.png"
+		}
+	}
 	id: "47B098CCFD63619D"
-	images: [{
-		height: 3.0d
-		image: "minecraft:textures/item/blaze_powder.png"
-		rotation: 0.0d
-		width: 3.0d
-		x: -6.0d
-		y: -10.5d
-	}]
+	images: [
+		{
+			height: 3.0d
+			image: "minecraft:textures/item/blaze_powder.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: -6.0d
+			y: -10.5d
+		}
+		{
+			height: 1.625d
+			image: "outlandish_revelations:textures/questbook/landmarks/the_nether/header.png"
+			order: -1
+			rotation: 0.0d
+			width: 6.5d
+			x: -4.4286d
+			y: -12.9107d
+		}
+		{
+			height: 1.3d
+			image: "outlandish_revelations:textures/questbook/landmarks/the_nether/earn_nether_access.png"
+			order: -1
+			rotation: 0.0d
+			width: 8.4d
+			x: -17.0743d
+			y: -6.0d
+		}
+		{
+			height: 1.3d
+			image: "outlandish_revelations:textures/questbook/landmarks/the_nether/incendium_biomes.png"
+			order: -1
+			rotation: 0.0d
+			width: 7.6d
+			x: -12.3743d
+			y: -9.2d
+		}
+		{
+			height: 1.3d
+			image: "outlandish_revelations:textures/questbook/landmarks/the_nether/piglin_trading.png"
+			order: -1
+			rotation: 0.0d
+			width: 6.8d
+			x: 4.0d
+			y: -7.1743d
+		}
+		{
+			height: 1.3d
+			image: "outlandish_revelations:textures/questbook/landmarks/the_nether/incendium_encounters.png"
+			order: -1
+			rotation: 0.0d
+			width: 9.2d
+			x: -14.1914d
+			y: -4.0d
+		}
+	]
 	order_index: 0
 	quest_links: [ ]
 	quests: [

@@ -3,7 +3,13 @@
 	default_quest_shape: ""
 	filename: "food_and_farming"
 	group: ""
-	icon: "minecraft:cake"
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "outlandish_revelations:textures/questbook/icons/food_and_farming.png"
+		}
+	}
 	id: "05E614FDA677D85E"
 	images: [
 		{
@@ -43,8 +49,8 @@
 			image: "minecraft:textures/block/birch_sapling.png"
 			rotation: 0.0d
 			width: 2.0d
-			x: 5.0d
-			y: 3.5d
+			x: 6.0d
+			y: 6.0d
 		}
 		{
 			height: 2.0d
@@ -67,8 +73,53 @@
 			image: "aquaculture:textures/item/catfish.png"
 			rotation: 0.0d
 			width: 2.0d
-			x: -4.0d
-			y: 4.0d
+			x: -5.0d
+			y: 4.5d
+		}
+		{
+			height: 1.3d
+			image: "outlandish_revelations:textures/questbook/landmarks/food_and_farming/seeds_and_crops.png"
+			order: -1
+			rotation: 0.0d
+			width: 7.2d
+			x: -7.0d
+			y: -4.0d
+		}
+		{
+			height: 1.3d
+			image: "outlandish_revelations:textures/questbook/landmarks/food_and_farming/livestock.png"
+			order: -1
+			rotation: 0.0d
+			width: 4.8d
+			x: 6.0d
+			y: -5.0d
+		}
+		{
+			height: 1.3d
+			image: "outlandish_revelations:textures/questbook/landmarks/food_and_farming/fishing.png"
+			order: -1
+			rotation: 0.0d
+			width: 4.4d
+			x: -5.0d
+			y: 3.0d
+		}
+		{
+			height: 1.3d
+			image: "outlandish_revelations:textures/questbook/landmarks/food_and_farming/botany_pots.png"
+			order: -1
+			rotation: 0.0d
+			width: 5.6d
+			x: 6.5d
+			y: 2.5d
+		}
+		{
+			height: 1.3d
+			image: "outlandish_revelations:textures/questbook/landmarks/food_and_farming/meals_and_snacks.png"
+			order: -1
+			rotation: 0.0d
+			width: 7.6d
+			x: -6.9857d
+			y: 12.0d
 		}
 	]
 	order_index: 2
@@ -1134,8 +1185,8 @@
 				type: "item"
 			}]
 			title: "Botany Pots"
-			x: 2.5d
-			y: 4.0d
+			x: 4.375d
+			y: 3.75d
 		}
 		{
 			dependencies: ["01B70A4F230ED036"]
@@ -1187,8 +1238,8 @@
 				type: "item"
 			}]
 			title: "Automating the Pots"
-			x: 3.5d
-			y: 5.0d
+			x: 8.5d
+			y: 6.0d
 		}
 		{
 			description: ["Prepare kitchen tools, grow a variety of crops and use JEI to plan meals around what your farm supplies. Work through these optional cooking collections at your own pace."]

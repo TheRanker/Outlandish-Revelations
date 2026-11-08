@@ -3,16 +3,87 @@
 	default_quest_shape: ""
 	filename: "space_exploration"
 	group: "610F012654EDDFE3"
-	icon: "gcyr:rocket_scanner"
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "outlandish_revelations:textures/questbook/icons/space_exploration.png"
+		}
+	}
 	id: "6B6EFB5AA06723A7"
-	images: [{
-		height: 3.0d
-		image: "minecraft:textures/item/firework_rocket.png"
-		rotation: 0.0d
-		width: 3.0d
-		x: 7.0d
-		y: -3.5d
-	}]
+	images: [
+		{
+			height: 3.0d
+			image: "minecraft:textures/item/firework_rocket.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 7.0d
+			y: -3.5d
+		}
+		{
+			height: 1.625d
+			image: "outlandish_revelations:textures/questbook/landmarks/space_exploration/header.png"
+			order: -1
+			rotation: 0.0d
+			width: 10.0d
+			x: 8.75d
+			y: -8.5536d
+		}
+		{
+			height: 1.3d
+			image: "outlandish_revelations:textures/questbook/landmarks/space_exploration/first_launch.png"
+			order: -1
+			rotation: 0.0d
+			width: 6.0d
+			x: 5.18d
+			y: -6.2d
+		}
+		{
+			height: 1.3d
+			image: "outlandish_revelations:textures/questbook/landmarks/space_exploration/spacesuit.png"
+			order: -1
+			rotation: 0.0d
+			width: 4.8d
+			x: 14.6743d
+			y: -7.0d
+		}
+		{
+			height: 1.3d
+			image: "outlandish_revelations:textures/questbook/landmarks/space_exploration/the_moon.png"
+			order: -1
+			rotation: 0.0d
+			width: 4.4d
+			x: 12.0029d
+			y: -2.8d
+		}
+		{
+			height: 1.3d
+			image: "outlandish_revelations:textures/questbook/landmarks/space_exploration/advanced_rockets.png"
+			order: -1
+			rotation: 0.0d
+			width: 7.6d
+			x: 14.5057d
+			y: 1.9714d
+		}
+		{
+			height: 1.3d
+			image: "outlandish_revelations:textures/questbook/landmarks/space_exploration/orbital_stations.png"
+			order: -1
+			rotation: 0.0d
+			width: 7.6d
+			x: 15.3743d
+			y: -0.7d
+		}
+		{
+			height: 1.3d
+			image: "outlandish_revelations:textures/questbook/landmarks/space_exploration/deep_space.png"
+			order: -1
+			rotation: 0.0d
+			width: 5.2d
+			x: 11.3457d
+			y: 3.5429d
+		}
+	]
 	order_index: 4
 	quest_links: [ ]
 	quests: [

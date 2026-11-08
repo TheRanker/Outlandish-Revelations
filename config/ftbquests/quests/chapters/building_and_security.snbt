@@ -3,8 +3,70 @@
 	default_quest_shape: ""
 	filename: "building_and_security"
 	group: "290BD65C3C52540C"
-	icon: "minecraft:bricks"
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "outlandish_revelations:textures/questbook/icons/building_and_security.png"
+		}
+	}
 	id: "2C7EB070F2E5FB02"
+	images: [
+		{
+			height: 1.625d
+			image: "outlandish_revelations:textures/questbook/landmarks/building_and_security/header.png"
+			order: -1
+			rotation: 0.0d
+			width: 14.5d
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			height: 1.3d
+			image: "outlandish_revelations:textures/questbook/landmarks/building_and_security/building_tools.png"
+			order: -1
+			rotation: 0.0d
+			width: 6.8d
+			x: 0.0d
+			y: -5.2329d
+		}
+		{
+			height: 1.3d
+			image: "outlandish_revelations:textures/questbook/landmarks/building_and_security/workshop_layout.png"
+			order: -1
+			rotation: 0.0d
+			width: 7.2d
+			x: -4.0d
+			y: 0.5d
+		}
+		{
+			height: 1.3d
+			image: "outlandish_revelations:textures/questbook/landmarks/building_and_security/hidden_access.png"
+			order: -1
+			rotation: 0.0d
+			width: 6.4d
+			x: 8.1529d
+			y: -0.8929d
+		}
+		{
+			height: 1.3d
+			image: "outlandish_revelations:textures/questbook/landmarks/building_and_security/locks_and_ownership.png"
+			order: -1
+			rotation: 0.0d
+			width: 8.8d
+			x: -8.0d
+			y: 6.0d
+		}
+		{
+			height: 1.3d
+			image: "outlandish_revelations:textures/questbook/landmarks/building_and_security/cameras_and_monitors.png"
+			order: -1
+			rotation: 0.0d
+			width: 9.2d
+			x: 8.5d
+			y: 6.0d
+		}
+	]
 	order_index: 2
 	quest_links: [ ]
 	quests: [

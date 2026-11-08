@@ -5,22 +5,77 @@
 	group: ""
 	icon: {
 		Count: 1
-		id: "gtceu:iron_hammer"
+		id: "ftbquests:custom_icon"
 		tag: {
-			Damage: 0
-			GT.Tool: { }
+			Icon: "outlandish_revelations:textures/questbook/icons/an_introduction.png"
 		}
 	}
 	id: "415BA265E2C00859"
-	images: [{
-		alpha: 150
-		height: 5.0d
-		image: "gtceu:textures/gui/icon/gregtech_logo.png"
-		rotation: 0.0d
-		width: 5.0d
-		x: 0.1071428571428541d
-		y: 0.6607142857142847d
-	}]
+	images: [
+		{
+			alpha: 150
+			height: 5.0d
+			image: "gtceu:textures/gui/icon/gregtech_logo.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 0.1071428571428541d
+			y: 0.6607142857142847d
+		}
+		{
+			height: 1.625d
+			image: "outlandish_revelations:textures/questbook/landmarks/an_introduction/header.png"
+			order: -1
+			rotation: 0.0d
+			width: 9.0d
+			x: -1.5d
+			y: -8.5d
+		}
+		{
+			height: 1.3d
+			image: "outlandish_revelations:textures/questbook/landmarks/an_introduction/overworld_veins.png"
+			order: -1
+			rotation: 0.0d
+			width: 7.2d
+			x: -8.0d
+			y: -6.5d
+		}
+		{
+			height: 1.3d
+			image: "outlandish_revelations:textures/questbook/landmarks/an_introduction/nether_veins.png"
+			order: -1
+			rotation: 0.0d
+			width: 6.0d
+			x: 6.0d
+			y: 0.5d
+		}
+		{
+			height: 1.3d
+			image: "outlandish_revelations:textures/questbook/landmarks/an_introduction/end_veins.png"
+			order: -1
+			rotation: 0.0d
+			width: 4.8d
+			x: 6.0d
+			y: -6.0d
+		}
+		{
+			height: 1.0d
+			image: "outlandish_revelations:textures/questbook/landmarks/an_introduction/workshop_tools.png"
+			order: -1
+			rotation: 0.0d
+			width: 5.2308d
+			x: -1.0d
+			y: -5.5d
+		}
+		{
+			height: 1.0d
+			image: "outlandish_revelations:textures/questbook/landmarks/an_introduction/energy.png"
+			order: -1
+			rotation: 0.0d
+			width: 3.3846d
+			x: 0.0d
+			y: -2.0d
+		}
+	]
 	order_index: 1
 	quest_links: [ ]
 	quests: [

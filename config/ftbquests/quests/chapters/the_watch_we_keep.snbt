@@ -3,7 +3,67 @@
 	default_quest_shape: ""
 	filename: "the_watch_we_keep"
 	group: "671F319DF12B461D"
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "outlandish_revelations:textures/questbook/icons/the_watch_we_keep.png"
+		}
+	}
 	id: "30D4E63A2C37CC1F"
+	images: [
+		{
+			height: 1.05625d
+			image: "outlandish_revelations:textures/questbook/story/the_watch_we_keep_title.png"
+			rotation: 0.0d
+			width: 13.0d
+			x: 0.0d
+			y: -4.05d
+		}
+		{
+			click: "#698026397CCCD3BF"
+			height: 6.0d
+			hover: [
+				"Captain Edda Thorne"
+				"Edda Watchpost"
+				"Open the promise"
+			]
+			image: "outlandish_revelations:textures/questbook/story/the_watch_we_keep.png"
+			rotation: 0.0d
+			width: 9.6d
+			x: -2.02d
+			y: -0.42d
+		}
+		{
+			height: 6.0d
+			image: "outlandish_revelations:textures/questbook/story/rail.png"
+			order: -1
+			rotation: 0.0d
+			width: 3.2d
+			x: 4.62d
+			y: -0.42d
+		}
+		{
+			click: "#0D451FD02314CA9F"
+			height: 0.975d
+			hover: ["Return to the story index"]
+			image: "outlandish_revelations:textures/questbook/story/back.png"
+			rotation: 0.0d
+			width: 4.2d
+			x: 0.0d
+			y: 3.36d
+		}
+		{
+			dependency: "698026397CCCD3BF"
+			height: 0.65d
+			image: "outlandish_revelations:textures/questbook/story/recorded.png"
+			order: 1
+			rotation: 0.0d
+			width: 4.4d
+			x: 0.2d
+			y: -2.97d
+		}
+	]
 	order_index: 4
 	quest_links: [ ]
 	quests: [{
@@ -39,9 +99,9 @@
 		}
 		icon: {
 			Count: 1
-			id: "minecraft:shield"
+			id: "ftbquests:custom_icon"
 			tag: {
-				Damage: 0
+				Icon: "outlandish_revelations:textures/questbook/icons/the_watch_we_keep.png"
 			}
 		}
 		id: "698026397CCCD3BF"
@@ -63,8 +123,8 @@
 			type: "advancement"
 		}]
 		title: "Trust Beyond the Walls"
-		x: 0.0d
-		y: 0.0d
+		x: 4.62d
+		y: -0.42d
 	}]
 	title: "The Watch We Keep"
 }

@@ -3,16 +3,88 @@
 	default_quest_shape: ""
 	filename: "extreme_voltage"
 	group: "0BA74938AD86532B"
-	icon: "gtceu:micro_processor_computer"
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "outlandish_revelations:textures/questbook/icons/extreme_voltage.png"
+		}
+	}
 	id: "489F28A71282B3E7"
-	images: [{
-		height: 3.0d
-		image: "minecraft:textures/item/book.png"
-		rotation: 0.0d
-		width: 3.0d
-		x: 0.0d
-		y: -5.0d
-	}]
+	images: [
+		{
+			height: 3.0d
+			image: "minecraft:textures/item/book.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: -5.1643d
+			y: -2.9d
+		}
+		{
+			height: 1.625d
+			image: "outlandish_revelations:textures/questbook/landmarks/extreme_voltage/header.png"
+			order: -1
+			rotation: 0.0d
+			width: 8.0d
+			x: 0.0d
+			y: -2.9d
+		}
+		{
+			click: "#3BEDF19CD79D53D5"
+			height: 1.3d
+			hover: ["Distillation"]
+			image: "outlandish_revelations:textures/questbook/landmarks/extreme_voltage/distillation.png"
+			order: -1
+			rotation: 0.0d
+			width: 6.0d
+			x: -2.1789d
+			y: 14.7116d
+		}
+		{
+			click: "#6D082AE4CF9A56DC"
+			height: 1.3d
+			hover: ["Vacuum Freezing"]
+			image: "outlandish_revelations:textures/questbook/landmarks/extreme_voltage/vacuum_freezing.png"
+			order: -1
+			rotation: 0.0d
+			width: 7.2d
+			x: 6.4028d
+			y: 6.833d
+		}
+		{
+			click: "#03B5D467E76C5B8A"
+			height: 1.3d
+			hover: ["Titanium Route"]
+			image: "outlandish_revelations:textures/questbook/landmarks/extreme_voltage/titanium_route.png"
+			order: -1
+			rotation: 0.0d
+			width: 6.8d
+			x: 7.111d
+			y: 5.5421d
+		}
+		{
+			click: "#6805CC8AD6010F33"
+			height: 1.3d
+			hover: ["Circuit Assembly"]
+			image: "outlandish_revelations:textures/questbook/landmarks/extreme_voltage/circuit_assembly.png"
+			order: -1
+			rotation: 0.0d
+			width: 7.6d
+			x: -9.1996d
+			y: 3.6229d
+		}
+		{
+			click: "#71D4B261AF487062"
+			height: 1.3d
+			hover: ["Assembler Recipes"]
+			image: "outlandish_revelations:textures/questbook/landmarks/extreme_voltage/assembler_recipes.png"
+			order: -1
+			rotation: 0.0d
+			width: 8.0d
+			x: -9.1643d
+			y: 2.2291d
+		}
+	]
 	order_index: 3
 	quest_links: [ ]
 	quests: [
@@ -69,8 +141,8 @@
 				item: "gtceu:micro_processor_computer"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 1.0d
+			x: 3.3994d
+			y: 4.9611d
 		}
 		{
 			dependencies: ["6805CC8AD6010F33"]
@@ -125,8 +197,8 @@
 				item: "gtceu:micro_processor_mainframe"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 1.0d
+			x: -5.183d
+			y: 5.3808d
 		}
 		{
 			dependencies: [
@@ -180,8 +252,8 @@
 				item: "gtceu:smd_transistor"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 6.0d
+			x: -0.9223d
+			y: 1.7434d
 		}
 		{
 			dependencies: [
@@ -235,8 +307,8 @@
 				item: "gtceu:smd_resistor"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 5.0d
+			x: 4.7978d
+			y: 3.9054d
 		}
 		{
 			dependencies: [
@@ -290,8 +362,8 @@
 				item: "gtceu:smd_capacitor"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 4.0d
+			x: -0.322d
+			y: 0.0448d
 		}
 		{
 			dependencies: [
@@ -345,8 +417,8 @@
 				item: "gtceu:smd_diode"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 2.0d
+			x: -4.0008d
+			y: 1.1339d
 		}
 		{
 			dependencies: [
@@ -400,8 +472,8 @@
 				item: "gtceu:smd_inductor"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 3.0d
+			x: 1.6215d
+			y: 2.6094d
 		}
 		{
 			dependencies: [
@@ -476,8 +548,8 @@
 				title: "Titanium Ingot"
 				type: "item"
 			}]
-			x: -2.5d
-			y: -2.75d
+			x: -2.3862d
+			y: 5.6856d
 		}
 		{
 			description: ["The &dPlatLine™&r is something we'll get into later on, for now be thankful that platinum is plentiful"]
@@ -522,8 +594,8 @@
 				title: "Platinum Ingot"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 2.0d
+			x: -2.3908d
+			y: 0.0d
 		}
 		{
 			dependencies: ["33DAA602B385A55D"]
@@ -577,8 +649,8 @@
 				item: "gtceu:mercury_barium_calcium_cuprate_single_wire"
 				type: "item"
 			}]
-			x: -0.5d
-			y: -4.0d
+			x: -3.2349d
+			y: 8.1477d
 		}
 		{
 			description: [
@@ -640,8 +712,8 @@
 				title: "Tantalum Dust"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 3.5d
+			x: 1.3029d
+			y: 0.8222d
 		}
 		{
 			dependencies: ["60736D37F7705B39"]
@@ -696,8 +768,8 @@
 				item: "gtceu:nichrome_coil_block"
 				type: "item"
 			}]
-			x: 1.2000000000000002d
-			y: -2.5d
+			x: -4.9289d
+			y: 10.2867d
 		}
 		{
 			dependencies: [
@@ -784,8 +856,8 @@
 					type: "custom"
 				}
 			]
-			x: -2.5d
-			y: 3.5d
+			x: 1.0097d
+			y: 14.1116d
 		}
 		{
 			dependencies: ["5241693278027FFD"]
@@ -877,8 +949,8 @@
 					type: "item"
 				}
 			]
-			x: -0.5d
-			y: -1.0d
+			x: 1.2857d
+			y: 8.8044d
 		}
 		{
 			dependencies: [
@@ -923,8 +995,8 @@
 				item: "gtceu:nichrome_ingot"
 				type: "item"
 			}]
-			x: 1.2000000000000002d
-			y: -1.0d
+			x: 0.0978d
+			y: 12.5591d
 		}
 		{
 			description: ["4 Nickel dust and 1 Chromium dust in a &eMixer&r is all you'll need for some Nichrome!"]
@@ -974,8 +1046,8 @@
 				item: "gtceu:nichrome_dust"
 				type: "item"
 			}]
-			x: 1.2000000000000002d
-			y: 0.09999999999999998d
+			x: -1.4087d
+			y: 10.7284d
 		}
 		{
 			dependencies: ["5241693278027FFD"]
@@ -1029,8 +1101,8 @@
 				item: "gtceu:hv_circuit_assembler"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 1.0d
+			x: -3.6282d
+			y: 4.5229d
 		}
 		{
 			dependencies: ["5241693278027FFD"]
@@ -1100,8 +1172,8 @@
 				title: "HV or EV Assembler"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 3.5d
+			x: -5.1186d
+			y: 3.1291d
 		}
 		{
 			description: ["Prepare Black Bronze Dust with the JEI recipe. Check machine voltage and fluid inputs, then make a reserve for the next connected quests."]
@@ -1138,8 +1210,8 @@
 				item: "gtceu:black_bronze_dust"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 5.5d
+			x: -7.4071d
+			y: 14.0312d
 		}
 		{
 			description: [
@@ -1180,8 +1252,8 @@
 				item: "gtceu:sodium_potassium_bucket"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 5.5d
+			x: -5.681d
+			y: 14.5613d
 		}
 		{
 			dependencies: ["40DC4C8DF9616F97"]
@@ -1231,8 +1303,8 @@
 				item: "gtceu:black_steel_ingot"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 4.5d
+			x: -8.5549d
+			y: 12.2199d
 		}
 		{
 			dependencies: [
@@ -1291,8 +1363,8 @@
 				item: "gtceu:hv_energy_input_hatch"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 3.5d
+			x: -8.8745d
+			y: 9.8187d
 		}
 		{
 			dependencies: ["7D10AA6EF07087B5"]
@@ -1378,8 +1450,8 @@
 				}
 			]
 			title: "Low Power Integrated Chip"
-			x: 1.0d
-			y: 4.5d
+			x: -5.8121d
+			y: 12.3383d
 		}
 		{
 			dependencies: ["358706CA93DC2A9C"]
@@ -1433,8 +1505,8 @@
 				item: "gtceu:kanthal_coil_block"
 				type: "item"
 			}]
-			x: 3.000000000000001d
-			y: -1.0d
+			x: -0.1242d
+			y: 9.6876d
 		}
 		{
 			dependencies: ["1812BF72305CFFCF"]
@@ -1471,8 +1543,8 @@
 				item: "gtceu:kanthal_ingot"
 				type: "item"
 			}]
-			x: 3.000000000000001d
-			y: -2.5000000000000004d
+			x: -1.5352d
+			y: 8.6767d
 		}
 		{
 			description: ["Put Aluminium dust, Iron dust, and Chromium dust together in a &eMixer&r and watch it blend!"]
@@ -1522,8 +1594,8 @@
 				item: "gtceu:kanthal_dust"
 				type: "item"
 			}]
-			x: 3.000000000000001d
-			y: -4.0d
+			x: -2.9291d
+			y: 9.8796d
 		}
 		{
 			dependencies: [
@@ -1564,8 +1636,8 @@
 				item: "gtceu:mercury_barium_calcium_cuprate_ingot"
 				type: "item"
 			}]
-			x: -0.5d
-			y: -2.5d
+			x: -3.9203d
+			y: 6.5527d
 		}
 		{
 			description: [
@@ -1621,8 +1693,8 @@
 				item: "gtceu:mercury_barium_calcium_cuprate_dust"
 				type: "item"
 			}]
-			x: 1.2000000000000002d
-			y: -4.0d
+			x: -5.3877d
+			y: 7.6532d
 		}
 		{
 			description: [
@@ -1684,8 +1756,8 @@
 				item: "gtceu:rutile_dust"
 				type: "item"
 			}]
-			x: -2.5d
-			y: -6.0d
+			x: 1.5996d
+			y: 6.1421d
 		}
 		{
 			dependencies: ["03B5D467E76C5B8A"]
@@ -1735,8 +1807,8 @@
 				item: "gtceu:titanium_tetrachloride_bucket"
 				type: "item"
 			}]
-			x: -2.5d
-			y: -4.5d
+			x: -0.0448d
+			y: 6.3951d
 		}
 		{
 			dependencies: ["3BEDF19CD79D53D5"]
@@ -1808,8 +1880,8 @@
 					type: "custom"
 				}
 			]
-			x: -2.0d
-			y: 5.5d
+			x: 2.9152d
+			y: 15.8067d
 		}
 		{
 			dependencies: ["3BEDF19CD79D53D5"]
@@ -1881,8 +1953,8 @@
 					type: "custom"
 				}
 			]
-			x: -3.0d
-			y: 5.5d
+			x: 3.9134d
+			y: 14.3405d
 		}
 		{
 			dependencies: ["3BEDF19CD79D53D5"]
@@ -1957,8 +2029,8 @@
 				title: "Fluid Drilling Rig"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 5.0d
+			x: 1.1902d
+			y: 16.1828d
 		}
 		{
 			dependencies: ["3B4F326D72E794D3"]
@@ -1995,8 +2067,8 @@
 				item: "gtceu:benzene_bucket"
 				type: "item"
 			}]
-			x: -7.0d
-			y: 2.5d
+			x: 6.9414d
+			y: 12.4982d
 		}
 		{
 			dependencies: ["3B4F326D72E794D3"]
@@ -2033,8 +2105,8 @@
 				item: "gtceu:butadiene_bucket"
 				type: "item"
 			}]
-			x: -8.5d
-			y: 2.5d
+			x: 5.4107d
+			y: 15.64d
 		}
 		{
 			dependencies: ["7D6AC042FFD0B6D6"]
@@ -2071,8 +2143,8 @@
 				item: "gtceu:styrene_bucket"
 				type: "item"
 			}]
-			x: -7.0d
-			y: 1.0d
+			x: 8.3605d
+			y: 13.5619d
 		}
 		{
 			dependencies: [
@@ -2129,8 +2201,8 @@
 				item: "gtceu:raw_styrene_butadiene_rubber_dust"
 				type: "item"
 			}]
-			x: -8.5d
-			y: 1.0d
+			x: 8.2938d
+			y: 15.5181d
 		}
 		{
 			dependencies: ["2DDA8AC73C2D50B4"]
@@ -2184,8 +2256,8 @@
 				item: "gtceu:styrene_butadiene_rubber_bucket"
 				type: "item"
 			}]
-			x: -8.5d
-			y: 0.0d
+			x: 6.8436d
+			y: 14.4934d
 		}
 		{
 			dependencies: [
@@ -2231,8 +2303,8 @@
 				item: "gtceu:lightly_steam_cracked_naphtha_bucket"
 				type: "item"
 			}]
-			x: -7.0d
-			y: 3.5d
+			x: 5.1531d
+			y: 12.5016d
 		}
 		{
 			dependencies: ["6805E4C7F6FBAC77"]
@@ -2269,8 +2341,8 @@
 				item: "gtceu:naphtha_bucket"
 				type: "item"
 			}]
-			x: -5.5d
-			y: 4.0d
+			x: 3.6271d
+			y: 11.5d
 		}
 		{
 			dependencies: ["3BEDF19CD79D53D5"]
@@ -2320,8 +2392,8 @@
 				item: "gtceu:sulfuric_naphtha_bucket"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 4.0d
+			x: 2.6668d
+			y: 13.0962d
 		}
 		{
 			dependencies: ["0FFF764AA07D6DFC"]
@@ -2362,8 +2434,8 @@
 				item: "gtceu:steam_bucket"
 				type: "item"
 			}]
-			x: -5.5d
-			y: 5.0d
+			x: 7.0817d
+			y: 10.695d
 		}
 		{
 			description: ["A little &9water&r on &aProgram 1&r with this will get you plenty of &7Steam&r"]
@@ -2437,8 +2509,8 @@
 				title: "Any Fluid Heater"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 5.0d
+			x: 8.8745d
+			y: 11.0779d
 		}
 		{
 			dependencies: ["3406646DF9585AB8"]
@@ -2492,8 +2564,8 @@
 				item: "gtceu:silicone_rubber_bucket"
 				type: "item"
 			}]
-			x: -5.5d
-			y: 1.0d
+			x: 5.0634d
+			y: 9.9682d
 		}
 		{
 			dependencies: ["6A54E73E212BB1AF"]
@@ -2544,8 +2616,8 @@
 				item: "gtceu:polydimethylsiloxane_dust"
 				type: "item"
 			}]
-			x: -5.5d
-			y: 2.5d
+			x: 4.37d
+			y: 8.3225d
 		}
 		{
 			dependencies: ["3BEDF19CD79D53D5"]
@@ -2590,8 +2662,8 @@
 				item: "gtceu:methane_bucket"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 3.0d
+			x: 3.2027d
+			y: 9.7416d
 		}
 		{
 			description: ["Follow the tasks shown here and use the connected quests to plan your next step. Check JEI for recipes and ingredient alternatives."]
@@ -2658,8 +2730,8 @@
 				title: "HV or EV Cutter"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 5.5d
+			x: -3.9928d
+			y: 13.5493d
 		}
 	]
 	title: "Metallurgy EV+"

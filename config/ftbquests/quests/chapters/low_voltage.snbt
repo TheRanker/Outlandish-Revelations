@@ -3,16 +3,88 @@
 	default_quest_shape: ""
 	filename: "low_voltage"
 	group: "0BA74938AD86532B"
-	icon: "gtceu:basic_electronic_circuit"
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "outlandish_revelations:textures/questbook/icons/low_voltage.png"
+		}
+	}
 	id: "37A28F4697946CB4"
-	images: [{
-		height: 3.0d
-		image: "minecraft:textures/item/book.png"
-		rotation: 0.0d
-		width: 3.0d
-		x: -5.0d
-		y: -3.0d
-	}]
+	images: [
+		{
+			height: 3.0d
+			image: "minecraft:textures/item/book.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: -5.1643d
+			y: -2.9d
+		}
+		{
+			height: 1.625d
+			image: "outlandish_revelations:textures/questbook/landmarks/low_voltage/header.png"
+			order: -1
+			rotation: 0.0d
+			width: 8.0d
+			x: 0.0d
+			y: -2.9d
+		}
+		{
+			click: "#1A000021C07943C4"
+			height: 1.3d
+			hover: ["LV Power"]
+			image: "outlandish_revelations:textures/questbook/landmarks/low_voltage/lv_power.png"
+			order: -1
+			rotation: 0.0d
+			width: 4.4d
+			x: -5.4366d
+			y: -0.6d
+		}
+		{
+			click: "#5C1BB559DD83E88F"
+			height: 1.3d
+			hover: ["First LV Circuits"]
+			image: "outlandish_revelations:textures/questbook/landmarks/low_voltage/first_lv_circuits.png"
+			order: -1
+			rotation: 0.0d
+			width: 8.0d
+			x: 1.779d
+			y: -1.0639d
+		}
+		{
+			click: "#74EE98F95F483C37"
+			height: 1.3d
+			hover: ["Arsenic Processing"]
+			image: "outlandish_revelations:textures/questbook/landmarks/low_voltage/arsenic_processing.png"
+			order: -1
+			rotation: 0.0d
+			width: 8.4d
+			x: 9.0846d
+			y: 10.2278d
+		}
+		{
+			click: "#4059373B88845C6F"
+			height: 1.3d
+			hover: ["Ore Processing"]
+			image: "outlandish_revelations:textures/questbook/landmarks/low_voltage/ore_processing.png"
+			order: -1
+			rotation: 0.0d
+			width: 6.8d
+			x: -8.346d
+			y: 5.2379d
+		}
+		{
+			click: "#7480A00B82C5DDB5"
+			height: 1.3d
+			hover: ["Circuit Boards"]
+			image: "outlandish_revelations:textures/questbook/landmarks/low_voltage/circuit_boards.png"
+			order: -1
+			rotation: 0.0d
+			width: 6.8d
+			x: 8.8271d
+			y: 8.8504d
+		}
+	]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
@@ -71,8 +143,8 @@
 				item: "gtceu:basic_electronic_circuit"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 0.0d
+			x: 1.779d
+			y: 2.5875d
 		}
 		{
 			dependencies: [
@@ -131,8 +203,8 @@
 				item: "gtceu:good_electronic_circuit"
 				type: "item"
 			}]
-			x: 7.5d
-			y: -0.8999999999999999d
+			x: 4.6126d
+			y: 10.9319d
 		}
 		{
 			dependencies: ["5C1BB559DD83E88F"]
@@ -189,8 +261,8 @@
 				item: "gtceu:lv_wiremill"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 3.5d
+			x: -2.1206d
+			y: 1.6974d
 		}
 		{
 			dependencies: ["5C1BB559DD83E88F"]
@@ -247,8 +319,8 @@
 				item: "gtceu:lv_bender"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 3.5d
+			x: 1.7882d
+			y: 0.2875d
 		}
 		{
 			dependencies: ["5C1BB559DD83E88F"]
@@ -303,8 +375,8 @@
 				item: "gtceu:lv_chemical_reactor"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 3.5d
+			x: -5.9179d
+			y: 9.2023d
 		}
 		{
 			dependencies: ["5C1BB559DD83E88F"]
@@ -376,8 +448,8 @@
 					type: "item"
 				}
 			]
-			x: -1.5d
-			y: 3.0d
+			x: -3.7145d
+			y: 3.9663d
 		}
 		{
 			dependencies: ["5C1BB559DD83E88F"]
@@ -433,8 +505,8 @@
 				item: "gtceu:lv_assembler"
 				type: "item"
 			}]
-			x: 0.5d
-			y: -2.5d
+			x: 4.4666d
+			y: 5.4729d
 		}
 		{
 			dependencies: ["5C1BB559DD83E88F"]
@@ -487,8 +559,8 @@
 				item: "gtceu:lv_lathe"
 				type: "item"
 			}]
-			x: -3.5d
-			y: 3.0d
+			x: 0.0115d
+			y: 0.3289d
 		}
 		{
 			dependencies: ["5C1BB559DD83E88F"]
@@ -539,8 +611,8 @@
 				item: "gtceu:lv_centrifuge"
 				type: "item"
 			}]
-			x: 0.5d
-			y: -3.5d
+			x: 5.1865d
+			y: 1.963d
 		}
 		{
 			dependencies: [
@@ -598,8 +670,8 @@
 				item: "gtceu:gallium_arsenide_dust"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 5.0d
+			x: 2.3173d
+			y: 15.0431d
 		}
 		{
 			dependencies: ["5C1BB559DD83E88F"]
@@ -649,8 +721,8 @@
 				item: "gtceu:lv_mixer"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 5.0d
+			x: 4.186d
+			y: 7.4451d
 		}
 		{
 			dependencies: ["0F9829B0A5EEE67B"]
@@ -705,8 +777,8 @@
 				item: "gtceu:diode"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 5.0d
+			x: 3.956d
+			y: 13.0674d
 		}
 		{
 			dependencies: ["59BE2AD1CD0C4ECE"]
@@ -756,8 +828,8 @@
 				item: "gtceu:phenolic_printed_circuit_board"
 				type: "item"
 			}]
-			x: 7.5d
-			y: -2.5d
+			x: 5.2957d
+			y: 8.8504d
 		}
 		{
 			dependencies: ["7A8242E6D0BC6294"]
@@ -808,8 +880,8 @@
 				item: "gtceu:glue_bucket"
 				type: "item"
 			}]
-			x: 5.5d
-			y: -3.5d
+			x: 6.7241d
+			y: 4.324d
 		}
 		{
 			dependencies: ["5C1BB559DD83E88F"]
@@ -861,8 +933,8 @@
 				item: "gtceu:lv_steam_turbine"
 				type: "item"
 			}]
-			x: -5.5d
-			y: -1.0d
+			x: -2.9337d
+			y: 0.0d
 		}
 		{
 			dependencies: ["5C1BB559DD83E88F"]
@@ -948,8 +1020,8 @@
 				type: "item"
 			}]
 			title: "Energy Converters"
-			x: -5.5d
-			y: 1.0d
+			x: -5.0013d
+			y: 6.9989d
 		}
 		{
 			dependencies: ["1A000021C07943C4"]
@@ -1001,8 +1073,8 @@
 				item: "gtceu:bronze_large_boiler"
 				type: "item"
 			}]
-			x: -7.0d
-			y: -1.0d
+			x: -5.2222d
+			y: 0.7222d
 		}
 		{
 			dependencies: [
@@ -1055,8 +1127,8 @@
 				item: "gtceu:phenolic_circuit_board"
 				type: "item"
 			}]
-			x: 5.5d
-			y: -2.5d
+			x: 5.7937d
+			y: 6.655d
 		}
 		{
 			dependencies: ["5C1BB559DD83E88F"]
@@ -1122,8 +1194,8 @@
 				title: "Programmed Circuits"
 				type: "checkmark"
 			}]
-			x: -5.0d
-			y: 0.0d
+			x: 5.0094d
+			y: 3.7961d
 		}
 		{
 			dependencies: [
@@ -1181,8 +1253,8 @@
 				item: "gtceu:arsenic_trioxide_dust"
 				type: "item"
 			}]
-			x: 4.5d
-			y: 0.0d
+			x: 2.0389d
+			y: 9.6278d
 		}
 		{
 			dependencies: ["439C8AEBE9E1C666"]
@@ -1409,8 +1481,8 @@
 					type: "custom"
 				}
 			]
-			x: 1.5d
-			y: 0.0d
+			x: 2.545d
+			y: 6.8068d
 		}
 		{
 			description: [
@@ -1457,8 +1529,8 @@
 				item: "gtceu:oxygen_bucket"
 				type: "item"
 			}]
-			x: 4.525d
-			y: -1.25d
+			x: 2.0182d
+			y: 11.3884d
 		}
 		{
 			dependencies: ["5C1BB559DD83E88F"]
@@ -1559,8 +1631,8 @@
 				}
 			]
 			title: "Ore Processing"
-			x: 0.5d
-			y: 1.0d
+			x: -0.2173d
+			y: 6.8172d
 		}
 		{
 			dependencies: ["25DBFE887B041E94"]
@@ -1614,8 +1686,8 @@
 				item: "gtceu:cobaltite_dust"
 				type: "item"
 			}]
-			x: 4.5d
-			y: 1.0d
+			x: 0.2415d
+			y: 9.5208d
 		}
 		{
 			dependencies: ["512BD9BCA43AEE83"]
@@ -1669,8 +1741,8 @@
 				item: "gtceu:arsenic_dust"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 2.0d
+			x: 1.6916d
+			y: 13.164d
 		}
 		{
 			dependencies: ["6E2F24117ACF3694"]
@@ -1719,8 +1791,8 @@
 				title: "Maintenance"
 				type: "checkmark"
 			}]
-			x: 1.5d
-			y: -1.0d
+			x: 1.1304d
+			y: 7.9775d
 		}
 		{
 			dependencies: ["5C1BB559DD83E88F"]
@@ -1777,8 +1849,8 @@
 				item: "gtceu:lv_extractor"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 3.5d
+			x: 3.4649d
+			y: 0.8728d
 		}
 		{
 			dependencies: [
@@ -1836,8 +1908,8 @@
 				item: "gtceu:gallium_dust"
 				type: "item"
 			}]
-			x: 4.5d
-			y: 2.0d
+			x: -1.4892d
+			y: 11.9163d
 		}
 		{
 			dependencies: ["5C1BB559DD83E88F"]
@@ -1889,8 +1961,8 @@
 				item: "gtceu:wrought_iron_nugget"
 				type: "item"
 			}]
-			x: -2.45d
-			y: -2.5500000000000003d
+			x: -5.1646d
+			y: 2.975d
 		}
 		{
 			dependencies: ["5C1BB559DD83E88F"]
@@ -1944,8 +2016,8 @@
 				item: "gtceu:cupronickel_ingot"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 0.0d
+			x: 1.7572d
+			y: 5.1152d
 		}
 		{
 			dependencies: ["5C1BB559DD83E88F"]
@@ -2162,8 +2234,8 @@
 				}
 			]
 			title: "Passive Oxygen Line"
-			x: -2.5249999999999995d
-			y: 2.9000000000000004d
+			x: -6.7241d
+			y: 6.5976d
 		}
 		{
 			dependencies: ["74EE98F95F483C37"]
@@ -2218,8 +2290,8 @@
 				item: "gtceu:lv_electrolyzer"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 0.0d
+			x: 0.2357d
+			y: 11.4609d
 		}
 		{
 			dependencies: ["620C406CC24F179C"]
@@ -2273,8 +2345,8 @@
 				item: "gtceu:sulfur_dioxide_bucket"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 4.0d
+			x: -5.3475d
+			y: 11.4689d
 		}
 		{
 			dependencies: ["64314EEB9916CAB1"]
@@ -2328,8 +2400,8 @@
 				item: "gtceu:sulfur_trioxide_bucket"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 4.0d
+			x: -3.6616d
+			y: 12.1417d
 		}
 		{
 			dependencies: ["5143E0F48520D41B"]
@@ -2384,8 +2456,8 @@
 				item: "gtceu:sulfuric_acid_bucket"
 				type: "item"
 			}]
-			x: 3.5d
-			y: 4.0d
+			x: -4.3631d
+			y: 9.9613d
 		}
 		{
 			dependencies: ["5C1BB559DD83E88F"]
@@ -2435,8 +2507,8 @@
 				item: "gtceu:lv_chemical_bath"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 2.0d
+			x: -1.986d
+			y: 7.2093d
 		}
 		{
 			dependencies: [
@@ -2489,8 +2561,8 @@
 				item: "gtceu:sodium_bisulfate_dust"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 3.0d
+			x: -3.2959d
+			y: 8.533d
 		}
 		{
 			dependencies: ["4835BE1596B65206"]
@@ -2540,8 +2612,8 @@
 				item: "gtceu:sodium_persulfate_bucket"
 				type: "item"
 			}]
-			x: 3.5d
-			y: 3.0d
+			x: -2.7128d
+			y: 10.6501d
 		}
 	]
 	title: "Metallurgy LV+"

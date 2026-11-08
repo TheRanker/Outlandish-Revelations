@@ -5,35 +5,76 @@
 	group: "003D792941648271"
 	icon: {
 		Count: 1
-		ForgeCaps: {
-			Parent: {
-				energy: {
-					energy: 0
-				}
-				module_host: {
-					modules: [ ]
-					properties: { }
-					provider_id: [I;
-						-1978391685
-						-843036541
-						-1939061132
-						65230198
-					]
-				}
-			}
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "outlandish_revelations:textures/questbook/icons/end_game_armor.png"
 		}
-		id: "draconicevolution:chaotic_chestpiece"
-		tag: { }
 	}
 	id: "52CB0D3E6A25027F"
-	images: [{
-		height: 3.0d
-		image: "minecraft:textures/item/netherite_chestplate.png"
-		rotation: 0.0d
-		width: 3.0d
-		x: -15.0d
-		y: -3.0d
-	}]
+	images: [
+		{
+			height: 3.0d
+			image: "minecraft:textures/item/netherite_chestplate.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: -15.0d
+			y: -3.0d
+		}
+		{
+			height: 1.625d
+			image: "outlandish_revelations:textures/questbook/landmarks/end_game_armor/header.png"
+			order: -1
+			rotation: 0.0d
+			width: 10.0d
+			x: -14.0d
+			y: -5.4107d
+		}
+		{
+			height: 1.3d
+			image: "outlandish_revelations:textures/questbook/landmarks/end_game_armor/wyvern_armor.png"
+			order: -1
+			rotation: 0.0d
+			width: 6.0d
+			x: -20.5d
+			y: -1.1743d
+		}
+		{
+			height: 1.3d
+			image: "outlandish_revelations:textures/questbook/landmarks/end_game_armor/draconic_armor.png"
+			order: -1
+			rotation: 0.0d
+			width: 6.8d
+			x: -13.0d
+			y: 1.1743d
+		}
+		{
+			height: 1.3d
+			image: "outlandish_revelations:textures/questbook/landmarks/end_game_armor/chaotic_armor.png"
+			order: -1
+			rotation: 0.0d
+			width: 6.4d
+			x: -3.3571d
+			y: -0.5d
+		}
+		{
+			height: 1.3d
+			image: "outlandish_revelations:textures/questbook/landmarks/end_game_armor/shield_recovery.png"
+			order: -1
+			rotation: 0.0d
+			width: 7.2d
+			x: -6.4d
+			y: -4.6743d
+		}
+		{
+			height: 1.3d
+			image: "outlandish_revelations:textures/questbook/landmarks/end_game_armor/flight_module.png"
+			order: -1
+			rotation: 0.0d
+			width: 6.4d
+			x: -1.14d
+			y: -2.5d
+		}
+	]
 	order_index: 1
 	quest_links: [ ]
 	quests: [
@@ -72,8 +113,8 @@
 				type: "checkmark"
 			}]
 			title: "Your Endgame Armor Workshop"
-			x: -12.5d
-			y: -4.5d
+			x: -23.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["0C5DE941B729004A"]
@@ -301,7 +342,7 @@
 			}]
 			title: "Chaotic Modular Chestpiece"
 			x: -7.0d
-			y: -0.5d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -414,8 +455,8 @@
 				type: "item"
 			}]
 			title: "Chaotic Shield Capacity Module"
-			x: -6.5d
-			y: -4.0d
+			x: -9.5d
+			y: -2.5d
 		}
 		{
 			dependencies: [
@@ -471,8 +512,8 @@
 				type: "item"
 			}]
 			title: "Chaotic Shield Recovery Module"
-			x: -4.0d
-			y: -2.0d
+			x: -7.0d
+			y: -3.5d
 		}
 		{
 			dependencies: [
@@ -528,8 +569,8 @@
 				type: "item"
 			}]
 			title: "Chaotic Undying Module"
-			x: -6.0d
-			y: 2.5d
+			x: -4.5d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -585,8 +626,8 @@
 				type: "item"
 			}]
 			title: "Chaotic Flight Module"
-			x: -4.0d
-			y: 1.0d
+			x: -4.5d
+			y: -2.5d
 		}
 	]
 	title: "Endgame Equipment"

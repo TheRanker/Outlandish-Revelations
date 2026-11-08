@@ -3,16 +3,79 @@
 	default_quest_shape: "rsquare"
 	filename: "applied_energistics_2"
 	group: "58A75D3AE27EE52B"
-	icon: "ae2:controller"
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "outlandish_revelations:textures/questbook/icons/applied_energistics_2.png"
+		}
+	}
 	id: "07210DDF872160BA"
-	images: [{
-		height: 3.0d
-		image: "minecraft:textures/item/book.png"
-		rotation: 0.0d
-		width: 3.0d
-		x: 0.0d
-		y: -5.0d
-	}]
+	images: [
+		{
+			height: 1.625d
+			image: "outlandish_revelations:textures/questbook/landmarks/applied_energistics_2/header.png"
+			order: -1
+			rotation: 0.0d
+			width: 12.0d
+			x: 12.5714d
+			y: -7.4107d
+		}
+		{
+			height: 1.3d
+			image: "outlandish_revelations:textures/questbook/landmarks/applied_energistics_2/power_and_setup.png"
+			order: -1
+			rotation: 0.0d
+			width: 7.2d
+			x: -1.7029d
+			y: -1.0429d
+		}
+		{
+			height: 1.3d
+			image: "outlandish_revelations:textures/questbook/landmarks/applied_energistics_2/cables_and_channels.png"
+			order: -1
+			rotation: 0.0d
+			width: 8.8d
+			x: 5.3d
+			y: -1.6543d
+		}
+		{
+			height: 1.3d
+			image: "outlandish_revelations:textures/questbook/landmarks/applied_energistics_2/me_storage.png"
+			order: -1
+			rotation: 0.0d
+			width: 5.2d
+			x: 12.9714d
+			y: 4.8686d
+		}
+		{
+			height: 1.3d
+			image: "outlandish_revelations:textures/questbook/landmarks/applied_energistics_2/autocrafting.png"
+			order: -1
+			rotation: 0.0d
+			width: 6.0d
+			x: 13.0d
+			y: -4.7371d
+		}
+		{
+			height: 1.3d
+			image: "outlandish_revelations:textures/questbook/landmarks/applied_energistics_2/input_and_output.png"
+			order: -1
+			rotation: 0.0d
+			width: 7.6d
+			x: 24.0d
+			y: 3.7371d
+		}
+		{
+			height: 1.3d
+			image: "outlandish_revelations:textures/questbook/landmarks/applied_energistics_2/spatial_storage.png"
+			order: -1
+			rotation: 0.0d
+			width: 7.2d
+			x: 23.2029d
+			y: 6.3d
+		}
+	]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
