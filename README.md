@@ -6,7 +6,7 @@
 
 **Minecraft 1.20.1 · Forge · Tech, magic, and exploration**
 
-[Download on CurseForge](https://www.curseforge.com/minecraft/modpacks/outlandish-revelations) · [Join the Discord](https://discord.gg/qhM8gb7QtM)
+[Download on CurseForge](https://www.curseforge.com/minecraft/modpacks/outlandish-revelations)
 
 Start with a small Create workshop. Build it into a GregTech factory, then take what you’ve made out into a world of sprawling biomes, old ruins, and people waiting for help. **Outlandish Revelations** ties custom recipes and industrial progression to an adventure that spans four dimensions.
 
